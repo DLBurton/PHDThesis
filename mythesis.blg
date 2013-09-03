@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mythesis.aux
+The style file: h-physrev.bst
+Database file #1: mythesis.bib
+You've used 1 entry,
+            1946 wiz_defined-function locations,
+            599 strings with 4719 characters,
+and the built_in function-call counts, 150 in all, are:
+= -- 8
+> -- 6
+< -- 0
++ -- 2
+- -- 1
+* -- 3
+:= -- 26
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 7
+empty$ -- 20
+format.name$ -- 2
+if$ -- 32
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 1
+pop$ -- 8
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 8
+stack$ -- 0
+substring$ -- 0
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 1
+width$ -- 2
+write$ -- 9
