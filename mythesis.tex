@@ -8,6 +8,7 @@
 
 %% PDF metadata
 \makeatletter
+
 \@ifpackageloaded{hyperref}{%
 \hypersetup{%
 pdftitle = {Searches for Supersymmetry using the \alphat variable.},
@@ -19,8 +20,8 @@ pdfauthor = {\textcopyright\ Darren Burton}
 \makeatother
 
 %% Define the thesis title and author
-\title{Searches for Supersymmetry using the \alphat variable at the CMS detector}
-\author{Darren Burton}
+\title{\LARGE{Searches for Supersymmetry using the \alphat variable with the CMS detector at the LHC}}
+\author{Darren Burton \vspace*{0.5cm}}
 
 %% Start the document
 \begin{document}
@@ -33,7 +34,11 @@ pdfauthor = {\textcopyright\ Darren Burton}
 %% Start the content body of the thesis
 \begin{mainmatter}
   %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
-  \input{chap1_detector}
+  \input{chap_introduction}
+  \input{chap_theory}
+  \input{chap_detector}
+  \input{chap_alphat}
+  \input{chap_results}
   %% To ignore a specific chapter while working on another,
   %% making the build faster, comment it out like this:
 \end{mainmatter}

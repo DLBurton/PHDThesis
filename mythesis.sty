@@ -32,6 +32,9 @@
 \DeclareRobustCommand{\LEP}{LEP\xspace}
 \DeclareRobustCommand{\CERN}{CERN\xspace}
 
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
+
+
 %% Basic rate formalisms
 \DeclareRobustCommand{\Rate}{\thesismath{\Gamma}\xspace}
 \DeclareRobustCommand{\RateOf}[1]{\thesismath{\Gamma}\parenths{#1}\xspace}

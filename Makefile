@@ -2,7 +2,7 @@
 
 EXTRASTYS = abhepexpt.sty abhep.sty  abmath.sty lineno.sty SIunits.sty varwidth.sty
 
-mythesis.pdf: mythesis.tex mythesis.cls chap1_detector.tex frontmatter.tex appendices.tex
+mythesis.pdf: mythesis.tex mythesis.cls chap_introduction.tex chap_theory.tex chap_detector.tex chap_alphat.tex chap_results.tex frontmatter.tex appendices.tex
 	@rm -f $(EXTRASTYS)
 	unzip extrastyles.zip
 	@rm -f mythesis.{aux,toc,lof,lot}
