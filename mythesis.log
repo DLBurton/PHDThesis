@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  4 SEP 2013 14:45
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  5 SEP 2013 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,9 +1130,15 @@ Chapter 2.
 
 ]
 Chapter 3.
-) (./chap_alphat.tex [4
+Missing character: There is no É in font cmr12!
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[4
+
+]) (./chap_alphat.tex [5]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1190,26 +1196,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [5
+) (./chap_results.tex [6
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- [6
+ [7
 
-] (./comment.cut (./backmatter.tex (./mythesis.bbl [7
+] (./comment.cut (./backmatter.tex (./mythesis.bbl [8
 
 
-]) [8
+]) [9
 
 ]
 (./mythesis.lof)
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [9
+ [10
 
 ] (./mythesis.lot)
 \tf@lot=\write8
@@ -1217,23 +1223,23 @@ Chapter 5.
 
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
- [10
+ [11
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: EC138CDC1B744B9F1A53EC2F8E7151E0;1191.
+(rerunfilecheck)             Checksum: E09DD22B212DBC93CDE7719E1E1C9556;1314.
  ) 
 Here is how much of TeX's memory you used:
- 20621 strings out of 493747
- 324410 string characters out of 3143546
- 464265 words of memory out of 3000000
- 23366 multiletter control sequences out of 15000+200000
- 24657 words of font info for 97 fonts, out of 3000000 for 9000
+ 20640 strings out of 493747
+ 324586 string characters out of 3143546
+ 465350 words of memory out of 3000000
+ 23370 multiletter control sequences out of 15000+200000
+ 24951 words of font info for 103 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,18n,51p,883b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,18n,51p,906b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -1242,10 +1248,10 @@ usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/l
 ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on mythesis.pdf (16 pages, 100862 bytes).
+Output written on mythesis.pdf (17 pages, 103815 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 17573 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 17589 words of extra memory for PDF output out of 20736 (max. 10000000)
 
