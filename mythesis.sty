@@ -1,7 +1,7 @@
 \ProvidesPackage{thesis}[2005/07/28]
 %\RequirePackage{timing}
 \RequirePackage{hepnicenames,hepunits,abhep}
-
+\usepackage{float}
 %% Citation spacing hack to bring the citation
 %% number a little closer to the referring text
 \let\@OldCite\cite
@@ -31,6 +31,14 @@
 \DeclareRobustCommand{\LHC}{LHC\xspace}
 \DeclareRobustCommand{\LEP}{LEP\xspace}
 \DeclareRobustCommand{\CERN}{CERN\xspace}
+\DeclareRobustCommand{\GeV}{GeV\xspace}
+\DeclareRobustCommand{\TeV}{TeV\xspace}
+\DeclareRobustCommand{\T}{T\xspace}
+\DeclareRobustCommand{\K}{K\xspace}
+\DeclareRobustCommand{\ns}{ns\xspace}
+\DeclareRobustCommand{\com}{\thesismath{\sqrt{s}}\xspace}
+\DeclareRobustCommand{\fb}{fb\thesismath{^{-1}}\xspace}
+\DeclareRobustCommand{\pp}{\textit{pp}\xspace}
 
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
 

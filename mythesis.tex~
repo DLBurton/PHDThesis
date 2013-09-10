@@ -1,6 +1,6 @@
 \documentclass{mythesis}
 \usepackage{mythesis}
-
+\usepackage{float}
 
 %% You can set the line spacing this way
 %\setallspacing{double}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  5 SEP 2013 13:15
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  10 SEP 2013 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,6 +912,14 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 157.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count165
+\float@exts=\toks33
+\float@box=\box42
+\@float@everytoks=\toks34
+\@floatcapt=\box43
+)
 LaTeX Info: Redefining \parenths on input line 12.
 LaTeX Info: Redefining \braces on input line 13.
 LaTeX Info: Redefining \angles on input line 14.
@@ -930,89 +938,96 @@ LaTeX Info: Redefining \LHCb on input line 30.
 LaTeX Info: Redefining \LHC on input line 31.
 LaTeX Info: Redefining \LEP on input line 32.
 LaTeX Info: Redefining \CERN on input line 33.
+LaTeX Info: Redefining \GeV on input line 34.
+LaTeX Info: Redefining \TeV on input line 35.
+LaTeX Info: Redefining \ns on input line 38.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@Oldalpha' on input line 19.
+(hyperref)                removing `\@Oldalpha' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 19.
+(hyperref)                removing `subscript' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 19.
+(hyperref)                removing `math shift' on input line 20.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-(./mythesis.aux)
+(./mythesis.aux
+
+LaTeX Warning: Label `fig:lhc-ring' multiply defined.
+
+)
 \openout1 = `mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
  (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Info: Redefining \microtypecontext on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \microtypecontext on input line 28.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1029,16 +1044,16 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
+\scratchcounter=\count166
 \scratchdimen=\dimen189
-\scratchbox=\box42
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count168
+\scratchbox=\box44
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count169
 \MPscratchDim=\dimen190
-\MPnumerator=\count169
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count170
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1056,11 +1071,12 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 27.
+LaTeX Info: Redefining \subref on input line 28.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 27.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring ON on input line 28.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1071,11 +1087,11 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./mythesis.out) (./mythesis.out)
 \@outlinefile=\write5
@@ -1085,10 +1101,10 @@ LaTeX Info: Redefining \nameref on input line 27.
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 27.
+LaTeX Info: Redefining \micro on input line 28.
 \openout3 = `comment.cut'.
 
-\c@iterlist=\count171
+\c@iterlist=\count172
 (./comment.cut (./frontmatter.tex
 (/usr/local/texlive/2010/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
@@ -1122,6 +1138,13 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 44
 
 ]
 Chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              You should use the features of package `tocbasic'
+(scrbook)              instead of \float@addtolists.
+(scrbook)              Support for \float@addtolists may be removed from
+(scrbook)              `scrbook' soon .
+
 ) (./chap_theory.tex [2
 
 ]
@@ -1130,15 +1153,32 @@ Chapter 2.
 
 ]
 Chapter 3.
-Missing character: There is no É in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 [4
 
-]) (./chap_alphat.tex [5]
+] <plots/lhc-ring-photo.png, id=176, 1035.87pt x 1114.1625pt>
+File: plots/lhc-ring-photo.png Graphic file (type png)
+
+<use plots/lhc-ring-photo.png>
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[5 <./plots/lhc-ring-photo.png>]
+<plots/lhc-lumo-8tev.png, id=196, 578.16pt x 433.62pt>
+File: plots/lhc-lumo-8tev.png Graphic file (type png)
+
+<use plots/lhc-lumo-8tev.png> [6 <./plots/lhc-lumo-8tev.png>])
+(./chap_alphat.tex [7]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1196,62 +1236,77 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [6
+) (./chap_results.tex [8
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- [7
+ [9
 
-] (./comment.cut (./backmatter.tex (./mythesis.bbl [8
+] (./comment.cut (./backmatter.tex (./mythesis.bbl [10
 
-
-]) [9
 
 ]
-(./mythesis.lof)
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+[]\OT1/cmr/m/n/12 (+20) C. Col-lab-o-ra-tion,  Cms lu-mi-nos-ity - pub-lic re-s
+ults,
+ []
+
+) [11
+
+] (./mythesis.lof)
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [10
+ [12
 
 ] (./mythesis.lot)
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
 ))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
- [11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+ [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./mythesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: E09DD22B212DBC93CDE7719E1E1C9556;1314.
+(rerunfilecheck)             Checksum: 412ADF260CD24B213CA7F0BFA4F1D58D;1314.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 20640 strings out of 493747
- 324586 string characters out of 3143546
- 465350 words of memory out of 3000000
- 23370 multiletter control sequences out of 15000+200000
- 24951 words of font info for 103 fonts, out of 3000000 for 9000
+ 20774 strings out of 493747
+ 326446 string characters out of 3143546
+ 467055 words of memory out of 3000000
+ 23461 multiletter control sequences out of 15000+200000
+ 28516 words of font info for 125 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,18n,51p,906b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on mythesis.pdf (17 pages, 103815 bytes).
+ 57i,18n,51p,1088b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on mythesis.pdf (19 pages, 618353 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 17589 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 22207 words of extra memory for PDF output out of 24883 (max. 10000000)
 

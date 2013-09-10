@@ -4,4 +4,30 @@
 LHCb, S.~Amato {\em et~al.},
 \newblock CERN-LHCC-98-4.
 
+\bibitem{alicetdr}
+ALICE, K.~Aamodt {\em et~al.},
+\newblock JINST {\bf 3}, S08002 (2008).
+
+\bibitem{atlastdr}
+ATLAS, G.~Aad {\em et~al.},
+\newblock JINST {\bf 3} (2008).
+
+\bibitem{cmstdr}
+CMS, R.~Adolphi {\em et~al.},
+\newblock JINST {\bf 0803}, S08004 (2008).
+
+\bibitem{lhcbtdr}
+LHCb, A.~A. Alves {\em et~al.},
+\newblock JINST {\bf 3}, S08005 (2008).
+
+\bibitem{Jean-Luc:841573}
+J.-L. Caron,
+\newblock Lhc layout.. schema general du lhc.,
+\newblock 1997.
+
+\bibitem{LHClumo}
+C.~Collaboration,
+\newblock Cms luminosity - public results,
+\newblock twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults., 2011.
+
 \end{thebibliography}

@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: h-physrev.bst
 Database file #1: mythesis.bib
-You've used 1 entry,
+Warning--empty note in Jean-Luc:841573
+You've used 7 entries,
             1946 wiz_defined-function locations,
-            602 strings with 4754 characters,
-and the built_in function-call counts, 160 in all, are:
-= -- 10
-> -- 10
+            635 strings with 5283 characters,
+and the built_in function-call counts, 1236 in all, are:
+= -- 92
+> -- 62
 < -- 0
-+ -- 4
-- -- 2
-* -- 7
-:= -- 31
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 0
++ -- 24
+- -- 12
+* -- 83
+:= -- 185
+add.period$ -- 7
+call.type$ -- 7
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 8
-empty$ -- 13
-format.name$ -- 3
-if$ -- 32
+cite$ -- 8
+duplicate$ -- 61
+empty$ -- 113
+format.name$ -- 19
+if$ -- 279
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 7
+int.to.str$ -- 7
+missing$ -- 5
+newline$ -- 33
+num.names$ -- 7
+pop$ -- 28
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5
+skip$ -- 51
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
+substring$ -- 57
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 10
+warning$ -- 1
+while$ -- 10
+width$ -- 8
+write$ -- 61
+(There was 1 warning)
