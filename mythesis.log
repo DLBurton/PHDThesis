@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  10 SEP 2013 17:31
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  11 SEP 2013 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,13 +1124,13 @@ Non-PDF special ignored!
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 44
 .
- (./mythesis.toc)
+ (./mythesis.toc [6
+
+])
 \tf@toc=\write6
 \openout6 = `mythesis.toc'.
 
- [6
-
-]))
+ [7]))
 \openout3 = `comment.cut'.
 
  (./comment.cut
@@ -1165,7 +1165,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 [4
 
-] <plots/lhc-ring-photo.png, id=176, 1035.87pt x 1114.1625pt>
+] <plots/lhc-ring-photo.png, id=205, 1035.87pt x 1114.1625pt>
 File: plots/lhc-ring-photo.png Graphic file (type png)
 
 <use plots/lhc-ring-photo.png>
@@ -1174,11 +1174,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [5 <./plots/lhc-ring-photo.png>]
-<plots/lhc-lumo-8tev.png, id=196, 578.16pt x 433.62pt>
+<plots/lhc-lumo-8tev.png, id=225, 578.16pt x 433.62pt>
 File: plots/lhc-lumo-8tev.png Graphic file (type png)
 
-<use plots/lhc-lumo-8tev.png> [6 <./plots/lhc-lumo-8tev.png>])
-(./chap_alphat.tex [7]
+<use plots/lhc-lumo-8tev.png>
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+[6 <./plots/lhc-lumo-8tev.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+<plots/cms-detector.png, id=236, 481.8pt x 320.19624pt>
+File: plots/cms-detector.png Graphic file (type png)
+
+<use plots/cms-detector.png>
+
+LaTeX Warning: Command \textless invalid in math mode on input line 56.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 56.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 56.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[7 <./plots/cms-detector.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[8]) (./chap_alphat.tex [9]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1236,16 +1277,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [8
+) (./chap_results.tex [10
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- [9
+ [11
 
-] (./comment.cut (./backmatter.tex (./mythesis.bbl [10
+] (./comment.cut (./backmatter.tex (./mythesis.bbl [12
 
 
 ]
@@ -1254,13 +1295,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 ults,
  []
 
-) [11
+
+Overfull \hbox (65.49294pt too wide) in paragraph at lines 34--37
+[]\OT1/cmr/m/n/12 (-20) CERN,  Cms com-pact muon solenoid.,  http://public.web.
+cern.ch/public/Objects/LHC/CMSnc.jpg.,
+ []
+
+) [13
 
 ] (./mythesis.lof)
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [12
+ [14
 
 ] (./mythesis.lot)
 \tf@lot=\write8
@@ -1268,45 +1315,46 @@ ults,
 
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [13
+ [15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 412ADF260CD24B213CA7F0BFA4F1D58D;1314.
+(rerunfilecheck)             Checksum: E83863C798A2428355E71B1E2931061F;1697.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20774 strings out of 493747
- 326446 string characters out of 3143546
- 467055 words of memory out of 3000000
- 23461 multiletter control sequences out of 15000+200000
- 28516 words of font info for 125 fonts, out of 3000000 for 9000
+ 20849 strings out of 493747
+ 327506 string characters out of 3143546
+ 469535 words of memory out of 3000000
+ 23502 multiletter control sequences out of 15000+200000
+ 28957 words of font info for 134 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,18n,51p,1088b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,18n,52p,1088b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on mythesis.pdf (19 pages, 618353 bytes).
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on mythesis.pdf (22 pages, 707889 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 22207 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 22252 words of extra memory for PDF output out of 24883 (max. 10000000)
 

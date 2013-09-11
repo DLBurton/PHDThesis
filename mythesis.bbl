@@ -30,4 +30,13 @@ C.~Collaboration,
 \newblock Cms luminosity - public results,
 \newblock twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults., 2011.
 
+\bibitem{cms-public-detector}
+CERN,
+\newblock Cms compact muon solenoid.,
+\newblock http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg., 2010.
+
+\bibitem{CMS_TDR_PHYS_vol1}
+{CMS Collaboration},
+\newblock CERN/LHCC {\bf 2006-001} (2006).
+
 \end{thebibliography}
