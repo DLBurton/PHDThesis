@@ -40,7 +40,18 @@ In the early phase of prolonged operation after the initial shutdown the machine
 
 The Compact Muon Solenoid (\CMS) detector is one of two general purpose detectors at the \LHC designed to search for new physics. The detector is designed to provide efficient identification and measurement of many physics objects including photons, electrons, muons, taus, and hadronic showers over wide ranges of transverse momentum and direction. Its nearly 4$\pi$ coverage in solid angle allows for accurate measurement of global transverse momentum imbalance. These design factors give \CMS the ability to search for direct production of \SUSY particles at the \TeV scale, making the search for Supersymmetric particles one of the highest priorities among the wide range of physics programmes at \CMS. \\
 
-As the range of particles produced in \pp collisions interact in different ways with matter, \CMS is divided into subdetector systems, which perform complementary roles to identify the identity, mass and momentum of the different physics objects present in each event. These detector sub-systems are contained inside \CMS are wrapped in layers around a central 13 m long 4 \T super conducting solenoid as shown in Fig \ref{fig:cms-detector}. With the endcaps closed , \CMS is a cylinder of length 22 m, diameter 15 m, and mass 12.5 kilotons. A more detailed complete description of the detector can be found elsewhere \cite{cmstdr}. \\
+\CMS uses a right-handed Cartesian coordinate system with the origin at the interaction point and the z-axis pointing along the beam axis, the x-axis points radially inwards to the centre of the collider ring, with the y-axis points vertically upward. The azimuthal angle, $\phi$ ranging between [$-\pi$,$\pi$] is defined in the x-y plane starting from the x-axis. The polar angle $\theta$ is measured from the z axis. The common convention in particle physics is to express an out going particle in terms of $\phi$ and its pseudorapidity defined as
+
+\begin{equation}
+\eta = -\log\tan\left(\frac{\theta}{2}\right).
+\end{equation}
+
+The variable $\Delta R = \sqrt{\Delta\phi^{2} + \Delta\eta^{2} } $ is commonly used to define angular distance between objects within the detector and additionally energy and momentum is typically measured in the transverse plane perpendicular to the beam line. These values are calculated from the x and y components of the object and are denoted as $\et = E\sin\theta$ and $\pt = \sqrt{p^{2}_{x}+p^{2}_{y}}$. 
+
+\subsection{Detector Subsytems}
+\label{subsec:detectorsubsystems}
+
+As the range of particles produced in \pp collisions interact in different ways with matter, \CMS is divided into subdetector systems, which perform complementary roles to identify the identity, mass and momentum of the different physics objects present in each event. These detector sub-systems contained inside \CMS are wrapped in layers around a central 13 m long 4 \T super conducting solenoid as shown in Fig \ref{fig:cms-detector}. With the endcaps closed , \CMS is a cylinder of length 22 m, diameter 15 m, and mass 12.5 kilotons. A more detailed complete description of the detector can be found elsewhere \cite{cmstdr}. \\
 
 \begin{figure}[!h]
 
@@ -55,44 +66,59 @@ As the range of particles produced in \pp collisions interact in different ways 
 
  The inner-most subdetector of the barrel is the multi-layer silicon tracker, formed of a pixel detector component encased by layers of silicon strip detectors. The pixel detector consists of three layers of silicon pixel sensors providing measurements of the momentum, position coordinates of the charged particles as they pass, and the location of primary and secondary vertices between 4cm and 10cm transverse to the beam. Outside the pixel detector, ten cylindrical layers of silicon strip detectors extend the tracking system out to a radius of 1.20m from the beam line. The tracking system provides efficient and precise determination of the charges, momenta, and impact parameters of charged particles with the geometry of the tracker extending to cover a rapidity range up to $\lvert\eta\rvert \textless$ 2.5.  \\
  
+ The tracking system also plays a crucial part in the identification of jets originating from b-quarks through measurement of displaced secondary vertices, which is covered in more detail in Section \ref{subsec:cmsobjects-btagging}. The identification of b-jets is important in many searches for natural \SUSY models and forms an important part of the inclusive search strategy described within Section \ref{subsec:searchstrategy}.
+ 
 \subsection{Electromagnetic Calorimeter}
 \label{subsec:ecal}
 
- Immediately outside of the tracker, but still within the magnet core, sits the Electromagnetic Calorimeter (\ECAL),
+ Immediately outside of the tracker, but still within the magnet core, sits the Electromagnetic Calorimeter (\ECAL). Covering a pseudorapididity up to $\lvert\eta\rvert < 3$ and compromising of over 75,000 PbWO$_{4}$ (lead tungstate) crystals that scintillate as particles deposit energy, the \ECAL provides high resolution measurements of the electromagnetic showers from photons, electrons in the detector. \\ 
+ 
+ Lead tungstate is used because of its short radiation length ($X_{0} \sim 0.9$cm) and small Molier\'{e} radius ($\sim 2.1$cm) leading to high granularity and resolution. It's fast scintillation time ($\sim 25$ns) reduces the effects of pileup due to energy from previous collisions still being read out, and its radiation hardness gives it longevity. The crystals are arranged in modules which surround the beam line in a non-projective geometry,  angled at 3$^{\circ}$ with respect to the interaction point to minimise the risk of particles escaping down the cracks between the crystals.\\
+ 
+ The  \ECAL is primarily composed of two sections, the Electromagnetic Calorimeter Barrel (\EB) which extends in pseudo-rapidity to $\lvert\eta\rvert < 1.479$ with a crystal front cross section of 22 $\times$ 22 mm$^{2}$ and a length of 230 mm corresponding to 25.8 radiation lengths, and the Electronmagnetic Calorimeter Endcaps (\EE) covering a rapidity range of $1.479 < \lvert\eta\rvert < 3.0 $, which consists of two identical detectors
+on either side of the EB.  A lead-silicon sampling 'pre-shower' detector (\ES) is placed before the endcaps to aid in the identification of neutral pions. Their arrangement are shown in Figure \ref{fig:cms-ecal}. \\
+
+ 
+ \begin{figure}[!h]
+
+\centering
+\includegraphics[width=0.85\textwidth]{plots/cms-ecal.png}
+\caption[Illustration of the \CMS \ECAL showing the arrangement of the lead tungstate crystals in the \EB and \EE. The \ES is also shown and is located infront of the \EE.]{Illustration of the \CMS \ECAL showing the arrangement of the lead tungstate crystals in the \EB and \EE. The \ES is also shown and is located infront of the \EE \cite{CMS_ECAL_TDR}.}  
+\label{fig:cms-ecal}
+\end{figure}
+
+
+Scintillation photons from the lead tungstate crystals are instrumented with avalanche photo-diodes (\APD) and vacuum photo-triodes (\VPT) located in the \EB and \EE respectively, converting the scintillating light into an electric signal which is consequently used to determine the amount of energy deposited within the crystal . These instruments are chosen for their resistance under operation to the strong magnetic field of \CMS. The scintillation of the \ECAL crystals as well as the response of the \APD s varies as a function of temperature and so cooling systems continually maintain an overall constant \ECAL temperature $\pm 0.05 ^{\circ}C$.
+ 
 
 \subsection{Hadronic Calorimeter}
 \label{subsec:hcal} 
- HCAL \\
+Beyond the \ECAL lies the Hadronic Calorimeter (\HCAL), which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \HCAL is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator, except in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region in which steel absorbers and quartz Þbre scintillators are used because of their increased radiation tolerance. The \HCAL's size is constrained to a compact size by the presence of the solenoid, requiring the placement of an additional outer calorimeter on the outside of the solenoid to increase the sampling depth of the \HCAL .\\
+ 
+ 
+The HCAL covers the range $\lvert\eta\rvert < 5$ and consists of four subdetectors: the Hadron Barrel (\HB), the Hadron Outer (\HO), the Hadron Endcap (\HE) and the Hadron Forward (\HF). \\
+
+Hadron showers initiated in the absorber layers induce scintillation in the tiles which is converted by wavelength shifting fibres for read-out by hybrid photodiodes
  
 \subsection{Muon Systems}
 \label{subsec:muonsystems} 
  Muon \\ 
 
-\subsection{Coordinate Systems}
-\label{subsec:coordinatesystem}
-
-\CMS uses a right-handed Cartesian coordinate system with the origin at the interaction point and the z-axis pointing along the beam axis, the x-axis points radially inwards to the centre of the collider ring, with the y-axis points vertically upward. The azimuthal angle, $\phi$ ranging between [$-\pi$,$\pi$] is defined in the x-y plane starting from the x-axis. The polar angle $\theta$ is measured from the z axis. The common convention in particle physics is to express an out going particle in terms of $\phi$ and its pseudorapidity defined as
-
-\begin{equation}
-\eta = -\log\tan\left(\frac{\theta}{2}\right).
-\end{equation}
-
-Additionally energy and momentum is typically measured in the transverse plane perpendicular to the beam line. These values are calculated from the x and y components of the object and are denoted as $\et = E\sin\theta$ and $\pt = \sqrt{p^{2}_{x}+p^{2}_{y}}$. 
 
 \section{Event Reconstruction and Object Definition}
 \label{sec:cmsobjects}
 
-The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, groups of particles which shower in a narrow cone and the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, however covered below are brief descriptions of those which are most relevant to the analysis detailed in Section \ref{chap:SUSYsearches}.
+The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, or groups of particles which shower in a narrow cone and the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, however covered below are brief descriptions of those which are most relevant to the analysis detailed in Section \ref{chap:SUSYsearches}.
 
 \subsection{Jets}
 \label{subsec:cmsobjects-jets}
 
-Jets
+Quarks and gluons are produced copiously at the LHC in the hard scattering of partons. \\
 
 \subsection{B-tagging}
 \label{subsec:cmsobjects-btagging}
 
-B-tagging
+The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\mathcal{O}$ 1ps.
 
 \section{L1 Trigger}
 \label{sec:l1trigger}

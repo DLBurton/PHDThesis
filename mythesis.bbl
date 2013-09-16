@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Amato:1998xt}
 LHCb, S.~Amato {\em et~al.},
@@ -34,6 +34,10 @@ C.~Collaboration,
 CERN,
 \newblock Cms compact muon solenoid.,
 \newblock http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg., 2010.
+
+\bibitem{CMS_ECAL_TDR}
+{\em The CMS electromagnetic calorimeter project: Technical Design
+  Report}Technical Design Report CMS (CERN, Geneva, 1997).
 
 \bibitem{CMS_TDR_PHYS_vol1}
 {CMS Collaboration},

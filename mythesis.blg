@@ -4,45 +4,46 @@ The top-level auxiliary file: mythesis.aux
 The style file: h-physrev.bst
 Database file #1: mythesis.bib
 Warning--empty note in Jean-Luc:841573
-You've used 9 entries,
+Warning--empty author and editor in CMS_ECAL_TDR
+You've used 10 entries,
             1946 wiz_defined-function locations,
-            648 strings with 5517 characters,
-and the built_in function-call counts, 1477 in all, are:
-= -- 111
-> -- 74
+            653 strings with 5642 characters,
+and the built_in function-call counts, 1584 in all, are:
+= -- 116
+> -- 75
 < -- 0
-+ -- 28
++ -- 29
 - -- 14
-* -- 95
-:= -- 226
-add.period$ -- 9
-call.type$ -- 9
+* -- 111
+:= -- 235
+add.period$ -- 10
+call.type$ -- 10
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 76
-empty$ -- 136
+cite$ -- 12
+duplicate$ -- 84
+empty$ -- 153
 format.name$ -- 23
-if$ -- 330
+if$ -- 354
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 6
-newline$ -- 42
+int.to.str$ -- 10
+missing$ -- 7
+newline$ -- 45
 num.names$ -- 9
-pop$ -- 34
+pop$ -- 38
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 58
+skip$ -- 60
 stack$ -- 0
 substring$ -- 57
-swap$ -- 16
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
+warning$ -- 2
 while$ -- 12
-width$ -- 10
-write$ -- 78
-(There was 1 warning)
+width$ -- 12
+write$ -- 83
+(There were 2 warnings)
