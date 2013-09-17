@@ -1,7 +1,7 @@
 \chapter{The LHC and the CMS Detector}
 \label{chap:cmsoverview}
 
-Probing the \SM for signs of new physics would not be possible without the immensely complex electronics and machinery that makes the TeV energy scale accessible for the first time. This chapter will cover \CERN 's  Large Hadron Collider (\LHC) and the CMS detector, being the experiment the author is a member of. Section \ref{sec:cmsdetector} serves to introduce an overview of the different components of  the CMS detector, with more detail spent on those that are relevant in the search for Supersymmetric particles. Section \ref{sec:cmsobjects} will focus on event and object reconstruction again with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally Section \ref{sec:l1trigger} will cover work performed by the author, as service to the CMS Collaboration, in measuring the performance of the GCT component of the L1 trigger during the 2012-2013 run period.  
+Probing the \SM for signs of new physics would not be possible without the immensely complex electronics and machinery that makes the TeV energy scale accessible for the first time. This chapter will cover \CERN 's  Large Hadron Collider (\LHC) and the CMS detector, being the experiment the author is a member of. Section \ref{sec:cmsdetector} serves to introduce an overview of the different components of  the CMS detector, with more detail spent on those that are relevant in the search for Supersymmetric particles. Section \ref{sec:cmsobjects} will focus on event and object reconstruction again with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally Section \ref{sec:triggersystem} will cover work performed by the author, as service to the CMS Collaboration, in measuring the performance of the GCT component of the L1 trigger during the 2012-2013 run period.  
 
 
 \section{The LHC}
@@ -93,16 +93,27 @@ Scintillation photons from the lead tungstate crystals are instrumented with ava
 
 \subsection{Hadronic Calorimeter}
 \label{subsec:hcal} 
-Beyond the \ECAL lies the Hadronic Calorimeter (\HCAL), which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \HCAL is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator, except in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region in which steel absorbers and quartz Þbre scintillators are used because of their increased radiation tolerance. The \HCAL's size is constrained to a compact size by the presence of the solenoid, requiring the placement of an additional outer calorimeter on the outside of the solenoid to increase the sampling depth of the \HCAL .\\
- 
- 
-The HCAL covers the range $\lvert\eta\rvert < 5$ and consists of four subdetectors: the Hadron Barrel (\HB), the Hadron Outer (\HO), the Hadron Endcap (\HE) and the Hadron Forward (\HF). \\
 
-Hadron showers initiated in the absorber layers induce scintillation in the tiles which is converted by wavelength shifting fibres for read-out by hybrid photodiodes
+Beyond the \ECAL lies the Hadronic Calorimeter (\HCAL), which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \HCAL is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator, except in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region in which steel absorbers and quartz fibre scintillators are used because of their increased radiation tolerance. Hadron showers are initiated in the absorber layers inducing scintillation in the plastic scintillator tiles.  These scintillation photons are converted by wavelength shifting fibres for read-out by hybrid photodiodes. \\
+
+The \HCAL's size is constrained to a compact size by the presence of the solenoid, requiring the placement of an additional outer calorimeter on the outside of the solenoid to increase the sampling depth of the \HCAL. A schematic of the \HCAL can be seen in Figure \ref{fig:cms-hcal}.\\
  
+ \begin{figure}[!h]
+
+\centering
+\includegraphics[width=0.85\textwidth]{plots/cms-hcal.png}
+\caption[Schematic of the hadron calorimeters in the r-z plane, showing the locations of the HCAL components and the HF]{ Schematic of the hadron calorimeters in the r-z plane, showing the locations of the HCAL components and the HF. \cite{cmstdr}.}  
+\label{fig:cms-hcal}
+\end{figure}
+ 
+The HCAL covers the range $\lvert\eta\rvert < 5$ and consists of four subdetectors: the Hadron Barrel (\HB)  $\lvert\eta\rvert < 1.3$, the Hadron Outer (\HO), the Hadron Endcap (\HE) $1.3 < \lvert\eta\rvert < 3.0 $ and the Hadron Forward (\HF).  The \HB is contained between the outer edge of the \ECAL and the inner edge of the solenoid, formed of 36 azimuthal wedges it is split between two half-barrel segments. The relatively short number of interaction lengths ($\lambda_{l}$, the distance a hadron will travel through the absorber material before it has lost $\frac{1}{e}$ of its energy) within the \HB, the lowest being $\lambda_{l}$ = 5.82 for $\lvert\eta\rvert = 0$, facilitates the need for the 'tail catching' \HO to increase the sampling depth in the central barrel rapidity region $\lvert\eta\rvert < 1.3$ to 11 interaction lengths . Significant fractions of the hadrons energy will be deposited in the \ECAL as it passed through the detector. Therefore measurements of hadron energies in the central regions $\lvert\eta\rvert < 3.0$ use both the \ECAL and \HCAL to reconstruct the true energy from showering hadrons. 
+
 \subsection{Muon Systems}
 \label{subsec:muonsystems} 
- Muon \\ 
+ 
+Muons being too massive to radiate away energy via Bremsstrahlung, interact little in the calorimeters and mostly pass through the detector until they reach the system of muon detectors which forms the outer most part of the \CMS detector.  
+
+Outside of the superconducting solenoid are four muon detection layers interleaved with the iron return yokes which measure the muons energy via ionisation of gas within detector elements. Three types of gaseous chamber are used. The drift tube (\DT), cathode strip chamber (\CSC), and resistive plate chamber (\RPC) systems provide efficient detection of muons with pseudo-rapidity $\lvert\eta\rvert < 2.4 $. The best reconstruction performance is obtained when the muon chamber is combined with the inner tracking information to determine muon trajectories and their momenta \cite{CMS_MUON_TDR}.  \\ 
 
 
 \section{Event Reconstruction and Object Definition}
@@ -113,15 +124,20 @@ The goal of event reconstruction is to take the raw information recorded by the 
 \subsection{Jets}
 \label{subsec:cmsobjects-jets}
 
-Quarks and gluons are produced copiously at the LHC in the hard scattering of partons. \\
+Quarks and gluons are produced copiously at the LHC in the hard scattering of partons. As these quarks and gluons fragment, they hadronise to form jets of strongly interactive particles and their decay products.  Jets are reconstructed from energy deposits in the detector using the anti-kt algorithm \cite{antiktalgo} with size parameter $\Delta R = 0.5$. The anti-kt jet algorithm clusters, 
+
+Calorimeter jets are reconstructed using energy deposits in the electromagnetic (\ECAL) and hadronic (\HCAL) calorimeter cells, combined into calorimeter towers  \cite{Janssen:1322145}.
+
 
 \subsection{B-tagging}
 \label{subsec:cmsobjects-btagging}
 
 The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\mathcal{O}$ 1ps. Testing
 
-\section{L1 Trigger}
-\label{sec:l1trigger}
+\section{Triggering System}
+\label{sec:triggersystem}
 
+\subsection{L1 Trigger}
+\label{subsec:l1trigger}
 
 L1 Work

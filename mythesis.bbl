@@ -39,8 +39,20 @@ CERN,
 {\em The CMS electromagnetic calorimeter project: Technical Design
   Report}Technical Design Report CMS (CERN, Geneva, 1997).
 
+\bibitem{CMS_MUON_TDR}
+{\em The CMS muon project: Technical Design Report}Technical Design Report CMS
+  (CERN, Geneva, 1997).
+
 \bibitem{CMS_TDR_PHYS_vol1}
 {CMS Collaboration},
 \newblock CERN/LHCC {\bf 2006-001} (2006).
+
+\bibitem{antiktalgo}
+M.~Cacciari, G.~P. Salam, and G.~Soyez,
+\newblock Journal of High Energy Physics {\bf 2008}, 063 (2008).
+
+\bibitem{Janssen:1322145}
+X.~Janssen,
+\newblock CERN Report No. CMS-CR-2011-012, 2011 (unpublished).
 
 \end{thebibliography}
