@@ -2,10 +2,13 @@
 %\RequirePackage{timing}
 \RequirePackage{hepnicenames,hepunits,abhep}
 \usepackage{float}
+\usepackage{cancel}
 %% Citation spacing hack to bring the citation
 %% number a little closer to the referring text
 \let\@OldCite\cite
 \renewcommand{\cite}[1]{\mbox{\!\!\!\@OldCite{#1}}}
+
+
 
 %% Maths
 \DeclareRobustCommand{\thesismath}[1]{\ensuremath{\maybebmsf{#1}}}
@@ -31,6 +34,7 @@
 \DeclareRobustCommand{\LHC}{LHC\xspace}
 \DeclareRobustCommand{\LEP}{LEP\xspace}
 \DeclareRobustCommand{\CERN}{CERN\xspace}
+\DeclareRobustCommand{\LUT}{LUT\xspace}
 \DeclareRobustCommand{\GeV}{GeV\xspace}
 \DeclareRobustCommand{\TeV}{TeV\xspace}
 \DeclareRobustCommand{\CKM}{CKM\xspace}
@@ -39,9 +43,15 @@
 \DeclareRobustCommand{\ns}{ns\xspace}
 \DeclareRobustCommand{\com}{\thesismath{\sqrt{s}}\xspace}
 \DeclareRobustCommand{\fb}{fb\thesismath{^{-1}}\xspace}
+\DeclareRobustCommand{\ttbar}{t\={t}\xspace}
+
 \DeclareRobustCommand{\pp}{\textit{pp}\xspace}
 \DeclareRobustCommand{\et}{E_{T}\xspace}
 \DeclareRobustCommand{\pt}{p_{T}\xspace}
+\DeclareRobustCommand{\theht}{H_{T}\xspace}
+\DeclareRobustCommand{\mht}{\cancel{H}_{T}\xspace}
+\DeclareRobustCommand{\met}{\cancel{E}_{T}\xspace}
+
 \DeclareRobustCommand{\ECAL}{ECAL\xspace}
 \DeclareRobustCommand{\HCAL}{HCAL\xspace}
 \DeclareRobustCommand{\EE}{EE\xspace}
@@ -56,7 +66,14 @@
 \DeclareRobustCommand{\DT}{DT\xspace}
 \DeclareRobustCommand{\CSC}{CSC\xspace}
 \DeclareRobustCommand{\RPC}{RPC\xspace}
+\DeclareRobustCommand{\CSV}{CSV\xspace}
+\DeclareRobustCommand{\L1}{L1\xspace}
+\DeclareRobustCommand{\HLT}{HLT\xspace}
+\DeclareRobustCommand{\GCT}{GCT\xspace}
 
+\DeclareRobustCommand{\effb}{\thesismath{\epsilon_{b}}\xspace}
+\DeclareRobustCommand{\effc}{\thesismath{\epsilon_{c}}\xspace}
+\DeclareRobustCommand{\effs}{\thesismath{\epsilon_{s}}\xspace}
 
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
 

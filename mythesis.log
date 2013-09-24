@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  17 SEP 2013 17:33
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  24 SEP 2013 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,29 +920,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks34
 \@floatcapt=\box43
 )
-LaTeX Info: Redefining \parenths on input line 12.
-LaTeX Info: Redefining \braces on input line 13.
-LaTeX Info: Redefining \angles on input line 14.
-LaTeX Info: Redefining \sqbracs on input line 15.
-LaTeX Info: Redefining \mods on input line 16.
-LaTeX Info: Redefining \modsq on input line 17.
-LaTeX Info: Redefining \dblmods on input line 18.
-LaTeX Info: Redefining \expOf on input line 19.
-LaTeX Info: Redefining \eexp on input line 20.
-LaTeX Info: Redefining \plusquad on input line 21.
-LaTeX Info: Redefining \logOf on input line 22.
-LaTeX Info: Redefining \lnOf on input line 23.
-LaTeX Info: Redefining \ofOrder on input line 24.
-LaTeX Info: Redefining \CPv on input line 29.
-LaTeX Info: Redefining \LHCb on input line 30.
-LaTeX Info: Redefining \LHC on input line 31.
-LaTeX Info: Redefining \LEP on input line 32.
-LaTeX Info: Redefining \CERN on input line 33.
-LaTeX Info: Redefining \GeV on input line 34.
-LaTeX Info: Redefining \TeV on input line 35.
-LaTeX Info: Redefining \CKM on input line 36.
-LaTeX Info: Redefining \ns on input line 39.
-LaTeX Info: Redefining \APD on input line 50.
+LaTeX Info: Redefining \parenths on input line 15.
+LaTeX Info: Redefining \braces on input line 16.
+LaTeX Info: Redefining \angles on input line 17.
+LaTeX Info: Redefining \sqbracs on input line 18.
+LaTeX Info: Redefining \mods on input line 19.
+LaTeX Info: Redefining \modsq on input line 20.
+LaTeX Info: Redefining \dblmods on input line 21.
+LaTeX Info: Redefining \expOf on input line 22.
+LaTeX Info: Redefining \eexp on input line 23.
+LaTeX Info: Redefining \plusquad on input line 24.
+LaTeX Info: Redefining \logOf on input line 25.
+LaTeX Info: Redefining \lnOf on input line 26.
+LaTeX Info: Redefining \ofOrder on input line 27.
+LaTeX Info: Redefining \CPv on input line 32.
+LaTeX Info: Redefining \LHCb on input line 33.
+LaTeX Info: Redefining \LHC on input line 34.
+LaTeX Info: Redefining \LEP on input line 35.
+LaTeX Info: Redefining \CERN on input line 36.
+LaTeX Info: Redefining \GeV on input line 38.
+LaTeX Info: Redefining \TeV on input line 39.
+LaTeX Info: Redefining \CKM on input line 40.
+LaTeX Info: Redefining \ns on input line 43.
+LaTeX Info: Redefining \APD on input line 60.
+LaTeX Info: Redefining \L1 on input line 70.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1167,7 +1168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 [4
 
-] <plots/lhc-ring-photo.png, id=215, 1035.87pt x 1114.1625pt>
+] <plots/lhc-ring-photo.png, id=230, 1035.87pt x 1114.1625pt>
 File: plots/lhc-ring-photo.png Graphic file (type png)
 
 <use plots/lhc-ring-photo.png>
@@ -1176,7 +1177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [5 <./plots/lhc-ring-photo.png>]
-<plots/lhc-lumo-8tev.png, id=235, 578.16pt x 433.62pt>
+<plots/lhc-lumo-8tev.png, id=250, 578.16pt x 433.62pt>
 File: plots/lhc-lumo-8tev.png Graphic file (type png)
 
 <use plots/lhc-lumo-8tev.png>
@@ -1189,7 +1190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<plots/cms-detector.png, id=246, 481.8pt x 320.19624pt>
+<plots/cms-detector.png, id=261, 481.8pt x 320.19624pt>
 File: plots/cms-detector.png Graphic file (type png)
 
 <use plots/cms-detector.png>
@@ -1229,7 +1230,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
-<plots/cms-ecal.png, id=265, 449.0376pt x 244.2726pt>
+<plots/cms-ecal.png, id=280, 449.0376pt x 244.2726pt>
 File: plots/cms-ecal.png Graphic file (type png)
  <use plots/cms-ecal.png>
 
@@ -1245,7 +1246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<plots/cms-hcal.png, id=274, 429.7656pt x 259.2084pt>
+<plots/cms-hcal.png, id=289, 429.7656pt x 259.2084pt>
 File: plots/cms-hcal.png Graphic file (type png)
  <use plots/cms-hcal.png>
 
@@ -1256,7 +1257,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-[11 <./plots/cms-hcal.png>]) (./chap_alphat.tex [12] [13]
+[11 <./plots/cms-hcal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+[13]
+Missing character: There is no Þ in font cmr12!
+ <plots/btag-ttbardiscrim.png, id=331, 506.3718pt x 364.7226pt>
+File: plots/btag-ttbardiscrim.png Graphic file (type png)
+
+<use plots/btag-ttbardiscrim.png>
+<plots/btag-multijetdiscrim.png, id=332, 506.3718pt x 364.7226pt>
+File: plots/btag-multijetdiscrim.png Graphic file (type png)
+
+<use plots/btag-multijetdiscrim.png>
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+[14] <plots/btag-csvm_pt_sf.png, id=344, 569.0058pt x 545.8794pt>
+File: plots/btag-csvm_pt_sf.png Graphic file (type png)
+
+<use plots/btag-csvm_pt_sf.png>
+<plots/btag-csvm_eta_sf.png, id=345, 569.0058pt x 545.8794pt>
+File: plots/btag-csvm_eta_sf.png Graphic file (type png)
+
+<use plots/btag-csvm_eta_sf.png>
+<plots/btag-csvm_vert_sf.png, id=346, 569.0058pt x 545.8794pt>
+File: plots/btag-csvm_vert_sf.png Graphic file (type png)
+
+<use plots/btag-csvm_vert_sf.png>
+Missing character: There is no Þ in font cmr12!
+
+<plots/btag-csvmsf.png, id=348, 569.12625pt x 385.44pt>
+File: plots/btag-csvmsf.png Graphic file (type png)
+
+<use plots/btag-csvmsf.png>
+Missing character: There is no Þ in font cmr10!
+Missing character: There is no Þ in font cmr10!
+Missing character: There is no Þ in font cmr10!
+Missing character: There is no Þ in font cmr10!
+ [15 <./plots/btag-ttbardiscrim.png> <./plots/btag-multijetdiscrim.png>] [16 <.
+/plots/btag-csvm_pt_sf.png> <./plots/btag-csvm_eta_sf.png> <./plots/btag-csvm_v
+ert_sf.png> <./plots/btag-csvmsf.png, page is rotated 90 degrees>] [17]
+<plots/L1JetAlgorithm.png, id=422, 343.0416pt x 176.8206pt>
+File: plots/L1JetAlgorithm.png Graphic file (type png)
+
+<use plots/L1JetAlgorithm.png>
+Missing character: There is no É in font cmr12!
+ [18]) (./chap_alphat.tex [19 <./plots/L1JetAlgorithm.png>]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1314,16 +1377,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [14
+) (./chap_results.tex [20
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- [15
+ [21
 
-] (./comment.cut (./backmatter.tex (./mythesis.bbl [16
+] (./comment.cut (./backmatter.tex (./mythesis.bbl [22
 
 
 ]
@@ -1338,13 +1401,16 @@ Overfull \hbox (71.36787pt too wide) in paragraph at lines 34--37
 cern.ch/public/Objects/LHC/CMSnc.jpg.,
  []
 
-) [17
+[23
 
-] (./mythesis.lof)
+]) [24] (./mythesis.lof
+Missing character: There is no Þ in font cmr12!
+Missing character: There is no Þ in font cmr12!
+)
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [18
+ [25
 
 ] (./mythesis.lot)
 \tf@lot=\write8
@@ -1352,46 +1418,48 @@ cern.ch/public/Objects/LHC/CMSnc.jpg.,
 
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [19
+ [26
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: E18B68B03D1BCA633754DD0C4A78F6C3;1837.
+(rerunfilecheck)             Checksum: 5C89396BF998362F6DFBE39C9A1E514E;2115.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20920 strings out of 493747
- 328227 string characters out of 3143546
- 470223 words of memory out of 3000000
- 23545 multiletter control sequences out of 15000+200000
- 29362 words of font info for 141 fonts, out of 3000000 for 9000
+ 21060 strings out of 493747
+ 330485 string characters out of 3143546
+ 472999 words of memory out of 3000000
+ 23632 multiletter control sequences out of 15000+200000
+ 29860 words of font info for 151 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,18n,52p,1300b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,18n,55p,1422b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/te
-xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
-ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on mythesis.pdf (26 pages, 982232 bytes).
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on mythesis.pdf (33 pages, 1511764 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 22278 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 566 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 22337 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -51,8 +51,38 @@ CERN,
 M.~Cacciari, G.~P. Salam, and G.~Soyez,
 \newblock Journal of High Energy Physics {\bf 2008}, 063 (2008).
 
+\bibitem{CMS-PAS-JME-10-003}
+CERN Report No. CMS-PAS-JME-10-003, 2010 (unpublished).
+
 \bibitem{Janssen:1322145}
 X.~Janssen,
 \newblock CERN Report No. CMS-CR-2011-012, 2011 (unpublished).
+
+\bibitem{1748-0221-6-11-P11002}
+T.~C. collaboration,
+\newblock Journal of Instrumentation {\bf 6}, P11002 (2011).
+
+\bibitem{1742-6596-404-1-012014}
+R.~Eusebi and on~behalf of~the CMS~collaboration),
+\newblock Journal of Physics: Conference Series {\bf 404}, 012014 (2012).
+
+\bibitem{btag8tev}
+(2013).
+
+\bibitem{pdg2012}
+Particle Data Group, J.~Beringer {\em et~al.},
+\newblock Phys.Rev. {\bf D86}, 010001 (2012).
+
+\bibitem{btag7tev}
+T.~C. collaboration,
+\newblock Journal of Instrumentation {\bf 8}, P04013 (2013).
+
+\bibitem{Dasu:2000ge}
+CMS Collaboration, S.~Dasu {\em et~al.},
+\newblock (2000).
+
+\bibitem{Sphicas:2002gg}
+CMS Collaboration, P.~Sphicas,
+\newblock (2002).
 
 \end{thebibliography}
