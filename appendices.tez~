@@ -1,7 +1,6 @@
 %% The "\appendix" call has already been made in the declaration
 %% of the "appendices" environment (see thesis.tex).
 
-\chapter{}
 \section{Noise Filters}
 \label{app:noise}
 
@@ -36,17 +35,5 @@ The following noise filters are applied, to remove events with spurious, non-phy
               \item ECAL Laser correction filter.
 \end{itemize}
 
-\section{Primary Vertices}
-
-\label{app:primaryvertices}
-
-The pileup per event is defined by the number of 'good' reconstructed primary vertices in the event, with each vertex satisfying the following requirements
-
-\begin{itemize}
-	\item $N_{dof} > 4$;
-	\item vertex position along the bead direction of $\vert z_{vtx} \vert < 24$cm; 
-	\item vertex position perpendicular to the beam of $\rho < 2$cm.
-
-\end{itemize}
 
 

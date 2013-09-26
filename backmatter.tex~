@@ -12,6 +12,7 @@
 %% front matter seemingly interminable. No-one cares, anyway!
 \listoffigures
 \listoftables
+\appendix
 %% If you have time and interest to generate a (decent) index,
 %% then you've clearly spent more time on the write-up than the 
 %% research ;-)

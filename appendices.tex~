@@ -1,0 +1,61 @@
+%% The "\appendix" call has already been made in the declaration
+%% of the "appendices" environment (see thesis.tex).
+\chapter{Pointless extras}
+\label{app:Pointless}
+
+Appendixes (or should that be ``appendices''?) make you look really clever, 'cos
+it's like you had more clever stuff to say than could be fitted into the main
+bit of your thesis. Yeah. So everyone should have at least three of them\dots
+
+\section{Like, duh}
+\label{sec:Duh}
+Padding? What do you mean?
+
+\section{$y = \alpha x^2$}
+\label{sec:EqnTitle}
+See, maths in titles automatically goes bold where it should (and check the 
+table of contents: it \emph{isn't} bold there!) Check the source: nothing
+needs to be specified to make this work. Thanks to Donald Arsenau for the
+teeny hack that makes this work.
+
+%% Big appendixes should be split off into separate files, just like chapters
+%\input{app-myreallybigappendix}
+
+\appendix
+
+\section{Noise Filters}
+\label{app:noise}
+
+For Calo jets the following criteria were applied:
+
+\begin{itemize}
+  \item N90 hits $>$ 1, 
+    \item  HBHE $>$ 0.01,
+      \item fHPD $<$ 0.98,
+\end{itemize}
+
+For PF jets the following criteria were applied~\cite{jetid}.
+  
+\begin{itemize}
+  \item Neutral hadron fraction $<$ 0.99, 
+    \item  Neutral EM fraction $<$ 0.99,
+      \item Number of constituents $>$ 1,
+        \item Charged hadron fraction $>$ 0,
+          \item Charged multiplicity $>$ 0,
+            \item Charged EM fraction $<$ 0.99.
+\end{itemize}
+  
+The following noise filters are applied, as defined in \cite{met_filters}, to remove events with spurious, non-physical jets or missing transverse energy.
+
+\begin{itemize}
+  \item CSC tight beam halo filter,
+    \item HBHE noise filter with isolated noise rejection,
+      \item HCAL laser filter,
+        \item ECAL dead cell trigger primitive (TP) filter,
+          \item Tracking failure filter,
+            \item Bad EE Supercrystal filter,
+              \item ECAL Laser correction filter.
+\end{itemize}
+
+
+

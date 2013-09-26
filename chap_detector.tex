@@ -127,10 +127,10 @@ Quarks and gluons are produced copiously at the LHC in the hard scattering of pa
 
 At \CMS jets are reconstructed from energy deposits in the detector using the anti-kt algorithm \cite{antiktalgo} with size parameter $\Delta R = 0.5$. The anti-kt jet algorithm clusters jets by defining a distance between hard (high $\pt$) and soft (low $\pt$) particles such that soft particles are preferentially clustered with hard particles before being clustered between themselves. This produces jets which are robust to soft particle radiation from the pileup conditions experienced at the \LHC. \\
 
-There are two main type of jet reconstruction used at \CMS, Calorimeter and PF jets \cite{CMS-PAS-JME-10-003}. Calorimeter jets are reconstructed using both the electromagnetic (\ECAL) and hadronic (\HCAL) calorimeter cells, combined into calorimeter towers . These calorimeter towers consist of geometrically matched \HCAL cells and \ECAL crystals. Electronics noise is suppressed by applying a threshold to the calorimeter cells, with pile-up effects reduced by a requirement placed on the tower energy  \cite{Janssen:1322145}. Calorimter jets are the jets used within the analyses described in this thesis.  
+There are two main type of jet reconstruction used at \CMS, Calorimeter (\Calo) and Particle Flow (\PF) jets \cite{CMS-PAS-JME-10-003}. Calorimeter jets are reconstructed using both the electromagnetic (\ECAL) and hadronic (\HCAL) calorimeter cells, combined into calorimeter towers . These calorimeter towers consist of geometrically matched \HCAL cells and \ECAL crystals. Electronics noise is suppressed by applying a threshold to the calorimeter cells, with pile-up effects reduced by a requirement placed on the tower energy  \cite{Janssen:1322145}. Calorimter jets are the jets used within the analyses described in this thesis.  
 
-PF jets are formed from combining information from all of the CMS subdetectors systems to  determine which final state particles are present in the event. Generally, any particle is expected to produce some combination
-of a track in the silicon tracker, a deposit in the calorimeters, or a track in the muon system. The PF jet momentum and spatial resolutions are greatly improved with respect to calorimeter jets, as the use of the tracking detectors and of the high granularity of ECAL allows resolution and measurement of charged hadrons and photons inside a jet,  which together constitute $\sim$ 85$\%$ of the jet energy \cite{1748-0221-6-11-P11002}.
+\PF jets are formed from combining information from all of the \CMS subdetectors systems to  determine which final state particles are present in the event. Generally, any particle is expected to produce some combination
+of a track in the silicon tracker, a deposit in the calorimeters, or a track in the muon system. The \PF jet momentum and spatial resolutions are greatly improved with respect to calorimeter jets, as the use of the tracking detectors and of the high granularity of \ECAL allows resolution and measurement of charged hadrons and photons inside a jet,  which together constitute $\sim$ 85$\%$ of the jet energy \cite{1748-0221-6-11-P11002}.
 
 The jets reconstructed by the clustering algorithm in \CMS typically have an energy that differs to the `true' energy measured by a perfect detector. This stems from the non-linear and nonuniform response of the calorimeters as well as other residual effects including pileup and underlying events, and therefore additional corrections are applied to recover a uniform relative response as a function of pseudo-rapidity. These are applied as separate sub corrections \cite{1742-6596-404-1-012014}. 
 
@@ -205,7 +205,7 @@ The measurement of the misidentiÞcation probability for light-parton jets relies
 
 \label{sec:triggersystem}
 
-With bunch crossings separated by just 25 ns, the rate at which data from collisions would have to be written out and processed would be unfeasible. A two-tiered triggering system is applied at \CMS in order to cope with the high collision rate of protons. The \CMS trigger is designed to use limited information from each event to determine whether to record the event, reducing the rate of data taking to manageable levels whilst ensuring a high efficiency of interesting physics object events are selected.
+With bunch crossings separated by just 25 ns, the rate at which data from all collisions would have to be written out and processed would be unfeasible. A two-tiered triggering system is applied at \CMS in order to cope with the high collision rate of protons. The \CMS trigger is designed to use limited information from each event to determine whether to record the event, reducing the rate of data taking to manageable levels whilst ensuring a high efficiency of interesting physics object events are selected.
 
 The Level-1 (\L1) trigger is a pipelined, dead-timeless system based on custom-built electronics \cite{Dasu:2000ge}. The \L1 system is covered in more detail within the following section along with a description of the service work undertaken by the author to benchmark the performance of the \L1 calorimeter trigger during the 2012 8 \TeV run period.
 
@@ -214,18 +214,21 @@ The Higher Level Trigger (\HLT) is a large farm of commercial computers \cite{Sp
 \subsection{\L1 Trigger}
 \label{subsec:l1trigger}
 
-In the Level-1 calorimeter trigger, coarse measurements of the energy deposited in the electromagnetic and hadronic calorimeters are combined and by using sophisticated algorithms the following physics objects are formed:
+The \L1 trigger is able to reduce the rate of events from 40 MHz to $\sim$100 kHz using information from the calorimeters and muon chambers, but not the tracker. A tree system of triggers is used to decide wether to pass on an event to the \HLT for further reconstruction. Firstly the Calorimeter and Muon event information is kept separate, with local reconstruction of objects ($\mu$,e,$\gamma$,jets) performed by the Regional Calorimeter Trigger (\RCT) and Regional Muon Triger (\RMT) respectively. These objects are passed on to the Global Calorimeter Trigger (\GCT) and Global Muon Trigger (\GMT). 
+
+In the \L1 \GCT, coarse measurements of the energy deposited in the electromagnetic and hadronic calorimeters are combined and by using sophisticated algorithms the following physics objects are formed:
 
 \begin{itemize}
-	\item isolated and non-isolated electromagnetic objects (electrons and photons);
+	\item isolated and non-isolated electromagnetic objects (e and $\gamma$);
 	\item hadronic jets in the central and forward sections of the hadronic calorimeters;
 	\item hadronically decaying tau leptons;
 	\item total transverse energy ($\et$) and missing transverse energy ($\met$); 
 	\item total transverse jet energy ($\theht$) and missing transverse jet energy ($\mht$). 
 \end{itemize}
 
-In addition quantities suitable for triggering minimum bias events, forward physics and beam background events are calculated. With the exception of the electromagnetic objects all the \L1 calorimeter trigger algorithms run in the Global Calorimeter Trigger (\GCT) hardware.
+In addition quantities suitable for triggering minimum bias events, forward physics and beam background events are calculated. With the exception of the electromagnetic objects all the \L1 calorimeter trigger algorithms run in the \GCT hardware. Additionally relevant muon isolation information is also passed on to the \GMT for decisions involving the muon triggers. The \GMT combines information across the three muon sub-systems and information supplied by the \GCT. The resultant final accept/reject decision at \L1 is then performed by the Global Trigger (\GT) based on the objects formed by the \GCT and \GMT ($e/\gamma$, $\mu$, jets, $\et$, $\met$, $\theht$).
 
+The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing trigger and a good understanding of it's performance, there would be no data to analyse. Observations of how the \L1 trigger performance is affected by changing \LHC running conditions over the 2012 run period and also the introduction of a jet seed threshold to the \L1 jet trigger algorithm is presented in the following Sections \ref{subsec:l1jettrigger} - \ref{subsec:l1jetseedpu}.
 
 \subsection{ \L1 Trigger Jet Algorithm}
 \label{subsec:l1jettrigger}
@@ -234,7 +237,7 @@ The \L1 jet trigger uses the transverse energy sums computed in the calorimeter 
 
 The L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap or $3 \times 3$ larger \HF towers in the \HF. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by $(\eta, \phi)$ indexes of the central calorimeter region.                                                                                                                                                  
 
-Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as central. The four highest energy central and forward jets in the calorimeter are selected. After jets are found, Look Up Tables (\LUT's) are used to apply a programmable $\eta-$dependent jet energy scale correction. 
+Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as central. The four highest energy central, forward and $\tau$ jets in the calorimeter are used to make the \L1 trigger decision. After jets are found, Look Up Tables (\LUT's) are used to apply a programmable $\eta-$dependent jet energy scale correction. 
 
 \begin{figure}[ht!]
 \centering
@@ -243,19 +246,96 @@ Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta
 \label{fig:l1jetalgo}
 \end{figure}  
 
+The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \CMS. Jets are corrected for pileup and detector effects as described in \ref{subsec:cmsobjects-jets}. A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``looseÓ identification criteria for both \Calo and \PF. These criteria are summarised in Appendix \ref{app:noise}. 
+
 
 \subsection{Measuring \L1 Jet Trigger Efficiencies}
 \label{subsec:l1jettrigeff}
 
-Measurement of the \L1 trigger efficiency is essential for É.  
-
 The L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 tau or central jet above a certain trigger threshold, divided by all the offline jets in the event. This quantity is then plotted as a function of the offline jet $\et$, $\eta$ and $\phi$. The efficiency is determined by matching the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  This is done by calculating the minimum separation in $\Delta R$ between the highest offline reconstructed jet in $\et$ ($\et>10$~GeV,$\lvert\eta\rvert<3$) and any L1 jet. A jet will be matched if this value is found to be $< 0.5$. Should more than one jet satisfy this, the jet closest in $\Delta R$ is taken as the matched jet.
+
+Each efficiency curve is fitted with a function which is the cumulative distribution function of an Exponentially Modified Gaussian (EMG) distribution:
+\begin{eqnarray}
+f(x; \mu, \sigma, \lambda) = \frac{\lambda}{2} \cdot e^{\frac{\lambda}{2}(2 \mu + \lambda \sigma^2 - 2 x)} \cdot \textrm{erfc}( \frac{\mu + \lambda \sigma^2 - x}{\sqrt{2} \sigma})
+\label{eq:emg}
+\end{eqnarray}
+where \textrm{erfc} is the complementary error function defined as:
+$$ \textrm{erfc}(x) = 1 - \textrm{erf}(x) = \frac{2}{\sqrt{\pi}} \int_{x}^{\infty} e^{-t^2} dt.$$
+
+In this functional form, the parameter $\mu$ determines the point of 50\% of the plateau efficiency and the $\sigma$ gives the resolution. This parametrisation is used to benchmark the efficiency at the plateau, the turn-on points and resolution for each L1 Jet trigger. The choice of function is purely empirical. Previous studies used the error function alone, which described the data well at high threshold values but could not describe the efficiencies well at lower thresholds \cite{L1JEC}.
+
+The efficiency turn-on curves for various \L1 jet thresholds are evaluated as a function of the offline reconstructed jet E$_{T}$ for central jets with $| \eta | < 3$. These are measured using single isolated $\mu$ triggers which have high statistics, and are orthoganal and therefore unbiased to the hadronic triggers under study. The efficiency is calculated with respect to offline \Calo and \PF Jets in Figure  \ref{fig:l1jet-calopf-mu}. Table \ref{tab:l1jettable} shows the values of these parameters for three example \L1 jet triggers, from the 2012 8 \TeV data.
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC.png}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_PF.png}
+\end{minipage}
+\quad
+\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data using an isolated $\mu$ data sample.]{L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data using an isolated $\mu$ data sample.}
+\label{fig:l1jet-calopf-mu} 
+
+\end{figure}
+
+\begin{table}
+
+
+\begin{center}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
+\cline{1-5}
+& \multicolumn{2}{c|}{Calo} & \multicolumn{2}{c|}{PF} \\ \cline{2-5}
+Trigger & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-5}
+L1\_SingleJet16 & 9.75 $\pm$ 0.02 & 1.97 $\pm$ 0.02 & 7.39 $\pm$ 0.01 & 0.80 $\pm$ 0.01 \\ \cline{1-5}
+L1\_SingleJet36 & 41.34 $\pm$ 0.02 & 5.52 $\pm$ 0.01 & 36.76 $\pm$ 0.01 & 7.87 $\pm$ 0.01 \\ \cline{1-5}
+L1\_SingleJet92 & 96.15 $\pm$ 0.04 & 5.95 $\pm$ 0.03 & 91.27 $\pm$ 0.06 & 11.46 $\pm$ 0.03  \\ \cline{1-5}
+\end{tabular*}
+\end{center}
+
+\caption[Results of a cumulative EMG function fit to the turn-on curves for \L1 single jet triggers in 2012 Run Period C, measured in an isolated $\mu$ data sample. The turn-on point, $\mu$, and resolution, $\sigma$, of the \L1 jet triggers are measured with respect to offline Calo Jets (left) and PF Jets (right). ]{Results of a cumulative EMG function fit to the turn-on curves for \L1 single jet triggers in run 2012 Run Period C, measured in an isolated $\mu$ data sample. The turn-on point, $\mu$, and resolution, $\sigma$, of the L1 jet triggers are measured with respect to offline Calo Jets (left) and PF Jets (right). }
+\label{tab:l1jettable}
+\end{table}
+
 
 \subsection{Effects of the \L1 Jet Seed and Robustness to Pileup}
 \label{subsec:l1jetseedpu}
 
-Between run B and run C of the 2012 data taking period, a jet seed threshold was introduced into the \L1 trigger jet algorithm. The jet seed was introduced to counteract the effects of high pile up running conditions which create a large number of soft non-collimated jets, that are then added to the jets from the primary interaction or other soft jets from other secondary interactions. This in turn causes a large in trigger rate due to the increase in the likelihood that the event causes the \L1 trigger to fire.
+Between run period B and C of the 2012 data taking period, a jet seed threshold was introduced into the \L1 trigger jet algorithm. There was previously no direct requirement made on the energy deposited in the central region. The introduction of a jet seed threshold required that the central region have $\et \geq 5$\GeV, and was introduced to counteract the effects of high pile up running conditions which create a large number of soft non-collimated jets, that are then added to the jets from the primary interaction or other soft jets from other secondary interactions \cite{L1bryn}. This in turn causes a large in trigger rate due to the increase in the likelihood that the event causes the \L1 trigger to fire.
+
+The effect of the introduction of this jet seed threshold between these two run periods is benchmarked through a comparison of the efficiency of the \L1 jet triggers with respect to offline Calo jets shown in Fig.~\ref{fig:l1jetseeds}, and the \L1 $H_{T}$ trigger efficiency in Fig.~\ref{fig:l1jetseedhts} which are constructed offline from Calo jets with $\et \geq$ 40\GeV. To negate any effects from different pile-up conditions in the run periods, the efficiencies are measured in events which contain between 15 and 20 primary vertices as defined in Appendix \ref{app:primaryvertices}. 
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/jetseed_36.png}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/jetseed_92.png}
+\end{minipage}
+\quad
+\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C with the ``single $\mu$'' sample]{L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C with the ``single $\mu$'' sample}
+\label{fig:l1jetseeds} 
+
+\end{figure}
+It can be seen that the performance of the $E_{T} > 36,92$ single jet are almost identical, with the jet seed having no measurable effect on these triggers as shown in Table \ref{tab:l1jetseedtable} . 
 
 
+\begin{table}[h!]
+\caption[Results of a cumulative EMG function fit to the turn-on curves for \L1 single jet triggers in the 2012 run period B and C, preselected on an isolated muon trigger. The turn-on point $\mu$ and resolution $\sigma$ of the L1 jet triggers are measured with respect to offline Calo Jets in run B (left) and run C (right).]{Results of a cumulative EMG function fit to the turn-on curves for \L1 single jet triggers in the 2012 run period B and C, preselected on an isolated muon trigger. The turn-on point $\mu$ and resolution $\sigma$ of the L1 jet triggers are measured with respect to offline Calo Jets in run B (left) and run C (right). }
+\label{tab:l1jetseedtable}
+\begin{center}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
+\cline{1-5}
+& \multicolumn{2}{c|}{2012B} & \multicolumn{2}{c|}{2012C} \\ \cline{2-5}
+Trigger & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-5}
+L1\_SingleJet36 & 40.27 $\pm$ 0.04 & 5.28 $\pm$ 0.02 & 40.09 $\pm$ 0.05 & 5.69 $\pm$ 0.02 \\ \cline{1-5}
+L1\_SingleJet92 & 95.04 $\pm$ 0.09 & 5.91 $\pm$ 0.06 & 95.64 $\pm$ 0.09 & 5.97 $\pm$ 0.05 \\ \cline{1-5}
+\end{tabular*}
+\end{center}
+\end{table}
 
 
