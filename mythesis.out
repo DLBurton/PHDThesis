@@ -15,20 +15,24 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 15
 \BOOKMARK [2][-]{subsection.3.3.2}{B-tagging}{section.3.3}% 16
 \BOOKMARK [1][-]{section.3.4}{Triggering System}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.4.1}{L1 Trigger}{section.3.4}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{The Level-1 Trigger}{section.3.4}% 18
 \BOOKMARK [2][-]{subsection.3.4.2}{ L1 Trigger Jet Algorithm}{section.3.4}% 19
 \BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 Jet Trigger Efficiencies}{section.3.4}% 20
-\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed and Robustness to Pileup}{section.3.4}% 21
-\BOOKMARK [0][-]{chapter.4}{Searches for SUSY at the LHC}{}% 22
-\BOOKMARK [1][-]{section.4.1}{The T search}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.1.1}{Search Strategy}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 26
-\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 28
-\BOOKMARK [0][-]{appendix.A}{}{}% 29
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 30
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 31
-\BOOKMARK [0][-]{appendix*.15}{Bibliography}{}% 32
-\BOOKMARK [0][-]{appendix*.16}{List of Figures}{}% 33
-\BOOKMARK [0][-]{appendix*.17}{List of Tables}{}% 34
+\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 Jet Performance against Pile-up}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.6}{Summary}{section.3.4}% 23
+\BOOKMARK [0][-]{chapter.4}{Searches for SUSY at the LHC}{}% 24
+\BOOKMARK [1][-]{section.4.1}{The T search}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Search Strategy}{section.4.1}% 26
+\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 30
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 31
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 32
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 33
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 34
+\BOOKMARK [1][-]{section.B.1}{Jet Resolution}{appendix.B}% 35
+\BOOKMARK [0][-]{appendix*.26}{Bibliography}{}% 36
+\BOOKMARK [0][-]{appendix*.27}{List of Figures}{}% 37
+\BOOKMARK [0][-]{appendix*.28}{List of Tables}{}% 38

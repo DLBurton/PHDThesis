@@ -1,7 +1,7 @@
 %% The "\appendix" call has already been made in the declaration
 %% of the "appendices" environment (see thesis.tex).
 
-\chapter{}
+\chapter{Miscellaneous}
 \section{Noise Filters}
 \label{app:noise}
 
@@ -48,5 +48,29 @@ The pileup per event is defined by the number of 'good' reconstructed primary ve
 	\item vertex position perpendicular to the beam of $\rho < 2$cm.
 
 \end{itemize}
+
+
+\chapter{L1 Jets}
+
+\section{Jet Resolution}
+\label{app:jetpuresolution}
+
+\begin{figure}[htp]
+
+    \centering
+    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.png}  }\,
+     \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
+\end{figure}
+
+\begin{figure}
+    \ContinuedFloat
+    \centering
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.png}}\,
+
+      \caption[ Resolution plots of the leading offline \Calo jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
+       \label{fig:jetptresolutionspu}
+\end{figure}
+
+
 
 

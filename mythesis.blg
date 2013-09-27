@@ -8,45 +8,45 @@ Warning--empty author and editor in CMS_ECAL_TDR
 Warning--empty author and editor in CMS_MUON_TDR
 Warning--empty author in CMS-PAS-JME-10-003
 Warning--empty author in btag8tev
-You've used 23 entries,
+You've used 24 entries,
             1946 wiz_defined-function locations,
-            721 strings with 7243 characters,
-and the built_in function-call counts, 3591 in all, are:
-= -- 250
-> -- 157
-< -- 2
-+ -- 59
-- -- 29
-* -- 264
-:= -- 486
-add.period$ -- 23
-call.type$ -- 23
+            726 strings with 7351 characters,
+and the built_in function-call counts, 3696 in all, are:
+= -- 258
+> -- 163
+< -- 3
++ -- 61
+- -- 30
+* -- 271
+:= -- 504
+add.period$ -- 24
+call.type$ -- 24
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 207
-empty$ -- 373
-format.name$ -- 48
-if$ -- 814
+cite$ -- 29
+duplicate$ -- 212
+empty$ -- 381
+format.name$ -- 50
+if$ -- 835
 int.to.chr$ -- 0
-int.to.str$ -- 23
+int.to.str$ -- 24
 missing$ -- 18
-newline$ -- 94
-num.names$ -- 19
-pop$ -- 107
+newline$ -- 98
+num.names$ -- 20
+pop$ -- 111
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 141
+skip$ -- 143
 stack$ -- 0
 substring$ -- 143
-swap$ -- 49
-text.length$ -- 2
+swap$ -- 50
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 27
-width$ -- 25
-write$ -- 171
+while$ -- 28
+width$ -- 26
+write$ -- 178
 (There were 5 warnings)
