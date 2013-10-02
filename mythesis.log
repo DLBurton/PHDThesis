@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  27 SEP 2013 16:57
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  2 OCT 2013 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,30 +920,32 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks34
 \@floatcapt=\box43
 )
-LaTeX Info: Redefining \parenths on input line 15.
-LaTeX Info: Redefining \braces on input line 16.
-LaTeX Info: Redefining \angles on input line 17.
-LaTeX Info: Redefining \sqbracs on input line 18.
-LaTeX Info: Redefining \mods on input line 19.
-LaTeX Info: Redefining \modsq on input line 20.
-LaTeX Info: Redefining \dblmods on input line 21.
-LaTeX Info: Redefining \expOf on input line 22.
-LaTeX Info: Redefining \eexp on input line 23.
-LaTeX Info: Redefining \plusquad on input line 24.
-LaTeX Info: Redefining \logOf on input line 25.
-LaTeX Info: Redefining \lnOf on input line 26.
-LaTeX Info: Redefining \ofOrder on input line 27.
-LaTeX Info: Redefining \CPv on input line 32.
-LaTeX Info: Redefining \LHCb on input line 33.
-LaTeX Info: Redefining \LHC on input line 34.
-LaTeX Info: Redefining \LEP on input line 35.
-LaTeX Info: Redefining \CERN on input line 36.
-LaTeX Info: Redefining \GeV on input line 38.
-LaTeX Info: Redefining \TeV on input line 39.
-LaTeX Info: Redefining \CKM on input line 40.
-LaTeX Info: Redefining \ns on input line 43.
-LaTeX Info: Redefining \APD on input line 65.
-LaTeX Info: Redefining \L1 on input line 76.
+LaTeX Info: Redefining \parenths on input line 13.
+LaTeX Info: Redefining \braces on input line 14.
+LaTeX Info: Redefining \angles on input line 15.
+LaTeX Info: Redefining \sqbracs on input line 16.
+LaTeX Info: Redefining \mods on input line 17.
+LaTeX Info: Redefining \modsq on input line 18.
+LaTeX Info: Redefining \dblmods on input line 19.
+LaTeX Info: Redefining \expOf on input line 20.
+LaTeX Info: Redefining \eexp on input line 21.
+LaTeX Info: Redefining \plusquad on input line 22.
+LaTeX Info: Redefining \logOf on input line 23.
+LaTeX Info: Redefining \lnOf on input line 24.
+LaTeX Info: Redefining \ofOrder on input line 25.
+LaTeX Info: Redefining \SUSY on input line 29.
+LaTeX Info: Redefining \SM on input line 30.
+LaTeX Info: Redefining \CPv on input line 33.
+LaTeX Info: Redefining \LHCb on input line 34.
+LaTeX Info: Redefining \LHC on input line 35.
+LaTeX Info: Redefining \LEP on input line 36.
+LaTeX Info: Redefining \CERN on input line 37.
+LaTeX Info: Redefining \GeV on input line 39.
+LaTeX Info: Redefining \TeV on input line 40.
+LaTeX Info: Redefining \CKM on input line 41.
+LaTeX Info: Redefining \ns on input line 44.
+LaTeX Info: Redefining \APD on input line 67.
+LaTeX Info: Redefining \L1 on input line 79.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1125,7 +1127,7 @@ Non-PDF special ignored!
 ] [5
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 44
+Package tocbasic Info: character protrusion at toc deactivated on input line 41
 .
  (./mythesis.toc [6
 
@@ -1148,11 +1150,11 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
-) (./chap_theory.tex [2
+[2
 
-]
+]) (./chap_theory.tex [3]
 Chapter 2.
-) (./chap_detector.tex [3
+) (./chap_detector.tex [4
 
 ]
 Chapter 3.
@@ -1166,9 +1168,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[4
+[5
 
-] <plots/lhc-ring-photo.png, id=265, 1035.87pt x 1114.1625pt>
+] <plots/lhc-ring-photo.png, id=281, 1035.87pt x 1114.1625pt>
 File: plots/lhc-ring-photo.png Graphic file (type png)
 
 <use plots/lhc-ring-photo.png>
@@ -1176,134 +1178,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[5 <./plots/lhc-ring-photo.png>]
-<plots/lhc-lumo-8tev.png, id=285, 578.16pt x 433.62pt>
+[6 <./plots/lhc-ring-photo.png>]
+<plots/lhc-lumo-8tev.png, id=302, 578.16pt x 433.62pt>
 File: plots/lhc-lumo-8tev.png Graphic file (type png)
 
 <use plots/lhc-lumo-8tev.png>
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[6 <./plots/lhc-lumo-8tev.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[7 <./plots/lhc-lumo-8tev.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<plots/cms-detector.png, id=296, 481.8pt x 320.19624pt>
+[8] <plots/cms-detector.png, id=319, 481.8pt x 320.19624pt>
 File: plots/cms-detector.png Graphic file (type png)
 
 <use plots/cms-detector.png>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Command \textless invalid in math mode on input line 69.
 
-
-LaTeX Warning: Command \textless invalid in math mode on input line 67.
-
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 67.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 69.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 67.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 67.
+LaTeX Warning: Command \textless invalid in math mode on input line 69.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[8 <./plots/cms-detector.png>]
+[9 <./plots/cms-detector.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<plots/cms-ecal.png, id=315, 449.0376pt x 244.2726pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+<plots/cms-ecal.png, id=332, 449.0376pt x 244.2726pt>
 File: plots/cms-ecal.png Graphic file (type png)
  <use plots/cms-ecal.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<plots/cms-hcal.png, id=324, 429.7656pt x 259.2084pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+<plots/cms-hcal.png, id=341, 429.7656pt x 259.2084pt>
 File: plots/cms-hcal.png Graphic file (type png)
  <use plots/cms-hcal.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./plots/cms-ecal.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[11 <./plots/cms-ecal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[11 <./plots/cms-hcal.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[12 <./plots/cms-hcal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+[13]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 141.
 
  (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[13]
+[14]
 Missing character: There is no Þ in font cmr12!
- <plots/btag-ttbardiscrim.png, id=366, 506.3718pt x 364.7226pt>
+ <plots/btag-ttbardiscrim.png, id=382, 506.3718pt x 364.7226pt>
 File: plots/btag-ttbardiscrim.png Graphic file (type png)
 
 <use plots/btag-ttbardiscrim.png>
-<plots/btag-multijetdiscrim.png, id=367, 506.3718pt x 364.7226pt>
+<plots/btag-multijetdiscrim.png, id=383, 506.3718pt x 364.7226pt>
 File: plots/btag-multijetdiscrim.png Graphic file (type png)
 
 <use plots/btag-multijetdiscrim.png>
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-[14] <plots/btag-csvm_pt_sf.png, id=379, 569.0058pt x 545.8794pt>
+[15] [16 <./plots/btag-ttbardiscrim.png> <./plots/btag-multijetdiscrim.png>]
+<plots/btag-csvm_pt_sf.png, id=402, 569.0058pt x 545.8794pt>
 File: plots/btag-csvm_pt_sf.png Graphic file (type png)
 
 <use plots/btag-csvm_pt_sf.png>
-<plots/btag-csvm_eta_sf.png, id=380, 569.0058pt x 545.8794pt>
+<plots/btag-csvm_eta_sf.png, id=403, 569.0058pt x 545.8794pt>
 File: plots/btag-csvm_eta_sf.png Graphic file (type png)
 
 <use plots/btag-csvm_eta_sf.png>
-<plots/btag-csvm_vert_sf.png, id=381, 569.0058pt x 545.8794pt>
+<plots/btag-csvm_vert_sf.png, id=404, 569.0058pt x 545.8794pt>
 File: plots/btag-csvm_vert_sf.png Graphic file (type png)
 
 <use plots/btag-csvm_vert_sf.png>
 Missing character: There is no Þ in font cmr12!
 
-<plots/btag-csvmsf.png, id=383, 569.12625pt x 385.44pt>
+<plots/btag-csvmsf.png, id=406, 569.12625pt x 385.44pt>
 File: plots/btag-csvmsf.png Graphic file (type png)
 
 <use plots/btag-csvmsf.png>
@@ -1311,100 +1311,99 @@ Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
- [15 <./plots/btag-ttbardiscrim.png> <./plots/btag-multijetdiscrim.png>] [16 <.
-/plots/btag-csvm_pt_sf.png> <./plots/btag-csvm_eta_sf.png> <./plots/btag-csvm_v
-ert_sf.png> <./plots/btag-csvmsf.png, page is rotated 90 degrees>] <plots/l1tri
-ggersystem.png, id=448, 330.9966pt x 254.3904pt>
+
+<plots/l1triggersystem.png, id=409, 330.9966pt x 254.3904pt>
 File: plots/l1triggersystem.png Graphic file (type png)
 
-<use plots/l1triggersystem.png> [17 <./plots/l1triggersystem.png>] [18]
-<plots/L1JetAlgorithm.png, id=468, 343.0416pt x 176.8206pt>
+<use plots/l1triggersystem.png> [17 <./plots/btag-csvm_pt_sf.png> <./plots/btag
+-csvm_eta_sf.png> <./plots/btag-csvm_vert_sf.png>] [18 <./plots/btag-csvmsf.png
+, page is rotated 90 degrees>] [19 <./plots/l1triggersystem.png>]
+<plots/L1JetAlgorithm.png, id=483, 343.0416pt x 176.8206pt>
 File: plots/L1JetAlgorithm.png Graphic file (type png)
 
 <use plots/L1JetAlgorithm.png>
 Missing character: There is no Ó in font cmr12!
- [19] [20 <./plots/L1JetAlgorithm.png>]
-<plots/jetpt_RunC.png, id=487, 748.7975pt x 624.3325pt>
+ [20] [21 <./plots/L1JetAlgorithm.png>]
+<plots/jetpt_RunC.png, id=503, 748.7975pt x 624.3325pt>
 File: plots/jetpt_RunC.png Graphic file (type png)
 
 <use plots/jetpt_RunC.png>
-<plots/jetpt_RunC_PF.png, id=488, 748.7975pt x 624.3325pt>
+<plots/jetpt_RunC_PF.png, id=504, 748.7975pt x 624.3325pt>
 File: plots/jetpt_RunC_PF.png Graphic file (type png)
 
 <use plots/jetpt_RunC_PF.png>
-Overfull \hbox (69.04929pt too wide) in alignment at lines 300--307
+Overfull \hbox (69.04929pt too wide) in alignment at lines 302--309
 [] [] [] [] []
  []
 
-[21 <./plots/jetpt_RunC.png (PNG copy)> <./plots/jetpt_RunC_PF.png (PNG copy)>]
-<plots/jetseed_36.png, id=501, 748.7975pt x 624.3325pt>
+[22 <./plots/jetpt_RunC.png (PNG copy)> <./plots/jetpt_RunC_PF.png (PNG copy)>]
+<plots/jetseed_36.png, id=516, 748.7975pt x 624.3325pt>
 File: plots/jetseed_36.png Graphic file (type png)
 
 <use plots/jetseed_36.png>
-<plots/jetseed_92.png, id=502, 748.7975pt x 624.3325pt>
+<plots/jetseed_92.png, id=517, 748.7975pt x 624.3325pt>
 File: plots/jetseed_92.png Graphic file (type png)
 
 <use plots/jetseed_92.png>
-Overfull \hbox (63.17435pt too wide) in alignment at lines 343--349
+Overfull \hbox (63.17435pt too wide) in alignment at lines 345--351
 [] [] [] [] []
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots/l1rateplot.png, id=505, 339.669pt x 251.0178pt>
+[23] <plots/l1rateplot.png, id=528, 339.669pt x 251.0178pt>
 File: plots/l1rateplot.png Graphic file (type png)
 
-<use plots/l1rateplot.png> [22]
-<plots/jetseed_ht100.png, id=518, 698.61pt x 574.145pt>
+<use plots/l1rateplot.png>
+<plots/jetseed_ht100.png, id=532, 698.61pt x 574.145pt>
 File: plots/jetseed_ht100.png Graphic file (type png)
 
 <use plots/jetseed_ht100.png>
-<plots/jetseed_ht150.png, id=519, 698.61pt x 574.145pt>
+<plots/jetseed_ht150.png, id=533, 698.61pt x 574.145pt>
 File: plots/jetseed_ht150.png Graphic file (type png)
 
 <use plots/jetseed_ht150.png>
-Overfull \hbox (39.52237pt too wide) in alignment at lines 384--390
+Overfull \hbox (39.52237pt too wide) in alignment at lines 386--392
 [] [] [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/jetpt_RunC_calopu.png, id=523, 748.7975pt x 624.3325pt>
+[24 <./plots/jetseed_36.png (PNG copy)> <./plots/jetseed_92.png (PNG copy)>]
+<plots/jetpt_RunC_calopu.png, id=544, 748.7975pt x 624.3325pt>
 File: plots/jetpt_RunC_calopu.png Graphic file (type png)
 
 <use plots/jetpt_RunC_calopu.png>
-<plots/jetpt_RunC_pfpu.png, id=524, 748.7975pt x 624.3325pt>
+<plots/jetpt_RunC_pfpu.png, id=545, 748.7975pt x 624.3325pt>
 File: plots/jetpt_RunC_pfpu.png Graphic file (type png)
 
-<use plots/jetpt_RunC_pfpu.png> [23 <./plots/jetseed_36.png (PNG copy)> <./plot
-s/jetseed_92.png (PNG copy)>]
-Overfull \hbox (58.82442pt too wide) in alignment at lines 421--428
+<use plots/jetpt_RunC_pfpu.png> [25 <./plots/l1rateplot.png> <./plots/jetseed_h
+t100.png (PNG copy)> <./plots/jetseed_ht150.png (PNG copy)>]
+Overfull \hbox (58.82442pt too wide) in alignment at lines 423--430
 [] [] [] [] [] [] []
  []
 
 
-Overfull \hbox (76.44923pt too wide) in alignment at lines 436--443
+Overfull \hbox (76.44923pt too wide) in alignment at lines 438--445
 [] [] [] [] [] [] []
  []
 
-[24 <./plots/l1rateplot.png> <./plots/jetseed_ht100.png (PNG copy)> <./plots/je
-tseed_ht150.png (PNG copy)>]
-<plots/res_CaloJet_summary.png, id=544, 1200.485pt x 373.395pt>
+[26 <./plots/jetpt_RunC_calopu.png (PNG copy)> <./plots/jetpt_RunC_pfpu.png (PN
+G copy)>] <plots/res_CaloJet_summary.png, id=563, 1200.485pt x 373.395pt>
 File: plots/res_CaloJet_summary.png Graphic file (type png)
 
-<use plots/res_CaloJet_summary.png> [25 <./plots/jetpt_RunC_calopu.png (PNG cop
-y)> <./plots/jetpt_RunC_pfpu.png (PNG copy)>]
-<plots/res_PFJet_summary.png, id=551, 1200.485pt x 373.395pt>
+<use plots/res_CaloJet_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_PFJet_summary.png, id=564, 1200.485pt x 373.395pt>
 File: plots/res_PFJet_summary.png Graphic file (type png)
 
 <use plots/res_PFJet_summary.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chap_alphat.tex [26 <./plots/res_CaloJet_summary.png (PNG copy)>] [27 <./p
-lots/res_PFJet_summary.png (PNG copy)>]
+[27]) (./chap_alphat.tex [28 <./plots/res_CaloJet_summary.png (PNG copy)> <./pl
+ots/res_PFJet_summary.png (PNG copy)>]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1462,41 +1461,121 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [28
+) (./chap_results.tex [29
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./appendices.tex [29
+ (./comment.cut (./appendices.tex [30
 
 ]
 Appendix A.
-[30
+[31
 
-] [31]
+] [32]
 Appendix B.
-<plots/ptresolution_low.png, id=577, 1158.3275pt x 645.41125pt>
+<plots/ptresolution_low.png, id=595, 1158.3275pt x 645.41125pt>
 File: plots/ptresolution_low.png Graphic file (type png)
 
 <use plots/ptresolution_low.png>
-<plots/ptresolution_medium.png, id=578, 1156.32pt x 644.4075pt>
+<plots/ptresolution_medium.png, id=596, 1156.32pt x 644.4075pt>
 File: plots/ptresolution_medium.png Graphic file (type png)
 
 <use plots/ptresolution_medium.png>
-<plots/ptresolution_high.png, id=579, 1154.3125pt x 643.40375pt>
+<plots/ptresolution_high.png, id=597, 1154.3125pt x 643.40375pt>
 File: plots/ptresolution_high.png Graphic file (type png)
 
-<use plots/ptresolution_high.png>))
+<use plots/ptresolution_high.png>
+File: plots/ptresolution_low.png Graphic file (type png)
+ <use plots/ptresolution_low.png>
+File: plots/ptresolution_medium.png Graphic file (type png)
+
+<use plots/ptresolution_medium.png>
+File: plots/ptresolution_high.png Graphic file (type png)
+ <use plots/ptresolution_high.png> [33
+
+ <./plots/ptresolution_low.png (PNG copy)>] [34 <./plots/ptresolution_medium.pn
+g (PNG copy)> <./plots/ptresolution_high.png (PNG copy)>] [35pdfTeX warning (ex
+t4): destination with the same identifier (name{subfigure.\\relax\040B.1.1}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91 \newpage
+             ]
+<plots/res_CaloSumET_summary.png, id=618, 999.735pt x 373.395pt>
+File: plots/res_CaloSumET_summary.png Graphic file (type png)
+
+<use plots/res_CaloSumET_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfSumET_summary.png, id=619, 999.735pt x 373.395pt>
+File: plots/res_pfSumET_summary.png Graphic file (type png)
+
+<use plots/res_pfSumET_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_CaloMET_summary.png, id=620, 999.735pt x 373.395pt>
+File: plots/res_CaloMET_summary.png Graphic file (type png)
+
+<use plots/res_CaloMET_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfMET_summary.png, id=621, 999.735pt x 373.395pt>
+File: plots/res_pfMET_summary.png Graphic file (type png)
+
+<use plots/res_pfMET_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_CaloHT_summary.png, id=622, 999.735pt x 373.395pt>
+File: plots/res_CaloHT_summary.png Graphic file (type png)
+
+<use plots/res_CaloHT_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfHT_summary.png, id=623, 999.735pt x 373.395pt>
+File: plots/res_pfHT_summary.png Graphic file (type png)
+
+<use plots/res_pfHT_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_CaloMHT_summary.png, id=624, 999.735pt x 373.395pt>
+File: plots/res_CaloMHT_summary.png Graphic file (type png)
+
+<use plots/res_CaloMHT_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfMHT_summary.png, id=625, 999.735pt x 373.395pt>
+File: plots/res_pfMHT_summary.png Graphic file (type png)
+
+<use plots/res_pfMHT_summary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+))
 \openout3 = `comment.cut'.
 
- [32
+ [36pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+.\\relax\040B.0.3}) has been already used, duplicate ignored
 
-] [33 <./plots/ptresolution_low.png (PNG copy)> <./plots/ptresolution_medium.pn
-g (PNG copy)>] [34 <./plots/ptresolution_high.png (PNG copy)>] (./comment.cut (
-./backmatter.tex (./mythesis.bbl
-[35
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.56 \end{backmatter}
+                     ] [37 <./plots/res_CaloSumET_summary.png (PNG copy)> <./pl
+ots/res_pfSumET_summary.png (PNG copy)>] [38 <./plots/res_CaloMET_summary.png (
+PNG copy)> <./plots/res_pfMET_summary.png (PNG copy)>] [39 <./plots/res_CaloHT_
+summary.png (PNG copy)> <./plots/res_pfHT_summary.png (PNG copy)>] [40 <./plots
+/res_CaloMHT_summary.png (PNG copy)> <./plots/res_pfMHT_summary.png (PNG copy)>
+] (./comment.cut (./backmatter.tex (./mythesis.bbl [41
 
 
 ]
@@ -1511,42 +1590,43 @@ Overfull \hbox (71.36787pt too wide) in paragraph at lines 34--37
 cern.ch/public/Objects/LHC/CMSnc.jpg.,
  []
 
-[36
+[42
 
-]) [37] (./mythesis.lof
+]) [43] (./mythesis.lof
 Missing character: There is no Þ in font cmr12!
 Missing character: There is no Þ in font cmr12!
- [38
+ [44
 
-])
+] [45])
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [39] (./mythesis.lot)
+ [46] (./mythesis.lot)
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [40
+ [47
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
- (./mythesis.aux)
+
+(./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 79694A9572BBD4C8CAD6D60E72463A10;2543.
+(rerunfilecheck)             Checksum: 7A87D33D3396E8A8B40D20220642B286;2642.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21313 strings out of 493747
- 334851 string characters out of 3143546
- 488359 words of memory out of 3000000
- 23782 multiletter control sequences out of 15000+200000
- 33858 words of font info for 179 fonts, out of 3000000 for 9000
+ 21365 strings out of 493747
+ 336379 string characters out of 3143546
+ 491058 words of memory out of 3000000
+ 23805 multiletter control sequences out of 15000+200000
+ 33907 words of font info for 180 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  57i,18n,53p,1422b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1568,10 +1648,10 @@ ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/
 texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on mythesis.pdf (47 pages, 2249854 bytes).
+Output written on mythesis.pdf (54 pages, 2420776 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 647 compressed objects within 7 object streams
- 141 named destinations out of 1000 (max. 500000)
- 26564 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 724 compressed objects within 8 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 26612 words of extra memory for PDF output out of 29859 (max. 10000000)
 

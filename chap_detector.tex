@@ -22,7 +22,9 @@ These counter-circulating beams of protons/Pb ions are merged in four sections a
 \end{figure}
 
 
-Proton beams are formed inside the Proton Synchrotron (PS) from bunches of protons 50 \ns apart with an energy of 26 \GeV. The protons are then accelerated in the Super Proton Synchrotron(SPS) to 450 \GeV  before being injected into the \LHC. These \LHC proton beams consists of many "bunches" i.e. approximately $1.1 \times 10^{11}$  protons localized into less than 1 \ns in the direction of motion. Before collision the beams are ramped to 4 \TeV (2012) per beam in a process involving increasing the current passing through the dipole magnets. Once the desired \com energy is reached then the beams are allowed to collide at the interaction points. The luminosity falls regularly as the run progresses as protons are lost in collisions, and eventually the beam is dumped before repeating the process again. \\
+Proton beams are formed inside the Proton Synchrotron (PS) from bunches of protons 50 \ns apart with an energy of 26 \GeV. The protons are then accelerated in the Super Proton Synchrotron(SPS) to 450 \GeV  before being injected into the \LHC. These \LHC proton beams consists of many ``bunches" i.e. approximately $1.1 \times 10^{11}$  protons localized into less than 1 \ns in the direction of motion.  Before collision the beams are ramped to 4 \TeV (2012) per beam in a process involving increasing the current passing through the dipole magnets. Once the desired \com energy is reached then the beams are allowed to collide at the interaction points. The luminosity falls regularly as the run progresses as protons are lost in collisions, and eventually the beam is dumped before repeating the process again. \\
+
+Colliding the beams produced an instantaneous luminosity of approximately 5 $\times$ 10$^{33}$ cm$^{-2}$s$^{-1}$ during the 2012 run. The high number of protons in each bunch increases the likelihood of multiple interactions with each crossing of the counter-circulating beams. This leads to isotropic energy depositions within the detectors positioned at these interaction points, increasing the energy scale of the underlying event. This is known as pile-up and the counteracting of it's effects are important to the many measurements performed at the \LHC.
 
 In the early phase of prolonged operation after the initial shutdown the machine operated in 2010-2011 at 3.5 \TeV per beam, \com $=$ 7 \TeV, delivering 6.13 \fb of data \cite{LHClumo}. During the 2012-2013 run period, data was collected at an increased \com $=$ 8 \TeV improving the sensitivity of searches for new physics. Over the whole run period 23.3 \fb of data was delivered of which 21.8 \fb was recorded by the \CMS detector \cite{LHClumo}. A total of 12 \fb of 8 \TeV certified data was collected by October 2012, and it is this data which forms the basis of the results discussed within this thesis.
 
@@ -219,12 +221,12 @@ The Level-1 (\L1) trigger is a pipelined, dead-timeless system based on custom-b
 
 
 
-The Higher Level Trigger (\HLT) is a large farm of commercial computers \cite{Sphicas:2002gg}. The \HLT processes events with software reconstruction algorithms that are closer to the reconstruction used offline. The \HLT reduces the event rate written to disk by a factor of $\sim$ 500 ($\sim$200Hz). The recorded events are transferred from CMS to the CERN computing center, where event reconstruction is performed, and then distributed to CMS computing sites around the globe for storage and analysis.
+The Higher Level Trigger (\HLT) is a large farm of commercial computers \cite{Sphicas:2002gg}. The \HLT processes events with software reconstruction algorithms that are more detailed, giving performance more similar to the reconstruction used offline. The \HLT reduces the event rate written to disk by a factor of $\sim$ 500 ($\sim$200Hz). The recorded events are transferred from CMS to the CERN computing centre, where event reconstruction is performed, and then distributed to CMS computing sites around the globe for storage and analysis.
 
 \subsection{The Level-1 Trigger}
 \label{subsec:l1trigger}
 
-The \L1 trigger reduces the rate of events collected from 40 MHz to $\sim$100 kHz using information from the calorimeters and muon chambers, but not the tracker. A tree system of triggers is used to decide wether to pass on an event to the \HLT for further reconstruction. Firstly the Calorimeter and Muon event information is kept separate, with local reconstruction of objects ($\mu$,e,$\gamma$,jets) performed by the Regional Calorimeter Trigger (\RCT) and Regional Muon Triger (\RMT) respectively. The \RCT generates up to 72 isolated and non-isolated electromagnetic objects. These are sorted by rank, which is equivalent to transverse energy $\et$, with the four highest ranked electromagnetic objects being passed via the  Global Calorimeter Trigger (\GCT) and Global Muon Trigger (\GMT) to the Global Trigger (\GT). 
+The \L1 trigger reduces the rate of events collected from 40 MHz to $\sim$100 kHz using information from the calorimeters and muon chambers, but not the tracker. A tree system of triggers is used to decide wether to pass on an event to the \HLT for further reconstruction. Firstly the calorimeter and muon event information is kept separate, with local reconstruction of objects ($\mu$,e,$\gamma$,jets) performed by the Regional Calorimeter Trigger (\RCT) and Regional Muon Triger (\RMT) respectively. The \RCT generates up to 72 isolated and non-isolated electromagnetic objects. These are sorted by rank, which is equivalent to transverse energy $\et$, with the four highest ranked electromagnetic objects being passed via the  Global Calorimeter Trigger (\GCT) and Global Muon Trigger (\GMT) to the Global Trigger (\GT). 
 
 In the \L1 \GCT, coarse measurements of the energy deposited in the electromagnetic and hadronic calorimeters are combined and by using sophisticated algorithms the following physics objects are formed:
 
@@ -290,7 +292,7 @@ The efficiency turn-on curves for various \L1 jet thresholds are evaluated as a 
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_PF.png}
 \end{minipage}
 \quad
-\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data using an isolated $\mu$ data sample.]{L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data using an isolated $\mu$ data sample.}
+\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data and collected with an isolated single $\mu$ data sample.]{L1 jet efficiency turn-on curves as a function of the offline CaloJet $\et$ (left) and PFJet $\et$ (right), measured in 2012 Run Period C data and collected with an isolated single $\mu$ data sample.}
 \label{fig:l1jet-calopf-mu} 
 
 \end{figure}
@@ -332,7 +334,7 @@ To negate any effects from different pile-up conditions in the run periods, the 
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_92.png}
 \end{minipage}
 \quad
-\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C with the ``single $\mu$'' sample.]{L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C with the ``single $\mu$'' sample.}
+\caption[L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C collected with an isolated single $\mu$' sample.]{L1 jet efficiency turn-on curves as a function of the offline CaloJet E$_{T}$, measured for the \L1 SingleJet 36 and 92 trigger in 2012 run period B and C collected with an isolated single $\mu$' sample.}
 \label{fig:l1jetseeds} 
 \end{figure}
 
@@ -374,7 +376,7 @@ Different behaviours for the trigger turn ons between these run periods are ther
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_ht150.png}
 \end{minipage}
 \quad
-\caption[\L1 $\theht$ efficiency turn-on curves as a function of the offline CaloJet $\theht$, measured for the \L1 $\theht$ 100 and 150 trigger during the run 2012 B and C using an isolated single $\mu$ triggered sample.]{\L1 $\theht$ efficiency turn-on curves as a function of the offline CaloJet $\theht$, measured for the \L1 $\theht$ 100 and 150 trigger during the run 2012 B and C using an isolated single $\mu$ triggered sample.}
+\caption[\L1 $\theht$ efficiency turn-on curves as a function of the offline CaloJet $\theht$, measured for the \L1 $\theht$ 100 and 150 trigger during the run 2012 B and C collected using an isolated single $\mu$ triggered sample.]{\L1 $\theht$ efficiency turn-on curves as a function of the offline CaloJet $\theht$, measured for the \L1 $\theht$ 100 and 150 trigger during the run 2012 B and C collected using an isolated single $\mu$ triggered sample.}
 \label{fig:l1jetseedht} 
 \end{figure}
 
@@ -448,9 +450,12 @@ L1\_SingleJet92 & 92.0 $\pm$ 0.1 & 11.4 $\pm$ 0.1 & 91.1 $\pm$ 0.1 & 11.4 $\pm$ 
 
 No significant drop in efficiency is observed in the presence of a high number of primary vertices. The increase in hadronic activity in higher pile-up conditions, combined with the absence of pile-up subtraction for L1 jets, results in the expected observation of a decrease in the $\mu$ value of the efficiency turn-ons as a function of pile-up, while the resolution, $\sigma$ of the turn-ons are found to gradually worsen as expected with increasing pile-up.
 
-These features are demonstrated further when shown as a function of
+These features are further emphasised when shown as a function of
 
-$$\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$$
+\begin{equation}
+\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}
+\label{eq:jetresolution}
+\end{equation}
 
 in bins of matched leading offline jet $\et$, of which the individual fits can be found in Appendix~\ref{app:jetpuresolution}.  Each of these distributions are fitted with an EMG function as defined in Eq.~\ref{eq:emg}.
 
@@ -471,16 +476,14 @@ The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high 
         \caption[Fit values from an EMG function fitted to the resolution plots of leading PF jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for low, medium and high pile-up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (middle) of the Gaussian as well as the decay term $\lambda$ (right) of the exponential]{Fit values from an EMG function fitted to the resolution plots of leading PF jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for low and medium pile-up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (middle) of the Gaussian as well as the decay term $\lambda$ (right) of the exponential.}
         \label{fig:pfjetptresultspu}
 \end{figure}
- 
- 
+
+The resolution of other \L1 energy sum quantities, $\mht$, $\met$ and $\sum
+et$ parameterised as in Equation \ref{eq:jetresolution}, can be found in Appendix \ref{app:jetenergysums}. The same behaviour observed for the single jet triggers is also found for these quantities, where in the presence of higher pile-up the $\mu$ values are shifted to higher values, with a worsening resolution, $\sigma$ again due to the increase in soft pile-up jets and the absence of pile-up subtraction at \L1.
+
 \subsection{Summary}
 \label{subsec:l1summary}
 
-Summarise all the stuff here.
-
-
-
-
+The performance of the \CMS Level-1 Trigger has been studied and evaluated for jets and energy sum quantities using data collected during the 2012 \LHC 8TeV run. These studies include the effect of introduction of a 5 \GeV jet seed threshold into the jet algorithm configuration, the purpose of which is to mitigate the effects of pile-up on the rate of \L1 triggers whilst not adversely affecting the efficiency of these triggers. No significant change in performance is observed with this change and good performance is observed for a range of \L1 quantities.
 
 
 

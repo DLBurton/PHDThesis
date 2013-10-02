@@ -8,8 +8,6 @@
 \let\@OldCite\cite
 \renewcommand{\cite}[1]{\mbox{\!\!\!\@OldCite{#1}}}
 
-
-
 %% Maths
 \DeclareRobustCommand{\thesismath}[1]{\ensuremath{\maybebmsf{#1}}}
 \DeclareRobustCommand{\parenths}[1]{\mymath{\left({#1}\right)}}
@@ -25,8 +23,11 @@
 \DeclareRobustCommand{\logOf}[1]{\log\!\parenths{#1}}
 \DeclareRobustCommand{\lnOf}[1]{\ln\!\parenths{#1}}
 \DeclareRobustCommand{\ofOrder}[1]{\mymath{ \mathcal{O}\parenths{#1} }}
+\DeclareRobustCommand{\hbarred}{\mymath{\hbar}\xspace}
 
 %% General utility defns
+\DeclareRobustCommand{\SUSY}{SUSY\xspace}
+\DeclareRobustCommand{\SM}{SM\xspace}
 \DeclareRobustCommand{\arXivCode}[1]{arXiv:#1}
 \DeclareRobustCommand{\CPviolation}{\CP-violation\xspace}
 \DeclareRobustCommand{\CPv}{\CPviolation}
@@ -45,6 +46,7 @@
 \DeclareRobustCommand{\fb}{fb\thesismath{^{-1}}\xspace}
 \DeclareRobustCommand{\ttbar}{t\={t}\xspace}
 
+%%Physics quantity terms
 \DeclareRobustCommand{\pp}{\textit{pp}\xspace}
 \DeclareRobustCommand{\et}{E_{T}\xspace}
 \DeclareRobustCommand{\pt}{p_{T}\xspace}
@@ -56,7 +58,7 @@
 \DeclareRobustCommand{\Calo}{Calo\xspace}
 \DeclareRobustCommand{\PF}{PF\xspace}
 
-
+%%Detector Terms
 \DeclareRobustCommand{\ECAL}{ECAL\xspace}
 \DeclareRobustCommand{\HCAL}{HCAL\xspace}
 \DeclareRobustCommand{\EE}{EE\xspace}
@@ -73,6 +75,7 @@
 \DeclareRobustCommand{\RPC}{RPC\xspace}
 \DeclareRobustCommand{\CSV}{CSV\xspace}
 
+%%L1 Terms
 \DeclareRobustCommand{\L1}{L1\xspace}
 \DeclareRobustCommand{\GT}{GT\xspace}
 \DeclareRobustCommand{\HLT}{HLT\xspace}
@@ -81,9 +84,16 @@
 \DeclareRobustCommand{\GMT}{GMT\xspace}
 \DeclareRobustCommand{\RMT}{RMT\xspace}
 
+%%Btagging Terms
 \DeclareRobustCommand{\effb}{\thesismath{\epsilon_{b}}\xspace}
 \DeclareRobustCommand{\effc}{\thesismath{\epsilon_{c}}\xspace}
 \DeclareRobustCommand{\effs}{\thesismath{\epsilon_{s}}\xspace}
+
+
+%SUSY Terms
+\DeclareRobustCommand{\LSP}{LSP\xspace}
+\DeclareRobustCommand{\SMS}{SMS\xspace}
+
 
 \renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
 
@@ -92,29 +102,17 @@
 \DeclareRobustCommand{\Rate}{\thesismath{\Gamma}\xspace}
 \DeclareRobustCommand{\RateOf}[1]{\thesismath{\Gamma}\parenths{#1}\xspace}
 
-%% SUSY terms
+%% alphaT analysis terms
 \DeclareRobustCommand{\alphat}{\thesismath{\alpha_{T}}\xspace}
 
 
-%% Phrases to be consistent about (with b/B)
-\DeclareRobustCommand{\bphysics}{\Pbottom-physics\xspace}
-\DeclareRobustCommand{\bhadron}{\Pbottom-hadron\xspace}
-\DeclareRobustCommand{\Bmeson}{\PB-meson\xspace}
-\DeclareRobustCommand{\bbaryon}{\Pbottom-baryon\xspace}
-\DeclareRobustCommand{\Bdecay}{\PB-decay\xspace}
-\DeclareRobustCommand{\bdecay}{\Pbottom-decay\xspace}
 
 %% Processes
 \DeclareRobustCommand{\BToKPi}{\HepProcess{ \PB \to \PK \, \Ppi }\xspace}
-\DeclareRobustCommand{\BToPiPi}{\HepProcess{ \PB \to \Ppi \, \Ppi }\xspace}
-\DeclareRobustCommand{\BToKK}{\HepProcess{\PB \to \PK \, \PK}\xspace}
-\DeclareRobustCommand{\BToRhoPi}{\HepProcess{ \PB \to \Prho \, \Ppi }\xspace}
-\DeclareRobustCommand{\BToRhoRho}{\HepProcess{ \PB \to \Prho \Prho }\xspace}
 \DeclareRobustCommand{\X}{\thesismath{X}\xspace}
-\DeclareRobustCommand{\Xbar}{\thesismath{\overline{X}}\xspace}
 \DeclareRobustCommand{\Xzero}{\HepGenParticle{X}{}{0}\xspace}
 \DeclareRobustCommand{\Xzerobar}{\HepGenAntiParticle{X}{}{0}\xspace}
-\DeclareRobustCommand{\epluseminus}{\Pelectron\Ppositron\xspace}
+
 
 % Fix hyperref labels in PDFTeX
 \@ifpackageloaded{hyperref}{%

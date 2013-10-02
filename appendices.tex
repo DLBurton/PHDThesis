@@ -52,14 +52,30 @@ The pileup per event is defined by the number of 'good' reconstructed primary ve
 
 \chapter{L1 Jets}
 
-\section{Jet Resolution}
+\section{Leading Jet Energy Resolution}
 \label{app:jetpuresolution}
 
 \begin{figure}[htp]
 
     \centering
     \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.png}  }\,
-     \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
+\end{figure}
+
+\begin{figure}
+    \ContinuedFloat
+    \centering
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.png}}\,
+
+      \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
+\end{figure}
+
+\begin{figure}[htpb]
+
+    \centering
+    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.png}  }\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
+
 \end{figure}
 
 \begin{figure}
@@ -67,9 +83,79 @@ The pileup per event is defined by the number of 'good' reconstructed primary ve
     \centering
     \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.png}}\,
 
-      \caption[ Resolution plots of the leading offline \Calo jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
-       \label{fig:jetptresolutionspu}
+      \caption[ Resolution plots of the leading off-line PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
+  
 \end{figure}
+
+
+\newpage
+\section{Resolution for Energy Sum Quantities}
+\label{app:jetenergysums}
+
+The following plots show the resolution parameters for the four energy sum quantities as a function of the quantity (q) itself. In this case, The mean and RMS of the individual $\frac{(\text{L1 q} -  \text{Offline q})}{\text{Offline q}}$ distributions, in bins of the quantity q is displayed. 
+
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloSumET_summary.png}
+        \caption{$\sum$ $\et$~resolution parameters in bins of Calo $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:caloetresultspu}
+\end{figure}
+\begin{figure}[h!]
+  \vspace{20pt}
+  \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_pfSumET_summary.png}
+        \caption{$\sum$ $\et$~resolution parameters in bins of PF $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:pfetresultspu}
+\end{figure}
+
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloMET_summary.png}
+        \caption{$\met$~resolution parameters in bins of Calo $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
+        \label{fig:calometresultspu}
+\end{figure}
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_pfMET_summary.png}
+        \caption{$\met$~resolution parameters in bins of PF $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
+        \label{fig:pfmetresultspu}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloHT_summary.png}
+        \caption{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:calohtresultspu}
+\end{figure}
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_pfHT_summary.png}
+        \caption{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:pfhtresultspu}
+\end{figure}
+
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloMHT_summary.png}
+        \caption{$\mht$~resolution parameters in bins of $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:calomhtresultspu}
+\end{figure}
+\begin{figure}[h!]
+  \vspace{20pt}
+        \centering
+        \includegraphics[width=1.0\textwidth]{plots/res_pfMHT_summary.png}
+        \caption{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \label{fig:pfmhtresultspu}
+\end{figure}
+
+
 
 
 

@@ -1,8 +1,8 @@
 \begin{thebibliography}{10}
 
-\bibitem{Amato:1998xt}
-LHCb, S.~Amato {\em et~al.},
-\newblock CERN-LHCC-98-4.
+\bibitem{pdg2012}
+Particle Data Group, J.~Beringer {\em et~al.},
+\newblock Phys.Rev. {\bf D86}, 010001 (2012).
 
 \bibitem{alicetdr}
 ALICE, K.~Aamodt {\em et~al.},
@@ -68,10 +68,6 @@ R.~Eusebi and on~behalf of~the CMS~collaboration),
 
 \bibitem{btag8tev}
 (2013).
-
-\bibitem{pdg2012}
-Particle Data Group, J.~Beringer {\em et~al.},
-\newblock Phys.Rev. {\bf D86}, 010001 (2012).
 
 \bibitem{btag7tev}
 T.~C. collaboration,
