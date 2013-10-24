@@ -46,7 +46,7 @@ Higgs Boson         & H                & 0 & 0			 &   125.3 $\pm 0.5$ \cite{Chat
 
 Fermions are separated into quarks and leptons of which only quarks interact with the strong nuclear force. Quarks unlike leptons are not seen as free particles in nature, but rather exist only within baryons, composed of three quarks with an overall integer charge, and quark-anti-quark pairs called mesons. Both leptons and quarks are grouped into three generations which have the same properties, but with ascending mass in each subsequent generation. 
 
-The gauge bosons mediate the interactions between fermions. The field theories of \acf{QED} and \acf{QCD}, yield massless mediator bosons, the photon and eight coloured gluons which are consequences of the gauge invariance of those theories.  
+The gauge bosons mediate the interactions between fermions. The field theories of \acf{QED} and \acf{QCD}, yield massless mediator bosons, the photon and eight coloured gluons which are consequences of the gauge invariance of those theories, detailed in Section \ref{subsec:gaugetheories}.  
 
 The unification of the electromagnetic and weak-nuclear forces into the current Electroweak theory yield the weak gauge bosons, \Wboson and \Zboson through the mixing of the associated gauge fields. The force carriers of this theory were experimentally detected by the observation of weak neutral current, discovered in 1973 in the Gargamelle bubble chamber located at \ac{CERN} \cite{Hasert:1973ff}, with the masses of and the weak gauge bosons measured by the UA1 and U2 experiments at the \acf{SPS} collider in 1983 \cite{Arnison:1983mk}\cite{Banner:1983jy}.
 
@@ -54,17 +54,57 @@ The unification of the electromagnetic and weak-nuclear forces into the current 
 
 \label{subsec:gaugetheories}
 
+Symmetries are of fundamental importance in the description of physical phenomena. Noether's theorem states that for a dynamical system, the consequence of any symmetry is an associated conserved quantity \cite{Noether1918}. Invariance under translations, rotations, and Lorentz transformations in physical systems lead to conservation of momentum, energy and angular momentum. 
 
-Noether's theorem states that for. Talk about nothers theorem. That a lagrangian invariant under a set of transformations has conserved symmetries. Which are observed nature, charge conversation, lepton num etc etc
+In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak,strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons and interactions between fermions and the bosons themselves.
 
-The Lagrangian density \lsm of the \ac{SM} is described by 
+The simplest example of the application of the principle of local gauge invariance within the \ac{SM} is in \acf{QED}, the consequences of which require a massless photon field. 
+
+Starting from the free Dirac Lagrangian written as 
 
 \begin{equation}
-equation here,
+\label{eq:diracequation}
+\mathcal{L} = \bar{\psi}(i\gamma^{\mu}\partial_{\mu} - m)\psi,
 \end{equation}
 
-In order to represent the symmetries observed in nature, \lsm must be invariant under a set of gauge transformations. 
+where \fermfield represents a free non interacting fermionic field, with the matrices $\gamma^{\mu}$,$\mu \in  0,1,2,3$ defined by the anti commutator relationship $\gamma^{\mu}\gamma^{\nu}  + \gamma^{\mu}\gamma^{\nu} = 2\eta^{\mu\nu}I_{4}$ where $\eta^{\mu\nu}$ is the flat space-time metric $(+,-,-,-)$ and $I_{4}$ is the 4 $\times$ 4 identity matrix. 
 
+Under a local U(1) gauge transformation in which \fermfield transforms as:
+
+\begin{equation}
+\fermfield(x) \rightarrow \fermfield^{'}(x) = e^{i\theta(x)}\fermfield(x) \qquad      \bar{\fermfield}(x) \rightarrow \bar{\fermfield}^{'}(x) = e^{i\theta(x)}\bar{\fermfield}(x)
+\end{equation}
+
+the kinetic term of the lagrangian does not remain invariant, due to the partial derivative interposed between the $\bar{\fermfield}$ and \fermfield yielding,
+
+\begin{equation}
+\label{eq:remainderterm}
+\partial_{\mu}\fermfield \rightarrow  e^{i\theta(x)}\partial_{\mu}\fermfield + ie^{i\theta(x)}\fermfield\partial_{\mu}\theta.
+\end{equation} 
+
+To ensure that $\mathcal{L}$ remains invariant, a modified derivative, $D_{\mu}$, that transforms covariantly under phase transformations is introduced. In doing this a vector field $A_{\mu}$ with transformation properties that cancel out the unwanted term in (\ref{eq:remainderterm}) must also be included, 
+
+\begin{equation}
+\label{eq:afieldtrans}
+D_{\mu} \equiv \partial_{\mu} - ieA_{\mu},   \qquad A_{\mu} \rightarrow A_{\mu} + \frac{1}{e}\partial_{\mu}\theta .
+\end{equation}
+
+Invariance of the Lagrangian is then achieved by replacing $\partial_{\mu}$ by $D_{\mu}$:
+
+\begin{equation}
+\label{eq:covlag}
+here.
+\end{equation}
+
+An additional interaction term is now present in the Lagrangian, coupling the Dirac particle to this vector field, which is interpreted as the photon in \ac{QED}. To regard this new field as the physical photon field, a term corresponding to its kinetic energy must be added to the Lagrangian in (\ref{eq:covlag}). Since this term must also be invariant under (\ref{eq:afieldtrans}), it is defined in the form $F_{\mu\nu} = \partial^{\mu}A^{\nu} - \partial_{\nu}A{\mu}$. 
+
+This then leads to the Lagrangian of \ac{QED}: 
+
+\begin{equation}
+\mathcal{L}_{QED} =.
+\end{equation}
+
+Within the Lagrangian there remains no mass term of the form $m^{2}A_{\mu}A^{\mu}$, which is prohibited by gauge invariance. This implies that the gauge particle, the photon, must be massless.
 
 
 \subsection{Electroweak Symmetry Breaking}
