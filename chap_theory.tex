@@ -56,9 +56,9 @@ The unification of the electromagnetic and weak-nuclear forces into the current 
 
 Symmetries are of fundamental importance in the description of physical phenomena. Noether's theorem states that for a dynamical system, the consequence of any symmetry is an associated conserved quantity \cite{Noether1918}. Invariance under translations, rotations, and Lorentz transformations in physical systems lead to conservation of momentum, energy and angular momentum. 
 
-In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak,strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons and interactions between fermions and the bosons themselves.
+In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak,strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons and interactions between fermions and the bosons themselves. Given the nature of the studies carried out in this thesis, the \ac{EWK} part of the \ac{SM} Lagrangian is reviewed within this section.
 
-The simplest example of the application of the principle of local gauge invariance within the \ac{SM} is in \acf{QED}, the consequences of which require a massless photon field. 
+The simplest example of the application of the principle of local gauge invariance within the \ac{SM} is in \acf{QED}, the consequences of which require a massless photon field \cite{quarksandleptons}\cite{introtoparticles}. 
 
 Starting from the free Dirac Lagrangian written as 
 
@@ -69,13 +69,13 @@ Starting from the free Dirac Lagrangian written as
 
 where \fermfield represents a free non interacting fermionic field, with the matrices $\gamma^{\mu}$,$\mu \in  0,1,2,3$ defined by the anti commutator relationship $\gamma^{\mu}\gamma^{\nu}  + \gamma^{\mu}\gamma^{\nu} = 2\eta^{\mu\nu}I_{4}$ where $\eta^{\mu\nu}$ is the flat space-time metric $(+,-,-,-)$ and $I_{4}$ is the 4 $\times$ 4 identity matrix. 
 
-Under a local U(1) gauge transformation in which \fermfield transforms as:
+Under a local U(1) abelian gauge transformation in which \fermfield transforms as:
 
 \begin{equation}
 \fermfield(x) \rightarrow \fermfield^{'}(x) = e^{i\theta(x)}\fermfield(x) \qquad      \bar{\fermfield}(x) \rightarrow \bar{\fermfield}^{'}(x) = e^{i\theta(x)}\bar{\fermfield}(x)
 \end{equation}
 
-the kinetic term of the lagrangian does not remain invariant, due to the partial derivative interposed between the $\bar{\fermfield}$ and \fermfield yielding,
+the kinetic term of the Lagrangian does not remain invariant, due to the partial derivative interposed between the $\bar{\fermfield}$ and \fermfield yielding,
 
 \begin{equation}
 \label{eq:remainderterm}
@@ -91,27 +91,55 @@ D_{\mu} \equiv \partial_{\mu} - ieA_{\mu},   \qquad A_{\mu} \rightarrow A_{\mu} 
 
 Invariance of the Lagrangian is then achieved by replacing $\partial_{\mu}$ by $D_{\mu}$:
 
-\begin{equation}
+\begin{align}
 \label{eq:covlag}
-here.
-\end{equation}
+\mathcal{L} &= i\bar{\fermfield}\gamma^{\mu}D_{\mu}\fermfield - m\bar{\fermfield}\fermfield \nonumber    \\
+ &= \bar{\fermfield}(i\gamma^{\mu}\partial_{\mu} - m)\fermfield +  e\bar{\fermfield}\gamma^{\mu}\fermfield A_{\mu}
+\end{align}
+
 
 An additional interaction term is now present in the Lagrangian, coupling the Dirac particle to this vector field, which is interpreted as the photon in \ac{QED}. To regard this new field as the physical photon field, a term corresponding to its kinetic energy must be added to the Lagrangian in (\ref{eq:covlag}). Since this term must also be invariant under (\ref{eq:afieldtrans}), it is defined in the form $F_{\mu\nu} = \partial^{\mu}A^{\nu} - \partial_{\nu}A{\mu}$. 
 
 This then leads to the Lagrangian of \ac{QED}: 
 
 \begin{equation}
-\mathcal{L}_{QED} =.
+\mathcal{L}_{QED} =.\overbrace{i\bar{\fermfield}\gamma^{\mu}\partial_{\mu}\fermfield - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} }^\text{kinetic term} + \overbrace{m\bar{\fermfield}\fermfield}^\text{mass term} + \overbrace{e\bar{\fermfield}\gamma^{\mu}\fermfield A_{\mu} }^\text{interaction term}
 \end{equation}
 
 Within the Lagrangian there remains no mass term of the form $m^{2}A_{\mu}A^{\mu}$, which is prohibited by gauge invariance. This implies that the gauge particle, the photon, must be massless.
 
 
-\subsection{Electroweak Symmetry Breaking}
+\subsection{The Electroweak Sector and Electroweak Symmetry Breaking}
 
 \label{subsec:ewsb}
-The Electroweak sector is described by the $SU(2)_{L} \times SU(1)_{hyper charge}$ symmetries, contains bosons which have a mass, contrary to the massless gauge bosons inferred by the theories invariance under local gauge transformations. 
+The same application of gauge symmetry and the requirement of local gauge invariance can be used to unify \ac{QED} and the Weak force in the \acf{EWK}. The nature of \ac{EWK} interactions is encompassed within a Lagrangian invariant under transformations of the group $SU(2)_{L} \times U(1)_{Y}$. 
 
+The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices $U$ satisfying $UU^{\dagger} = I$ and $det(U) = 1$. This may be written as 
+
+\begin{equation}
+U = e^{-i\theta_{i}T_{i}},
+\end{equation}
+
+with $T_{i} = \frac{1}{2}\tau_{i}$ where $\tau_{i}$, $i \in$ 1,2,3 are the $2 \times 2$ Pauli matrices, which form a non Abelian group obeying the commutation relation $[T^{a},T^{b}] \equiv  if^{abc}T^{c} \neq 0$. One additional generator $Y$ is introduced through the $U(1)_{Y}$ group. 
+
+Show how they transform on fermion field…..
+
+The gauge fields introduced by the theory are $\hat{W}_{\mu}  = (\hat{W}^{1}_{\mu},\hat{W}^{2}_{\mu},\hat{W}^{3}_{\mu}  ) $ and $\hat{B}_{\mu}$, which establish gauge invariance within the $\mathcal{L}_{EWK}$ by including the covariant derivative
+
+\begin{equation}
+D_{\mu} = \partial_{\mu} - \frac{ig}{2}\sigma^{i}W^{i}_{\mu} - \frac{ig^{'}}{2}Y B_{\mu}
+\end{equation}
+
+where $g$ and $g^{'}$ are the coupling constant of the $SU(2)_{L}$ and $U(1)_{Y}$ groups.
+
+As in \ac{QED}, these additional gauge fields introduce field strength tensors $B_{\mu\nu}$ and $W^{\theta}_{\mu\nu}$,
+
+\begin{equation}
+B_{\mu\nu} =  \\
+W^{\theta}_{\mu\nu} =      .
+\end{equation}
+
+Put how combining the gauge fields produce the W and Z bosons.
 
 \section{Motivation for Beyond the Standard Model Physics}
 
