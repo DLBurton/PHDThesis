@@ -56,7 +56,7 @@ The unification of the electromagnetic and weak-nuclear forces into the current 
 
 Symmetries are of fundamental importance in the description of physical phenomena. Noether's theorem states that for a dynamical system, the consequence of any symmetry is an associated conserved quantity \cite{Noether1918}. Invariance under translations, rotations, and Lorentz transformations in physical systems lead to conservation of momentum, energy and angular momentum. 
 
-In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak,strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons and interactions between fermions and the bosons themselves. Given the nature of the studies carried out in this thesis, the \ac{EWK} part of the \ac{SM} Lagrangian is reviewed within this section.
+In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak,strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons and interactions between fermions and the bosons themselves. Given the nature of the topics covered by this thesis, the formulation of \ac{EWK}  within the \ac{SM} Lagrangian is reviewed within this section.
 
 The simplest example of the application of the principle of local gauge invariance within the \ac{SM} is in \acf{QED}, the consequences of which require a massless photon field \cite{quarksandleptons}\cite{introtoparticles}. 
 
@@ -103,6 +103,7 @@ An additional interaction term is now present in the Lagrangian, coupling the Di
 This then leads to the Lagrangian of \ac{QED}: 
 
 \begin{equation}
+\label{qedlagrangian}
 \mathcal{L}_{QED} =.\overbrace{i\bar{\fermfield}\gamma^{\mu}\partial_{\mu}\fermfield - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} }^\text{kinetic term} + \overbrace{m\bar{\fermfield}\fermfield}^\text{mass term} + \overbrace{e\bar{\fermfield}\gamma^{\mu}\fermfield A_{\mu} }^\text{interaction term}
 \end{equation}
 
@@ -114,32 +115,90 @@ Within the Lagrangian there remains no mass term of the form $m^{2}A_{\mu}A^{\mu
 \label{subsec:ewsb}
 The same application of gauge symmetry and the requirement of local gauge invariance can be used to unify \ac{QED} and the Weak force in the \acf{EWK}. The nature of \ac{EWK} interactions is encompassed within a Lagrangian invariant under transformations of the group $SU(2)_{L} \times U(1)_{Y}$. 
 
-The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices $U$ satisfying $UU^{\dagger} = I$ and $det(U) = 1$. This may be written as 
+The weak interactions from experimental observation \cite{wu-parity}, are known to violate parity and are therefore not symmetric under interchange of left and right helicity fermions. Thus within the \ac{SM} the left and right handed parts of these fermion fields are treated separately. A fermion field is then split into two left and right handed chiral components, $\fermfield = \fermfield_{L} + \fermfield_{R}$, where $\fermfield_{L\slash R} = (1 \pm \gamma^{5})\fermfield$. 
+
+The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices $U$ satisfying $UU^{\dagger} = I$ and $det(U) = 1$. It may be written in the form $U = e^{-i\omega_{i}T_{i}}$, with the generators of the group $T_{i} = \frac{1}{2}\tau_{i}$ where $\tau_{i}$, $i \in$ 1,2,3 being the $2 \times 2$ Pauli matrices
 
 \begin{equation}
-U = e^{-i\theta_{i}T_{i}},
+\tau_{1}= \left( \begin{array}{ccc}
+0 & 1\\
+1 & 0\end{array} \right)\qquad
+\tau_{2}= \left( \begin{array}{ccc}
+0 & -i\\
+i & 0\end{array} \right)\qquad
+\tau_{3}= \left( \begin{array}{ccc}
+1 & 0\\
+0 & -1\end{array} \right),
 \end{equation}
 
-with $T_{i} = \frac{1}{2}\tau_{i}$ where $\tau_{i}$, $i \in$ 1,2,3 are the $2 \times 2$ Pauli matrices, which form a non Abelian group obeying the commutation relation $[T^{a},T^{b}] \equiv  if^{abc}T^{c} \neq 0$. One additional generator $Y$ is introduced through the $U(1)_{Y}$ group. 
 
-Show how they transform on fermion field…..
+which form a non Abelian group obeying the commutation relation $[T^{a},T^{b}] \equiv  if^{abc}T^{c} \neq 0$. The gauge fields that accompany this group are represented by $\hat{W}_{\mu}  = (\hat{W}^{1}_{\mu},\hat{W}^{2}_{\mu},\hat{W}^{3}_{\mu}$  ) and act only on the left handed component of the fermion field $\fermfield_{L}$.
 
-The gauge fields introduced by the theory are $\hat{W}_{\mu}  = (\hat{W}^{1}_{\mu},\hat{W}^{2}_{\mu},\hat{W}^{3}_{\mu}  ) $ and $\hat{B}_{\mu}$, which establish gauge invariance within the $\mathcal{L}_{EWK}$ by including the covariant derivative
+One additional generator $Y$ which represents the hypercharge of the particle under consideration is introduced through the $U(1)_{Y}$ group acting on both components of the fermion field, with an associated vector boson field $\hat{B}_{\mu}$.  
+
+The $SU(2)_{L} \times U(1)_{Y}$ transformations of the left and right handed components of $\fermfield$ are summarised by,
+
+\begin{align}
+\label{eq:su2xu1transform}
+ & \chi_{L} \rightarrow \chi^{'}_{L} = e^{i\omega(x) \cdot T + i\theta(x)Y}\chi_{L}, \nonumber \\
+ & \fermfield_{R} \rightarrow \fermfield^{'}_{R} = e^{i\theta(x)Y}\fermfield_{R}, 
+\end{align}
+
+where the left handed fermions form isospin doubles $\chi_{L}$ and the right handed fermions are isosinglets $\fermfield_{R}$. For the first generation of leptons and quarks this represents
+
+\begin{align}
+\label{firstdoublet}
+ \chi_{L} &= \left( \begin{array}{c} 
+\nu_{e} \\
+e \end{array} \right)_{L}, \qquad
+ \left( \begin{array}{c} 
+u  \\
+d \end{array} \right)_{L} \nonumber \\
+ \fermfield &= e_{R}, \qquad \qquad u_{R}, d_{R}
+\end{align}
+
+Imposing local gauge invariance within $\mathcal{L}_{EWK}$ is once again achieved by modifying the covariant derivative
 
 \begin{equation}
-D_{\mu} = \partial_{\mu} - \frac{ig}{2}\sigma^{i}W^{i}_{\mu} - \frac{ig^{'}}{2}Y B_{\mu}
+D_{\mu} = \partial_{\mu} - \frac{ig}{2}\tau^{i}W^{i}_{\mu} - \frac{ig^{'}}{2}Y B_{\mu},
 \end{equation}
 
-where $g$ and $g^{'}$ are the coupling constant of the $SU(2)_{L}$ and $U(1)_{Y}$ groups.
+where $g$ and $g^{'}$ are the coupling constant of the $SU(2)_{L}$ and $U(1)_{Y}$ groups respectively. Taking the example of the first generation of fermions defined in Eq.\ref{firstdoublet}, this would lead to a lagrangian $\mathcal{L}_{1}$ of the form,
+
+\begin{equation}
+\mathcal{L}_{1} =  . 
+\end{equation}
 
 As in \ac{QED}, these additional gauge fields introduce field strength tensors $B_{\mu\nu}$ and $W^{\theta}_{\mu\nu}$,
 
+\begin{align}
+\hat{B}_{\mu\nu} &=  \partial_{\mu}\hat{B}_{\nu} - \partial_{\nu}\hat{B}_{\mu} \\
+\hat{W}^{\theta}_{\mu\nu} &=  \partial+{\mu}\hat{W}+{\nu} - \partial_{\nu}\hat{W}_{\mu} - g\hat{W}_{\mu}\times\hat{W}_{\mu}
+\end{align}
+
+corresponding to the kinetic energy and self coupling of the $W_{\mu}$ fields and the kinetic energy term of the $B_{\mu}$ field.
+
+None of these gauge bosons are physical particles, and instead linear combinations of these gauge bosons make up $\gamma$ and the W and Z bosons, defined as 
+
 \begin{equation}
-B_{\mu\nu} =  \\
-W^{\theta}_{\mu\nu} =      .
+W^{\pm} = \frac{1}{\sqrt{2}} \left(W^{1}_{\mu} \mp iW^{2}_{\mu}\right) \qquad   
+\left( \begin{array}{c} 
+Z_{\mu} \\
+A_{\mu} \end{array} \right)   = 
+\left( \begin{array}{cc} 
+cos\theta_{W} & -sin\theta_{W} \\
+sin\theta_{W} & cos\theta_{W} \end{array} \right) 
+\left( \begin{array}{c} 
+W^{3}_{\mu} \\
+B_{\mu} \end{array} \right)
 \end{equation}
 
-Put how combining the gauge fields produce the W and Z bosons.
+where the mixing angle, $\theta{w} = \tan ^{-1} \frac{g^{'}}{g}$ , relates the coupling of the neutral weak and electromagnetic interactions. There remains 
+
+As in the case of the formulation of the \ac{QED} Lagrangian there remains no mass term for the photon. However this is also the case for the W, Z and fermions in the, contrary to experimental measurement. Any explicit introduction of mass terms would break the symmetry of the Lagrangian and instead mass terms can be introduced through spontaneous breaking of the \ac{EWK} symmetry via the Higgs mechanism.
+
+Talk about higgs sector
+
 
 \section{Motivation for Beyond the Standard Model Physics}
 

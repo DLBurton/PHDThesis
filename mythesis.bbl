@@ -57,6 +57,10 @@ F.~Halzen and A.~D. Martin,
 \bibitem{introtoparticles}
 {\em {Introduction to Elementary Particles}}, 2nd ed. (Wiley-VCH, 2008).
 
+\bibitem{wu-parity}
+C.~S. {Wu}, E.~{Ambler}, R.~W. {Hayward}, D.~D. {Hoppes}, and R.~P. {Hudson},
+\newblock Physical Review {\bf 105}, 1413 (1957).
+
 \bibitem{alicetdr}
 ALICE, K.~Aamodt {\em et~al.},
 \newblock JINST {\bf 3}, S08002 (2008).
