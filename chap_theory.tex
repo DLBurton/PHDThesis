@@ -154,26 +154,29 @@ e \end{array} \right)_{L}, \qquad
  \left( \begin{array}{c} 
 u  \\
 d \end{array} \right)_{L} \nonumber \\
- \fermfield &= e_{R}, \qquad \qquad u_{R}, d_{R}
+ \fermfield_{R} &= e_{R}, \qquad \qquad \qquad u_{R}, d_{R}
 \end{align}
 
 Imposing local gauge invariance within $\mathcal{L}_{EWK}$ is once again achieved by modifying the covariant derivative
 
 \begin{equation}
+\label{covderivative}
 D_{\mu} = \partial_{\mu} - \frac{ig}{2}\tau^{i}W^{i}_{\mu} - \frac{ig^{'}}{2}Y B_{\mu},
 \end{equation}
 
-where $g$ and $g^{'}$ are the coupling constant of the $SU(2)_{L}$ and $U(1)_{Y}$ groups respectively. Taking the example of the first generation of fermions defined in Eq.\ref{firstdoublet}, this would lead to a lagrangian $\mathcal{L}_{1}$ of the form,
+where $g$ and $g^{'}$ are the coupling constant of the $SU(2)_{L}$ and $U(1)_{Y}$ groups respectively. Taking the example of the first generation of fermions defined in Equation.\ref{firstdoublet}, with input hypercharge values of -1 and -2 for $\chi_{L}$ and $e_{R}$ respectively, would lead to a Lagrangian $\mathcal{L}_{1}$ of the form,
 
-\begin{equation}
-\mathcal{L}_{1} =  . 
-\end{equation}
+\begin{align}
+ \label{ewklagrangian}
+\mathcal{L}_{1} =  &\bar{\chi}_{L}\gamma^{\mu}\lbrack i\partial_{\mu} - g\frac{1}{2}\tau\cdot W_{\mu} - g^{'}(-\frac{1}{2})B_{\mu} \rbrack\chi_{L} \nonumber \\
+& + \bar{e}_{R}\gamma^{\mu}\lbrack i\partial_{\mu} - g^{'}(-1)B_{\mu}\rbrack e_{R} - \frac{1}{4}W_{\mu\nu}\cdot W^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}.
+\end{align}
 
-As in \ac{QED}, these additional gauge fields introduce field strength tensors $B_{\mu\nu}$ and $W^{\theta}_{\mu\nu}$,
+As in \ac{QED}, these additional gauge fields introduce field strength tensors $B_{\mu\nu}$ and $W_{\mu\nu}$,
 
 \begin{align}
 \hat{B}_{\mu\nu} &=  \partial_{\mu}\hat{B}_{\nu} - \partial_{\nu}\hat{B}_{\mu} \\
-\hat{W}^{\theta}_{\mu\nu} &=  \partial_{\mu}\hat{W}_{\nu} - \partial_{\nu}\hat{W}_{\mu} - g\hat{W}_{\mu}\times\hat{W}_{\mu}
+\hat{W}_{\mu\nu} &=  \partial_{\mu}\hat{W}_{\nu} - \partial_{\nu}\hat{W}_{\mu} - g\hat{W}_{\mu}\times\hat{W}_{\mu}
 \end{align}
 
 corresponding to the kinetic energy and self coupling of the $W_{\mu}$ fields and the kinetic energy term of the $B_{\mu}$ field.
@@ -195,10 +198,47 @@ B_{\mu} \end{array} \right)
 
 where the mixing angle, $\theta_{w} = \tan ^{-1} \frac{g^{'}}{g}$ , relates the coupling of the neutral weak and electromagnetic interactions. 
 
-As in the case of the formulation of the \ac{QED} Lagrangian there remains no mass term for the photon. However this is also the case for the W, Z and fermions in the, contrary to experimental measurement. Any explicit introduction of mass terms would break the symmetry of the Lagrangian and instead mass terms can be introduced through spontaneous breaking of the \ac{EWK} symmetry via the Higgs mechanism.
+As in the case of the formulation of the \ac{QED} Lagrangian there remains no mass term for the photon. However this is also the case for the W, Z and fermions in the Lagranian, contrary to experimental measurement. Any explicit introduction of mass terms would break the symmetry of the Lagrangian and instead mass terms can be introduced through spontaneous breaking of the \ac{EWK} symmetry via the Higgs mechanism.
 
-Talk about higgs sector
+The Higgs mechanism induces spontaneous symmetry breaking through the introduction of a complex scalar SU(2) doublet field $\phi$ which attains a non-zero \acf{VEV} \cite{higgs1}\cite{higgs2}\cite{higgs3}\cite{higgs4}. 
 
+\begin{equation}
+\phi =  \left( \begin{array}{c} 
+\phi^{+} \\
+\phi^{0} \end{array} \right)  \qquad with \qquad
+\begin{array}{c} 
+\phi^{+} \equiv  (\phi_{1} + i\phi_{2})/\sqrt{2}\\
+\phi^{0} \equiv (\phi_{3}+i\phi_{4})/\sqrt{2} \end{array} 
+\end{equation}
+
+The Lagrangian defined in Equation \ref{ewklagrangian} attains an additional term $\mathcal{L}_{Higgs}$ of the form 
+
+\begin{align}
+\label{higgslagrangian}
+\mathcal{L}_{Higgs} &= \overbrace{(D_{\mu}\phi)^{\dagger}(D^{\mu}\phi)}^\text{kinetic} - \overbrace{\mu^{2}\phi^{\dagger}\phi - \lambda(\phi^{\dagger}\phi)^{2}}^\text{potential V(\phi)} \qquad (\mu^{2},\lambda) > 0 \in \mathbb{R}, \nonumber \\
+\mathcal{L}_{SM} &= \mathcal{L}_{EWK} + \mathcal{L}_{Higgs},
+\end{align}
+
+where the covariant derivative $D_{\mu}$ is that defined in Equation \ref{covderivative}. The last two terms of $\mathcal{L}_{Higgs}$ correspond to the Higgs potential, in which positive real positive values of $\mu^{2}$ and $\lambda$ are required to ensure the generation of masses for the bosons and leptons. The minimum of this potential is found at $\phi^{\dagger}\phi = \frac{1}{2}(\phi^{2}_{1}+\phi^{2}_{2}+\phi^{2}_{3} + \phi^{2}_{4}) =\mu^{2} / \lambda = v^{2}$, where $v$ represents the \ac{VEV}.
+
+Defining the ground state of the \phi field to be consistent with the $V(\phi)$ minimum, and then expanding around a ground state chosen to maintain an unbroken electromagnetic symmetry thus preserving a zero photon mass \cite{weinberghiggs} leads to
+
+\begin{equation}
+\phi_{0} =  \sqrt{\frac{1}{2}}\left( \begin{array}{c} 
+0 \\
+v  \end{array} \right) ,  \qquad \qquad 
+\phi(x) =  e^{i\tau\cdot\theta(x)/v}\sqrt{\frac{1}{2}} \left( \begin{array}{c} 
+0 \\
+v +h(x)  \end{array} \right) , 
+\end{equation} 
+
+where the fluctuations from the vacuum $\phi_{0}$ are parametrized in terms of four real fields, $ \theta_{1},\theta_{2},\theta_{3}$ and $h(x)$. 
+
+Choosing to gauge away the three massless Goldstone boson fields by setting $\theta(x)$ to zero and subsituting $\phi(x)$ back into $\mathcal{L}_{Higgs}$ from Equation \ref{higgslagrangian} leads to mass terms for the $W^{\pm}$ and Z bosons,
+
+\begin{equation}
+\mathcal{L}_{Higgs} = .
+\end{equation}
 
 \section{Motivation for Beyond the Standard Model Physics}
 

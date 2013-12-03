@@ -61,6 +61,26 @@ F.~Halzen and A.~D. Martin,
 C.~S. {Wu}, E.~{Ambler}, R.~W. {Hayward}, D.~D. {Hoppes}, and R.~P. {Hudson},
 \newblock Physical Review {\bf 105}, 1413 (1957).
 
+\bibitem{higgs1}
+P.~Higgs,
+\newblock Physics Letters {\bf 12}, 132  (1964).
+
+\bibitem{higgs2}
+F.~Englert and R.~Brout,
+\newblock Phys. Rev. Lett. {\bf 13}, 321 (1964).
+
+\bibitem{higgs3}
+P.~W. Higgs,
+\newblock Phys. Rev. Lett. {\bf 13}, 508 (1964).
+
+\bibitem{higgs4}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble,
+\newblock Phys. Rev. Lett. {\bf 13}, 585 (1964).
+
+\bibitem{weinberghiggs}
+S.~Weinberg,
+\newblock Phys. Rev. Lett. {\bf 19}, 1264 (1967).
+
 \bibitem{alicetdr}
 ALICE, K.~Aamodt {\em et~al.},
 \newblock JINST {\bf 3}, S08002 (2008).
