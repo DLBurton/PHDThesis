@@ -1,7 +1,7 @@
 \chapter{The LHC and the CMS Detector}
 \label{chap:cmsoverview}
 
-Probing the \ac{SM} for signs of new physics would not be possible without the immensely complex electronics and machinery that makes the TeV energy scale accessible for the first time. This chapter will cover the \ac{lhc} based at \acf{CERN}  and the \acf{CMS} detector, being the experiment the author is a member of. Section \ref{sec:cmsdetector} serves to introduce an overview of the different components of  the CMS detector, with more detail spent on those that are relevant in the search for Supersymmetric particles. Section \ref{sec:cmsobjects} will focus on event and object reconstruction again with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally Section \ref{sec:triggersystem} will cover work performed by the author, as service to the \ac{CMS} Collaboration, in measuring the performance of the \acf{GCT} component of the L1 trigger during the 2012-2013 run period.  
+Probing the \ac{SM} for signs of new physics would not be possible without the immensely complex electronics and machinery that makes the TeV energy scale accessible for the first time. This chapter will cover the \ac{lhc} based at \acf{CERN}  and the \acf{CMS} detector, being the experiment the author is a member of. Section (\ref{sec:cmsdetector}) serves to introduce an overview of the different components of  the CMS detector, with more detail spent on those that are relevant in the search for Supersymmetric particles. Section (\ref{sec:cmsobjects}) will focus on event and object reconstruction again with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally Section (\ref{sec:triggersystem}) will cover work performed by the author, as service to the \ac{CMS} Collaboration, in measuring the performance of the \acf{GCT} component of the L1 trigger during the 2012-2013 run period.  
 
 
 \section{The LHC}
@@ -16,7 +16,7 @@ These counter-circulating beams of protons/Pb ions are merged in four sections a
 \begin{figure}[!h]
 
 \centering
-\includegraphics[width=0.65\textwidth]{plots/lhc-ring-photo.png}
+\includegraphics[width=0.65\textwidth]{plots/lhc-ring-photo.pdf}
 \caption[A top down layout of the \LHC.]{A top down layout of the \LHC. \cite{Jean-Luc:841573}}  
 \label{fig:lhc-ring}
 \end{figure}
@@ -68,7 +68,7 @@ As the range of particles produced in \pp collisions interact in different ways 
 
  The inner-most subdetector of the barrel is the multi-layer silicon tracker, formed of a pixel detector component encased by layers of silicon strip detectors. The pixel detector consists of three layers of silicon pixel sensors providing measurements of the momentum, position coordinates of the charged particles as they pass, and the location of primary and secondary vertices between 4cm and 10cm transverse to the beam. Outside the pixel detector, ten cylindrical layers of silicon strip detectors extend the tracking system out to a radius of 1.20m from the beam line. The tracking system provides efficient and precise determination of the charges, momenta, and impact parameters of charged particles with the geometry of the tracker extending to cover a rapidity range up to $\lvert\eta\rvert \textless$ 2.5.  \\
  
- The tracking system also plays a crucial part in the identification of jets originating from b-quarks through measurement of displaced secondary vertices, which is covered in more detail in Section \ref{subsec:cmsobjects-btagging}. The identification of b-jets is important in many searches for natural \ac{SUSY} models and forms an important part of the inclusive search strategy described within Section \ref{subsec:searchstrategy}.
+ The tracking system also plays a crucial part in the identification of jets originating from b-quarks through measurement of displaced secondary vertices, which is covered in more detail in Section (\ref{subsec:cmsobjects-btagging}). The identification of b-jets is important in many searches for natural \ac{SUSY} models and forms an important part of the inclusive search strategy described within Section (\ref{subsec:searchstrategy}).
  
 \subsection{Electromagnetic Calorimeter}
 \label{subsec:ecal}
@@ -120,7 +120,7 @@ Outside of the superconducting solenoid are four muon detection layers interleav
 \section{Event Reconstruction and Object Definition}
 \label{sec:cmsobjects}
 
-The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, or groups of particles which shower in a narrow cone and the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, however covered below are brief descriptions of those which are most relevant to the analysis detailed in Section \ref{chap:SUSYsearches}.
+The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, or groups of particles which shower in a narrow cone and the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, however covered below are brief descriptions of those which are most relevant to the analysis detailed in Section (\ref{chap:SUSYsearches}).
 
 \subsection{Jets}
 \label{subsec:cmsobjects-jets}
@@ -148,7 +148,7 @@ The jets reconstructed by the clustering algorithm in \ac{CMS} typically have an
 
 The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\mathcal{O}$ 1ps. The identification of jets origination from b quarks is very important for searches for new physics and for measurements of standard model processes.  \\
 
-Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. One of the most efficient of which is the \acf{CSV} which operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, of which the medium point is the tagger used within the \alphat search detailed in Section \ref{sec:alphatintroduction}.
+Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. One of the most efficient of which is the \acf{CSV} which operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, of which the medium point is the tagger used within the \alphat search detailed in Section (\ref{sec:alphatintroduction}).
 
 Using the \ac{CSV} tagger, a likelihood-based discriminator distinguishes between jets from b-quarks, and those from charm or light quarks and gluons, which is shown in Figure \ref{fig:btagdescrims}. The minimum thresholds on the discriminator for each working point correspond to the misidentiﬁcation probability for light-parton jets of 10$\%$, 1$\%$, and 0.1$\%$, respectively, in jets with an average $\pt$ of about 80 \GeV. 
 
@@ -240,14 +240,14 @@ In the \L1 \ac{GCT}, coarse measurements of the energy deposited in the electrom
 
 In addition quantities suitable for triggering minimum bias events, forward physics and beam background events are calculated. Additionally relevant muon isolation information is also passed on to the \ac{GMT} for decisions involving the muon triggers where it is combined with information from across the three muon sub-systems. The resultant final accept/reject decision at \ac{L1} is then performed by the \ac{GT} based on the objects received from the \ac{GCT} and \ac{GMT} ($e/\gamma$, $\mu$, jets, $\et$, $\met$, $\theht$).
 
-The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing trigger and a good understanding of it's performance, there would be no data to analyse. Observations of how the \L1 trigger performance is affected by changing \ac{lhc} running conditions over the 2012 run period and also the introduction of a jet seed threshold to the \L1 jet trigger algorithm is presented in the following Sections \ref{subsec:l1jettrigger} - \ref{subsec:l1summary}.
+The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing trigger and a good understanding of it's performance, there would be no data to analyse. Observations of how the \L1 trigger performance is affected by changing \ac{lhc} running conditions over the 2012 run period and also the introduction of a jet seed threshold to the \L1 jet trigger algorithm is presented in the following Sections (\ref{subsec:l1jettrigger} - \ref{subsec:l1summary}).
 
 \subsection{ \L1 Trigger Jet Algorithm}
 \label{subsec:l1jettrigger}
 
 The \L1 jet trigger uses the transverse energy sums computed in the calorimeter (both hadronic and electromagnetic) trigger regions. Each region consists of $4 \times 4 $  trigger tower windows, spanning a region of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ in pseudorapidity-azimuth. The jet trigger uses a $3 \times 3$ calorimeter region (112 trigger towers) sliding window technique which spans the full $(\eta, \phi)$ coverage of the \ac{CMS} calorimeter as shown in Figure \ref{fig:l1jetalgo}. 
 
-In forming a \L1 jet is it required that the central region to be higher than the eight neighbouring regions $ E_{T central} > E_{T surround}$. Additionally a minimum threshold of 5 \GeV on $E_{T central}$ was introduced during the 2012 run period to suppress noise from pile-up, the effects of which are shown in Section \ref{subsec:l1jetseedpu}.
+In forming a \L1 jet is it required that the central region to be higher than the eight neighbouring regions $ E_{T central} > E_{T surround}$. Additionally a minimum threshold of 5 \GeV on $E_{T central}$ was introduced during the 2012 run period to suppress noise from pile-up, the effects of which are shown in Section (\ref{subsec:l1jetseedpu}).
 
 The \L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by $(\eta, \phi)$ indexes of the central calorimeter region.                                                                                                                                                  
 
@@ -260,7 +260,7 @@ Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta
 \label{fig:l1jetalgo}
 \end{figure}  
 
-The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. Jets are corrected for pile-up and detector effects as described in \ref{subsec:cmsobjects-jets}. A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose” identification criteria for both \Calo and \PF. These criteria are summarised in Appendix \ref{app:noise}. 
+The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. Jets are corrected for pile-up and detector effects as described in \ref{subsec:cmsobjects-jets}. A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose” identification criteria for both \Calo and \PF. These criteria are summarised in Appendix (\ref{app:noise}). 
 
 
 \subsection{Measuring \L1 Jet Trigger Efficiencies}
@@ -320,9 +320,9 @@ The results from the \L1 single jet triggers shows good performance for both \Ca
 
 Between run period B and C of the 2012 data taking period, a jet seed threshold was introduced into the \L1 trigger jet algorithm. There was previously no direct requirement made on the energy deposited in the central region. The introduction of a jet seed threshold required that the central region have $\et \geq 5$\GeV, and was introduced to counteract the effects of high pile up running conditions which create a large number of soft non-collimated jets, that are then added to the jets from the primary interaction or other soft jets from other secondary interactions \cite{L1bryn}. This in turn causes a large increase in trigger rate due to the increase in the likelihood that the event causes the \L1 trigger to fire. This was implemented to maintain trigger thresholds by cutting the rate of events recorded without significant reduction in the efficiency of physics events of interest.
 
-The effect of the introduction of this jet seed threshold between these two run periods is benchmarked through a comparison of the efficiency of the \L1 jet triggers with respect to offline Calo jets shown in Fig.~\ref{fig:l1jetseeds}, and the \L1 $H_{T}$ trigger efficiency in Figure \ref{fig:l1jetseedht} which is compared to offline $\theht$ constructed from Calo jets with $\et \geq$ 40\GeV. 
+The effect of the introduction of this jet seed threshold between these two run periods is benchmarked through a comparison of the efficiency of the \L1 jet triggers with respect to offline Calo jets shown in Figure \ref{fig:l1jetseeds}, and the \L1 $H_{T}$ trigger efficiency in Figure \ref{fig:l1jetseedht} which is compared to offline $\theht$ constructed from Calo jets with $\et \geq$ 40\GeV. 
 
-To negate any effects from different pile-up conditions in the run periods, the efficiencies are measured in events which contain between 15 and 20 primary vertices as defined in Appendix \ref{app:primaryvertices}. 
+To negate any effects from different pile-up conditions in the run periods, the efficiencies are measured in events which contain between 15 and 20 primary vertices as defined in Appendix (\ref{app:primaryvertices}). 
 
 \begin{figure}[ht]
 \centering
@@ -457,7 +457,7 @@ These features are further emphasised when shown as a function of
 \label{eq:jetresolution}
 \end{equation}
 
-in bins of matched leading offline jet $\et$, of which the individual fits can be found in Appendix~\ref{app:jetpuresolution}.  Each of these distributions are fitted with an \ac{EMG} function as defined in Eq.~\ref{eq:emg}.
+in bins of matched leading offline jet $\et$, of which the individual fits can be found in Appendix (\ref{app:jetpuresolution}).  Each of these distributions are fitted with an \ac{EMG} function as defined in Equation (\ref{eq:emg}).
 
 The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed to increases as a function of jet $\et$, whilst the resolution is also observed to improve at higher offline jet $\et$. 
 
@@ -477,7 +477,7 @@ The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high 
         \label{fig:pfjetptresultspu}
 \end{figure}
 
-The resolution of other \L1 energy sum quantities, $\mht$, $\met$ and $\sumet$ parameterised as in Equation \ref{eq:jetresolution}, can be found in Appendix \ref{app:jetenergysums}. The same behaviour observed for the single jet triggers is also found for these quantities, where in the presence of higher pile-up the $\mu$ values are shifted to higher values, with a worsening resolution, $\sigma$ again due to the increase in soft pile-up jets and the absence of pile-up subtraction at \L1.
+The resolution of other \L1 energy sum quantities, $\mht$, $\met$ and $\sumet$ parameterised as in Equation (\ref{eq:jetresolution}), can be found in Appendix (\ref{app:jetenergysums}). The same behaviour observed for the single jet triggers is also found for these quantities, where in the presence of higher pile-up the $\mu$ values are shifted to higher values, with a worsening resolution, $\sigma$ again due to the increase in soft pile-up jets and the absence of pile-up subtraction at \L1.
 
 \subsection{Summary}
 \label{subsec:l1summary}
