@@ -8,6 +8,14 @@ Particle Data Group, J.~Beringer {\em et~al.},
 G.~Hinshaw {\em et~al.},
 \newblock The Astrophysical Journal Supplement Series {\bf 208}, 19 (2013).
 
+\bibitem{Aad:2012tfa}
+ATLAS Collaboration, G.~Aad {\em et~al.},
+\newblock Phys.Lett. {\bf B716}, 1 (2012), 1207.7214.
+
+\bibitem{Chatrchyan:2012ufa}
+CMS Collaboration, S.~Chatrchyan {\em et~al.},
+\newblock Phys.Lett. {\bf B716}, 30 (2012), 1207.7235.
+
 \bibitem{ra1_epjc}
 CMS Collaboration, S.~Chatrchyan {\em et~al.},
 \newblock Eur.Phys.J. {\bf C73}, 2568 (2013), 1303.2985.
@@ -27,10 +35,6 @@ A.~Salam,
 \bibitem{Hooft1971167}
 G.~Hooft,
 \newblock Nuclear Physics B {\bf 35}, 167  (1971).
-
-\bibitem{Chatrchyan:2012ufa}
-CMS Collaboration, S.~Chatrchyan {\em et~al.},
-\newblock Phys.Lett. {\bf B716}, 30 (2012), 1207.7235.
 
 \bibitem{Hasert:1973ff}
 Gargamelle Neutrino Collaboration, F.~Hasert {\em et~al.},
@@ -85,6 +89,90 @@ S.~Weinberg,
 H.~Yukawa,
 \newblock Progress of Theoretical Physics Supplement {\bf 1}, 1 (1955),
   http://ptps.oxfordjournals.org/content/1/1.1.full.pdf+html.
+
+\bibitem{PhysRevLett.81.1562}
+(Super-Kamiokande Collaboration), Y.~Fukuda {\em et~al.},
+\newblock Phys. Rev. Lett. {\bf 81}, 1562 (1998).
+
+\bibitem{BeckerSzendy:1992ym}
+R.~Becker-Szendy {\em et~al.},
+\newblock Phys.Rev.Lett. {\bf 69}, 1010 (1992).
+
+\bibitem{Martin:1997ns}
+S.~P. Martin,
+\newblock (1997), hep-ph/9709356.
+
+\bibitem{nilles1984supersymmetry}
+H.~Nilles,
+\newblock {\em Supersymmetry, Supergravity and Particle Physics}Physics reports
+  (North-Holland Physics Publ., 1984).
+
+\bibitem{Haber:1984rc}
+H.~E. Haber and G.~L. Kane,
+\newblock Phys.Rept. {\bf 117}, 75 (1985).
+
+\bibitem{Witten:1981nf}
+E.~Witten,
+\newblock Nucl.Phys. {\bf B188}, 513 (1981).
+
+\bibitem{Wess197439}
+J.~Wess and B.~Zumino,
+\newblock Nuclear Physics B {\bf 70}, 39  (1974).
+
+\bibitem{muller2010introduction}
+H.~Muller-Kirsten and A.~Wiedemann,
+\newblock {\em Introduction to Supersymmetry}World Scientific lecture notes in
+  physics (World Scientific, 2010).
+
+\bibitem{aitchison2007supersymmetry}
+I.~Aitchison,
+\newblock {\em Supersymmetry in Particle Physics: An Elementary Introduction}
+  (Cambridge University Press, 2007).
+
+\bibitem{Intriligator:2007zz}
+K.~A. Intriligator and N.~Seiberg,
+\newblock Class.Quant.Grav. {\bf 24}, S741 (2007), hep-ph/0702069.
+
+\bibitem{Shadmi:2006jv}
+Y.~Shadmi,
+\newblock p. 147 (2006), hep-th/0601076.
+
+\bibitem{Burgess:2006mn}
+C.~Burgess {\em et~al.},
+\newblock JHEP {\bf 0804}, 053 (2008), hep-th/0610255.
+
+\bibitem{Murayama:2007sy}
+H.~Murayama,
+\newblock (2007), 0709.3041.
+
+\bibitem{baer2006weak}
+H.~Baer and X.~Tata,
+\newblock {\em Weak Scale Supersymmetry: From Superfields to Scattering Events}
+  (Cambridge University Press, 2006).
+
+\bibitem{Martin:hep-ph9602349}
+S.~P. Martin,
+\newblock (1996), hep-ph/9602349.
+
+\bibitem{Kane:1993td}
+G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells,
+\newblock Phys.Rev. {\bf D49}, 6173 (1994), hep-ph/9312272.
+
+\bibitem{Strege:2011pk}
+C.~Strege {\em et~al.},
+\newblock JCAP {\bf 1203}, 030 (2012), 1112.4192.
+
+\bibitem{Citron:2012fg}
+M.~Citron {\em et~al.},
+\newblock Phys.Rev. {\bf D87}, 036012 (2013), 1212.2886.
+
+\bibitem{Ghosh:2012dh}
+D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta,
+\newblock Phys.Rev. {\bf D86}, 055007 (2012), 1205.2283.
+
+\bibitem{Chatrchyan:2013sza}
+CMS Collaboration, S.~Chatrchyan {\em et~al.},
+\newblock Phys.Rev. {\bf D88}, 052017 (2013), 1301.2175.
 
 \bibitem{alicetdr}
 ALICE, K.~Aamodt {\em et~al.},

@@ -247,7 +247,7 @@ where the relations between the physical and electroweak gauge fields from Equat
 M_{W} = \frac{1}{2}gv \qquad M_{Z} = \frac{1}{2}\frac{gv}{\cos\theta_{w}}.
 \end{equation}
 
-This mechanism is also used to generate fermion masses by introducing a Yukawa coupling between the fermions and the $\phi$ field \cite{Yukawa01011955}, with the coupling strength of a particle to the $\phi$ field governing its mass. Additionally a scalar boson is also predicted as a result of this spontaneous symmetry breaking and became known as the Higgs boson. Its discovery by the \ac{CMS} and \ac{ATLAS} experiments in 2012 is concrete evidence to support this method of mass generation within the \ac{SM}.
+This mechanism is also used to generate fermion masses by introducing a Yukawa coupling between the fermions and the $\phi$ field \cite{Yukawa01011955}, with the coupling strength of a particle to the $\phi$ field governing its mass. Additionally a scalar boson h with mass $m_{h}=v\sqrt{\frac{\lambda}{2}}$, is also predicted as a result of this spontaneous symmetry breaking and became known as the Higgs boson. Its discovery by the \ac{CMS} and \ac{ATLAS} experiments in 2012 is concrete evidence to support this method of mass generation within the \ac{SM}.
 
 \section{Motivation for Beyond the Standard Model Physics}
 
@@ -255,39 +255,114 @@ This mechanism is also used to generate fermion masses by introducing a Yukawa c
 
 As has been described, the \ac{SM} has proved to be a very successful theory, predicting the existence of the \Wboson and \Zboson bosons and the top quark long before they were experimentally observed. However the theory does not accurately describe all observed phenomena and has some fundamental theoretical flaws that hint at the need for additional extensions to the current theory.
 
-On a theoretical level, the \ac{SM} is unable to incorporate the gravitational interactions of fundamental particles within the theory. Whilst at the electroweak energy scales the relative strength of gravity is negligible compared to the other three fundamental forces, at much higher energy scales $\sim M_{planck} \sim 10^{18} \GeV$ quantum gravitational effects become increasingly dominant. The failure to reconcile gravity within the \ac{SM}, demonstrates that the \ac{SM} must become invalid at some higher energy scale. 
+On a theoretical level, the \ac{SM} is unable to incorporate the gravitational interactions of fundamental particles within the theory. Whilst at the electroweak energy scales the relative strength of gravity is negligible compared to the other three fundamental forces, at much higher energy scales $M_{planck} \sim 10^{18} \GeV$ quantum gravitational effects become increasingly dominant. The failure to reconcile gravity within the \ac{SM}, demonstrates that the \ac{SM} must become invalid at some higher energy scale. 
 
-The prediction of zero neutrino mass and the observation of neutrino flavour mixing presents….
+Some other deficiencies with the \ac{SM} include the fact that the predicted rate of Charge-Parity violation does not account for the matter dominated universe which we inhabit, and the \ac{SM} prediction of zero neutrino mass conflicts with the observation of neutrino flavour mixing, attributed to mixing between neutrino mass eigenstates \cite{PhysRevLett.81.1562}\cite{BeckerSzendy:1992ym}. 
 
+Perhaps one of the most glaring gaps in the predictive power of the \ac{SM} is that there exists no candidate to explain the cosmic dark matter observed in galactic structures through indirect techniques including gravitational lensing and measurement of the orbital velocity of stars in galactic edges. Any such candidate must be very weakly interacting which must also be stable, owing to the lack of direct detection of the decay products of such an process. Providing a dark matter candidate is of the prime goals which be tackled by any \acf{BSM} physics model.
+
+ The recent discovery of the Higgs boson whilst a significant victory for the predictive power of the \ac{SM}, brings with it still unresolved questions. This issue is commonly described as the ``hierarchy problem''. 
  
+ In the absence of new physics between the \TeV and Planck scale, calculating beyond tree-level contributions to the Higgs mass term given by its self interaction, result in divergent terms that push the Higgs mass up to the planck mass $M_{planck}$. 
+  
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.45\textwidth]{plots/higgs_correction.pdf}
+\caption[One loop quantum corrections to the Higgs squared massed parameter $m^{2}_{h}$ due to a fermion.]{One loop quantum corrections to the Higgs squared massed parameter $m^{2}_{h}$ due to a fermion.}  
+\label{fig:higgscorrection}
+\end{figure}
 
-\section{Supersymmmetry}
+This can be demonstrated by considering the one loop quantum correction to the Higgs mass with a fermion f, shown in Figure \ref{fig:higgscorrection} with mass $m_{f}$. The Higgs field couples to f with a term in the Lagrangian $-\lambda_{f}h\bar{f}f$, yielding a correction of the form \cite{Martin:1997ns},
+ 
+ \begin{equation}
+ \delta m^{2}_{h} = -\frac{\lvert\lambda_{f}\rvert^{2}}{8\pi^{2}}\Lambda^{2} + ….. ,
+ \end{equation}
+ 
+ where $\lambda_{f}$ represents the coupling strength for each type of fermion $\propto m_{f}$, and $\Lambda$ the cutoff energy scale at which the \ac{SM} ceases to be a valid theory. 
+ 
+ To recover the mass of the now discovered Higgs boson would require a fine-tuning of the parameters to cancel out these mass corrections the the Higgs mass to the scale of 30 orders of magnitude. This appears as an unnatural solution to physicists and it is this hierarchy problem that provides one of the strongest motivations for the theory of \acf{SUSY}.
+ 
+\section{Supersymmmetry Overview}
 
 \label{sec:susytheory}
 
-What is this theory that doesn't exist all about?
+Supersymmetry provides potential solutions to many of the issues raised in the previous section. It provides a dark matter candidate, can explain baryogenesis in the early universe and also provides an elegant solution to the hierarchy problem \cite{nilles1984supersymmetry}\cite{Haber:1984rc}\cite{Witten:1981nf}\cite{Wess197439}. At it's heart it represents a new space-time symmetry that relates fermions and bosons. This symmetry converts bosonic states into fermionic states, and vice versa, see Equation (\ref{susyoperator})  ,
 
+\begin{equation}
+\label{susyoperator}
+Q \lvert Boson\rangle  = \lvert Fermion\rangle  \qquad Q \lvert Fermion\rangle = \lvert Boson\rangle,
+\end{equation}
+where the operator Q is the generator of these transformations. Quantum field theories which are invariant under such transformations are called supersymmetric.
+
+This symmetry operator therefore acts upon a particles spin altering it by a half integer value. The consequences of the introduction of this additional space-time symmetry introduce a new rich phenomenology. For example in supersymmetric theories, both the left handed SU(2) doublet and right handed singlet of fermions will have a spin-0 superpartner, containing the same electric charge, weak isospin, and colour as its \ac{SM} partner. In the case of the leptons $(\nu_{l},l)_{L}$ will have two superpartners, a sneutrino $\widetilde{\nu_{l}}_{L}$ and a slepton $\widetilde{l}_{L}$, whilst the single $l_{R}$ also has a superpartner slepton $\widetilde{l}_{R}$. 
+ 
+Each particle in a supersymmetric theory is paired together with their superpartners as a result of this supersymmetric transformations in a so called supermultiplet. These superpartners will then consequently also contribute to the corrections to the Higgs mass. Bosonic and fermionic loops contributing to the correction appear with opposite signs, and therefore cancellation of these divergent terms will stabilise the Higgs mass, solving the hierarchy problem \cite{muller2010introduction}\cite{aitchison2007supersymmetry}. 
+
+One of the simplest forms of \ac{SUSY} would predict a whole set of supersymmetric partners to their \ac{SM} counterparts with the same mass and interactions. However the currently lack of any experimental evidence for the predicted sparticle spectrum implies \ac{SUSY} must be a broken symmetry in which any sparticle masses must be greater than their SM counterparts.
+
+There exist many techniques which can induce supersymmetric breaking \cite{Intriligator:2007zz}\cite{Shadmi:2006jv}\cite{Burgess:2006mn}. Of particular interest to experimental physicists are those at which the breaking scale is of an order that is experimentally accessible to the \ac{lhc} i.e. $\sim$ \TeV scale. Whilst there is no requirement for supersymmetric breaking to occur at this energy scale, for supersymmetry to provide a solution to the hierarchy problem, it is necessary for this scale to not differ too drastically from the \ac{EWK} scale \cite{Murayama:2007sy}\cite{baer2006weak}.
+ 
 \subsection{R-Parity}
 
 \label{subsec:rparity}
 
-R-Parity stuff here innit.
+Some supersymmetric theories also present a solution to the dark matter problem. Such theories can contain a \acf{LSP}, which matches the criteria of a \acf{WIMP} required by cosmological observation if R-parity is conserved.  
 
-\subsection{ Supersymmetry Breaking}
+Baryon (B) and Lepton (L) number conservation is forbidden in the \ac{SM} by renormalisability requirements. The violation of Baryon or Lepton number would result in the proton lifetime much shorter than those set by experimental limits \cite{Martin:hep-ph9602349}. Another symmetry called R-parity is then often introduced to \ac{SUSY} theories to maintain baryon and lepton conservation. 
 
-\label{subsec:susybreaking}
+R-parity is described by the equation 
 
-Why are supersymmetric particles not the same mass.
+\begin{equation}
+\label{eq:rparityequation}
+R_{P} = (-1)^{3(B-L)+2s},
+\end{equation}
+where s represents the spin of the particles. $B =  \pm\frac{1}{3}$ for quarks/antiquarks and $B=0$ for all others, $L = \pm 1$ for leptons/antileptons, $L= 0$ for all others. 
 
+R-parity ensures the stability of the proton in \ac{SUSY} models, and also has other consequences for the production and decay of supersymmetric particles. At particle colliders supersymmetric particles can only be pair produced, and similarly the decay of any produced supersymmetric particle is restricted to a \ac{SM} particle and a lighter supersymmetric particle as allowed by conservation laws. A further implication of R-parity is that once a supersymmetric particle has decayed to the \ac{LSP} it remains stable, unable to decay into a \ac{SM} particle.  
 
-\section{Searching for SUSY at the LHC}
+A \ac{LSP} would not interact in a detector at a particle collider, leaving behind a missing energy $\met$ signature. The assumption of R-parity and its consequences are used to determine the physical motivation and search strategies for \ac{SUSY} model at the \ac{lhc}. 
+
+\section{Experimental signatures of SUSY at the LHC}
 \label{sec:susysearches}
+
+Should strongly interacting sparticles be within the experimental reach of the \ac{lhc}, then it is expected that they can be produced in a variety of ways. 
+
+\begin{itemize}
+\item squark/anti-squark and gluino pairs can be produced via both gluon fusion and quark/anti-quark scattering.
+\item a gluino and squark produced together via quark-gluon scattering
+\item squark pairs produced via quark-quark scattering
+\end{itemize}
+
+Whilst most \ac{SUSY} searches invoke the requirement of R-parity to explore parameter phase space, there still exist a whole plethora of possible \ac{SUSY} model topologies which could be discovered at the \ac{lhc}. 
+
+During the 2011 run period at a $\com = 7$ \TeV particular models were used to benchmark performance and experimental reach of both \ac{CMS} searches and previous experiments. The \acf{CMSSM} was initially chosen for a number of reasons \cite{Kane:1993td}. One of the most compelling being the reduction from the up to 105 new parameters introduced by \ac{SUSY} in addition to the existing 19 of the \ac{SM} to that of just 5 free extra free parameters. It was this simplicity, combined with the theory not requiring any fine tuning of particle masses to produce the experimentally verified \ac{SM} that made it an attractive model to interpret physics results. 
+
+However recent results from the \ac{lhc} now strongly disfavour large swathes of \ac{CMSSM} parameter space \cite{Strege:2011pk}\cite{Citron:2012fg}\cite{Ghosh:2012dh}. In the face of such results a more pragmatic model independent search strategy is now applied across most \ac{SUSY} searches at the \ac{lhc}, see Section (\ref{subsec:sms}). 
+
+As previously stated, a stable \ac{LSP} that exhibits the properties of a dark matter would be weakly interacting and therefore will not be directly detected in a detector environment. Additionally the cascade decays of supersymmetric particles to the \ac{LSP} would also result in significant hadronic activity. These signatures can then be characterised through large amounts of hadronic jets (see Section (\ref{subsec:cmsobjects-jets})), leptons and a significant amount of missing energy dependent upon the size of the mass splitting between the \ac{LSP} and the supersymmetric particle it has decayed from.
+
+Whilst the \ac{SM} contains processes which can exhibit a similar event topology to that described above. The largest contribution of which comes in from the general QCD environment of a hadron collider. A multitude of different analytical techniques are used by experimental physicists to reduce or estimate any reducible or irreducible backgrounds, allowing a possible \ac{SUSY} signature to be extracted. The techniques employed within this thesis are described in great detail within Section (\ref{sec:alphatintroduction}).
 
 \subsection{Simplified Models}
 
 \label{subsec:sms}
 
-With such a variety of different way for a \ac{SUSY} signal to manifest itself, it is necessary to be able to interpret experimental reach through the masses of gluinos and squarks which can excluded by experimental searches rather than on a model specific basis. This is accomplished through \acf{SMS} models, which are \ac{SUSY} decays which contain only one process. For example the production of a pair of gluinos which then decay via \ac{SM} processes, to a set decay topology with a 100$\%$ branching ratio, shown in ….
+With such a variety of different ways for a \ac{SUSY} signal to manifest itself, it is necessary to be able to interpret experimental reach through the masses of gluinos and squarks which can excluded by experimental searches rather than on a model specific basis. This is accomplished through \ac{SMS} models, which are specific \ac{SUSY} decays which contain only one process. For example Figure \ref{fig:susydecayexamples} shows two particular decays; the production of a pair of gluinos (the superpartner to the gluon) or squarks which then decay into \ac{SM} particles and the \ac{LSP}.
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/t1susydecay.pdf}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/t2susydecay.pdf}
+\end{minipage}
+\caption[Two example \ac{SMS} model decays (T1 (left),T2 (right) \cite{Chatrchyan:2013sza}), which are used in interpretations of physics reach by \ac{CMS}.]{Two example \ac{SMS} model decays (T1 (left),T2 (right) \cite{Chatrchyan:2013sza}), which are used in interpretations of physics reach by \ac{CMS}. }
+\label{fig:susydecayexamples}
+\end{figure}
+
+In both of these scenarios a set decay topology with a 100$\%$ branching ratio is assumed.
 
 Searching and interpreting \ac{SUSY} searches in this way….
 
