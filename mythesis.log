@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  9 DEC 2013 17:39
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  10 DEC 2013 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,11 +1024,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-(./mythesis.aux
-
-LaTeX Warning: Label `fig:lhc-ring' multiply defined.
-
-)
+(./mythesis.aux)
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -1170,11 +1166,46 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 41
 \tf@toc=\write6
 \openout6 = `mythesis.toc'.
 
- [7]))
+ [7] (./mythesis.lof
+Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:ECAL' newly defined as it shall be overridden
+
+although it is yet undefined on input line 11.
+Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
+
+although it is yet undefined on input line 12.
+Package acronym Info: Label `acro:CSV' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+Package acronym Info: Label `acro:CSVM' newly defined as it shall be overridden
+
+although it is yet undefined on input line 14.
+Package acronym Info: Label `acro:L1' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+
+[8
+
+]
+Package acronym Info: Label `acro:EMG' newly defined as it shall be overridden
+although it is yet undefined on input line 23.
+ [9])
+\tf@lof=\write7
+\openout7 = `mythesis.lof'.
+
+ [10] (./mythesis.lot
+Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+)
+\tf@lot=\write8
+\openout8 = `mythesis.lot'.
+
+ [11
+
+]))
 \openout3 = `comment.cut'.
 
- (./comment.cut
-(./chap_introduction.tex [1
+ (./comment.cut (./chap_introduction.tex
+[1
 
 ]
 Chapter 1.
@@ -1185,8 +1216,6 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
-Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
 Package acronym Info: Label `acro:lhc' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
@@ -1197,8 +1226,6 @@ although it is yet undefined on input line 8.
 [2
 
 ]
-Package acronym Info: Label `acro:CMS' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:ATLAS' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 12.
@@ -1246,7 +1273,7 @@ although it is yet undefined on input line 204.
 [12]
 Package acronym Info: Label `acro:BSM' newly defined as it shall be overridden
 although it is yet undefined on input line 262.
- [13] <plots/higgs_correction.pdf, id=523, 261.93872pt x 153.02742pt>
+ [13] <plots/higgs_correction.pdf, id=715, 261.93872pt x 153.02742pt>
 File: plots/higgs_correction.pdf Graphic file (type pdf)
 
 <use plots/higgs_correction.pdf>
@@ -1261,17 +1288,15 @@ although it is yet undefined on input line 310.
 Package acronym Info: Label `acro:CMSSM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 339.
- [17] <plots/t1susydecay.pdf, id=670, 218.8175pt x 125.46875pt>
+ [17] [18] <plots/t1susydecay.pdf, id=888, 218.8175pt x 125.46875pt>
 File: plots/t1susydecay.pdf Graphic file (type pdf)
 
 <use plots/t1susydecay.pdf>
-<plots/t2susydecay.pdf, id=671, 217.81375pt x 124.465pt>
+<plots/t2susydecay.pdf, id=889, 217.81375pt x 124.465pt>
 File: plots/t2susydecay.pdf Graphic file (type pdf)
 
-<use plots/t2susydecay.pdf>
-Missing character: There is no É in font cmr12!
-) (./chap_detector.tex [18 <./plots/t1susydecay.pdf> <./plots/t2susydecay.pdf>]
-
+<use plots/t2susydecay.pdf>) (./chap_detector.tex [19 <./plots/t1susydecay.pdf>
+ <./plots/t2susydecay.pdf>]
 Chapter 3.
 Package acronym Info: Label `acro:GCT' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
@@ -1291,9 +1316,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[19
+[20
 
-] <plots/lhc-ring-photo.pdf, id=740, 1035.7395pt x 1114.02196pt>
+] <plots/lhc-ring-photo.pdf, id=955, 1035.7395pt x 1114.02196pt>
 File: plots/lhc-ring-photo.pdf Graphic file (type pdf)
 
 <use plots/lhc-ring-photo.pdf>
@@ -1304,284 +1329,269 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[20 <./plots/lhc-ring-photo.pdf>]
-<plots/lhc-lumo-8tev.png, id=774, 578.16pt x 433.62pt>
-File: plots/lhc-lumo-8tev.png Graphic file (type png)
+[21 <./plots/lhc-ring-photo.pdf>]
+<plots/lhc-lumo-8tev.pdf, id=988, 578.16098pt x 433.62102pt>
+File: plots/lhc-lumo-8tev.pdf Graphic file (type pdf)
 
-<use plots/lhc-lumo-8tev.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+<use plots/lhc-lumo-8tev.pdf> [22 <./plots/lhc-lumo-8tev.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[22 <./plots/lhc-lumo-8tev.png>]
-<plots/cms-detector.png, id=801, 481.8pt x 320.19624pt>
-File: plots/cms-detector.png Graphic file (type png)
+[23] <plots/cms-detector.pdf, id=1020, 346.89601pt x 230.54129pt>
+File: plots/cms-detector.pdf Graphic file (type pdf)
 
-<use plots/cms-detector.png>
+<use plots/cms-detector.pdf>
 
-LaTeX Warning: Command \textless invalid in math mode on input line 69.
+LaTeX Warning: Command \textless invalid in math mode on input line 68.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 69.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 68.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 68.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 69.
+LaTeX Warning: Command \textless invalid in math mode on input line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[23 <./plots/cms-detector.png>]
-Package acronym Info: Label `acro:ECAL' newly defined as it shall be overridden
-
-although it is yet undefined on input line 76.
-
-Overfull \hbox (7.08237pt too wide) in paragraph at lines 76--77
-\OT1/cmr/m/n/12 (-20) Immediately out-side of the tracker, but still within the
- mag-net core, sits the [][][]Electromagnetic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[24 <./plots/cms-detector.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 Package acronym Info: Label `acro:EB' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 79.
 Package acronym Info: Label `acro:EE' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 79.
 Package acronym Info: Label `acro:ES' newly defined as it shall be overridden
-although it is yet undefined on input line 81.
+although it is yet undefined on input line 80.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
-<plots/cms-ecal.png, id=824, 449.0376pt x 244.2726pt>
-File: plots/cms-ecal.png Graphic file (type png)
- <use plots/cms-ecal.png>
+<plots/cms-ecal.pdf, id=1045, 449.00046pt x 244.25252pt>
+File: plots/cms-ecal.pdf Graphic file (type pdf)
+
+<use plots/cms-ecal.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package acronym Info: Label `acro:APD' newly defined as it shall be overridden
-although it is yet undefined on input line 93.
+although it is yet undefined on input line 92.
 Package acronym Info: Label `acro:VPT' newly defined as it shall be overridden
-although it is yet undefined on input line 93.
-[24]
-Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
-
-although it is yet undefined on input line 99.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+although it is yet undefined on input line 92.
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[25 <./plots/cms-ecal.png>]
-<plots/cms-hcal.png, id=881, 429.7656pt x 259.2084pt>
-File: plots/cms-hcal.png Graphic file (type png)
- <use plots/cms-hcal.png>
+<plots/cms-hcal.pdf, id=1089, 429.73047pt x 259.18732pt>
+File: plots/cms-hcal.pdf Graphic file (type pdf)
+
+<use plots/cms-hcal.pdf>
 Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
-although it is yet undefined on input line 107.
+although it is yet undefined on input line 106.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package acronym Info: Label `acro:HB' newly defined as it shall be overridden
-although it is yet undefined on input line 111.
+although it is yet undefined on input line 110.
 Package acronym Info: Label `acro:HO' newly defined as it shall be overridden
-although it is yet undefined on input line 111.
+although it is yet undefined on input line 110.
 Package acronym Info: Label `acro:HE' newly defined as it shall be overridden
-although it is yet undefined on input line 111.
-
-[26 <./plots/cms-hcal.png>]
+although it is yet undefined on input line 110.
+[26 <./plots/cms-ecal.pdf>]
 Package acronym Info: Label `acro:DT' newly defined as it shall be overridden
-although it is yet undefined on input line 118.
+although it is yet undefined on input line 117.
 Package acronym Info: Label `acro:CSC' newly defined as it shall be overridden
-although it is yet undefined on input line 118.
+although it is yet undefined on input line 117.
 Package acronym Info: Label `acro:RPC' newly defined as it shall be overridden
-although it is yet undefined on input line 118.
+although it is yet undefined on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[27 <./plots/cms-hcal.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-Package acronym Info: Label `acro:CSV' newly defined as it shall be overridden
-although it is yet undefined on input line 151.
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+[29]
 Missing character: There is no Þ in font cmr12!
-<plots/btag-ttbardiscrim.png, id=961, 506.3718pt x 364.7226pt>
-File: plots/btag-ttbardiscrim.png Graphic file (type png)
+ <plots/btag-ttbardiscrim.pdf, id=1186, 569.12625pt x 383.4325pt>
+File: plots/btag-ttbardiscrim.pdf Graphic file (type pdf)
 
-<use plots/btag-ttbardiscrim.png>
-<plots/btag-multijetdiscrim.png, id=962, 506.3718pt x 364.7226pt>
-File: plots/btag-multijetdiscrim.png Graphic file (type png)
+<use plots/btag-ttbardiscrim.pdf>
+<plots/btag-multijetdiscrim.pdf, id=1187, 569.12625pt x 383.4325pt>
+File: plots/btag-multijetdiscrim.pdf Graphic file (type pdf)
 
-<use plots/btag-multijetdiscrim.png>
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+<use plots/btag-multijetdiscrim.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-Package acronym Info: Label `acro:CSVM' newly defined as it shall be overridden
+[30] [31 <./plots/btag-ttbardiscrim.pdf, page is rotated 90 degrees> <./plots/b
+tag-multijetdiscrim.pdf, page is rotated 90 degrees>]
+<plots/btag-csvm_pt_sf.pdf, id=1293, 569.12625pt x 546.04pt>
+File: plots/btag-csvm_pt_sf.pdf Graphic file (type pdf)
 
-although it is yet undefined on input line 176.
-[29] [30 <./plots/btag-ttbardiscrim.png> <./plots/btag-multijetdiscrim.png>]
-<plots/btag-csvm_pt_sf.png, id=988, 569.0058pt x 545.8794pt>
-File: plots/btag-csvm_pt_sf.png Graphic file (type png)
+<use plots/btag-csvm_pt_sf.pdf>
+<plots/btag-csvm_eta_sf.pdf, id=1294, 569.12625pt x 546.04pt>
+File: plots/btag-csvm_eta_sf.pdf Graphic file (type pdf)
 
-<use plots/btag-csvm_pt_sf.png>
-<plots/btag-csvm_eta_sf.png, id=989, 569.0058pt x 545.8794pt>
-File: plots/btag-csvm_eta_sf.png Graphic file (type png)
+<use plots/btag-csvm_eta_sf.pdf>
+<plots/btag-csvm_vert_sf.pdf, id=1295, 569.12625pt x 546.04pt>
+File: plots/btag-csvm_vert_sf.pdf Graphic file (type pdf)
 
-<use plots/btag-csvm_eta_sf.png>
-<plots/btag-csvm_vert_sf.png, id=990, 569.0058pt x 545.8794pt>
-File: plots/btag-csvm_vert_sf.png Graphic file (type png)
-
-<use plots/btag-csvm_vert_sf.png>
+<use plots/btag-csvm_vert_sf.pdf>
 Missing character: There is no Þ in font cmr12!
 
-<plots/btag-csvmsf.png, id=995, 569.12625pt x 385.44pt>
-File: plots/btag-csvmsf.png Graphic file (type png)
+<plots/btag-csvmsf_v2.pdf, id=1300, 506.08112pt x 397.08972pt>
+File: plots/btag-csvmsf_v2.pdf Graphic file (type pdf)
 
-<use plots/btag-csvmsf.png>
+<use plots/btag-csvmsf_v2.pdf>
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
-Package acronym Info: Label `acro:L1' newly defined as it shall be overridden
-although it is yet undefined on input line 212.
- [31 <./plots/btag-csvm_pt_sf.png> <./plots/btag-csvm_eta_sf.png> <./plots/btag
--csvm_vert_sf.png>]
-<plots/l1triggersystem.png, id=1020, 330.9966pt x 254.3904pt>
-File: plots/l1triggersystem.png Graphic file (type png)
+ [32 <./plots/btag-csvm_pt_sf.pdf, page is rotated 90 degrees> <./plots/btag-cs
+vm_eta_sf.pdf, page is rotated 90 degrees> <./plots/btag-csvm_vert_sf.pdf>]
+<plots/l1triggersystem.pdf, id=1419, 330.9695pt x 254.36932pt>
+File: plots/l1triggersystem.pdf Graphic file (type pdf)
 
-<use plots/l1triggersystem.png>
+<use plots/l1triggersystem.pdf>
 Package acronym Info: Label `acro:HLT' newly defined as it shall be overridden
-although it is yet undefined on input line 224.
+although it is yet undefined on input line 223.
 Package acronym Info: Label `acro:RCT' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
+although it is yet undefined on input line 228.
 Package acronym Info: Label `acro:RMT' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
+although it is yet undefined on input line 228.
 Package acronym Info: Label `acro:GMT' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
+although it is yet undefined on input line 228.
 Package acronym Info: Label `acro:GT' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
- [32 <./plots/btag-csvmsf.png, page is rotated 90 degrees>] [33 <./plots/l1trig
-gersystem.png>]
+although it is yet undefined on input line 228.
+ [33 <./plots/btag-csvmsf_v2.pdf>] [34 <./plots/l1triggersystem.pdf>] [35]
 Package acronym Info: Label `acro:LUT' newly defined as it shall be overridden
-although it is yet undefined on input line 254.
- [34]
-<plots/L1JetAlgorithm.png, id=1122, 343.0416pt x 176.8206pt>
-File: plots/L1JetAlgorithm.png Graphic file (type png)
+although it is yet undefined on input line 253.
 
-<use plots/L1JetAlgorithm.png>
+<plots/L1JetAlgorithm.pdf, id=1492, 343.01349pt x 176.80554pt>
+File: plots/L1JetAlgorithm.pdf Graphic file (type pdf)
+
+<use plots/L1JetAlgorithm.pdf>
 Missing character: There is no Ó in font cmr12!
-Package acronym Info: Label `acro:EMG' newly defined as it shall be overridden
-although it is yet undefined on input line 273.
- [35 <./plots/L1JetAlgorithm.png>]
-<plots/jetpt_RunC.png, id=1137, 748.7975pt x 624.3325pt>
-File: plots/jetpt_RunC.png Graphic file (type png)
 
-<use plots/jetpt_RunC.png>
-<plots/jetpt_RunC_PF.png, id=1138, 748.7975pt x 624.3325pt>
-File: plots/jetpt_RunC_PF.png Graphic file (type png)
 
-<use plots/jetpt_RunC_PF.png>
-Overfull \hbox (69.04929pt too wide) in alignment at lines 302--309
+LaTeX Warning: Reference `app:jetmatcheff' on page 36 undefined on input line 2
+70.
+
+[36 <./plots/L1JetAlgorithm.pdf>]
+<plots/jetpt_RunC.pdf, id=1512, 569.12625pt x 474.77374pt>
+File: plots/jetpt_RunC.pdf Graphic file (type pdf)
+
+<use plots/jetpt_RunC.pdf>
+<plots/jetpt_RunC_PF.pdf, id=1513, 569.12625pt x 474.77374pt>
+File: plots/jetpt_RunC_PF.pdf Graphic file (type pdf)
+
+<use plots/jetpt_RunC_PF.pdf>
+Overfull \hbox (69.04929pt too wide) in alignment at lines 301--308
 [] [] [] [] []
  []
 
-[36] [37 <./plots/jetpt_RunC.png (PNG copy)> <./plots/jetpt_RunC_PF.png (PNG co
-py)>] <plots/jetseed_36.png, id=1165, 748.7975pt x 624.3325pt>
-File: plots/jetseed_36.png Graphic file (type png)
+[37] [38 <./plots/jetpt_RunC.pdf, page is rotated 90 degrees> <./plots/jetpt_Ru
+nC_PF.pdf, page is rotated 90 degrees>]
+<plots/jetseed_36.pdf, id=1619, 569.12625pt x 474.77374pt>
+File: plots/jetseed_36.pdf Graphic file (type pdf)
 
-<use plots/jetseed_36.png>
-<plots/jetseed_92.png, id=1166, 748.7975pt x 624.3325pt>
-File: plots/jetseed_92.png Graphic file (type png)
+<use plots/jetseed_36.pdf>
+<plots/jetseed_92.pdf, id=1620, 569.12625pt x 474.77374pt>
+File: plots/jetseed_92.pdf Graphic file (type pdf)
 
-<use plots/jetseed_92.png>
-Overfull \hbox (63.17435pt too wide) in alignment at lines 345--351
+<use plots/jetseed_92.pdf>
+Overfull \hbox (63.17435pt too wide) in alignment at lines 344--350
 [] [] [] [] []
  []
 
-<plots/l1rateplot.png, id=1171, 339.669pt x 251.0178pt>
-File: plots/l1rateplot.png Graphic file (type png)
+[39 <./plots/jetseed_36.pdf, page is rotated 90 degrees> <./plots/jetseed_92.pd
+f, page is rotated 90 degrees>]
+<plots/l1rateplot.pdf, id=1716, 339.6409pt x 250.99673pt>
+File: plots/l1rateplot.pdf Graphic file (type pdf)
 
-<use plots/l1rateplot.png> [38 <./plots/jetseed_36.png (PNG copy)> <./plots/jet
-seed_92.png (PNG copy)>]
-<plots/jetseed_ht100.png, id=1181, 698.61pt x 574.145pt>
-File: plots/jetseed_ht100.png Graphic file (type png)
+<use plots/l1rateplot.pdf>
+<plots/jetseed_ht100.pdf, id=1720, 569.12625pt x 474.77374pt>
+File: plots/jetseed_ht100.pdf Graphic file (type pdf)
 
-<use plots/jetseed_ht100.png>
-<plots/jetseed_ht150.png, id=1182, 698.61pt x 574.145pt>
-File: plots/jetseed_ht150.png Graphic file (type png)
+<use plots/jetseed_ht100.pdf>
+<plots/jetseed_ht150.pdf, id=1721, 569.12625pt x 474.77374pt>
+File: plots/jetseed_ht150.pdf Graphic file (type pdf)
 
-<use plots/jetseed_ht150.png>
-Overfull \hbox (39.52237pt too wide) in alignment at lines 386--392
+<use plots/jetseed_ht150.pdf>
+Overfull \hbox (43.439pt too wide) in alignment at lines 385--391
 [] [] [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <./plots/l1rateplot.png> <./plots/jetseed_ht100.png (PNG copy)> <./plots/je
-tseed_ht150.png (PNG copy)>]
-<plots/jetpt_RunC_calopu.png, id=1195, 748.7975pt x 624.3325pt>
-File: plots/jetpt_RunC_calopu.png Graphic file (type png)
+[40 <./plots/l1rateplot.pdf> <./plots/jetseed_ht100.pdf, page is rotated 90 deg
+rees> <./plots/jetseed_ht150.pdf, page is rotated 90 degrees>]
+<plots/jetpt_RunC_calopu.pdf, id=1824, 569.12625pt x 474.77374pt>
+File: plots/jetpt_RunC_calopu.pdf Graphic file (type pdf)
 
-<use plots/jetpt_RunC_calopu.png>
-<plots/jetpt_RunC_pfpu.png, id=1196, 748.7975pt x 624.3325pt>
-File: plots/jetpt_RunC_pfpu.png Graphic file (type png)
+<use plots/jetpt_RunC_calopu.pdf>
+<plots/jetpt_RunC_pfpu.pdf, id=1825, 569.12625pt x 474.77374pt>
+File: plots/jetpt_RunC_pfpu.pdf Graphic file (type pdf)
 
-<use plots/jetpt_RunC_pfpu.png>
-Overfull \hbox (58.82442pt too wide) in alignment at lines 423--430
+<use plots/jetpt_RunC_pfpu.pdf>
+Overfull \hbox (36.41936pt too wide) in alignment at lines 423--430
 [] [] [] [] [] [] []
  []
 
 
-Overfull \hbox (76.44923pt too wide) in alignment at lines 438--445
+Overfull \hbox (65.79405pt too wide) in alignment at lines 438--445
 [] [] [] [] [] [] []
  []
 
-[40 <./plots/jetpt_RunC_calopu.png (PNG copy)> <./plots/jetpt_RunC_pfpu.png (PN
-G copy)>] [41]
-<plots/res_CaloJet_summary.png, id=1220, 1200.485pt x 373.395pt>
-File: plots/res_CaloJet_summary.png Graphic file (type png)
+[41 <./plots/jetpt_RunC_calopu.pdf, page is rotated 90 degrees> <./plots/jetpt_
+RunC_pfpu.pdf, page is rotated 90 degrees>] [42]
+<plots/res_CaloJet_summary.pdf, id=1931, 569.12625pt x 200.75pt>
+File: plots/res_CaloJet_summary.pdf Graphic file (type pdf)
 
-<use plots/res_CaloJet_summary.png>
-<plots/res_PFJet_summary.png, id=1223, 1200.485pt x 373.395pt>
-File: plots/res_PFJet_summary.png Graphic file (type png)
+<use plots/res_CaloJet_summary.pdf>
+<plots/res_PFJet_summary.pdf, id=1934, 569.12625pt x 203.76125pt>
+File: plots/res_PFJet_summary.pdf Graphic file (type pdf)
 
-<use plots/res_PFJet_summary.png> [42 <./plots/res_CaloJet_summary.png (PNG cop
-y)> <./plots/res_PFJet_summary.png (PNG copy)>]) (./chap_alphat.tex [43]
+<use plots/res_PFJet_summary.pdf> [43 <./plots/res_CaloJet_summary.pdf, page is
+ rotated 90 degrees> <./plots/res_PFJet_summary.pdf, page is rotated 90 degrees
+>]) (./chap_alphat.tex [44]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1639,209 +1649,201 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-) (./chap_results.tex [44
+) (./chap_results.tex [45
 
 ]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./appendices.tex [45
+ (./comment.cut (./appendices.tex [46
 
 ]
 Appendix A.
-[46
+[47
 
-] [47]
+] [48]
 Appendix B.
-<plots/ptresolution_low.png, id=1253, 1158.3275pt x 645.41125pt>
-File: plots/ptresolution_low.png Graphic file (type png)
+<plots/leadjet_matchingeff.pdf, id=2053, 569.12625pt x 474.77374pt>
+File: plots/leadjet_matchingeff.pdf Graphic file (type pdf)
 
-<use plots/ptresolution_low.png>
-<plots/ptresolution_medium.png, id=1254, 1156.32pt x 644.4075pt>
-File: plots/ptresolution_medium.png Graphic file (type png)
+<use plots/leadjet_matchingeff.pdf> [49
 
-<use plots/ptresolution_medium.png>
-<plots/ptresolution_high.png, id=1255, 1154.3125pt x 643.40375pt>
-File: plots/ptresolution_high.png Graphic file (type png)
+ <./plots/leadjet_matchingeff.pdf, page is rotated 90 degrees>]
+Overfull \hbox (2.79747pt too wide) in alignment at lines 76--81
+[][][]
+ []
 
-<use plots/ptresolution_high.png>
-File: plots/ptresolution_low.png Graphic file (type png)
- <use plots/ptresolution_low.png>
-File: plots/ptresolution_medium.png Graphic file (type png)
+<plots/ptresolution_low.pdf, id=2102, 1158.3275pt x 645.41125pt>
+File: plots/ptresolution_low.pdf Graphic file (type pdf)
 
-<use plots/ptresolution_medium.png>
-File: plots/ptresolution_high.png Graphic file (type png)
- <use plots/ptresolution_high.png> [48
+<use plots/ptresolution_low.pdf>
+<plots/ptresolution_medium.pdf, id=2103, 1156.32pt x 644.4075pt>
+File: plots/ptresolution_medium.pdf Graphic file (type pdf)
 
- <./plots/ptresolution_low.png (PNG copy)>] [49 <./plots/ptresolution_medium.pn
-g (PNG copy)> <./plots/ptresolution_high.png (PNG copy)>] [50pdfTeX warning (ex
-t4): destination with the same identifier (name{subfigure.\\relax\040B.1.1}) ha
-s been already used, duplicate ignored
+<use plots/ptresolution_medium.pdf>
+<plots/ptresolution_high.pdf, id=2104, 1154.3125pt x 643.40375pt>
+File: plots/ptresolution_high.pdf Graphic file (type pdf)
+
+<use plots/ptresolution_high.pdf>
+File: plots/ptresolution_low.pdf Graphic file (type pdf)
+ <use plots/ptresolution_low.pdf>
+File: plots/ptresolution_medium.pdf Graphic file (type pdf)
+
+<use plots/ptresolution_medium.pdf>
+File: plots/ptresolution_high.pdf Graphic file (type pdf)
+ <use plots/ptresolution_high.pdf> [50 <./plots/ptresolution_low.pdf>] [51pdfTe
+X warning (ext4): destination with the same identifier (name{subfigure.\\relax\
+040B.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 \newpage
-             ]
-<plots/res_CaloSumET_summary.png, id=1276, 999.735pt x 373.395pt>
-File: plots/res_CaloSumET_summary.png Graphic file (type png)
+l.128 \newpage
+               <./plots/ptresolution_medium.pdf> <./plots/ptresolution_high.pdf
+>] [52] <plots/res_CaloSumET_summary.pdf, id=2136, 999.735pt x 373.395pt>
+File: plots/res_CaloSumET_summary.pdf Graphic file (type pdf)
 
-<use plots/res_CaloSumET_summary.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots/res_pfSumET_summary.png, id=1277, 999.735pt x 373.395pt>
-File: plots/res_pfSumET_summary.png Graphic file (type png)
-
-<use plots/res_pfSumET_summary.png>
+<use plots/res_CaloSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMET_summary.png, id=1278, 999.735pt x 373.395pt>
-File: plots/res_CaloMET_summary.png Graphic file (type png)
+<plots/res_pfSumET_summary.pdf, id=2137, 999.735pt x 373.395pt>
+File: plots/res_pfSumET_summary.pdf Graphic file (type pdf)
 
-<use plots/res_CaloMET_summary.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots/res_pfMET_summary.png, id=1279, 999.735pt x 373.395pt>
-File: plots/res_pfMET_summary.png Graphic file (type png)
-
-<use plots/res_pfMET_summary.png>
+<use plots/res_pfSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloHT_summary.png, id=1280, 999.735pt x 373.395pt>
-File: plots/res_CaloHT_summary.png Graphic file (type png)
+<plots/res_CaloMET_summary.pdf, id=2138, 999.735pt x 373.395pt>
+File: plots/res_CaloMET_summary.pdf Graphic file (type pdf)
 
-<use plots/res_CaloHT_summary.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots/res_pfHT_summary.png, id=1281, 999.735pt x 373.395pt>
-File: plots/res_pfHT_summary.png Graphic file (type png)
-
-<use plots/res_pfHT_summary.png>
+<use plots/res_CaloMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMHT_summary.png, id=1282, 999.735pt x 373.395pt>
-File: plots/res_CaloMHT_summary.png Graphic file (type png)
+<plots/res_pfMET_summary.pdf, id=2139, 999.735pt x 373.395pt>
+File: plots/res_pfMET_summary.pdf Graphic file (type pdf)
 
-<use plots/res_CaloMHT_summary.png>
+<use plots/res_pfMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMHT_summary.png, id=1283, 999.735pt x 373.395pt>
-File: plots/res_pfMHT_summary.png Graphic file (type png)
+<plots/res_CaloHT_summary.pdf, id=2140, 999.735pt x 373.395pt>
+File: plots/res_CaloHT_summary.pdf Graphic file (type pdf)
 
-<use plots/res_pfMHT_summary.png>
+<use plots/res_CaloHT_summary.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfHT_summary.pdf, id=2141, 999.735pt x 373.395pt>
+File: plots/res_pfHT_summary.pdf Graphic file (type pdf)
+
+<use plots/res_pfHT_summary.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_CaloMHT_summary.pdf, id=2142, 999.735pt x 373.395pt>
+File: plots/res_CaloMHT_summary.pdf Graphic file (type pdf)
+
+<use plots/res_CaloMHT_summary.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/res_pfMHT_summary.pdf, id=2143, 999.735pt x 373.395pt>
+File: plots/res_pfMHT_summary.pdf Graphic file (type pdf)
+
+<use plots/res_pfMHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ))
 \openout3 = `comment.cut'.
 
- [51pdfTeX warning (ext4): destination with the same identifier (name{subfigure
-.\\relax\040B.0.3}) has been already used, duplicate ignored
+ [53pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+.\\relax\040B.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.57 \end{backmatter}
-                     ] [52 <./plots/res_CaloSumET_summary.png (PNG copy)> <./pl
-ots/res_pfSumET_summary.png (PNG copy)>] [53 <./plots/res_CaloMET_summary.png (
-PNG copy)> <./plots/res_pfMET_summary.png (PNG copy)>] [54 <./plots/res_CaloHT_
-summary.png (PNG copy)> <./plots/res_pfHT_summary.png (PNG copy)>] [55 <./plots
-/res_CaloMHT_summary.png (PNG copy)> <./plots/res_pfMHT_summary.png (PNG copy)>
-] (./comment.cut (./backmatter.tex (./mythesis.bbl [56
+                     ] [54 <./plots/res_CaloSumET_summary.pdf> <./plots/res_pfS
+umET_summary.pdf>] [55 <./plots/res_CaloMET_summary.pdf> <./plots/res_pfMET_sum
+mary.pdf>] [56 <./plots/res_CaloHT_summary.pdf> <./plots/res_pfHT_summary.pdf>]
+[57 <./plots/res_CaloMHT_summary.pdf> <./plots/res_pfMHT_summary.pdf>]
+(./comment.cut (./backmatter.tex (./mythesis.bbl [58
 
 
-]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¶ in font cmr12!
- [57
+] [59
 
 ]
-Underfull \hbox (badness 2600) in paragraph at lines 89--92
-[]\OT1/cmr/m/n/12 (+20) H. Yukawa,  Progress of The-o-ret-i-cal Physics Sup-ple
--ment \OT1/cmr/bx/n/12 1\OT1/cmr/m/n/12 (+20) , 1 (1955),
+Overfull \hbox (67.90819pt too wide) in paragraph at lines 121--124
+[]\OT1/cmr/m/n/12 (-20) CERN.  Cms com-pact muon solenoid.  http://public.web.c
+ern.ch/public/Objects/LHC/CMSnc.jpg.,
  []
 
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 199--202
-[]\OT1/cmr/m/n/12 (+20) C. Col-lab-o-ra-tion,  Cms lu-mi-nos-ity - pub-lic re-s
-ults,
+[60]
+Underfull \hbox (badness 1112) in paragraph at lines 150--153
+[]\OT1/cmr/m/n/12 (+20) CMS Col-lab-o-ra-tion.  The cms physics tech-ni-cal de-
+sign re-port, vol-ume 1.
  []
 
 
-Overfull \hbox (71.36787pt too wide) in paragraph at lines 204--207
-[]\OT1/cmr/m/n/12 (-20) CERN,  Cms com-pact muon solenoid.,  http://public.web.
-cern.ch/public/Objects/LHC/CMSnc.jpg.,
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+[]\OT1/cmr/m/n/12 (+20) C. Col-lab-o-ra-tion.  Cms lu-mi-nos-ity - pub-lic re-s
+ults.
  []
 
-[59]) [60] [61] [62] (./mythesis.lof
-Missing character: There is no Þ in font cmr12!
-Missing character: There is no Þ in font cmr12!
- [63
-
-] [64])
-\tf@lof=\write7
-\openout7 = `mythesis.lof'.
-
- [65] (./mythesis.lot)
-\tf@lot=\write8
-\openout8 = `mythesis.lot'.
-
-))
-[66
-
-]
+[61] [62]
+Missing character: There is no Ã in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+) [63] [64]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+ [65]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3EDBD401D48311B0490DDBCC54507A27;3063.
+(rerunfilecheck)             Checksum: EFCBE22E7CF6BD0ED4068BA6B327F20A;3133.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22556 strings out of 493747
- 351428 string characters out of 3143546
- 507799 words of memory out of 3000000
- 24769 multiletter control sequences out of 15000+200000
- 39105 words of font info for 207 fonts, out of 3000000 for 9000
+ 22601 strings out of 493747
+ 352115 string characters out of 3143546
+ 514795 words of memory out of 3000000
+ 24791 multiletter control sequences out of 15000+200000
+ 39643 words of font info for 213 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,24n,59p,1346b,746s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,24n,59p,1346b,737s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/
-2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/20
-10/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2010
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/tex
-mf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/201
-0/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on mythesis.pdf (73 pages, 2622634 bytes).
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
+b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on mythesis.pdf (76 pages, 2446615 bytes).
 PDF statistics:
- 1710 PDF objects out of 1728 (max. 8388607)
- 1481 compressed objects within 15 object streams
- 342 named destinations out of 1000 (max. 500000)
- 27179 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2382 PDF objects out of 2487 (max. 8388607)
+ 1778 compressed objects within 18 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 27192 words of extra memory for PDF output out of 29859 (max. 10000000)
 

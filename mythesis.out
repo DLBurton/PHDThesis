@@ -1,44 +1,45 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{A Theoretical Overview}{}% 2
-\BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Gauge Symmetries of the SM}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{The Electroweak Sector and Electroweak Symmetry Breaking}{section.2.1}% 5
-\BOOKMARK [1][-]{section.2.2}{Motivation for Beyond the Standard Model Physics}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.3}{Supersymmmetry Overview}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.3.1}{R-Parity}{section.2.3}% 8
-\BOOKMARK [1][-]{section.2.4}{Experimental signatures of SUSY at the LHC}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.4.1}{Simplified Models}{section.2.4}% 10
-\BOOKMARK [0][-]{chapter.3}{The LHC and the CMS Detector}{}% 11
-\BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{The CMS detector}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.2.1}{Detector Subsytems}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.3}{Electromagnetic Calorimeter}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.4}{Hadronic Calorimeter}{section.3.2}% 17
-\BOOKMARK [2][-]{subsection.3.2.5}{Muon Systems}{section.3.2}% 18
-\BOOKMARK [1][-]{section.3.3}{Event Reconstruction and Object Definition}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.2}{B-tagging}{section.3.3}% 21
-\BOOKMARK [1][-]{section.3.4}{Triggering System}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.4.1}{The Level-1 Trigger}{section.3.4}% 23
-\BOOKMARK [2][-]{subsection.3.4.2}{ L1 Trigger Jet Algorithm}{section.3.4}% 24
-\BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 Jet Trigger Efficiencies}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed}{section.3.4}% 26
-\BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 Jet Performance against Pile-up}{section.3.4}% 27
-\BOOKMARK [2][-]{subsection.3.4.6}{Summary}{section.3.4}% 28
-\BOOKMARK [0][-]{chapter.4}{Searches for SUSY at the LHC}{}% 29
-\BOOKMARK [1][-]{section.4.1}{The T search}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.1.1}{Search Strategy}{section.4.1}% 31
-\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 35
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 36
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 37
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 38
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 39
-\BOOKMARK [1][-]{section.B.1}{Leading Jet Energy Resolution}{appendix.B}% 40
-\BOOKMARK [1][-]{section.B.2}{Resolution for Energy Sum Quantities}{appendix.B}% 41
-\BOOKMARK [0][-]{appendix*.85}{Bibliography}{}% 42
-\BOOKMARK [0][-]{appendix*.87}{List of Figures}{}% 43
-\BOOKMARK [0][-]{appendix*.88}{List of Tables}{}% 44
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.10}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [0][-]{chapter.2}{A Theoretical Overview}{}% 4
+\BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Gauge Symmetries of the SM}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.2}{The Electroweak Sector and Electroweak Symmetry Breaking}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Motivation for Physics Beyond the Standard Model}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Supersymmmetry Overview}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.3.1}{R-Parity}{section.2.3}% 10
+\BOOKMARK [1][-]{section.2.4}{Experimental signatures of SUSY at the LHC}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.4.1}{Simplified Models}{section.2.4}% 12
+\BOOKMARK [0][-]{chapter.3}{The LHC and the CMS Detector}{}% 13
+\BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{The CMS detector}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Detector Subsytems}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.3}{Electromagnetic Calorimeter}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.4}{Hadronic Calorimeter}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.5}{Muon Systems}{section.3.2}% 20
+\BOOKMARK [1][-]{section.3.3}{Event Reconstruction and Object Definition}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.2}{B-tagging}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Triggering System}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.4.1}{The Level-1 Trigger}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.2}{ L1 Trigger Jet Algorithm}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 Jet Trigger Efficiencies}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 Jet Performance against Pile-up}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.6}{Summary}{section.3.4}% 30
+\BOOKMARK [0][-]{chapter.4}{Searches for SUSY at the LHC}{}% 31
+\BOOKMARK [1][-]{section.4.1}{The T search}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.1.1}{Search Strategy}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 37
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 38
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 39
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 40
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 41
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 42
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 43
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 44
+\BOOKMARK [0][-]{appendix*.89}{Bibliography}{}% 45

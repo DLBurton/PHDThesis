@@ -52,20 +52,57 @@ The pileup per event is defined by the number of 'good' reconstructed primary ve
 
 \chapter{L1 Jets}
 
+\section{Jet matching efficiencies}
+\label{app:jetmatching}
+
+The single jet turn-on curves are derived from events independent of wether the leading jet in an event is matched to a Level 1 jet using $\Delta R$ matching detailed in Section  (\ref{subsec:l1jettrigeff}) or not.  These turn-ons are produced from events which are not triggered on jet quantities and therefore it is not guaranteed that the lead jet of an event will be seeded by a Level 1 jet. Figure \ref{fig:leadjetmatcheff} shows the particular matching efficiency of a lead jet to a L1 jet.
+
+\begin{figure}[htp]
+\centering
+\resizebox{.7\linewidth}{0.5\height}{\includegraphics{plots/leadjet_matchingeff.pdf}}
+\caption[Leading jet matching efficiency as a function of the offline CaloJet $\et$.]{Leading jet matching efficiency as a function of the offline CaloJet $\et$, measured in an isolated muon triggered dataset in the 2012B and 2012C run periods.}
+  \label{fig:leadjetmatcheff}
+\end{figure}
+
+It can be seen that the turn on is sharper during the 2012B run
+period. The seed threshold requirement of a 5 \GeV jet seed in run 2012C results
+in more events in which even the lead offline jet does not have an associated L1 jet. For larger jet $\et$
+thresholds, typical of thresholds used in physics analyses, 100$\%$ efficiency is observed.
+
+The matching efficiencies have a $\mu$ values of 6.62 GeV and 19.51 GeV for Run 2012B and 2012C respectively and is shown in Table~\ref{tab:matcheff}. 
+
+\begin{table}
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{|c|c|c|}
+\cline{1-3}
+Run Period & $\mu$ & $\sigma$ \\ \cline {1-3}
+2012B & 6.62 $\pm$ 0.01 & 0.79 $\pm$ 0.03  \\ \cline{1-3}
+2012C & 19.51 $\pm$ 0.03 & 7.14 $\pm$ 0.02 \\ \cline{1-3}
+\end{tabular*}
+\caption[Results of a cumulative EMG function fit to the turn-on
+curves for the matching efficiency of the leading jet in an event to
+a Level-1 jet in run 2012C and 2012B data.]{Results of a cumulative EMG function fit to the turn-on
+curves for the matching efficiency of the leading jet in an event to
+a Level-1 jet in run 2012C and 2012B data, measured in an isolated
+muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are measured with respect to offline Calo Jet $\et$.} \label{tab:matcheff}
+\end{center}
+\end{table}
+
 \section{Leading Jet Energy Resolution}
 \label{app:jetpuresolution}
 
 \begin{figure}[htp]
 
     \centering
-    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.png}  }\,
+    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.pdf}  }\,
+    %\caption{}
 \end{figure}
 
 \begin{figure}
-    \ContinuedFloat
+    %\ContinuedFloat
     \centering
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.png}}\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.pdf}}\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.pdf}}\,
 
       \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
 \end{figure}
@@ -73,15 +110,15 @@ The pileup per event is defined by the number of 'good' reconstructed primary ve
 \begin{figure}[htpb]
 
     \centering
-    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.png}  }\,
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.png}}\,
+    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.pdf}  }\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.pdf}}\,
 
 \end{figure}
 
 \begin{figure}
-    \ContinuedFloat
+   % \ContinuedFloat
     \centering
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.png}}\,
+    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.pdf}}\,
 
       \caption[ Resolution plots of the leading off-line PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
   
@@ -97,30 +134,30 @@ The following plots show the resolution parameters for the four energy sum quant
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloSumET_summary.png}
-        \caption{$\sum$ $\et$~resolution parameters in bins of Calo $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloSumET_summary.pdf}
+        \caption[$\sum$ $\et$~resolution parameters in bins of Calo $\sum E_{T}$  measured for the defined low, medium and high pile up conditions.]{$\sum$ $\et$~resolution parameters in bins of Calo $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:caloetresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
   \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfSumET_summary.png}
-        \caption{$\sum$ $\et$~resolution parameters in bins of PF $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_pfSumET_summary.pdf}
+        \caption[$\sum$ $\et$~resolution parameters in bins of PF $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. ]{$\sum$ $\et$~resolution parameters in bins of PF $\sum E_{T}$  measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:pfetresultspu}
 \end{figure}
 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloMET_summary.png}
-        \caption{$\met$~resolution parameters in bins of Calo $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloMET_summary.pdf}
+        \caption[$\met$~resolution parameters in bins of Calo $\met$~ measured for the defined low, medium and high pile up conditions.]{$\met$~resolution parameters in bins of Calo $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
         \label{fig:calometresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfMET_summary.png}
-        \caption{$\met$~resolution parameters in bins of PF $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_pfMET_summary.pdf}
+        \caption[$\met$~resolution parameters in bins of PF $\met$~ measured for the defined low, medium and high pile up conditions.]{$\met$~resolution parameters in bins of PF $\met$~ measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$  distributions.}
         \label{fig:pfmetresultspu}
 \end{figure}
 
@@ -128,30 +165,30 @@ The following plots show the resolution parameters for the four energy sum quant
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloHT_summary.png}
-        \caption{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloHT_summary.pdf}
+        \caption[$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile up conditions. ]{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:calohtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfHT_summary.png}
-        \caption{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_pfHT_summary.pdf}
+        \caption[$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:pfhtresultspu}
 \end{figure}
 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloMHT_summary.png}
-        \caption{$\mht$~resolution parameters in bins of $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_CaloMHT_summary.pdf}
+        \caption[$\mht$~resolution parameters in bins of $\mht$~measured for the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:calomhtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfMHT_summary.png}
-        \caption{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
+        \includegraphics[width=1.0\textwidth]{plots/res_pfMHT_summary.pdf}
+        \caption[$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile up conditions. The plots show the mean $\mu$ (left), resolution $\sigma$ (RMS) of the $\frac{\Delta q}{q}$ distributions.}
         \label{fig:pfmhtresultspu}
 \end{figure}
 
