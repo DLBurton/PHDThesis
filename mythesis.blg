@@ -1,70 +1,62 @@
 This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
-The style file: abbrv.bst
+The style file: ieeetr.bst
 Database file #1: mythesis.bib
-Warning--to sort, need author, editor, or key in introtoparticles
-Warning--to sort, need author, editor, or key in CMS_ECAL_TDR
-Warning--to sort, need author, editor, or key in CMS_MUON_TDR
-Warning--to sort, need author or key in CMS-PAS-JME-10-003
-Warning--to sort, need author or key in btag8tev
+Warning--empty author and editor in introtoparticles
+Warning--empty journal in Martin:1997ns
+Warning--empty journal in Shadmi:2006jv
+Warning--empty journal in Murayama:2007sy
+Warning--empty journal in Martin:hep-ph9602349
+Warning--empty note in Jean-Luc:841573
 Warning--empty author and editor in CMS_ECAL_TDR
 Warning--empty author and editor in CMS_MUON_TDR
-Warning--empty author and editor in introtoparticles
 Warning--empty author in CMS-PAS-JME-10-003
 Warning--empty author in btag8tev
 Warning--empty journal in btag8tev
-Warning--there's a number but no volume in btag8tev
-Warning--empty note in Jean-Luc:841573
 Warning--empty journal in Dasu:2000ge
-Warning--empty journal in L1bryn
-Warning--there's a number but no volume in L1bryn
-Warning--empty journal in L1JEC
-Warning--there's a number but no volume in L1JEC
-Warning--empty journal in Martin:hep-ph9602349
-Warning--empty journal in Martin:1997ns
-Warning--empty journal in Murayama:2007sy
-Warning--empty journal in Shadmi:2006jv
 Warning--empty journal in Sphicas:2002gg
+Warning--empty journal in L1JEC
+Warning--empty journal in L1bryn
 You've used 69 entries,
-            2118 wiz_defined-function locations,
-            894 strings with 12360 characters,
-and the built_in function-call counts, 19411 in all, are:
-= -- 1909
-> -- 803
-< -- 4
-+ -- 330
-- -- 254
-* -- 1306
-:= -- 3376
-add.period$ -- 206
+            1876 wiz_defined-function locations,
+            874 strings with 12121 characters,
+and the built_in function-call counts, 16633 in all, are:
+= -- 1722
+> -- 485
+< -- 3
++ -- 196
+- -- 127
+* -- 1024
+:= -- 2268
+add.period$ -- 76
 call.type$ -- 69
-change.case$ -- 310
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 743
-empty$ -- 1582
-format.name$ -- 254
-if$ -- 4001
+cite$ -- 84
+duplicate$ -- 985
+empty$ -- 1588
+format.name$ -- 127
+if$ -- 4210
 int.to.chr$ -- 0
 int.to.str$ -- 69
 missing$ -- 66
-newline$ -- 343
-num.names$ -- 128
-pop$ -- 248
+newline$ -- 217
+num.names$ -- 64
+pop$ -- 194
 preamble$ -- 1
-purify$ -- 247
+purify$ -- 0
 quote$ -- 0
-skip$ -- 515
+skip$ -- 721
 stack$ -- 0
-substring$ -- 1214
-swap$ -- 66
-text.length$ -- 4
+substring$ -- 936
+swap$ -- 450
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 262
-warning$ -- 23
-while$ -- 180
+type$ -- 0
+warning$ -- 15
+while$ -- 140
 width$ -- 71
-write$ -- 735
-(There were 23 warnings)
+write$ -- 659
+(There were 15 warnings)

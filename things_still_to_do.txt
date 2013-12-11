@@ -1,0 +1,3 @@
+In Detector Chapter - Label cms detector
+In Appendix B - Produce PF jet resolution plots
+

@@ -1,366 +1,296 @@
 \begin{thebibliography}{10}
 
-\bibitem{CMS_ECAL_TDR}
-{\em The CMS electromagnetic calorimeter project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+\bibitem{pdg2012}
+J.~Beringer {\em et~al.}, ``{Review of Particle Physics (RPP)},'' {\em
+  Phys.Rev.}, vol.~D86, p.~010001, 2012.
 
-\bibitem{CMS_MUON_TDR}
-{\em The CMS muon project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+\bibitem{0067-0049-208-2-19}
+G.~H. et~al., ``Nine-year wilkinson microwave anisotropy probe (wmap)
+  observations: Cosmological parameter results,'' {\em The Astrophysical
+  Journal Supplement Series}, vol.~208, no.~2, p.~19, 2013.
+
+\bibitem{Aad:2012tfa}
+G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em
+  Phys.Lett.}, vol.~B716, pp.~1--29, 2012.
+
+\bibitem{Chatrchyan:2012ufa}
+S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
+  with the CMS experiment at the LHC},'' {\em Phys.Lett.}, vol.~B716,
+  pp.~30--61, 2012.
+
+\bibitem{ra1_epjc}
+S.~Chatrchyan {\em et~al.}, ``{Search for supersymmetry in hadronic final
+  states with missing transverse energy using the variables AlphaT and b-quark
+  multiplicity in pp collisions at 8 TeV},'' {\em Eur.Phys.J.}, vol.~C73,
+  p.~2568, 2013.
+
+\bibitem{PhysRevLett.19.1264}
+S.~Weinberg, ``A model of leptons,'' {\em Phys. Rev. Lett.}, vol.~19,
+  pp.~1264--1266, Nov 1967.
+
+\bibitem{Glashow:1961tr}
+S.~Glashow, ``{Partial Symmetries of Weak Interactions},'' {\em Nucl.Phys.},
+  vol.~22, pp.~579--588, 1961.
+
+\bibitem{Salam:1968rm}
+A.~Salam, ``{Weak and Electromagnetic Interactions},'' {\em Conf.Proc.},
+  vol.~C680519, pp.~367--377, 1968.
+
+\bibitem{Hooft1971167}
+G.~Hooft, ``Renormalizable lagrangians for massive yang-mills fields,'' {\em
+  Nuclear Physics B}, vol.~35, no.~1, pp.~167 -- 188, 1971.
+
+\bibitem{Hasert:1973ff}
+F.~Hasert {\em et~al.}, ``{Observation of Neutrino Like Interactions Without
+  Muon Or Electron in the Gargamelle Neutrino Experiment},'' {\em Phys.Lett.},
+  vol.~B46, pp.~138--140, 1973.
+
+\bibitem{Arnison:1983mk}
+G.~Arnison {\em et~al.}, ``{Experimental Observation of Lepton Pairs of
+  Invariant Mass Around 95-GeV/c**2 at the CERN SPS Collider},'' {\em
+  Phys.Lett.}, vol.~B126, pp.~398--410, 1983.
+
+\bibitem{Banner:1983jy}
+M.~Banner {\em et~al.}, ``{Observation of Single Isolated Electrons of High
+  Transverse Momentum in Events with Missing Transverse Energy at the CERN
+  anti-p p Collider},'' {\em Phys.Lett.}, vol.~B122, pp.~476--485, 1983.
+
+\bibitem{Noether1918}
+E.~Noether, ``Invariante variationsprobleme,'' {\em Nachrichten von der
+  Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische
+  Klasse}, vol.~1918, pp.~235--257, 1918.
+
+\bibitem{quarksandleptons}
+F.~Halzen and A.~D. Martin, ``Quarks and leptons.'' Wiley, 1985.
 
 \bibitem{introtoparticles}
 {\em {Introduction to Elementary Particles}}.
-\newblock Wiley-VCH, 2nd edition, Oct. 2008.
-
-\bibitem{CMS-PAS-JME-10-003}
-Jet performance in pp collisions at 7 tev.
-\newblock Technical Report CMS-PAS-JME-10-003, CERN, Geneva, 2010.
-
-\bibitem{btag8tev}
-Performance of b tagging at sqrt(s)=8 tev in multijet, ttbar and boosted
-  topology events.
-\newblock (CMS-PAS-BTV-13-001), 2013.
-
-\bibitem{atlastdr}
-G.~Aad et~al.
-\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
-\newblock {\em JINST}, 3, 2008.
-
-\bibitem{Aad:2012tfa}
-G.~Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys.Lett.}, B716:1--29, 2012.
-
-\bibitem{alicetdr}
-K.~Aamodt et~al.
-\newblock {The ALICE experiment at the CERN LHC}.
-\newblock {\em JINST}, 3:S08002, 2008.
-
-\bibitem{cmstdr}
-R.~Adolphi et~al.
-\newblock The cms experiment at the cern lhc.
-\newblock {\em JINST}, 0803:S08004, 2008.
-
-\bibitem{aitchison2007supersymmetry}
-I.~Aitchison.
-\newblock {\em Supersymmetry in Particle Physics: An Elementary Introduction}.
-\newblock Cambridge University Press, 2007.
-
-\bibitem{Allanach:2012vj}
-B.~Allanach and B.~Gripaios.
-\newblock {Hide and Seek With Natural Supersymmetry at the LHC}.
-\newblock {\em JHEP}, 1205:062, 2012.
-
-\bibitem{lhcbtdr}
-A.~A. Alves et~al.
-\newblock {The LHCb Detector at the LHC}.
-\newblock {\em JINST}, 3:S08005, 2008.
-
-\bibitem{Alves:2011wf}
-D.~Alves et~al.
-\newblock {Simplified Models for LHC New Physics Searches}.
-\newblock {\em J.Phys.}, G39:105005, 2012.
-
-\bibitem{Alwall:2008ag}
-J.~Alwall, P.~Schuster, and N.~Toro.
-\newblock {Simplified Models for a First Characterization of New Physics at the
-  LHC}.
-\newblock {\em Phys.Rev.}, D79:075020, 2009.
-
-\bibitem{Arnison:1983mk}
-G.~Arnison et~al.
-\newblock {Experimental Observation of Lepton Pairs of Invariant Mass Around
-  95-GeV/c**2 at the CERN SPS Collider}.
-\newblock {\em Phys.Lett.}, B126:398--410, 1983.
-
-\bibitem{baer2006weak}
-H.~Baer and X.~Tata.
-\newblock {\em Weak Scale Supersymmetry: From Superfields to Scattering
-  Events}.
-\newblock Cambridge University Press, 2006.
-
-\bibitem{Banner:1983jy}
-M.~Banner et~al.
-\newblock {Observation of Single Isolated Electrons of High Transverse Momentum
-  in Events with Missing Transverse Energy at the CERN anti-p p Collider}.
-\newblock {\em Phys.Lett.}, B122:476--485, 1983.
-
-\bibitem{BeckerSzendy:1992ym}
-R.~Becker-Szendy, C.~Bratton, D.~Casper, S.~Dye, W.~Gajewski, et~al.
-\newblock {A Search for muon-neutrino oscillations with the IMB detector}.
-\newblock {\em Phys.Rev.Lett.}, 69:1010--1013, 1992.
-
-\bibitem{pdg2012}
-J.~Beringer et~al.
-\newblock {Review of Particle Physics (RPP)}.
-\newblock {\em Phys.Rev.}, D86:010001, 2012.
-
-\bibitem{l1ratebrooke}
-J.~J. Brooke.
-\newblock Performance of the cms level-1 trigger.
-\newblock Technical Report CMS-CR-2012-322. CERN-CMS-CR-2012-322, CERN, Geneva,
-  Nov 2012.
-
-\bibitem{Burgess:2006mn}
-C.~Burgess, P.~G. Camara, S.~de~Alwis, S.~Giddings, A.~Maharana, et~al.
-\newblock {Warped Supersymmetry Breaking}.
-\newblock {\em JHEP}, 0804:053, 2008.
-
-\bibitem{antiktalgo}
-M.~Cacciari, G.~P. Salam, and G.~Soyez.
-\newblock The anti- k t jet clustering algorithm.
-\newblock {\em Journal of High Energy Physics}, 2008(04):063, 2008.
-
-\bibitem{Jean-Luc:841573}
-J.-L. Caron.
-\newblock Lhc layout.. schema general du lhc.
-\newblock Sep 1997.
-
-\bibitem{cms-public-detector}
-CERN.
-\newblock Cms compact muon solenoid.
-\newblock http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg., Feb 2010.
-
-\bibitem{Chatrchyan:2012ufa}
-S.~Chatrchyan et~al.
-\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}.
-\newblock {\em Phys.Lett.}, B716:30--61, 2012.
-
-\bibitem{Chatrchyan:2013sza}
-S.~Chatrchyan et~al.
-\newblock {Interpretation of Searches for Supersymmetry with simplified
-  Models}.
-\newblock {\em Phys.Rev.}, D88:052017, 2013.
-
-\bibitem{ra1_epjc}
-S.~Chatrchyan et~al.
-\newblock {Search for supersymmetry in hadronic final states with missing
-  transverse energy using the variables AlphaT and b-quark multiplicity in pp
-  collisions at 8 TeV}.
-\newblock {\em Eur.Phys.J.}, C73:2568, 2013.
-
-\bibitem{Citron:2012fg}
-M.~Citron, J.~Ellis, F.~Luo, J.~Marrouche, K.~Olive, et~al.
-\newblock {The End of the CMSSM Coannihilation Strip is Nigh}.
-\newblock {\em Phys.Rev.}, D87:036012, 2013.
-
-\bibitem{CMS_TDR_PHYS_vol1}
-{CMS Collaboration}.
-\newblock The cms physics technical design report, volume 1.
-\newblock {\em CERN/LHCC}, 2006-001, 2006.
-
-\bibitem{LHClumo}
-C.~Collaboration.
-\newblock Cms luminosity - public results.
-\newblock twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults., 2011.
-
-\bibitem{1748-0221-6-11-P11002}
-T.~C. collaboration.
-\newblock Determination of jet energy calibration and transverse momentum
-  resolution in cms.
-\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
-
-\bibitem{btag7tev}
-T.~C. collaboration.
-\newblock Identification of b-quark jets with the cms experiment.
-\newblock {\em Journal of Instrumentation}, 8(04):P04013, 2013.
-
-\bibitem{Dasu:2000ge}
-S.~Dasu et~al.
-\newblock {CMS. The TriDAS project. Technical design report, vol. 1: The
-  trigger systems}.
-\newblock 2000.
-
-\bibitem{higgs2}
-F.~Englert and R.~Brout.
-\newblock Broken symmetry and the mass of gauge vector mesons.
-\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
-
-\bibitem{L1bryn}
-B.~et~al.
-\newblock { Study of Level-1 Trigger Jet Performance in High Pile-up Running
-  Conditions}.
-\newblock (CMS IN 2013/007 (2013)), 2013.
-
-\bibitem{0067-0049-208-2-19}
-G.~H. et~al.
-\newblock Nine-year wilkinson microwave anisotropy probe (wmap) observations:
-  Cosmological parameter results.
-\newblock {\em The Astrophysical Journal Supplement Series}, 208(2):19, 2013.
-
-\bibitem{L1JEC}
-J.~B. et~al.
-\newblock { Calibration and Performance of the Jets and Energy Sums in the
-  Level-1 Trigger }.
-\newblock (CMS IN 2013/006 (2013)), 2013.
-
-\bibitem{1742-6596-404-1-012014}
-R.~Eusebi and on~behalf of~the CMS~collaboration).
-\newblock Jet energy corrections and uncertainties in cms: reducing their
-  impact on physics measurements.
-\newblock {\em Journal of Physics: Conference Series}, 404(1):012014, 2012.
-
-\bibitem{PhysRevLett.81.1562}
-Y.~e.~a. Fukuda.
-\newblock Evidence for oscillation of atmospheric neutrinos.
-\newblock {\em Phys. Rev. Lett.}, 81:1562--1567, Aug 1998.
-
-\bibitem{Ghosh:2012dh}
-D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta.
-\newblock {How Constrained is the cMSSM?}
-\newblock {\em Phys.Rev.}, D86:055007, 2012.
-
-\bibitem{Glashow:1961tr}
-S.~Glashow.
-\newblock {Partial Symmetries of Weak Interactions}.
-\newblock {\em Nucl.Phys.}, 22:579--588, 1961.
-
-\bibitem{higgs4}
-G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
-\newblock Global conservation laws and massless particles.
-\newblock {\em Phys. Rev. Lett.}, 13:585--587, Nov 1964.
-
-\bibitem{Haber:1984rc}
-H.~E. Haber and G.~L. Kane.
-\newblock {The Search for Supersymmetry: Probing Physics Beyond the Standard
-  Model}.
-\newblock {\em Phys.Rept.}, 117:75--263, 1985.
-
-\bibitem{quarksandleptons}
-F.~Halzen and A.~D. Martin.
-\newblock Quarks and leptons.
-\newblock Wiley, 1985.
-
-\bibitem{Hasert:1973ff}
-F.~Hasert et~al.
-\newblock {Observation of Neutrino Like Interactions Without Muon Or Electron
-  in the Gargamelle Neutrino Experiment}.
-\newblock {\em Phys.Lett.}, B46:138--140, 1973.
-
-\bibitem{higgs1}
-P.~Higgs.
-\newblock Broken symmetries, massless particles and gauge fields.
-\newblock {\em Physics Letters}, 12(2):132 -- 133, 1964.
-
-\bibitem{higgs3}
-P.~W. Higgs.
-\newblock Broken symmetries and the masses of gauge bosons.
-\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
-
-\bibitem{Hisano:2000wy}
-J.~Hisano, K.~Kurosawa, and Y.~Nomura.
-\newblock {Natural effective supersymmetry}.
-\newblock {\em Nucl.Phys.}, B584:3--45, 2000.
-
-\bibitem{Hooft1971167}
-G.~Hooft.
-\newblock Renormalizable lagrangians for massive yang-mills fields.
-\newblock {\em Nuclear Physics B}, 35(1):167 -- 188, 1971.
-
-\bibitem{Intriligator:2007zz}
-K.~A. Intriligator and N.~Seiberg.
-\newblock {Lectures on Supersymmetry Breaking}.
-\newblock {\em Class.Quant.Grav.}, 24:S741--S772, 2007.
-
-\bibitem{Janssen:1322145}
-X.~Janssen.
-\newblock Underlying event and jet reconstruction in cms.
-\newblock Technical Report CMS-CR-2011-012, CERN, Geneva, Jan 2011.
-
-\bibitem{Kane:1993td}
-G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells.
-\newblock {Study of constrained minimal supersymmetry}.
-\newblock {\em Phys.Rev.}, D49:6173--6210, 1994.
-
-\bibitem{Martin:hep-ph9602349}
-S.~P. Martin.
-\newblock Implications of supersymmetric models with natural r-parity
-  conservation.
-\newblock 1996.
-
-\bibitem{Martin:1997ns}
-S.~P. Martin.
-\newblock {A Supersymmetry primer}.
-\newblock 1997.
-
-\bibitem{muller2010introduction}
-H.~Muller-Kirsten and A.~Wiedemann.
-\newblock {\em Introduction to Supersymmetry}.
-\newblock World Scientific lecture notes in physics. World Scientific, 2010.
-
-\bibitem{Murayama:2007sy}
-H.~Murayama.
-\newblock {Supersymmetry breaking made easy, viable, and generic}.
-\newblock 2007.
-
-\bibitem{nilles1984supersymmetry}
-H.~Nilles.
-\newblock {\em Supersymmetry, Supergravity and Particle Physics}.
-\newblock Physics reports. North-Holland Physics Publ., 1984.
-
-\bibitem{Noether1918}
-E.~Noether.
-\newblock Invariante variationsprobleme.
-\newblock {\em Nachrichten von der Gesellschaft der Wissenschaften zu
-  Göttingen, Mathematisch-Physikalische Klasse}, 1918:235--257, 1918.
-
-\bibitem{Papucci:2011wy}
-M.~Papucci, J.~T. Ruderman, and A.~Weiler.
-\newblock {Natural SUSY Endures}.
-\newblock {\em JHEP}, 1209:035, 2012.
-
-\bibitem{Salam:1968rm}
-A.~Salam.
-\newblock {Weak and Electromagnetic Interactions}.
-\newblock {\em Conf.Proc.}, C680519:367--377, 1968.
-
-\bibitem{Shadmi:2006jv}
-Y.~Shadmi.
-\newblock {Supersymmetry breaking}.
-\newblock pages 147--180, 2006.
-
-\bibitem{Sphicas:2002gg}
-P.~Sphicas.
-\newblock {CMS: The TriDAS project. Technical design report, Vol. 2: Data
-  acquisition and high-level trigger}.
-\newblock 2002.
-
-\bibitem{Strege:2011pk}
-C.~Strege, G.~Bertone, D.~Cerdeno, M.~Fornasa, R.~Ruiz~de Austri, et~al.
-\newblock {Updated global fits of the cMSSM including the latest LHC SUSY and
-  Higgs searches and XENON100 data}.
-\newblock {\em JCAP}, 1203:030, 2012.
-
-\bibitem{PhysRevLett.19.1264}
-S.~Weinberg.
-\newblock A model of leptons.
-\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
-
-\bibitem{weinberghiggs}
-S.~Weinberg.
-\newblock A model of leptons.
-\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
-
-\bibitem{Wess197439}
-J.~Wess and B.~Zumino.
-\newblock Supergauge transformations in four dimensions.
-\newblock {\em Nuclear Physics B}, 70(1):39 -- 50, 1974.
-
-\bibitem{Witten:1981nf}
-E.~Witten.
-\newblock {Dynamical Breaking of Supersymmetry}.
-\newblock {\em Nucl.Phys.}, B188:513, 1981.
+\newblock Wiley-VCH, 2nd~ed., Oct. 2008.
 
 \bibitem{wu-parity}
-C.~S. {Wu}, E.~{Ambler}, R.~W. {Hayward}, D.~D. {Hoppes}, and R.~P. {Hudson}.
-\newblock {Experimental Test of Parity Conservation in Beta Decay}.
-\newblock {\em Physical Review}, 105:1413--1415, Feb. 1957.
+C.~S. {Wu}, E.~{Ambler}, R.~W. {Hayward}, D.~D. {Hoppes}, and R.~P. {Hudson},
+  ``{Experimental Test of Parity Conservation in Beta Decay},'' {\em Physical
+  Review}, vol.~105, pp.~1413--1415, Feb. 1957.
+
+\bibitem{higgs1}
+P.~Higgs, ``Broken symmetries, massless particles and gauge fields,'' {\em
+  Physics Letters}, vol.~12, no.~2, pp.~132 -- 133, 1964.
+
+\bibitem{higgs2}
+F.~Englert and R.~Brout, ``Broken symmetry and the mass of gauge vector
+  mesons,'' {\em Phys. Rev. Lett.}, vol.~13, pp.~321--323, Aug 1964.
+
+\bibitem{higgs3}
+P.~W. Higgs, ``Broken symmetries and the masses of gauge bosons,'' {\em Phys.
+  Rev. Lett.}, vol.~13, pp.~508--509, Oct 1964.
+
+\bibitem{higgs4}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble, ``Global conservation laws
+  and massless particles,'' {\em Phys. Rev. Lett.}, vol.~13, pp.~585--587, Nov
+  1964.
+
+\bibitem{weinberghiggs}
+S.~Weinberg, ``A model of leptons,'' {\em Phys. Rev. Lett.}, vol.~19,
+  pp.~1264--1266, Nov 1967.
 
 \bibitem{Yukawa01011955}
-H.~Yukawa.
-\newblock On the interaction of elementary particles. i.
-\newblock {\em Progress of Theoretical Physics Supplement}, 1:1--10, 1955.
+H.~Yukawa, ``On the interaction of elementary particles. i,'' {\em Progress of
+  Theoretical Physics Supplement}, vol.~1, pp.~1--10, 1955.
+
+\bibitem{PhysRevLett.81.1562}
+Y.~e.~a. Fukuda, ``Evidence for oscillation of atmospheric neutrinos,'' {\em
+  Phys. Rev. Lett.}, vol.~81, pp.~1562--1567, Aug 1998.
+
+\bibitem{BeckerSzendy:1992ym}
+R.~Becker-Szendy, C.~Bratton, D.~Casper, S.~Dye, W.~Gajewski, {\em et~al.},
+  ``{A Search for muon-neutrino oscillations with the IMB detector},'' {\em
+  Phys.Rev.Lett.}, vol.~69, pp.~1010--1013, 1992.
+
+\bibitem{Martin:1997ns}
+S.~P. Martin, ``{A Supersymmetry primer},'' 1997.
+
+\bibitem{nilles1984supersymmetry}
+H.~Nilles, {\em Supersymmetry, Supergravity and Particle Physics}.
+\newblock Physics reports, North-Holland Physics Publ., 1984.
+
+\bibitem{Haber:1984rc}
+H.~E. Haber and G.~L. Kane, ``{The Search for Supersymmetry: Probing Physics
+  Beyond the Standard Model},'' {\em Phys.Rept.}, vol.~117, pp.~75--263, 1985.
+
+\bibitem{Witten:1981nf}
+E.~Witten, ``{Dynamical Breaking of Supersymmetry},'' {\em Nucl.Phys.},
+  vol.~B188, p.~513, 1981.
+
+\bibitem{Wess197439}
+J.~Wess and B.~Zumino, ``Supergauge transformations in four dimensions,'' {\em
+  Nuclear Physics B}, vol.~70, no.~1, pp.~39 -- 50, 1974.
+
+\bibitem{muller2010introduction}
+H.~Muller-Kirsten and A.~Wiedemann, {\em Introduction to Supersymmetry}.
+\newblock World Scientific lecture notes in physics, World Scientific, 2010.
+
+\bibitem{aitchison2007supersymmetry}
+I.~Aitchison, {\em Supersymmetry in Particle Physics: An Elementary
+  Introduction}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{Intriligator:2007zz}
+K.~A. Intriligator and N.~Seiberg, ``{Lectures on Supersymmetry Breaking},''
+  {\em Class.Quant.Grav.}, vol.~24, pp.~S741--S772, 2007.
+
+\bibitem{Shadmi:2006jv}
+Y.~Shadmi, ``{Supersymmetry breaking},'' pp.~147--180, 2006.
+
+\bibitem{Burgess:2006mn}
+C.~Burgess, P.~G. Camara, S.~de~Alwis, S.~Giddings, A.~Maharana, {\em et~al.},
+  ``{Warped Supersymmetry Breaking},'' {\em JHEP}, vol.~0804, p.~053, 2008.
+
+\bibitem{Murayama:2007sy}
+H.~Murayama, ``{Supersymmetry breaking made easy, viable, and generic},'' 2007.
+
+\bibitem{baer2006weak}
+H.~Baer and X.~Tata, {\em Weak Scale Supersymmetry: From Superfields to
+  Scattering Events}.
+\newblock Cambridge University Press, 2006.
+
+\bibitem{Martin:hep-ph9602349}
+S.~P. Martin, ``Implications of supersymmetric models with natural r-parity
+  conservation,'' 1996.
+
+\bibitem{Kane:1993td}
+G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells, ``{Study of
+  constrained minimal supersymmetry},'' {\em Phys.Rev.}, vol.~D49,
+  pp.~6173--6210, 1994.
+
+\bibitem{Strege:2011pk}
+C.~Strege, G.~Bertone, D.~Cerdeno, M.~Fornasa, R.~Ruiz~de Austri, {\em et~al.},
+  ``{Updated global fits of the cMSSM including the latest LHC SUSY and Higgs
+  searches and XENON100 data},'' {\em JCAP}, vol.~1203, p.~030, 2012.
+
+\bibitem{Citron:2012fg}
+M.~Citron, J.~Ellis, F.~Luo, J.~Marrouche, K.~Olive, {\em et~al.}, ``{The End
+  of the CMSSM Coannihilation Strip is Nigh},'' {\em Phys.Rev.}, vol.~D87,
+  p.~036012, 2013.
+
+\bibitem{Ghosh:2012dh}
+D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta, ``{How Constrained is
+  the cMSSM?},'' {\em Phys.Rev.}, vol.~D86, p.~055007, 2012.
+
+\bibitem{Alves:2011wf}
+D.~Alves {\em et~al.}, ``{Simplified Models for LHC New Physics Searches},''
+  {\em J.Phys.}, vol.~G39, p.~105005, 2012.
+
+\bibitem{Alwall:2008ag}
+J.~Alwall, P.~Schuster, and N.~Toro, ``{Simplified Models for a First
+  Characterization of New Physics at the LHC},'' {\em Phys.Rev.}, vol.~D79,
+  p.~075020, 2009.
+
+\bibitem{Chatrchyan:2013sza}
+S.~Chatrchyan {\em et~al.}, ``{Interpretation of Searches for Supersymmetry
+  with simplified Models},'' {\em Phys.Rev.}, vol.~D88, p.~052017, 2013.
+
+\bibitem{Hisano:2000wy}
+J.~Hisano, K.~Kurosawa, and Y.~Nomura, ``{Natural effective supersymmetry},''
+  {\em Nucl.Phys.}, vol.~B584, pp.~3--45, 2000.
+
+\bibitem{Papucci:2011wy}
+M.~Papucci, J.~T. Ruderman, and A.~Weiler, ``{Natural SUSY Endures},'' {\em
+  JHEP}, vol.~1209, p.~035, 2012.
+
+\bibitem{Allanach:2012vj}
+B.~Allanach and B.~Gripaios, ``{Hide and Seek With Natural Supersymmetry at the
+  LHC},'' {\em JHEP}, vol.~1205, p.~062, 2012.
+
+\bibitem{alicetdr}
+K.~Aamodt {\em et~al.}, ``{The ALICE experiment at the CERN LHC},'' {\em
+  JINST}, vol.~3, p.~S08002, 2008.
+
+\bibitem{atlastdr}
+G.~Aad {\em et~al.}, ``{The ATLAS Experiment at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, 2008.
+
+\bibitem{cmstdr}
+R.~Adolphi {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em JINST},
+  vol.~0803, p.~S08004, 2008.
+
+\bibitem{lhcbtdr}
+A.~A. Alves {\em et~al.}, ``{The LHCb Detector at the LHC},'' {\em JINST},
+  vol.~3, p.~S08005, 2008.
+
+\bibitem{Jean-Luc:841573}
+J.-L. Caron, ``Lhc layout.. schema general du lhc..'' Sep 1997.
+
+\bibitem{LHClumo}
+C.~Collaboration, ``Cms luminosity - public results.''
+  twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults., 2011.
+
+\bibitem{cms-public-detector}
+CERN, ``Cms compact muon solenoid..''
+  http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg., Feb 2010.
+
+\bibitem{CMS_ECAL_TDR}
+{\em The CMS electromagnetic calorimeter project: Technical Design Report}.
+\newblock Technical Design Report CMS, Geneva: CERN, 1997.
+
+\bibitem{CMS_MUON_TDR}
+{\em The CMS muon project: Technical Design Report}.
+\newblock Technical Design Report CMS, Geneva: CERN, 1997.
+
+\bibitem{CMS_TDR_PHYS_vol1}
+{CMS Collaboration}, ``The cms physics technical design report, volume 1,''
+  {\em CERN/LHCC}, vol.~2006-001, 2006.
+
+\bibitem{antiktalgo}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The anti- k t jet clustering
+  algorithm,'' {\em Journal of High Energy Physics}, vol.~2008, no.~04, p.~063,
+  2008.
+
+\bibitem{CMS-PAS-JME-10-003}
+``Jet performance in pp collisions at 7 tev,'' Tech. Rep. CMS-PAS-JME-10-003,
+  CERN, Geneva, 2010.
+
+\bibitem{Janssen:1322145}
+X.~Janssen, ``Underlying event and jet reconstruction in cms,'' Tech. Rep.
+  CMS-CR-2011-012, CERN, Geneva, Jan 2011.
+
+\bibitem{1748-0221-6-11-P11002}
+T.~C. collaboration, ``Determination of jet energy calibration and transverse
+  momentum resolution in cms,'' {\em Journal of Instrumentation}, vol.~6,
+  no.~11, p.~P11002, 2011.
+
+\bibitem{1742-6596-404-1-012014}
+R.~Eusebi and on~behalf of~the CMS~collaboration), ``Jet energy corrections and
+  uncertainties in cms: reducing their impact on physics measurements,'' {\em
+  Journal of Physics: Conference Series}, vol.~404, no.~1, p.~012014, 2012.
+
+\bibitem{btag8tev}
+``Performance of b tagging at sqrt(s)=8 tev in multijet, ttbar and boosted
+  topology events,'' no.~CMS-PAS-BTV-13-001, 2013.
+
+\bibitem{btag7tev}
+T.~C. collaboration, ``Identification of b-quark jets with the cms
+  experiment,'' {\em Journal of Instrumentation}, vol.~8, no.~04, p.~P04013,
+  2013.
+
+\bibitem{Dasu:2000ge}
+S.~Dasu {\em et~al.}, ``{CMS. The TriDAS project. Technical design report, vol.
+  1: The trigger systems},'' 2000.
+
+\bibitem{Sphicas:2002gg}
+P.~Sphicas, ``{CMS: The TriDAS project. Technical design report, Vol. 2: Data
+  acquisition and high-level trigger},'' 2002.
+
+\bibitem{L1JEC}
+J.~B. et~al., ``{ Calibration and Performance of the Jets and Energy Sums in
+  the Level-1 Trigger },'' no.~CMS IN 2013/006 (2013), 2013.
+
+\bibitem{L1bryn}
+B.~et~al., ``{ Study of Level-1 Trigger Jet Performance in High Pile-up Running
+  Conditions},'' no.~CMS IN 2013/007 (2013), 2013.
+
+\bibitem{l1ratebrooke}
+J.~J. Brooke, ``Performance of the cms level-1 trigger,'' Tech. Rep.
+  CMS-CR-2012-322. CERN-CMS-CR-2012-322, CERN, Geneva, Nov 2012.
 
 \end{thebibliography}

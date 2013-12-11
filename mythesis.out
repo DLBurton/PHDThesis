@@ -28,18 +28,22 @@
 \BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed}{section.3.4}% 28
 \BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 Jet Performance against Pile-up}{section.3.4}% 29
 \BOOKMARK [2][-]{subsection.3.4.6}{Summary}{section.3.4}% 30
-\BOOKMARK [0][-]{chapter.4}{Searches for SUSY at the LHC}{}% 31
+\BOOKMARK [0][-]{chapter.4}{Searches for SUSY in Hadronic Final States at the LHC}{}% 31
 \BOOKMARK [1][-]{section.4.1}{The T search}{chapter.4}% 32
 \BOOKMARK [2][-]{subsection.4.1.1}{Search Strategy}{section.4.1}% 33
-\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 37
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 38
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 39
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 40
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 41
-\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 42
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 43
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 44
-\BOOKMARK [0][-]{appendix*.89}{Bibliography}{}% 45
+\BOOKMARK [2][-]{subsection.4.1.2}{Trigger Strategy}{section.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.1.3}{Event Selection}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.4}{Background Estimation}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.5}{Systematic Uncertainties on Transfer Factors}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 41
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 42
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 43
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 44
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 45
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 46
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 47
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 48
+\BOOKMARK [0][-]{appendix*.89}{Bibliography}{}% 49
