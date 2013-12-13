@@ -1,4 +1,4 @@
-\chapter{Searches for SUSY in Hadronic Final States at the LHC}
+\chapter{SUSY searches in Hadronic Final States}
 \label{chap:SUSYsearches}
 
 In this chapter a model independent search for \ac{SUSY} in hadronic final states with $\met$ using the $\alphat$ variable and b-quark multiplicity is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrate luminosity of 11.7$\pm$0.5 fb$^{-1}$.
@@ -12,14 +12,118 @@ In addition to the $\alphat$ search, a complimentary technique is discussed as a
 
 Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). The predictions using this technique are first tested in simulation before being compared to the \ac{SM} background predictions obtained from the $\alphat$ search.  
 
+The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, the topologies of which are detailed in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summaries in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
+
+Within Table \ref{tab:sms_model_table} is also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following two chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expect sensitivity reach of the search.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}llcc}
+\cline{1-4}
+Model & Production/decay mode &  \multicolumn{2}{c}{Reference model}\\ 
+&& m$_{parent}$ & m$_{LSP}$ \\  \cline{1-4}
+G1 (T1) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ & 700 & 300 \\
+G2 (T1bb) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ & 900 & 500 \\
+G3 (T1tt) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow t\bar{t}\widetilde{\chi}^{0}_{1}t\bar{t}\widetilde{\chi}^{0}_{1}$ & 850 & 250 \\
+D1 (T2) & $ pp \rightarrow \widetilde{q}\widetilde{q}^{*} \rightarrow q\widetilde{\chi}^{0}_{1}\bar{q}\widetilde{\chi}^{0}_{1}$ & 600 & 250 \\
+D2 (T2bb) & $ pp \rightarrow \widetilde{b}\widetilde{b}^{*} \rightarrow b\widetilde{\chi}^{0}_{1}\bar{b}\widetilde{\chi}^{0}_{1}$ & 500 & 150 \\
+D3 (T2tt) & $ pp \rightarrow \widetilde{t}\widetilde{t}^{*} \rightarrow t\widetilde{\chi}^{0}_{1}\bar{t}\widetilde{\chi}^{0}_{1}$ & 400 & 0 \\
+\cline{1-4}
+\end{tabular*}
+\end{center}
+\caption[A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays.]{A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays. Reference models are also defined in terms of parent and \ac{LSP} sparticle mass }
+\label{tab:sms_model_table}
+\end{table}
+
 \section{The \alphat search}
 \label{sec:alphatintroduction}
 
-The experimental signature of \ac{SUSY} signal in the hadronic channel would manifest as a final state containing energetic jets and $\met$. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy. 
+The experimental signature of \ac{SUSY} signal in the hadronic channel would manifest as a final state containing energetic jets and $\met$. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
 
-A search within this channel is greatly complicated in a hadron collider environment, where the overwhelming background comes from inherently balanced multi-jet (``QCD'') events which are produced with an extremely large cross section. $\met$ can appear in such events with a substation mis-measurement of jet energy or missed objects due to detector miscalibration or noise effects. 
+\begin{equation}
+\mht =  \lvert \sum_{i=1}^{n} p_{T}^{jet_{i}} \rvert,
+\end{equation}
 
-Additional \ac{SM} background contribution comes from \ac{EWK} processes with genuine $\met$É. 
+defined as the vector sum of the transverse energies of jets selected in an event. Energetic jets produced in the decay of these supersymmetric particles also 
+can produce significant visible transverse energy, 
+
+\begin{equation}
+\theht = \sum_{i=1}^{n} E_{T}^{jet_{i}},
+\end{equation}
+
+defined as the scalar sum of the transverse energies of jets selected in an event.
+
+A search within this channel is greatly complicated in a hadron collider environment, where the overwhelming background comes from inherently balanced multi-jet (``QCD'') events which are produced with an extremely large cross section as demonstrated within Figure \ref{fig:htqcdbackground}. $\met$ can appear in such events with a substantial mis-measurement of jet energy or missed objects due to detector miscalibration or noise effects. 
+
+\begin{figure}[!h]
+
+\centering
+\includegraphics[width=0.60\textwidth]{plots/nocuts_htdistribution.pdf}
+\caption[Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection.]{Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection. Sample is collected from prescaled $\theht$ triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal model (labelled D2 from Table.\ref{tab:sms_model_table}).}  
+\label{fig:htqcdbackground}
+\end{figure}
+
+Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from escaping neutrinos comprise the irreducible background within this search and come mainly from:
+
+\begin{itemize}
+\item $Z \rightarrow \nu\bar{\nu} +$ jets,
+\item $W \rightarrow l\nu$ + jets,
+\item $t\bar{t}$ with at least one leptonic W decay.
+\end{itemize}
+
+The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{PhysRevLett.101.221803}\cite{CMS:2008vya}.
+
+\subsection{The $\alphat$ variable}
+\label{subsec:alphatvariable}
+
+For a perfectly measured di-jet QCD event, conservation laws dictate that they must be produced back-to-back and of equal magnitude. However in di-jet events with real $\met$, both of these jets are produced independently of one another, depicted in Figure \ref{fig:susytopology}.
+\begin{figure}[!h]
+
+\centering
+\includegraphics[width=0.90\textwidth]{plots/susy_topology.pdf}
+\caption[The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).]{The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).}  
+\label{fig:susytopology}
+\end{figure}
+
+ Exploiting this feature leads to the formulation of $\alphat$ in di-jet systems defined as,
+
+\begin{equation}
+\alphat = \frac {E^{j2}_{T}}{M_{T}},
+\end{equation} 
+
+where $E^{j2}_{T}$ is the transverse energy of the least energetic of the two jets and $M_{T}$ defined as:
+
+\begin{equation}
+\label{eq:transmass}
+M_{T} = \sqrt{\left(\sum^{2}_{i=1}E^{j_{i}}_{T}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{x}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{y}\right)^{2}} \equiv \sqrt{H_{T}^{2} - \mht^{2}} .
+\end{equation}
+
+A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would give an $\alphat = 0.5$, where as events with jets which are not back-to-back, for example in events in which
+a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of 0.5.
+
+$\alphat$ can be extended to apply to any arbitrary number of jets, undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present in the event such that the 2 pseudo-jets are chosen to be as balanced as possible, i.e the $\Delta \theht \equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
+
+\begin{equation}
+\alphat = \frac{1}{2} \frac {\theht - \Delta\theht}{\sqrt{\theht^{2}-\mht^{2}}}= \frac{1}{2}\frac{1-\Delta\theht/\theht}{\sqrt{1-(\mht/\theht)^{2}}}.
+\end{equation}
+
+The distribution of $\alphat$ for the two jet categories used within this analysis, 2,3 and $\geq 4$ jets, is shown in the Figure.\ref{fig:fullalphatdistribution}, demonstrating the ability of the $\alphat$ variable to discriminate between multi jet events and \ac{EWK} processes with genuine $\met$ in the final state.  
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth,height = 7.0cm]{plots/alphat_low.pdf}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth, height = 7.0cm]{plots/alphat_high.pdf}
+\end{minipage}
+\caption[ The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection and shown for $\theht > 375$.]{The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection and shown for $\theht > 375$ . Data is collected using both prescaled $\theht$ triggers and dedicated $\alphat$ triggers for below and above $\alphat = 0.55$ respectively. . Expected yields as given by simulation are also shown for multijet events (green dash-dotted line), \ac{EWK} backgrounds with genuine $\met$ (blue long-dashed line), the sum of all \ac{SM} processes (cyan solid line) and the reference signal model D2 (left, red dotted line) or G2 (right, red dotted line). }
+\label{fig:fullalphatdistribution}
+\end{figure}
+
+The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multijet background is negligible even in the presence of moderate jet mis-measurement. There still remains other effects which can cause multijet events to artificially have a large $\alphat$ value, which are discussed in detail in Section (\ref{subsec:eventselection}).  
+
 
 \subsection{Search Strategy}
 \label{subsec:searchstrategy}
