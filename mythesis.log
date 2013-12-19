@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  13 DEC 2013 18:44
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  19 DEC 2013 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,9 +1228,9 @@ LaTeX Info: Redefining \GeV on input line 47.
 LaTeX Info: Redefining \TeV on input line 48.
 LaTeX Info: Redefining \CKM on input line 49.
 LaTeX Info: Redefining \ns on input line 52.
-LaTeX Info: Redefining \half on input line 65.
-LaTeX Info: Redefining \APD on input line 76.
-LaTeX Info: Redefining \L1 on input line 88.
+LaTeX Info: Redefining \half on input line 69.
+LaTeX Info: Redefining \APD on input line 80.
+LaTeX Info: Redefining \L1 on input line 92.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1529,7 +1529,7 @@ although it is yet undefined on input line 204.
 Package acronym Info: Label `acro:BSM' newly defined as it shall be overridden
 although it is yet undefined on input line 262.
  [13]
-<plots/higgs_correction.pdf, id=760, 261.93872pt x 153.02742pt>
+<plots/higgs_correction.pdf, id=770, 261.93872pt x 153.02742pt>
 File: plots/higgs_correction.pdf Graphic file (type pdf)
 
 <use plots/higgs_correction.pdf>
@@ -1544,11 +1544,11 @@ although it is yet undefined on input line 310.
 Package acronym Info: Label `acro:CMSSM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 339.
- [17] [18] <plots/t1susydecay.pdf, id=932, 218.8175pt x 125.46875pt>
+ [17] [18] <plots/t1susydecay.pdf, id=942, 218.8175pt x 125.46875pt>
 File: plots/t1susydecay.pdf Graphic file (type pdf)
 
 <use plots/t1susydecay.pdf>
-<plots/t2susydecay.pdf, id=933, 217.81375pt x 124.465pt>
+<plots/t2susydecay.pdf, id=943, 217.81375pt x 124.465pt>
 File: plots/t2susydecay.pdf Graphic file (type pdf)
 
 <use plots/t2susydecay.pdf>) (./chap_detector.tex [19 <./plots/t1susydecay.pdf>
@@ -1574,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 [20
 
-] <plots/lhc-ring-photo.pdf, id=999, 1035.7395pt x 1114.02196pt>
+] <plots/lhc-ring-photo.pdf, id=1010, 1035.7395pt x 1114.02196pt>
 File: plots/lhc-ring-photo.pdf Graphic file (type pdf)
 
 <use plots/lhc-ring-photo.pdf>
@@ -1586,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [21 <./plots/lhc-ring-photo.pdf>]
-<plots/lhc-lumo-8tev.pdf, id=1033, 578.16098pt x 433.62102pt>
+<plots/lhc-lumo-8tev.pdf, id=1043, 578.16098pt x 433.62102pt>
 File: plots/lhc-lumo-8tev.pdf Graphic file (type pdf)
 
 <use plots/lhc-lumo-8tev.pdf> [22 <./plots/lhc-lumo-8tev.pdf>]
@@ -1599,7 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[23] <plots/cms-detector.pdf, id=1064, 346.89601pt x 230.54129pt>
+[23] <plots/cms-detector.pdf, id=1074, 346.89601pt x 230.54129pt>
 File: plots/cms-detector.pdf Graphic file (type pdf)
 
 <use plots/cms-detector.pdf>
@@ -1642,7 +1642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
-<plots/cms-ecal.pdf, id=1089, 449.00046pt x 244.25252pt>
+<plots/cms-ecal.pdf, id=1099, 449.00046pt x 244.25252pt>
 File: plots/cms-ecal.pdf Graphic file (type pdf)
 
 <use plots/cms-ecal.pdf>
@@ -1663,7 +1663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<plots/cms-hcal.pdf, id=1133, 429.73047pt x 259.18732pt>
+<plots/cms-hcal.pdf, id=1143, 429.73047pt x 259.18732pt>
 File: plots/cms-hcal.pdf Graphic file (type pdf)
 
 <use plots/cms-hcal.pdf>
@@ -1703,11 +1703,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
 [29]
 Missing character: There is no Þ in font cmr12!
- <plots/btag-ttbardiscrim.pdf, id=1230, 569.12625pt x 383.4325pt>
+ <plots/btag-ttbardiscrim.pdf, id=1241, 569.12625pt x 383.4325pt>
 File: plots/btag-ttbardiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-ttbardiscrim.pdf>
-<plots/btag-multijetdiscrim.pdf, id=1231, 569.12625pt x 383.4325pt>
+<plots/btag-multijetdiscrim.pdf, id=1242, 569.12625pt x 383.4325pt>
 File: plots/btag-multijetdiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-multijetdiscrim.pdf>
@@ -1717,21 +1717,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
 [30] [31 <./plots/btag-ttbardiscrim.pdf, page is rotated 90 degrees> <./plots/b
 tag-multijetdiscrim.pdf, page is rotated 90 degrees>]
-<plots/btag-csvm_pt_sf.pdf, id=1338, 569.12625pt x 546.04pt>
+<plots/btag-csvm_pt_sf.pdf, id=1350, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_pt_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_pt_sf.pdf>
-<plots/btag-csvm_eta_sf.pdf, id=1339, 569.12625pt x 546.04pt>
+<plots/btag-csvm_eta_sf.pdf, id=1351, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_eta_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_eta_sf.pdf>
-<plots/btag-csvm_vert_sf.pdf, id=1340, 569.12625pt x 546.04pt>
+<plots/btag-csvm_vert_sf.pdf, id=1352, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_vert_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_vert_sf.pdf>
 Missing character: There is no Þ in font cmr12!
 
-<plots/btag-csvmsf_v2.pdf, id=1345, 506.08112pt x 397.08972pt>
+<plots/btag-csvmsf_v2.pdf, id=1357, 506.08112pt x 397.08972pt>
 File: plots/btag-csvmsf_v2.pdf Graphic file (type pdf)
 
 <use plots/btag-csvmsf_v2.pdf>
@@ -1741,7 +1741,7 @@ Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
  [32 <./plots/btag-csvm_pt_sf.pdf, page is rotated 90 degrees> <./plots/btag-cs
 vm_eta_sf.pdf, page is rotated 90 degrees> <./plots/btag-csvm_vert_sf.pdf>]
-<plots/l1triggersystem.pdf, id=1463, 330.9695pt x 254.36932pt>
+<plots/l1triggersystem.pdf, id=1476, 330.9695pt x 254.36932pt>
 File: plots/l1triggersystem.pdf Graphic file (type pdf)
 
 <use plots/l1triggersystem.pdf>
@@ -1759,7 +1759,7 @@ although it is yet undefined on input line 228.
 Package acronym Info: Label `acro:LUT' newly defined as it shall be overridden
 although it is yet undefined on input line 253.
 
-<plots/L1JetAlgorithm.pdf, id=1536, 343.01349pt x 176.80554pt>
+<plots/L1JetAlgorithm.pdf, id=1548, 343.01349pt x 176.80554pt>
 File: plots/L1JetAlgorithm.pdf Graphic file (type pdf)
 
 <use plots/L1JetAlgorithm.pdf>
@@ -1770,11 +1770,11 @@ LaTeX Warning: Reference `app:jetmatcheff' on page 36 undefined on input line 2
 70.
 
 [36 <./plots/L1JetAlgorithm.pdf>]
-<plots/jetpt_RunC.pdf, id=1556, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC.pdf, id=1568, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC.pdf>
-<plots/jetpt_RunC_PF.pdf, id=1557, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_PF.pdf, id=1569, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_PF.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_PF.pdf>
@@ -1784,11 +1784,11 @@ Overfull \hbox (69.04929pt too wide) in alignment at lines 301--308
 
 [37] [38 <./plots/jetpt_RunC.pdf, page is rotated 90 degrees> <./plots/jetpt_Ru
 nC_PF.pdf, page is rotated 90 degrees>]
-<plots/jetseed_36.pdf, id=1664, 569.12625pt x 474.77374pt>
+<plots/jetseed_36.pdf, id=1676, 569.12625pt x 474.77374pt>
 File: plots/jetseed_36.pdf Graphic file (type pdf)
 
 <use plots/jetseed_36.pdf>
-<plots/jetseed_92.pdf, id=1665, 569.12625pt x 474.77374pt>
+<plots/jetseed_92.pdf, id=1677, 569.12625pt x 474.77374pt>
 File: plots/jetseed_92.pdf Graphic file (type pdf)
 
 <use plots/jetseed_92.pdf>
@@ -1798,15 +1798,15 @@ Overfull \hbox (63.17435pt too wide) in alignment at lines 344--350
 
 [39 <./plots/jetseed_36.pdf, page is rotated 90 degrees> <./plots/jetseed_92.pd
 f, page is rotated 90 degrees>]
-<plots/l1rateplot.pdf, id=1760, 339.6409pt x 250.99673pt>
+<plots/l1rateplot.pdf, id=1772, 339.6409pt x 250.99673pt>
 File: plots/l1rateplot.pdf Graphic file (type pdf)
 
 <use plots/l1rateplot.pdf>
-<plots/jetseed_ht100.pdf, id=1764, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht100.pdf, id=1776, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht100.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht100.pdf>
-<plots/jetseed_ht150.pdf, id=1765, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht150.pdf, id=1777, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht150.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht150.pdf>
@@ -1815,11 +1815,11 @@ Overfull \hbox (43.439pt too wide) in alignment at lines 385--391
  []
 
 [40 <./plots/l1rateplot.pdf>]
-<plots/jetpt_RunC_calopu.pdf, id=1782, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_calopu.pdf, id=1794, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_calopu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_calopu.pdf>
-<plots/jetpt_RunC_pfpu.pdf, id=1783, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_pfpu.pdf, id=1795, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_pfpu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_pfpu.pdf>
@@ -1835,11 +1835,11 @@ Overfull \hbox (65.79405pt too wide) in alignment at lines 438--445
 [41 <./plots/jetseed_ht100.pdf, page is rotated 90 degrees> <./plots/jetseed_ht
 150.pdf, page is rotated 90 degrees>] [42 <./plots/jetpt_RunC_calopu.pdf, page 
 is rotated 90 degrees> <./plots/jetpt_RunC_pfpu.pdf, page is rotated 90 degrees
->] <plots/res_CaloJet_summary.pdf, id=1975, 569.12625pt x 200.75pt>
+>] <plots/res_CaloJet_summary.pdf, id=1987, 569.12625pt x 200.75pt>
 File: plots/res_CaloJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloJet_summary.pdf>
-<plots/res_PFJet_summary.pdf, id=1978, 569.12625pt x 203.76125pt>
+<plots/res_PFJet_summary.pdf, id=1990, 569.12625pt x 203.76125pt>
 File: plots/res_PFJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_PFJet_summary.pdf>
@@ -1909,7 +1909,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 38.
 
-[46] <plots/nocuts_htdistribution.pdf, id=2113, 206.3881pt x 203.80823pt>
+[46] <plots/nocuts_htdistribution.pdf, id=2125, 206.3881pt x 203.80823pt>
 File: plots/nocuts_htdistribution.pdf Graphic file (type pdf)
 
 <use plots/nocuts_htdistribution.pdf>
@@ -1918,117 +1918,124 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@Oldalpha' on input line 76.
+(hyperref)                removing `\@Oldalpha' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 76.
+(hyperref)                removing `subscript' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 77.
 
-<plots/susy_topology.pdf, id=2123, 559.94063pt x 185.68471pt>
+<plots/susy_topology.pdf, id=2135, 559.94063pt x 185.68471pt>
 File: plots/susy_topology.pdf Graphic file (type pdf)
 
-<use plots/susy_topology.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[47] [48 <./plots/nocuts_htdistribution.pdf> <./plots/susy_topology.pdf>]
-<plots/alphat_low.pdf, id=2719, 569.12625pt x 363.3575pt>
+<use plots/susy_topology.pdf> [47] [48 <./plots/nocuts_htdistribution.pdf> <./p
+lots/susy_topology.pdf>]
+<plots/alphat_low.pdf, id=2730, 569.12625pt x 363.3575pt>
 File: plots/alphat_low.pdf Graphic file (type pdf)
 
 <use plots/alphat_low.pdf>
-<plots/alphat_high.pdf, id=2720, 569.12625pt x 363.3575pt>
+<plots/alphat_high.pdf, id=2731, 569.12625pt x 363.3575pt>
 File: plots/alphat_high.pdf Graphic file (type pdf)
 
-<use plots/alphat_high.pdf> [49]) (./chap_results.tex [50 <./plots/alphat_low.p
-df, page is rotated 90 degrees> <./plots/alphat_high.pdf, page is rotated 90 de
-grees>]
+<use plots/alphat_high.pdf> [49] [50 <./plots/alphat_low.pdf, page is rotated 9
+0 degrees> <./plots/alphat_high.pdf, page is rotated 90 degrees>] [51]
+<plots/analysis_binning.pdf, id=2861, 585.648pt x 493.45567pt>
+File: plots/analysis_binning.pdf Graphic file (type pdf)
+
+<use plots/analysis_binning.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package acronym Info: Label `acro:TF' newly defined as it shall be overridden
+although it is yet undefined on input line 190.
+Missing character: There is no É in font cmr12!
+[52] [53 <./plots/analysis_binning.pdf>]) (./chap_results.tex [54]
 Chapter 5.
 ))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./appendices.tex [51
+ (./comment.cut (./appendices.tex [55
 
 ]
 Appendix A.
-[52
+[56
 
-] [53]
+] [57]
 Appendix B.
-<plots/leadjet_matchingeff.pdf, id=2839, 569.12625pt x 474.77374pt>
+<plots/leadjet_matchingeff.pdf, id=3049, 569.12625pt x 474.77374pt>
 File: plots/leadjet_matchingeff.pdf Graphic file (type pdf)
 
-<use plots/leadjet_matchingeff.pdf> [54
+<use plots/leadjet_matchingeff.pdf> [58
 
  <./plots/leadjet_matchingeff.pdf, page is rotated 90 degrees>]
 Overfull \hbox (2.79747pt too wide) in alignment at lines 76--81
 [][][]
  []
 
-<plots/ptresolution_low.pdf, id=2888, 1158.3275pt x 645.41125pt>
+<plots/ptresolution_low.pdf, id=3098, 1158.3275pt x 645.41125pt>
 File: plots/ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_low.pdf>
-<plots/ptresolution_medium.pdf, id=2889, 1156.32pt x 644.4075pt>
+<plots/ptresolution_medium.pdf, id=3099, 1156.32pt x 644.4075pt>
 File: plots/ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_medium.pdf>
-<plots/ptresolution_high.pdf, id=2890, 1154.3125pt x 643.40375pt>
+<plots/ptresolution_high.pdf, id=3100, 1154.3125pt x 643.40375pt>
 File: plots/ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_high.pdf>
@@ -2038,7 +2045,7 @@ File: plots/ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_medium.pdf>
 File: plots/ptresolution_high.pdf Graphic file (type pdf)
- <use plots/ptresolution_high.pdf> [55 <./plots/ptresolution_low.pdf>] [56pdfTe
+ <use plots/ptresolution_high.pdf> [59 <./plots/ptresolution_low.pdf>] [60pdfTe
 X warning (ext4): destination with the same identifier (name{subfigure.\\relax\
 040B.2.1}) has been already used, duplicate ignored
 
@@ -2046,56 +2053,56 @@ X warning (ext4): destination with the same identifier (name{subfigure.\\relax\
                                                   \fi \fi 
 l.128 \newpage
                <./plots/ptresolution_medium.pdf> <./plots/ptresolution_high.pdf
->] [57] <plots/res_CaloSumET_summary.pdf, id=2922, 999.735pt x 373.395pt>
+>] [61] <plots/res_CaloSumET_summary.pdf, id=3132, 999.735pt x 373.395pt>
 File: plots/res_CaloSumET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfSumET_summary.pdf, id=2923, 999.735pt x 373.395pt>
+<plots/res_pfSumET_summary.pdf, id=3133, 999.735pt x 373.395pt>
 File: plots/res_pfSumET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMET_summary.pdf, id=2924, 999.735pt x 373.395pt>
+<plots/res_CaloMET_summary.pdf, id=3134, 999.735pt x 373.395pt>
 File: plots/res_CaloMET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMET_summary.pdf, id=2925, 999.735pt x 373.395pt>
+<plots/res_pfMET_summary.pdf, id=3135, 999.735pt x 373.395pt>
 File: plots/res_pfMET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloHT_summary.pdf, id=2926, 999.735pt x 373.395pt>
+<plots/res_CaloHT_summary.pdf, id=3136, 999.735pt x 373.395pt>
 File: plots/res_CaloHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfHT_summary.pdf, id=2927, 999.735pt x 373.395pt>
+<plots/res_pfHT_summary.pdf, id=3137, 999.735pt x 373.395pt>
 File: plots/res_pfHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMHT_summary.pdf, id=2928, 999.735pt x 373.395pt>
+<plots/res_CaloMHT_summary.pdf, id=3138, 999.735pt x 373.395pt>
 File: plots/res_CaloMHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMHT_summary.pdf, id=2929, 999.735pt x 373.395pt>
+<plots/res_pfMHT_summary.pdf, id=3139, 999.735pt x 373.395pt>
 File: plots/res_pfMHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfMHT_summary.pdf>
@@ -2105,25 +2112,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ))
 \openout3 = `comment.cut'.
 
- [58pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+ [62pdfTeX warning (ext4): destination with the same identifier (name{subfigure
 .\\relax\040B.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.57 \end{backmatter}
-                     ] [59 <./plots/res_CaloSumET_summary.pdf> <./plots/res_pfS
-umET_summary.pdf>] [60 <./plots/res_CaloMET_summary.pdf> <./plots/res_pfMET_sum
-mary.pdf>] [61 <./plots/res_CaloHT_summary.pdf> <./plots/res_pfHT_summary.pdf>]
-[62 <./plots/res_CaloMHT_summary.pdf> <./plots/res_pfMHT_summary.pdf>]
-(./comment.cut (./backmatter.tex (./mythesis.bbl [63
+                     ] [63 <./plots/res_CaloSumET_summary.pdf> <./plots/res_pfS
+umET_summary.pdf>] [64 <./plots/res_CaloMET_summary.pdf> <./plots/res_pfMET_sum
+mary.pdf>] [65 <./plots/res_CaloHT_summary.pdf> <./plots/res_pfHT_summary.pdf>]
+[66 <./plots/res_CaloMHT_summary.pdf> <./plots/res_pfMHT_summary.pdf>]
+(./comment.cut (./backmatter.tex (./mythesis.bbl [67
 
 
-] [64
+] [68
 
 ]
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no ¶ in font cmti12!
- [65] [66]
+ [69] [70]
 Underfull \hbox (badness 10000) in paragraph at lines 225--227
 []\OT1/cmr/m/n/12 (+20) C. Col-lab-o-ra-tion, ``Cms lu-mi-nos-ity - pub-lic re-
 sults.''
@@ -2135,27 +2142,27 @@ Overfull \hbox (81.68184pt too wide) in paragraph at lines 229--231
 b.cern.ch/public/Objects/LHC/CMSnc.jpg.,
  []
 
-[67] [68]) [69] [70]))
+[71] [72]) [73] [74]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
- [71]
+ [75]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7894B0E2F35F97F79F1CF8E2FE161E07;3523.
+(rerunfilecheck)             Checksum: D3B37F9D33ADFC24A6270317AEB1AAF8;3630.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27095 strings out of 493747
- 432529 string characters out of 3143546
- 575173 words of memory out of 3000000
- 29152 multiletter control sequences out of 15000+200000
+ 27129 strings out of 493747
+ 432976 string characters out of 3143546
+ 575633 words of memory out of 3000000
+ 29176 multiletter control sequences out of 15000+200000
  40576 words of font info for 220 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,24n,59p,1346b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,24n,59p,1346b,771s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2188,10 +2195,10 @@ dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2010/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on mythesis.pdf (82 pages, 4398517 bytes).
+Output written on mythesis.pdf (86 pages, 4631382 bytes).
 PDF statistics:
- 3187 PDF objects out of 3580 (max. 8388607)
- 2302 compressed objects within 24 object streams
- 376 named destinations out of 1000 (max. 500000)
- 27764 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 3399 PDF objects out of 3580 (max. 8388607)
+ 2449 compressed objects within 25 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 27777 words of extra memory for PDF output out of 29859 (max. 10000000)
 

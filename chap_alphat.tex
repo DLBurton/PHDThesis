@@ -35,7 +35,7 @@ D3 (T2tt) & $ pp \rightarrow \widetilde{t}\widetilde{t}^{*} \rightarrow t\wideti
 \label{tab:sms_model_table}
 \end{table}
 
-\section{The \alphat search}
+\section{An introduction to the \alphat search}
 \label{sec:alphatintroduction}
 
 The experimental signature of \ac{SUSY} signal in the hadronic channel would manifest as a final state containing energetic jets and $\met$. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
@@ -59,7 +59,7 @@ A search within this channel is greatly complicated in a hadron collider environ
 
 \centering
 \includegraphics[width=0.60\textwidth]{plots/nocuts_htdistribution.pdf}
-\caption[Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection.]{Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection. Sample is collected from prescaled $\theht$ triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal model (labelled D2 from Table.\ref{tab:sms_model_table}).}  
+\caption[Reconstructed offline \theht for 11.7fb$^{-1}$ of data after a basic pre-selection.]{Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal model (labelled D2 from Table.\ref{tab:sms_model_table}).}  
 \label{fig:htqcdbackground}
 \end{figure}
 
@@ -67,8 +67,9 @@ Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from e
 
 \begin{itemize}
 \item $Z \rightarrow \nu\bar{\nu} +$ jets,
-\item $W \rightarrow l\nu$ + jets,
-\item $t\bar{t}$ with at least one leptonic W decay.
+\item $W \rightarrow l\nu$ + jets in which a lepton falls outside of detector acceptance, or the lepton decays hadronically $\tau \rightarrow$ had ,
+\item $t\bar{t}$ with at least one leptonic W decay,
+\item small background contributions from DY, single top and Diboson (WW,ZZ,WZ) processes.
 \end{itemize}
 
 The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{PhysRevLett.101.221803}\cite{CMS:2008vya}.
@@ -78,7 +79,6 @@ The search is designed to have a strong separation between events with genuine a
 
 For a perfectly measured di-jet QCD event, conservation laws dictate that they must be produced back-to-back and of equal magnitude. However in di-jet events with real $\met$, both of these jets are produced independently of one another, depicted in Figure \ref{fig:susytopology}.
 \begin{figure}[!h]
-
 \centering
 \includegraphics[width=0.90\textwidth]{plots/susy_topology.pdf}
 \caption[The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).]{The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).}  
@@ -101,7 +101,7 @@ M_{T} = \sqrt{\left(\sum^{2}_{i=1}E^{j_{i}}_{T}\right)^{2}-\left(\sum^{2}_{i=1}p
 A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would give an $\alphat = 0.5$, where as events with jets which are not back-to-back, for example in events in which
 a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of 0.5.
 
-$\alphat$ can be extended to apply to any arbitrary number of jets, undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present in the event such that the 2 pseudo-jets are chosen to be as balanced as possible, i.e the $\Delta \theht \equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
+$\alphat$ can be extended to apply to any arbitrary number of jets, undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present in the event such that the 2 pseudo-jets are chosen to be as balanced as possible, i.e the $\Delta$ \theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
 
 \begin{equation}
 \alphat = \frac{1}{2} \frac {\theht - \Delta\theht}{\sqrt{\theht^{2}-\mht^{2}}}= \frac{1}{2}\frac{1-\Delta\theht/\theht}{\sqrt{1-(\mht/\theht)^{2}}}.
@@ -125,21 +125,99 @@ The distribution of $\alphat$ for the two jet categories used within this analys
 The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multijet background is negligible even in the presence of moderate jet mis-measurement. There still remains other effects which can cause multijet events to artificially have a large $\alphat$ value, which are discussed in detail in Section (\ref{subsec:eventselection}).  
 
 
-\subsection{Search Strategy}
+\section{Search Strategy}
 \label{subsec:searchstrategy}
 
-\subsection{Trigger Strategy}
+The aim of the analysis presented in this thesis is to identify an excess of events in data over the \ac{SM} background expectation in multi-jet final states and significant $\met$. The essential suppression of the dominant QCD background for such a search is addressed by the $\alphat$ variable described in the previous section. For estimation of the remaining \ac{EWK} backgrounds, three independent data control samples are used to predict the different processes that compose the background :
+
+\begin{itemize}
+\item \mupjets to determine W + jets, \ttbar and single top backgrounds,
+\item \gpjets  to determine the irreducible \zinv + jets background,
+\item \dimupjets to determine the irreducible \zinv + jets background.
+\end{itemize}
+
+These control samples are chosen to both be rich in specific \ac{EWK} processes, be free of QCD multi-jet events and to also be kinematically similar to the hadronic signal region that they are estimating the backgrounds of, see Section (\ref{subsec:controlsampledefinition}).
+
+To remain inclusive to a large range of possible \ac{SUSY} models, the signal region is binned in the following categories to allow for increased sensitivity in the interpretation of results for different \ac{SUSY} topologies:
+
+\begin{itemize}
+
+\item[] \textbf{Sensitivity to a range of \ac{SUSY} mass splittings}
+
+The hadronic signal region is defined by \theht $>$ 275, divided into eight bins in \theht. 
+
+\begin{itemize}
+\item Two bins of width 50 \GeV in the range 275 $<$ \theht $<$ 375 \GeV,
+\item five bins of width 100 \GeV in the range 375 $<$ \theht$<$ 875 \GeV,
+\item and a final open bin, \theht $>$ 875 \GeV.
+\end{itemize}
+
+The choice at low \theht is driven primarily by trigger constraints. The mass difference between the \ac{LSP} and the particle that it decays from is an important factor in the amount of hadronic activity in the event. 
+
+A large mass splitting will lead to hard high \pt jets which contribute to the \theht sum. From Figure \ref{fig:htqcdbackground} it can be seen that the \ac{SM} background falls sharply at high \theht values, therefore a large number of \theht bins will lead to easier of identification of such signals. Conversely smaller mass splittings lead to softer jet \pt's which will subsequently fall into the lower \theht range.
+
+\item[] \textbf{Sensitivity to production method of \ac{SUSY} particles}
+
+The production mechanism of any potential \ac{SUSY} signal can lead to different event topologies. One such way to discriminate between gluino ($g\widetilde{g}$ - ``high multiplicity''), and direct squark ($q\widetilde{q}$ - ``low multiplicity'') induced production of \ac{SUSY} particles is realised through the number of reconstructed jets in the final state.  
+
+The analysis is thus split into two jet categories : 2-3 jets , $\geq$ 4 jets to give sensitivity to both of these mechanisms. 
+
+\item[] \textbf{Sensitivity to  ``Natural \ac{SUSY}'' via tagging jets from b-quarks}
+
+Jets originating from bottom quarks (b-jets) are identified through vertices that are displaced with respect to the primary interaction. The algorithm used to tag b-jets is the \acf{CSVM} tagger, described within Section (\ref{subsec:cmsobjects-btagging}). A cut is placed on the discriminator variable of $> 0.679$, leading to a gluon/light-quark mis-tag rate of 1\% and a jet p$_{\text{T}}$ dependant b-tagging efficiency of 60-70\% \cite{btag8tev}.
+
+Natural \ac{SUSY} models would be characterised through final-state signatures rich in bottom quarks. A search relying on methods to identify jets originating from bottom quarks through b-tagging, will significantly improve the sensitivity to this class of signature. 
+
+This is achieved via the binning of events in the signal region according to the number of b-tagged jets reconstructed in each event, in the following: 0,1,2,3,$\geq$ 4 b-tag categories . In the highest $\geq$ 4 b-tag category due to a limited number of expected signal and background, just three \theht bins are employed: 275-325 \GeV, 325-375 \GeV, $\geq$ 375 \GeV.
+
+This characterisation is identically mirrored in all control samples, with the information from all samples and b-tag categories used simultaneously in the likelihood model (see Chapter \ref{chap:SUSYresults}) in order to interpret the results in a coherent and powerful way.
+
+\end{itemize}
+ 
+ The combination of the \theht, jet multiplicity and b-tag categorisation of the signal region as described above, resultantly leads to 67 different bins in which the analysis is interpreted in, which is depicted in Figure \ref{fig:analysisbinning}. 
+ 
+ \begin{figure}[!h]
+ \centering
+\includegraphics[width=0.80\textwidth]{plots/analysis_binning.pdf}
+\caption[Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.]{Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.}  
+\label{fig:analysisbinning}
+\end{figure}
+
+
+\subsection{Control Sample Definition}
+\label{subsec:controlsampledefinition}
+
+The method used to estimate these background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from MC simulation in both the control and signal region to transform the observed yield measured in data for a control sample into a background prediction. 
+
+The control samples and the \ac{EWK} processes they are specifically tuned to select are defined as: 
+
+\begin{itemize} 
+
+\item[] \textbf{The \mupjets control sample}
+
+Events from W + jets and \ttbar
+
+\item[] \textbf{The \dimupjets control sample}
+
+The É
+
+\item[] \textbf{The \gpjets control sample}
+
+The ...
+\end{itemize}
+
+\section{Trigger Strategy}
 \label{subsec:triggerstrategy}
 
-\subsection{Event Selection}
+\section{Event Selection}
 \label{subsec:eventselection}
 
 
-\subsection{Background Estimation}
+\section{A method to determine MC yields with higher statistical precision}
 \label{subsec:backgroundestimation}
 
 
-\subsection{Systematic Uncertainties on Transfer Factors}
+\section{Systematic Uncertainties on Transfer Factors}
 \label{subsec:sysuncertainties}
 
 \section{Searches for Natural SUSY with B-tag templates.}
