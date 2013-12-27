@@ -188,46 +188,172 @@ This characterisation is identically mirrored in all control samples, with the i
 \subsection{Physics Objects}
 \label{subsec:physicsobjects}
 
-Jets are reconstructed
+The physics objects used in the analysis defined below, follow the recommendation of the various \ac{CMS} \acf{POGs}. 
 
-Muon id Table \ref{tab:muonidtable}
+\begin{itemize}
+
+\item \textbf{Jets}
+
+The jets used in this analysis are CaloJets, reconstructed as described in Section (\ref{subsec:cmsobjects-jets}) using the anti-k$_{T}$ jet clustering algorithm. 
+
+To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tab:jetidtable} \cite{CMS-PAS-JME-09-008}.
 
 \begin{table}[h!]
 \begin{center}
-\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}llcc}
-\cline{1-4}
-Model & Production/decay mode &  \multicolumn{2}{c}{Reference model}\\ 
-&& m$_{parent}$ & m$_{LSP}$ \\  \cline{1-4}
-G1 (T1) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ & 700 & 300 \\
-\cline{1-4}
+\begin{tabulary}{0.8\textwidth}{LL}
+\cline{1-2}
+Variable & Definition \\ 
+\cline{1-2}
+f$_{HPD} < 0.98$ \qquad\qquad\qquad\qquad\qquad\qquad & Fraction of jet energy contributed from ``hottest'' \ac{HPD}, which rejects \ac{HCAL} noise.  \\
+f$_{EM} > 0.01$ & Noise from the \ac{HCAL} is further suppressed by requiring a minimal electromagnetic component to the jet f$_{EM}$. \\
+ N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single chanel are rejected, to serve as a safety net that catches jets arising from undiagnosed noisy channels.\\
+
+\cline{1-2}
+\end{tabulary}
+\end{center}
+\caption[Jet Identification criteria for the ``loose" CaloJet ID used with the analysis.]{Jet Identification criteria for the ``loose" CaloJet ID, used to reject reconstructed jets resulting from fake calorimeter deposits representing unphysical energy.}
+\label{tab:jetidtable}
+\end{table}
+
+\item \textbf{Muons}
+
+Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in the signal region. The same cut based identification criteria is applied to muons in both search regions and is summarised in Table \ref{tab:muonidtable} \cite{1748-0221-7-10-P10002}.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ll}
+\cline{1-2}
+Categories & Criteria \\ 
+\cline{1-2}
+Global Muon & True \\
+PFMuon & True \\
+$\chi^{2}$ & $<$ 10 \\
+Muon chamber hits & $>$ 0 \\
+Muon station hits & $>$ 1 \\
+Transvere impact d$_{xy}$ & $<$ 0.2mm \\
+Longitudinal distance d$_{z}$ & $<$ 0.5mm \\
+Pixel hits & $>$ 0\\
+Track layer hits & $>$ 5 \\
+PF Isolation (DeltaB corrected) & $<$0.12 \\
+\cline{1-2}
 \end{tabular*}
 \end{center}
-\caption[Muon Id.]{Muon Id.}
+\caption[Muon Identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.]{Muon Identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.}
 \label{tab:muonidtable}
 \end{table}
 
+Additionally muons are required to be within the acceptance of the muon tracking systems. For the muon control samples, trigger requirements necessitate a \abeta $<$ 2.1 for the selection of muons. In the signal region where muons are vetoed these conditions are relaxed to  \abeta $<$ 2.5 and a minimum threshold of \pt $> 10 $ \GeV is required of muon objects. 
 
+\item \textbf{Photons} 
 
-Photon id Table \ref{tab:photonidtable}
+Photons are selected within the \gpjets control sample and vetoed in all other selections. Photons are identified in both cases according to the cut based criteria listed in Table \ref{tab:photonidtable} \cite{CMS-PAS-SUS-12-018}.
 
 \begin{table}[h!]
 \begin{center}
-\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}llcc}
-\cline{1-4}
-Model & Production/decay mode &  \multicolumn{2}{c}{Reference model}\\ 
-&& m$_{parent}$ & m$_{LSP}$ \\  \cline{1-4}
-G1 (T1) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ & 700 & 300 \\
-\cline{1-4}
-\end{tabular*}
+\begin{tabulary}{0.80\textwidth}{LL}
+\cline{1-2}
+Variable & Definition \\ 
+\cline{1-2}
+H/E $< $ 0.05  \qquad\qquad\qquad\qquad\qquad\qquad & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself. \\
+$\sigma_{i\eta i\eta}< 0.011$ \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad  & The log energy weighted width ($\sigma$), of the extent of the shower in the $\eta$ dimension.\\
+R9 $<$ 1.0 & The ratio of the energy of the 3$\times$3 crystal core of the super-cluster compared to the total energy stored in the 5$\times$5 super-cluster. \\
+Combined Isolation $<$ 6 \GeV &  The photons are required to be isolated with no electromagnetic or hadronic activity within a radius $\Delta$R = 0.3 of the photon object. A combination of the pileup subtracted \cite{Cacciari:2007fd}, \ac{ECAL}, \ac{HCAL} and tracking isolation sums are used to determine the combined total isolation value.  \\
+\cline{1-2}
+\end{tabulary}
 \end{center}
-\caption[Muon Id.]{Muon Id.}
+\caption[Photon Identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections. ]{Photon Identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections.}
 \label{tab:photonidtable}
 \end{table}
+
+Photon objects are also required to have a minimum momentum of \pt $>$ 25 \GeV.
+
+\item \textbf{Electrons}
+
+Electron identification is defined for veto purposes. They are selected according to the following cut-based criteria listed in Table \ref{tab:electronidtable}, utilising PF-based isolation.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}lcc}
+\cline{1-3}
+Categories & Barrel &  EndCap\\ 
+\cline{1-3}
+$\Delta \eta_{In}$ & 0.007 & 0.009 \\
+$\Delta \phi_{In}$ & 0.15 & 0.10 \\
+$\sigma_{i\eta i\eta}$ & 0.01 & 0.03 \\
+H/E & 0.12 & 0.10 \\
+d0 (vtx) & 0.02 & 0.02 \\
+dZ (vtx) & 0.20 & 0.20 \\
+$\lvert$(1/E$_{ECAL}$ - 1/p$_{track}$)$\rvert$ & 0.05 & 0.05 \\
+PF Combined isolation/\pt & 0.15 & 0.15 \\
+Vertex fit probability & 10$^{-6}$ & 10$^{-6}$ \\
+\cline{1-3}
+\end{tabular*}
+\end{center}
+\caption[Electron Identification criteria used within the analysis for veto purposes.]{Electron Identification criteria used within the analysis for veto purposes.}
+\label{tab:electronidtable}
+\end{table}
+
+Electrons are required to be identified at \abeta $<$ 2.5, with a minimum \pt $>$ 10 \GeV threshold to ensure that the electron falls within the tracking system of the detector.
+
+\item \textbf{Noise and \met Filters}
+
+A series of Noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Appendix (\ref{app:noise}).
+
+\end{itemize}
+
 
 \subsection{Event Selection}
 \label{subsec:eventselection}
 
-Events are selected...
+The selection criteria for events within the analysis are detailed below. A set of common cuts are applied to both signal  (maximise acceptance to a range of \ac{SUSY} signatures),  and control samples (retain similar jet kinematics for background predictions), with additional selection cuts applied to each control sample to enrich the sample in a particular \ac{EWK} processes, see Section (\ref{subsec:controlsampledefinition}).
+
+The jets considered in the analysis are required to have a transverse momentum \pt $>$ 50 \GeV, with a minimum of two jets required in the event. The highest \et jet is required to lie within the central tracker acceptance \abeta $<$ 2.5, and the two leading \pt jets must each have \pt $>$ 100\GeV.  Any event which has a jet with \pt $>$ 50 \GeV that either fails the ``loose'' identification criteria described in Section(\ref{subsec:physicsobjects}) or has \abeta $>$ 3.0, is rejected. Similarly events in which an electron,muon or photon fails object identification but pass \eta and \pt restrictions are identified as an ``odd'' lepton/photon and the event is vetoed.
+
+At low \theht, the jet threshold requirements applied to be considered as part of the analysis and enter the \theht sum are scaled downwards. These are scaled down in order to not restrict phase space, preserving jet multiplicities and background admixture in the lower \theht bins, as listed in Table \ref{tab:jetthresholdtable}.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}|l|c|c|}
+\cline{1-3}
+\theht bin & minimum jet \pt &  second leading jet \pt \\ 
+\cline{1-3}
+275 $<$ \theht$<$ 325 & 36.7 & 73.3 \\
+325 $<$ \theht$<$ 375 & 43.3 & 86.6 \\
+375 $<$ \theht & 50.0 & 100.0 \\
+
+\cline{1-3}
+\end{tabular*}
+\end{center}
+\caption[Jet thresholds used in the three \theht regions of the analysis.]{Jet thresholds used in the three \theht regions of the analysis.}
+\label{tab:jetthresholdtable}
+\end{table}
+
+Within the signal region to suppress \ac{SM} processes with genuine \met from neutrinos, events containing isolated electrons or muons are vetoed. Furthermore to ensure a pure multi-jet topology, events are vetoed if an isolated photon is found with \pt $>$ 25 \GeV. 
+
+An \alphat requirement of $>$ 0.55 is required to reduce the QCD multi-jet background to a negligible amount. Finally additional cleaning cuts are applied to protect against pathological deficiencies such as reconstruction failures or severe energy mis-measurements due to detector inefficiencies:
+
+\begin{itemize}
+\item Significant \mht can arise in events with no real \met due to multiple jets falling below the \pt threshold used for selecting jets. This in turn leads to events which can then incorrectly pass the \alphat requirements of the analysis. This effect can be negated by requiring that the missing transverse momentum reconstructed from jets alone does not greatly exceed the missing transverse momentum reconstructed from all of the detector's calorimeter towers,
+\begin{equation}
+\mht / \met < 1.25. \nonumber
+\end{equation}  
+
+\item Fake \met and \mht can arise due to significant jet mis-measurements cause by a small number of non-functioning \ac{ECAL} regions. These regions absorb electromagnetic showers which are subsequently not added to the jet energy sum. To circumvent this problem the following procedure is employed : For each jet in the event, the angular separation
+
+\begin{equation}
+\Delta\phi_{j}^{*}\equiv \Delta\phi(p_{j}^{\rightarrow}-\sum_{i\neq j}p_{i}^{\rightarrow}),
+\end{equation}
+
+is calculated where that jet is itself removed from the event. Here $\Delta\phi^{*}$ is a measure of how aligned the \mht of an event is with a jet, a small value is compatible with the hypothesis of an inherently balanced event in
+which a jet has been mis-measured. For every jet in a event with $\Delta\phi^{*} <$ 0.5, if the $\Delta R$ distance between the selected jet and the closest dead \ac{ECAL} region is also $<$ 0.3, then the event is rejected. Similarly events are rejected if the jet points within $\Delta R <$ 0.3 of the \ac{ECAL} barrel-endcap gap at \abeta $=$ 1.5.
+
+\end{itemize}
+
+Some of the key distributions of the data used in this analysis compared to MC simulation are shown in Figure !!!. The MC samples are normalised to a luminosity of 11.7 \fb,  split into the jet categories used within the analysis, with no requirement placed upon the number of b-tagged jets in the events. 
+
+The distributions shown are presented for purely illustrative purposes, with the MC simulation itself not used in absolute term to estimate the yields from background processes, see Sections (\ref{subsec:controlsampledefinition},\ref{subsec:backgroundestimation}). However it is nevertheless important to demonstrate that good agreement exists between simulation and observation in data.
+ 
+PUT PLOTS HERE
 
 \subsection{Control Sample Definition}
 \label{subsec:controlsampledefinition}
@@ -239,6 +365,8 @@ The method used to estimate the background contributions in the hadronic signal 
 \text{N}_{\text{pred}}^{\text{signal}} = \frac{\text{N}_{\text{MC}}^{\text{signal}}}{ \text{N}_{\text{MC}}^{\text{control}}} \times  \text{N}_{\text{obs}}^{\text{control}}.
 \end{equation}
 
+All MC samples are normalised to the luminosity of the data samples, 11.7 \fb. Through this method, ``vanilla'' predictions for the \ac{SM} background in the signal region can be made by considering separately the sum of the prediction from either the \mupjets and \gpjets or \mupjets and \dimupjets samples. However the final background estimation from which results are interpreted, is calculated via a fitting procedure defined formally by the likelihood model described in Chapter \ref{chap:SUSYresults}. 
+
 The control samples and the \ac{EWK} processes they are specifically tuned to select are defined below: 
 
 \begin{itemize} 
@@ -249,30 +377,57 @@ Events from W + jets and \ttbar processes enter into the hadronic signal sample 
 
 The control samples specifically identifies $W \rightarrow \mu\bar{\nu}$ decays within the same phase-space of the signal region, where the muon is subsequently ignored in the calculation of event level variables, i.e. \theht, \mht, \alphat. All kinematic jet-based cuts are identical to those applied in the hadronic search region detailed in Section (\ref{subsec:eventselection}), with the same \theht, jet multiplicity and b-jet multiplicity binning described above.
 
-Muons originating from W boson decays are selected by requiring one tightly isolated muon defined in Table \ref{tab:muonidtable}, with a \pt $>$ 10 \GeV and \abeta $<$ 2.1. Additionally the transverse mass of the W candidate must satisfy \mt$(\mu,\met) <$ 30\GeV ( to suppress QCD multi-jet events). Events which contain a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5 are vetoed to remove events from muons produced as part of a jet's hadronisation process. Furthermore events containing a second muon candidate which has failed id, but passed \pt and \abeta requirements, are checked to have an invariant mass that satisfies m$_{Z}$ = 25 $<$ M$_{\mu_{1}\mu_{2}} >$ m$_{Z}$ + 25, thus removing $Z \rightarrow \mu\mu$ contamination.
+\begin{itemize}
+\item Muons originating from W boson decays are selected by requiring one tightly isolated muon defined in Table \ref{tab:muonidtable}, with a \pt $>$ 30 \GeV and \abeta $<$ 2.1. Both of these threshold arise from trigger restrictions.  
+\item The transverse mass of the W candidate must satisfy \mt$(\mu,\met) <$ 30\GeV ( to suppress QCD multi-jet events). 
+\item Events which contain a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5 are vetoed to remove events from muons produced as part of a jet's hadronisation process. 
+\item Events containing a second muon candidate which has failed id, but passed \pt and \abeta requirements, are checked to have an invariant mass that satisfies m$_{Z}$ - 25 $<$ M$_{\mu_{1}\mu_{2}} >$ m$_{Z}$ + 25, thus removing $Z \rightarrow \mu\mu$ contamination.
+\end{itemize}
 
 \item[] \textbf{The \dimupjets control sample}
 
 The  \zinv + jets background enters into the signal region from genuine \met from the escaping neutrinos. This background is estimated using two control samples, the first of which is the \zmumu + jets process, which posses identical kinematic properties, but with different acceptance and branching ratio \cite{pdg2012}.
 
-Selection criteria are applied to identify two tightly isolated muons as defined in Table \ref{tab:muonidtable}, with the same acceptance requirements of the \mupjets selection. Both muons are ignored for the purpose of the calculation of event level variables. Kinematic jet-based cuts and phase space binning identical to the hadronic search region are also applied.
+The same acceptance requirements as the \mupjets selection for muons is applied, as defined in Table  \ref{tab:muonidtable}. Muons  in the event are ignored for the purpose of the calculation of event level variables. Kinematic jet-based cuts and phase space binning identical to the hadronic search region are also applied.
 
-In order to specifically select two muons both originating from a single Z boson decay, the invariant mass of the two muons must satisfy m$_{Z}$ - 25 $>$ M$_{\mu_{1}\mu_{2}} <$ m$_{Z}$ + 25. Additionally events are vetoed if containing a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5. 
+\begin{itemize}
+\item Muons origination from a Z boson decay are selected requiring exactly two tightly isolated muons. Due to trigger requirements the leading muon is required to have  \pt $>$ 30 \GeV and \abeta $<$ 2.1. The requirement of the \pt on the second muon is relaxed to 10 \GeV.
+\item Events are vetoed if containing a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5. 
+\item In order to specifically select two muons both originating from a single Z boson decay, the invariant mass of the two muons must satisfy m$_{Z}$ - 25 $>$ M$_{\mu_{1}\mu_{2}} <$ m$_{Z}$ + 25. 
+\end{itemize}
 
 The \dimupjets sample is used to make predictions in the signal region in the two lowest \theht bins, providing coverage where the \gpjets sample is unable to, due to trigger requirements. In higher \theht bins, the higher statistics of the \gpjets sample is instead used to determine the \zinv estimation.
 
 
 \item[] \textbf{The \gpjets control sample}
 
-The \zinv + jets background is also estimated from a \gpjets control sample, which possesses a larger cross section and kinematic properties similar to those of \zmumu events where the photon is ignored \cite{PhysRevD.84.114002}\cite{CMS-PAS-SUS-08-002}. 
+The \zinv + jets background is also estimated from a \gpjets control sample, which possesses a larger cross section and kinematic properties similar to those of \zmumu events where the photon is ignored \cite{PhysRevD.84.114002}\cite{CMS-PAS-SUS-08-002}. The photon is ignored for the purpose of the calculation of event level variables, and identical selection cuts to the hadronic signal region are applied. 
 
-Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel of the detector. The photon is ignored for the purpose of the calculation of event level variables, and identical selection cuts to the hadronic signal region are applied. 
-
-Additional selection criteria of $\Delta R(\gamma,jet) <$ 1.0, between the photon and all jets is applied to ensure the acceptance of only well isolated \gpjets events. Given that the photon is ignored, this control sample can only be applied in the \theht region $>$ 375 \GeV, due to the trigger thresholds on the minimum \pt of the photon, and the requirement of an \alphat $>$ 0.55 cut. 
+\begin{itemize}
+\item Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel of the detector.
+\item A selection criteria of $\Delta R(\gamma,jet) <$ 1.0, between the photon and all jets is applied to ensure the acceptance of only well isolated \gpjets events. 
+\item Given that the photon is ignored, this control sample can only be applied in the \theht region $>$ 375 \GeV, due to the trigger thresholds on the minimum \pt of the photon, and the requirement of an \alphat $>$ 0.55 cut. 
+\end{itemize}
 
 \end{itemize}
 
-The \alphat requirement is relaxed….
+The sum of the expected yields from all MC samples, in each control sample enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$  , of the \ac{TF} defined in Eq (\ref{eq:transfactor}). However for the numerator , $\text{N}_{\text{MC}}^{\text{signal}}$, only the relevant processes that the control sample is estimating a background for, enter into the \ac{TF}.
+
+For the \mupjets sample the simulated MC processes which enter the numerator of the \ac{TF} are,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{W} + N_{\ttbar} + N_{DY} + N_{t} + N_{di-boson},
+\end{equation}
+
+whilst for both the \dimupjets and \gpjets samples the only MC process used in the numerator is,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{\zinv}.
+\end{equation}
+
+The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on MC simulation to model correctly the backgrounds and event kinematics in the control and signal samples. However.. The \alphat requirement is relaxed….
+
+Put sample distributions here
 
 
 \section{Trigger Strategy}

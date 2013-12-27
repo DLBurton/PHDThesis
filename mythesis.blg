@@ -22,46 +22,48 @@ Warning--empty journal in L1bryn
 Warning--empty author in CMS:2008vya
 Warning--empty journal in CMS:2008vya
 Warning--empty author in CMS-PAS-SUS-09-001
+Warning--empty author in CMS-PAS-JME-09-008
+Warning--empty author in CMS-PAS-SUS-12-018
 Warning--empty author in CMS-PAS-SUS-08-002
-You've used 75 entries,
+You've used 79 entries,
             1876 wiz_defined-function locations,
-            903 strings with 12905 characters,
-and the built_in function-call counts, 17751 in all, are:
-= -- 1831
-> -- 526
-< -- 6
-+ -- 213
-- -- 138
-* -- 1117
-:= -- 2420
-add.period$ -- 82
-call.type$ -- 75
-change.case$ -- 69
+            923 strings with 13377 characters,
+and the built_in function-call counts, 18569 in all, are:
+= -- 1921
+> -- 540
+< -- 8
++ -- 220
+- -- 141
+* -- 1174
+:= -- 2526
+add.period$ -- 86
+call.type$ -- 79
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 1055
-empty$ -- 1685
-format.name$ -- 138
-if$ -- 4480
+cite$ -- 101
+duplicate$ -- 1107
+empty$ -- 1763
+format.name$ -- 141
+if$ -- 4688
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 69
-newline$ -- 235
-num.names$ -- 66
-pop$ -- 211
+int.to.str$ -- 79
+missing$ -- 71
+newline$ -- 247
+num.names$ -- 68
+pop$ -- 219
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 766
+skip$ -- 802
 stack$ -- 0
-substring$ -- 960
-swap$ -- 479
-text.length$ -- 6
+substring$ -- 1000
+swap$ -- 503
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 144
-width$ -- 77
-write$ -- 712
-(There were 20 warnings)
+warning$ -- 22
+while$ -- 149
+width$ -- 81
+write$ -- 751
+(There were 22 warnings)
