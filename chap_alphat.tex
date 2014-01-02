@@ -104,6 +104,7 @@ a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of
 $\alphat$ can be extended to apply to any arbitrary number of jets, undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present in the event such that the 2 pseudo-jets are chosen to be as balanced as possible, i.e the $\Delta$ \theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
 
 \begin{equation}
+\label{eq:alphatmht}
 \alphat = \frac{1}{2} \frac {\theht - \Delta\theht}{\sqrt{\theht^{2}-\mht^{2}}}= \frac{1}{2}\frac{1-\Delta\theht/\theht}{\sqrt{1-(\mht/\theht)^{2}}}.
 \end{equation}
 
@@ -349,11 +350,34 @@ which a jet has been mis-measured. For every jet in a event with $\Delta\phi^{*}
 
 \end{itemize}
 
-Some of the key distributions of the data used in this analysis compared to MC simulation are shown in Figure !!!. The MC samples are normalised to a luminosity of 11.7 \fb,  split into the jet categories used within the analysis, with no requirement placed upon the number of b-tagged jets in the events. 
+Some of the key distributions of the data used in this analysis compared to MC simulation are shown in Figure \ref{fig:hadmcplots}. The MC samples are normalised to a luminosity of 11.7 \fb,  with no requirement placed upon the number of b-tagged jets or number of jets in the events. 
 
 The distributions shown are presented for purely illustrative purposes, with the MC simulation itself not used in absolute term to estimate the yields from background processes, see Sections (\ref{subsec:controlsampledefinition},\ref{subsec:backgroundestimation}). However it is nevertheless important to demonstrate that good agreement exists between simulation and observation in data.
- 
-PUT PLOTS HERE
+
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.3in]{plots/had_njet_datamc.pdf}
+(a) Jet Multiplicity
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.3in]{plots/had_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.3in]{plots/had_nbtag_datamc.pdf}
+$\text{(c}$) Btag Multiplicity
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.3in]{plots/had_mht_datamc.pdf}
+(d) \mht
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the hadronic signal region.]{Data/MC comparisons of key variables for the hadronic signal region,following the application of the hadronic selection criteria and the requirements of \theht $>$ 275 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:hadmcplots}
+\end{minipage}
 
 \subsection{Control Sample Definition}
 \label{subsec:controlsampledefinition}
@@ -367,7 +391,21 @@ The method used to estimate the background contributions in the hadronic signal 
 
 All MC samples are normalised to the luminosity of the data samples, 11.7 \fb. Through this method, ``vanilla'' predictions for the \ac{SM} background in the signal region can be made by considering separately the sum of the prediction from either the \mupjets and \gpjets or \mupjets and \dimupjets samples. However the final background estimation from which results are interpreted, is calculated via a fitting procedure defined formally by the likelihood model described in Chapter \ref{chap:SUSYresults}. 
 
-The control samples and the \ac{EWK} processes they are specifically tuned to select are defined below: 
+The sum of the expected yields from all MC processes, in each control sample enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$  , of the \ac{TF} defined in Eq (\ref{eq:transfactor}). However for the numerator , $\text{N}_{\text{MC}}^{\text{signal}}$, only the relevant processes that the control sample is used in estimating a background for, enter into the \ac{TF}.
+
+For the \mupjets sample the simulated MC processes which enter the numerator of the \ac{TF} are,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{W} + N_{\ttbar} + N_{DY} + N_{t} + N_{di-boson},
+\end{equation}
+
+whilst for both the \dimupjets and \gpjets samples the only MC process used in the numerator is,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{\zinv}.
+\end{equation}
+
+The control samples and the \ac{EWK} processes they are specifically tuned to select are defined below, with distributions of key variables for each of the control samples shown for illustrative purposes in Figures \ref{fig:muonmcplots}, \ref{fig:dimuonmcplots} and \ref{fig:photonmcplots}. No requirement is placed upon the number of b-tagged jets or jet multiplicity in the distributions shown. The MC distributions highlight the background compositions of each control sample, where in general, good agreement is observed between data and simulation, giving confidence that the samples are well understood. The contribution from QCD multi-jet events is expected to be negligible : 
 
 \begin{itemize} 
 
@@ -384,6 +422,36 @@ The control samples specifically identifies $W \rightarrow \mu\bar{\nu}$ decays 
 \item Events containing a second muon candidate which has failed id, but passed \pt and \abeta requirements, are checked to have an invariant mass that satisfies m$_{Z}$ - 25 $<$ M$_{\mu_{1}\mu_{2}} >$ m$_{Z}$ + 25, thus removing $Z \rightarrow \mu\mu$ contamination.
 \end{itemize}
 
+
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_leadmu_datamc.pdf}
+(a) Lead Muon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\end{minipage}
+\xspace
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_mt_datamc.pdf}
+(d) Transverse mass $M_{T}$
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \mupjets selection.]{Data/MC comparisons of key variables for the \mupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:muonmcplots}
+\end{minipage}
+
 \item[] \textbf{The \dimupjets control sample}
 
 The  \zinv + jets background enters into the signal region from genuine \met from the escaping neutrinos. This background is estimated using two control samples, the first of which is the \zmumu + jets process, which posses identical kinematic properties, but with different acceptance and branching ratio \cite{pdg2012}.
@@ -398,6 +466,37 @@ The same acceptance requirements as the \mupjets selection for muons is applied,
 
 The \dimupjets sample is used to make predictions in the signal region in the two lowest \theht bins, providing coverage where the \gpjets sample is unable to, due to trigger requirements. In higher \theht bins, the higher statistics of the \gpjets sample is instead used to determine the \zinv estimation.
 
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_leadmu_datamc.pdf}
+(a) Lead Muon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\end{minipage}
+
+\xspace
+
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_zmass_datamc.pdf}
+(d) $\mu\mu$ invariant mass
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \dimupjets selection.]{Data/MC comparisons of key variables for the \dimupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:dimuonmcplots}
+\end{minipage}
+
 
 \item[] \textbf{The \gpjets control sample}
 
@@ -406,36 +505,61 @@ The \zinv + jets background is also estimated from a \gpjets control sample, whi
 \begin{itemize}
 \item Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel of the detector.
 \item A selection criteria of $\Delta R(\gamma,jet) <$ 1.0, between the photon and all jets is applied to ensure the acceptance of only well isolated \gpjets events. 
-\item Given that the photon is ignored, this control sample can only be applied in the \theht region $>$ 375 \GeV, due to the trigger thresholds on the minimum \pt of the photon, and the requirement of an \alphat $>$ 0.55 cut. 
+\item Given that the photon is ignored, this control sample can only be applied in the \theht region $>$ 375 \GeV, due to the trigger thresholds on the minimum \pt of the photon, and the \mht requirement of an \alphat $>$ 0.55 cut from Equation (\ref{eq:alphatmht}). 
 \end{itemize}
 
+
+\begin{minipage}{\linewidth}
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_leadphoton_datamc.pdf}
+(a) Lead Photon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_njet_datamc.pdf}
+(d) Jet multiplicity
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \gpjets selection.]{Data/MC comparisons of key variables for the \gpjets selection,following the application of selection criteria and the requirements that \theht $>$ 375 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:photonmcplots}
+\end{minipage}
+
+
 \end{itemize}
 
-The sum of the expected yields from all MC samples, in each control sample enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$  , of the \ac{TF} defined in Eq (\ref{eq:transfactor}). However for the numerator , $\text{N}_{\text{MC}}^{\text{signal}}$, only the relevant processes that the control sample is estimating a background for, enter into the \ac{TF}.
 
-For the \mupjets sample the simulated MC processes which enter the numerator of the \ac{TF} are,
+The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on MC simulation to model correctly the backgrounds and event kinematics in the control and signal samples. 
 
-\begin{equation} 
-\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{W} + N_{\ttbar} + N_{DY} + N_{t} + N_{di-boson},
-\end{equation}
+However in the case of the \mupjets and \dimupjets samples, the \alphat requirement is relaxed in the selection criteria of these samples. This is made possible as contamination from QCD multi-jet events is suppressed to a negligible level by the other kinematic selection criteria within the two control samples, to select pure \ac{EWK} processes. Thus in this way, the acceptance of the two muon control samples can be significantly increased, which simultaneously improves their predictive power and further reduces the effect of any potential signal contamination. 
 
-whilst for both the \dimupjets and \gpjets samples the only MC process used in the numerator is,
+The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the prediction.
 
-\begin{equation} 
-\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{\zinv}.
-\end{equation}
 
-The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on MC simulation to model correctly the backgrounds and event kinematics in the control and signal samples. However.. The \alphat requirement is relaxed….
+\subsection{Estimating the QCD background multi-jet background}
+\label{subsec:qcdbackground}
 
-Put sample distributions here
-
+A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model….
 
 \section{Trigger Strategy}
 \label{subsec:triggerstrategy}
 
+A cross trigger based on the quantities \theht and \alphat, labelled is used with varying thresholds across \theht bins to record the event sample for the hadronic signal region. The \alphat legs of the \htalphat triggers used in the analysis are chosen to fully suppress QCD multi-jet events, whilst maintaining a sustainable trigger rate. 
 
 \section{A method to determine MC yields with higher statistical precision}
 \label{subsec:backgroundestimation}
+
+\section{Measuring MC normalisation factors via \theht sidebands}
+\label{subsec:mckfactors}
 
 
 \section{Systematic Uncertainties on Transfer Factors}

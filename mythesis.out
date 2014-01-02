@@ -35,18 +35,20 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{Physics Objects}{section.4.2}% 35
 \BOOKMARK [2][-]{subsection.4.2.2}{Event Selection}{section.4.2}% 36
 \BOOKMARK [2][-]{subsection.4.2.3}{Control Sample Definition}{section.4.2}% 37
-\BOOKMARK [1][-]{section.4.3}{Trigger Strategy}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{A method to determine MC yields with higher statistical precision}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Systematic Uncertainties on Transfer Factors}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.6}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 44
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 45
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 46
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 47
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 48
-\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 49
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 50
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 51
-\BOOKMARK [0][-]{appendix*.102}{Bibliography}{}% 52
+\BOOKMARK [2][-]{subsection.4.2.4}{Estimating the QCD background multi-jet background}{section.4.2}% 38
+\BOOKMARK [1][-]{section.4.3}{Trigger Strategy}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.4}{A method to determine MC yields with higher statistical precision}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Measuring MC normalisation factors via HT sidebands}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.6}{Systematic Uncertainties on Transfer Factors}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.7}{Searches for Natural SUSY with B-tag templates.}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 44
+\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 46
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 47
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 48
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 49
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 50
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 51
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 52
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 53
+\BOOKMARK [0][-]{appendix*.102}{Bibliography}{}% 54
