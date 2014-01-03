@@ -336,7 +336,7 @@ An \alphat requirement of $>$ 0.55 is required to reduce the QCD multi-jet backg
 \begin{itemize}
 \item Significant \mht can arise in events with no real \met due to multiple jets falling below the \pt threshold used for selecting jets. This in turn leads to events which can then incorrectly pass the \alphat requirements of the analysis. This effect can be negated by requiring that the missing transverse momentum reconstructed from jets alone does not greatly exceed the missing transverse momentum reconstructed from all of the detector's calorimeter towers,
 \begin{equation}
-\mht / \met < 1.25. \nonumber
+R_{miss} = \mht / \met < 1.25. \nonumber
 \end{equation}  
 
 \item Fake \met and \mht can arise due to significant jet mis-measurements cause by a small number of non-functioning \ac{ECAL} regions. These regions absorb electromagnetic showers which are subsequently not added to the jet energy sum. To circumvent this problem the following procedure is employed : For each jet in the event, the angular separation
@@ -548,12 +548,89 @@ The modelling of the \alphat variable is probed through a dedicated set of closu
 \subsection{Estimating the QCD background multi-jet background}
 \label{subsec:qcdbackground}
 
-A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model….
+A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model (see Section (\ref{sec:resultsintro})), is given the freedom to estimate any potential QCD multi-jet contamination. 
+
+Any potential contamination can be identified through the variable $R_{\alphat}$, defined as the ratio of events above and below the \alphat threshold value used in the analysis. This is modelled by a \theht dependant falling exponential function which takes the form,
+
+\begin{equation}
+R_{\alphat}(\theht) =  A \exp^{-k_{QCD}\theht},
+\end{equation}
+
+where the parameters A and $k_{QCD}$ are the normalisation and exponential decay constants respectively. 
+
+For QCD event topologies this exponential behaviour is expected as a function of \theht for several reasons. The improvement of jet energy resolution at higher \theht due to higher \pt jets leads to a narrower peaked distribution, causing $R_{\alphat}$ to fall. Similarly at higher \theht values $>$ 375 \GeV, the jet multiplicity rises slowly with \theht. As shown in Figure \ref{fig:fullalphatdistribution}, at higher jet multiplicities, the result of the combinatorics used in the determination of \alphat, also lead to a narrower \alphat distribution. 
+
+The value of the decay constant $k_{QCD}$ is constrained via measurements within data sidebands to the signal region. This is also done to validate the falling exponential assumption for QCD multi-jet topologies. The sidebands are enriched in QCD multi-jet background and defined as regions where \alphat is relaxed or that the $R_{miss}$ cut is inverted. Figure \ref{fig:qcdcartoon} depicts the definition of these data sidebands used to constrain the value of $k_{QCD}$.
+
+\begin{minipage}{\linewidth}
+\centering
+\includegraphics[width = 3.5in]{plots/qcd_cartoon.pdf}
+\captionof{figure}[QCD sideband regions, used for determination of $k_{QCD}$.]{QCD sideband regions, used for determination of $k_{QCD}$.}
+\label{fig:qcdcartoon}
+\end{minipage}
+
+The fits to determine the value of $k_{QCD}$ are shown in Appendix (\ref{app:kqcd}), for which the best fit value obtained from sideband region B is determined to be $k_{QCD} = 2.96 \pm 0.64 \times 10^{-2}$ \GeV$^{-1}$. 
+
+The best fit values of the remaining three C sideband regions are used to estimate the systematic uncertainty on the central value obtained from sideband region B. The variation of these measured values is used to determine the error on the determined central value, and is calculated to be $1.31 \pm 0.26 \times 10^{-2} \GeV^{-1}$. This relative error of $\sim$ 20\% gives an estimate of the systematic uncertainty of the measurement to be applied to $k_{QCD}$.
+
+Finally the same procedure is performed for sideband region D to establish that the value of $k_{QCD}$ extracted from a lower \alphat slice can be applied to the signal region \alphat $>$ 0.55. The likelihood fit is performed across all \theht bins within the QCD enriched region with no constraint applied to $k_{QCD}$. The resulting best fit value for $k_{QCD}$ shows good agreement between that and the weighted mean determined from the three C sidebands regions. This demonstrates that the assumption of using the central value determined from sideband region B, to provide an unbiased estimator for $k_{QCD}$ in the signal region (\alphat $>$ 0.55) is valid.
+
+Table \ref{tab:kqcdresults}, summarises the best fit $k_{QCD}$ values determined for each of the sideband regions to the signal region.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ccc}
+\cline{1-3}
+Sideband region & $k_{QCD}$($\times 10^{-2} \GeV^{-1})$ & $p-$value\\ 
+\cline{1-3}
+B & 2.96 $\pm$ 0.64 & 0.24 \\
+C$_{1}$ & 1.19 $\pm$ 0.45 & 0.93 \\
+C$_{2}$ & 1.47 $\pm$ 0.37 & 0.42 \\
+C$_{3}$ & 1.17 $\pm$ 0.55 & 0.98 \\
+\cline{1-3}
+C(weighted mean) & 1.31 $\pm$ 0.26 & - \\
+D(likelihood fit) & 1.31 $\pm$ 0.09 & 0.57 \\
+\cline{1-3}
+\end{tabular*}
+\end{center}
+\caption[Best fit values for the parameters $k_{QCD}$ obtained from sideband regions B,C$_{1}$,C$_{2}$,C$_{3}$. ]{Best fit values for the parameters $k_{QCD}$ obtained from sideband regions B,C$_{1}$,C$_{2}$,C$_{3}$. The weighted mean is determined from the three measurements made within sideband region C. The maximum likelihood value of $k_{QCD}$ given by the simultaneous fit using sideband region D. Quotes errors are statistical only. }
+\label{tab:kqcdresults}
+\end{table}
+
 
 \section{Trigger Strategy}
 \label{subsec:triggerstrategy}
 
-A cross trigger based on the quantities \theht and \alphat, labelled is used with varying thresholds across \theht bins to record the event sample for the hadronic signal region. The \alphat legs of the \htalphat triggers used in the analysis are chosen to fully suppress QCD multi-jet events, whilst maintaining a sustainable trigger rate. 
+A cross trigger based on the quantities \theht and \alphat, labelled is used with varying thresholds across \theht bins to record the events used in the hadronic signal region. The \alphat legs of the \htalphat triggers used in the analysis are chosen to fully suppress QCD multi-jet events, whilst maintaining a sustainable trigger rate. To further maintain an acceptable rate for these analysis specific triggers, only calorimeter information is used in the reconstruction of the \theht sum, leading to the necessity for Calo jets to be used within the analysis. 
+
+A single object prescaled \theht trigger is used to collect events for the hadronic control region described above in Section (\ref{subsec:qcdbackground}).
+
+The performance of the \alphat and \theht triggers used to collect data for the signal and hadronic control region is measured with respect to a reference sample collected using the muon system. This allows measurement of both the Level 1 seed and higher level triggers simultaneously, as the reference sample is collected independent of any jet requirements. 
+
+The selection for the trigger efficiency measurement is identical to that described in Section (\ref{subsec:eventselection}), with the requirement of exactly one well identified muon with \pt $>$ 30 \GeV which is subsequently ignored.  
+
+The efficiencies measure for the \htalphat triggers in bins indiviual \theht and \alphat legs, is summarised in Table \ref{tab:trigeffs}.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ccc}
+\cline{1-3}
+\theht range (\GeV) & $\epsilon$ on \theht leg (\%) & $\epsilon$ on \alphat leg (\%) \\ 
+\cline{1-3}
+275-325 & $87.7^{+1.9}_{-1.9}$ & $82.8^{+1.0}_{-1.1}$ \\
+325-375 & 90.6$^{+2.9}_{-2.9}$ & 95.9$^{+0.7}_{-0.9}$ \\
+375-475 & 95.7$^{+0.1}_{-0.1}$ & 98.5$^{+0.5}_{-0.9}$ \\
+475-$\infty$ & 100.0$^{+0.0}_{-0.0}$ & 100.0$^{+0.0}_{-4.8}$ \\
+\cline{1-3}
+\end{tabular*}
+\end{center}
+\caption[Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins.]{Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins. The product of the two legs gives the total efficiency of the trigger in a given offline \theht bin.}
+\label{tab:trigeffs}
+\end{table}
+
+Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. The photon trigger is measured to be full efficient for the threshold $\pt^{photon} > 150 \GeV$, whilst the single muon efficiency satisfying $\pt^{muon} > 30 \GeV$ is measured to have an efficiency of 88\% that is independent of \theht. 
+
+Dimuon efficiency measurement….
 
 \section{A method to determine MC yields with higher statistical precision}
 \label{subsec:backgroundestimation}
