@@ -197,24 +197,7 @@ The physics objects used in the analysis defined below, follow the recommendatio
 
 The jets used in this analysis are CaloJets, reconstructed as described in Section (\ref{subsec:cmsobjects-jets}) using the anti-k$_{T}$ jet clustering algorithm. 
 
-To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tab:jetidtable} \cite{CMS-PAS-JME-09-008}.
-
-\begin{table}[h!]
-\begin{center}
-\begin{tabulary}{0.8\textwidth}{LL}
-\cline{1-2}
-Variable & Definition \\ 
-\cline{1-2}
-f$_{HPD} < 0.98$ \qquad\qquad\qquad\qquad\qquad\qquad & Fraction of jet energy contributed from ``hottest'' \ac{HPD}, which rejects \ac{HCAL} noise.  \\
-f$_{EM} > 0.01$ & Noise from the \ac{HCAL} is further suppressed by requiring a minimal electromagnetic component to the jet f$_{EM}$. \\
- N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single chanel are rejected, to serve as a safety net that catches jets arising from undiagnosed noisy channels.\\
-
-\cline{1-2}
-\end{tabulary}
-\end{center}
-\caption[Jet Identification criteria for the ``loose" CaloJet ID used with the analysis.]{Jet Identification criteria for the ``loose" CaloJet ID, used to reject reconstructed jets resulting from fake calorimeter deposits representing unphysical energy.}
-\label{tab:jetidtable}
-\end{table}
+To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tabapp:calojetid} of Appendix (\ref{app:noise})  \cite{CMS-PAS-JME-09-008}.
 
 \item \textbf{Muons}
 
@@ -298,7 +281,7 @@ Electrons are required to be identified at \abeta $<$ 2.5, with a minimum \pt $>
 
 \item \textbf{Noise and \met Filters}
 
-A series of Noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Appendix (\ref{app:noise}).
+A series of Noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Table \ref{apptab:noiseid} of Appendix (\ref{app:noise}).
 
 \end{itemize}
 
@@ -379,7 +362,7 @@ $\text{(c}$) Btag Multiplicity
 \captionof{figure}[Data/MC comparisons of key variables for the hadronic signal region.]{Data/MC comparisons of key variables for the hadronic signal region,following the application of the hadronic selection criteria and the requirements of \theht $>$ 275 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:hadmcplots}
 \end{minipage}
 
-\subsection{Control Sample Definition}
+\subsection{Control Sample Definition and Background Estimation}
 \label{subsec:controlsampledefinition}
 
 The method used to estimate the background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from MC simulation in both the control, $\text{N}_{\text{MC}}^{\text{control}}$, and signal, $\text{N}_{\text{MC}}^{\text{signal}}$, region to transform the observed yield measured in data for a control sample,  $\text{N}_{\text{obs}}^{\text{control}}$, into a background prediction, $\text{N}_{\text{pred}}^{\text{signal}}$, via Equation (\ref{eq:transfactor}),
@@ -545,7 +528,7 @@ However in the case of the \mupjets and \dimupjets samples, the \alphat requirem
 The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the prediction.
 
 
-\subsection{Estimating the QCD background multi-jet background}
+\subsection{Estimating the QCD Background Multi-jet Background}
 \label{subsec:qcdbackground}
 
 A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model (see Section (\ref{sec:resultsintro})), is given the freedom to estimate any potential QCD multi-jet contamination. 
@@ -655,7 +638,7 @@ $Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 
 \end{table}
 
 
-\section{Determining MC yields with higher statistical precision}
+\section{Determining MC Yields With Higher Statistical Precision}
 \label{subsec:backgroundestimation}
 
 Reconstructing events from \ac{EWK} processes with many b-tagged jets ($\geq$3),\nbreco  ,is largely driven by the mis-tagging of light jets within the event. This is clear when considering the main \ac{EWK} backgrounds in the analysis, such as \ttbar + jets events, which typically contain two b-flavoured jets from the decay of the top quarks, whilst W + jets and Z$\rightarrow \mu\mu$ + jets events will typically contain no b-flavoured jets.
@@ -716,7 +699,7 @@ Process & Selection & Observation & MC expectation & k-factor \\
 \caption[place holder]{place holder}\label{tab:sanitycheck}
 \end{table}
 
-\subsection{Correcting measured efficiencies in simulation to data}
+\subsection{Correcting Measured Efficiencies In Simulation To Data}
 \label{subsec:formulamethodsf}
 
 As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections are factored inÉ.
@@ -727,13 +710,120 @@ Show plot of before and after correction to btag/mistag rate.
 These corrections come with uncertaintiesÉ..
 
 show plot of effect of scaling correction factor up and down.
-
-\section{Systematic Uncertainties on Transfer Factors}
+2
+\section{Systematic Uncertainties On Transfer Factors}
 \label{subsec:sysuncertainties}
 
-Since the \ac{TF}'s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to each factor to account for theoretical uncertainties \cite{Bern:2011pa} and limitations in the simulation modelling of event kinematics and instrumental effects.
+Since the \ac{TF}'s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to each factor to account for theoretical uncertainties \cite{Bern:2011pa} and limitations in the simulation modelling of event kinematics and instrumental effects. 
 
-\section{Searches for Natural SUSY with B-tag templates.}
+The magnitudes of these systematic uncertainties are established through a set of data driven method, in which the three independent control samples of the analysis (\mupjets, \dimupjets, \gpjets) are used to in a series of closure tests. The yields from one of these control samples, along with the corresponding \ac{TF} obtained from simulation, are used to predict the yields in another control sample, using the same method of establishing a background prediction for the signal region as described in Section (\ref{subsec:controlsampledefinition}).
+
+The level of agreement between the predicted and observed yields is expressed as the ratio 
+
+\begin{equation}
+\label{eq:closuretests}
+\frac{(N_{obs}-N_{pred})}{N_{pred}},
+\end{equation}
+
+while considering only the statistical uncertainties on $N_{pred}$, the prediction, and $N_{obs}$, the observation. No systematic uncertainty is assigned to the prediction, and resultantly the level of closure is defined by the statistical significance of a deviation from the ratio from zero.
+
+This ratio is measured for each \theht bin in the analysis, allowing these closure tests to be sensitive to both the presence of any significant biases or any possible \theht dependence on the level of closure.
+
+Eight sets of closure tests are defined between the three data control samples, conducted independently between the two jet multiplicity (2 $\leq n_{jets} \leq 3$, $n_{jet} \geq 4$ ) bins. Each of these tests are specifically chosen to probe each of the different key ingredients of the simulation modelling that can affect the background prediction.
+
+Each of the different modelling components and the relevant closure tests are described below :
+
+\begin{itemize}
+
+\item[] \textbf{\alphat modelling}
+
+The modelling of the \alphat distribution in genuine \met events is probed with the \mupjets control sample. This test is important to verify the approach of remove the \alphat $>$ 0.55 requirement from the \mupjets and \dimupjets samples to increase the precision of the background prediction. The test uses the \mupjets sample without an \alphat cut to make a prediction into the \mupjets sample defined with the requirement  \alphat $>$ 0.55.
+
+\item[] \textbf{Background admixture}
+
+The sensitivity of the translation factors to the relative admixture of events from $W +$ jets and \ttbar processes is probed by two closure tests. These tests represent an extremely conservative approach as the admixture of the background remains similar between the \mupjets sample and the signal region, contrary to the defined closure tests which make predictions between two very different admixtures of $W +$ jets and \ttbar events.  
+
+Within the \mupjets sample, a W boson enriched sub-sample ($n_{b} =$ 0) is used to predict yields in a \ttbar enriched sub-sample ($n_{b} =$ 1). Similarly the \\tbar enriched sub-sample ($n_{b} =$1) is also used to predict yields for a further enriched \ttbar sub-sample ($n_{b} =$ 2). 
+
+Similarly a further closure test probes the relative contribution of $Z +$ jets to $W +$jets and \ttbar events, through the use of the \mupjets sample to predict yields for the \dimupjets control sample. This closure test, also at some level probes the muon trigger and reconstruction efficiencies, given that exactly one and two muons are required by the different selections.
+ 
+\item[] \textbf{Consistency between control samples}
+
+An important consistency check between the \dimupjets jets and \gpjets, which are both used in the prediction of the \zinv in the signal region, is measured by using the \gpjets sample to predict yields for the \dimupjets control sample.
+
+\item[]\textbf{Modelling of jet multiplicity}
+
+The simulation modelling of the jet multiplicity within each control sample is important due to the exclusive jet multiplicity binning within the analysis. This is probed via the use of each of the three control samples to independently predict from the lower jet multiplicity category $2 \leq n_{jet} \leq 3$, to the high jet category $\geq 4$. 
+
+For the case of the \mupjets and \dimupjets control samples this test this is also a further probe of the admixture between $W +$ jets/$Z +$ jets and \ttbar. Once again these three tests represent a conservative approach, as background predictions are always made from the same jet multiplicity bin, whereas the closure tests translate between these bins.
+ 
+\end{itemize}
+
+To test for the assumption that no \theht dependences exist within the background predictions of the analysis, the first five closure tests defined above are taken, with zeroeth and first order polynomial fits are applied to each. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
+\cline{1-6}
+& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
+\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\cline{1-6}
+\footnotesize{\alphat $< 0.55 \rightarrow \alphat > 0.55$ (\mupjets)} & \footnotesize{Circle} & $-0.06 \pm 0.02$ & 0.93 & $-1.3 \pm 2.2$ & 0.91 \\ 
+\footnotesize{0 b-jets $\rightarrow$ 1 b-jet (\mupjets)} & \footnotesize{Square} & $ \footnotesize{\quad}0.07 \pm 0.02$ & 0.98 & $-1.6 \pm 1.6$ & 1.00 \\ 
+\footnotesize{1 b-jets $\rightarrow$ 2 b-jet (\mupjets)} & \footnotesize{Triangle} & $ -0.07 \pm 0.03$ & 0.76 & $-2.7 \pm 3.0$ & 0.76 \\ 
+\footnotesize{\mupjets $\rightarrow$ \dimupjets} & \footnotesize{Cross} & $ \footnotesize{\quad}0.10 \pm 0.03$ & 0.58 & $-1.1 \pm 2.3$ & 0.49 \\ 
+\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.06 \pm 0.04$ & 0.31 & $\footnotesize{\quad}4.2 \pm 4.3$ & 0.29 \\ \cline{1-6}
+\end{tabular*}
+\end{center}
+\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitslow}
+\end{table}
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
+\cline{1-6}
+& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
+\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\cline{1-6}
+\footnotesize{\alphat $< 0.55 \rightarrow \alphat > 0.55$ (\mupjets)} & \footnotesize{Circle} & $-0.05 \pm 0.03$ & 0.21 &  $\footnotesize{\quad}3.0 \pm 2.9$ & 0.21 \\ 
+\footnotesize{0 b-jets $\rightarrow$ 1 b-jet (\mupjets)} & \footnotesize{Square} & $ -0.03 \pm 0.03$ & 0.55 & $-1.0 \pm 1.9$ & 0.47 \\ 
+\footnotesize{1 b-jets $\rightarrow$ 2 b-jet (\mupjets)} & \footnotesize{Triangle} & $ -0.02 \pm 0.03$ & 0.39 & $ \footnotesize{\quad}1.1 \pm 2.2$ & 0.31 \\ 
+\footnotesize{\mupjets $\rightarrow$ \dimupjets} & \footnotesize{Cross} & $  \footnotesize{\quad}0.08 \pm 0.07$ & 0.08 &  $\footnotesize{\quad}4.8 \pm 4.3$ & 0.07 \\ 
+\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.03 \pm 0.10$ & 0.72 & $-4.0 \pm 7.0$ & 0.64 \\ \cline{1-6}
+\end{tabular*}
+\end{center}
+\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $n_{jet} \geq$ 4 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $ n_{jet} \geq$ q bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitshigh}
+\end{table}
+
+Table \ref{tab:closuretestfitsall} shows the same fits applied to the three closure tests that probe the modelling between the different $n_{jet}$ bins. The best fit value and its uncertainty is listed for each set of closure tests in all three tables, along with the p-value of the constant and linear fits applied. 
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
+\cline{1-6}
+& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
+\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\cline{1-6}
+\footnotesize{\mupjets} & \footnotesize{Inverted triangle} & $-0.03 \pm 0.02$ & 0.02 & $\footnotesize{\quad}0.0 \pm 1.0$ & 0.01 \\ 
+\footnotesize{\mupjets (outlier removed)} & \footnotesize{Inverted triangle} & $-0.04 \pm 0.01$ & 0.42 & $-1.4 \pm 1.1$ & 0.49 \\ 
+\footnotesize{\gpjets} & \footnotesize{Diamond} & $  \footnotesize{\quad}0.12 \pm 0.05$ & 0.79 & $\footnotesize{\quad}6.0 \pm 4.7$ & 0.94 \\ 
+\footnotesize{\dimupjets} & \footnotesize{Asterisk} & $ -0.04 \pm 0.07$ & 0.20 &  $\footnotesize{\quad}4.9 \pm 4.4$ & 0.20 \\ 
+\cline{1-6}
+\end{tabular*}
+\end{center}
+\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ njet $\leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ njet $\leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitsall}
+\end{table}
+
+The best fit value for the constant parameter is indicative of the level of closure, averaged across the full range of \theht bins in the analysis, and the p-value an indicator of any significant dependence on \theht within the closure tests. The best fit values of all the tests are either statistically compatible with zero bias (i.e, less than $2\sigma$ from zero) or at the level of 10\% or less, with the exception of one closure test discussed below. 
+
+Within Table \ref{tab:closuretestfitsall}, there exists one test that does not satisfy the above statement, which is the $2 \leq n_{jet} \leq 3 \rightarrow n_{jet} \geq 4$ test using the \mupjets control sample. The low p-value can be largely attributed to an outlier in the 675 $<$ \theht $<$ 775 \GeV bin, rather than any significant trend in \theht. Removing this single outlier from the constant fit performed, gives a best fit value of $-0.04 \pm 0.01$, $\chi^{2} /$ d.o.f = 6.07/6. and a p-value of 0.42. These modified fit results are included within Table \ref{tab:closuretestfitsall} .
+
+In addition the best fit values for the slope terms of the linear fits in all three tables are of the order $10^{-4}$, which corresponds to a percent level change per 100 \GeV. However in all cases, the best fit values are fully compatible with zero (within 1$\sigma$) once again with the exception detailed above, indicating that the level of closure is \theht independent.
+
+
+
+
+\section{Searches For Natural SUSY With B-tag Templates.}
 \label{sec:templatemethod}
 
 Btag Templates blah blah

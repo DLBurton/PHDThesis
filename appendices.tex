@@ -2,39 +2,74 @@
 %% of the "appendices" environment (see thesis.tex).
 
 \chapter{Miscellaneous}
-\section{Noise Filters}
 \label{app:noise}
+\section{Noise Filters}
 
 For Calo jets the following criteria were applied:
 
-\begin{itemize}
-  \item N90 hits $>$ 1, 
-    \item  HBHE $>$ 0.01,
-      \item fHPD $<$ 0.98,
-\end{itemize}
+\begin{table}[h!]
+\begin{center}
+\begin{tabulary}{0.80\textwidth}{LL}
+\cline{1-2}
+\multicolumn{2}{l}{Loose CaloJet Id} \\
+Variable & Definition \\ 
+\cline{1-2}
+f$_{HPD} < 0.98$ \qquad\qquad\qquad\qquad\qquad\qquad & Fraction of jet energy contributed from ``hottest'' \ac{HPD}, which rejects \ac{HCAL} noise.  \\
+f$_{EM} > 0.01$ & Noise from the \ac{HCAL} is further suppressed by requiring a minimal electromagnetic component to the jet f$_{EM}$. \\
+N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single chanel are rejected, to serve as a safety net that catches jets arising from undiagnosed noisy channels.\\
+\cline{1-2}
+\end{tabulary}
+\end{center}
+\caption[Criteria for a reconstructed jet to pass the loose calorimeter jet id.]{Criteria for a reconstructed jet to pass the loose calorimeter jet id.}
+\label{tabapp:calojetid}
+\end{table}
+
 
 For PF jets the following criteria were applied:
   
-\begin{itemize}
-  \item Neutral hadron fraction $<$ 0.99, 
-    \item  Neutral EM fraction $<$ 0.99,
-      \item Number of constituents $>$ 1,
-        \item Charged hadron fraction $>$ 0,
-          \item Charged multiplicity $>$ 0,
-            \item Charged EM fraction $<$ 0.99.
-\end{itemize}
+\begin{table}[h!]
+\begin{center}
+\begin{tabulary}{0.80\textwidth}{LL}
+\cline{1-2}
+\multicolumn{2}{l}{Loose PF jet Id} \\
+Variable & Definition \\ 
+\cline{1-2}
+Neutral hadron fraction $<$ 0.99 & - \\
+Neutral EM fraction $<$ 0.99 & - \\
+Number of consituents $>$ 1 & - \\
+Charged hadron fraction $>$ 0 & - \\
+Charged multiplicity $>$ 0 & - \\
+Charged EM fraction $<$ 0.99 & - \\
+\cline{1-2}
+\end{tabulary}
+\end{center}
+\caption[Criteria for a reconstructed jet to pass the loose PF jet id.]{Criteria for a reconstructed jet to pass the loose PF jet id.}
+\label{apptab:pfjetid}
+\end{table}  
   
+   
 The following noise filters are applied, to remove events with spurious, non-physical jets or missing transverse energy.
 
-\begin{itemize}
-  \item CSC tight beam halo filter,
-    \item HBHE noise filter with isolated noise rejection,
-      \item HCAL laser filter,
-        \item ECAL dead cell trigger primitive (TP) filter,
-          \item Tracking failure filter,
-            \item Bad EE Supercrystal filter,
-              \item ECAL Laser correction filter.
-\end{itemize}
+\begin{table}[h!]
+\begin{center}
+\begin{tabulary}{0.80\textwidth}{LL}
+\cline{1-2}
+\multicolumn{2}{l}{Noise Filters} \\
+Variable & Definition \\ 
+\cline{1-2}
+ CSC tight beam halo filter & - \\
+ HBHE noise filter with isolated noise rejection & - \\
+ HCAL laser filter & - \\
+ ECAL dead cell trigger primitive (TP) filter & - \\
+ Tracking failure filter & - \\
+ Bad EE Supercrystal filter & - \\
+ ECAL Laser correction filter & - \\
+\cline{1-2}
+\end{tabulary}
+\end{center}
+\caption[Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.]{Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.}
+\label{apptab:noiseid}
+\end{table}  
 
 \section{Primary Vertices}
 
@@ -42,13 +77,22 @@ The following noise filters are applied, to remove events with spurious, non-phy
 
 The pileup per event is defined by the number of 'good' reconstructed primary vertices in the event, with each vertex satisfying the following requirements
 
-\begin{itemize}
-	\item $N_{dof} > 4$;
-	\item vertex position along the bead direction of $\vert z_{vtx} \vert < 24$cm; 
-	\item vertex position perpendicular to the beam of $\rho < 2$cm.
-
-\end{itemize}
-
+\begin{table}[h!]
+\begin{center}
+\begin{tabulary}{0.80\textwidth}{LL}
+\cline{1-2}
+\multicolumn{2}{l}{Good primary vertex requirement} \\
+Variable & Definition \\ 
+\cline{1-2}
+$N_{dof} > 4$ \qquad\qquad\qquad & - \\
+$\vert z_{vtx} \vert < 24$cm & Vertex position along the beam direction. \\ 
+ $\rho < 2$cm & Vertex position perpendicular to the beam direction. \\
+\cline{1-2}
+\end{tabulary}
+\end{center}
+\caption[Criteria for a vertex in an event to be classified as a 'good' reconstructed primary vertex.]{Criteria for a vertex in an event to be classified as a 'good' reconstructed primary vertex.}
+\label{tabapp:primaryvertices}
+\end{table}
 
 \chapter{L1 Jets}
 
