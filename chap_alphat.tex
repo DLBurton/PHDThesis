@@ -628,19 +628,110 @@ The efficiencies measure for the \htalphat triggers in bins indiviual \theht and
 \label{tab:trigeffs}
 \end{table}
 
-Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. The photon trigger is measured to be full efficient for the threshold $\pt^{photon} > 150 \GeV$, whilst the single muon efficiency satisfying $\pt^{muon} > 30 \GeV$ is measured to have an efficiency of 88\% that is independent of \theht. 
-
-Dimuon efficiency measurementÉ.
-
-\section{A method to determine MC yields with higher statistical precision}
-\label{subsec:backgroundestimation}
+Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. The photon trigger is measured to be full efficient for the threshold $\pt^{photon} > 150 \GeV$, whilst the single muon efficiency satisfying $\pt^{muon} > 30 \GeV$ is measured to have an efficiency of (88$\pm$2)\% that is independent of \theht. In the case of the \dimupjets control sample, the efficiency is measured to be (95$\pm$2)\% for the lowest \theht bin, rising to (98$\pm$2)\% for the highest \theht bin.
 
 \section{Measuring MC normalisation factors via \theht sidebands}
 \label{subsec:mckfactors}
 
+The theoretical cross sections of different \ac{SM} processes at \acf{NNLO} and the number of MC simulated events generated for that particular process, is typically used to determine the appropriate normalisation for a MC sample. However within the particular high-\theht and high-\met corners of kinematic phase space probed within this search, the theoretical cross sections for various processes are far less well understood. 
+
+To mitigate the problem of theoretical uncertainties and arbitrary choices of cross sections, the normalisation of MC samples used in the analysis are determined through the use data sidebands. The sidebands are used to calculated sample specific correct factors (k-factors) that are appropriate for the \theht-\met phase space coverd by this analysis. 
+
+They are defined within the \mupjets and \dimupjets control sample, by the region 200$<$ \theht$<$275, using the same jet \pt thresholds as the adjacent first analysis bin. Individual \ac{EWK} processes are isolated within each of these control samples via requirements on jet multiplicity and the requirement on b-tags, summarised in Table \ref{tab:mckfactors}. The purity of the samples are typically $>$ 90\% with any residual contamination corrected for. The resultant k-factor for each process is determined by then taking ratio of the data yield over the MC expectation in the sideband. Subsequently these k-factors are then applied to the processes within the phase space of the analysis.
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
+\cline{1-5}
+Process & Selection & Observation & MC expectation & k-factor \\
+\cline{1-5}
+W + jets & \mupjets, n$_{b}$=0, n$_{jet}$ = 2,3 &26950 & 29993.2 $\pm$ 650.1 & 0.90 $\pm$ 0.02 \\
+$Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 3402.0 $\pm$ 43.9 & 0.92 $\pm$ 0.02 \\
+\ttbar & \mupjets, n$_{b}$=2, n$_{jet}$ = $\geq$4 & 2190 & 1967.8 $\pm$ 25.1 & 1.11 $\pm$ 0.02 \\
+\cline{1-5}
+\end{tabular*}
+\end{center}
+\caption[k-factors calculated for different \ac{EWK} processes.]{k-factors calculated for different \ac{EWK} processes. All k-factors are derived relative to theoretical cross sections calculated in \ac{NNLO}. The k-factors measured for the Z$\rightarrow \mu\mu$ + jets processes, are also applied to the \zinv + jets and \gpjets MC samples.}\label{tab:mckfactors}
+\end{table}
+
+
+\section{Determining MC yields with higher statistical precision}
+\label{subsec:backgroundestimation}
+
+Reconstructing events from \ac{EWK} processes with many b-tagged jets ($\geq$3),\nbreco  ,is largely driven by the mis-tagging of light jets within the event. This is clear when considering the main \ac{EWK} backgrounds in the analysis, such as \ttbar + jets events, which typically contain two b-flavoured jets from the decay of the top quarks, whilst W + jets and Z$\rightarrow \mu\mu$ + jets events will typically contain no b-flavoured jets.
+
+When the expectation for the number of \nbreco is taken directly from simulation, the statistical uncertainty at large b-tag multiplicities becomes relatively large. In order to reduce this uncertainty one approach is to use the information encoded throughout all events in the simulation sample, to measure each of the four ingredients:
+
+\begin{enumerate}
+\item the b-tagging efficiency in the event selection,
+\item the charm-tagging efficiency in the event selection
+\item the mis-tagging rate in the event selection,
+\item the underlying flavour distribution of the jets in the events,
+\end{enumerate}
+
+ that determine the \nbreco distribution of the process being measured. This method allows the determination of higher b-tag multiplicities to a higher degree of accuracy reducing the statical uncertainties of the MC which enter into the \ac{TF}'s. For the discussion that follows, these predictions are determined on average (i.e not on an event-by-event basis), and is known as the formula method.
+
+\subsection{ The formula method}
+\label{subsec:formulamethod}
+
+The assigning of jet flavours to reconstruction level jets in simulation is achieved via an algorithmic method defined as:
+
+\begin{itemize}
+\item Try to find the parton that most likely determines the properties of the jet and assign that flavour as true flavour,
+\item Here, the ``final state'' partons (after showering, radiation) are analysed (also within $\Delta R <$ 0.3 of reconstructed jet cone),
+\item Jets from radiation are matched with full efficiency,
+\item If there is a b/c flavoured parton within the jet cone: label as b/c flavoured jet,
+\item Otherwise: assign flavour of the hardest parton.
+\end{itemize}
+
+Within each individual MC process and each \theht-$n_{jet}$ bin in the analysis, the \nbreco distribution is constructed in the following way:
+
+ Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets. Light quarks are defined as those which originate from a \textit{u},\textit{d},\textit{s},\textit{g} and $\tau$ jets which are grouped together having similar mis-tagging rates.  Similarly defining \eff, \ceff and \textit{m}, which represent the measured b-tagging,c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
+ 
+ Using this information the expected number of jets which have been b-tagged can be analytically calculated using the formula :
+
+\begin{align}
+\label{eq:btagformula}
+N(n_{b}) =& \sum_{n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{jet}} \quad \sum_{n_{b}^{tag}+n_{c}^{tag}+n_{q}^{tag} = n_{b}} \nbcq \times \probb \times \nonumber \\
+& \probc \times \probl,
+\end{align}
+
+with N(n$_{b}$) representing the event yield where $n_{b}$ jets have been b-tagged, $n_{b}^{tag}$, $n_{c}^{tag}$ and $n_{q}^{tag}$ represent the number of times that a particular jet flavour results in a b-tagged jet, and \probb,\probc and \probl represent the binomial probabilities for that to happen. 
+
+This approach ultimately results in a more precise \nbreco distribution prediction as information from throughout the entire MC sample is used to estimate the high $n_{b}^{reco}$ bins.
+
+\subsection{Establishing proof of principle}
+\label{subsec:formulamethodsanity}
+
+In order to validate the procedure, the predictions obtained from the formula method summarised in Eq (\ref{eq:btagformula}), are compared directly to those obtained directly from simulation. These results for the \mupjets control sample are summarised in Table \ref{tab:sanitycheck}, for the 0,1,2 and 3 $n_{b}^{reco}$ bins.  
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
+\cline{1-5}
+Process & Selection & Observation & MC expectation & k-factor \\
+\cline{1-5}
+\end{tabular*}
+\end{center}
+\caption[place holder]{place holder}\label{tab:sanitycheck}
+\end{table}
+
+\subsection{Correcting measured efficiencies in simulation to data}
+\label{subsec:formulamethodsf}
+
+As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections are factored inÉ.
+
+Show plot of before and after correction to btag/mistag rate.
+
+
+These corrections come with uncertaintiesÉ..
+
+show plot of effect of scaling correction factor up and down.
 
 \section{Systematic Uncertainties on Transfer Factors}
 \label{subsec:sysuncertainties}
+
+Since the \ac{TF}'s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to each factor to account for theoretical uncertainties \cite{Bern:2011pa} and limitations in the simulation modelling of event kinematics and instrumental effects.
 
 \section{Searches for Natural SUSY with B-tag templates.}
 \label{sec:templatemethod}

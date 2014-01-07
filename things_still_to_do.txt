@@ -1,3 +1,4 @@
 In Detector Chapter - Label cms detector
+In Appendix A - put lists into tables
 In Appendix B - Produce PF jet resolution plots
 In AlphaT variable section make new HT plot for 8TeV result.
