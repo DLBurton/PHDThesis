@@ -39,21 +39,25 @@
 \BOOKMARK [1][-]{section.4.3}{Trigger Strategy}{chapter.4}% 39
 \BOOKMARK [1][-]{section.4.4}{Measuring MC normalisation factors via HT sidebands}{chapter.4}% 40
 \BOOKMARK [1][-]{section.4.5}{Determining MC Yields With Higher Statistical Precision}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.5.1}{ The formula method}{section.4.5}% 42
+\BOOKMARK [2][-]{subsection.4.5.1}{The formula method}{section.4.5}% 42
 \BOOKMARK [2][-]{subsection.4.5.2}{Establishing proof of principle}{section.4.5}% 43
 \BOOKMARK [2][-]{subsection.4.5.3}{Correcting Measured Efficiencies In Simulation To Data}{section.4.5}% 44
 \BOOKMARK [1][-]{section.4.6}{Systematic Uncertainties On Transfer Factors}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.7}{Searches For Natural SUSY With B-tag Templates.}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 47
-\BOOKMARK [1][-]{section.5.1}{Statistical Interpretation}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{Interpretation in Simplified Signal Models}{chapter.5}% 49
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 50
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 51
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 52
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 53
-\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 54
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 55
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 56
-\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 57
-\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 58
-\BOOKMARK [0][-]{appendix*.114}{Bibliography}{}% 59
+\BOOKMARK [2][-]{subsection.4.6.1}{Determining systematic uncertainties from closure tests}{section.4.6}% 46
+\BOOKMARK [0][-]{chapter.5}{Searches For Natural SUSY With B-tag Templates.}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Concept}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{ Application to the T search}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{Results}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Statistical Interpretation}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{Interpretation in Simplified Signal Models}{chapter.6}% 52
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 53
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 54
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 55
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 56
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 57
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 58
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 59
+\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 60
+\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 61
+\BOOKMARK [1][-]{section.C.2}{Effect of varying background cross sections on closure tests }{appendix.C}% 62
+\BOOKMARK [0][-]{appendix*.96}{Bibliography}{}% 63

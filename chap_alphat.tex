@@ -3,15 +3,11 @@
 
 In this chapter a model independent search for \ac{SUSY} in hadronic final states with $\met$ using the $\alphat$ variable and b-quark multiplicity is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrate luminosity of 11.7$\pm$0.5 fb$^{-1}$.
 
-The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to possible a \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:eventselection}). 
+The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to possible a \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:triggerstrategy}). 
 
 The method in which the \ac{SM} background is estimated using an analytical technique to improve statistical precision at higher b-tag multiplicities is detailed within Section (\ref{subsec:backgroundestimation}), with a discussion on the impact of b-tagging and mis-tagging scale factors between data and MC on any background predictions. Finally a description of the formulation of appropriate systematic uncertainties applied to the background predictions to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects is covered in Section (\ref{subsec:sysuncertainties}).
 
-
-In addition to the $\alphat$ search, a complimentary technique is discussed as a means to predict the distribution of 3 and 4 reconstructed b-quark jets in an event in Section (\ref{sec:templatemethod}). The recent discovery of the Higgs boson has made third-generation ``Natural \ac{SUSY}'' models attractive, given that light top and bottom squarks are a candidate to stabilise divergent loop corrections to the Higgs boson mass.
-
-Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). The predictions using this technique are first tested in simulation before being compared to the \ac{SM} background predictions obtained from the $\alphat$ search.  
-
+ 
 The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, the topologies of which are detailed in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summaries in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
 
 Within Table \ref{tab:sms_model_table} is also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following two chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expect sensitivity reach of the search.
@@ -654,7 +650,7 @@ When the expectation for the number of \nbreco is taken directly from simulation
 
  that determine the \nbreco distribution of the process being measured. This method allows the determination of higher b-tag multiplicities to a higher degree of accuracy reducing the statical uncertainties of the MC which enter into the \ac{TF}'s. For the discussion that follows, these predictions are determined on average (i.e not on an event-by-event basis), and is known as the formula method.
 
-\subsection{ The formula method}
+\subsection{The formula method}
 \label{subsec:formulamethod}
 
 The assigning of jet flavours to reconstruction level jets in simulation is achieved via an algorithmic method defined as:
@@ -755,8 +751,7 @@ An important consistency check between the \dimupjets jets and \gpjets, which ar
 
 The simulation modelling of the jet multiplicity within each control sample is important due to the exclusive jet multiplicity binning within the analysis. This is probed via the use of each of the three control samples to independently predict from the lower jet multiplicity category $2 \leq n_{jet} \leq 3$, to the high jet category $\geq 4$. 
 
-For the case of the \mupjets and \dimupjets control samples this test this is also a further probe of the admixture between $W +$ jets/$Z +$ jets and \ttbar. Once again these three tests represent a conservative approach, as background predictions are always made from the same jet multiplicity bin, whereas the closure tests translate between these bins.
- 
+For the case of the \mupjets and \dimupjets control samples this test this is also a further probe of the admixture between $W +$ jets/$Z +$ jets and \ttbar. 
 \end{itemize}
 
 To test for the assumption that no \theht dependences exist within the background predictions of the analysis, the first five closure tests defined above are taken, with zeroeth and first order polynomial fits are applied to each. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
@@ -820,11 +815,98 @@ Within Table \ref{tab:closuretestfitsall}, there exists one test that does not s
 
 In addition the best fit values for the slope terms of the linear fits in all three tables are of the order $10^{-4}$, which corresponds to a percent level change per 100 \GeV. However in all cases, the best fit values are fully compatible with zero (within 1$\sigma$) once again with the exception detailed above, indicating that the level of closure is \theht independent.
 
+\subsection{Determining systematic uncertainties from closure tests}
+\label{subsec:determinesystematics}
+
+Once it has been established that no significant bias or trend has been exist within the closure tests, systematic uncertainties are determined. The statistical precision of the closure tests is considered a suitable benchmark for determining the systematic uncertainties that are assigned to the \ac{TF}'s, which are propagated through to the likelihood fit.
+
+The systematic uncertainty band is split into five separate regions of \theht :
+
+\begin{enumerate}
+\singlespacing
+\item 275 $<$ \theht $<$ 325\GeV
+\item 325 $<$ \theht $<$ 375\GeV
+\item 375 $<$ \theht $<$ 575\GeV
+\item 575 $<$ \theht $<$ 775\GeV
+\item \theht $>$ 775 \GeV
+\end{enumerate}
+ \onehalfspacing
+
+Within each region the square root of the sample variance, $\sigma^{2}$, is taken over the eight closure tests to determine the systematic uncertainties to be applied within that region.
+
+Using this procedure the systematic uncertainties for each region are calculated and are shown in Table \ref{tab:sysuncert}, with the systematic uncertainty to be used in the likelihood model conservatively rounded up to the nearest decile, shown in brackets.
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lcc}
+\cline{1-3}
+\theht band (\GeV)& $2 \leq n_{jet} \leq 3$ & $n_{jet} \geq 4$ \\
+\cline{1-3}
+275 $<$ \theht $<$ 325 & 6 (10)\%  & 3 (10)\% \\
+325 $<$ \theht $<$ 375& 6 (10)\%  & 6 (10)\% \\
+375 $<$ \theht $<$ 575& 7 (10)\%  & 9 (10)\% \\
+575 $<$ \theht $<$ 775& 13 (20)\%  & 15 (20)\% \\
+\theht $>$ 775& 19 (20)\%  & 21 (30)\% \\
+
+\cline{1-3}
+\end{tabular*}
+\end{center}
+\caption[Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. ]{Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. Uncertainties shown for both jet multiplicity categories. Values used within the likelihood model are conservatively rounded up to the nearest decile and shown in brackets.}\label{tab:sysuncert}
+\end{table}
+
+Figure \ref{fig:uncertaintyplots} shows the sets of closure tests overlaid on top of grey bands that represent the \theht dependent systematic uncertainties. These systematic uncertainties are assumed to fully uncorrelated between the different $n_{b}$ multiplicity categories and across the five \theht regions. This can be considered a more conservative approach given that some correlations between adjacent \theht bins could be expected due to comparable kinematics.
+
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.85 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-le3j.pdf}
+(a)  
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.85\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-ge4j.pdf}
+(b) 
+\end{minipage}
+\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{jet} \leq 3$ and (b) $n_{jet} \geq 4$.}
+\label{fig:uncertaintyplots}
+\end{figure}
+
+As already referenced. These closure tests represent a conservative estimate of the systematic uncertainty in making a background perdition for the signal region. This is due to significant differences in the background composition and event kinematics between the two sub-samples used in the closure tests. This is contrary to the signal region prediction where the two sub-samples are both have a comparable background admixture and similar kinematics owing to the fact that the predictions are always made using the same ($n_{jet}$,$n_{b}$,\theht) bin.
+
+This point is emphasised when we examine the sensitivity of the \ac{TF}'s to a change in the admixture of W + jets and \ttbar with the control and signal samples. This is accomplished by varying the cross sections of the W +jets and \ttbar by +20\% and -20\%, respectively. Figures \ref{fig:xsecvariedle3j} and \ref{fig:xsecvariedge4j} within Appendix \ref{app:backgroundestimation}, show the effect upon the closure tests for both jet multiplicity categories. Given these variations in cross sections, the level of closure is found to be significantly worse, with biases as large as $\sim$ 30\%, most apparent in the lowest \theht bins. However the \ac{TF}'s used to extrapolate from control to signal are seen to change only at the percent level by this large change in cross section, shown in Table \ref{tab:xsecvaried}.
+
+Given the robust behaviour of the translation factors with respect to large (and opposite) variations in the W + jets and \ttbar cross sections, one can assume with confidence that any bias in the translation factors is adequately (and conservatively) covered by the systematic uncertainties used in the analysis.
+
+\chapter{Searches For Natural SUSY With B-tag Templates.}
+\label{chap:templatemethod}
+
+
+Within this chapter a complimentary technique is discussed as a means to predict the distribution of three and four reconstructed b-quark jets in an event. The recent discovery of the Higgs boson has made third-generation ``Natural \ac{SUSY}'' models attractive, given that light top and bottom squarks are a candidate to stabilise divergent loop corrections to the Higgs boson mass.
+
+Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). As a proof- of-concept, the procedure after being shown to close in simulation, is applied to the SM enriched \mupjets control sample of the \alphat all-hadronic search detailed in Chapter \ref{chap:SUSYsearches}. Results are presented using the \ac{CSV} tagger for the ``Loose'', ``Medium'' and ``Tight'' working points.
+
+
+\section{Concept}
+\label{sec:templateconcept}
+
+As detailed in the previous chapter, the \alphat analysis is a search for \ac{SUSY} particles in all-hadronic final states, utilising the kinematic variable \alphat to suppress QCD to a negligible level. The dominant \ac{SM} backgrounds within the signal regions are \ttbar + jets, W + jets and \zinv + jets. These process are characterised by typically having zero or two b-quarks per event. The first step in this approach is to categorise the templates to be fitted to the low $n_{b}$ multiplicity in terms of underlying b-quark content :
+
+\begin{itemize}
+\item[Z0:] W + jets, \zinv, $Z \rightarrow \mu\mu$ , WW, ZZ, WZ
+\item[Z2:] \ttbar, single top
+\end{itemize}
+
+where Z0 and Z2 represent processes which have an underlying b-quark content of zero or two respectively.
+
+The generation of these templates is dependant upon the same four ingredients listed at the beginning of Section (\ref{subsec:backgroundestimation}), with the tagging probabilities of a jet being a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and the jet-flavour. This can be observed in Figure \ref{}, where the b-tagging / c-tagging / mis-tagging efficiency for the three working points of the \ac{CSV} tagger is shown as a function of jet \pt.
 
 
 
-\section{Searches For Natural SUSY With B-tag Templates.}
-\label{sec:templatemethod}
 
-Btag Templates blah blah
+Using the formula method to determine yields from simulation with higher statistical precision as explained in Section (\ref{subsec:formulamethod}), 
 
+These templates are fit in the low 
+
+\section{ Application to the \alphat search}
+\label{sec:templateapplication}

@@ -7,7 +7,7 @@
 
 For Calo jets the following criteria were applied:
 
-\begin{table}[h!]
+\begin{table}[H]
 \begin{center}
 \begin{tabulary}{0.80\textwidth}{LL}
 \cline{1-2}
@@ -27,19 +27,21 @@ N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single cha
 
 For PF jets the following criteria were applied:
   
-\begin{table}[h!]
+\begin{table}[H]
 \begin{center}
-\begin{tabulary}{0.80\textwidth}{LL}
+\begin{tabulary}{0.80\textwidth}{p{3.5cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Loose PF jet Id} \\
 Variable & Definition \\ 
 \cline{1-2}
-Neutral hadron fraction $<$ 0.99 & - \\
-Neutral EM fraction $<$ 0.99 & - \\
-Number of consituents $>$ 1 & - \\
-Charged hadron fraction $>$ 0 & - \\
-Charged multiplicity $>$ 0 & - \\
-Charged EM fraction $<$ 0.99 & - \\
+nfhJet $<$ 0.99 & Fraction of jet composed of neutral hadrons. \ac{HCAL} noise tends to populate high values of neutral 
+hadron fraction.\\
+nemfJet $<$ 0.99 & Fraction of jet composed of neutral electromagnetic energy. \ac{ECAL} noise tends to populate high values of 
+neutral EM fraction. \\
+nmultiJet $>$ 1 & Number of constituents that jet is composed from. \\
+chfJet $>$ 0 & Fraction of jet composed of charged hadrons. \\
+cmultiJet $>$ 0 & Number of charged particles that compose jet. \\
+cemfJet $<$ 0.99 & Fraction of jet composed of charged electromagnetic energy. \\
 \cline{1-2}
 \end{tabulary}
 \end{center}
@@ -50,20 +52,20 @@ Charged EM fraction $<$ 0.99 & - \\
    
 The following noise filters are applied, to remove events with spurious, non-physical jets or missing transverse energy.
 
-\begin{table}[h!]
+\begin{table}[H]
 \begin{center}
-\begin{tabulary}{0.80\textwidth}{LL}
+\footnotesize
+\begin{tabulary}{0.80\textwidth}{p{4cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Noise Filters} \\
 Variable & Definition \\ 
 \cline{1-2}
- CSC tight beam halo filter & - \\
- HBHE noise filter with isolated noise rejection & - \\
- HCAL laser filter & - \\
- ECAL dead cell trigger primitive (TP) filter & - \\
- Tracking failure filter & - \\
- Bad EE Supercrystal filter & - \\
- ECAL Laser correction filter & - \\
+ CSC tight beam halo filter \qquad\qquad\qquad\qquad\qquad & As proton beams circle the \ac{lhc}, proton interactions with the residual gas particles or the beam collimators can occur, producing showers of secondary particles which can interact with the \ac{CMS} detector. \\
+ HBHE noise filter with isolated noise rejection & Anomalous noise in the \ac{HCAL} not due to electronics noise, but rather due to instrumentation issues associated with the \ac{HPD}'s and \acf{RBXs}. \\
+ HCAL laser filter & The \ac{HCAL} uses laser pulses for monitoring the detector response. Some laser pulses have accidentally been fired in the physics orbit, and ended up polluting events recorded for physics analysis. \\
+ ECAL dead cell trigger primitive (TP) filter & \ac{EB} and \ac{EE} have single noisy crystals which are masked in reconstruction. Use the \acf{TP} information to assess how much energy was lost in masked cells. \\
+ Bad EE Supercrystal filter & Two supercrystals in \ac{EE} are found to occasionally produce high amplitude anomalous pulses in several channels at once, causing a large \met spike. \\
+ ECAL Laser correction filter & A laser calibration multiplicative factor is applied to correct for transparency loss in each crystal during irradiation. A small number of crystals receive unphysically large values of this correction and become very energetic, resulting in \met. \\
 \cline{1-2}
 \end{tabulary}
 \end{center}
@@ -77,16 +79,16 @@ Variable & Definition \\
 
 The pileup per event is defined by the number of 'good' reconstructed primary vertices in the event, with each vertex satisfying the following requirements
 
-\begin{table}[h!]
+\begin{table}[H]
 \begin{center}
-\begin{tabulary}{0.80\textwidth}{LL}
+\begin{tabulary}{0.80\textwidth}{p{3cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Good primary vertex requirement} \\
 Variable & Definition \\ 
 \cline{1-2}
-$N_{dof} > 4$ \qquad\qquad\qquad & - \\
-$\vert z_{vtx} \vert < 24$cm & Vertex position along the beam direction. \\ 
- $\rho < 2$cm & Vertex position perpendicular to the beam direction. \\
+$N_{dof} > 4$ \qquad\qquad\qquad & The number of degree of freedom, from the vertex fit to compute the best estimate of the vertex parameters. \\
+$\vert \Delta z_{vtx} \vert < 24$cm &  The distance, $\vert\Delta z_{vex}\vert$, to the position of the closest \ac{HLT} primary vertex. \\ 
+ $\rho < 2$cm & The perpendicular distance of track position to the beam spot. \\
 \cline{1-2}
 \end{tabulary}
 \end{center}
@@ -237,7 +239,7 @@ The following plots show the resolution parameters for the four energy sum quant
 \end{figure}
 
 \chapter{Additional material on background estimation methods}
-
+\label{app:backgroundestimation}
 \section{Determination of $k_{QCD}$}
 \label{app:kqcd}
 
@@ -250,8 +252,55 @@ The following plots show the resolution parameters for the four energy sum quant
 \end{minipage}
 
 
+\section{Effect of varying background cross sections on closure tests }
+\label{app:xsecvariation}
+
+Closure tests with cross section variations of +20\% and -20\% applied to W + jets and \ttbar processes respectively.
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-le3j_nominal.pdf}
+\centering
+(a)  
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-le3j_varied.pdf}
+\centering
+(b) 
+\end{minipage}
+\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{jet} \leq 3$ and (b) $n_{jet} \geq 4$.}
+\label{fig:xsecvariedle3j}
+\end{figure}
 
 
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-ge4j_nominal.pdf}
+\centering
+(a)  
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/syst-ge4j_varied.pdf}
+\centering
+(b) 
+\end{minipage}
+\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{jet} \leq 3$ and (b) $n_{jet} \geq 4$.}
+\label{fig:xsecvariedge4j}
+\end{figure}
 
-
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}cl|cccc}
+\cline{1-6}
+&&\multicolumn{4}{l}{\theht (\GeV)} \\
+\cline{1-6}
+\cline{1-6}
+\end{tabular*}
+\end{center}
+\caption[ ]{}\label{tab:xsecvaried}
+\end{table}
 
