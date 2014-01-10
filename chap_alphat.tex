@@ -884,29 +884,71 @@ Given the robust behaviour of the translation factors with respect to large (and
 
 Within this chapter a complimentary technique is discussed as a means to predict the distribution of three and four reconstructed b-quark jets in an event. The recent discovery of the Higgs boson has made third-generation ``Natural \ac{SUSY}'' models attractive, given that light top and bottom squarks are a candidate to stabilise divergent loop corrections to the Higgs boson mass.
 
-Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). As a proof- of-concept, the procedure after being shown to close in simulation, is applied to the SM enriched \mupjets control sample of the \alphat all-hadronic search detailed in Chapter \ref{chap:SUSYsearches}. Results are presented using the \ac{CSV} tagger for the ``Loose'', ``Medium'' and ``Tight'' working points.
+Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). As a proof- of-concept, the procedure after being shown to close in simulation, is applied to the SM enriched \mupjets control sample of the \alphat all-hadronic search detailed in Chapter \ref{chap:SUSYsearches}. Results are presented using the \ac{CSV} tagger (introduced in Section (\ref{subsec:cmsobjects-btagging})) for the ``Loose'', ``Medium'' and ``Tight'' working points.
 
 
 \section{Concept}
 \label{sec:templateconcept}
 
-As detailed in the previous chapter, the \alphat analysis is a search for \ac{SUSY} particles in all-hadronic final states, utilising the kinematic variable \alphat to suppress QCD to a negligible level. The dominant \ac{SM} backgrounds within the signal regions are \ttbar + jets, W + jets and \zinv + jets. These process are characterised by typically having zero or two b-quarks per event. The first step in this approach is to categorise the templates to be fitted to the low $n_{b}$ multiplicity in terms of underlying b-quark content :
+The dominant \ac{SM} backgrounds most \ac{SUSY} searches are typically \ttbar + jets, W + jets and \zinv + jets. These process are characterised by typically having zero or two underlying b-quarks per event. The first step in this approach is to categorise two templates to be fitted to the low $n_{b}^{reco}$ multiplicity in terms of these underlying b-quark event topologies :
 
 \begin{itemize}
-\item[Z0:] W + jets, \zinv, $Z \rightarrow \mu\mu$ , WW, ZZ, WZ
-\item[Z2:] \ttbar, single top
+\item[Z0 -] W + jets, \zinv + jets, DY + jets 
+\item[Z2 -] \ttbar, single top
 \end{itemize}
 
-where Z0 and Z2 represent processes which have an underlying b-quark content of zero or two respectively.
+where Z0 and Z2 represent processes which have an underlying b-quark content of zero or two respectively. 
 
-The generation of these templates is dependant upon the same four ingredients listed at the beginning of Section (\ref{subsec:backgroundestimation}), with the tagging probabilities of a jet being a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and the jet-flavour. This can be observed in Figure \ref{}, where the b-tagging / c-tagging / mis-tagging efficiency for the three working points of the \ac{CSV} tagger is shown as a function of jet \pt.
+Both these templates can be generated through the application of the relevant event selection and taking the underlying $n_{b}^{reco}$ distribution directly from simulation. However as discussed within Section (\ref{subsec:backgroundestimation}), there are large uncertainties for high $n_{b}^{reco}$ multiplicities due to limited MC statistics. This is particularly prominent for the Z0 templates, where the number of reconstructed b-tags is driven primarily by the light-quark mis-tagging rate.  Therefore to improve the statistical precision of the predictions the formula method, introduced in Section (\ref{subsec:formulamethod}) is used. 
 
+The generation of these templates is then dependant upon the jet-flavour content and b-tagging rate within the phase space of interest, with the tagging probabilities of a jet being a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and the jet-flavour. This can be observed in Figure \ref{fig:templatetaggingefficiencies}, where the b-tagging / c-quark mis-tagging / light mis-tagging efficiency for the three working points of the \ac{CSV} tagger is shown as a function of jet \pt. 
 
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/template_btagrate.pdf}
+(a)  
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/template_ctagrate.pdf}
+(b) 
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\centering
+\includegraphics[width = 1.0\linewidth]{plots/template_mistagrate.pdf}
+(c) 
+\end{minipage}
+\caption[The b-tagging (a), c-quark mis-tagging (b), and light-quark mis-tagging rate (c$)$ as measured in simulation after the \alphat analysis, \mupjets control sample selection in the region \theht $>$ 375.]{The b-tagging (a), c-quark mis-tagging (b), and light-quark mis-tagging rate (c$)$ as measured in simulation after the \alphat analysis, \mupjets control sample selection in the region \theht $>$ 375.}
+\label{fig:templatetaggingefficiencies}
+\end{figure}
 
+Before the templates are generated, the relevant jet \pt and \eta corrections are applied to correct simulation to data, as specified in Section (\ref{subsec:formulamethodsf}), to then determine the average tagging rates per analysis bin.   
 
-Using the formula method to determine yields from simulation with higher statistical precision as explained in Section (\ref{subsec:formulamethod}), 
+These two templates are then fit to data in the low $n_{b}^{reco}$ region (0-2). The fit result is used, along with the knowledge of the template shapes, to extrapolate an estimate to the high $n_{b}^{reco}$ region (3,4), which is then compared to what is observed in data.
 
-These templates are fit in the low 
+This method can, in principle, be applied to any analysis where the signal hypothesis has a larger underlying b-quark spectra than the \ac{SM} backgrounds, as it solely relies on fitting to the shape of the $n_{b}^{reco}$ distribution.
 
 \section{ Application to the \alphat search}
 \label{sec:templateapplication}
+
+As detailed in the previous chapter, the \alphat analysis is a search for \ac{SUSY} particles in all-hadronic final states, utilising the kinematic variable \alphat to suppress QCD to a negligible level. \ac{SM} enriched control samples are used to estimate the background within an all-hadronic signal region. 
+
+The selection for the \mupjets control samples defined in Section (\ref{subsec:controlsampledefinition}) is used to demonstrate the template fitting procedure both conceptually in simulation, and also when applied in data. This is chosen, as such a selection is dominated by events stemming from the \ac{SM} processes with little or no signal contamination from potential new physics.. Neither are contributions from rate \ac{SM} processes with a higher underlying b-quark content (e.g. $t\bar{t}b\bar{b}$) expected. For these reasons, there is a degree of confidence that the procedure should close when applied to this phase space.
+
+The analysis presented here is binning in source jet multiplicity bins, of 3,4 and $\geq$ 5 reconstructed jets per event (di-jet events are not included as there is no contribution to the high $n_{b}^{reco}$ region (3,4)) , in order to reduce the kinematic jet \pt dependence. Furthermore the analysis is split into three \theht regions, 
+
+\begin{itemize}
+\item 275-325 \GeV
+\item 325-375 \GeV
+\item $>$ 375 \GeV
+\end{itemize}
+
+contrary to the eight used within the \alphat analysis. Templates for both underlying b-quark content hypotheses are then generated for the nine defined analysis bins. 
+
+\subsection{Proof of principle in simulation}
+\label{subsec:templateclosuretest}
+
+The to highlight the relative insensitivity of the performance of the b-tagging algorithm in the effectiveness of the procedure.
+
