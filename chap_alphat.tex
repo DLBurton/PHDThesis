@@ -5,12 +5,13 @@ In this chapter a model independent search for \ac{SUSY} in hadronic final state
 
 The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to possible a \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:triggerstrategy}). 
 
-The method in which the \ac{SM} background is estimated using an analytical technique to improve statistical precision at higher b-tag multiplicities is detailed within Section (\ref{subsec:backgroundestimation}), with a discussion on the impact of b-tagging and mis-tagging scale factors between data and MC on any background predictions. Finally a description of the formulation of appropriate systematic uncertainties applied to the background predictions to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects is covered in Section (\ref{subsec:sysuncertainties}).
+The method in which the \ac{SM} background is estimated using an analytical technique to improve statistical precision at higher b-tag multiplicities is detailed within Section (\ref{subsec:backgroundestimation}), with a discussion on the impact of b-tagging and mis-tagging scale factors between data and MC on any background predictions. 
 
- 
-The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, the topologies of which are detailed in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summaries in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
+A description of the formulation of appropriate systematic uncertainties applied to the background predictions to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects is covered in Section (\ref{subsec:sysuncertainties}).
 
-Within Table \ref{tab:sms_model_table} is also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following two chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expect sensitivity reach of the search.
+Finally the statistical likelihood model to interpret the observations in the signal and control samples is described in Section (\ref{sec:statframework}). The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, the topologies of which are detailed in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summariesed in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
+
+Within the table are also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expected sensitivity reach of the search.
 
 \begin{table}[h!]
 \begin{center}
@@ -167,7 +168,7 @@ Natural \ac{SUSY} models would be characterised through final-state signatures r
 
 This is achieved via the binning of events in the signal region according to the number of b-tagged jets reconstructed in each event, in the following: 0,1,2,3,$\geq$ 4 b-tag categories . In the highest $\geq$ 4 b-tag category due to a limited number of expected signal and background, just three \theht bins are employed: 275-325 \GeV, 325-375 \GeV, $\geq$ 375 \GeV.
 
-This characterisation is identically mirrored in all control samples, with the information from all samples and b-tag categories used simultaneously in the likelihood model (see Chapter \ref{chap:SUSYresults}) in order to interpret the results in a coherent and powerful way.
+This characterisation is identically mirrored in all control samples, with the information from all samples and b-tag categories used simultaneously in the likelihood model, see Section (\ref{sec:statframework}), in order to interpret the results in a coherent and powerful way.
 
 \end{itemize}
  
@@ -193,7 +194,7 @@ The physics objects used in the analysis defined below, follow the recommendatio
 
 The jets used in this analysis are CaloJets, reconstructed as described in Section (\ref{subsec:cmsobjects-jets}) using the anti-k$_{T}$ jet clustering algorithm. 
 
-To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tabapp:calojetid} of Appendix (\ref{app:noise})  \cite{CMS-PAS-JME-09-008}.
+To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tabapp:calojetid} of Appendix \ref{app:noise}  \cite{CMS-PAS-JME-09-008}.
 
 \item \textbf{Muons}
 
@@ -277,7 +278,7 @@ Electrons are required to be identified at \abeta $<$ 2.5, with a minimum \pt $>
 
 \item \textbf{Noise and \met Filters}
 
-A series of Noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Table \ref{apptab:noiseid} of Appendix (\ref{app:noise}).
+A series of Noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Table \ref{apptab:noiseid} of Appendix \ref{app:noise}.
 
 \end{itemize}
 
@@ -368,7 +369,7 @@ The method used to estimate the background contributions in the hadronic signal 
 \text{N}_{\text{pred}}^{\text{signal}} = \frac{\text{N}_{\text{MC}}^{\text{signal}}}{ \text{N}_{\text{MC}}^{\text{control}}} \times  \text{N}_{\text{obs}}^{\text{control}}.
 \end{equation}
 
-All MC samples are normalised to the luminosity of the data samples, 11.7 \fb. Through this method, ``vanilla'' predictions for the \ac{SM} background in the signal region can be made by considering separately the sum of the prediction from either the \mupjets and \gpjets or \mupjets and \dimupjets samples. However the final background estimation from which results are interpreted, is calculated via a fitting procedure defined formally by the likelihood model described in Chapter \ref{chap:SUSYresults}. 
+All MC samples are normalised to the luminosity of the data samples, 11.7 \fb. Through this method, ``vanilla'' predictions for the \ac{SM} background in the signal region can be made by considering separately the sum of the prediction from either the \mupjets and \gpjets or \mupjets and \dimupjets samples. However the final background estimation from which results are interpreted, is calculated via a fitting procedure defined formally by the likelihood model described in Section (\ref{sec:statframework}). 
 
 The sum of the expected yields from all MC processes, in each control sample enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$  , of the \ac{TF} defined in Eq (\ref{eq:transfactor}). However for the numerator , $\text{N}_{\text{MC}}^{\text{signal}}$, only the relevant processes that the control sample is used in estimating a background for, enter into the \ac{TF}.
 
@@ -527,7 +528,7 @@ The modelling of the \alphat variable is probed through a dedicated set of closu
 \subsection{Estimating the QCD Background Multi-jet Background}
 \label{subsec:qcdbackground}
 
-A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model (see Section (\ref{sec:resultsintro})), is given the freedom to estimate any potential QCD multi-jet contamination. 
+A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model, see Section (\ref{sec:htevolution}), is given the freedom to estimate any potential QCD multi-jet contamination. 
 
 Any potential contamination can be identified through the variable $R_{\alphat}$, defined as the ratio of events above and below the \alphat threshold value used in the analysis. This is modelled by a \theht dependant falling exponential function which takes the form,
 
@@ -588,7 +589,7 @@ The performance of the \alphat and \theht triggers used to collect data for the 
 
 The selection for the trigger efficiency measurement is identical to that described in Section (\ref{subsec:eventselection}), with the requirement of exactly one well identified muon with \pt $>$ 30 \GeV which is subsequently ignored.  
 
-The efficiencies measure for the \htalphat triggers in bins indiviual \theht and \alphat legs, is summarised in Table \ref{tab:trigeffs}.
+The efficiencies measured for the \htalphat triggers in bins indiviual \theht and \alphat legs, is summarised in Table \ref{tab:trigeffs}.
 
 \begin{table}[h!]
 \begin{center}
@@ -878,77 +879,25 @@ This point is emphasised when we examine the sensitivity of the \ac{TF}'s to a c
 
 Given the robust behaviour of the translation factors with respect to large (and opposite) variations in the W + jets and \ttbar cross sections, one can assume with confidence that any bias in the translation factors is adequately (and conservatively) covered by the systematic uncertainties used in the analysis.
 
-\chapter{Searches For Natural SUSY With B-tag Templates.}
-\label{chap:templatemethod}
+\section{Statistical Framework}
+\label{sec:statframework}
 
+For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking wether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models.
 
-Within this chapter a complimentary technique is discussed as a means to predict the distribution of three and four reconstructed b-quark jets in an event. The recent discovery of the Higgs boson has made third-generation ``Natural \ac{SUSY}'' models attractive, given that light top and bottom squarks are a candidate to stabilise divergent loop corrections to the Higgs boson mass.
+\subsection{Hadronic sample}
 
-Using the $\alphat$ search as a base, a simple templated fit is employed to estimate the \ac{SM} background in higher b-tag multiplicities (3-4) from a region of a low number of reconstructed b-jets (0-2). As a proof- of-concept, the procedure after being shown to close in simulation, is applied to the SM enriched \mupjets control sample of the \alphat all-hadronic search detailed in Chapter \ref{chap:SUSYsearches}. Results are presented using the \ac{CSV} tagger (introduced in Section (\ref{subsec:cmsobjects-btagging})) for the ``Loose'', ``Medium'' and ``Tight'' working points.
+Let $N$ be the number of bins on \theht, with $n^{i}$ the number of events observed satisfying all selection requirements in each \theht bin i. The likelihood of the observations can then be written :
 
+\begin{equation}
+L_{had} =   \Pi_{i}\text{Pois}(n^{i}\rvert b^{i} + s^{i}),
+\end{equation}
 
-\section{Concept}
-\label{sec:templateconcept}
+where $b^{i}$ represents the expected \ac{SM} background ($EWK_{i} + QCD_{i}$) and $s^{i}$ the expected number of signal events from the different \ac{SMS} models interpreted. Pois refers to the Poission distribution of these values and is defined as :
 
-The dominant \ac{SM} backgrounds most \ac{SUSY} searches are typically \ttbar + jets, W + jets and \zinv + jets. These process are characterised by typically having zero or two underlying b-quarks per event. The first step in this approach is to categorise two templates to be fitted to the low $n_{b}^{reco}$ multiplicity in terms of these underlying b-quark event topologies :
-
-\begin{itemize}
-\item[Z0 -] W + jets, \zinv + jets, DY + jets 
-\item[Z2 -] \ttbar, single top
-\end{itemize}
-
-where Z0 and Z2 represent processes which have an underlying b-quark content of zero or two respectively. 
-
-Both these templates can be generated through the application of the relevant event selection and taking the underlying $n_{b}^{reco}$ distribution directly from simulation. However as discussed within Section (\ref{subsec:backgroundestimation}), there are large uncertainties for high $n_{b}^{reco}$ multiplicities due to limited MC statistics. This is particularly prominent for the Z0 templates, where the number of reconstructed b-tags is driven primarily by the light-quark mis-tagging rate.  Therefore to improve the statistical precision of the predictions the formula method, introduced in Section (\ref{subsec:formulamethod}) is used. 
-
-The generation of these templates is then dependant upon the jet-flavour content and b-tagging rate within the phase space of interest, with the tagging probabilities of a jet being a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and the jet-flavour. This can be observed in Figure \ref{fig:templatetaggingefficiencies}, where the b-tagging / c-quark mis-tagging / light mis-tagging efficiency for the three working points of the \ac{CSV} tagger is shown as a function of jet \pt. 
-
-\begin{figure}[ht]
-\centering
-\begin{minipage}[b]{0.48 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_btagrate.pdf}
-(a)  
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.48\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_ctagrate.pdf}
-(b) 
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.48\linewidth}
-\centering
-\includegraphics[width = 1.0\linewidth]{plots/template_mistagrate.pdf}
-(c) 
-\end{minipage}
-\caption[The b-tagging (a), c-quark mis-tagging (b), and light-quark mis-tagging rate (c$)$ as measured in simulation after the \alphat analysis, \mupjets control sample selection in the region \theht $>$ 375.]{The b-tagging (a), c-quark mis-tagging (b), and light-quark mis-tagging rate (c$)$ as measured in simulation after the \alphat analysis, \mupjets control sample selection in the region \theht $>$ 375.}
-\label{fig:templatetaggingefficiencies}
-\end{figure}
-
-Before the templates are generated, the relevant jet \pt and \eta corrections are applied to correct simulation to data, as specified in Section (\ref{subsec:formulamethodsf}), to then determine the average tagging rates per analysis bin.   
-
-These two templates are then fit to data in the low $n_{b}^{reco}$ region (0-2). The fit result is used, along with the knowledge of the template shapes, to extrapolate an estimate to the high $n_{b}^{reco}$ region (3,4), which is then compared to what is observed in data.
-
-This method can, in principle, be applied to any analysis where the signal hypothesis has a larger underlying b-quark spectra than the \ac{SM} backgrounds, as it solely relies on fitting to the shape of the $n_{b}^{reco}$ distribution.
-
-\section{ Application to the \alphat search}
-\label{sec:templateapplication}
-
-As detailed in the previous chapter, the \alphat analysis is a search for \ac{SUSY} particles in all-hadronic final states, utilising the kinematic variable \alphat to suppress QCD to a negligible level. \ac{SM} enriched control samples are used to estimate the background within an all-hadronic signal region. 
-
-The selection for the \mupjets control samples defined in Section (\ref{subsec:controlsampledefinition}) is used to demonstrate the template fitting procedure both conceptually in simulation, and also when applied in data. This is chosen, as such a selection is dominated by events stemming from the \ac{SM} processes with little or no signal contamination from potential new physics.. Neither are contributions from rate \ac{SM} processes with a higher underlying b-quark content (e.g. $t\bar{t}b\bar{b}$) expected. For these reasons, there is a degree of confidence that the procedure should close when applied to this phase space.
-
-The analysis presented here is binning in source jet multiplicity bins, of 3,4 and $\geq$ 5 reconstructed jets per event (di-jet events are not included as there is no contribution to the high $n_{b}^{reco}$ region (3,4)) , in order to reduce the kinematic jet \pt dependence. Furthermore the analysis is split into three \theht regions, 
-
-\begin{itemize}
-\item 275-325 \GeV
-\item 325-375 \GeV
-\item $>$ 375 \GeV
-\end{itemize}
-
-contrary to the eight used within the \alphat analysis. Templates for both underlying b-quark content hypotheses are then generated for the nine defined analysis bins. 
-
-\subsection{Proof of principle in simulation}
-\label{subsec:templateclosuretest}
-
-The to highlight the relative insensitivity of the performance of the b-tagging algorithm in the effectiveness of the procedure.
+\begin{equation}
+\text{Pois}(\chi\rvert\lambda) = \frac{\lambda^{\chi}\exp^{-\lambda}}{k!}.
+\end{equation}
+ 
+\subsection{\theht evolution model}
+\label{subsec:htevolution}
 

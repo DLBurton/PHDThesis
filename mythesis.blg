@@ -25,36 +25,36 @@ Warning--empty author in CMS-PAS-SUS-09-001
 Warning--empty author in CMS-PAS-JME-09-008
 Warning--empty author in CMS-PAS-SUS-12-018
 Warning--empty author in CMS-PAS-SUS-08-002
-You've used 80 entries,
+You've used 81 entries,
             1876 wiz_defined-function locations,
-            928 strings with 13535 characters,
-and the built_in function-call counts, 18908 in all, are:
-= -- 1953
-> -- 560
+            931 strings with 13651 characters,
+and the built_in function-call counts, 19001 in all, are:
+= -- 1962
+> -- 564
 < -- 8
-+ -- 227
-- -- 147
-* -- 1195
-:= -- 2573
-add.period$ -- 87
-call.type$ -- 80
-change.case$ -- 74
++ -- 229
+- -- 148
+* -- 1200
+:= -- 2593
+add.period$ -- 88
+call.type$ -- 81
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 102
-duplicate$ -- 1128
-empty$ -- 1787
-format.name$ -- 147
-if$ -- 4773
+cite$ -- 103
+duplicate$ -- 1132
+empty$ -- 1795
+format.name$ -- 148
+if$ -- 4792
 int.to.chr$ -- 0
-int.to.str$ -- 80
+int.to.str$ -- 81
 missing$ -- 72
-newline$ -- 250
-num.names$ -- 69
+newline$ -- 253
+num.names$ -- 70
 pop$ -- 222
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 821
+skip$ -- 822
 stack$ -- 0
 substring$ -- 1012
 swap$ -- 516
@@ -63,7 +63,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 22
-while$ -- 151
-width$ -- 82
-write$ -- 761
+while$ -- 152
+width$ -- 83
+write$ -- 769
 (There were 22 warnings)

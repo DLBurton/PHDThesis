@@ -44,21 +44,31 @@
 \BOOKMARK [2][-]{subsection.4.5.3}{Correcting Measured Efficiencies In Simulation To Data}{section.4.5}% 44
 \BOOKMARK [1][-]{section.4.6}{Systematic Uncertainties On Transfer Factors}{chapter.4}% 45
 \BOOKMARK [2][-]{subsection.4.6.1}{Determining systematic uncertainties from closure tests}{section.4.6}% 46
-\BOOKMARK [0][-]{chapter.5}{Searches For Natural SUSY With B-tag Templates.}{}% 47
-\BOOKMARK [1][-]{section.5.1}{Concept}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{ Application to the T search}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.2.1}{Proof of principle in simulation}{section.5.2}% 50
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 51
-\BOOKMARK [1][-]{section.6.1}{Statistical Interpretation}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.2}{Interpretation in Simplified Signal Models}{chapter.6}% 53
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 54
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 55
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 56
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 57
-\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 58
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 59
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 60
-\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 61
-\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 62
-\BOOKMARK [1][-]{section.C.2}{Effect of varying background cross sections on closure tests }{appendix.C}% 63
-\BOOKMARK [0][-]{appendix*.97}{Bibliography}{}% 64
+\BOOKMARK [1][-]{section.4.7}{Statistical Framework}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.7.1}{Hadronic sample}{section.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.7.2}{HT evolution model}{section.4.7}% 49
+\BOOKMARK [0][-]{chapter.5}{Searches For Natural SUSY With B-tag Templates.}{}% 50
+\BOOKMARK [1][-]{section.5.1}{Concept}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.2}{ Application to the T search}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.2.1}{Proof of principle in simulation}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.2}{Results in a data control sample}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.3}{Application to the T hadronic search region}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Conclusions}{chapter.5}% 56
+\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 57
+\BOOKMARK [1][-]{section.6.1}{Statistical Interpretation}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{Interpretation in Simplified Signal Models}{chapter.6}% 59
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 60
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 61
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 62
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 63
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 64
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 65
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 66
+\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 67
+\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 68
+\BOOKMARK [1][-]{section.C.2}{Effect of varying background cross sections on closure tests }{appendix.C}% 69
+\BOOKMARK [0][-]{appendix.D}{Additional Material For B-tag Template Method}{}% 70
+\BOOKMARK [1][-]{section.D.1}{Templates Fits in Simulation}{appendix.D}% 71
+\BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 72
+\BOOKMARK [1][-]{section.D.3}{Templates Fits in Data}{appendix.D}% 73
+\BOOKMARK [0][-]{appendix*.103}{Bibliography}{}% 74

@@ -339,4 +339,8 @@ Z.~Bern, G.~Diana, L.~Dixon, F.~Febres~Cordero, S.~Hoche, {\em et~al.},
   ``{Driving Missing Data at Next-to-Leading Order},'' {\em Phys.Rev.},
   vol.~D84, p.~114002, 2011.
 
+\bibitem{btagscalefactor}
+C.~Collaboration, ``Cms btag pog : Cms b-tagging performance database.''
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG, 2013.
+
 \end{thebibliography}
