@@ -1,5 +1,5 @@
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
-\BOOKMARK [0][-]{chapter*.11}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.12}{List of Tables}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [0][-]{chapter.2}{A Theoretical Overview}{}% 4
 \BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 5
@@ -8,67 +8,68 @@
 \BOOKMARK [1][-]{section.2.2}{Motivation for Physics Beyond the Standard Model}{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.3}{Supersymmmetry Overview}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.3.1}{R-Parity}{section.2.3}% 10
-\BOOKMARK [1][-]{section.2.4}{Experimental signatures of SUSY at the LHC}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.4.1}{Simplified Models}{section.2.4}% 12
-\BOOKMARK [0][-]{chapter.3}{The LHC and the CMS Detector}{}% 13
+\BOOKMARK [1][-]{section.2.4}{Experimental Signatures of SUSY at the LHC}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.4.1}{Simplified models}{section.2.4}% 12
+\BOOKMARK [0][-]{chapter.3}{The LHC And The CMS Detector}{}% 13
 \BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{The CMS detector}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.2.1}{Detector Subsytems}{section.3.2}% 16
+\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Detector subsytems}{section.3.2}% 16
 \BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 17
-\BOOKMARK [2][-]{subsection.3.2.3}{Electromagnetic Calorimeter}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.4}{Hadronic Calorimeter}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.5}{Muon Systems}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{Electromagnetic calorimeter}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.4}{Hadronic calorimeter}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.5}{Muon systems}{section.3.2}% 20
 \BOOKMARK [1][-]{section.3.3}{Event Reconstruction and Object Definition}{chapter.3}% 21
 \BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 22
 \BOOKMARK [2][-]{subsection.3.3.2}{B-tagging}{section.3.3}% 23
 \BOOKMARK [1][-]{section.3.4}{Triggering System}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.4.1}{The Level-1 Trigger}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.2}{ L1 Trigger Jet Algorithm}{section.3.4}% 26
-\BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 Jet Trigger Efficiencies}{section.3.4}% 27
-\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 Jet Seed}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 Jet Performance against Pile-up}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{The level-1 trigger}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.2}{The L1 trigger jet algorithm}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 jet trigger efficiencies}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 jet seed}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.5}{Robustness of L1 jet performance against pile-up}{section.3.4}% 29
 \BOOKMARK [2][-]{subsection.3.4.6}{Summary}{section.3.4}% 30
-\BOOKMARK [0][-]{chapter.4}{SUSY searches in Hadronic Final States}{}% 31
-\BOOKMARK [1][-]{section.4.1}{An introduction to the T search}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.4}{SUSY Searches In Hadronic Final States}{}% 31
+\BOOKMARK [1][-]{section.4.1}{An Introduction to the T Search}{chapter.4}% 32
 \BOOKMARK [2][-]{subsection.4.1.1}{The T variable}{section.4.1}% 33
 \BOOKMARK [1][-]{section.4.2}{Search Strategy}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.2.1}{Physics Objects}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.2}{Event Selection}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.3}{Control Sample Definition and Background Estimation}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.4}{Estimating the QCD Background Multi-jet Background}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{Physics objects}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{Event selection}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.3}{Control sample definition and background estimation}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.4}{Estimating the QCD multi-jet background}{section.4.2}% 38
 \BOOKMARK [1][-]{section.4.3}{Trigger Strategy}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.4}{Measuring MC normalisation factors via HT sidebands}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.5}{Determining MC Yields With Higher Statistical Precision}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.4}{Measuring MC Normalisation Factors via HT Sidebands}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Determining MC Simulation Yields with Higher Statistical Precision}{chapter.4}% 41
 \BOOKMARK [2][-]{subsection.4.5.1}{The formula method}{section.4.5}% 42
 \BOOKMARK [2][-]{subsection.4.5.2}{Establishing proof of principle}{section.4.5}% 43
-\BOOKMARK [2][-]{subsection.4.5.3}{Correcting Measured Efficiencies In Simulation To Data}{section.4.5}% 44
-\BOOKMARK [1][-]{section.4.6}{Systematic Uncertainties On Transfer Factors}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.5.3}{Correcting measured efficiencies in simulation to data}{section.4.5}% 44
+\BOOKMARK [1][-]{section.4.6}{Systematic Uncertainties on Transfer Factors}{chapter.4}% 45
 \BOOKMARK [2][-]{subsection.4.6.1}{Determining systematic uncertainties from closure tests}{section.4.6}% 46
 \BOOKMARK [1][-]{section.4.7}{Statistical Framework}{chapter.4}% 47
 \BOOKMARK [2][-]{subsection.4.7.1}{Hadronic sample}{section.4.7}% 48
 \BOOKMARK [2][-]{subsection.4.7.2}{HT evolution model}{section.4.7}% 49
-\BOOKMARK [0][-]{chapter.5}{Searches For Natural SUSY With B-tag Templates.}{}% 50
-\BOOKMARK [1][-]{section.5.1}{Concept}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.2}{ Application to the T search}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.2.1}{Proof of principle in simulation}{section.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.2.2}{Results in a data control sample}{section.5.2}% 54
-\BOOKMARK [2][-]{subsection.5.2.3}{Application to the T hadronic search region}{section.5.2}% 55
-\BOOKMARK [1][-]{section.5.3}{Conclusions}{chapter.5}% 56
-\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 57
-\BOOKMARK [1][-]{section.6.1}{Statistical Interpretation}{chapter.6}% 58
-\BOOKMARK [1][-]{section.6.2}{Interpretation in Simplified Signal Models}{chapter.6}% 59
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 60
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 61
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 62
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 63
-\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 64
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 65
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 66
-\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 67
-\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 68
-\BOOKMARK [1][-]{section.C.2}{Effect of varying background cross sections on closure tests }{appendix.C}% 69
-\BOOKMARK [0][-]{appendix.D}{Additional Material For B-tag Template Method}{}% 70
-\BOOKMARK [1][-]{section.D.1}{Templates Fits in Simulation}{appendix.D}% 71
-\BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 72
-\BOOKMARK [1][-]{section.D.3}{Templates Fits in Data}{appendix.D}% 73
-\BOOKMARK [0][-]{appendix*.103}{Bibliography}{}% 74
+\BOOKMARK [2][-]{subsection.4.7.3}{EWK control samples}{section.4.7}% 50
+\BOOKMARK [0][-]{chapter.5}{Searches For Natural SUSY With B-tag Templates.}{}% 51
+\BOOKMARK [1][-]{section.5.1}{Concept}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.2}{ Application to the T Search}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.2.1}{Proof of principle in simulation}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.2}{Results in a data control sample}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.3}{Application to the T hadronic search region}{section.5.2}% 56
+\BOOKMARK [1][-]{section.5.3}{Conclusions}{chapter.5}% 57
+\BOOKMARK [0][-]{chapter.6}{Results and Interpretation}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Statistical Interpretation}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.2}{Interpretation in Simplified Signal Models}{chapter.6}% 60
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 61
+\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 62
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 63
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 64
+\BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 65
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 66
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 67
+\BOOKMARK [0][-]{appendix.C}{Additional material on background estimation methods}{}% 68
+\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 69
+\BOOKMARK [1][-]{section.C.2}{Effect of varying background cross sections on closure tests }{appendix.C}% 70
+\BOOKMARK [0][-]{appendix.D}{Additional Material For B-tag Template Method}{}% 71
+\BOOKMARK [1][-]{section.D.1}{Templates Fits in Simulation}{appendix.D}% 72
+\BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 73
+\BOOKMARK [1][-]{section.D.3}{Templates Fits in Data}{appendix.D}% 74
+\BOOKMARK [0][-]{appendix*.103}{Bibliography}{}% 75

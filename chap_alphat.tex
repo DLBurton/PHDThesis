@@ -1,9 +1,9 @@
-\chapter{SUSY searches in Hadronic Final States}
+\chapter{SUSY Searches In Hadronic Final States}
 \label{chap:SUSYsearches}
 
 In this chapter a model independent search for \ac{SUSY} in hadronic final states with $\met$ using the $\alphat$ variable and b-quark multiplicity is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrate luminosity of 11.7$\pm$0.5 fb$^{-1}$.
 
-The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to possible a \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:triggerstrategy}). 
+The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to a possible \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:triggerstrategy}). 
 
 The method in which the \ac{SM} background is estimated using an analytical technique to improve statistical precision at higher b-tag multiplicities is detailed within Section (\ref{subsec:backgroundestimation}), with a discussion on the impact of b-tagging and mis-tagging scale factors between data and MC on any background predictions. 
 
@@ -32,10 +32,10 @@ D3 (T2tt) & $ pp \rightarrow \widetilde{t}\widetilde{t}^{*} \rightarrow t\wideti
 \label{tab:sms_model_table}
 \end{table}
 
-\section{An introduction to the \alphat search}
+\section{An Introduction to the \alphat Search}
 \label{sec:alphatintroduction}
 
-The experimental signature of \ac{SUSY} signal in the hadronic channel would manifest as a final state containing energetic jets and $\met$. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
+The experimental signature of \ac{SUSY} signal in the hadronic channel would manifest itself as a final state containing energetic jets and $\met$. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
 
 \begin{equation}
 \mht =  \lvert \sum_{i=1}^{n} p_{T}^{jet_{i}} \rvert,
@@ -183,7 +183,7 @@ This characterisation is identically mirrored in all control samples, with the i
 
 
 
-\subsection{Physics Objects}
+\subsection{Physics objects}
 \label{subsec:physicsobjects}
 
 The physics objects used in the analysis defined below, follow the recommendation of the various \ac{CMS} \acf{POGs}. 
@@ -283,7 +283,7 @@ A series of Noise filters are applied to veto events which contain spurious non-
 \end{itemize}
 
 
-\subsection{Event Selection}
+\subsection{Event selection}
 \label{subsec:eventselection}
 
 The selection criteria for events within the analysis are detailed below. A set of common cuts are applied to both signal  (maximise acceptance to a range of \ac{SUSY} signatures),  and control samples (retain similar jet kinematics for background predictions), with additional selection cuts applied to each control sample to enrich the sample in a particular \ac{EWK} processes, see Section (\ref{subsec:controlsampledefinition}).
@@ -359,7 +359,7 @@ $\text{(c}$) Btag Multiplicity
 \captionof{figure}[Data/MC comparisons of key variables for the hadronic signal region.]{Data/MC comparisons of key variables for the hadronic signal region,following the application of the hadronic selection criteria and the requirements of \theht $>$ 275 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:hadmcplots}
 \end{minipage}
 
-\subsection{Control Sample Definition and Background Estimation}
+\subsection{Control sample definition and background estimation}
 \label{subsec:controlsampledefinition}
 
 The method used to estimate the background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from MC simulation in both the control, $\text{N}_{\text{MC}}^{\text{control}}$, and signal, $\text{N}_{\text{MC}}^{\text{signal}}$, region to transform the observed yield measured in data for a control sample,  $\text{N}_{\text{obs}}^{\text{control}}$, into a background prediction, $\text{N}_{\text{pred}}^{\text{signal}}$, via Equation (\ref{eq:transfactor}),
@@ -525,14 +525,15 @@ However in the case of the \mupjets and \dimupjets samples, the \alphat requirem
 The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the prediction.
 
 
-\subsection{Estimating the QCD Background Multi-jet Background}
+\subsection{Estimating the QCD multi-jet background}
 \label{subsec:qcdbackground}
 
-A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model, see Section (\ref{sec:htevolution}), is given the freedom to estimate any potential QCD multi-jet contamination. 
+A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model, see Section (\ref{subsec:htevolution}), is given the freedom to estimate any potential QCD multi-jet contamination. 
 
 Any potential contamination can be identified through the variable $R_{\alphat}$, defined as the ratio of events above and below the \alphat threshold value used in the analysis. This is modelled by a \theht dependant falling exponential function which takes the form,
 
 \begin{equation}
+\label{eq:qcdmodel}
 R_{\alphat}(\theht) =  A \exp^{-k_{QCD}\theht},
 \end{equation}
 
@@ -610,7 +611,7 @@ The efficiencies measured for the \htalphat triggers in bins indiviual \theht an
 
 Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. The photon trigger is measured to be full efficient for the threshold $\pt^{photon} > 150 \GeV$, whilst the single muon efficiency satisfying $\pt^{muon} > 30 \GeV$ is measured to have an efficiency of (88$\pm$2)\% that is independent of \theht. In the case of the \dimupjets control sample, the efficiency is measured to be (95$\pm$2)\% for the lowest \theht bin, rising to (98$\pm$2)\% for the highest \theht bin.
 
-\section{Measuring MC normalisation factors via \theht sidebands}
+\section{Measuring MC Normalisation Factors via \theht Sidebands}
 \label{subsec:mckfactors}
 
 The theoretical cross sections of different \ac{SM} processes at \acf{NNLO} and the number of MC simulated events generated for that particular process, is typically used to determine the appropriate normalisation for a MC sample. However within the particular high-\theht and high-\met corners of kinematic phase space probed within this search, the theoretical cross sections for various processes are far less well understood. 
@@ -621,6 +622,7 @@ They are defined within the \mupjets and \dimupjets control sample, by the regio
 
  \begin{table}[h!]
 \begin{center}
+\footnotesize
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
 \cline{1-5}
 Process & Selection & Observation & MC expectation & k-factor \\
@@ -635,7 +637,7 @@ $Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 
 \end{table}
 
 
-\section{Determining MC Yields With Higher Statistical Precision}
+\section{Determining MC Simulation Yields with Higher Statistical Precision}
 \label{subsec:backgroundestimation}
 
 Reconstructing events from \ac{EWK} processes with many b-tagged jets ($\geq$3),\nbreco  ,is largely driven by the mis-tagging of light jets within the event. This is clear when considering the main \ac{EWK} backgrounds in the analysis, such as \ttbar + jets events, which typically contain two b-flavoured jets from the decay of the top quarks, whilst W + jets and Z$\rightarrow \mu\mu$ + jets events will typically contain no b-flavoured jets.
@@ -696,19 +698,19 @@ Process & Selection & Observation & MC expectation & k-factor \\
 \caption[place holder]{place holder}\label{tab:sanitycheck}
 \end{table}
 
-\subsection{Correcting Measured Efficiencies In Simulation To Data}
+\subsection{Correcting measured efficiencies in simulation to data}
 \label{subsec:formulamethodsf}
 
 As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections are factored in….
 
 Show plot of before and after correction to btag/mistag rate.
 
-
 These corrections come with uncertainties…..
 
 show plot of effect of scaling correction factor up and down.
 2
-\section{Systematic Uncertainties On Transfer Factors}
+
+\section{Systematic Uncertainties on Transfer Factors}
 \label{subsec:sysuncertainties}
 
 Since the \ac{TF}'s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to each factor to account for theoretical uncertainties \cite{Bern:2011pa} and limitations in the simulation modelling of event kinematics and instrumental effects. 
@@ -889,10 +891,17 @@ For a given category of events satisfying requirements on both $n_{jet}$ and $n_
 Let $N$ be the number of bins on \theht, with $n^{i}$ the number of events observed satisfying all selection requirements in each \theht bin i. The likelihood of the observations can then be written :
 
 \begin{equation}
-L_{had} =   \Pi_{i}\text{Pois}(n^{i}\rvert b^{i} + s^{i}),
+L_{had} =   \prod_{i}\text{Pois}(n^{i}\rvert b^{i} + s^{i}),
 \end{equation}
 
-where $b^{i}$ represents the expected \ac{SM} background ($EWK_{i} + QCD_{i}$) and $s^{i}$ the expected number of signal events from the different \ac{SMS} models interpreted. Pois refers to the Poission distribution of these values and is defined as :
+where $b^{i}$ represents the expected \ac{SM} background 
+
+\begin{equation}
+\label{eq:totbacksum}
+b^{i} = EWK_{i} + QCD_{i},
+\end{equation}
+
+and $s^{i}$ the expected number of signal events from the different \ac{SMS} models interpreted. Pois refers to the Poission distribution of these values and is defined as :
 
 \begin{equation}
 \text{Pois}(\chi\rvert\lambda) = \frac{\lambda^{\chi}\exp^{-\lambda}}{k!}.
@@ -901,3 +910,77 @@ where $b^{i}$ represents the expected \ac{SM} background ($EWK_{i} + QCD_{i}$) a
 \subsection{\theht evolution model}
 \label{subsec:htevolution}
 
+The hypothesis, that for a process the \alphat ratio falls exponentially see Section (\ref{subsec:qcdbackground} ) in \theht is defined by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
+
+The expected QCD background, $QCD^{i}$, within a bin $i$ is then modelled as,
+
+\begin{equation}
+QCD^{i} = m^{i}A_{QCD}e^{-k_{QCD}\meanht},
+\end{equation}
+
+where $m_{i}$ represent the number of events observed with \alphat $\leq$ 0.55 in each \theht bin $i$, and \meanht represents the mean \theht of each bin. Expressed as functions of just the zeroth bin, $QCD^{0}$, and $k_{QCD}$, the QCD expectation is given by
+
+\begin{equation}
+QCD^{i} = QCD^{0}(\frac{m^{i}}{m^{0}})e^{-k_{QCD}(\meanht^{i}-\meanht^{0}}.
+\end{equation} 
+
+\subsection{\ac{EWK} control samples}
+\label{subsec:ewkmodel}
+
+The \ac{EWK} background estimation within each bin, $i$, is broken into two components, the expected yield from \zinv and \ttbar-W (plus other residual backgrounds) events. This is written as, $Z^{i}_{inv}$ and $\ttbar W^{i}$, and it follows that 
+
+\begin{equation}
+EWK^{i} = Z^{i}_{inv} + \ttbar W^{i}.
+\end{equation}
+
+This can be further expressed as
+
+\begin{align}
+\label{eq:zinvcontribution}
+Z^{i}_{inv} &\equiv f^{i}_{Zinv} \times EWK^{i}, \\
+\label{eq:ttwcontribution}
+\ttbar W^{i} &\equiv (1 - f^{i}_{Zinv}) \times EWK^{i},
+\end{align}
+
+where $f^{i}_{Zinv}$ represents the expected yield from \zinv in bin $i$ divided by the expected \ac{EWK} background $EWK^{i}$. This fraction is modelled as a linear component
+
+\begin{equation}
+f^{i}_{Zinv} = f^{0}_{Zinv} + \frac{\meanht^{i}-\meanht^{0}}{\meanht^{N-1}-\meanht^{0}}(f^{N-1}_{Zinv} - f^{i}_{Zinv}),
+\end{equation}
+
+where N again represents the number of \theht bins, and $f^{i}_{Zinv}$ and $f^{N-1}_{Zinv}$ are float parameters whose final values are limited between zero and one. 
+
+Within each \theht bin there are three background measurements for the different control samples, $n^{i}_{\gamma}$, $n^{i}_{\mu}$ and $n^{i}_{\mu\mu}$, representing the event yields from the \gpjets, \mupjets and \dimupjets control samples respectively. Each of these have a corresponding yield in simulation, $MC^{i}_{\gamma}$, $MC^{i}_{\mu}$ and $MC^{i}_{\mu\mu}$.  Within the hadronic signal region there are also corresponding simulated yields for \zinv ($MC^{i}_{Zinv}$) and \ttbar + W ($MC^{i}_{\ttbar+W}$), which are used to define
+
+\begin{equation}
+r^{i}_{\gamma} = \frac{MC^{i}_{\gamma}}{MC^{i}_{Zinv}}; \qquad r^{i}_{\mu\mu} = \frac{MC^{i}_{\mu\mu}}{MC^{i}_{Zinv}}; \qquad r^{i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{\ttbar + W}} \qquad,
+\end{equation}
+where $r^{i}_{p}$ represents the inverse of the \ac{TF}'s used to extrapolate the yield of each background process.
+
+The likelihoods regarding the three measured yields $n^{i}_{\gamma}$, $n^{i}_{\mu\mu}$, $n^{i}_{\mu}$ can then be fully expressed as
+
+\begin{align}
+L_{\gamma} &= \prod_{i} \text{Pois} (n^{i}_{\gamma} | \rho^{j}_{\gamma Z} . r^{i}_{\gamma} . Z^{i}_{inv}), \\
+L_{\mu\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu\mu} | \rho^{j}_{\mu\mu Z} . r^{i}_{\mu\mu} . Z^{i}_{inv}), \\
+L_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{i}_{\mu} . Y^{i} + s^{i}_{\mu}), \\
+\end{align}
+
+which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the systematic uncertainties associated with the control sample based background constraints. 
+
+Each of these equations are used to estimate the maximum likelihood value for relevant background in the signal region given the observations $n^{i}_{p}$ in each of the control samples (see Section (\ref{subsec:controlsampledefinition})).
+
+The measurements in each of the control samples and the hadronic signal region, along with the ratios $r^{i}_{\gamma}$, $r^{i}_{\mu\mu}$, and $r^{i}_{\mu}$, are all considered simultaneously through the relationships defined by Equations (\ref{eq:totbacksum}),(\ref{eq:zinvcontribution}) and (\ref{eq:ttwcontribution}).
+
+In addition to the Poission product, an additional log-normal term is introduced to accommodate the systematic uncertainties given by,
+
+\begin{equation}
+L_{EWK\ syst} = \prod_{j}
+\end{equation}
+
+where $\sigma^{j}_{\gamma Z}$, $\sigma^{j}_{\mu\mu Z}$ and $\sigma^{j}_{\mu W}$ represent the relative systematic uncertainties for the control sample constraints and Logn is the log-normal distribution \cite{logndistribution},
+
+\begin{equation}
+\text{Logn}(x\ |\ \xspace \mu, \sigma_{rel}) = 
+\end{equation}
+
+Hello.
