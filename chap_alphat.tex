@@ -974,13 +974,109 @@ The measurements in each of the control samples and the hadronic signal region, 
 In addition to the Poission product, an additional log-normal term is introduced to accommodate the systematic uncertainties given by,
 
 \begin{equation}
-L_{EWK\ syst} = \prod_{j}
+L_{EWK\ syst} = \prod_{j} \text{Logn}(1.0|\rho^{j}_{\mu W},\sigma^{j}_{\mu W} ) \times \text{Logn}(1.0|\rho^{j}_{\mu\mu Z},\sigma^{j}_{\mu\mu Z} ) \times \text{Logn}(1.0|\rho^{j}_{\gamma Z},\sigma^{j}_{\gamma Z} ), 
 \end{equation}
 
 where $\sigma^{j}_{\gamma Z}$, $\sigma^{j}_{\mu\mu Z}$ and $\sigma^{j}_{\mu W}$ represent the relative systematic uncertainties for the control sample constraints and Logn is the log-normal distribution \cite{logndistribution},
 
 \begin{equation}
-\text{Logn}(x\ |\ \xspace \mu, \sigma_{rel}) = 
+\text{Logn}(x\ |\ \xspace \mu, \sigma_{rel}) = \frac{1}{x\sqrt{2\pi}\text{ln k}}\exp\left(\frac{\text{ln}^{2}(\frac{x}{\mu})}{2\text{ln}^{2}\text{k}}\right); \quad k = 1 + \sigma_{rel}.
 \end{equation}
 
-Hello.
+Five parameters per control sample are used to span the eight \theht bins, with just one used for the three \theht bins in the $n_{b}^{reco} \geq 4$ category. These parameters span the same \theht ranges described in Section (\ref{subsec:sysuncertainties}) and is shown in Table \ref{tab:systtable}.
+
+ \begin{table}[h!]
+ \footnotesize
+ \parbox{0.65\linewidth}{
+\begin{tabular}{|l|cccccccc|}
+\cline{1-9}
+\theht bin (i) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\cline{1-9}
+syst. parameter (j) & 0 & 1 & 2 & 2 & 3 & 3 & 4 & 4 \\
+\cline{1-9}
+\end{tabular}
+}
+\hfill
+\parbox{.30\linewidth}{
+\begin{tabular}{|l|ccc|}
+\cline{1-4}
+\theht bin (i) & 0 & 1 & 2  \\
+\cline{1-4}
+syst. parameter (j) & 0 & 0 & 0 \\
+\cline{1-4}
+\end{tabular}
+}
+\caption[The systematic parameters used in \theht bins.]{The systematic parameters used in \theht bins. Left: categories with eight bins; right: category with three bins.}\label{tab:systtable}
+\end{table}
+
+Alternatively, in the higher $n_{b}^{reco}$ categories ($n_{b}^{reco} = 3$, $n_{b}^{reco} \geq 4$), the single muon sample is used to constrain the total \ac{EWK} background. Therefore the likelihood function is greatly simplified and is represented by
+
+\begin{equation}
+L^{'}_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{'i}_{\mu} . EWK^{i} + s^{i}_{\mu}), \\
+\end{equation}
+
+where,
+
+\begin{equation}
+r^{'i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{tot}}.
+\end{equation}
+
+\subsection{Contributions from signal}
+\label{subsec:signalcontribution}
+
+The cross section for each model is represented by $x$ and $l$ represents the total recorded luminosity considered by the analysis in the signal region. Let $\epsilon^{i}_{had}$ and $\epsilon^{i}_{\mu}$ represent the analysis selection efficiency for that particular signal model in \theht bin $i$ of the hadronic and \mupjets control sample respectively. Letting $\delta$ represent the relative uncertainty on the signal yield, assumed to be fully correlated across all bins, and $\rho_{sig}$ the ``correction factor'' to the signal yield which accommodates this uncertainty. $f$ represents an unknown multiplicative factor on the signal cross section, for which an allowed interval is computed.
+
+The expected signal yield $s^{i}$ is thus given by
+
+\begin{equation}
+s^{i} \equiv f\rho_{sig}xl\epsilon^{i}_{had}
+\end{equation}
+
+and signal contamination with the \mupjets control sample by
+
+\begin{equation}
+s^{i}_{\mu} \equiv f\rho_{sig}xl\epsilon^{i}_{\mu}
+\end{equation}
+
+The systematic uncertainty on the signal is additionally included by the term
+
+\begin{equation}
+L_{sig} = \text{Logn}(1.0|\rho_{sig},\delta).
+\end{equation}
+
+A discussion of the \ac{SMS} signal models through which the analysis is interpreted, including a discussion on the signal efficiencies and systematics can be found in the following Chapter. 
+
+\subsection{Total likelihood}
+\label{subsec:totallikelihood}
+
+The total likelihood function for a given signal bin k($n_{b}^{reco}$, $n_{jet}$) is given by the product of the likelihood functions introduced within the previous sections:
+
+\begin{equation}
+L^{k} = L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
+\end{equation}
+
+In categories containing eight \theht bins and utilising the three control samples (\mupjets,\dimupjets,\gpjets), there are 25 nuisance parameters, whilst when just one control sample is used to estimate the \ac{EWK} background, there are 15 nuisance parameters. Where three \theht bins are used (the highest $n_{b}^{reco}$ category), there are 6 nuisance parameters. This information is summarised within Table \ref{tab:nuisanceparameters}.
+
+ \begin{table}[h!]
+\begin{center}
+\begin{tabular*}{0.45\textwidth}{@{\extracolsep{\fill}}lc}
+Nuisance parameter & Total \\
+\cline{1-2}
+$(EWK^{i})_{\ i\ : 0-7(2)}$ & 8 (3) \\
+$f^{0}_{Zinv}$ $^{*}$ & 1 \\
+ $f^{7}_{Zinv}$ $^{*}$ & 1 \\
+ $QCD^{0}$ & 1 \\
+ $k_{QCD}$ & 1 \\
+ $(\rho^{j}_{\gamma Z})_{\ j \ : 2-4}$ $^{*}$ & 3 \\
+ $(\rho^{j}_{\mu\mu Z})_{\ j \ : 0-4}$  $^{*}$ & 5 \\
+ $(\rho^{j}_{\mu W})_{\ j \ : 0-4(0)}$ & 5 (1) \\
+\end{tabular*}
+\end{center}
+\caption[Nuisance parameters used within the different hadronic signal bins of the analysis]{Nuisance parameters used within the different hadronic signal bins of the analysis. Parameters denoted by a $^{*}$ are not considered in the case of a single control sample being used to predict the \ac{EWK} background. Numbers within brackets highlight the number of nuisance parameters in the case of three \theht bins being used.}\label{tab:nuisanceparameters}
+\end{table}
+
+When considering \ac{SUSY} signal models within the likelihood, an additional parameter is introduced, $\rho_{sig}$. When multiple categories are fit simultaneously the total likelihood is then represented by 
+
+\begin{equation}
+L =  L_{sig} \times \prod_{k} L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
+\end{equation}
