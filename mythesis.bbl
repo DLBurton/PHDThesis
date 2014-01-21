@@ -339,13 +339,56 @@ Z.~Bern, G.~Diana, L.~Dixon, F.~Febres~Cordero, S.~Hoche, {\em et~al.},
   ``{Driving Missing Data at Next-to-Leading Order},'' {\em Phys.Rev.},
   vol.~D84, p.~114002, 2011.
 
+\bibitem{Beenakker:1996ch}
+W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark and gluino
+  production at hadron colliders},'' {\em Nucl.Phys.}, vol.~B492, pp.~51--103,
+  1997.
+
+\bibitem{btagscalefactor}
+C.~Collaboration, ``Cms btag pog : Cms b-tagging performance database.''
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG, 2013.
+
 \bibitem{logndistribution}
 R.~Cousings, ``Probability density functions for positive nuisance
   parameters.''
   http://www.physics.ucla.edu/cousins/stats/cousinslognormalprior.pdf., 2012.
 
-\bibitem{btagscalefactor}
-C.~Collaboration, ``Cms btag pog : Cms b-tagging performance database.''
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG, 2013.
+\bibitem{2010acat.confE..57M}
+L.~{Moneta}, K.~{Cranmer}, G.~{Schott}, and W.~{Verkerke}, ``{The RooStats
+  project},'' in {\em Proceedings of the 13th International Workshop on
+  Advanced Computing and Analysis Techniques in Physics Research. February
+  22-27, 2010, Jaipur, India. http://acat2010.cern.ch/. Published online at <A
+  href=''http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=93''>http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=93</A>,
+  p.57}, 2010.
+
+\bibitem{James:1975dr}
+F.~James and M.~Roos, ``{Minuit: A System for Function Minimization and
+  Analysis of the Parameter Errors and Correlations},'' {\em
+  Comput.Phys.Commun.}, vol.~10, pp.~343--367, 1975.
+
+\bibitem{0954-3899-28-10-313}
+A.~L. Read, ``Presentation of search results: the cl s technique,'' {\em
+  Journal of Physics G: Nuclear and Particle Physics}, vol.~28, no.~10,
+  p.~2693, 2002.
+
+\bibitem{Junk1999435}
+T.~Junk, ``Confidence level computation for combining searches with small
+  statistics,'' {\em Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  vol.~434, no.~2‚Äì3, pp.~435 -- 443, 1999.
+
+\bibitem{Read:451614}
+A.~L. Read, ``{Modified frequentist analysis of search results (the $CL_{s}$
+  method)},'' no.~CERN-OPEN-2000-205, 2000.
+
+\bibitem{asymptotictest}
+G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic formulae for
+  likelihood-based tests of new physics,'' {\em The European Physical Journal
+  C}, vol.~71, no.~2, pp.~1--19, 2011.
+
+\bibitem{2011EPJClimits}
+G.~{Cowan}, K.~{Cranmer}, E.~{Gross}, and O.~{Vitells}, ``{Asymptotic formulae
+  for likelihood-based tests of new physics},'' {\em European Physical Journal
+  C}, vol.~71, p.~1554, Feb. 2011.
 
 \end{thebibliography}

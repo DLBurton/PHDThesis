@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: ieeetr.bst
 Database file #1: mythesis.bib
+Warning--I didn't find a database entry for "["
 Warning--empty author and editor in introtoparticles
 Warning--empty journal in Martin:1997ns
 Warning--empty journal in Shadmi:2006jv
@@ -25,45 +26,46 @@ Warning--empty author in CMS-PAS-SUS-09-001
 Warning--empty author in CMS-PAS-JME-09-008
 Warning--empty author in CMS-PAS-SUS-12-018
 Warning--empty author in CMS-PAS-SUS-08-002
-You've used 82 entries,
+Warning--empty journal in Read:451614
+You've used 90 entries,
             1876 wiz_defined-function locations,
-            935 strings with 13808 characters,
-and the built_in function-call counts, 19094 in all, are:
-= -- 1971
-> -- 568
+            987 strings with 15472 characters,
+and the built_in function-call counts, 21188 in all, are:
+= -- 2175
+> -- 644
 < -- 8
-+ -- 231
-- -- 149
-* -- 1205
-:= -- 2613
-add.period$ -- 89
-call.type$ -- 82
-change.case$ -- 76
++ -- 260
+- -- 170
+* -- 1352
+:= -- 2907
+add.period$ -- 97
+call.type$ -- 90
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1136
-empty$ -- 1803
-format.name$ -- 149
-if$ -- 4811
+cite$ -- 113
+duplicate$ -- 1255
+empty$ -- 2002
+format.name$ -- 170
+if$ -- 5335
 int.to.chr$ -- 0
-int.to.str$ -- 82
-missing$ -- 72
-newline$ -- 256
-num.names$ -- 71
-pop$ -- 222
+int.to.str$ -- 90
+missing$ -- 80
+newline$ -- 280
+num.names$ -- 79
+pop$ -- 245
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 823
+skip$ -- 904
 stack$ -- 0
-substring$ -- 1012
-swap$ -- 516
+substring$ -- 1130
+swap$ -- 567
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 153
-width$ -- 84
-write$ -- 777
-(There were 22 warnings)
+warning$ -- 23
+while$ -- 171
+width$ -- 92
+write$ -- 856
+(There were 24 warnings)

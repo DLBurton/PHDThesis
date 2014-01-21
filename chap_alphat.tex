@@ -11,20 +11,21 @@ A description of the formulation of appropriate systematic uncertainties applied
 
 Finally the statistical likelihood model to interpret the observations in the signal and control samples is described in Section (\ref{sec:statframework}). The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, the topologies of which are detailed in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summariesed in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
 
-Within the table are also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expected sensitivity reach of the search.
+Within the table are also defined reference points, parameterised in terms of parent gluino/squark and \ac{LSP} sparticle masses, m$_{parent}$ and m$_{LSP}$, respectively, which are used within the following two chapters to demonstrate potential yields within the signal region of the search. The masses are chosen to reflect parameter space which is within the expected sensitivity reach of the search.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
 \begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}llcc}
-\cline{1-4}
+\hline
 Model & Production/decay mode &  \multicolumn{2}{c}{Reference model}\\ 
-&& m$_{parent}$ & m$_{LSP}$ \\  \cline{1-4}
-G1 (T1) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ & 700 & 300 \\
-G2 (T1bb) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ & 900 & 500 \\
-G3 (T1tt) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow t\bar{t}\widetilde{\chi}^{0}_{1}t\bar{t}\widetilde{\chi}^{0}_{1}$ & 850 & 250 \\
-D1 (T2) & $ pp \rightarrow \widetilde{q}\widetilde{q}^{*} \rightarrow q\widetilde{\chi}^{0}_{1}\bar{q}\widetilde{\chi}^{0}_{1}$ & 600 & 250 \\
-D2 (T2bb) & $ pp \rightarrow \widetilde{b}\widetilde{b}^{*} \rightarrow b\widetilde{\chi}^{0}_{1}\bar{b}\widetilde{\chi}^{0}_{1}$ & 500 & 150 \\
-D3 (T2tt) & $ pp \rightarrow \widetilde{t}\widetilde{t}^{*} \rightarrow t\widetilde{\chi}^{0}_{1}\bar{t}\widetilde{\chi}^{0}_{1}$ & 400 & 0 \\
+&& m$_{parent}$ & m$_{LSP}$ \\  \hline\hline
+G1 (\texttt{T1}) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ & 700 & 300 \\
+G2 (\texttt{T1bbbb}) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ & 900 & 500 \\
+G3 (\texttt{T1tttt}) & $ pp \rightarrow \widetilde{g}\widetilde{g}^{*} \rightarrow t\bar{t}\widetilde{\chi}^{0}_{1}t\bar{t}\widetilde{\chi}^{0}_{1}$ & 850 & 250 \\
+D1 (\texttt{T2}) & $ pp \rightarrow \widetilde{q}\widetilde{q}^{*} \rightarrow q\widetilde{\chi}^{0}_{1}\bar{q}\widetilde{\chi}^{0}_{1}$ & 600 & 250 \\
+D2 (\texttt{T2bb}) & $ pp \rightarrow \widetilde{b}\widetilde{b}^{*} \rightarrow b\widetilde{\chi}^{0}_{1}\bar{b}\widetilde{\chi}^{0}_{1}$ & 500 & 150 \\
+D3 (\texttt{T2tt}) & $ pp \rightarrow \widetilde{t}\widetilde{t}^{*} \rightarrow t\widetilde{\chi}^{0}_{1}\bar{t}\widetilde{\chi}^{0}_{1}$ & 400 & 0 \\
 \cline{1-4}
 \end{tabular*}
 \end{center}
@@ -201,11 +202,12 @@ To ensure the jet object falls within the calorimeter systems a pseudo-rapidity 
 Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in the signal region. The same cut based identification criteria is applied to muons in both search regions and is summarised in Table \ref{tab:muonidtable} \cite{1748-0221-7-10-P10002}.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
 \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ll}
 \cline{1-2}
 Categories & Criteria \\ 
-\cline{1-2}
+\hline\hline
 Global Muon & True \\
 PFMuon & True \\
 $\chi^{2}$ & $<$ 10 \\
@@ -230,11 +232,12 @@ Additionally muons are required to be within the acceptance of the muon tracking
 Photons are selected within the \gpjets control sample and vetoed in all other selections. Photons are identified in both cases according to the cut based criteria listed in Table \ref{tab:photonidtable} \cite{CMS-PAS-SUS-12-018}.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
 \begin{tabulary}{0.80\textwidth}{LL}
 \cline{1-2}
 Variable & Definition \\ 
-\cline{1-2}
+\hline\hline
 H/E $< $ 0.05  \qquad\qquad\qquad\qquad\qquad\qquad & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself. \\
 $\sigma_{i\eta i\eta}< 0.011$ \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad  & The log energy weighted width ($\sigma$), of the extent of the shower in the $\eta$ dimension.\\
 R9 $<$ 1.0 & The ratio of the energy of the 3$\times$3 crystal core of the super-cluster compared to the total energy stored in the 5$\times$5 super-cluster. \\
@@ -253,11 +256,12 @@ Photon objects are also required to have a minimum momentum of \pt $>$ 25 \GeV.
 Electron identification is defined for veto purposes. They are selected according to the following cut-based criteria listed in Table \ref{tab:electronidtable}, utilising PF-based isolation.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
 \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}lcc}
 \cline{1-3}
 Categories & Barrel &  EndCap\\ 
-\cline{1-3}
+\hline\hline
 $\Delta \eta_{In}$ & 0.007 & 0.009 \\
 $\Delta \phi_{In}$ & 0.15 & 0.10 \\
 $\sigma_{i\eta i\eta}$ & 0.01 & 0.03 \\
@@ -293,16 +297,15 @@ The jets considered in the analysis are required to have a transverse momentum \
 At low \theht, the jet threshold requirements applied to be considered as part of the analysis and enter the \theht sum are scaled downwards. These are scaled down in order to not restrict phase space, preserving jet multiplicities and background admixture in the lower \theht bins, as listed in Table \ref{tab:jetthresholdtable}.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
-\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}|l|c|c|}
-\cline{1-3}
-\theht bin & minimum jet \pt &  second leading jet \pt \\ 
-\cline{1-3}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}lcc}
+\hline
+\multicolumn{1}{c}{\theht bin} & minimum jet \pt &  second leading jet \pt \\
+\hline \hline
 275 $<$ \theht$<$ 325 & 36.7 & 73.3 \\
 325 $<$ \theht$<$ 375 & 43.3 & 86.6 \\
 375 $<$ \theht & 50.0 & 100.0 \\
-
-\cline{1-3}
 \end{tabular*}
 \end{center}
 \caption[Jet thresholds used in the three \theht regions of the analysis.]{Jet thresholds used in the three \theht regions of the analysis.}
@@ -559,11 +562,12 @@ Finally the same procedure is performed for sideband region D to establish that 
 Table \ref{tab:kqcdresults}, summarises the best fit $k_{QCD}$ values determined for each of the sideband regions to the signal region.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ccc}
-\cline{1-3}
+\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}ccc}
+\hline
 Sideband region & $k_{QCD}$($\times 10^{-2} \GeV^{-1})$ & $p-$value\\ 
-\cline{1-3}
+\hline\hline
 B & 2.96 $\pm$ 0.64 & 0.24 \\
 C$_{1}$ & 1.19 $\pm$ 0.45 & 0.93 \\
 C$_{2}$ & 1.47 $\pm$ 0.37 & 0.42 \\
@@ -571,7 +575,6 @@ C$_{3}$ & 1.17 $\pm$ 0.55 & 0.98 \\
 \cline{1-3}
 C(weighted mean) & 1.31 $\pm$ 0.26 & - \\
 D(likelihood fit) & 1.31 $\pm$ 0.09 & 0.57 \\
-\cline{1-3}
 \end{tabular*}
 \end{center}
 \caption[Best fit values for the parameters $k_{QCD}$ obtained from sideband regions B,C$_{1}$,C$_{2}$,C$_{3}$. ]{Best fit values for the parameters $k_{QCD}$ obtained from sideband regions B,C$_{1}$,C$_{2}$,C$_{3}$. The weighted mean is determined from the three measurements made within sideband region C. The maximum likelihood value of $k_{QCD}$ given by the simultaneous fit using sideband region D. Quotes errors are statistical only. }
@@ -593,16 +596,16 @@ The selection for the trigger efficiency measurement is identical to that descri
 The efficiencies measured for the \htalphat triggers in bins indiviual \theht and \alphat legs, is summarised in Table \ref{tab:trigeffs}.
 
 \begin{table}[h!]
+\footnotesize
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ccc}
-\cline{1-3}
+\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}ccc}
+\hline
 \theht range (\GeV) & $\epsilon$ on \theht leg (\%) & $\epsilon$ on \alphat leg (\%) \\ 
-\cline{1-3}
+\hline\hline
 275-325 & $87.7^{+1.9}_{-1.9}$ & $82.8^{+1.0}_{-1.1}$ \\
 325-375 & 90.6$^{+2.9}_{-2.9}$ & 95.9$^{+0.7}_{-0.9}$ \\
 375-475 & 95.7$^{+0.1}_{-0.1}$ & 98.5$^{+0.5}_{-0.9}$ \\
 475-$\infty$ & 100.0$^{+0.0}_{-0.0}$ & 100.0$^{+0.0}_{-4.8}$ \\
-\cline{1-3}
 \end{tabular*}
 \end{center}
 \caption[Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins.]{Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins. The product of the two legs gives the total efficiency of the trigger in a given offline \theht bin.}
@@ -624,13 +627,12 @@ They are defined within the \mupjets and \dimupjets control sample, by the regio
 \begin{center}
 \footnotesize
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
-\cline{1-5}
+\hline
 Process & Selection & Observation & MC expectation & k-factor \\
-\cline{1-5}
+\hline\hline
 W + jets & \mupjets, n$_{b}$=0, n$_{jet}$ = 2,3 &26950 & 29993.2 $\pm$ 650.1 & 0.90 $\pm$ 0.02 \\
 $Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 3402.0 $\pm$ 43.9 & 0.92 $\pm$ 0.02 \\
 \ttbar & \mupjets, n$_{b}$=2, n$_{jet}$ = $\geq$4 & 2190 & 1967.8 $\pm$ 25.1 & 1.11 $\pm$ 0.02 \\
-\cline{1-5}
 \end{tabular*}
 \end{center}
 \caption[k-factors calculated for different \ac{EWK} processes.]{k-factors calculated for different \ac{EWK} processes. All k-factors are derived relative to theoretical cross sections calculated in \ac{NNLO}. The k-factors measured for the Z$\rightarrow \mu\mu$ + jets processes, are also applied to the \zinv + jets and \gpjets MC samples.}\label{tab:mckfactors}
@@ -668,9 +670,9 @@ The assigning of jet flavours to reconstruction level jets in simulation is achi
 
 Within each individual MC process and each \theht-$n_{jet}$ bin in the analysis, the \nbreco distribution is constructed in the following way:
 
- Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets. Light quarks are defined as those which originate from a \textit{u},\textit{d},\textit{s},\textit{g} and $\tau$ jets which are grouped together having similar mis-tagging rates.  Similarly defining \eff, \ceff and \textit{m}, which represent the measured b-tagging,c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
+ Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks are defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  Similarly \eff, \ceff and \textit{m} represent the measured b-tagging, c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
  
- Using this information the expected number of jets which have been b-tagged can be analytically calculated using the formula :
+ Using this information the expected $n_{b}^{reco}$ distribution can be analytically calculated using the formula :
 
 \begin{align}
 \label{eq:btagformula}
@@ -690,9 +692,9 @@ In order to validate the procedure, the predictions obtained from the formula me
  \begin{table}[h!]
 \begin{center}
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
-\cline{1-5}
+\hline
 Process & Selection & Observation & MC expectation & k-factor \\
-\cline{1-5}
+\hline\hline
 \end{tabular*}
 \end{center}
 \caption[place holder]{place holder}\label{tab:sanitycheck}
@@ -760,34 +762,36 @@ For the case of the \mupjets and \dimupjets control samples this test this is al
 To test for the assumption that no \theht dependences exist within the background predictions of the analysis, the first five closure tests defined above are taken, with zeroeth and first order polynomial fits are applied to each. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
 
  \begin{table}[h!]
+ \footnotesize
 \begin{center}
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
 \cline{1-6}
-& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
-\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
-\cline{1-6}
+\multicolumn{2}{c}{} & \multicolumn{2}{c}{Constant fit} & \multicolumn{2}{c}{Linear fit} \\ 
+\footnotesize{Closure test} & \multicolumn{1}{c}{Symbol} & \footnotesize{Best fit value} & \multicolumn{1}{c}{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\hline\hline
 \footnotesize{\alphat $< 0.55 \rightarrow \alphat > 0.55$ (\mupjets)} & \footnotesize{Circle} & $-0.06 \pm 0.02$ & 0.93 & $-1.3 \pm 2.2$ & 0.91 \\ 
 \footnotesize{0 b-jets $\rightarrow$ 1 b-jet (\mupjets)} & \footnotesize{Square} & $ \footnotesize{\quad}0.07 \pm 0.02$ & 0.98 & $-1.6 \pm 1.6$ & 1.00 \\ 
 \footnotesize{1 b-jets $\rightarrow$ 2 b-jet (\mupjets)} & \footnotesize{Triangle} & $ -0.07 \pm 0.03$ & 0.76 & $-2.7 \pm 3.0$ & 0.76 \\ 
 \footnotesize{\mupjets $\rightarrow$ \dimupjets} & \footnotesize{Cross} & $ \footnotesize{\quad}0.10 \pm 0.03$ & 0.58 & $-1.1 \pm 2.3$ & 0.49 \\ 
-\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.06 \pm 0.04$ & 0.31 & $\footnotesize{\quad}4.2 \pm 4.3$ & 0.29 \\ \cline{1-6}
+\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.06 \pm 0.04$ & 0.31 & $\footnotesize{\quad}4.2 \pm 4.3$ & 0.29 \\ 
 \end{tabular*}
 \end{center}
 \caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitslow}
 \end{table}
 
  \begin{table}[h!]
+\footnotesize
 \begin{center}
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
-\cline{1-6}
-& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
-\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
-\cline{1-6}
+\hline
+\multicolumn{2}{c}{} & \multicolumn{2}{c}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
+\footnotesize{Closure test} & \multicolumn{1}{c}{Symbol} & \footnotesize{Best fit value} & \multicolumn{1}{c}{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\hline\hline
 \footnotesize{\alphat $< 0.55 \rightarrow \alphat > 0.55$ (\mupjets)} & \footnotesize{Circle} & $-0.05 \pm 0.03$ & 0.21 &  $\footnotesize{\quad}3.0 \pm 2.9$ & 0.21 \\ 
 \footnotesize{0 b-jets $\rightarrow$ 1 b-jet (\mupjets)} & \footnotesize{Square} & $ -0.03 \pm 0.03$ & 0.55 & $-1.0 \pm 1.9$ & 0.47 \\ 
 \footnotesize{1 b-jets $\rightarrow$ 2 b-jet (\mupjets)} & \footnotesize{Triangle} & $ -0.02 \pm 0.03$ & 0.39 & $ \footnotesize{\quad}1.1 \pm 2.2$ & 0.31 \\ 
 \footnotesize{\mupjets $\rightarrow$ \dimupjets} & \footnotesize{Cross} & $  \footnotesize{\quad}0.08 \pm 0.07$ & 0.08 &  $\footnotesize{\quad}4.8 \pm 4.3$ & 0.07 \\ 
-\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.03 \pm 0.10$ & 0.72 & $-4.0 \pm 7.0$ & 0.64 \\ \cline{1-6}
+\footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.03 \pm 0.10$ & 0.72 & $-4.0 \pm 7.0$ & 0.64 \\ 
 \end{tabular*}
 \end{center}
 \caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $n_{jet} \geq$ 4 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $ n_{jet} \geq$ q bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitshigh}
@@ -796,17 +800,17 @@ To test for the assumption that no \theht dependences exist within the backgroun
 Table \ref{tab:closuretestfitsall} shows the same fits applied to the three closure tests that probe the modelling between the different $n_{jet}$ bins. The best fit value and its uncertainty is listed for each set of closure tests in all three tables, along with the p-value of the constant and linear fits applied. 
 
  \begin{table}[h!]
+ \footnotesize
 \begin{center}
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ll|cc|cc}
-\cline{1-6}
-& & \multicolumn{2}{c|}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
-\footnotesize{Closure test} & \footnotesize{Symbol} & \footnotesize{Best fit value} & \footnotesize{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
-\cline{1-6}
+\hline
+\multicolumn{2}{c}{} & \multicolumn{2}{c}{\footnotesize{Constant fit}} & \multicolumn{2}{c}{\footnotesize{Linear fit}} \\ 
+\footnotesize{Closure test} & \multicolumn{1}{c}{Symbol} & \footnotesize{Best fit value} & \multicolumn{1}{c}{p-value} & \footnotesize{Slope (10$^{-4}$)} & \footnotesize{p-value} \\
+\hline\hline
 \footnotesize{\mupjets} & \footnotesize{Inverted triangle} & $-0.03 \pm 0.02$ & 0.02 & $\footnotesize{\quad}0.0 \pm 1.0$ & 0.01 \\ 
 \footnotesize{\mupjets (outlier removed)} & \footnotesize{Inverted triangle} & $-0.04 \pm 0.01$ & 0.42 & $-1.4 \pm 1.1$ & 0.49 \\ 
 \footnotesize{\gpjets} & \footnotesize{Diamond} & $  \footnotesize{\quad}0.12 \pm 0.05$ & 0.79 & $\footnotesize{\quad}6.0 \pm 4.7$ & 0.94 \\ 
 \footnotesize{\dimupjets} & \footnotesize{Asterisk} & $ -0.04 \pm 0.07$ & 0.20 &  $\footnotesize{\quad}4.9 \pm 4.4$ & 0.20 \\ 
-\cline{1-6}
 \end{tabular*}
 \end{center}
 \caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ njet $\leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ njet $\leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitsall}
@@ -823,35 +827,22 @@ In addition the best fit values for the slope terms of the linear fits in all th
 
 Once it has been established that no significant bias or trend has been exist within the closure tests, systematic uncertainties are determined. The statistical precision of the closure tests is considered a suitable benchmark for determining the systematic uncertainties that are assigned to the \ac{TF}'s, which are propagated through to the likelihood fit.
 
-The systematic uncertainty band is split into five separate regions of \theht :
-
-\begin{enumerate}
-\singlespacing
-\item 275 $<$ \theht $<$ 325\GeV
-\item 325 $<$ \theht $<$ 375\GeV
-\item 375 $<$ \theht $<$ 575\GeV
-\item 575 $<$ \theht $<$ 775\GeV
-\item \theht $>$ 775 \GeV
-\end{enumerate}
- \onehalfspacing
-
-Within each region the square root of the sample variance, $\sigma^{2}$, is taken over the eight closure tests to determine the systematic uncertainties to be applied within that region.
+The systematic uncertainty band is split into five separate regions of \theht. Within each region the square root of the sample variance, $\sigma^{2}$, is taken over the eight closure tests to determine the systematic uncertainties to be applied within that region.
 
 Using this procedure the systematic uncertainties for each region are calculated and are shown in Table \ref{tab:sysuncert}, with the systematic uncertainty to be used in the likelihood model conservatively rounded up to the nearest decile, shown in brackets.
 
  \begin{table}[h!]
+ \footnotesize
 \begin{center}
 \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lcc}
 \cline{1-3}
 \theht band (\GeV)& $2 \leq n_{jet} \leq 3$ & $n_{jet} \geq 4$ \\
-\cline{1-3}
+\hline\hline
 275 $<$ \theht $<$ 325 & 6 (10)\%  & 3 (10)\% \\
 325 $<$ \theht $<$ 375& 6 (10)\%  & 6 (10)\% \\
 375 $<$ \theht $<$ 575& 7 (10)\%  & 9 (10)\% \\
 575 $<$ \theht $<$ 775& 13 (20)\%  & 15 (20)\% \\
 \theht $>$ 775& 19 (20)\%  & 21 (30)\% \\
-
-\cline{1-3}
 \end{tabular*}
 \end{center}
 \caption[Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. ]{Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. Uncertainties shown for both jet multiplicity categories. Values used within the likelihood model are conservatively rounded up to the nearest decile and shown in brackets.}\label{tab:sysuncert}
@@ -864,12 +855,12 @@ Figure \ref{fig:uncertaintyplots} shows the sets of closure tests overlaid on to
 \centering
 \begin{minipage}[b]{0.85 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/syst-le3j.pdf}
-(a)  
+\centering(a)  
 \end{minipage}
 \quad
 \begin{minipage}[b]{0.85\linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/syst-ge4j.pdf}
-(b) 
+\centering(b) 
 \end{minipage}
 \caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{jet} \leq 3$ and (b) $n_{jet} \geq 4$.}
 \label{fig:uncertaintyplots}
@@ -880,6 +871,129 @@ As already referenced. These closure tests represent a conservative estimate of 
 This point is emphasised when we examine the sensitivity of the \ac{TF}'s to a change in the admixture of W + jets and \ttbar with the control and signal samples. This is accomplished by varying the cross sections of the W +jets and \ttbar by +20\% and -20\%, respectively. Figures \ref{fig:xsecvariedle3j} and \ref{fig:xsecvariedge4j} within Appendix \ref{app:backgroundestimation}, show the effect upon the closure tests for both jet multiplicity categories. Given these variations in cross sections, the level of closure is found to be significantly worse, with biases as large as $\sim$ 30\%, most apparent in the lowest \theht bins. However the \ac{TF}'s used to extrapolate from control to signal are seen to change only at the percent level by this large change in cross section, shown in Table \ref{tab:xsecvaried}.
 
 Given the robust behaviour of the translation factors with respect to large (and opposite) variations in the W + jets and \ttbar cross sections, one can assume with confidence that any bias in the translation factors is adequately (and conservatively) covered by the systematic uncertainties used in the analysis.
+
+\section{Simplified Models, Efficiencies and Systematic Uncertainties}
+\label{sec:smsmodels}
+
+The results of the analysis are interpreted using various \ac{SMS} signal models as already introduced in Section (\ref{subsec:sms}). Each model is parameterised in a two dimensional parameter space, ($m_{\widetilde{q}/\widetilde{g}}$, $m_{LSP}$), from which upper limits on the production cross sections of the various \ac{SMS} models can be set.
+
+Each signal sample is generated at \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch} using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for the effects on the b-tagging rate between \texttt{Fastsim} and \texttt{Fullsim} and are detailed in Section (\ref{subsec:smsbtagreweighting}). 
+
+\subsection{Signal efficiency}
+
+The analysis selection efficiency, \epsilon, is measured for each mass point of the interpreted model, this serves as a measure of the sensitivity of the signal selection for that particular sparticle and \ac{LSP} mass . The signal yield is then given by
+
+\begin{equation}
+Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \mathcal{L},
+\end{equation}
+
+where $\sigma$ represents the model's cross section and $\mathcal{L}$ the luminosity. An upper limit on \sigma taken from theory can then allow for the setting of limits in terms of the particle mass. 
+
+Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the signal selection for the \texttt{T1} and \texttt{T2} \ac{SMS} models interpreted in this analysis. The efficiency maps are produced with the requirement $\theht >$ 275 \GeV (i.e., no binning in \theht) and requirements on $n_{jet}$ and $n_{b}^{reco}$ that are appropriate for the model in question.
+
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.45 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/t1_signal_eff.pdf}
+\centering(a) Model \texttt{T1}, $n_{jet} \geq 4$, $n_{b}^{reco} = 0$ 
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/t2_signal_eff.pdf}
+\centering(b)  Model \texttt{T2}, $n_{jet} \leq 3$, $n_{b}^{reco} = 0$ 
+\end{minipage}
+\caption[Signal efficiencies fo the \ac{SMS} models (a) \texttt{T1} and (b) \texttt{T2}.]{Signal efficiencies for the \ac{SMS} models (a) \texttt{T1} ($\widetilde{g}\widetilde{g}^{*}\rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$) and (b) \texttt{T2} ($ \widetilde{q}\widetilde{q}^{*} \rightarrow q\widetilde{\chi}^{0}_{1}\bar{q}\widetilde{\chi}^{0}_{1}$) when requiring $n_{jet} \geq 4$ and $\leq 3$ respectively, and $n_{b}^{reco} = 0$.}
+\label{fig:smsefficiencyplots}
+\end{figure}
+
+
+The same procedure is conducted in the analysis control samples. It is found in the \mupjets control samples, that the S/B ratios for the expected signal yields in each of the \ac{SMS} models are many times ($\sim$40-100) smaller than in the hadronic signal region. The relative contamination for the \dimupjets sample is smaller still due to the requirement of a second muon. The relative contamination for the \gpjets sample is expected to be zero for the models under consideration. These small, relative levels of contamination are accounted for in the fitting procedure, as described in Section (\ref{subsec:signalcontribution}).
+
+
+\subsection{Applying b-tag scale factor corrections in signal samples}
+\label{subsec:smsbtagreweighting}
+
+High-statistic \texttt{FastSim} signal simulation samples are unavailable for each signal signal point, which means that a different procedure to the formula method described in Section (\ref{subsec:backgroundestimation}) is employed. Furthermore, the use of the \texttt{FastSim} framework in the reconstruction introduces an extra set of scale-factor corrections, to be applied simultaneously with those correcting the full-simulation to the data. 
+
+For these signal models, an event-by-event re-weighting procedure is applied. This applied weight depends on both the flavour content and the b-tagging status of the reconstruction level jets in the event. 
+
+The re-weighting procedure can be described by first considering a single jet in an signal sample event. The flavour of the jet is determined using the method described in Section (\ref{subsec:formulamethod}). 
+
+Taking the flavour, \pt and \eta values of the jet, the expected tagging efficiency, $\epsilon_{MC}(\pt,\eta,f)$, in simulation is retrieved from a map of tagging efficiencies determined from the \texttt{FullSim} \ac{SM} simulation samples, and binned as a function of jet \pt, \eta and flavour after the application of the hadronic signal selection. The binning is chosen to reflect the set of \pt and \eta dependant corrections of simulation to data defined by \cite{btagscalefactor}.
+
+The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$, differs from that measured in \texttt{FullSim},  $\epsilon_{MC}(\pt,\eta,f)$ and is related via an additional correction factor,
+
+\begin{equation}
+\epsilon_{\texttt{FastSim}}(\pt,\eta,f) =  \frac{\epsilon_{MC}(\pt,\eta,f)}{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)} ,
+\end{equation}
+
+where $SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections determined from the ratio between the efficiency and mis-tagging rates of a \ttbar \texttt{FullSim} and \ttbar \texttt{FastSim} sample. The central value for these corrections is the same for all signal samples. Similarly the tagging efficiencies measured in data \cite{btag8tev}, $\epsilon_{Data}(\pt,\eta,f)$, are further related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
+
+\begin{align}
+\epsilon_{Data}(\pt,\eta,f) &=  \epsilon_{MC}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f) \nonumber \\
+&=  \epsilon_{\texttt{FastSim}}(\pt,\eta,f) \times \underbrace{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f)}_\text{SF$_{\texttt{Fast}} \rightarrow Data$}.
+\end{align}
+
+For each jet, the weight of the event is re-weighted according to wether the jet fires the b-tagger. In the instance that the jet \emph{is} b-tagged the event weight is modified by,
+
+\begin{equation}
+\text{weight} = SF_{\texttt{Fast} \rightarrow Data} \times \text{weight},
+\end{equation} 
+and in the case that the jet is \emph{not} tagged,
+
+\begin{equation}
+\text{weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
+\end{equation}
+
+ Once all events have been reweighted this way, the yields in each $n_{b}^{reco}$ bin represent the corrected MC yields. 
+
+\subsection{Experimental uncertainties}
+
+The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem stem from uncertainties on the parton distribution functions \cite[]\cite[], the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
+
+Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and constant systematics are estimated in two regions of the \ac{SMS} models parameter space. These two regions are defined as near to (small mass splittings) and far (large mass splittings) from the diagonal, where far is realised by the condition
+
+\begin{equation}
+m_{\widetilde{q}/\widetilde{g}} - m_{LSP} > 350 \GeV \quad && m_{\widetilde{q}/\widetilde{g}} > 475 \GeV. \nonumber
+\end{equation}
+
+The total systematics in each region are evaluated in the following ways:
+
+\begin{itemize}
+\item[]\textbf{Jet energy scale}
+\item[]\textbf{Luminosity measurement}
+\end{itemize}
+
+Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all included in the limit calculation.
+
+ \begin{table}[h!]
+ \footnotesize
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lcccccccc}
+\hline
+Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-tagging & Total \\
+\hline \hline
+\texttt{T1} & 4.4 & 10.0 & 5.6 & 3.8 & 4.1 & n/a & 3.1 & 13.9 \\
+\end{tabular*}
+\end{center}
+\caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagona]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal (i.e. small mass splitting and compressed spectra). The uncertainties are added in quadrature to obtain the total.}\label{tab:signalsystnear}
+\end{table}
+
+
+\begin{table}[h!]
+ \footnotesize
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lcccccccc}
+\hline
+Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-tagging & Total \\
+\hline\hline
+\texttt{T1} & 4.4 & 10.0 & 5.6 & 3.8 & 4.1 & n/a & 3.1 & 13.9 \\
+\end{tabular*}
+\end{center}
+\caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagona]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region far from the diagonal (i.e. large mass splitting). The uncertainties are added in quadrature to obtain the total.}\label{tab:signalsystfar}
+\end{table}
+
 
 \section{Statistical Framework}
 \label{sec:statframework}
@@ -1012,7 +1126,7 @@ syst. parameter (j) & 0 & 0 & 0 \\
 Alternatively, in the higher $n_{b}^{reco}$ categories ($n_{b}^{reco} = 3$, $n_{b}^{reco} \geq 4$), the single muon sample is used to constrain the total \ac{EWK} background. Therefore the likelihood function is greatly simplified and is represented by
 
 \begin{equation}
-L^{'}_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{'i}_{\mu} . EWK^{i} + s^{i}_{\mu}), \\
+L^{'}_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{'i}_{\mu} . EWK^{i} + s^{i}_{\mu}), 
 \end{equation}
 
 where,
@@ -1044,7 +1158,7 @@ The systematic uncertainty on the signal is additionally included by the term
 L_{sig} = \text{Logn}(1.0|\rho_{sig},\delta).
 \end{equation}
 
-A discussion of the \ac{SMS} signal models through which the analysis is interpreted, including a discussion on the signal efficiencies and systematics can be found in the following Chapter. 
+A discussion of the \ac{SMS} signal models through which the analysis is interpreted can be found in the following Chapter. 
 
 \subsection{Total likelihood}
 \label{subsec:totallikelihood}
@@ -1058,10 +1172,12 @@ L^{k} = L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\m
 In categories containing eight \theht bins and utilising the three control samples (\mupjets,\dimupjets,\gpjets), there are 25 nuisance parameters, whilst when just one control sample is used to estimate the \ac{EWK} background, there are 15 nuisance parameters. Where three \theht bins are used (the highest $n_{b}^{reco}$ category), there are 6 nuisance parameters. This information is summarised within Table \ref{tab:nuisanceparameters}.
 
  \begin{table}[h!]
+ \footnotesize
 \begin{center}
 \begin{tabular*}{0.45\textwidth}{@{\extracolsep{\fill}}lc}
+\hline
 Nuisance parameter & Total \\
-\cline{1-2}
+\hline\hline
 $(EWK^{i})_{\ i\ : 0-7(2)}$ & 8 (3) \\
 $f^{0}_{Zinv}$ $^{*}$ & 1 \\
  $f^{7}_{Zinv}$ $^{*}$ & 1 \\

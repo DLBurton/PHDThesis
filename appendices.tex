@@ -8,16 +8,17 @@
 For Calo jets the following criteria were applied:
 
 \begin{table}[H]
+\footnotesize
 \begin{center}
 \begin{tabulary}{0.80\textwidth}{LL}
 \cline{1-2}
 \multicolumn{2}{l}{Loose CaloJet Id} \\
 Variable & Definition \\ 
-\cline{1-2}
+\hline\hline
 f$_{HPD} < 0.98$ \qquad\qquad\qquad\qquad\qquad\qquad & Fraction of jet energy contributed from ``hottest'' \ac{HPD}, which rejects \ac{HCAL} noise.  \\
 f$_{EM} > 0.01$ & Noise from the \ac{HCAL} is further suppressed by requiring a minimal electromagnetic component to the jet f$_{EM}$. \\
 N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single chanel are rejected, to serve as a safety net that catches jets arising from undiagnosed noisy channels.\\
-\cline{1-2}
+\hline
 \end{tabulary}
 \end{center}
 \caption[Criteria for a reconstructed jet to pass the loose calorimeter jet id.]{Criteria for a reconstructed jet to pass the loose calorimeter jet id.}
@@ -28,12 +29,13 @@ N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single cha
 For PF jets the following criteria were applied:
   
 \begin{table}[H]
+\footnotesize
 \begin{center}
 \begin{tabulary}{0.80\textwidth}{p{3.5cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Loose PF jet Id} \\
 Variable & Definition \\ 
-\cline{1-2}
+\hline\hline
 nfhJet $<$ 0.99 & Fraction of jet composed of neutral hadrons. \ac{HCAL} noise tends to populate high values of neutral 
 hadron fraction.\\
 nemfJet $<$ 0.99 & Fraction of jet composed of neutral electromagnetic energy. \ac{ECAL} noise tends to populate high values of 
@@ -42,7 +44,7 @@ nmultiJet $>$ 1 & Number of constituents that jet is composed from. \\
 chfJet $>$ 0 & Fraction of jet composed of charged hadrons. \\
 cmultiJet $>$ 0 & Number of charged particles that compose jet. \\
 cemfJet $<$ 0.99 & Fraction of jet composed of charged electromagnetic energy. \\
-\cline{1-2}
+\hline
 \end{tabulary}
 \end{center}
 \caption[Criteria for a reconstructed jet to pass the loose PF jet id.]{Criteria for a reconstructed jet to pass the loose PF jet id.}
@@ -53,13 +55,13 @@ cemfJet $<$ 0.99 & Fraction of jet composed of charged electromagnetic energy. \
 The following noise filters are applied, to remove events with spurious, non-physical jets or missing transverse energy.
 
 \begin{table}[H]
-\begin{center}
 \footnotesize
+\begin{center}
 \begin{tabulary}{0.80\textwidth}{p{4cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Noise Filters} \\
 Variable & Definition \\ 
-\cline{1-2}
+\hline\hline
  CSC tight beam halo filter \qquad\qquad\qquad\qquad\qquad & As proton beams circle the \ac{lhc}, proton interactions with the residual gas particles or the beam collimators can occur, producing showers of secondary particles which can interact with the \ac{CMS} detector. \\
  HBHE noise filter with isolated noise rejection & Anomalous noise in the \ac{HCAL} not due to electronics noise, but rather due to instrumentation issues associated with the \ac{HPD}'s and \acf{RBXs}. \\
  HCAL laser filter & The \ac{HCAL} uses laser pulses for monitoring the detector response. Some laser pulses have accidentally been fired in the physics orbit, and ended up polluting events recorded for physics analysis. \\
@@ -80,12 +82,13 @@ Variable & Definition \\
 The pileup per event is defined by the number of 'good' reconstructed primary vertices in the event, with each vertex satisfying the following requirements
 
 \begin{table}[H]
+\footnotesize
 \begin{center}
 \begin{tabulary}{0.80\textwidth}{p{3cm}L}
 \cline{1-2}
 \multicolumn{2}{l}{Good primary vertex requirement} \\
 Variable & Definition \\ 
-\cline{1-2}
+\hline\hline
 $N_{dof} > 4$ \qquad\qquad\qquad & The number of degree of freedom, from the vertex fit to compute the best estimate of the vertex parameters. \\
 $\vert \Delta z_{vtx} \vert < 24$cm &  The distance, $\vert\Delta z_{vex}\vert$, to the position of the closest \ac{HLT} primary vertex. \\ 
  $\rho < 2$cm & The perpendicular distance of track position to the beam spot. \\
@@ -119,11 +122,11 @@ The matching efficiencies have a $\mu$ values of 6.62 GeV and 19.51 GeV for Run 
 
 \begin{table}
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{|c|c|c|}
+\begin{tabular*}{0.5\textwidth}{c|cc}
 \cline{1-3}
-Run Period & $\mu$ & $\sigma$ \\ \cline {1-3}
-2012B & 6.62 $\pm$ 0.01 & 0.79 $\pm$ 0.03  \\ \cline{1-3}
-2012C & 19.51 $\pm$ 0.03 & 7.14 $\pm$ 0.02 \\ \cline{1-3}
+\multicolumn{1}{c}{Run Period} & $\mu$ & $\sigma$ \\ \hline\hline
+2012B & 6.62 $\pm$ 0.01 & 0.79 $\pm$ 0.03  \\ 
+2012C & 19.51 $\pm$ 0.03 & 7.14 $\pm$ 0.02 \\ 
 \end{tabular*}
 \caption[Results of a cumulative EMG function fit to the turn-on
 curves for the matching efficiency of the leading jet in an event to

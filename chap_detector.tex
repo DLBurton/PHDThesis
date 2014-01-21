@@ -273,7 +273,7 @@ The efficiency is determined by matching the \L1 and reconstructed offline jets 
 
 Each efficiency curve is fitted with a function which is the cumulative distribution function of an \acf{EMG} distribution:
 \begin{eqnarray}
-f(x; \mu, \sigma, \lambda) = \frac{\lambda}{2} \cdot e^{\frac{\lambda}{2}(2 \mu + \lambda \sigma^2 - 2 x)} \cdot \textrm{erfc}( \frac{\mu + \lambda \sigma^2 - x}{\sqrt{2} \sigma})
+f(x; \mu, \sigma, \lambda) = \frac{\lambda}{2} \cdot e^{\frac{\lambda}{2}(2 \mu + \lambda \sigma^2 - 2 x)} \cdot \textrm{erfc}\left( \frac{\mu + \lambda \sigma^2 - x}{\sqrt{2} \sigma}\right)
 \label{eq:emg}
 \end{eqnarray}
 where \textrm{erfc} is the complementary error function defined as:
@@ -301,13 +301,13 @@ The efficiency turn-on curves for various \L1 jet thresholds are evaluated as a 
 \begin{table}
 \begin{center}
 \footnotesize
-\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
-\cline{1-5}
-& \multicolumn{2}{c|}{Calo} & \multicolumn{2}{c|}{PF} \\ \cline{2-5}
-Trigger & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-5}
-L1\_SingleJet16 & 21.09 $\pm$ 0.03 & 7.01 $\pm$ 0.02 & 22.17 $\pm$ 0.04 & 7.83 $\pm$ 0.03 \\ \cline{1-5}
-L1\_SingleJet36 & 41.15 $\pm$ 0.05 & 5.11 $\pm$ 0.02 & 39.16 $\pm$ 0.06 & 8.04 $\pm$ 0.03 \\ \cline{1-5}
-L1\_SingleJet92 & 95.36 $\pm$ 0.13 & 5.62 $\pm$ 0.03 & 90.85 $\pm$ 0.19 & 11.30 $\pm$ 0.10  \\ \cline{1-5}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}c|cc|cc}
+\hline
+\multicolumn{1}{c}{}& \multicolumn{2}{c}{Calo} & \multicolumn{2}{c}{PF} \\ 
+\multicolumn{1}{c}{Trigger} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & $\sigma$ \\ \hline\hline
+L1\_SingleJet16 & 21.09 $\pm$ 0.03 & 7.01 $\pm$ 0.02 & 22.17 $\pm$ 0.04 & 7.83 $\pm$ 0.03 \\ 
+L1\_SingleJet36 & 41.15 $\pm$ 0.05 & 5.11 $\pm$ 0.02 & 39.16 $\pm$ 0.06 & 8.04 $\pm$ 0.03 \\ 
+L1\_SingleJet92 & 95.36 $\pm$ 0.13 & 5.62 $\pm$ 0.03 & 90.85 $\pm$ 0.19 & 11.30 $\pm$ 0.10  \\ 
 \end{tabular*}
 \end{center}
 
@@ -345,12 +345,12 @@ It can be seen that the performance of the $E_{T} > 36,92$ single jet are almost
 \begin{table}[h!]
 \begin{center}
 \footnotesize
-\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
-\cline{1-5}
-& \multicolumn{2}{c|}{2012B} & \multicolumn{2}{c|}{2012C} \\ \cline{2-5}
-Trigger & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-5}
-L1\_SingleJet36 & 40.29 $\pm$ 0.04& 5.34 $\pm$ 0.02 & 40.29 $\pm$ 0.11 & 5.21 $\pm$ 0.05 \\ \cline{1-5}
-L1\_SingleJet92 & 94.99 $\pm$ 0.09 & 5.93 $\pm$ 0.06 & 94.82 $\pm$ 0.29 & 5.74 $\pm$ 0.18 \\ \cline{1-5}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}c|cc|cc}
+\hline
+\multicolumn{1}{c}{}& \multicolumn{2}{c}{2012B} & \multicolumn{2}{c}{2012C} \\ 
+\multicolumn{1}{c}{Trigger} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & $\sigma$ \\ \hline\hline
+L1\_SingleJet36 & 40.29 $\pm$ 0.04& 5.34 $\pm$ 0.02 & 40.29 $\pm$ 0.11 & 5.21 $\pm$ 0.05 \\ 
+L1\_SingleJet92 & 94.99 $\pm$ 0.09 & 5.93 $\pm$ 0.06 & 94.82 $\pm$ 0.29 & 5.74 $\pm$ 0.18 \\ 
 \end{tabular*}
 \end{center}
 \caption[Results of a cumulative \ac{EMG} function fit to the turn-on curves for \L1 single jet triggers in the 2012 run period B and C.]{Results of a cumulative \ac{EMG} function fit to the turn-on curves for \L1 single jet triggers in the 2012 run period B and C, preselected on an isolated muon trigger. The turn-on point $\mu$ and resolution $\sigma$ of the L1 jet triggers are measured with respect to offline Calo Jets in run B (left) and run C (right). }
@@ -387,12 +387,12 @@ Different behaviours for the trigger turn ons between these run periods are ther
 \begin{table}[h!]
 \begin{center}
 \footnotesize
-\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
-\cline{1-5}
-& \multicolumn{2}{c|}{2012B} & \multicolumn{2}{c|}{2012C} \\ \cline{2-5}
-Trigger & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-5}
-L1 HT-100 & 157.5 $\pm$ 0.08 & 32.9 $\pm$ 0.08 & 169.8 $\pm$ 0.08 & 28.7 $\pm$ 0.03 \\ \cline{1-5}
-L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0.05 \\ \cline{1-5}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}c|cc|cc}
+\hline
+\multicolumn{1}{c}{}& \multicolumn{2}{c}{2012B} & \multicolumn{2}{c}{2012C} \\ 
+\multicolumn{1}{c}{Trigger} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & $\sigma$ \\ \hline\hline
+L1 HT-100 & 157.5 $\pm$ 0.08 & 32.9 $\pm$ 0.08 & 169.8 $\pm$ 0.08 & 28.7 $\pm$ 0.03 \\ 
+L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0.05 \\ 
 \end{tabular*}
 \end{center}
 \caption[Results of a cumulative \ac{EMG} function fit to the turn-on curves for $\theht$ in 2012 run period B and C.]{Results of a cumulative \ac{EMG} function fit to the turn-on curves for $\theht$ in run 2012 B and C, preselected on an isolated single $\mu$ trigger. The turn-on point $\mu$, resolution $\sigma$ of the \L1 $\theht$ triggers are measured with respect to offline $\theht$ formed from CaloJets with a $\et \geq 40$  in run period B (left) and C (right). }
@@ -426,13 +426,13 @@ defined, reflecting the low, medium and high pile-up running conditions at \CMS 
 \begin{table}[ht]
 %\begin{center}
 \footnotesize
-\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|c|c|}
-\cline{1-7}
- Vertices & \multicolumn{2}{c|}{ 0-10 } & \multicolumn{2}{c|}{11-20} & \multicolumn{2}{c|}{$>$ 20}   \\ \cline{1-7}
- & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-7}
-L1\_SingleJet16 & 19.9 $\pm$ 0.1 & 6.1 $\pm$ 0.3  & 20.8 $\pm$ 0.1 & 6.5 $\pm$ 0.1 & 22.3 $\pm$ 0.2 & 7.5 $\pm$ 0.1\\ \cline{1-7}
-L1\_SingleJet36 & 41.8 $\pm$ 0.1 & 4.6 $\pm$ 0.1 & 40.9 $\pm$ 0.1 & 5.1 $\pm$ 0.1 & 40.6 $\pm$ 0.6 & 5.9 $\pm$ 0.2 \\ \cline{1-7}
-L1\_SingleJet92 & 95.9 $\pm$ 0.2 & 5.4 $\pm$ 0.1 & 95.2 $\pm$ 0.2 & 5.6 $\pm$ 0.1 & 94.5 $\pm$ 0.6 & 6.2 $\pm$ 0.3  \\ \cline{1-7}
+\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}}c|cc|cc|cc}
+\hline
+\multicolumn{1}{c}{Vertices} & \multicolumn{2}{c}{ 0-10 } & \multicolumn{2}{c}{11-20} & \multicolumn{2}{c}{$>$ 20}   \\ 
+\multicolumn{1}{c}{} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & $\sigma$ \\ \hline\hline
+L1\_SingleJet16 & 19.9 $\pm$ 0.1 & 6.1 $\pm$ 0.3  & 20.8 $\pm$ 0.1 & 6.5 $\pm$ 0.1 & 22.3 $\pm$ 0.2 & 7.5 $\pm$ 0.1\\ 
+L1\_SingleJet36 & 41.8 $\pm$ 0.1 & 4.6 $\pm$ 0.1 & 40.9 $\pm$ 0.1 & 5.1 $\pm$ 0.1 & 40.6 $\pm$ 0.6 & 5.9 $\pm$ 0.2 \\ 
+L1\_SingleJet92 & 95.9 $\pm$ 0.2 & 5.4 $\pm$ 0.1 & 95.2 $\pm$ 0.2 & 5.6 $\pm$ 0.1 & 94.5 $\pm$ 0.6 & 6.2 $\pm$ 0.3  \\ 
 \end{tabular*}
 %\end{center}
 \caption[Results of a cumulative \ac{EMG} function fit to the efficiency turn-on curves for \L1 single jet triggers in the 2012 run period C, for low,medium and high pile-up conditions.]{Results of a cumulative \ac{EMG} function fit to the efficiency turn-on curves for \L1 single jet triggers in the 2012 run period C,  measured from isolated $\mu$ triggered data. The turn-on point, $\mu$, and resolution, $\sigma$, of the \L1 jet triggers are measured with respect to offline \Calo jets in low (left), medium (middle) and high (right) pile-up conditions. }
@@ -442,13 +442,13 @@ L1\_SingleJet92 & 95.9 $\pm$ 0.2 & 5.4 $\pm$ 0.1 & 95.2 $\pm$ 0.2 & 5.6 $\pm$ 0.
 \begin{table}[ht]
 %\begin{center}
 \footnotesize
-\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|c|c|}
-\cline{1-7}
- Vertices & \multicolumn{2}{c|}{ 0-10 } & \multicolumn{2}{c|}{11-20} & \multicolumn{2}{c|}{$>$ 20}   \\ \cline{1-7}
- & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ & $\mu$ & $\sigma$ \\ \cline {1-7}
-L1\_SingleJet16 & 21.1 $\pm$ 0.1 & 7.16 $\pm$ 0.05 & 22.34 $\pm$ 0.1 & 7.9 $\pm$ 0.1 & 24.6 $\pm$ 0.2 & 9.5 $\pm$ 0.1 \\ \cline{1-7}
-L1\_SingleJet36 & 39.6 $\pm$ 0.1 & 7.4 $\pm$ 0.1 & 38.4 $\pm$ 0.1  & 7.4 $\pm$ 0.1 & 37.1 $\pm$ 0.2 & 7.5 $\pm$ 0.1 \\ \cline{1-7}
-L1\_SingleJet92 & 91.6 $\pm$ 0.3 & 11.3 $\pm$ 0.2 & 90.4 $\pm$ 0.3 & 11.2 $\pm$ 0.1 & 92.0 $\pm$ 0.9 & 12.1 $\pm$ 0.4  \\ \cline{1-7}
+\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}}c|cc|cc|cc}
+\hline
+ \multicolumn{1}{c}{Vertices} & \multicolumn{2}{c}{ 0-10 } & \multicolumn{2}{c}{11-20} & \multicolumn{2}{c}{$>$ 20}   \\ 
+ \multicolumn{1}{c}{} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & \multicolumn{1}{c}{$\sigma$} & $\mu$ & $\sigma$ \\ \hline\hline
+L1\_SingleJet16 & 21.1 $\pm$ 0.1 & 7.16 $\pm$ 0.05 & 22.34 $\pm$ 0.1 & 7.9 $\pm$ 0.1 & 24.6 $\pm$ 0.2 & 9.5 $\pm$ 0.1 \\ 
+L1\_SingleJet36 & 39.6 $\pm$ 0.1 & 7.4 $\pm$ 0.1 & 38.4 $\pm$ 0.1  & 7.4 $\pm$ 0.1 & 37.1 $\pm$ 0.2 & 7.5 $\pm$ 0.1 \\ 
+L1\_SingleJet92 & 91.6 $\pm$ 0.3 & 11.3 $\pm$ 0.2 & 90.4 $\pm$ 0.3 & 11.2 $\pm$ 0.1 & 92.0 $\pm$ 0.9 & 12.1 $\pm$ 0.4  \\ 
 \end{tabular*}
 %\end{center}
 \caption[Results of a cumulative \ac{EMG} function fit to the efficiency   turn-on curves for Level-1 single jet triggers in the 2012 run period C, for low,medium and high pile-up conditions.]{Results of a cumulative \ac{EMG} function fit to the efficiency   turn-on curves for Level-1 single jet triggers in the 2012 run period C, measured from isolated $\mu$ triggered data. The turn-on point, $\mu$, and resolution, $\sigma$, of the \L1 jet triggers are measured with respect to offline \PF jets in low (left), medium (middle) and high (right) pile-up conditions. }

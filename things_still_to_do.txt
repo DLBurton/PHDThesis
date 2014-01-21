@@ -1,2 +1,6 @@
 In Appendix B - Produce PF jet resolution plots
+In Appendix C - Make Table
 In AlphaT variable section make new HT plot for 8TeV result.
+Complete section in analysis chapter on btag scale factors
+Remake template chapter plots
+Make signal prediction in template chapter
