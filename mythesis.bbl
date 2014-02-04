@@ -344,9 +344,23 @@ W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark and gluino
   production at hadron colliders},'' {\em Nucl.Phys.}, vol.~B492, pp.~51--103,
   1997.
 
+\bibitem{1742-6596-331-3-032049}
+S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, A.~Perrotta, and the
+  CMS~Collaboration, ``The fast simulation of the cms detector at lhc,'' {\em
+  Journal of Physics: Conference Series}, vol.~331, no.~3, p.~032049, 2011.
+
+\bibitem{1742-6596-331-3-032015}
+S.~Banerjee, M.~D. Hildreth, and the CMS~Collaboration, ``Validation and tuning
+  of the cms full simulation,'' {\em Journal of Physics: Conference Series},
+  vol.~331, no.~3, p.~032015, 2011.
+
 \bibitem{btagscalefactor}
 C.~Collaboration, ``Cms btag pog : Cms b-tagging performance database.''
   https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG, 2013.
+
+\bibitem{CMS-PAS-LUM-12-001}
+``{CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update},''
+  Tech. Rep. CMS-PAS-LUM-12-001, CERN, Geneva, 2012.
 
 \bibitem{logndistribution}
 R.~Cousings, ``Probability density functions for positive nuisance
@@ -355,11 +369,7 @@ R.~Cousings, ``Probability density functions for positive nuisance
 
 \bibitem{2010acat.confE..57M}
 L.~{Moneta}, K.~{Cranmer}, G.~{Schott}, and W.~{Verkerke}, ``{The RooStats
-  project},'' in {\em Proceedings of the 13th International Workshop on
-  Advanced Computing and Analysis Techniques in Physics Research. February
-  22-27, 2010, Jaipur, India. http://acat2010.cern.ch/. Published online at <A
-  href=''http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=93''>http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=93</A>,
-  p.57}, 2010.
+  project},'' 2010.
 
 \bibitem{James:1975dr}
 F.~James and M.~Roos, ``{Minuit: A System for Function Minimization and

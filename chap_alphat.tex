@@ -642,7 +642,7 @@ $Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 
 \section{Determining MC Simulation Yields with Higher Statistical Precision}
 \label{subsec:backgroundestimation}
 
-Reconstructing events from \ac{EWK} processes with many b-tagged jets ($\geq$3),\nbreco  ,is largely driven by the mis-tagging of light jets within the event. This is clear when considering the main \ac{EWK} backgrounds in the analysis, such as \ttbar + jets events, which typically contain two b-flavoured jets from the decay of the top quarks, whilst W + jets and Z$\rightarrow \mu\mu$ + jets events will typically contain no b-flavoured jets.
+Reconstructing events from \ac{EWK} processes with many b-tagged jets ($\geq$3), \nbreco  ,is largely driven by the mis-tagging of light jets within the event. This is clear when considering the main \ac{EWK} backgrounds in the analysis, such as \ttbar + jets events, which typically contain two b-flavoured jets from the decay of the top quarks, whilst W + jets and Z$\rightarrow \mu\mu$ + jets events will typically contain no b-flavoured jets.
 
 When the expectation for the number of \nbreco is taken directly from simulation, the statistical uncertainty at large b-tag multiplicities becomes relatively large. In order to reduce this uncertainty one approach is to use the information encoded throughout all events in the simulation sample, to measure each of the four ingredients:
 
@@ -670,7 +670,7 @@ The assigning of jet flavours to reconstruction level jets in simulation is achi
 
 Within each individual MC process and each \theht-$n_{jet}$ bin in the analysis, the \nbreco distribution is constructed in the following way:
 
- Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks are defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  Similarly \eff, \ceff and \textit{m} represent the measured b-tagging, c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
+ Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  Similarly \eff, \ceff and \textit{m} represent the measured b-tagging, c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
  
  Using this information the expected $n_{b}^{reco}$ distribution can be analytically calculated using the formula :
 
@@ -680,37 +680,113 @@ N(n_{b}) =& \sum_{n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{jet}} \quad \sum_{n_{
 & \probc \times \probl,
 \end{align}
 
-with N(n$_{b}$) representing the event yield where $n_{b}$ jets have been b-tagged, $n_{b}^{tag}$, $n_{c}^{tag}$ and $n_{q}^{tag}$ represent the number of times that a particular jet flavour results in a b-tagged jet, and \probb,\probc and \probl represent the binomial probabilities for that to happen. 
+with N(n$_{b}$) representing the yield where $n_{b}$ jets have been b-tagged.  The variables $n_{b}^{tag}$, $n_{c}^{tag}$ and $n_{q}^{tag}$ represent the number of times that a particular jet flavour results in a b-tagged jet, and \probb,\probc and \probl represent the binomial probabilities for that to happen. 
 
-This approach ultimately results in a more precise \nbreco distribution prediction as information from throughout the entire MC sample is used to estimate the high $n_{b}^{reco}$ bins.
+This approach ultimately results in a more precise \nbreco distribution prediction as information from throughout the entire MC sample is used to estimate the underlying $n_{b}^{reco}$ distribution.
 
 \subsection{Establishing proof of principle}
 \label{subsec:formulamethodsanity}
 
-In order to validate the procedure, the predictions obtained from the formula method summarised in Eq (\ref{eq:btagformula}), are compared directly to those obtained directly from simulation. These results for the \mupjets control sample are summarised in Table \ref{tab:sanitycheck}, for the 0,1,2 and 3 $n_{b}^{reco}$ bins.  
+In order to validate the procedure, the predictions obtained from the formula method summarised in Equation (\ref{eq:btagformula}), are compared directly to those obtained directly from simulation. Resultantly no simulation to data correction factors are applied when making this comparison
 
- \begin{table}[h!]
+This sanity check for the \mupjets control sample is presented in Table \ref{tab:sanitycheck}, for all $n_{b}^{reco}$ and \theht bins with no requirement placed upon the jet multiplicity of the events.  
+
+
+\begin{table}[ht!]
 \begin{center}
-\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
+\footnotesize
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ccccc}
 \hline
-Process & Selection & Observation & MC expectation & k-factor \\
+$H_{\textrm{T}}$ Bin (GeV)         & 275--325                  & 325--375                  & 375--475                  & 475--575                 \\ 
 \hline\hline
+\\
+Formula $n_{b}$ = 0                 & 12632.66  $\pm$  195.48   & 6696.08  $\pm$  82.59     & 6368.96  $\pm$  75.34     & 2906.27  $\pm$  39.65    \\
+Vanilla $n_{b}$ = 0                 & 12612.95  $\pm$  198.68   & 6687.97  $\pm$  83.78     & 6359.27  $\pm$  76.50     & 2898.27  $\pm$  36.89    \\
+\hline
+Formula $n_{b}$ = 1                 & 4068.09  $\pm$  45.71     & 2272.76  $\pm$  26.14     & 2181.32  $\pm$  25.07     & 1089.14  $\pm$  13.82    \\
+Vanilla $n_{b}$ = 1                 & 4067.73  $\pm$  60.30     & 2268.02  $\pm$  30.20     & 2180.69  $\pm$  28.73     & 1094.37  $\pm$  24.14    \\
+\hline
+Formula $n_{b}$ = 2                  & 1963.71  $\pm$  22.44     & 1087.55  $\pm$  13.57     & 1055.57  $\pm$  13.25     & 554.96  $\pm$  7.95      \\
+Vanilla $n_{b}$ = 2                  & 1984.53  $\pm$  26.19     & 1094.43  $\pm$  16.67     & 1068.96  $\pm$  16.36     & 558.14  $\pm$  10.51     \\
+\hline
+Formula $n_{b}$ = 3                  & 146.94  $\pm$  2.07       & 79.97  $\pm$  1.37        & 78.05  $\pm$  1.35        & 49.84  $\pm$  1.03       \\
+Vanilla $n_{b}$ = 3                  & 149.52  $\pm$  4.84       & 85.98  $\pm$  3.64        & 74.45  $\pm$  3.29        & 49.54  $\pm$  2.68       \\
+\hline
+Formula $n_{b}$ $\geq$ 4             & 2.26  $\pm$  0.12         & 1.29  $\pm$  0.10         & 5.32  $\pm$  0.20         & -     \\ 
+Vanilla $n_{b}$ $\geq$ 4             & 1.84  $\pm$  0.50         & 1.02  $\pm$  0.39         & 4.86  $\pm$  0.83       & -        \\ 
+
+\\
+\hline
+$H_{\textrm{T}}$ Bin (GeV)         & 575--675                  & 675--775                  & 775--875                  & $>$875                   \\ 
+\hline\hline
+\\
+Formula $n_{b}$ = 0                & 1315.68  $\pm$  19.49     & 640.49  $\pm$  11.90      & 327.81  $\pm$  7.91       & 424.27  $\pm$  9.27      \\
+Vanilla $n_{b}$ = 0                & 1315.23  $\pm$  20.20     & 641.96  $\pm$  12.48      & 329.09  $\pm$  8.36       & 424.02  $\pm$  9.73      \\
+\hline
+Formula $n_{b}$ = 1                & 490.41  $\pm$  7.45       & 226.95  $\pm$  4.42       & 109.91  $\pm$  2.84       & 129.97  $\pm$  3.07      \\
+Vanilla $n_{b}$ = 1                & 490.52  $\pm$  9.92       & 222.22  $\pm$  6.21       & 107.46  $\pm$  4.15       & 129.64  $\pm$  4.64      \\
+\hline
+Formula $n_{b}$ = 2                & 256.75  $\pm$  4.58       & 113.45  $\pm$  2.70       & 52.10  $\pm$  1.69        & 59.29  $\pm$  1.78       \\
+Vanilla $n_{b}$ = 2                  & 253.43  $\pm$  6.52       & 117.17  $\pm$  4.27       & 52.70  $\pm$  2.80        & 59.45  $\pm$  3.00       \\
+\hline
+Formula $n_{b}$ = 3                  & 25.66  $\pm$  0.69        & 12.48  $\pm$  0.46        & 5.52  $\pm$  0.31         & 6.83  $\pm$  0.33        \\
+Vanilla $n_{b}$ = 3                  & 29.18  $\pm$  2.06        & 11.77  $\pm$  1.26        & 6.18  $\pm$  0.95         & 7.53  $\pm$  1.05        \\ 
 \end{tabular*}
 \end{center}
-\caption[place holder]{place holder}\label{tab:sanitycheck}
+\caption[Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . ]{Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . The numbers are normalised to 11.4fb$^{?1}$. No simulation to data corrections are applied.}\label{tab:sanitycheck}
 \end{table}
+
+It can be seen as expected, that there is good consistency between the results determined via the formula method and `raw' simulation yields. Similarly the power of this approach can be seen in the reduction of this statistical error in the prediction across all \theht and $n_{b}^{reco}$ bins. In particular the statistical uncertainty is reduced by several factors in the highest $n_{b}^{reco} \geq 4$ category.
 
 \subsection{Correcting measured efficiencies in simulation to data}
 \label{subsec:formulamethodsf}
 
-As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections are factored inÉ.
+As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections factors are considered when determining the simulation yields for each selection, which are used to construct the \ac{TF}'s of the analysis. 
 
-Show plot of before and after correction to btag/mistag rate.
+Each of the corrections factors for the b, c and light flavoured jets come with an associated systematic uncertainy. The uncertainties across different jet \pt and $\eta$ bins, are considered as fully correlated. When computing the magnitude of the effect of this systematic uncertainty on the \ac{TF}'s of the analysis, the scale factors are therefore scaled up/down simultaneously within \theht bin of the analysis for each of the $SF_{b,c,s}$ scale factors. The magnitude of this correction is shown for each \theht bin within Figure \ref{fig:btagefficiency}. 
 
-These corrections come with uncertaintiesÉ..
+\begin{minipage}{\linewidth}
+\centering
+\includegraphics[width = 3.5in]{plots/qcd_cartoon.pdf}
+\captionof{figure}[placeholder.]{placeholder.}
+\label{fig:btagefficiency}
+\end{minipage}
 
-show plot of effect of scaling correction factor up and down.
-2
+Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}'s which influences the final background prediction from each of the control samples. The magnitude of these change is shown in Table \ref{tab:btagsfuncertainties}, highlighting the absolute change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background. 
+
+\def\arraystretch{1.3}
+\begin{table}[ht!]
+\begin{center}
+\footnotesize
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}} ccccc}
+\hline
+$n_{b}^{reco}$         & 275--325                  & 325--375                  & 375--475                  & 475--575                 \\ 
+\hline\hline
+\\
+= 0                    & 0.557 $^{+0.001}_{-0.001}$  $\pm$  0.012       & 0.495 $^{+0.001}_{-0.001}$  $\pm$  0.009       & 0.383 $^{+0.001}_{-0.001}$  $\pm$  0.005       & 0.307 $^{+0.001}_{-0.002}$  $\pm$  0.006      \\
+= 1                    & 0.374 $^{+0.006}_{-0.006}$  $\pm$  0.006       & 0.320 $^{+0.006}_{-0.005}$ $\pm$  0.005        & 0.251 $^{+0.005}_{-0.005}$ $\pm$  0.004        & 0.185 $^{+0.003}_{-0.003}$  $\pm$  0.004      \\
+= 2                    & 0.226 $^{+0.002}_{-0.002}$  $\pm$  0.004       & 0.201 $^{+0.001}_{-0.002}$ $\pm$  0.004        & 0.159 $^{+0.001}_{-0.001}$ $\pm$  0.004       & 0.134 $^{+0.000}_{-0.001}$   $\pm$  0.004      \\
+= 3                    & 0.221 $^{+0.002}_{-0.002}$  $\pm$  0.005       & 0.208 $^{+0.002}_{-0.001}$ $\pm$  0.007       & 0.164 $^{+0.001}_{-0.000}$  $\pm$  0.006       & 0.144 $^{+0.001}_{-0.001}$   $\pm$  0.007      \\
+$\geq$ 4               & 0.222 $^{+0.004}_{-0.005}$  $\pm$  0.015       & 0.248 $^{+0.003}_{-0.003}$ $\pm$  0.035       & 0.123 $^{+0.002}_{-0.003}$  $\pm$  0.009       & -     \\ 
+\\
+\hline
+                       & 575--675                  & 675--775                  & 775--875                  & $\geq$875           \\ 
+\hline\hline
+\\
+= 0                    & 0.263 $^{+0.001}_{-0.002}$  $\pm$  0.006       & 0.215 $^{+0.000}_{-0.001}$  $\pm$  0.007       & 0.171 $_{-0.001}^{+0.000}$ $\pm$  0.009       & 0.111 $_{-0.001}^{+0.000}$  $\pm$  0.006      \\
+= 1                    & 0.154 $^{+0.003}_{-0.003}$  $\pm$  0.005       & 0.138 $^{+0.003}_{-0.004}$  $\pm$  0.006       & 0.121 $^{+0.005}_{-0.005}$  $\pm$  0.007       & 0.091 $^{+0.002}_{-0.002}$  $\pm$  0.006      \\
+= 2                    & 0.104 $^{+0.000}_{-0.001}$  $\pm$  0.005       & 0.079 $^{+0.001}_{-0.001}$  $\pm$  0.006       & 0.063 $^{+0.001}_{-0.002}$  $\pm$  0.007       & 0.071 $^{+0.000}_{-0.000}$  $\pm$  0.008      \\
+= 3                    & 0.116 $^{+0.001}_{-0.001}$  $\pm$  0.009       & 0.069 $^{+0.001}_{-0.001}$  $\pm$  0.007       & 0.079 $^{+0.001}_{-0.001}$  $\pm$  0.017       & 0.095 $_{-0.002}^{+0.003}$  $\pm$  0.020      \\ 
+
+\end{tabular*}
+\end{center}
+\caption[The absolute change in the \ac{TF}'s used to predict the entire signal region \ac{SM} background, using the \mupjets control sample when the systematic uncertainties of the data to simulation scale factors are varied by $\pm 1 \sigma$.]{The absolute change in the \ac{TF}'s used to predict the entire signal region \ac{SM} background, using the \mupjets control sample when the systematic uncertainties of the data to simulation scale factors are varied by $\pm 1 \sigma$. The impact of the change is shown for each \theht and $n_{b}^{reco}$ bin with no requirement made on the jet multiplicity of the events. (Also quoted are the statistical uncertainties)}\label{tab:btagsfuncertainties}
+\end{table}
+\def\arraystretch{1.0}
+
+It can be seen that the \ac{TF}'s are found to be relatively insensitive to the systematic uncertainty of the b-tag scale factors (showing typically less than $\sim2\%$ change). This can be accounted for by the similar composition of the signal and control sample backgrounds, such that any change in the underlying $n_{b}^{reco}$ distribution will be reflected in both signal and control regions and cancel out in the \ac{TF}. 
+
+Any overall systematic effect on the overall background prediction of the analysis from these b-tag scale factor uncertainties is incorporated within the data driven systematics introduced in the following section.
 
 \section{Systematic Uncertainties on Transfer Factors}
 \label{subsec:sysuncertainties}
@@ -877,7 +953,7 @@ Given the robust behaviour of the translation factors with respect to large (and
 
 The results of the analysis are interpreted using various \ac{SMS} signal models as already introduced in Section (\ref{subsec:sms}). Each model is parameterised in a two dimensional parameter space, ($m_{\widetilde{q}/\widetilde{g}}$, $m_{LSP}$), from which upper limits on the production cross sections of the various \ac{SMS} models can be set.
 
-Each signal sample is generated at \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch} using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for the effects on the b-tagging rate between \texttt{Fastsim} and \texttt{Fullsim} and are detailed in Section (\ref{subsec:smsbtagreweighting}). 
+Each signal sample is generated at \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch} using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for the effects on the b-tagging rate between \texttt{Fastsim} \cite{1742-6596-331-3-032049} and \texttt{Fullsim} \cite{1742-6596-331-3-032015} and are detailed in Section (\ref{subsec:smsbtagreweighting}). 
 
 \subsection{Signal efficiency}
 
@@ -950,7 +1026,7 @@ and in the case that the jet is \emph{not} tagged,
 
 \subsection{Experimental uncertainties}
 
-The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem stem from uncertainties on the parton distribution functions \cite[]\cite[], the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
+The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem stem from uncertainties on the parton distribution functions, the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
 
 Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and constant systematics are estimated in two regions of the \ac{SMS} models parameter space. These two regions are defined as near to (small mass splittings) and far (large mass splittings) from the diagonal, where far is realised by the condition
 
@@ -961,8 +1037,20 @@ m_{\widetilde{q}/\widetilde{g}} - m_{LSP} > 350 \GeV \quad && m_{\widetilde{q}/\
 The total systematics in each region are evaluated in the following ways:
 
 \begin{itemize}
-\item[]\textbf{Jet energy scale}
-\item[]\textbf{Luminosity measurement}
+\item[]\textbf{Jet energy scale} :
+The relative change in the signal efficiency is gauged by varying the energy of all jets in an event up or down according to a \pt and \eta dependent jet energy scale uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency.
+\item[]\textbf{Luminosity measurement} :
+The measurement of luminosity taken propagates through to an uncertainty on the signal event yield when considering any new physics model, which is currently 4.4\% \cite{CMS-PAS-LUM-12-001}.
+\item[]\textbf{Parton density function} :
+The effects of varying the set of parton distribution functions used and changing the renormalization/factorization scale used to compute the cross sections by a factor of two up or down have been found to affect the efficiency by up to 10\%.
+\item[]\textbf{\mht/\met cleaning cut} :
+The ratio of the efficiencies of the cleaning cut are compared in simulation and data after application of the \mupjets control sample selection. No \alphat cut or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity bins, $2 \leq n_{jet} \leq 3$ and $n_{jet} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. Tgese deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
+\item[]\textbf{Deal ECAL cleaning filter} :
+The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity bins, $2 \leq n_{jet} \leq 3$ and $n_{jet} \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
+\item[]\textbf{Lepton and photon vetoes} :
+The uncertainty on the efficiency of the lepton and photon vetoes is established by considering the efficiency of the vetoes after applying filters with identical logic but based on truth information. If the efficiency is not 100\%, then this represents the fraction of signal events that should not be vetoed. This deviation is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state.
+\item[]\textbf{B-tag scale factor uncertainties} :
+The relative change in the signal efficiency is observed when relevant flavour, \pt and \eta dependant b-tag correction factors, are varied up or down by their uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency, over all mass points.
 \end{itemize}
 
 Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all included in the limit calculation.
@@ -975,6 +1063,11 @@ Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the af
 Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-tagging & Total \\
 \hline \hline
 \texttt{T1} & 4.4 & 10.0 & 5.6 & 3.8 & 4.1 & n/a & 3.1 & 13.9 \\
+\texttt{T2} & 4.4 & 10.0 & 4.1 & 2.8 & 4.1 & n/a & 2.4 & 12.9 \\
+\texttt{T2tt} & 4.4 & 10.0 & 6.5 & 3.8 & 4.1 & 0.8 & 0.8 & 13.9 \\
+\texttt{T2bb} & 4.4 & 10.0 & 4.8 & 2.8 & 4.1 & 0.3 & 2.2 & 13.1 \\
+\texttt{T1tttt} & n/a & n/a & n/a & n/a & n/a & n/a & n/a & n/a \\
+\texttt{T1bbbb} & 4.4 & 10.0 & 7.3 & 3.8 & 4.1 & 0.5 & 2.7 & 14.5 \\
 \end{tabular*}
 \end{center}
 \caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagona]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal (i.e. small mass splitting and compressed spectra). The uncertainties are added in quadrature to obtain the total.}\label{tab:signalsystnear}
@@ -988,7 +1081,12 @@ Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-ta
 \hline
 Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-tagging & Total \\
 \hline\hline
-\texttt{T1} & 4.4 & 10.0 & 5.6 & 3.8 & 4.1 & n/a & 3.1 & 13.9 \\
+\texttt{T1} & 4.4 & 10.0 & 0.8 & 3.8 & 4.1 & n/a & 6.6 & 14.0 \\
+\texttt{T2} & 4.4 & 10.0 & 1.1 & 2.8 & 4.1 & n/a & 5.8 & 13.4 \\
+\texttt{T2tt} & 4.4 & 10.0 & 3.5 & 3.8 & 4.1 & 0.6 & 1.6 & 12.9 \\
+\texttt{T2bb} & 4.4 & 10.0 & 0.9 & 2.8 & 4.1 & 0.3 & 2.7 & 12.3 \\
+\texttt{T1tttt} & 4.4 & 10.0 & 0.5 & 3.8 & 4.1 & 1.4 & 19.4 & 23.0 \\
+\texttt{T1bbbb} & 4.4 & 10.0 & 1.5 & 3.8 & 4.1 & 0.4 & 10.1 & 16.0 \\
 \end{tabular*}
 \end{center}
 \caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagona]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region far from the diagonal (i.e. large mass splitting). The uncertainties are added in quadrature to obtain the total.}\label{tab:signalsystfar}
