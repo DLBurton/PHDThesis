@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  4 FEB 2014 17:14
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  5 FEB 2014 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1579,7 +1579,7 @@ although it is yet undefined on input line 205.
 Package acronym Info: Label `acro:BSM' newly defined as it shall be overridden
 although it is yet undefined on input line 263.
 
-<plots/higgs_correction.pdf, id=1274, 261.93872pt x 153.02742pt>
+<plots/higgs_correction.pdf, id=1276, 261.93872pt x 153.02742pt>
 File: plots/higgs_correction.pdf Graphic file (type pdf)
 
 <use plots/higgs_correction.pdf>
@@ -1598,11 +1598,11 @@ Package acronym Info: Label `acro:CMSSM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 340.
  [17] [18]
-<plots/t1susydecay.pdf, id=1450, 218.8175pt x 125.46875pt>
+<plots/t1susydecay.pdf, id=1452, 218.8175pt x 125.46875pt>
 File: plots/t1susydecay.pdf Graphic file (type pdf)
 
 <use plots/t1susydecay.pdf>
-<plots/t2susydecay.pdf, id=1451, 217.81375pt x 124.465pt>
+<plots/t2susydecay.pdf, id=1453, 217.81375pt x 124.465pt>
 File: plots/t2susydecay.pdf Graphic file (type pdf)
 
 <use plots/t2susydecay.pdf>) (./chap_detector.tex [19 <./plots/t1susydecay.pdf>
@@ -1628,7 +1628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 [20
 
-] <plots/lhc-ring-photo.pdf, id=1514, 1035.7395pt x 1114.02196pt>
+] <plots/lhc-ring-photo.pdf, id=1516, 1035.7395pt x 1114.02196pt>
 File: plots/lhc-ring-photo.pdf Graphic file (type pdf)
 
 <use plots/lhc-ring-photo.pdf>
@@ -1640,7 +1640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [21 <./plots/lhc-ring-photo.pdf>]
-<plots/lhc-lumo-8tev.pdf, id=1545, 578.16098pt x 433.62102pt>
+<plots/lhc-lumo-8tev.pdf, id=1547, 578.16098pt x 433.62102pt>
 File: plots/lhc-lumo-8tev.pdf Graphic file (type pdf)
 
 <use plots/lhc-lumo-8tev.pdf> [22 <./plots/lhc-lumo-8tev.pdf>]
@@ -1653,7 +1653,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[23] <plots/cms-detector.pdf, id=1576, 346.86691pt x 230.28134pt>
+[23] <plots/cms-detector.pdf, id=1578, 346.86691pt x 230.28134pt>
 File: plots/cms-detector.pdf Graphic file (type pdf)
 
 <use plots/cms-detector.pdf>
@@ -1696,7 +1696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
-<plots/cms-ecal.pdf, id=1603, 449.00046pt x 244.25252pt>
+<plots/cms-ecal.pdf, id=1605, 449.00046pt x 244.25252pt>
 File: plots/cms-ecal.pdf Graphic file (type pdf)
 
 <use plots/cms-ecal.pdf>
@@ -1717,7 +1717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<plots/cms-hcal.pdf, id=1643, 429.73047pt x 259.18732pt>
+<plots/cms-hcal.pdf, id=1645, 429.73047pt x 259.18732pt>
 File: plots/cms-hcal.pdf Graphic file (type pdf)
 
 <use plots/cms-hcal.pdf>
@@ -1758,11 +1758,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
  []
 
 Missing character: There is no Þ in font cmr12!
-<plots/btag-ttbardiscrim.pdf, id=1735, 569.12625pt x 383.4325pt>
+<plots/btag-ttbardiscrim.pdf, id=1737, 569.12625pt x 383.4325pt>
 File: plots/btag-ttbardiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-ttbardiscrim.pdf>
-<plots/btag-multijetdiscrim.pdf, id=1736, 569.12625pt x 383.4325pt>
+<plots/btag-multijetdiscrim.pdf, id=1738, 569.12625pt x 383.4325pt>
 File: plots/btag-multijetdiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-multijetdiscrim.pdf>
@@ -1772,21 +1772,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
 [30] [31 <./plots/btag-ttbardiscrim.pdf, page is rotated 90 degrees> <./plots/b
 tag-multijetdiscrim.pdf, page is rotated 90 degrees>]
-<plots/btag-csvm_pt_sf.pdf, id=1845, 569.12625pt x 546.04pt>
+<plots/btag-csvm_pt_sf.pdf, id=1847, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_pt_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_pt_sf.pdf>
-<plots/btag-csvm_eta_sf.pdf, id=1846, 569.12625pt x 546.04pt>
+<plots/btag-csvm_eta_sf.pdf, id=1848, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_eta_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_eta_sf.pdf>
-<plots/btag-csvm_vert_sf.pdf, id=1847, 569.12625pt x 546.04pt>
+<plots/btag-csvm_vert_sf.pdf, id=1849, 569.12625pt x 546.04pt>
 File: plots/btag-csvm_vert_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_vert_sf.pdf>
 Missing character: There is no Þ in font cmr12!
 
-<plots/btag-csvmsf_v2.pdf, id=1852, 506.08112pt x 397.08972pt>
+<plots/btag-csvmsf_v2.pdf, id=1854, 506.08112pt x 397.08972pt>
 File: plots/btag-csvmsf_v2.pdf Graphic file (type pdf)
 
 <use plots/btag-csvmsf_v2.pdf>
@@ -1796,7 +1796,7 @@ Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
  [32 <./plots/btag-csvm_pt_sf.pdf, page is rotated 90 degrees> <./plots/btag-cs
 vm_eta_sf.pdf, page is rotated 90 degrees> <./plots/btag-csvm_vert_sf.pdf>]
-<plots/l1triggersystem.pdf, id=1969, 330.9695pt x 254.36932pt>
+<plots/l1triggersystem.pdf, id=1971, 330.9695pt x 254.36932pt>
 File: plots/l1triggersystem.pdf Graphic file (type pdf)
 
 <use plots/l1triggersystem.pdf>
@@ -1815,17 +1815,17 @@ although it is yet undefined on input line 230.
 Package acronym Info: Label `acro:LUT' newly defined as it shall be overridden
 although it is yet undefined on input line 255.
 
-<plots/L1JetAlgorithm.pdf, id=2037, 343.01349pt x 176.80554pt>
+<plots/L1JetAlgorithm.pdf, id=2039, 343.01349pt x 176.80554pt>
 File: plots/L1JetAlgorithm.pdf Graphic file (type pdf)
 
 <use plots/L1JetAlgorithm.pdf>
 Missing character: There is no Ó in font cmr12!
  [36 <./plots/L1JetAlgorithm.pdf>]
-<plots/jetpt_RunC.pdf, id=2057, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC.pdf, id=2059, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC.pdf>
-<plots/jetpt_RunC_PF.pdf, id=2058, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_PF.pdf, id=2060, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_PF.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_PF.pdf>
@@ -1835,11 +1835,11 @@ Overfull \hbox (11.51169pt too wide) in alignment at lines 304--311
 
 [37] [38 <./plots/jetpt_RunC.pdf, page is rotated 90 degrees> <./plots/jetpt_Ru
 nC_PF.pdf, page is rotated 90 degrees>]
-<plots/jetseed_36.pdf, id=2164, 569.12625pt x 474.77374pt>
+<plots/jetseed_36.pdf, id=2166, 569.12625pt x 474.77374pt>
 File: plots/jetseed_36.pdf Graphic file (type pdf)
 
 <use plots/jetseed_36.pdf>
-<plots/jetseed_92.pdf, id=2165, 569.12625pt x 474.77374pt>
+<plots/jetseed_92.pdf, id=2167, 569.12625pt x 474.77374pt>
 File: plots/jetseed_92.pdf Graphic file (type pdf)
 
 <use plots/jetseed_92.pdf>
@@ -1852,15 +1852,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [39 <./plots/jetseed_36.pdf, page is rotated 90 degrees> <./plots/jetseed_92.pd
 f, page is rotated 90 degrees>]
-<plots/l1rateplot.pdf, id=2261, 339.6409pt x 250.99673pt>
+<plots/l1rateplot.pdf, id=2263, 339.6409pt x 250.99673pt>
 File: plots/l1rateplot.pdf Graphic file (type pdf)
 
 <use plots/l1rateplot.pdf>
-<plots/jetseed_ht100.pdf, id=2265, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht100.pdf, id=2267, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht100.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht100.pdf>
-<plots/jetseed_ht150.pdf, id=2266, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht150.pdf, id=2268, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht150.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht150.pdf>
@@ -1868,22 +1868,22 @@ File: plots/jetseed_ht150.pdf Graphic file (type pdf)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [40 <./plots/l1rateplot.pdf>]
-<plots/jetpt_RunC_calopu.pdf, id=2283, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_calopu.pdf, id=2285, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_calopu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_calopu.pdf>
-<plots/jetpt_RunC_pfpu.pdf, id=2284, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_pfpu.pdf, id=2286, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_pfpu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_pfpu.pdf> [41 <./plots/jetseed_ht100.pdf, page is rotated
  90 degrees> <./plots/jetseed_ht150.pdf, page is rotated 90 degrees>] [42 <./pl
 ots/jetpt_RunC_calopu.pdf, page is rotated 90 degrees> <./plots/jetpt_RunC_pfpu
 .pdf, page is rotated 90 degrees>]
-<plots/res_CaloJet_summary.pdf, id=2476, 569.12625pt x 200.75pt>
+<plots/res_CaloJet_summary.pdf, id=2478, 569.12625pt x 200.75pt>
 File: plots/res_CaloJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloJet_summary.pdf>
-<plots/res_PFJet_summary.pdf, id=2479, 569.12625pt x 203.76125pt>
+<plots/res_PFJet_summary.pdf, id=2481, 569.12625pt x 203.76125pt>
 File: plots/res_PFJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_PFJet_summary.pdf>
@@ -1953,7 +1953,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 36.
 
-[46] <plots/nocuts_htdistribution.pdf, id=2611, 206.3881pt x 203.80823pt>
+[46] <plots/nocuts_htdistribution.pdf, id=2613, 206.3881pt x 203.80823pt>
 File: plots/nocuts_htdistribution.pdf Graphic file (type pdf)
 
 <use plots/nocuts_htdistribution.pdf> [47 <./plots/nocuts_htdistribution.pdf>]
@@ -2021,20 +2021,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 75.
 
-<plots/susy_topology.pdf, id=2738, 559.94063pt x 185.68471pt>
+<plots/susy_topology.pdf, id=2740, 559.94063pt x 185.68471pt>
 File: plots/susy_topology.pdf Graphic file (type pdf)
 
 <use plots/susy_topology.pdf> [48 <./plots/susy_topology.pdf>]
-<plots/alphat_low.pdf, id=3216, 569.12625pt x 363.3575pt>
+<plots/alphat_low.pdf, id=3218, 569.12625pt x 363.3575pt>
 File: plots/alphat_low.pdf Graphic file (type pdf)
 
 <use plots/alphat_low.pdf>
-<plots/alphat_high.pdf, id=3217, 569.12625pt x 363.3575pt>
+<plots/alphat_high.pdf, id=3219, 569.12625pt x 363.3575pt>
 File: plots/alphat_high.pdf Graphic file (type pdf)
 
 <use plots/alphat_high.pdf> [49] [50 <./plots/alphat_low.pdf, page is rotated 9
 0 degrees> <./plots/alphat_high.pdf, page is rotated 90 degrees>] [51]
-<plots/analysis_binning.pdf, id=3345, 585.648pt x 493.45567pt>
+<plots/analysis_binning.pdf, id=3347, 585.648pt x 493.45567pt>
 File: plots/analysis_binning.pdf Graphic file (type pdf)
 
 <use plots/analysis_binning.pdf> [52 <./plots/analysis_binning.pdf>]
@@ -2042,7 +2042,7 @@ Package acronym Info: Label `acro:POGs' newly defined as it shall be overridden
 
 although it is yet undefined on input line 190.
  [53]
-[54] [55] [56] <plots/had_njet_datamc.pdf, id=3568, 1200.485pt x 975.645pt>
+[54] [55] [56] <plots/had_njet_datamc.pdf, id=3570, 1200.485pt x 975.645pt>
 File: plots/had_njet_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_njet_datamc.pdf>
@@ -2050,7 +2050,7 @@ Overfull \hbox (23.41772pt too wide) in paragraph at lines 344--346
  [][] 
  []
 
-<plots/had_ht_datamc.pdf, id=3569, 1200.485pt x 975.645pt>
+<plots/had_ht_datamc.pdf, id=3571, 1200.485pt x 975.645pt>
 File: plots/had_ht_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_ht_datamc.pdf>
@@ -2058,7 +2058,7 @@ Overfull \hbox (23.41772pt too wide) in paragraph at lines 349--351
  [][] 
  []
 
-<plots/had_nbtag_datamc.pdf, id=3570, 1200.485pt x 975.645pt>
+<plots/had_nbtag_datamc.pdf, id=3572, 1200.485pt x 975.645pt>
 File: plots/had_nbtag_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_nbtag_datamc.pdf>
@@ -2066,7 +2066,7 @@ Overfull \hbox (23.41772pt too wide) in paragraph at lines 354--356
  [][] 
  []
 
-<plots/had_mht_datamc.pdf, id=3571, 1200.485pt x 975.645pt>
+<plots/had_mht_datamc.pdf, id=3573, 1200.485pt x 975.645pt>
 File: plots/had_mht_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_mht_datamc.pdf>
@@ -2081,7 +2081,7 @@ See the caption package documentation for explanation.
 
 [57 <./plots/had_njet_datamc.pdf> <./plots/had_ht_datamc.pdf> <./plots/had_nbta
 g_datamc.pdf> <./plots/had_mht_datamc.pdf>] [58]
-<plots/muon_leadmu_datamc.pdf, id=3613, 1200.485pt x 975.645pt>
+<plots/muon_leadmu_datamc.pdf, id=3615, 1200.485pt x 975.645pt>
 File: plots/muon_leadmu_datamc.pdf Graphic file (type pdf)
 
 <use plots/muon_leadmu_datamc.pdf>
@@ -2089,7 +2089,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 413--415
  [][] 
  []
 
-<plots/muon_ht_datamc.pdf, id=3614, 1200.485pt x 975.645pt>
+<plots/muon_ht_datamc.pdf, id=3616, 1200.485pt x 975.645pt>
 File: plots/muon_ht_datamc.pdf Graphic file (type pdf)
 
 <use plots/muon_ht_datamc.pdf>
@@ -2097,7 +2097,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 418--420
  [][] 
  []
 
-<plots/muon_alphat_datamc.pdf, id=3615, 1200.485pt x 975.645pt>
+<plots/muon_alphat_datamc.pdf, id=3617, 1200.485pt x 975.645pt>
 File: plots/muon_alphat_datamc.pdf Graphic file (type pdf)
 
 <use plots/muon_alphat_datamc.pdf>
@@ -2105,7 +2105,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 427--429
  [][] 
  []
 
-<plots/muon_mt_datamc.pdf, id=3616, 1200.485pt x 975.645pt>
+<plots/muon_mt_datamc.pdf, id=3618, 1200.485pt x 975.645pt>
 File: plots/muon_mt_datamc.pdf Graphic file (type pdf)
 
 <use plots/muon_mt_datamc.pdf>
@@ -2120,7 +2120,7 @@ See the caption package documentation for explanation.
 
 [59] [60 <./plots/muon_leadmu_datamc.pdf> <./plots/muon_ht_datamc.pdf> <./plots
 /muon_alphat_datamc.pdf> <./plots/muon_mt_datamc.pdf>]
-<plots/dimuon_leadmu_datamc.pdf, id=3644, 1200.485pt x 975.645pt>
+<plots/dimuon_leadmu_datamc.pdf, id=3646, 1200.485pt x 975.645pt>
 File: plots/dimuon_leadmu_datamc.pdf Graphic file (type pdf)
 
 <use plots/dimuon_leadmu_datamc.pdf>
@@ -2128,7 +2128,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 456--458
  [][] 
  []
 
-<plots/dimuon_ht_datamc.pdf, id=3645, 1200.485pt x 975.645pt>
+<plots/dimuon_ht_datamc.pdf, id=3647, 1200.485pt x 975.645pt>
 File: plots/dimuon_ht_datamc.pdf Graphic file (type pdf)
 
 <use plots/dimuon_ht_datamc.pdf>
@@ -2136,7 +2136,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 461--463
  [][] 
  []
 
-<plots/dimuon_alphat_datamc.pdf, id=3646, 1200.485pt x 975.645pt>
+<plots/dimuon_alphat_datamc.pdf, id=3648, 1200.485pt x 975.645pt>
 File: plots/dimuon_alphat_datamc.pdf Graphic file (type pdf)
 
 <use plots/dimuon_alphat_datamc.pdf>
@@ -2144,7 +2144,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 472--474
  [][] 
  []
 
-<plots/dimuon_zmass_datamc.pdf, id=3647, 1200.485pt x 975.645pt>
+<plots/dimuon_zmass_datamc.pdf, id=3649, 1200.485pt x 975.645pt>
 File: plots/dimuon_zmass_datamc.pdf Graphic file (type pdf)
 
 <use plots/dimuon_zmass_datamc.pdf>
@@ -2158,7 +2158,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [61 <./plots/dimuon_leadmu_datamc.pdf> <./plots/dimuon_ht_datamc.pdf>]
-<plots/photon_leadphoton_datamc.pdf, id=3665, 1200.485pt x 975.645pt>
+<plots/photon_leadphoton_datamc.pdf, id=3667, 1200.485pt x 975.645pt>
 File: plots/photon_leadphoton_datamc.pdf Graphic file (type pdf)
 
 <use plots/photon_leadphoton_datamc.pdf>
@@ -2166,7 +2166,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 499--501
  [][] 
  []
 
-<plots/photon_ht_datamc.pdf, id=3666, 1200.485pt x 975.645pt>
+<plots/photon_ht_datamc.pdf, id=3668, 1200.485pt x 975.645pt>
 File: plots/photon_ht_datamc.pdf Graphic file (type pdf)
 
 <use plots/photon_ht_datamc.pdf>
@@ -2174,7 +2174,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 504--506
  [][] 
  []
 
-<plots/photon_alphat_datamc.pdf, id=3667, 1200.485pt x 975.645pt>
+<plots/photon_alphat_datamc.pdf, id=3669, 1200.485pt x 975.645pt>
 File: plots/photon_alphat_datamc.pdf Graphic file (type pdf)
 
 <use plots/photon_alphat_datamc.pdf>
@@ -2182,7 +2182,7 @@ Overfull \hbox (28.59802pt too wide) in paragraph at lines 509--511
  [][] 
  []
 
-<plots/photon_njet_datamc.pdf, id=3668, 1200.485pt x 975.645pt>
+<plots/photon_njet_datamc.pdf, id=3670, 1200.485pt x 975.645pt>
 File: plots/photon_njet_datamc.pdf Graphic file (type pdf)
 
 <use plots/photon_njet_datamc.pdf>
@@ -2198,7 +2198,7 @@ See the caption package documentation for explanation.
 [62 <./plots/dimuon_alphat_datamc.pdf> <./plots/dimuon_zmass_datamc.pdf>]
 [63 <./plots/photon_leadphoton_datamc.pdf> <./plots/photon_ht_datamc.pdf> <./pl
 ots/photon_alphat_datamc.pdf> <./plots/photon_njet_datamc.pdf>] [64]
-<plots/qcd_cartoon.pdf, id=3713, 229.05956pt x 215.73709pt>
+<plots/qcd_cartoon.pdf, id=3715, 229.05956pt x 215.73709pt>
 File: plots/qcd_cartoon.pdf Graphic file (type pdf)
 
 <use plots/qcd_cartoon.pdf>
@@ -2244,33 +2244,63 @@ Package acronym Info: Label `acro:NNLO' newly defined as it shall be overridden
 
 although it is yet undefined on input line 620.
 [67] [68] [69] [70]
-File: plots/qcd_cartoon.pdf Graphic file (type pdf)
- <use plots/qcd_cartoon.pdf>
+<plots/b_jet_HTDistribution.pdf, id=3846, 569.12625pt x 469.755pt>
+File: plots/b_jet_HTDistribution.pdf Graphic file (type pdf)
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 751.
-See the caption package documentation for explanation.
+<use plots/b_jet_HTDistribution.pdf>
+<plots/c_jet_HTDistribution.pdf, id=3847, 569.12625pt x 469.755pt>
+File: plots/c_jet_HTDistribution.pdf Graphic file (type pdf)
 
-[71]
-Overfull \hbox (17.02203pt too wide) in alignment at lines 761--781
+<use plots/c_jet_HTDistribution.pdf>
+<plots/light_jet_HTDistribution.pdf, id=3848, 569.12625pt x 469.755pt>
+File: plots/light_jet_HTDistribution.pdf Graphic file (type pdf)
+
+<use plots/light_jet_HTDistribution.pdf>
+Overfull \hbox (17.02203pt too wide) in alignment at lines 776--796
 [] [] [] [] [] 
  []
 
-[72] [73] [74]
+[71] [72 <./plots/b_jet_HTDistribution.pdf, page is rotated 90 degrees> <./plot
+s/c_jet_HTDistribution.pdf, page is rotated 90 degrees> <./plots/light_jet_HTDi
+stribution.pdf, page is rotated 90 degrees>] [73] [74]
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 84
-9.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
+4.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 85
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
+6.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
+7.
+
+
+Overfull \hbox (3.44215pt too wide) in alignment at lines 858--868
+[] [] [] [] [] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
 1.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 85
-2.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
+3.
 
 
-Overfull \hbox (3.44215pt too wide) in alignment at lines 843--853
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
+4.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
+4.
+
+
+Overfull \hbox (3.44215pt too wide) in alignment at lines 876--886
 [] [] [] [] [] [] 
  []
 
@@ -2278,116 +2308,92 @@ Overfull \hbox (3.44215pt too wide) in alignment at lines 843--853
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
-6.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 90
+1.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
-8.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 90
+3.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
-9.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 90
+3.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 86
-9.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 90
+4.
 
 
-Overfull \hbox (3.44215pt too wide) in alignment at lines 861--871
+Overfull \hbox (4.79918pt too wide) in alignment at lines 896--905
 [] [] [] [] [] [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
-6.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
-8.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
-8.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 88
-9.
-
-
-Overfull \hbox (4.79918pt too wide) in alignment at lines 881--890
-[] [] [] [] [] [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[75] [76] <plots/syst-le3j.pdf, id=3892, 569.12625pt x 363.3575pt>
+[75] [76] <plots/syst-le3j.pdf, id=4027, 569.12625pt x 363.3575pt>
 File: plots/syst-le3j.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j.pdf>
-<plots/syst-ge4j.pdf, id=3893, 569.12625pt x 363.3575pt>
+<plots/syst-ge4j.pdf, id=4028, 569.12625pt x 363.3575pt>
 File: plots/syst-ge4j.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j.pdf> [77] [78 <./plots/syst-le3j.pdf, page is rotated 90 d
 egrees> <./plots/syst-ge4j.pdf, page is rotated 90 degrees>]
 Package acronym Info: Label `acro:NLO' newly defined as it shall be overridden
-although it is yet undefined on input line 956.
+although it is yet undefined on input line 971.
 Package acronym Info: Label `acro:NLL' newly defined as it shall be overridden
-although it is yet undefined on input line 956.
+although it is yet undefined on input line 971.
  [79]
-<plots/t1_signal_eff.pdf, id=4018, 205.74315pt x 149.63132pt>
+<plots/t1_signal_eff.pdf, id=4153, 205.74315pt x 149.63132pt>
 File: plots/t1_signal_eff.pdf Graphic file (type pdf)
 
 <use plots/t1_signal_eff.pdf>
-<plots/t2_signal_eff.pdf, id=4019, 205.74316pt x 149.63142pt>
+<plots/t2_signal_eff.pdf, id=4154, 205.74316pt x 149.63142pt>
 File: plots/t2_signal_eff.pdf Graphic file (type pdf)
 
 <use plots/t2_signal_eff.pdf> [80 <./plots/t1_signal_eff.pdf> <./plots/t2_signa
 l_eff.pdf>] [81] [82] [83]
-Overfull \hbox (9.4309pt too wide) in alignment at lines 1061--1071
+Overfull \hbox (9.4309pt too wide) in alignment at lines 1076--1086
 [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (9.4309pt too wide) in alignment at lines 1080--1090
+Overfull \hbox (9.4309pt too wide) in alignment at lines 1095--1105
 [] [] [] [] [] [] [] [] [] 
  []
 
 [84]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1122.
+(hyperref)                removing `subscript' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1122.
+(hyperref)                removing `math shift' on input line 1137.
 
 [85] [86] [87]
-Overfull \hbox (12.72116pt too wide) in paragraph at lines 1220--1220
+Overfull \hbox (12.72116pt too wide) in paragraph at lines 1235--1235
 [][] 
  []
 
@@ -2404,99 +2410,99 @@ Overfull \hbox (20.95372pt too wide) in alignment at lines 37--66
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/hadronic_0b_le3j_logy.pdf, id=4449, 502.87875pt x 341.275pt>
+<plots/hadronic_0b_le3j_logy.pdf, id=4584, 502.87875pt x 341.275pt>
 File: plots/hadronic_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_0b_le3j_logy.pdf>
-<plots/muon_0b_le3j_logy.pdf, id=4450, 502.87875pt x 341.275pt>
+<plots/muon_0b_le3j_logy.pdf, id=4585, 502.87875pt x 341.275pt>
 File: plots/muon_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_0b_le3j_logy.pdf>
-<plots/mumu_0b_le3j_logy.pdf, id=4451, 502.87875pt x 341.275pt>
+<plots/mumu_0b_le3j_logy.pdf, id=4586, 502.87875pt x 341.275pt>
 File: plots/mumu_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_0b_le3j_logy.pdf>
-<plots/photon_0b_le3j_logy.pdf, id=4452, 502.87875pt x 341.275pt>
+<plots/photon_0b_le3j_logy.pdf, id=4587, 502.87875pt x 341.275pt>
 File: plots/photon_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_0b_le3j_logy.pdf>
-<plots/hadronic_1b_le3j_logy.pdf, id=4461, 502.87875pt x 341.275pt>
+<plots/hadronic_1b_le3j_logy.pdf, id=4596, 502.87875pt x 341.275pt>
 File: plots/hadronic_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_1b_le3j_logy.pdf>
-<plots/muon_1b_le3j_logy.pdf, id=4462, 502.87875pt x 341.275pt>
+<plots/muon_1b_le3j_logy.pdf, id=4597, 502.87875pt x 341.275pt>
 File: plots/muon_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_1b_le3j_logy.pdf>
-<plots/mumu_1b_le3j_logy.pdf, id=4463, 502.87875pt x 341.275pt>
+<plots/mumu_1b_le3j_logy.pdf, id=4598, 502.87875pt x 341.275pt>
 File: plots/mumu_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_1b_le3j_logy.pdf>
-<plots/photon_1b_le3j_logy.pdf, id=4464, 502.87875pt x 341.275pt>
+<plots/photon_1b_le3j_logy.pdf, id=4599, 502.87875pt x 341.275pt>
 File: plots/photon_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_1b_le3j_logy.pdf>
-<plots/hadronic_2b_le3j_logy.pdf, id=4473, 502.87875pt x 341.275pt>
+<plots/hadronic_2b_le3j_logy.pdf, id=4608, 502.87875pt x 341.275pt>
 File: plots/hadronic_2b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_2b_le3j_logy.pdf>
-<plots/muon_2b_le3j_logy.pdf, id=4474, 502.87875pt x 341.275pt>
+<plots/muon_2b_le3j_logy.pdf, id=4609, 502.87875pt x 341.275pt>
 File: plots/muon_2b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_2b_le3j_logy.pdf>
-<plots/hadronic_0b_ge4j_logy.pdf, id=4483, 502.87875pt x 341.275pt>
+<plots/hadronic_0b_ge4j_logy.pdf, id=4618, 502.87875pt x 341.275pt>
 File: plots/hadronic_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_0b_ge4j_logy.pdf>
-<plots/muon_0b_ge4j_logy.pdf, id=4484, 502.87875pt x 341.275pt>
+<plots/muon_0b_ge4j_logy.pdf, id=4619, 502.87875pt x 341.275pt>
 File: plots/muon_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_0b_ge4j_logy.pdf>
-<plots/mumu_0b_ge4j_logy.pdf, id=4485, 502.87875pt x 341.275pt>
+<plots/mumu_0b_ge4j_logy.pdf, id=4620, 502.87875pt x 341.275pt>
 File: plots/mumu_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_0b_ge4j_logy.pdf>
-<plots/photon_0b_ge4j_logy.pdf, id=4486, 502.87875pt x 341.275pt>
+<plots/photon_0b_ge4j_logy.pdf, id=4621, 502.87875pt x 341.275pt>
 File: plots/photon_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_0b_ge4j_logy.pdf>
-<plots/hadronic_1b_ge4j_logy.pdf, id=4495, 502.87875pt x 341.275pt>
+<plots/hadronic_1b_ge4j_logy.pdf, id=4630, 502.87875pt x 341.275pt>
 File: plots/hadronic_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_1b_ge4j_logy.pdf>
-<plots/muon_1b_ge4j_logy.pdf, id=4496, 502.87875pt x 341.275pt>
+<plots/muon_1b_ge4j_logy.pdf, id=4631, 502.87875pt x 341.275pt>
 File: plots/muon_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_1b_ge4j_logy.pdf>
-<plots/mumu_1b_ge4j_logy.pdf, id=4497, 502.87875pt x 341.275pt>
+<plots/mumu_1b_ge4j_logy.pdf, id=4632, 502.87875pt x 341.275pt>
 File: plots/mumu_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_1b_ge4j_logy.pdf>
-<plots/photon_1b_ge4j_logy.pdf, id=4498, 502.87875pt x 341.275pt>
+<plots/photon_1b_ge4j_logy.pdf, id=4633, 502.87875pt x 341.275pt>
 File: plots/photon_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_1b_ge4j_logy.pdf>
-<plots/hadronic_2b_ge4j_logy.pdf, id=4501, 502.87875pt x 341.275pt>
+<plots/hadronic_2b_ge4j_logy.pdf, id=4636, 502.87875pt x 341.275pt>
 File: plots/hadronic_2b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_2b_ge4j_logy.pdf>
-<plots/muon_2b_ge4j_logy.pdf, id=4502, 502.87875pt x 341.275pt>
+<plots/muon_2b_ge4j_logy.pdf, id=4637, 502.87875pt x 341.275pt>
 File: plots/muon_2b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_2b_ge4j_logy.pdf>
-<plots/hadronic_3b_ge4j_logy.pdf, id=4511, 502.87875pt x 341.275pt>
+<plots/hadronic_3b_ge4j_logy.pdf, id=4646, 502.87875pt x 341.275pt>
 File: plots/hadronic_3b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_3b_ge4j_logy.pdf>
-<plots/muon_3b_ge4j_logy.pdf, id=4512, 502.87875pt x 341.275pt>
+<plots/muon_3b_ge4j_logy.pdf, id=4647, 502.87875pt x 341.275pt>
 File: plots/muon_3b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_3b_ge4j_logy.pdf>
-<plots/hadronic_ge4b_ge4j_logy.pdf, id=4521, 502.87875pt x 350.30875pt>
+<plots/hadronic_ge4b_ge4j_logy.pdf, id=4656, 502.87875pt x 350.30875pt>
 File: plots/hadronic_ge4b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_ge4b_ge4j_logy.pdf>
-<plots/muon_ge4b_ge4j_logy.pdf, id=4522, 502.87875pt x 350.30875pt>
+<plots/muon_ge4b_ge4j_logy.pdf, id=4657, 502.87875pt x 350.30875pt>
 File: plots/muon_ge4b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_ge4b_ge4j_logy.pdf> [91
@@ -2534,30 +2540,30 @@ File: plots/t1susydecay.pdf Graphic file (type pdf)
  <use plots/t1susydecay.pdf>
 File: plots/t2susydecay.pdf Graphic file (type pdf)
  <use plots/t2susydecay.pdf>
-<plots/t2bbsusydecay.pdf, id=4805, 217.81375pt x 125.46875pt>
+<plots/t2bbsusydecay.pdf, id=4939, 217.81375pt x 125.46875pt>
 File: plots/t2bbsusydecay.pdf Graphic file (type pdf)
 
 <use plots/t2bbsusydecay.pdf>
-<plots/t1ttttsusydecay.pdf, id=4806, 218.8175pt x 123.46124pt>
+<plots/t1ttttsusydecay.pdf, id=4940, 218.8175pt x 123.46124pt>
 File: plots/t1ttttsusydecay.pdf Graphic file (type pdf)
 
 <use plots/t1ttttsusydecay.pdf>
-<plots/t1bbbbsusydecay.pdf, id=4807, 218.8175pt x 125.46875pt>
+<plots/t1bbbbsusydecay.pdf, id=4941, 218.8175pt x 125.46875pt>
 File: plots/t1bbbbsusydecay.pdf Graphic file (type pdf)
 
-<use plots/t1bbbbsusydecay.pdf> <plots/t1.pdf, id=4810, 509.905pt x 393.47pt>
+<use plots/t1bbbbsusydecay.pdf> <plots/t1.pdf, id=4944, 509.905pt x 393.47pt>
 File: plots/t1.pdf Graphic file (type pdf)
 
-<use plots/t1.pdf> <plots/t2.pdf, id=4811, 509.905pt x 393.47pt>
+<use plots/t1.pdf> <plots/t2.pdf, id=4945, 509.905pt x 393.47pt>
 File: plots/t2.pdf Graphic file (type pdf)
 
-<use plots/t2.pdf> <plots/t2bb.pdf, id=4812, 509.905pt x 391.4625pt>
+<use plots/t2.pdf> <plots/t2bb.pdf, id=4946, 509.905pt x 391.4625pt>
 File: plots/t2bb.pdf Graphic file (type pdf)
 
-<use plots/t2bb.pdf> <plots/t1tttt.pdf, id=4813, 509.905pt x 393.47pt>
+<use plots/t2bb.pdf> <plots/t1tttt.pdf, id=4947, 509.905pt x 393.47pt>
 File: plots/t1tttt.pdf Graphic file (type pdf)
 
-<use plots/t1tttt.pdf> <plots/t1bbbb.pdf, id=4814, 509.905pt x 393.47pt>
+<use plots/t1tttt.pdf> <plots/t1bbbb.pdf, id=4948, 509.905pt x 393.47pt>
 File: plots/t1bbbb.pdf Graphic file (type pdf)
 
 <use plots/t1bbbb.pdf>
@@ -2573,18 +2579,20 @@ pdf> <./plots/t2bb.pdf> <./plots/t1tttt.pdf> <./plots/t1bbbb.pdf>]
 Chapter 6.
 [105
 
-] <plots/template_btagrate.pdf, id=4915, 208.32294pt x 199.29346pt>
-File: plots/template_btagrate.pdf Graphic file (type pdf)
-
-<use plots/template_btagrate.pdf>
-<plots/template_ctagrate.pdf, id=4916, 208.32298pt x 199.29346pt>
-File: plots/template_ctagrate.pdf Graphic file (type pdf)
-
-<use plots/template_ctagrate.pdf>
-<plots/template_mistagrate.pdf, id=4917, 208.32298pt x 199.29355pt>
-File: plots/template_mistagrate.pdf Graphic file (type pdf)
-
-<use plots/template_mistagrate.pdf>
+]
+<plots/bjet_PtDistribution_Htbin_Template_375.pdf, id=5049, 569.12625pt x 469.7
+55pt>
+File: plots/bjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pdf)
+ <use plots/bjet_PtDistribution_Htbin_Template_375.pdf>
+<plots/cjet_PtDistribution_Htbin_Template_375.pdf, id=5050, 569.12625pt x 469.7
+55pt>
+File: plots/cjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pdf)
+ <use plots/cjet_PtDistribution_Htbin_Template_375.pdf>
+<plots/lighjet_PtDistribution_Htbin_Template_375.pdf, id=5051, 569.12625pt x 46
+9.755pt>
+File: plots/lighjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pd
+f)
+ <use plots/lighjet_PtDistribution_Htbin_Template_375.pdf>
 
 Package Fancyhdr Warning: \headheight is too small (20.625pt): 
  Make it at least 27.08337pt.
@@ -2654,23 +2662,25 @@ Package Fancyhdr Warning: \headheight is too small (20.625pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107 <./plots/template_btagrate.pdf> <./plots/template_ctagrate.pdf> <./plots/t
-emplate_mistagrate.pdf>]
+[107 <./plots/bjet_PtDistribution_Htbin_Template_375.pdf, page is rotated 90 de
+grees> <./plots/cjet_PtDistribution_Htbin_Template_375.pdf, page is rotated 90 
+degrees> <./plots/lighjet_PtDistribution_Htbin_Template_375.pdf, page is rotate
+d 90 degrees>]
 
 Package Fancyhdr Warning: \headheight is too small (20.625pt): 
  Make it at least 27.08337pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108] <plots/template_mc_loose_njet5.pdf, id=5035, 267.60324pt x 188.98535pt>
+[108] <plots/template_mc_loose_njet5.pdf, id=5206, 267.60324pt x 188.98535pt>
 File: plots/template_mc_loose_njet5.pdf Graphic file (type pdf)
 
 <use plots/template_mc_loose_njet5.pdf>
-<plots/template_mc_medium_njet5.pdf, id=5036, 266.0333pt x 189.95175pt>
+<plots/template_mc_medium_njet5.pdf, id=5207, 266.0333pt x 189.95175pt>
 File: plots/template_mc_medium_njet5.pdf Graphic file (type pdf)
 
 <use plots/template_mc_medium_njet5.pdf>
-<plots/template_mc_high_njet5.pdf, id=5037, 269.87115pt x 192.76508pt>
+<plots/template_mc_high_njet5.pdf, id=5208, 269.87115pt x 192.76508pt>
 File: plots/template_mc_high_njet5.pdf Graphic file (type pdf)
 
 <use plots/template_mc_high_njet5.pdf>
@@ -2692,15 +2702,15 @@ Package Fancyhdr Warning: \headheight is too small (20.625pt):
 
 [110 <./plots/template_mc_loose_njet5.pdf> <./plots/template_mc_medium_njet5.pd
 f> <./plots/template_mc_high_njet5.pdf>]
-<plots/template_data_medium_njet5_lowht.pdf, id=5173, 265.72466pt x 193.48888pt
+<plots/template_data_medium_njet5_lowht.pdf, id=5343, 265.72466pt x 193.48888pt
 >
 File: plots/template_data_medium_njet5_lowht.pdf Graphic file (type pdf)
  <use plots/template_data_medium_njet5_lowht.pdf>
-<plots/template_data_medium_njet5_midht.pdf, id=5174, 267.01456pt x 192.84386pt
+<plots/template_data_medium_njet5_midht.pdf, id=5344, 267.01456pt x 192.84386pt
 >
 File: plots/template_data_medium_njet5_midht.pdf Graphic file (type pdf)
  <use plots/template_data_medium_njet5_midht.pdf>
-<plots/template_data_medium_njet5_highht.pdf, id=5175, 267.01456pt x 193.48888p
+<plots/template_data_medium_njet5_highht.pdf, id=5345, 267.01456pt x 193.48888p
 t>
 File: plots/template_data_medium_njet5_highht.pdf Graphic file (type pdf)
  <use plots/template_data_medium_njet5_highht.pdf>
@@ -2809,7 +2819,7 @@ Package acronym Info: Label `acro:TP' newly defined as it shall be overridden
 although it is yet undefined on input line 72.
  [117] [118] [119]
 Appendix B.
-<plots/leadjet_matchingeff.pdf, id=5371, 569.12625pt x 474.77374pt>
+<plots/leadjet_matchingeff.pdf, id=5541, 569.12625pt x 474.77374pt>
 File: plots/leadjet_matchingeff.pdf Graphic file (type pdf)
 
 <use plots/leadjet_matchingeff.pdf> [120
@@ -2819,15 +2829,15 @@ Overfull \hbox (2.79747pt too wide) in alignment at lines 125--130
 [][][] 
  []
 
-<plots/ptresolution_low.pdf, id=5420, 1158.3275pt x 645.41125pt>
+<plots/ptresolution_low.pdf, id=5591, 1158.3275pt x 645.41125pt>
 File: plots/ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_low.pdf>
-<plots/ptresolution_medium.pdf, id=5421, 1156.32pt x 644.4075pt>
+<plots/ptresolution_medium.pdf, id=5592, 1156.32pt x 644.4075pt>
 File: plots/ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_medium.pdf>
-<plots/ptresolution_high.pdf, id=5422, 1154.3125pt x 643.40375pt>
+<plots/ptresolution_high.pdf, id=5593, 1154.3125pt x 643.40375pt>
 File: plots/ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/ptresolution_high.pdf>
@@ -2845,56 +2855,56 @@ x\040B.2.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.177 \newpage
                <./plots/ptresolution_medium.pdf> <./plots/ptresolution_high.pdf
->] [123] <plots/res_CaloSumET_summary.pdf, id=5455, 999.735pt x 373.395pt>
+>] [123] <plots/res_CaloSumET_summary.pdf, id=5625, 999.735pt x 373.395pt>
 File: plots/res_CaloSumET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfSumET_summary.pdf, id=5456, 999.735pt x 373.395pt>
+<plots/res_pfSumET_summary.pdf, id=5626, 999.735pt x 373.395pt>
 File: plots/res_pfSumET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfSumET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMET_summary.pdf, id=5457, 999.735pt x 373.395pt>
+<plots/res_CaloMET_summary.pdf, id=5627, 999.735pt x 373.395pt>
 File: plots/res_CaloMET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMET_summary.pdf, id=5458, 999.735pt x 373.395pt>
+<plots/res_pfMET_summary.pdf, id=5628, 999.735pt x 373.395pt>
 File: plots/res_pfMET_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfMET_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloHT_summary.pdf, id=5459, 999.735pt x 373.395pt>
+<plots/res_CaloHT_summary.pdf, id=5629, 999.735pt x 373.395pt>
 File: plots/res_CaloHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfHT_summary.pdf, id=5460, 999.735pt x 373.395pt>
+<plots/res_pfHT_summary.pdf, id=5630, 999.735pt x 373.395pt>
 File: plots/res_pfHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMHT_summary.pdf, id=5461, 999.735pt x 373.395pt>
+<plots/res_CaloMHT_summary.pdf, id=5631, 999.735pt x 373.395pt>
 File: plots/res_CaloMHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMHT_summary.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMHT_summary.pdf, id=5462, 999.735pt x 373.395pt>
+<plots/res_pfMHT_summary.pdf, id=5632, 999.735pt x 373.395pt>
 File: plots/res_pfMHT_summary.pdf Graphic file (type pdf)
 
 <use plots/res_pfMHT_summary.pdf>
@@ -2925,7 +2935,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 246.
 
-<plots/qcd_sideband_fits.pdf, id=5516, 373.43344pt x 310.87201pt>
+<plots/qcd_sideband_fits.pdf, id=5686, 373.43344pt x 310.87201pt>
 File: plots/qcd_sideband_fits.pdf Graphic file (type pdf)
 
 <use plots/qcd_sideband_fits.pdf>
@@ -2937,19 +2947,19 @@ See the caption package documentation for explanation.
 [129
 
  <./plots/qcd_sideband_fits.pdf>]
-<plots/syst-le3j_nominal.pdf, id=5592, 217.45613pt x 137.52158pt>
+<plots/syst-le3j_nominal.pdf, id=5762, 217.45613pt x 137.52158pt>
 File: plots/syst-le3j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_nominal.pdf>
-<plots/syst-le3j_varied.pdf, id=5593, 217.45612pt x 137.52168pt>
+<plots/syst-le3j_varied.pdf, id=5763, 217.45612pt x 137.52168pt>
 File: plots/syst-le3j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_varied.pdf>
-<plots/syst-ge4j_nominal.pdf, id=5594, 217.45612pt x 137.52158pt>
+<plots/syst-ge4j_nominal.pdf, id=5764, 217.45612pt x 137.52158pt>
 File: plots/syst-ge4j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_nominal.pdf>
-<plots/syst-ge4j_varied.pdf, id=5595, 217.45612pt x 137.52168pt>
+<plots/syst-ge4j_varied.pdf, id=5765, 217.45612pt x 137.52168pt>
 File: plots/syst-ge4j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_varied.pdf>
@@ -2962,30 +2972,30 @@ Package Fancyhdr Warning: \headheight is too small (20.625pt):
 [130 <./plots/syst-le3j_nominal.pdf> <./plots/syst-le3j_varied.pdf> <./plots/sy
 st-ge4j_nominal.pdf> <./plots/syst-ge4j_varied.pdf>]
 Appendix D.
-<plots/template_mc_loose_njet3.pdf, id=6140, 267.60324pt x 188.98535pt>
+<plots/template_mc_loose_njet3.pdf, id=6310, 267.60324pt x 188.98535pt>
 File: plots/template_mc_loose_njet3.pdf Graphic file (type pdf)
 
 <use plots/template_mc_loose_njet3.pdf>
-<plots/template_mc_medium_njet3.pdf, id=6141, 266.0332pt x 189.95186pt>
+<plots/template_mc_medium_njet3.pdf, id=6311, 266.0332pt x 189.95186pt>
 File: plots/template_mc_medium_njet3.pdf Graphic file (type pdf)
 
 <use plots/template_mc_medium_njet3.pdf>
-<plots/template_mc_high_njet3.pdf, id=6142, 269.87103pt x 192.76508pt>
+<plots/template_mc_high_njet3.pdf, id=6312, 269.87103pt x 192.76508pt>
 File: plots/template_mc_high_njet3.pdf Graphic file (type pdf)
 
 <use plots/template_mc_high_njet3.pdf>
 
 LaTeX Warning: Float too large for page by 25.78185pt on input line 335.
 
-<plots/template_mc_loose_njet4.pdf, id=6143, 267.60324pt x 188.98535pt>
+<plots/template_mc_loose_njet4.pdf, id=6313, 267.60324pt x 188.98535pt>
 File: plots/template_mc_loose_njet4.pdf Graphic file (type pdf)
 
 <use plots/template_mc_loose_njet4.pdf>
-<plots/template_mc_medium_njet4.pdf, id=6144, 266.0333pt x 189.95186pt>
+<plots/template_mc_medium_njet4.pdf, id=6314, 266.0333pt x 189.95186pt>
 File: plots/template_mc_medium_njet4.pdf Graphic file (type pdf)
 
 <use plots/template_mc_medium_njet4.pdf>
-<plots/template_mc_high_njet4.pdf, id=6145, 269.87115pt x 192.76508pt>
+<plots/template_mc_high_njet4.pdf, id=6315, 269.87115pt x 192.76508pt>
 File: plots/template_mc_high_njet4.pdf Graphic file (type pdf)
 
 <use plots/template_mc_high_njet4.pdf>
@@ -3087,17 +3097,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: B22C085DF3BD5DB584B36CE6B5E9E436;6302.
+(rerunfilecheck)             Checksum: 1F78E516D8DBB9FA7627156EC1255635;6302.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28662 strings out of 493747
- 461740 string characters out of 3143546
- 650763 words of memory out of 3000000
- 30321 multiletter control sequences out of 15000+200000
+ 28677 strings out of 493747
+ 462576 string characters out of 3143546
+ 652218 words of memory out of 3000000
+ 30333 multiletter control sequences out of 15000+200000
  43524 words of font info for 250 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  57i,26n,59p,1346b,805s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3247,10 +3257,10 @@ pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw
 no/uplbi8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on mythesis.pdf (161 pages, 9421267 bytes).
+Output written on mythesis.pdf (161 pages, 9313954 bytes).
 PDF statistics:
- 6670 PDF objects out of 7423 (max. 8388607)
- 5079 compressed objects within 51 object streams
+ 6841 PDF objects out of 7423 (max. 8388607)
+ 5114 compressed objects within 52 object streams
  624 named destinations out of 1000 (max. 500000)
- 32502 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 32517 words of extra memory for PDF output out of 35830 (max. 10000000)
 

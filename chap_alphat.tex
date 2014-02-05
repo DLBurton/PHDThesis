@@ -745,12 +745,27 @@ As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for c
 
 Each of the corrections factors for the b, c and light flavoured jets come with an associated systematic uncertainy. The uncertainties across different jet \pt and $\eta$ bins, are considered as fully correlated. When computing the magnitude of the effect of this systematic uncertainty on the \ac{TF}'s of the analysis, the scale factors are therefore scaled up/down simultaneously within \theht bin of the analysis for each of the $SF_{b,c,s}$ scale factors. The magnitude of this correction is shown for each \theht bin within Figure \ref{fig:btagefficiency}. 
 
-\begin{minipage}{\linewidth}
+\begin{figure}[ht]
 \centering
-\includegraphics[width = 3.5in]{plots/qcd_cartoon.pdf}
-\captionof{figure}[placeholder.]{placeholder.}
-\label{fig:btagefficiency}
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/b_jet_HTDistribution.pdf}
+\centering (a)  b-jets
 \end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/c_jet_HTDistribution.pdf}
+\centering (b) c-jets
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\centering
+\includegraphics[width = 1.0\linewidth]{plots/light_jet_HTDistribution.pdf}
+\centering (c) light-jets
+\end{minipage}
+\caption[Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets determined from all jets within each individual analysis \theht bin. ]{Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets as a function all jets within each individual analysis \theht bin. Efficiencies measured directly from simulation (black) and with data to simulation $SF_{b,c,s}$ correction factors (black) are applied.}\label{fig:btagefficiency}
+\end{figure}
+
+
 
 Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}'s which influences the final background prediction from each of the control samples. The magnitude of these change is shown in Table \ref{tab:btagsfuncertainties}, highlighting the absolute change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background. 
 
