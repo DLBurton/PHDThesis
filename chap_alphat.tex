@@ -204,22 +204,21 @@ Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in
 \begin{table}[h!]
 \footnotesize
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ll}
+\begin{tabulary}{0.98\textwidth}{LL}
 \cline{1-2}
-Categories & Criteria \\ 
+Variable & Definition \\ 
 \hline\hline
-Global Muon & True \\
-PFMuon & True \\
-$\chi^{2}$ & $<$ 10 \\
-Muon chamber hits & $>$ 0 \\
-Muon station hits & $>$ 1 \\
-Transvere impact d$_{xy}$ & $<$ 0.2mm \\
-Longitudinal distance d$_{z}$ & $<$ 0.5mm \\
-Pixel hits & $>$ 0\\
-Track layer hits & $>$ 5 \\
-PF Isolation (DeltaB corrected) & $<$0.12 \\
+Is Global Muon \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad& Muon contains both a hit in the muon champer and a matched track in the inner tracking system \cite{2012JInst...7P0002T}.\\
+$\chi^{2}$$<$ 10 & $\chi^{2}$ of global muon track fit. Used to suppress hadronic punch-through and muons from decays in flight.  \\
+Muon chamber hits $>$ 0 &  At least one muon chamber hit included in global muon track fit.\\
+Muon station hits $>$ 1 & Muon segment hits in at least two muon stations, which  suppresses hadronic punch-through and accidental track-to-segment matches. \\
+d$_{xy} <$ 0.2mm & The tracker track transverse impact parameter w.r.t the primary vertex. Suppresses cosmic muons and muons from decays in flight. \\
+d$_{z} <$ 0.5mm & The longitudinal distance of the tracker track w.r.t the primary vertex. Loose cut to further suppress cosmic muons, muons from decays in flight and tracks from pileup.\\
+Pixel hits $>$ 0 & Suppresses muons from decays in flight by requiring at least one pixel hit in the tracker. \\
+Track layer hits $>$ 5 & Number of tracker layers with hits, to guarantee a good \pt measurement. Also suppresses muons from decays in flight.\\
+PF Iso  $<$0.12 & Isolation based upon the sum of the charged and neutral hadrons and photon objects within a $\Delta$R 0.4 cone of the muon object, corrected for pile up effects on the isolation sum.   \\
 \cline{1-2}
-\end{tabular*}
+\end{tabulary}
 \end{center}
 \caption[Muon Identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.]{Muon Identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.}
 \label{tab:muonidtable}
@@ -258,21 +257,20 @@ Electron identification is defined for veto purposes. They are selected accordin
 \begin{table}[h!]
 \footnotesize
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}lcc}
-\cline{1-3}
-Categories & Barrel &  EndCap\\ 
+\begin{tabulary}{1.0\textwidth}{LCCL}
+\cline{1-4}
+Variable & Barrel &  EndCap & Definition\\ 
 \hline\hline
-$\Delta \eta_{In}$ & 0.007 & 0.009 \\
-$\Delta \phi_{In}$ & 0.15 & 0.10 \\
-$\sigma_{i\eta i\eta}$ & 0.01 & 0.03 \\
-H/E & 0.12 & 0.10 \\
-d0 (vtx) & 0.02 & 0.02 \\
-dZ (vtx) & 0.20 & 0.20 \\
-$\lvert$(1/E$_{ECAL}$ - 1/p$_{track}$)$\rvert$ & 0.05 & 0.05 \\
-PF Combined isolation/\pt & 0.15 & 0.15 \\
-Vertex fit probability & 10$^{-6}$ & 10$^{-6}$ \\
-\cline{1-3}
-\end{tabular*}
+$\Delta \eta_{In}$ \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad & $<$0.007 \qquad\qquad\qquad\qquad\qquad & $<$0.009 \qquad\qquad\qquad\qquad\qquad\qquad& $\Delta\eta$ between SuperCluster position and the coordinate of the associated track at the interaction vertex, assuming no radiation. \\
+$\Delta \phi_{In}$ & $<$0.15 & $<$0.10 & $\Delta\phi$ between SuperCluster position and track direction at interaction vertex extrapolated to ECAL assuming no radiation. \\
+$\sigma_{i\eta i\eta}$ & $<$0.01 & $<$0.03 & Cluster shape covariance, measure the $\eta$ dispersion of the electrons electromagnetic shower over the  \ac{ECAL} supercluster. \\
+H/E & $<$0.12 & $<$0.10 & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself.\\
+d0 (vtx) & $<$0.02 & $<$0.02 & The tracker track transverse impact parameter w.r.t the primary vertex.  \\
+dZ (vtx) & $<$0.20 & $<$0.20 & The longitudinal distance of the tracker track w.r.t the primary vertex.\\
+$\lvert(\frac{1}{E_{ECAL}} - \frac{1}{p_{track}})\rvert$ & $<$0.05 & $<$0.05 & Comparison of energy at supercluster 1/E$_{ECAL}$ and that of the track momentum at the vertex 1/p$_{track}$. Causes suppression of fake electrons at low \pt. \\
+PF Iso & $<$0.15 & $<$0.15 & Combined PF isolation of charged hadrons, photons, neutral hadrons within a $\Delta$R $<$ 0.3 cone size. Isolation sum is corrected for pileup using effective area corrections for neutral particles. \\
+\cline{1-4}
+\end{tabulary}
 \end{center}
 \caption[Electron Identification criteria used within the analysis for veto purposes.]{Electron Identification criteria used within the analysis for veto purposes.}
 \label{tab:electronidtable}
@@ -555,7 +553,7 @@ The value of the decay constant $k_{QCD}$ is constrained via measurements within
 
 The fits to determine the value of $k_{QCD}$ are shown in Appendix (\ref{app:kqcd}), for which the best fit value obtained from sideband region B is determined to be $k_{QCD} = 2.96 \pm 0.64 \times 10^{-2}$ \GeV$^{-1}$. 
 
-The best fit values of the remaining three C sideband regions are used to estimate the systematic uncertainty on the central value obtained from sideband region B. The variation of these measured values is used to determine the error on the determined central value, and is calculated to be $1.31 \pm 0.26 \times 10^{-2} \GeV^{-1}$. This relative error of $\sim$ 20\% gives an estimate of the systematic uncertainty of the measurement to be applied to $k_{QCD}$.
+The best fit values of the remaining three C sideband regions are used to estimate the systematic uncertainty on the central value obtained from sideband region B. The variation of these measured values is used to determine the error on the determined central value, and is calculated to be $1.31 \pm 0.26 \times 10^{-2} \text{ \GeV}^{-1}$. This relative error of $\sim$ 20\% gives an estimate of the systematic uncertainty of the measurement to be applied to $k_{QCD}$.
 
 Finally the same procedure is performed for sideband region D to establish that the value of $k_{QCD}$ extracted from a lower \alphat slice can be applied to the signal region \alphat $>$ 0.55. The likelihood fit is performed across all \theht bins within the QCD enriched region with no constraint applied to $k_{QCD}$. The resulting best fit value for $k_{QCD}$ shows good agreement between that and the weighted mean determined from the three C sidebands regions. This demonstrates that the assumption of using the central value determined from sideband region B, to provide an unbiased estimator for $k_{QCD}$ in the signal region (\alphat $>$ 0.55) is valid.
 
@@ -733,7 +731,7 @@ Formula $n_{b}$ = 3                  & 25.66  $\pm$  0.69        & 12.48  $\pm$ 
 Vanilla $n_{b}$ = 3                  & 29.18  $\pm$  2.06        & 11.77  $\pm$  1.26        & 6.18  $\pm$  0.95         & 7.53  $\pm$  1.05        \\ 
 \end{tabular*}
 \end{center}
-\caption[Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . ]{Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . The numbers are normalised to 11.4fb$^{?1}$. No simulation to data corrections are applied.}\label{tab:sanitycheck}
+\caption[Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . ]{Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation . The numbers are normalised to 11.4fb$^{-1}$. No simulation to data corrections are applied.}\label{tab:sanitycheck}
 \end{table}
 
 It can be seen as expected, that there is good consistency between the results determined via the formula method and `raw' simulation yields. Similarly the power of this approach can be seen in the reduction of this statistical error in the prediction across all \theht and $n_{b}^{reco}$ bins. In particular the statistical uncertainty is reduced by several factors in the highest $n_{b}^{reco} \geq 4$ category.
@@ -743,7 +741,7 @@ It can be seen as expected, that there is good consistency between the results d
 
 As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order correct the efficiencies from simulation to the distributions seen in data. These corrections factors are considered when determining the simulation yields for each selection, which are used to construct the \ac{TF}'s of the analysis. 
 
-Each of the corrections factors for the b, c and light flavoured jets come with an associated systematic uncertainy. The uncertainties across different jet \pt and $\eta$ bins, are considered as fully correlated. When computing the magnitude of the effect of this systematic uncertainty on the \ac{TF}'s of the analysis, the scale factors are therefore scaled up/down simultaneously within \theht bin of the analysis for each of the $SF_{b,c,s}$ scale factors. The magnitude of this correction is shown for each \theht bin within Figure \ref{fig:btagefficiency}. 
+Each of the corrections factors for the b, c and light flavoured jets come with an associated systematic uncertainy. The uncertainties across different jet \pt and $\eta$ bins, are considered as fully correlated. When computing the magnitude of the effect of this systematic uncertainty on the \ac{TF}'s of the analysis, the scale factors are therefore scaled up/down simultaneously within \theht bin of the analysis for each of the $SF_{b,c,light}$ scale factors. The magnitude of this correction is shown for each \theht bin within Figure \ref{fig:btagefficiency}. 
 
 \begin{figure}[ht]
 \centering
@@ -762,7 +760,7 @@ Each of the corrections factors for the b, c and light flavoured jets come with 
 \includegraphics[width = 1.0\linewidth]{plots/light_jet_HTDistribution.pdf}
 \centering (c) light-jets
 \end{minipage}
-\caption[Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets determined from all jets within each individual analysis \theht bin. ]{Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets as a function all jets within each individual analysis \theht bin. Efficiencies measured directly from simulation (black) and with data to simulation $SF_{b,c,s}$ correction factors (black) are applied.}\label{fig:btagefficiency}
+\caption[Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets determined from all jets within each individual analysis \theht bin. ]{Tagging efficiencies of (a) b-jets, (b) c-jets, and (c$)$ light-jets as a function all jets within each individual analysis \theht bin. Efficiencies measured directly from simulation (black) and with data to simulation $SF_{b,c,light}$ correction factors (black) are applied.}\label{fig:btagefficiency}
 \end{figure}
 
 

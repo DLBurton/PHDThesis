@@ -28,45 +28,45 @@ Warning--empty author in CMS-PAS-SUS-08-002
 Warning--empty author in CMS-PAS-LUM-12-001
 Warning--empty booktitle in 2010acat.confE..57M
 Warning--empty journal in Read:451614
-You've used 93 entries,
+You've used 94 entries,
             1876 wiz_defined-function locations,
-            997 strings with 15546 characters,
-and the built_in function-call counts, 21942 in all, are:
-= -- 2252
-> -- 676
+            1002 strings with 15681 characters,
+and the built_in function-call counts, 22129 in all, are:
+= -- 2271
+> -- 680
 < -- 9
-+ -- 272
-- -- 179
-* -- 1404
-:= -- 3009
-add.period$ -- 100
-call.type$ -- 93
-change.case$ -- 87
++ -- 274
+- -- 180
+* -- 1417
+:= -- 3037
+add.period$ -- 101
+call.type$ -- 94
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 118
-duplicate$ -- 1303
-empty$ -- 2060
-format.name$ -- 179
-if$ -- 5524
+cite$ -- 119
+duplicate$ -- 1315
+empty$ -- 2078
+format.name$ -- 180
+if$ -- 5571
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 82
-newline$ -- 289
-num.names$ -- 81
-pop$ -- 252
+int.to.str$ -- 94
+missing$ -- 83
+newline$ -- 292
+num.names$ -- 82
+pop$ -- 254
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 942
+skip$ -- 950
 stack$ -- 0
-substring$ -- 1154
-swap$ -- 593
+substring$ -- 1158
+swap$ -- 598
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 175
-width$ -- 95
-write$ -- 886
+while$ -- 177
+width$ -- 96
+write$ -- 896
 (There were 25 warnings)

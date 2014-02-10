@@ -122,7 +122,7 @@ The matching efficiencies have a $\mu$ values of 6.62 GeV and 19.51 GeV for Run 
 
 \begin{table}
 \begin{center}
-\begin{tabular*}{0.5\textwidth}{c|cc}
+\begin{tabular*}{0.5\textwidth}{ccc}
 \cline{1-3}
 \multicolumn{1}{c}{Run Period} & $\mu$ & $\sigma$ \\ \hline\hline
 2012B & 6.62 $\pm$ 0.01 & 0.79 $\pm$ 0.03  \\ 
@@ -140,37 +140,49 @@ muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are m
 \section{Leading Jet Energy Resolution}
 \label{app:jetpuresolution}
 
-\begin{figure}[htp]
-
+\begin{figure}[ht]
     \centering
-    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.pdf}  }\,
-    %\caption{}
+    \begin{minipage}[b]{0.95\linewidth}
+    \centering
+   \includegraphics[width = 1.0\linewidth]{plots/ptresolution_low.pdf}
+   \centering (a)
+     \end{minipage}
 \end{figure}
 
 \begin{figure}
-    %\ContinuedFloat
     \centering
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.pdf}}\,
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.pdf}}\,
-
-      \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
+    \begin{minipage}[b]{0.95\linewidth}
+    \includegraphics[width=1.0\textwidth]{plots/ptresolution_medium.pdf}
+    \centering (b)
+    \end{minipage}
+    \quad
+    \begin{minipage}[b]{0.95\linewidth}
+    \includegraphics[width=1.0\textwidth]{plots/ptresolution_high.pdf}
+    \centering (c$)$ 
+    \end{minipage}
+     \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
 \end{figure}
 
 \begin{figure}[htpb]
 
     \centering
-    \subfloat[]{  \includegraphics[width=0.95\textwidth]{plots/ptresolution_low.pdf}  }\,
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_medium.pdf}}\,
-
+    \begin{minipage}[b]{0.95\linewidth}
+    \includegraphics[width=1.0\textwidth]{plots/ptresolution_low.pdf}
+    \centering (a)
+    \end{minipage}
+    \quad
+    \begin{minipage}[b]{0.95\linewidth}
+    \includegraphics[width=1.0\textwidth]{plots/ptresolution_medium.pdf}
+    \centering (b) 
+    \end{minipage}
 \end{figure}
 
 \begin{figure}
-   % \ContinuedFloat
-    \centering
-    \subfloat[]{\includegraphics[width=0.95\textwidth]{plots/ptresolution_high.pdf}}\,
-
+    \begin{minipage}[b]{0.95\linewidth}
+    \includegraphics[width=1.0\textwidth]{plots/ptresolution_high.pdf}
+    \centering (c$)$ 
+    \end{minipage}
       \caption[ Resolution plots of the leading off-line PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions.] { Resolution plots of the leading offline jet \PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for  low (a), medium (b) and high (c) pile-up conditions. }
-  
 \end{figure}
 
 
@@ -295,63 +307,94 @@ Closure tests with cross section variations of +20\% and -20\% applied to W + je
 \label{fig:xsecvariedge4j}
 \end{figure}
 
- \begin{table}[h!]
+\def\arraystretch{1.3}
+\begin{table}[ht!]
 \begin{center}
-\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}cl|cccc}
-\cline{1-6}
-&&\multicolumn{4}{l}{\theht (\GeV)} \\
-\cline{1-6}
-\cline{1-6}
-\end{tabular*}
+\footnotesize
+\begin{tabular}{ cccccc}
+\hline\hline
+\multicolumn{2}{c}{}               & \multicolumn{4}{c}{$H_{T}$ (GeV)} \\
+$n_{b}^{reco}$ & Cross Section     & 275--325                  & 325--375                  & 375--475                  & 475--575                 \\ 
+\hline
+ 0 & Nominal                       & 0.303  $\pm$  0.010       & 0.258  $\pm$  0.007       & 0.192  $\pm$  0.003       & 0.148  $\pm$  0.004      \\
+ 0 & Varied                        & 0.300  $\pm$  0.010       & 0.256  $\pm$  0.007       & 0.191  $\pm$  0.003       & 0.147  $\pm$  0.004      \\ 
+ 1 & Nominal                       & 0.294  $\pm$  0.005       & 0.246  $\pm$  0.004       & 0.189  $\pm$  0.003       & 0.139  $\pm$  0.003      \\
+ 1 & Varied                        & 0.295  $\pm$  0.006       & 0.248  $\pm$  0.004       & 0.191  $\pm$  0.003       & 0.140  $\pm$  0.003      \\ 
+ 2 & Nominal                       & 0.208  $\pm$  0.003       & 0.183  $\pm$  0.004       & 0.145  $\pm$  0.003       & 0.123  $\pm$  0.004      \\
+ 2 & Varied                        & 0.211  $\pm$  0.004       & 0.185  $\pm$  0.004       & 0.147  $\pm$  0.003       & 0.124  $\pm$  0.004      \\ 
+ 3 & Nominal                       & 0.214  $\pm$  0.005       & 0.202  $\pm$  0.007       & 0.159  $\pm$  0.006       & 0.140  $\pm$  0.007      \\
+ 3 & Varied                        & 0.215  $\pm$  0.005       & 0.203  $\pm$  0.007       & 0.159  $\pm$  0.006       & 0.140  $\pm$  0.007      \\ 
+ $\geq$4 & Nominal                 & 0.220  $\pm$  0.015       & 0.245  $\pm$  0.035       & 0.119  $\pm$  0.009       & -                         \\
+ $\geq$4 & Varied                  & 0.220  $\pm$  0.015       & 0.245  $\pm$  0.035       & 0.119  $\pm$  0.009       & -                          \\  
+\hline\hline
+$n_{b}^{reco}$ & Cross Section   & 575--675                  & 675--775                  & 775--875                  & 875--$\infty$            \\ 
+\hline
+0 & Nominal                        & 0.119  $\pm$  0.004       & 0.098  $\pm$  0.005       & 0.077  $\pm$  0.006       & 0.049  $\pm$  0.005      \\
+0 & Varied                         & 0.120  $\pm$  0.005       & 0.098  $\pm$  0.006       & 0.077  $\pm$  0.007       & 0.049  $\pm$  0.005      \\ 
+1 & Nominal                        & 0.115  $\pm$  0.004       & 0.093  $\pm$  0.005       & 0.075  $\pm$  0.007       & 0.063  $\pm$  0.006      \\
+1 & Varied                         & 0.116  $\pm$  0.004       & 0.098  $\pm$  0.005       & 0.081  $\pm$  0.007       & 0.065  $\pm$  0.006      \\ 
+2 & Nominal                        & 0.096  $\pm$  0.005       & 0.070  $\pm$  0.006       & 0.051  $\pm$  0.007       & 0.063  $\pm$  0.008      \\
+2 & Varied                         & 0.098  $\pm$  0.005       & 0.073  $\pm$  0.006       & 0.053  $\pm$  0.007       & 0.064  $\pm$  0.008      \\ 
+3 & Nominal                        & 0.114  $\pm$  0.009       & 0.065  $\pm$  0.007       & 0.070  $\pm$  0.017       & 0.092  $\pm$  0.020      \\
+3 & Varied                         & 0.114  $\pm$  0.009       & 0.066  $\pm$  0.007       & 0.070  $\pm$  0.016       & 0.093  $\pm$  0.020      \\ 
+\end{tabular}
 \end{center}
-\caption[ ]{}\label{tab:xsecvaried}
+\caption[Translation factors constructed from the \mupjets control sample and signal selction MC, to predict yields for the W + jets and \ttbar back-grounds in the signal region.]{Translation factors constructed from the \mupjets control sample and signal selction MC, to predict yields for the W + jets and \ttbar back-grounds in the signal region with (a) NNLO cross sections corrected by k-factors determined from a data sideband see Section (\ref{subsec:mckfactors}), marked as ÒNominalÓ, and (b) the same cross sections but with those for W + jets and \ttbar varied up and down by 20\%, respectively, marked as ÒVariedÓ. No requirement is placed on the jet multiplicity of events within this table.}\label{tab:xsecvaried}
 \end{table}
+\def\arraystretch{1.0}
+
 
 \chapter{Additional Material  For B-tag Template Method}
 \label{app:templatematerial}
 \section{Templates Fits in Simulation}
 \label{app:templatemc}
 
+Template fits for the three \ac{CSV} working points in the $n_{jet} = 3$, \theht $>$ 375 category :
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.55 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_loose_njet3.pdf}
+\begin{minipage}[b]{0.51 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
 \centering (a) Loose working point $n_{jet}$ = 3 
 \end{minipage}
-\quad
-\begin{minipage}[b]{0.55\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_medium_njet3.pdf}
+\end{figure}
+\begin{figure}
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
 \centering (b) Medium working point $n_{jet}$ = 3 
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.55\linewidth}
+\begin{minipage}[b]{0.51\linewidth}
 \centering
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_high_njet3.pdf}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
 \centering (c) Tight working point $n_{jet} =$ 3 
 \end{minipage}
-\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 3$ category.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 3$ category. The red template represents Z = 0, while the blue template represents Z = 2. Grey bands represent the statistical uncertainty of the fit.The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 3$ category.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 3$ category. The blue template represents Z = 0, while the red template represents Z = 2. Grey bands represent the statistical uncertainty of the fit.The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
 \label{app:template_closure_njet3}
 \end{figure}
 
+\FloatBarrier
+
+Template fits for the three \ac{CSV} working points in the $n_{jet} = 4$, \theht $>$ 375 category :
+
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.55 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_loose_njet4.pdf}
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_mult_4.pdf}
 \centering (a) Loose working point $n_{jet}$ = 4 
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.55\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_medium_njet4.pdf}
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_4.pdf}
 \centering (b) Medium working point $n_{jet}$ = 4 
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.55\linewidth}
+\begin{minipage}[b]{0.51\linewidth}
 \centering
-\includegraphics[width = 1.0\linewidth]{plots/template_mc_high_njet4.pdf}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_mult_4.pdf}
 \centering (c) Tight working point $n_{jet} =$ 4 
 \end{minipage}
-\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 4$ category.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV,  for the $n_{jet} = 4$ category. The red template represents Z = 0, while the blue template represents Z = 2. Grey bands represent the statistical uncertainty of the fit.The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV, for the $n_{jet} = 4$ category.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from simulation in the region \theht $>$ 375 \GeV,  for the $n_{jet} = 4$ category. The blue template represents Z = 0, while the red template represents Z = 2. Grey bands represent the statistical uncertainty of the fit.The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
 \label{fig:template_closure_high}
 \end{figure}
 
@@ -360,52 +403,140 @@ Closure tests with cross section variations of +20\% and -20\% applied to W + je
 \section{Pull Distributions for Template Fits}
 \label{app:templatepulldistributions}
 
-\section{Templates Fits in Data}
-\label{app:templatedata}
-
-Template fits for the loose \ac{CSV} working point :
-
 \begin{figure}[ht]
 \centering
 \begin{minipage}[b]{0.48 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_lowht.pdf}
-\centering (a) $n_{jet} \geq$  5 , 275 $<$ \theht $<$ 325
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.pdf}
+\centering (a) Z0 Template, \theht $> 375$ ,  $n_{jet} = 3$
 \end{minipage}
 \quad
 \begin{minipage}[b]{0.48\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_midht.pdf}
-\centering (b) $n_{jet} \geq$ = 5 , 325 $<$ \theht $<$ 375 
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.pdf}
+\centering (b) Z2 Template, \theht $> 375$ ,  $n_{jet} = 3$
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.pdf}
+\centering (a) Z0 Template, \theht $> 375$ ,  $n_{jet} = 4$
 \end{minipage}
 \quad
 \begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.pdf}
+\centering (b) Z2 Template, \theht $> 375$ ,  $n_{jet} = 4$
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.pdf}
+\centering (a) Z0 Template, \theht $> 375$ ,  $n_{jet} \geq 5$
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.48\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.pdf}
+\centering (b) Z2 Template, \theht $> 375$ ,  $n_{jet} \geq 5$
+\end{minipage}
+\caption[Pull distributions of $\frac{(\theta - \hat{\theta})}{\sigma}$for $10^{4}$ pseudo-experiments generated from a gaussian distribution centred on the $n_{b}^{reco}$ template values from simulation with width $\sigma$.]{Pull distributions of $\frac{(\theta - \hat{\theta})}{\sigma}$for $10^{4}$ pseudo-experiments generated from a gaussian distribution centred on the $n_{b}^{reco}$ template values from simulation with width $\sigma$. Distributions are shown for both Z0 and Z2 templates for the medium \ac{CSV} working point.}
+\label{app:templatepulldistributionsmedium}
+\end{figure}
+
+
+
+\section{Templates Fits in Data Control Sample}
+\label{app:templatedata}
+
+Template fits for the three \theht bins, in the $n_{jet} = 3$,  medium \ac{CSV} working point:
+
+\begin{figure}[ht]
 \centering
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_highht.pdf}
-\centering (c) $n_{jet} \geq$ 5 , \theht $\geq$ 375 
+\begin{minipage}[b]{0.51 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mult_3.pdf}
+\centering (a) $n_{jet} =$  3 , 275 $<$ \theht $<$ 325
 \end{minipage}
-\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from data, for the $n_{jet} \geq 5$ category and loose \ac{CSV} working point.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, for the $n_{jet} \geq 5$ category and loose \ac{CSV} working point. The red template represents Z = 0, while the blue template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_3.pdf}
+\centering (b) $n_{jet} =$  3 , 325 $<$ \theht $<$ 375 
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\centering
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
+\centering (c) $n_{jet} =$ 3 , \theht $>$ 375 
+\end{minipage}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from data, for the $n_{jet} = 3$ category and medium \ac{CSV} working point.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, for the $n_{jet} = 3$ category and medium \ac{CSV} working point. The blue template represents Z = 0, while the red template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low $n_{b}^{reco}$ (0-2) control region.}
 \label{app:template_data_loose_njet5}
 \end{figure}
 \FloatBarrier
 
-Template fits for the tight \ac{CSV} working point :
+Template fits for the three \theht bins, in the $n_{jet} = 4$,  medium \ac{CSV} working point:
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.48 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_lowht.pdf}
-\centering (a) $n_{jet} \geq$  5 , 275 $<$ \theht $<$ 325
+\begin{minipage}[b]{0.51 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mult_4.pdf}
+\centering (a) $n_{jet} =$  4 , 275 $<$ \theht $<$ 325
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_midht.pdf}
-\centering (b) $n_{jet} \geq$ = 5 , 325 $<$ \theht $<$ 375 
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_4.pdf}
+\centering (b) $n_{jet} =$ 4 , 325 $<$ \theht $<$ 375 
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48\linewidth}
+\begin{minipage}[b]{0.51\linewidth}
 \centering
-\includegraphics[width = 1.0\linewidth]{plots/template_data_medium_njet5_highht.pdf}
-\centering (c) $n_{jet} \geq$ 5 , \theht $\geq$ 375 
+\includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_4.pdf}
+\centering (c) $n_{jet} =$ 4 , \theht $>$ 375 
 \end{minipage}
-\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from data, for the $n_{jet} \geq 5$ category and tight \ac{CSV} working point.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, for the $n_{jet} \geq 5$ category and tight \ac{CSV} working point. The red template represents Z = 0, while the blue template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken directly from data, for the $n_{jet} = 4$ category and medium \ac{CSV} working point.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, for the $n_{jet} = 4$ category and medium \ac{CSV} working point. The blue template represents Z = 0, while the red template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low $ n_{b}^{reco}$ (0-2) control region.}
 \label{app:template_data_tight_njet5}
+\end{figure}
+
+\section{Templates Fits in Data Signal Region}
+\label{app:templatedata_signal}
+
+Template fits for the three \ac{CSV} working points, in the $n_{jet}$ = 3, \theht $>$ 375 category :
+
+\begin{figure}[ht]
+\footnotesize
+\centering
+\begin{minipage}[b]{0.51 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mult_3.pdf}
+\centering (a) Loose working point : $n_{jet}=$  3 , \theht $>$ 375
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_mult_3.pdf}
+\centering (b) Medium working point : $n_{jet}$ = 3 , \theht $>$ 375 
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\centering
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mult_3.pdf}
+\centering (c) Tight working point :  $n_{jet} =$ 3 , \theht $>$ 375 
+\end{minipage}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, in the $n_{jet} = 3$ and \theht $>$ 375 category for all \ac{CSV} working points.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, in the $n_{jet} =3$ and \theht $>$ 375 category for all \ac{CSV} working points. The blue template represents Z = 0, while the red template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\label{app:template_data_signal_njet3}
+\end{figure}
+
+Template fits for the three \ac{CSV} working points, in the $n_{jet}$ = 4, \theht $>$ 375 category :
+
+\begin{figure}[ht]
+\footnotesize
+\centering
+\begin{minipage}[b]{0.51 \linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mult_4.pdf}
+\centering (a) Loose working point : $n_{jet}=$  4 , \theht $>$ 375
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_mult_4.pdf}
+\centering (b) Medium working point : $n_{jet}$ = 4 , \theht $>$ 375 
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.51\linewidth}
+\centering
+\includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mult_4.pdf}
+\centering (c) Tight working point :  $n_{jet} =$ 4 , \theht $>$ 375 
+\end{minipage}
+\caption[The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, in the $n_{jet} = 4$ and \theht $>$ 375 category for all \ac{CSV} working points.]{The results of fitting the Z = 0 and Z = 2 templates to the $n_{b}^{reco}$ = 0, 1, 2 bins taken from data, in the $n_{jet} =4$ and \theht $>$ 375 category for all \ac{CSV} working points. The blue template represents Z = 0, while the red template represents Z = 2. The $\chi^{2}$ parameter displayed represents the goodness of fit to the low$ n_{b}^{reco}$ (0-2) control region.}
+\label{app:template_data_signal_njet3}
 \end{figure}
