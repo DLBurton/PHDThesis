@@ -8,16 +8,16 @@ Department of Physics]%
 %% Abstract
 \begin{abstract}%[\smaller \thetitle\\ \vspace*{1cm} \smaller {\theauthor}]
   %\thispagestyle{empty}
-A search for supersymmetric particles is presented, using the Compact Muon Solenoid detector at the Large Hadron Collider, with a signature of missing energy in events with high \pt jets is presented. The analysis is performed with 11.7 fb$^{-1}$ of data, collected at a  center-of-mass energy of 8 \TeV during the 2012 run period. The dimensionless kinematic variable \alphat is used to select events with genuine missing energy signatures, while Standard Model backgrounds in the signal region estimated using data driven control samples.
-A complementary method to search for natural SUSY signatures with a high number of b-flavoured jets, through the use of a simple template fit is presented. The \alphat search is used as a vehicle to demonstrate proof of principle and as a search region for this technique. 
-Additionally the efficiency of the hadronic Level-1 single jet triggers are measured throughout the 2012 run period. Results are presented with a view to comparing L1 jet performance, before and after, a change to the jet seed algorithm implemented during data taking.
-No excess of events is found over Standard Model expectations in the \alphat search. Exclusion limits are set at the 95\% confidence level in the parameter space of simplified models, with special emphasis on compressed spectra and natural SUSY scenarios.  
+A search for supersymmetric particles with in events with a missing energy signature and high \pt jets, is conducted using data recorded by the Compact Muon Solenoid detector based at the Large Hadron Collider. The analysis is performed with 11.7 fb$^{-1}$ of data, collected with a center-of-mass collision energy of 8 \TeV during the 2012 run period. The dimensionless kinematic variable \alphat is used as a tool to select events with genuine missing energy signatures, whilst Standard Model backgrounds in the signal region are estimated using data driven control samples, which have similar kinematic to the signal region.
+No excess of over Standard Model expectations is found. Exclusion limits are set at the 95\% confidence level in the parameter space of a range of supersymmetric simplified model topologies, with special emphasis on those with compressed spectra (small mass splittings) and natural SUSY scenarios (large number of b flavoured quarks).  
+A complementary method to search for natural SUSY signatures with a high number of b-flavoured jets, through the use of a simple template fit is also presented. The event selections of the \alphat search are used as a vehicle to demonstrate proof of principle of the technique in both data and simulation. Estimated Standard Model backgrounds from the template fits are compared with those determined from the data driven background estimation method of the \alphat search within the signal search region, where good agreement between the individual predictions and that of data are observed.
+Additionally the efficiency of the hadronic Level-1 single jet triggers are measured throughout the 2012 run period, where a change to the jet seed algorithm was implemented during the data taking period. This change was introduced to negate an increase in rate which can be attributed to pileup jets, whilst maintaining similar performance in the triggering of physics events.
 \end{abstract}
 
 
 %% Declaration
 \begin{declaration}
-  I, the author of this thesis, declare that the work presented within this document to be my own.  The work presented in Chapters \ref{chap:SUSYsearches}, \ref{chap:templatemethod}, \ref{chap:SUSYresults} and Section \ref{subsec:l1trigger}, is a result of the author's own work or that of which I have been a major contributor unless explicitly stated otherwise, and is carried out within the context of the Imperial College London and \CERN \SUSY groups, itself a subsection of the greater \CMS collaboration.  All figures and studies taken from external sources are referenced appropriately throughout this document.
+  I, the author of this thesis, declare that the work presented within this document to be my own.  The work presented in Chapters \ref{chap:SUSYsearches}, \ref{chap:SUSYresults},  \ref{chap:templatemethod} and Section \ref{sec:triggersystem}, is a result of the author's own work or that of which I have been a major contributor unless explicitly stated otherwise, and is carried out within the context of the Imperial College London and \CERN \SUSY groups, itself a subsection of the greater \CMS collaboration.  All figures and studies taken from external sources are referenced appropriately throughout this document.
   
   \vspace*{1cm}
   \begin{flushright}
@@ -28,86 +28,20 @@ No excess of events is found over Standard Model expectations in the \alphat sea
 
 %% Acknowledgements
 \begin{acknowledgements}
-  Of the many people who deserve thanks, some are particularly prominent....
-  Thank Rob
-  Thank Jad
+  I would like to thank the many people whom I have had the pleasure of working with during the course of the last three and a half years. The opportunity to work as part one of the largest scientific collaborations during one of the most exciting times in particle physics for decades, has been a real privilege to be a part of. I could not have achieved the results presented in this thesis without the help of my colleagues who were part of the RA1 team, Edward Laird, Chris Lucas, Henning Flaecher, Yossof Eshaq, Bryn Mathais, Sam Rogerson, Zhaoxia Meng and Georgia Karapostoli whom I worked with on L1 jets. I also thank my supervisor Oliver Buchmuller for his guidance in getting me to this point. 
+ 
+I also feel it important to single out thanks to the postdocs that I have worked with during my PhD. Jad Marrouche from whom I have learnt a great deal and Robert Bainbridge who has been like a second supervisor to me, helping me during my time at Imperial and CERN, especially during those most stressful of times approaching conference deadlines! 
+
+My fellow PhD students who I live with and have seen on an almost daily basis for the last few years, Andrew Gilbert, Patrick Owen, Indrek Sepp, Matthew Kenzie and my girlfriend Hannah. Thanks for putting up with the whinging, complaining and clomping. 
+
+Finally my largest thanks go to my Mum and Dad whose patience, encouragement and considerable financial support have allowed me to take the many steps that lead me here today. 
  
 \end{acknowledgements}
 
-
-%% Preface
-%% \begin{preface}
-%%This thesis will never be read by anyone except maybe Baino when he's forced to proof read it.
-
- % \noindent
-  
-%\end{preface}
-
-%% ToC
 \tableofcontents
 \listoffigures
 \listoftables
 \newpage
-\section*{Acronyms}
-
-\begin{acronym}[AAAAAAA]
-\acro{ALICE}[ALICE]{A Large Ion Collider Experiment}
-\acro {ATLAS} [ATLAS] {A Toroidal LHC ApparatuS}
-\acro{APD}[APD]{Avalanche Photo-Diodes}
-\acro{BSM}[BSM]{Beyond Standard Model}
-\acro {CERN} [CERN] {European Organization for Nuclear Research}
-\acro {CMS} [CMS] {Compact Muon Solenoid}
-\acro {CMSSM} [CMSSM] {Compressed Minimal SuperSymmetric Model}
-\acro {CSC} [CSC] {Cathode Stripe Chamber}
-\acro {CSV} [CSV] {Combined Secondary Vertex}
-\acro {CSVM} [CSVM] {Combined Secondary Vertex Medium Working Point}
-\acro {DT} [DT] {Drift Tube}
-\acro {ECAL} [ECAL] {Electromagnetic CALorimeter}
-\acro {EB} [EB] {Electromagnetic CALorimeter Barrel}
-\acro {EE} [EE] {Electromagnetic CALorimeter Endcap}
-\acro {ES} [ES] {Electromagnetic CALorimeter pre-Shower}
-\acro {EMG} [EMG] {Exponentially Modified Gaussian}
-\acro {EPJC} [EPJC] {European Physical Journal C}
-\acro {EWK} [EWK] {Electroweak Sector}
-\acro {GCT} [GCT] {Global Calorimeter Trigger}
-\acro {GMT} [GMT] {Global MuonTrigger}
-\acro {GT} [GT] {Global Trigger}
-\acro {HB} [HB] {Hadron Barrel}
-\acro {HCAL} [HCAL] {Hadronic CALorimeter}
-\acro {HE} [HE] {Hadron Endcaps}
-\acro {HF} [HF] {Hadron Forward}
-\acro {HLT}[HLT] {Higher Level Trigger}
-\acro {HO} [HO] {Hadron Outer}
-\acro {HPD} [HPD] {Hybrid Photo Diode}
-\acro {ISR} [ISR] {Initial State Radiation}
-\acro {LUT} [LUT] {Look Up Table}
-\acro {L1} [L1] {Level 1 Trigger}
-\acro{lhc}[LHC]{Large Hadron Collider}
-\acro{LHCb}[LHCb]{Large Hadron Collider Beauty}
-\acro{LSP}[LSP]{Lightest Supersymmetric Partner}
-\acro{NLL}[NLL]{Next to Leading Logorithmic Order}
-\acro{NLO}[NLO]{Next to Leading Order}
-\acro{NNLO}[NNLO]{Next to Next Leading Order}
-\acro{POGs}[POGs]{Physics Object Groups}
-\acro{PS}[PS]{Proton Synchrotron}
-\acro{QED}[QED]{Quantum Electro-Dynamics}
-\acro{QCD}[QCD]{Quantum Chromo-Dynamics}
-\acro{QFT}[QFT]{Quantum Field Theory}
-\acro {RBXs} [RBXs] {Readout Boxes}
-\acro {RPC} [RPC] {Resistive Plate Chamber}
-\acro {RCT} [RCT] {Regional Calorimeter Trigger}
-\acro {RMT} [RMT] {Regional Muon Trigger}
-\acro{SUSY}[SUSY]{SUperSYmmetry}
-\acro{SM}[SM]{Standard Model}
-\acro{SMS}[SMS]{Simplified Model Spectra}
-\acro{SPS}[SPS]{Super Proton Synchrotron}
-\acro{TF}[TF]{Transfer Factor}
-\acro{TP}[TP]{Trigger Primative}
-\acro{VEV}[VEV]{Vacuum Expectation Value}
-\acro{VPT}[VPT]{Vacuum Photo-Triodes}
-\acro{WIMP}[WIMP]{Weakly Interacting Massive Particle}
-
-\end{acronym}
 
 %% Strictly optional!
 \frontquote%

@@ -1,7 +1,7 @@
 \chapter{SUSY Searches In Hadronic Final States}
 \label{chap:SUSYsearches}
 
-In this chapter a model independent search for \ac{SUSY} in hadronic final states with $\met$ using the $\alphat$ variable and b-quark multiplicity is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrate luminosity of 11.7$\pm$0.5 fb$^{-1}$.
+In this chapter a model independent search for \ac{SUSY} in hadronic final states with $\met$ using the $\alphat$ variable and b-quark multiplicity is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrate luminosity of 11.7$\pm$0.5 fb$^{-1}$ \cite{Chatrchyan:2013lya}.
 
 The kinematic variable $\alphat$ is motivated as a variable to provide strong rejections of QCD backgrounds, whilst maintaining sensitivity to a possible \ac{SUSY} signal within Section (\ref{sec:alphatintroduction}). The search and trigger strategy in addition to the event reconstruction and selection are outlined within Sections (\ref{subsec:searchstrategy}-\ref{subsec:triggerstrategy}). 
 
@@ -56,8 +56,8 @@ A search within this channel is greatly complicated in a hadron collider environ
 \begin{figure}[!h]
 
 \centering
-\includegraphics[width=0.60\textwidth]{plots/nocuts_htdistribution.pdf}
-\caption[Reconstructed offline \theht for 11.7fb$^{-1}$ of data after a basic pre-selection.]{Reconstructed offline $\theht$ for 11.7fb$^{-1}$ of data after a basic pre-selection. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal model (labelled D2 from Table.\ref{tab:sms_model_table}).}  
+\includegraphics[width=0.65\textwidth]{plots/ra1_htdistribution.pdf}
+\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal models (labelled G1 and D1 from Table.\ref{tab:sms_model_table}).}  
 \label{fig:htqcdbackground}
 \end{figure}
 
@@ -70,7 +70,7 @@ Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from e
 \item small background contributions from DY, single top and Diboson (WW,ZZ,WZ) processes.
 \end{itemize}
 
-The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{PhysRevLett.101.221803}\cite{CMS:2008vya}.
+The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{alphat7tev}\cite{CMS:2008vya}.
 
 \subsection{The $\alphat$ variable}
 \label{subsec:alphatvariable}
@@ -83,7 +83,7 @@ For a perfectly measured di-jet QCD event, conservation laws dictate that they m
 \label{fig:susytopology}
 \end{figure}
 
- Exploiting this feature leads to the formulation of $\alphat$ in di-jet systems defined as,
+ Exploiting this feature leads to the formulation of $\alphat$ (first inspired by \cite{PhysRevLett.101.221803}) in di-jet systems defined as,
 
 \begin{equation}
 \alphat = \frac {E^{j2}_{T}}{M_{T}},
@@ -96,8 +96,7 @@ where $E^{j2}_{T}$ is the transverse energy of the least energetic of the two je
 M_{T} = \sqrt{\left(\sum^{2}_{i=1}E^{j_{i}}_{T}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{x}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{y}\right)^{2}} \equiv \sqrt{H_{T}^{2} - \mht^{2}} .
 \end{equation}
 
-A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would give an $\alphat = 0.5$, where as events with jets which are not back-to-back, for example in events in which
-a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of 0.5.
+A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would give an $\alphat = 0.5$, where as events with jets which are not back-to-back, for example in events in which a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of 0.5.
 
 $\alphat$ can be extended to apply to any arbitrary number of jets, undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present in the event such that the 2 pseudo-jets are chosen to be as balanced as possible, i.e the $\Delta$ \theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
 

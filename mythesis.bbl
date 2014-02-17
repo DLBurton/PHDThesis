@@ -297,12 +297,17 @@ B.~et~al., ``{ Study of Level-1 Trigger Jet Performance in High Pile-up Running
 J.~J. Brooke, ``Performance of the cms level-1 trigger,'' Tech. Rep.
   CMS-CR-2012-322. CERN-CMS-CR-2012-322, CERN, Geneva, Nov 2012.
 
-\bibitem{PhysRevLett.101.221803}
-L.~Randall and D.~Tucker-Smith, ``Dijet searches for supersymmetry at the large
-  hadron collider,'' {\em Phys. Rev. Lett.}, vol.~101, p.~221803, Nov 2008.
+\bibitem{alphat7tev}
+S.~Chatrchyan {\em et~al.}, ``{Search for supersymmetry in final states with
+  missing transverse energy and 0, 1, 2, or at least 3 b-quark jets in 7 TeV pp
+  collisions using the variable alphaT},'' {\em JHEP}, vol.~1301, p.~077, 2013.
 
 \bibitem{CMS:2008vya}
 ``{SUSY searches with dijet events},'' 2008.
+
+\bibitem{PhysRevLett.101.221803}
+L.~Randall and D.~Tucker-Smith, ``Dijet searches for supersymmetry at the large
+  hadron collider,'' {\em Phys. Rev. Lett.}, vol.~101, p.~221803, Nov 2008.
 
 \bibitem{CMS-PAS-SUS-09-001}
 ``{Search strategy for exclusive multi-jet events from supersymmetry at CMS},''

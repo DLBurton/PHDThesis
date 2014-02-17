@@ -1,4 +1,2 @@
-In Appendix B - Produce PF jet resolution plots
-In AlphaT variable section make new HT plot for 8TeV result.
-Sort pdf files out for muon fits
-References in analysis chapters
+Make Rob's corrections
+In Appendix B - Produce PF jet resolution plots, remake energy resolution plots (do this stuff last)
