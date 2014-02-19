@@ -3,7 +3,9 @@
 
 \chapter{Miscellaneous}
 \label{app:noise}
-\section{Noise Filters}
+\section{Jet Identification Criteria}
+\label{app:jetcriteria}
+
 
 For Calo jets the following criteria were applied:
 
@@ -51,30 +53,6 @@ cemfJet $<$ 0.99 & Fraction of jet composed of charged electromagnetic energy. \
 \label{apptab:pfjetid}
 \end{table}  
   
-   
-The following noise filters are applied, to remove events with spurious, non-physical jets or missing transverse energy.
-
-\begin{table}[H]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.80\textwidth}{p{4cm}L}
-\cline{1-2}
-\multicolumn{2}{l}{Noise Filters} \\
-Variable & Definition \\ 
-\hline\hline
- CSC tight beam halo filter \qquad\qquad\qquad\qquad\qquad & As proton beams circle the \ac{lhc}, proton interactions with the residual gas particles or the beam collimators can occur, producing showers of secondary particles which can interact with the \ac{CMS} detector. \\
- HBHE noise filter with isolated noise rejection & Anomalous noise in the \ac{HCAL} not due to electronics noise, but rather due to instrumentation issues associated with the \ac{HPD}'s and \acf{RBXs}. \\
- HCAL laser filter & The \ac{HCAL} uses laser pulses for monitoring the detector response. Some laser pulses have accidentally been fired in the physics orbit, and ended up polluting events recorded for physics analysis. \\
- ECAL dead cell trigger primitive (TP) filter & \ac{EB} and \ac{EE} have single noisy crystals which are masked in reconstruction. Use the \acf{TP} information to assess how much energy was lost in masked cells. \\
- Bad EE Supercrystal filter & Two supercrystals in \ac{EE} are found to occasionally produce high amplitude anomalous pulses in several channels at once, causing a large \met spike. \\
- ECAL Laser correction filter & A laser calibration multiplicative factor is applied to correct for transparency loss in each crystal during irradiation. A small number of crystals receive unphysically large values of this correction and become very energetic, resulting in \met. \\
-\cline{1-2}
-\end{tabulary}
-\end{center}
-\caption[Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.]{Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.}
-\label{apptab:noiseid}
-\end{table}  
-
 \section{Primary Vertices}
 
 \label{app:primaryvertices}

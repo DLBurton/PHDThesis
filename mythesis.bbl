@@ -1,414 +1,570 @@
-\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
 \bibitem{pdg2012}
-J.~Beringer {\em et~al.}, ``{Review of Particle Physics (RPP)},'' {\em
-  Phys.Rev.}, vol.~D86, p.~010001, 2012.
+\hrefCMSnoop {} {{ Particle Data Group} Collaboration, ``{Review of Particle
+  Physics (RPP)}'',} \textit{ Phys.Rev.} \textbf{ D86} (2012) 010001,
+\href{http://dx.doi.org/10.1103/PhysRevD.86.010001}{\doi{10.1103/PhysRevD.86.010001}}.
+%%CITATION = PHRVA,D86,010001;%%.
 
 \bibitem{0067-0049-208-2-19}
-G.~H. et~al., ``Nine-year wilkinson microwave anisotropy probe (wmap)
-  observations: Cosmological parameter results,'' {\em The Astrophysical
-  Journal Supplement Series}, vol.~208, no.~2, p.~19, 2013.
+\href {http://stacks.iop.org/0067-0049/208/i=2/a=19} {G.~H. et~al., ``Nine-year
+  Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Cosmological
+  Parameter Results'',} \textit{ The Astrophysical Journal Supplement Series}
+  \textbf{ 208} (2013), no.~2, 19.
 
 \bibitem{Aad:2012tfa}
-G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em
-  Phys.Lett.}, vol.~B716, pp.~1--29, 2012.
+\hrefCMSnoop {} {{ ATLAS Collaboration} Collaboration, ``{Observation of a new
+  particle in the search for the Standard Model Higgs boson with the ATLAS
+  detector at the LHC}'',} \textit{ Phys.Lett.} \textbf{ B716} (2012) 1--29,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+\href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
+%%CITATION = ARXIV:1207.7214;%%.
 
 \bibitem{Chatrchyan:2012ufa}
-S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
-  with the CMS experiment at the LHC},'' {\em Phys.Lett.}, vol.~B716,
-  pp.~30--61, 2012.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Observation of a new
+  boson at a mass of 125 GeV with the CMS experiment at the LHC}'',} \textit{
+  Phys.Lett.} \textbf{ B716} (2012) 30--61,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+%%CITATION = ARXIV:1207.7235;%%.
 
 \bibitem{ra1_epjc}
-S.~Chatrchyan {\em et~al.}, ``{Search for supersymmetry in hadronic final
-  states with missing transverse energy using the variables AlphaT and b-quark
-  multiplicity in pp collisions at 8 TeV},'' {\em Eur.Phys.J.}, vol.~C73,
-  p.~2568, 2013.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for
+  supersymmetry in hadronic final states with missing transverse energy using
+  the variables AlphaT and b-quark multiplicity in pp collisions at 8 TeV}'',}
+  \textit{ Eur.Phys.J.} \textbf{ C73} (2013) 2568,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2568-6}{\doi{10.1140/epjc/s10052-013-2568-6}},
+\href{http://www.arXiv.org/abs/1303.2985}{\texttt{ arXiv:1303.2985}}.
+%%CITATION = ARXIV:1303.2985;%%.
 
 \bibitem{PhysRevLett.19.1264}
-S.~Weinberg, ``A model of leptons,'' {\em Phys. Rev. Lett.}, vol.~19,
-  pp.~1264--1266, Nov 1967.
+\hrefCMSnoop {} {S.~Weinberg, ``A Model of Leptons'',} \textit{ Phys. Rev.
+  Lett.} \textbf{ 19} (Nov, 1967) 1264--1266,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.19.1264}{\doi{10.1103/PhysRevLett.19.1264}}.
 
 \bibitem{Glashow:1961tr}
-S.~Glashow, ``{Partial Symmetries of Weak Interactions},'' {\em Nucl.Phys.},
-  vol.~22, pp.~579--588, 1961.
+\hrefCMSnoop {} {S.~Glashow, ``{Partial Symmetries of Weak Interactions}'',}
+  \textit{ Nucl.Phys.} \textbf{ 22} (1961) 579--588,
+\href{http://dx.doi.org/10.1016/0029-5582(61)90469-2}{\doi{10.1016/0029-5582(61)90469-2}}.
+%%CITATION = NUPHA,22,579;%%.
 
 \bibitem{Salam:1968rm}
-A.~Salam, ``{Weak and Electromagnetic Interactions},'' {\em Conf.Proc.},
-  vol.~C680519, pp.~367--377, 1968.
+\hrefCMSnoop {} {A.~Salam, ``{Weak and Electromagnetic Interactions}'',}
+  \textit{ Conf.Proc.} \textbf{ C680519} (1968)
+367--377.
+%%CITATION = CONFP,C680519,367;%%.
 
 \bibitem{Hooft1971167}
-G.~Hooft, ``Renormalizable lagrangians for massive yang-mills fields,'' {\em
-  Nuclear Physics B}, vol.~35, no.~1, pp.~167 -- 188, 1971.
+\hrefCMSnoop {} {G.~Hooft, ``Renormalizable Lagrangians for massive Yang-Mills
+  fields'',} \textit{ Nuclear Physics B} \textbf{ 35} (1971), no.~1, 167 --
+  188,
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0550-3213(71)90139-8}{\doi{http://dx.doi.org/10.1016/0550-3213(71)90139-8}}.
 
 \bibitem{Hasert:1973ff}
-F.~Hasert {\em et~al.}, ``{Observation of Neutrino Like Interactions Without
-  Muon Or Electron in the Gargamelle Neutrino Experiment},'' {\em Phys.Lett.},
-  vol.~B46, pp.~138--140, 1973.
+\hrefCMSnoop {} {{ Gargamelle Neutrino Collaboration} Collaboration,
+  ``{Observation of Neutrino Like Interactions Without Muon Or Electron in the
+  Gargamelle Neutrino Experiment}'',} \textit{ Phys.Lett.} \textbf{ B46} (1973)
+  138--140,
+\href{http://dx.doi.org/10.1016/0370-2693(73)90499-1}{\doi{10.1016/0370-2693(73)90499-1}}.
+%%CITATION = PHLTA,B46,138;%%.
 
 \bibitem{Arnison:1983mk}
-G.~Arnison {\em et~al.}, ``{Experimental Observation of Lepton Pairs of
-  Invariant Mass Around 95-GeV/c**2 at the CERN SPS Collider},'' {\em
-  Phys.Lett.}, vol.~B126, pp.~398--410, 1983.
+\hrefCMSnoop {} {{ UA1 Collaboration} Collaboration, ``{Experimental
+  Observation of Lepton Pairs of Invariant Mass Around 95-GeV/c**2 at the CERN
+  SPS Collider}'',} \textit{ Phys.Lett.} \textbf{ B126} (1983) 398--410,
+\href{http://dx.doi.org/10.1016/0370-2693(83)90188-0}{\doi{10.1016/0370-2693(83)90188-0}}.
+%%CITATION = PHLTA,B126,398;%%.
 
 \bibitem{Banner:1983jy}
-M.~Banner {\em et~al.}, ``{Observation of Single Isolated Electrons of High
-  Transverse Momentum in Events with Missing Transverse Energy at the CERN
-  anti-p p Collider},'' {\em Phys.Lett.}, vol.~B122, pp.~476--485, 1983.
+\hrefCMSnoop {} {{ UA2 Collaboration} Collaboration, ``{Observation of Single
+  Isolated Electrons of High Transverse Momentum in Events with Missing
+  Transverse Energy at the CERN anti-p p Collider}'',} \textit{ Phys.Lett.}
+  \textbf{ B122} (1983) 476--485,
+\href{http://dx.doi.org/10.1016/0370-2693(83)91605-2}{\doi{10.1016/0370-2693(83)91605-2}}.
+%%CITATION = PHLTA,B122,476;%%.
 
 \bibitem{Noether1918}
-E.~Noether, ``Invariante variationsprobleme,'' {\em Nachrichten von der
-  Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische
-  Klasse}, vol.~1918, pp.~235--257, 1918.
+\href {http://eudml.org/doc/59024} {E.~Noether, ``Invariante
+  Variationsprobleme'',} \textit{ Nachrichten von der Gesellschaft der
+  Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse} \textbf{
+  1918} (1918) 235--257.
 
 \bibitem{quarksandleptons}
-F.~Halzen and A.~D. Martin, ``Quarks and leptons.'' Wiley, 1985.
+\hrefCMSnoop {} {F.~Halzen and A.~D. Martin, ``Quarks and Leptons''.} Wiley,
+  1985.
 
 \bibitem{introtoparticles}
-{\em {Introduction to Elementary Particles}}.
-\newblock Wiley-VCH, 2nd~ed., Oct. 2008.
+``{Introduction to Elementary Particles}''.
+\newblock Wiley-VCH, 2nd edition, October, 2008.
 
 \bibitem{wu-parity}
-C.~S. {Wu}, E.~{Ambler}, R.~W. {Hayward}, D.~D. {Hoppes}, and R.~P. {Hudson},
-  ``{Experimental Test of Parity Conservation in Beta Decay},'' {\em Physical
-  Review}, vol.~105, pp.~1413--1415, Feb. 1957.
+C.~S. {Wu}\hrefCMSnoop {} { {et~al.}, ``{Experimental Test of Parity
+  Conservation in Beta Decay}'',} \textit{ Physical Review} \textbf{ 105}
+  (February, 1957) 1413--1415,
+  \href{http://dx.doi.org/10.1103/PhysRev.105.1413}{\doi{10.1103/PhysRev.105.1413}}.
 
 \bibitem{higgs1}
-P.~Higgs, ``Broken symmetries, massless particles and gauge fields,'' {\em
-  Physics Letters}, vol.~12, no.~2, pp.~132 -- 133, 1964.
+\hrefCMSnoop {} {P.~Higgs, ``Broken symmetries, massless particles and gauge
+  fields'',} \textit{ Physics Letters} \textbf{ 12} (1964), no.~2, 132 -- 133,
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0031-9163(64)91136-9}{\doi{http://dx.doi.org/10.1016/0031-9163(64)91136-9}}.
 
 \bibitem{higgs2}
-F.~Englert and R.~Brout, ``Broken symmetry and the mass of gauge vector
-  mesons,'' {\em Phys. Rev. Lett.}, vol.~13, pp.~321--323, Aug 1964.
+\hrefCMSnoop {} {F.~Englert and R.~Brout, ``Broken Symmetry and the Mass of
+  Gauge Vector Mesons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Aug, 1964)
+  321--323,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{\doi{10.1103/PhysRevLett.13.321}}.
 
 \bibitem{higgs3}
-P.~W. Higgs, ``Broken symmetries and the masses of gauge bosons,'' {\em Phys.
-  Rev. Lett.}, vol.~13, pp.~508--509, Oct 1964.
+\hrefCMSnoop {} {P.~W. Higgs, ``Broken Symmetries and the Masses of Gauge
+  Bosons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Oct, 1964) 508--509,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{\doi{10.1103/PhysRevLett.13.508}}.
 
 \bibitem{higgs4}
-G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble, ``Global conservation laws
-  and massless particles,'' {\em Phys. Rev. Lett.}, vol.~13, pp.~585--587, Nov
-  1964.
+\hrefCMSnoop {} {G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble, ``Global
+  Conservation Laws and Massless Particles'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 13} (Nov, 1964) 585--587,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.585}{\doi{10.1103/PhysRevLett.13.585}}.
 
 \bibitem{weinberghiggs}
-S.~Weinberg, ``A model of leptons,'' {\em Phys. Rev. Lett.}, vol.~19,
-  pp.~1264--1266, Nov 1967.
+\hrefCMSnoop {} {S.~Weinberg, ``A Model of Leptons'',} \textit{ Phys. Rev.
+  Lett.} \textbf{ 19} (Nov, 1967) 1264--1266,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.19.1264}{\doi{10.1103/PhysRevLett.19.1264}}.
 
 \bibitem{Yukawa01011955}
-H.~Yukawa, ``On the interaction of elementary particles. i,'' {\em Progress of
-  Theoretical Physics Supplement}, vol.~1, pp.~1--10, 1955.
+\hrefCMSnoop {} {H.~Yukawa, ``On the Interaction of Elementary Particles. I'',}
+  \textit{ Progress of Theoretical Physics Supplement} \textbf{ 1} (1955)
+  1--10, \href{http://dx.doi.org/10.1143/PTPS.1.1}{\doi{10.1143/PTPS.1.1}},
+  \href{http://www.arXiv.org/abs/http://ptps.oxfordjournals.org/content/1/1.1.full.pdf+html}{\texttt{
+  arXiv:http://ptps.oxfordjournals.org/content/1/1.1.full.pdf+html}}.
 
 \bibitem{PhysRevLett.81.1562}
-Y.~e.~a. Fukuda, ``Evidence for oscillation of atmospheric neutrinos,'' {\em
-  Phys. Rev. Lett.}, vol.~81, pp.~1562--1567, Aug 1998.
+\hrefCMSnoop {} {{ (Super-Kamiokande Collaboration)} Collaboration, ``Evidence
+  for Oscillation of Atmospheric Neutrinos'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 81} (Aug, 1998) 1562--1567,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.81.1562}{\doi{10.1103/PhysRevLett.81.1562}}.
 
 \bibitem{BeckerSzendy:1992ym}
-R.~Becker-Szendy, C.~Bratton, D.~Casper, S.~Dye, W.~Gajewski, {\em et~al.},
-  ``{A Search for muon-neutrino oscillations with the IMB detector},'' {\em
-  Phys.Rev.Lett.}, vol.~69, pp.~1010--1013, 1992.
+R.~Becker-Szendy\hrefCMSnoop {} { {et~al.}, ``{A Search for muon-neutrino
+  oscillations with the IMB detector}'',} \textit{ Phys.Rev.Lett.} \textbf{ 69}
+  (1992) 1010--1013,
+\href{http://dx.doi.org/10.1103/PhysRevLett.69.1010}{\doi{10.1103/PhysRevLett.69.1010}}.
+%%CITATION = PRLTA,69,1010;%%.
 
 \bibitem{Martin:1997ns}
-S.~P. Martin, ``{A Supersymmetry primer},'' 1997.
+\hrefCMSnoop {} {S.~P. Martin, ``{A Supersymmetry primer}'',}
+\href{http://www.arXiv.org/abs/hep-ph/9709356}{\texttt{ arXiv:hep-ph/9709356}}.
+%%CITATION = HEP-PH/9709356;%%.
 
 \bibitem{nilles1984supersymmetry}
-H.~Nilles, {\em Supersymmetry, Supergravity and Particle Physics}.
-\newblock Physics reports, North-Holland Physics Publ., 1984.
+H.~Nilles, ``Supersymmetry, Supergravity and Particle Physics''.
+\newblock Physics reports. North-Holland Physics Publ., 1984.
 
 \bibitem{Haber:1984rc}
-H.~E. Haber and G.~L. Kane, ``{The Search for Supersymmetry: Probing Physics
-  Beyond the Standard Model},'' {\em Phys.Rept.}, vol.~117, pp.~75--263, 1985.
+\hrefCMSnoop {} {H.~E. Haber and G.~L. Kane, ``{The Search for Supersymmetry:
+  Probing Physics Beyond the Standard Model}'',} \textit{ Phys.Rept.} \textbf{
+  117} (1985) 75--263,
+\href{http://dx.doi.org/10.1016/0370-1573(85)90051-1}{\doi{10.1016/0370-1573(85)90051-1}}.
+%%CITATION = PRPLC,117,75;%%.
 
 \bibitem{Witten:1981nf}
-E.~Witten, ``{Dynamical Breaking of Supersymmetry},'' {\em Nucl.Phys.},
-  vol.~B188, p.~513, 1981.
+\hrefCMSnoop {} {E.~Witten, ``{Dynamical Breaking of Supersymmetry}'',}
+  \textit{ Nucl.Phys.} \textbf{ B188} (1981) 513,
+\href{http://dx.doi.org/10.1016/0550-3213(81)90006-7}{\doi{10.1016/0550-3213(81)90006-7}}.
+%%CITATION = NUPHA,B188,513;%%.
 
 \bibitem{Wess197439}
-J.~Wess and B.~Zumino, ``Supergauge transformations in four dimensions,'' {\em
-  Nuclear Physics B}, vol.~70, no.~1, pp.~39 -- 50, 1974.
+\hrefCMSnoop {} {J.~Wess and B.~Zumino, ``Supergauge transformations in four
+  dimensions'',} \textit{ Nuclear Physics B} \textbf{ 70} (1974), no.~1, 39 --
+  50,
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0550-3213(74)90355-1}{\doi{http://dx.doi.org/10.1016/0550-3213(74)90355-1}}.
 
 \bibitem{muller2010introduction}
-H.~Muller-Kirsten and A.~Wiedemann, {\em Introduction to Supersymmetry}.
-\newblock World Scientific lecture notes in physics, World Scientific, 2010.
+H.~Muller-Kirsten and A.~Wiedemann, ``Introduction to Supersymmetry''.
+\newblock World Scientific lecture notes in physics. World Scientific, 2010.
 
 \bibitem{aitchison2007supersymmetry}
-I.~Aitchison, {\em Supersymmetry in Particle Physics: An Elementary
-  Introduction}.
+I.~Aitchison, ``Supersymmetry in Particle Physics: An Elementary
+  Introduction''.
 \newblock Cambridge University Press, 2007.
 
 \bibitem{Intriligator:2007zz}
-K.~A. Intriligator and N.~Seiberg, ``{Lectures on Supersymmetry Breaking},''
-  {\em Class.Quant.Grav.}, vol.~24, pp.~S741--S772, 2007.
+\hrefCMSnoop {} {K.~A. Intriligator and N.~Seiberg, ``{Lectures on
+  Supersymmetry Breaking}'',} \textit{ Class.Quant.Grav.} \textbf{ 24} (2007)
+  S741--S772, \href{http://dx.doi.org/10.1088/0264-9381/24/21/S02,
+  10.1016/S0924-8099(08)80020-0}{\doi{10.1088/0264-9381/24/21/S02,
+  10.1016/S0924-8099(08)80020-0}},
+\href{http://www.arXiv.org/abs/hep-ph/0702069}{\texttt{ arXiv:hep-ph/0702069}}.
+%%CITATION = HEP-PH/0702069;%%.
 
 \bibitem{Shadmi:2006jv}
-Y.~Shadmi, ``{Supersymmetry breaking},'' pp.~147--180, 2006.
+\hrefCMSnoop {} {Y.~Shadmi, ``{Supersymmetry breaking}'',}
+\href{http://www.arXiv.org/abs/hep-th/0601076}{\texttt{ arXiv:hep-th/0601076}}.
+%%CITATION = HEP-TH/0601076;%%.
 
 \bibitem{Burgess:2006mn}
-C.~Burgess, P.~G. Camara, S.~de~Alwis, S.~Giddings, A.~Maharana, {\em et~al.},
-  ``{Warped Supersymmetry Breaking},'' {\em JHEP}, vol.~0804, p.~053, 2008.
+C.~Burgess\hrefCMSnoop {} { {et~al.}, ``{Warped Supersymmetry Breaking}'',}
+  \textit{ JHEP} \textbf{ 0804} (2008) 053,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/053}{\doi{10.1088/1126-6708/2008/04/053}},
+\href{http://www.arXiv.org/abs/hep-th/0610255}{\texttt{ arXiv:hep-th/0610255}}.
+%%CITATION = HEP-TH/0610255;%%.
 
 \bibitem{Murayama:2007sy}
-H.~Murayama, ``{Supersymmetry breaking made easy, viable, and generic},'' 2007.
+\hrefCMSnoop {} {H.~Murayama, ``{Supersymmetry breaking made easy, viable, and
+  generic}'',}
+\href{http://www.arXiv.org/abs/0709.3041}{\texttt{ arXiv:0709.3041}}.
+%%CITATION = ARXIV:0709.3041;%%.
 
 \bibitem{baer2006weak}
-H.~Baer and X.~Tata, {\em Weak Scale Supersymmetry: From Superfields to
-  Scattering Events}.
+H.~Baer and X.~Tata, ``Weak Scale Supersymmetry: From Superfields to Scattering
+  Events''.
 \newblock Cambridge University Press, 2006.
 
 \bibitem{Martin:hep-ph9602349}
-S.~P. Martin, ``Implications of supersymmetric models with natural r-parity
-  conservation,'' 1996.
+\hrefCMSnoop {} {S.~P. Martin, ``Implications of supersymmetric models with
+  natural R-parity conservation'',}
+  \href{http://dx.doi.org/10.1103/PhysRevD.54.2340}{\doi{10.1103/PhysRevD.54.2340}},
+  \href{http://www.arXiv.org/abs/hep-ph/9602349}{\texttt{
+  arXiv:hep-ph/9602349}}.
 
 \bibitem{Kane:1993td}
-G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells, ``{Study of
-  constrained minimal supersymmetry},'' {\em Phys.Rev.}, vol.~D49,
-  pp.~6173--6210, 1994.
+\hrefCMSnoop {} {G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells,
+  ``{Study of constrained minimal supersymmetry}'',} \textit{ Phys.Rev.}
+  \textbf{ D49} (1994) 6173--6210,
+  \href{http://dx.doi.org/10.1103/PhysRevD.49.6173}{\doi{10.1103/PhysRevD.49.6173}},
+\href{http://www.arXiv.org/abs/hep-ph/9312272}{\texttt{ arXiv:hep-ph/9312272}}.
+%%CITATION = HEP-PH/9312272;%%.
 
 \bibitem{Strege:2011pk}
-C.~Strege, G.~Bertone, D.~Cerdeno, M.~Fornasa, R.~Ruiz~de Austri, {\em et~al.},
-  ``{Updated global fits of the cMSSM including the latest LHC SUSY and Higgs
-  searches and XENON100 data},'' {\em JCAP}, vol.~1203, p.~030, 2012.
+C.~Strege\hrefCMSnoop {} { {et~al.}, ``{Updated global fits of the cMSSM
+  including the latest LHC SUSY and Higgs searches and XENON100 data}'',}
+  \textit{ JCAP} \textbf{ 1203} (2012) 030,
+  \href{http://dx.doi.org/10.1088/1475-7516/2012/03/030}{\doi{10.1088/1475-7516/2012/03/030}},
+\href{http://www.arXiv.org/abs/1112.4192}{\texttt{ arXiv:1112.4192}}.
+%%CITATION = ARXIV:1112.4192;%%.
 
 \bibitem{Citron:2012fg}
-M.~Citron, J.~Ellis, F.~Luo, J.~Marrouche, K.~Olive, {\em et~al.}, ``{The End
-  of the CMSSM Coannihilation Strip is Nigh},'' {\em Phys.Rev.}, vol.~D87,
-  p.~036012, 2013.
+M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
+  Strip is Nigh}'',} \textit{ Phys.Rev.} \textbf{ D87} (2013) 036012,
+  \href{http://dx.doi.org/10.1103/PhysRevD.87.036012}{\doi{10.1103/PhysRevD.87.036012}},
+\href{http://www.arXiv.org/abs/1212.2886}{\texttt{ arXiv:1212.2886}}.
+%%CITATION = ARXIV:1212.2886;%%.
 
 \bibitem{Ghosh:2012dh}
-D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta, ``{How Constrained is
-  the cMSSM?},'' {\em Phys.Rev.}, vol.~D86, p.~055007, 2012.
+\hrefCMSnoop {} {D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta, ``{How
+  Constrained is the cMSSM?}'',} \textit{ Phys.Rev.} \textbf{ D86} (2012)
+  055007,
+  \href{http://dx.doi.org/10.1103/PhysRevD.86.055007}{\doi{10.1103/PhysRevD.86.055007}},
+\href{http://www.arXiv.org/abs/1205.2283}{\texttt{ arXiv:1205.2283}}.
+%%CITATION = ARXIV:1205.2283;%%.
 
 \bibitem{Alves:2011wf}
-D.~Alves {\em et~al.}, ``{Simplified Models for LHC New Physics Searches},''
-  {\em J.Phys.}, vol.~G39, p.~105005, 2012.
+\hrefCMSnoop {} {{ LHC New Physics Working Group} Collaboration, ``{Simplified
+  Models for LHC New Physics Searches}'',} \textit{ J.Phys.} \textbf{ G39}
+  (2012) 105005,
+  \href{http://dx.doi.org/10.1088/0954-3899/39/10/105005}{\doi{10.1088/0954-3899/39/10/105005}},
+\href{http://www.arXiv.org/abs/1105.2838}{\texttt{ arXiv:1105.2838}}.
+%%CITATION = ARXIV:1105.2838;%%.
 
 \bibitem{Alwall:2008ag}
-J.~Alwall, P.~Schuster, and N.~Toro, ``{Simplified Models for a First
-  Characterization of New Physics at the LHC},'' {\em Phys.Rev.}, vol.~D79,
-  p.~075020, 2009.
+\hrefCMSnoop {} {J.~Alwall, P.~Schuster, and N.~Toro, ``{Simplified Models for
+  a First Characterization of New Physics at the LHC}'',} \textit{ Phys.Rev.}
+  \textbf{ D79} (2009) 075020,
+  \href{http://dx.doi.org/10.1103/PhysRevD.79.075020}{\doi{10.1103/PhysRevD.79.075020}},
+\href{http://www.arXiv.org/abs/0810.3921}{\texttt{ arXiv:0810.3921}}.
+%%CITATION = ARXIV:0810.3921;%%.
 
 \bibitem{Chatrchyan:2013sza}
-S.~Chatrchyan {\em et~al.}, ``{Interpretation of Searches for Supersymmetry
-  with simplified Models},'' {\em Phys.Rev.}, vol.~D88, p.~052017, 2013.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Interpretation of
+  Searches for Supersymmetry with simplified Models}'',} \textit{ Phys.Rev.}
+  \textbf{ D88} (2013) 052017,
+  \href{http://dx.doi.org/10.1103/PhysRevD.88.052017}{\doi{10.1103/PhysRevD.88.052017}},
+\href{http://www.arXiv.org/abs/1301.2175}{\texttt{ arXiv:1301.2175}}.
+%%CITATION = ARXIV:1301.2175;%%.
 
 \bibitem{Hisano:2000wy}
-J.~Hisano, K.~Kurosawa, and Y.~Nomura, ``{Natural effective supersymmetry},''
-  {\em Nucl.Phys.}, vol.~B584, pp.~3--45, 2000.
+\hrefCMSnoop {} {J.~Hisano, K.~Kurosawa, and Y.~Nomura, ``{Natural effective
+  supersymmetry}'',} \textit{ Nucl.Phys.} \textbf{ B584} (2000) 3--45,
+  \href{http://dx.doi.org/10.1016/S0550-3213(00)00343-6}{\doi{10.1016/S0550-3213(00)00343-6}},
+\href{http://www.arXiv.org/abs/hep-ph/0002286}{\texttt{ arXiv:hep-ph/0002286}}.
+%%CITATION = HEP-PH/0002286;%%.
 
 \bibitem{Papucci:2011wy}
-M.~Papucci, J.~T. Ruderman, and A.~Weiler, ``{Natural SUSY Endures},'' {\em
-  JHEP}, vol.~1209, p.~035, 2012.
+\hrefCMSnoop {} {M.~Papucci, J.~T. Ruderman, and A.~Weiler, ``{Natural SUSY
+  Endures}'',} \textit{ JHEP} \textbf{ 1209} (2012) 035,
+  \href{http://dx.doi.org/10.1007/JHEP09(2012)035}{\doi{10.1007/JHEP09(2012)035}},
+\href{http://www.arXiv.org/abs/1110.6926}{\texttt{ arXiv:1110.6926}}.
+%%CITATION = ARXIV:1110.6926;%%.
 
 \bibitem{Allanach:2012vj}
-B.~Allanach and B.~Gripaios, ``{Hide and Seek With Natural Supersymmetry at the
-  LHC},'' {\em JHEP}, vol.~1205, p.~062, 2012.
+\hrefCMSnoop {} {B.~Allanach and B.~Gripaios, ``{Hide and Seek With Natural
+  Supersymmetry at the LHC}'',} \textit{ JHEP} \textbf{ 1205} (2012) 062,
+  \href{http://dx.doi.org/10.1007/JHEP05(2012)062}{\doi{10.1007/JHEP05(2012)062}},
+\href{http://www.arXiv.org/abs/1202.6616}{\texttt{ arXiv:1202.6616}}.
+%%CITATION = ARXIV:1202.6616;%%.
 
 \bibitem{alicetdr}
-K.~Aamodt {\em et~al.}, ``{The ALICE experiment at the CERN LHC},'' {\em
-  JINST}, vol.~3, p.~S08002, 2008.
+\hrefCMSnoop {} {{ ALICE} Collaboration, ``{The ALICE experiment at the CERN
+  LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08002,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{\doi{10.1088/1748-0221/3/08/S08002}}.
+%%CITATION = JINST,3,S08002;%%.
 
 \bibitem{atlastdr}
-G.~Aad {\em et~al.}, ``{The ATLAS Experiment at the CERN Large Hadron
-  Collider},'' {\em JINST}, vol.~3, 2008.
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{The ATLAS Experiment at the CERN
+  Large Hadron Collider}'',} \textit{ JINST} \textbf{ 3} (2008)
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{\doi{10.1088/1748-0221/3/08/S08003}}.
+%%CITATION = JINST,3,S08003;%%.
 
 \bibitem{cmstdr}
-R.~Adolphi {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em JINST},
-  vol.~0803, p.~S08004, 2008.
+\hrefCMSnoop {} {{ CMS} Collaboration, ``The CMS experiment at the CERN LHC'',}
+  \textit{ JINST} \textbf{ 0803} (2008) S08004,
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004,
+  10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004,
+  10.1088/1748-0221/3/08/S08004}}.
 
 \bibitem{lhcbtdr}
-A.~A. Alves {\em et~al.}, ``{The LHCb Detector at the LHC},'' {\em JINST},
-  vol.~3, p.~S08005, 2008.
+\hrefCMSnoop {} {{ LHCb} Collaboration, ``{The LHCb Detector at the LHC}'',}
+  \textit{ JINST} \textbf{ 3} (2008) S08005,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{\doi{10.1088/1748-0221/3/08/S08005}}.
+%%CITATION = JINST,3,S08005;%%.
 
 \bibitem{Jean-Luc:841573}
-J.-L. Caron, ``Lhc layout.. schema general du lhc..'' Sep 1997.
+\hrefCMSnoop {} {J.-L. Caron, ``LHC Layout.. Schema general du LHC.'',} (Sep,
+  1997).
 
 \bibitem{LHClumo}
-C.~Collaboration, ``Cms luminosity - public results.''
-  twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults., 2011.
+\hrefCMSnoop {} {C.~Collaboration, ``CMS Luminosity - Public Results'',}
+  (2011). twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults.
 
 \bibitem{cms-public-detector}
-CERN, ``Cms compact muon solenoid..''
-  http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg., Feb 2010.
+\hrefCMSnoop {} {CERN, ``CMS Compact Muon Solenoid.'',} (Feb, 2010).
+  http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg.
 
 \bibitem{CMS_ECAL_TDR}
-{\em The CMS electromagnetic calorimeter project: Technical Design Report}.
-\newblock Technical Design Report CMS, Geneva: CERN, 1997.
+``The CMS electromagnetic calorimeter project: Technical Design Report''.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
 
 \bibitem{CMS_MUON_TDR}
-{\em The CMS muon project: Technical Design Report}.
-\newblock Technical Design Report CMS, Geneva: CERN, 1997.
+``The CMS muon project: Technical Design Report''.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
 
 \bibitem{CMS_TDR_PHYS_vol1}
-{CMS Collaboration}, ``The cms physics technical design report, volume 1,''
-  {\em CERN/LHCC}, vol.~2006-001, 2006.
+\hrefCMSnoop {} {{CMS Collaboration}, ``The CMS Physics Technical Design
+  Report, Volume 1'',} \textit{ CERN/LHCC} \textbf{ 2006-001} (2006).
 
 \bibitem{antiktalgo}
-M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The anti- k t jet clustering
-  algorithm,'' {\em Journal of High Energy Physics}, vol.~2008, no.~04, p.~063,
-  2008.
+\href {http://stacks.iop.org/1126-6708/2008/i=04/a=063} {M.~Cacciari, G.~P.
+  Salam, and G.~Soyez, ``The anti- k t jet clustering algorithm'',} \textit{
+  Journal of High Energy Physics} \textbf{ 2008} (2008), no.~04, 063.
 
 \bibitem{CMS-PAS-JME-10-003}
-``Jet performance in pp collisions at 7 tev,'' Tech. Rep. CMS-PAS-JME-10-003,
-  CERN, Geneva, 2010.
+\hrefCMSnoop {} {``Jet Performance in pp Collisions at 7 TeV'',} Technical
+  Report CMS-PAS-JME-10-003, CERN, Geneva, (2010).
 
 \bibitem{Janssen:1322145}
-X.~Janssen, ``Underlying event and jet reconstruction in cms,'' Tech. Rep.
-  CMS-CR-2011-012, CERN, Geneva, Jan 2011.
+\hrefCMSnoop {} {X.~Janssen, ``Underlying event and jet reconstruction in
+  CMS'',} Technical Report CMS-CR-2011-012, CERN, Geneva, (Jan, 2011).
 
 \bibitem{1748-0221-6-11-P11002}
-T.~C. collaboration, ``Determination of jet energy calibration and transverse
-  momentum resolution in cms,'' {\em Journal of Instrumentation}, vol.~6,
-  no.~11, p.~P11002, 2011.
+\href {http://stacks.iop.org/1748-0221/6/i=11/a=P11002} {T.~C. collaboration,
+  ``Determination of jet energy calibration and transverse momentum resolution
+  in CMS'',} \textit{ Journal of Instrumentation} \textbf{ 6} (2011), no.~11,
+  P11002.
 
 \bibitem{1742-6596-404-1-012014}
-R.~Eusebi and on~behalf of~the CMS~collaboration), ``Jet energy corrections and
-  uncertainties in cms: reducing their impact on physics measurements,'' {\em
-  Journal of Physics: Conference Series}, vol.~404, no.~1, p.~012014, 2012.
+\href {http://stacks.iop.org/1742-6596/404/i=1/a=012014} {R.~Eusebi and
+  on~behalf of~the CMS~collaboration), ``Jet energy corrections and
+  uncertainties in CMS: reducing their impact on physics measurements'',}
+  \textit{ Journal of Physics: Conference Series} \textbf{ 404} (2012), no.~1,
+  012014.
 
 \bibitem{CMS-PAS-BTV-09-001}
-``{Algorithms for b Jet identification in CMS},'' Tech. Rep.
-  CMS-PAS-BTV-09-001, CERN, 2009. Geneva, Jul 2009.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Algorithms for b Jet
+  identification in CMS}'',} Technical Report CMS-PAS-BTV-09-001, CERN, 2009.
+  Geneva, (Jul, 2009).
 
 \bibitem{btag8tev}
-``Performance of b tagging at sqrt(s)=8 tev in multijet, ttbar and boosted
-  topology events,'' no.~CMS-PAS-BTV-13-001, 2013.
+\hrefCMSnoop {} {``Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar
+  and boosted topology events'',}.
 
 \bibitem{btag7tev}
-T.~C. collaboration, ``Identification of b-quark jets with the cms
-  experiment,'' {\em Journal of Instrumentation}, vol.~8, no.~04, p.~P04013,
-  2013.
+\href {http://stacks.iop.org/1748-0221/8/i=04/a=P04013} {T.~C. collaboration,
+  ``Identification of b-quark jets with the CMS experiment'',} \textit{ Journal
+  of Instrumentation} \textbf{ 8} (2013), no.~04, P04013.
 
 \bibitem{Dasu:2000ge}
-S.~Dasu {\em et~al.}, ``{CMS. The TriDAS project. Technical design report, vol.
-  1: The trigger systems},'' 2000.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration,
+``{CMS. The TriDAS project. Technical design report, vol. 1: The trigger
+  systems}'',}.
+%%CITATION = CERN-LHCC-2000-038 ETC.;%%.
 
 \bibitem{Sphicas:2002gg}
-P.~Sphicas, ``{CMS: The TriDAS project. Technical design report, Vol. 2: Data
-  acquisition and high-level trigger},'' 2002.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration,
+``{CMS: The TriDAS project. Technical design report, Vol. 2: Data acquisition
+  and high-level trigger}'',}.
+%%CITATION = CERN-LHCC-2002-026 ETC.;%%.
 
 \bibitem{L1JEC}
-J.~B. et~al., ``{ Calibration and Performance of the Jets and Energy Sums in
-  the Level-1 Trigger },'' no.~CMS IN 2013/006 (2013), 2013.
+\hrefCMSnoop {} {J.~B. et~al., ``{ Calibration and Performance of the Jets and
+  Energy Sums in the Level-1 Trigger }'',}.
 
 \bibitem{L1bryn}
-B.~et~al., ``{ Study of Level-1 Trigger Jet Performance in High Pile-up Running
-  Conditions},'' no.~CMS IN 2013/007 (2013), 2013.
+\hrefCMSnoop {} {B.~et~al., ``{ Study of Level-1 Trigger Jet Performance in
+  High Pile-up Running Conditions}'',}.
 
 \bibitem{l1ratebrooke}
-J.~J. Brooke, ``Performance of the cms level-1 trigger,'' Tech. Rep.
-  CMS-CR-2012-322. CERN-CMS-CR-2012-322, CERN, Geneva, Nov 2012.
+\hrefCMSnoop {} {J.~J. Brooke, ``Performance of the CMS Level-1 Trigger'',}
+  Technical Report CMS-CR-2012-322. CERN-CMS-CR-2012-322, CERN, Geneva, (Nov,
+  2012).
 
 \bibitem{alphat7tev}
-S.~Chatrchyan {\em et~al.}, ``{Search for supersymmetry in final states with
-  missing transverse energy and 0, 1, 2, or at least 3 b-quark jets in 7 TeV pp
-  collisions using the variable alphaT},'' {\em JHEP}, vol.~1301, p.~077, 2013.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for
+  supersymmetry in final states with missing transverse energy and 0, 1, 2, or
+  at least 3 b-quark jets in 7 TeV pp collisions using the variable alphaT}'',}
+  \textit{ JHEP} \textbf{ 1301} (2013) 077,
+  \href{http://dx.doi.org/10.1007/JHEP01(2013)077}{\doi{10.1007/JHEP01(2013)077}},
+\href{http://www.arXiv.org/abs/1210.8115}{\texttt{ arXiv:1210.8115}}.
+%%CITATION = ARXIV:1210.8115;%%.
 
 \bibitem{CMS:2008vya}
-``{SUSY searches with dijet events},'' 2008.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration,
+``{SUSY searches with dijet events}'',}.
+%%CITATION = CMS-PAS-SUS-08-005 ETC.;%%.
 
 \bibitem{PhysRevLett.101.221803}
-L.~Randall and D.~Tucker-Smith, ``Dijet searches for supersymmetry at the large
-  hadron collider,'' {\em Phys. Rev. Lett.}, vol.~101, p.~221803, Nov 2008.
+\hrefCMSnoop {} {L.~Randall and D.~Tucker-Smith, ``Dijet Searches for
+  Supersymmetry at the Large Hadron Collider'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 101} (Nov, 2008) 221803,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.101.221803}{\doi{10.1103/PhysRevLett.101.221803}}.
 
 \bibitem{CMS-PAS-SUS-09-001}
-``{Search strategy for exclusive multi-jet events from supersymmetry at CMS},''
-  Tech. Rep. CMS-PAS-SUS-09-001, CERN, 2009. Geneva, Jul 2009.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search strategy for
+  exclusive multi-jet events from supersymmetry at CMS}'',} Technical Report
+  CMS-PAS-SUS-09-001, CERN, 2009. Geneva, (Jul, 2009).
 
 \bibitem{CMS-PAS-JME-09-008}
-``{Calorimeter Jet Quality Criteria for the First CMS Collision Data},'' Tech.
-  Rep. CMS-PAS-JME-09-008, CERN, 2010. Geneva, Apr 2010.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Calorimeter Jet Quality
+  Criteria for the First CMS Collision Data}'',} Technical Report
+  CMS-PAS-JME-09-008, CERN, 2010. Geneva, (Apr, 2010).
 
 \bibitem{1748-0221-7-10-P10002}
-T.~C. collaboration, ``Performance of cms muon reconstruction in pp collision
-  events at ‚$\sqrt{s}$ = 7 tev,'' {\em Journal of Instrumentation}, vol.~7,
-  no.~10, p.~P10002, 2012.
+\href {http://stacks.iop.org/1748-0221/7/i=10/a=P10002} {T.~C. collaboration,
+  ``Performance of CMS muon reconstruction in pp collision events at
+  ‚$\sqrt{s}$ = 7 TeV'',} \textit{ Journal of Instrumentation} \textbf{ 7}
+  (2012), no.~10, P10002.
 
 \bibitem{2012JInst...7P0002T}
-{The CMS Collaboration}, ``{Performance of CMS muon reconstruction in pp
-  collision events at 7 TeV},'' {\em Journal of Instrumentation}, vol.~7,
-  p.~2P, Oct. 2012.
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Performance of CMS muon
+  reconstruction in pp collision events at 7 TeV}'',} \textit{ Journal of
+  Instrumentation} \textbf{ 7} (October, 2012) 2P,
+  \href{http://dx.doi.org/10.1088/1748-0221/7/10/P10002}{\doi{10.1088/1748-0221/7/10/P10002}},
+  \href{http://www.arXiv.org/abs/1206.4071}{\texttt{ arXiv:1206.4071}}.
 
 \bibitem{CMS-PAS-SUS-12-018}
-``{Search for supersymmetry in events with photons and missing energy},'' Tech.
-  Rep. CMS-PAS-SUS-12-018, CERN, Geneva, 2012.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for
+  supersymmetry in events with photons and missing energy}'',} Technical Report
+  CMS-PAS-SUS-12-018, CERN, Geneva, (2012).
 
 \bibitem{Cacciari:2007fd}
-M.~Cacciari and G.~P. Salam, ``{Pileup subtraction using jet areas},'' {\em
-  Phys.Lett.}, vol.~B659, pp.~119--126, 2008.
+\hrefCMSnoop {} {M.~Cacciari and G.~P. Salam, ``{Pileup subtraction using jet
+  areas}'',} \textit{ Phys.Lett.} \textbf{ B659} (2008) 119--126,
+  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{\doi{10.1016/j.physletb.2007.09.077}},
+\href{http://www.arXiv.org/abs/0707.1378}{\texttt{ arXiv:0707.1378}}.
+%%CITATION = ARXIV:0707.1378;%%.
 
 \bibitem{PhysRevD.84.114002}
-Z.~Bern, G.~Diana, L.~J. Dixon, F.~Febres~Cordero, S.~Hoche, H.~Ita, D.~A.
-  Kosower, D.~Maitre, and K.~J. Ozeren, ``Driving missing data at
-  next-to-leading order,'' {\em Phys. Rev. D}, vol.~84, p.~114002, Dec 2011.
+Z.~Bern\hrefCMSnoop {} { {et~al.}, ``Driving missing data at next-to-leading
+  order'',} \textit{ Phys. Rev. D} \textbf{ 84} (Dec, 2011) 114002,
+  \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}}.
 
 \bibitem{CMS-PAS-SUS-08-002}
-``{Data-Driven Estimation of the Invisible Z Background to the SUSY MET Plus
-  Jets Search},'' Tech. Rep. CMS-PAS-SUS-08-002, CERN, 2009. Geneva, Jan 2009.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Data-Driven Estimation
+  of the Invisible Z Background to the SUSY MET Plus Jets Search}'',} Technical
+  Report CMS-PAS-SUS-08-002, CERN, 2009. Geneva, (Jan, 2009).
 
 \bibitem{Bern:2011pa}
-Z.~Bern, G.~Diana, L.~Dixon, F.~Febres~Cordero, S.~Hoche, {\em et~al.},
-  ``{Driving Missing Data at Next-to-Leading Order},'' {\em Phys.Rev.},
-  vol.~D84, p.~114002, 2011.
+Z.~Bern\hrefCMSnoop {} { {et~al.}, ``{Driving Missing Data at Next-to-Leading
+  Order}'',} \textit{ Phys.Rev.} \textbf{ D84} (2011) 114002,
+  \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}},
+\href{http://www.arXiv.org/abs/1106.1423}{\texttt{ arXiv:1106.1423}}.
+%%CITATION = ARXIV:1106.1423;%%.
 
 \bibitem{Beenakker:1996ch}
-W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark and gluino
-  production at hadron colliders},'' {\em Nucl.Phys.}, vol.~B492, pp.~51--103,
-  1997.
+\hrefCMSnoop {} {W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark
+  and gluino production at hadron colliders}'',} \textit{ Nucl.Phys.} \textbf{
+  B492} (1997) 51--103,
+  \href{http://dx.doi.org/10.1016/S0550-3213(97)80027-2}{\doi{10.1016/S0550-3213(97)80027-2}},
+\href{http://www.arXiv.org/abs/hep-ph/9610490}{\texttt{ arXiv:hep-ph/9610490}}.
+%%CITATION = HEP-PH/9610490;%%.
 
 \bibitem{1742-6596-331-3-032049}
-S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, A.~Perrotta, and the
-  CMS~Collaboration, ``The fast simulation of the cms detector at lhc,'' {\em
-  Journal of Physics: Conference Series}, vol.~331, no.~3, p.~032049, 2011.
+S.~Abdullin\href {http://stacks.iop.org/1742-6596/331/i=3/a=032049} { {et~al.},
+  ``The Fast Simulation of the CMS Detector at LHC'',} \textit{ Journal of
+  Physics: Conference Series} \textbf{ 331} (2011), no.~3, 032049.
 
 \bibitem{1742-6596-331-3-032015}
-S.~Banerjee, M.~D. Hildreth, and the CMS~Collaboration, ``Validation and tuning
-  of the cms full simulation,'' {\em Journal of Physics: Conference Series},
-  vol.~331, no.~3, p.~032015, 2011.
+\href {http://stacks.iop.org/1742-6596/331/i=3/a=032015} {S.~Banerjee, M.~D.
+  Hildreth, and the CMS~Collaboration, ``Validation and Tuning of the CMS Full
+  Simulation'',} \textit{ Journal of Physics: Conference Series} \textbf{ 331}
+  (2011), no.~3, 032015.
 
 \bibitem{btagscalefactor}
-C.~Collaboration, ``Cms btag pog : Cms b-tagging performance database.''
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG, 2013.
+\hrefCMSnoop {} {C.~Collaboration, ``CMS Btag POG : CMS b-tagging performance
+  database'',} (2013). https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
 
 \bibitem{CMS-PAS-LUM-12-001}
-``{CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update},''
-  Tech. Rep. CMS-PAS-LUM-12-001, CERN, Geneva, 2012.
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{CMS Luminosity Based on
+  Pixel Cluster Counting - Summer 2012 Update}'',} Technical Report
+  CMS-PAS-LUM-12-001, CERN, Geneva, (2012).
 
 \bibitem{logndistribution}
-R.~Cousings, ``Probability density functions for positive nuisance
-  parameters.''
-  http://www.physics.ucla.edu/cousins/stats/cousinslognormalprior.pdf., 2012.
+\hrefCMSnoop {} {R.~Cousings, ``Probability Density Functions for Positive
+  Nuisance Parameters'',} (2012).
+  http://www.physics.ucla.edu/cousins/stats/cousinslognormalprior.pdf.
 
 \bibitem{2010acat.confE..57M}
-L.~{Moneta}, K.~{Cranmer}, G.~{Schott}, and W.~{Verkerke}, ``{The RooStats
-  project},'' 2010.
+\hrefCMSnoop {} {L.~{Moneta}, K.~{Cranmer}, G.~{Schott}, and W.~{Verkerke},
+  ``{The RooStats project}'',}
+\newblock 2010.
+\newblock \href{http://www.arXiv.org/abs/1009.1003}{\texttt{ arXiv:1009.1003}}.
 
 \bibitem{James:1975dr}
-F.~James and M.~Roos, ``{Minuit: A System for Function Minimization and
-  Analysis of the Parameter Errors and Correlations},'' {\em
-  Comput.Phys.Commun.}, vol.~10, pp.~343--367, 1975.
+\hrefCMSnoop {} {F.~James and M.~Roos, ``{Minuit: A System for Function
+  Minimization and Analysis of the Parameter Errors and Correlations}'',}
+  \textit{ Comput.Phys.Commun.} \textbf{ 10} (1975) 343--367,
+\href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{\doi{10.1016/0010-4655(75)90039-9}}.
+%%CITATION = CPHCB,10,343;%%.
 
 \bibitem{0954-3899-28-10-313}
-A.~L. Read, ``Presentation of search results: the cl s technique,'' {\em
-  Journal of Physics G: Nuclear and Particle Physics}, vol.~28, no.~10,
-  p.~2693, 2002.
+\href {http://stacks.iop.org/0954-3899/28/i=10/a=313} {A.~L. Read,
+  ``Presentation of search results: the CL s technique'',} \textit{ Journal of
+  Physics G: Nuclear and Particle Physics} \textbf{ 28} (2002), no.~10, 2693.
 
 \bibitem{Junk1999435}
-T.~Junk, ``Confidence level computation for combining searches with small
-  statistics,'' {\em Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
-  vol.~434, no.~2‚Äì3, pp.~435 -- 443, 1999.
+\hrefCMSnoop {} {T.~Junk, ``Confidence level computation for combining searches
+  with small statistics'',} \textit{ Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment} \textbf{ 434} (1999), no.~2‚Äì3, 435 -- 443,
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(99)00498-2}{\doi{http://dx.doi.org/10.1016/S0168-9002(99)00498-2}}.
 
 \bibitem{Read:451614}
-A.~L. Read, ``{Modified frequentist analysis of search results (the $CL_{s}$
-  method)},'' no.~CERN-OPEN-2000-205, 2000.
+\hrefCMSnoop {} {A.~L. Read, ``{Modified frequentist analysis of search results
+  (the $CL_{s}$ method)}'',}.
 
 \bibitem{asymptotictest}
-G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic formulae for
-  likelihood-based tests of new physics,'' {\em The European Physical Journal
-  C}, vol.~71, no.~2, pp.~1--19, 2011.
+\hrefCMSnoop {} {G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic
+  formulae for likelihood-based tests of new physics'',} \textit{ The European
+  Physical Journal C} \textbf{ 71} (2011), no.~2, 1--19,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}}.
 
 \bibitem{2011EPJClimits}
-G.~{Cowan}, K.~{Cranmer}, E.~{Gross}, and O.~{Vitells}, ``{Asymptotic formulae
-  for likelihood-based tests of new physics},'' {\em European Physical Journal
-  C}, vol.~71, p.~1554, Feb. 2011.
+\hrefCMSnoop {} {G.~{Cowan}, K.~{Cranmer}, E.~{Gross}, and O.~{Vitells},
+  ``{Asymptotic formulae for likelihood-based tests of new physics}'',}
+  \textit{ European Physical Journal C} \textbf{ 71} (February, 2011) 1554,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}},
+  \href{http://www.arXiv.org/abs/1007.1727}{\texttt{ arXiv:1007.1727}}.
 
-\end{thebibliography}
+\end{thebibliography}\endgroup

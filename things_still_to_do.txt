@@ -1,2 +1,5 @@
-Make Rob's corrections
+Add in Btag SF Citations in detector section...
+Can you explain the magnitude of these corrections? Comment from Rob
+Photon + Electron trigger effs citation
+Sort references
 In Appendix B - Produce PF jet resolution plots, remake energy resolution plots (do this stuff last)

@@ -13,7 +13,7 @@
 \BOOKMARK [0][-]{chapter.3}{The LHC And The CMS Detector}{}% 13
 \BOOKMARK [1][-]{section.3.1}{The LHC}{chapter.3}% 14
 \BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.2.1}{Detector subsytems}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Detector subsystems}{section.3.2}% 16
 \BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 17
 \BOOKMARK [2][-]{subsection.3.2.3}{Electromagnetic calorimeter}{section.3.2}% 18
 \BOOKMARK [2][-]{subsection.3.2.4}{Hadronic calorimeter}{section.3.2}% 19
@@ -22,7 +22,7 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Jets}{section.3.3}% 22
 \BOOKMARK [2][-]{subsection.3.3.2}{B-tagging}{section.3.3}% 23
 \BOOKMARK [1][-]{section.3.4}{Triggering System}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.4.1}{The level-1 trigger}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.1}{The Level-1 trigger}{section.3.4}% 25
 \BOOKMARK [2][-]{subsection.3.4.2}{The L1 trigger jet algorithm}{section.3.4}% 26
 \BOOKMARK [2][-]{subsection.3.4.3}{Measuring L1 jet trigger efficiencies}{section.3.4}% 27
 \BOOKMARK [2][-]{subsection.3.4.4}{Effects of the L1 jet seed}{section.3.4}% 28
@@ -68,7 +68,7 @@
 \BOOKMARK [1][-]{section.6.3}{Summary}{chapter.6}% 68
 \BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 69
 \BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 70
-\BOOKMARK [1][-]{section.A.1}{Noise Filters}{appendix.A}% 71
+\BOOKMARK [1][-]{section.A.1}{Jet Identification Criteria}{appendix.A}% 71
 \BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 72
 \BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 73
 \BOOKMARK [1][-]{section.B.1}{Jet matching efficiencies}{appendix.B}% 74
@@ -82,4 +82,4 @@
 \BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 82
 \BOOKMARK [1][-]{section.D.3}{Templates Fits in Data Control Sample}{appendix.D}% 83
 \BOOKMARK [1][-]{section.D.4}{Templates Fits in Data Signal Region}{appendix.D}% 84
-\BOOKMARK [0][-]{appendix*.122}{Bibliography}{}% 85
+\BOOKMARK [0][-]{appendix*.123}{Bibliography}{}% 85

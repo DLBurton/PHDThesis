@@ -1,73 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
-The style file: ieeetr.bst
+The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
-Warning--I didn't find a database entry for "Chatrchyan:2013lya"
 Warning--empty author and editor in introtoparticles
-Warning--empty journal in Martin:1997ns
-Warning--empty journal in Shadmi:2006jv
-Warning--empty journal in Murayama:2007sy
-Warning--empty journal in Martin:hep-ph9602349
 Warning--empty note in Jean-Luc:841573
 Warning--empty author and editor in CMS_ECAL_TDR
 Warning--empty author and editor in CMS_MUON_TDR
 Warning--empty author in CMS-PAS-JME-10-003
-Warning--empty author in CMS-PAS-BTV-09-001
 Warning--empty author in btag8tev
-Warning--empty journal in btag8tev
-Warning--empty journal in Dasu:2000ge
-Warning--empty journal in Sphicas:2002gg
-Warning--empty journal in L1JEC
-Warning--empty journal in L1bryn
-Warning--empty author in CMS:2008vya
-Warning--empty journal in CMS:2008vya
-Warning--empty author in CMS-PAS-SUS-09-001
-Warning--empty author in CMS-PAS-JME-09-008
-Warning--empty author in CMS-PAS-SUS-12-018
-Warning--empty author in CMS-PAS-SUS-08-002
-Warning--empty author in CMS-PAS-LUM-12-001
 Warning--empty booktitle in 2010acat.confE..57M
-Warning--empty journal in Read:451614
 You've used 95 entries,
-            1876 wiz_defined-function locations,
-            1008 strings with 15896 characters,
-and the built_in function-call counts, 22356 in all, are:
-= -- 2294
-> -- 688
+            2529 wiz_defined-function locations,
+            1296 strings with 21812 characters,
+and the built_in function-call counts, 26923 in all, are:
+= -- 2964
+> -- 519
 < -- 9
-+ -- 277
-- -- 182
-* -- 1429
-:= -- 3069
-add.period$ -- 102
++ -- 195
+- -- 100
+* -- 2282
+:= -- 3322
+add.period$ -- 149
 call.type$ -- 95
-change.case$ -- 89
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 120
-duplicate$ -- 1330
-empty$ -- 2099
-format.name$ -- 182
-if$ -- 5630
+cite$ -- 102
+duplicate$ -- 1725
+empty$ -- 2826
+format.name$ -- 108
+if$ -- 7081
 int.to.chr$ -- 0
 int.to.str$ -- 95
-missing$ -- 84
-newline$ -- 295
-num.names$ -- 83
-pop$ -- 257
+missing$ -- 228
+newline$ -- 377
+num.names$ -- 66
+pop$ -- 549
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 961
+skip$ -- 934
 stack$ -- 0
-substring$ -- 1164
-swap$ -- 605
+substring$ -- 1136
+swap$ -- 678
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 25
-while$ -- 179
+warning$ -- 7
+while$ -- 160
 width$ -- 97
-write$ -- 906
-(There were 26 warnings)
+write$ -- 1108
+(There were 7 warnings)
