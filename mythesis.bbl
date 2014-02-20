@@ -480,17 +480,24 @@ Z.~Bern\hrefCMSnoop {} { {et~al.}, ``Driving missing data at next-to-leading
   order'',} \textit{ Phys. Rev. D} \textbf{ 84} (Dec, 2011) 114002,
   \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}}.
 
-\bibitem{CMS-PAS-SUS-08-002}
-\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Data-Driven Estimation
-  of the Invisible Z Background to the SUSY MET Plus Jets Search}'',} Technical
-  Report CMS-PAS-SUS-08-002, CERN, 2009. Geneva, (Jan, 2009).
-
 \bibitem{Bern:2011pa}
 Z.~Bern\hrefCMSnoop {} { {et~al.}, ``{Driving Missing Data at Next-to-Leading
   Order}'',} \textit{ Phys.Rev.} \textbf{ D84} (2011) 114002,
   \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}},
 \href{http://www.arXiv.org/abs/1106.1423}{\texttt{ arXiv:1106.1423}}.
 %%CITATION = ARXIV:1106.1423;%%.
+
+\bibitem{CMS-PAS-SUS-08-002}
+\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Data-Driven Estimation
+  of the Invisible Z Background to the SUSY MET Plus Jets Search}'',} Technical
+  Report CMS-PAS-SUS-08-002, CERN, 2009. Geneva, (Jan, 2009).
+
+\bibitem{Sjostrand:2006za}
+\hrefCMSnoop {} {T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4
+  Physics and Manual}'',} \textit{ JHEP} \textbf{ 0605} (2006) 026,
+  \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{\doi{10.1088/1126-6708/2006/05/026}},
+\href{http://www.arXiv.org/abs/hep-ph/0603175}{\texttt{ arXiv:hep-ph/0603175}}.
+%%CITATION = HEP-PH/0603175;%%.
 
 \bibitem{Beenakker:1996ch}
 \hrefCMSnoop {} {W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark
@@ -519,6 +526,11 @@ S.~Abdullin\href {http://stacks.iop.org/1742-6596/331/i=3/a=032049} { {et~al.},
 \hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{CMS Luminosity Based on
   Pixel Cluster Counting - Summer 2012 Update}'',} Technical Report
   CMS-PAS-LUM-12-001, CERN, Geneva, (2012).
+
+\bibitem{Laird:2012mla}
+\hrefCMSnoop {} {E.~M. Laird,
+``{A Search for Squarks and Gluinos with the CMS Detector}'',}.
+%%CITATION = ISBN-9781267251121 ETC.;%%.
 
 \bibitem{logndistribution}
 \hrefCMSnoop {} {R.~Cousings, ``Probability Density Functions for Positive

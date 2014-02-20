@@ -509,7 +509,7 @@ $\text{(c}$) \alphat
 
 \item[] \textbf{The \gpjets control sample}
 
-The \zinv + jets background is also estimated from a \gpjets control sample. When the $E_{T}$ of the photon is greater than the mass of the Z, it possesses a larger cross section and kinematic properties similar to those of \zmumu events where the photon is ignored \cite{PhysRevD.84.114002}\cite{CMS-PAS-SUS-08-002}. The photon is ignored for the purpose of the calculation of event level variables, and identical selection cuts to the hadronic signal region are applied. 
+The \zinv + jets background is also estimated from a \gpjets control sample. When the $E_{T}$ of the photon is greater than the mass of the Z, it possesses a larger cross section and kinematic properties similar to those of \zmumu events where the photon is ignored \cite{PhysRevD.84.114002}. The photon is ignored for the purpose of the calculation of event level variables, and identical selection cuts to the hadronic signal region are applied. 
 
 \begin{itemize}
 \item Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel of the detector.
@@ -667,7 +667,7 @@ $Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 
 \caption[k-factors calculated for different \ac{EWK} processes.]{k-factors calculated for different \ac{EWK} processes. All k-factors are derived relative to theoretical cross sections calculated in \ac{NNLO}. The k-factors measured for the Z$\rightarrow \mu\mu$ + jets processes, are also applied to the \zinv + jets and \gpjets MC samples.}\label{tab:mckfactors}
 \end{table}
 
-It is worth pointing out that these correction factors have a negligible effect when providing a background estimation for the signal region. The \ac{TF}'s used in the analysis are found to be unaffected by application of these k-factors due to the similarity in the background composition of the control and signal regions. However when systematic uncertainties are determined in Section (\ref{subsec:sysuncertainties}), the closure tests performed are sensitive to these corrections as extrapolations between different $n_{b}^{reco}$ and $n_{\text{jet}}$ categories are performed.
+It is worth pointing out that these correction factors have a negligible effect when providing a background estimation for the signal region. The \ac{TF}'s used in the analysis are found to be unaffected by application of these k-factors due to the similarity in the background composition of the control and signal regions. However when systematic uncertainties are determined in Section (\ref{subsec:sysuncertainties}), the closure tests performed are sensitive to these corrections when extrapolations between different $n_{b}^{reco}$ and $n_{\text{jet}}$ categories are performed.
 
 
 \section{Determining MC Simulation Yields with Higher Statistical Precision}
@@ -684,7 +684,7 @@ When the expectation for the number of \nbreco is taken directly from simulation
 \item the underlying flavour distribution of the jets in the events,
 \end{enumerate}
 
- that determine the \nbreco distribution of the process being measured. This method allows the determination of higher b-tag multiplicities to a higher degree of accuracy reducing the stastical uncertainties of the MC which enter into the \ac{TF}'s. For the discussion that follows, these predictions are determined on average (i.e not on an event-by-event basis), and is known as the formula method.
+ that determine the \nbreco distribution of the process being measured. This method allows the determination of higher b-tag multiplicities to a higher degree of accuracy reducing the statistical uncertainties of the MC which enter into the \ac{TF}'s. For the discussion that follows, these predictions are determined on average (i.e not on an event-by-event basis), and is known as the formula method.
 
 \subsection{The formula method}
 \label{subsec:formulamethod}
@@ -693,8 +693,7 @@ The assigning of jet flavours to reconstruction level jets in simulation is achi
 
 \begin{itemize}
 \item Try to find the parton that most likely determines the properties of the jet and assign that flavour as true flavour,
-\item Here, the ``final state'' partons (after showering, radiation) are analysed (also within $\Delta R <$ 0.3 of reconstructed jet cone),
-\item Jets from radiation are also matched to a parton flavour,
+\item ``final state'' partons (after showering, radiation) are analysed (also within $\Delta R <$ 0.3 of reconstructed jet cone),
 \item If there is a b/c flavoured parton within the jet cone: label as b/c flavoured jet,
 \item Otherwise: assign flavour of the hardest parton.
 \end{itemize}
@@ -798,7 +797,7 @@ Each of the corrections factors for the b, c and light flavoured jets come with 
 
 
 
-Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}'s which influences the final background prediction from each of the control samples. The magnitude of these change is shown in Table \ref{tab:btagsfuncertainties}, highlighting the absolute change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background. 
+Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}'s which influences the final background prediction from each of the control samples. The magnitude of the absolute change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background, is shown in Table \ref{tab:btagsfuncertainties},. 
 
 \def\arraystretch{1.3}
 \begin{table}[ht!]
@@ -845,14 +844,14 @@ The level of agreement between the predicted and observed yields is expressed as
 
 \begin{equation}
 \label{eq:closuretests}
-\frac{(N_{obs}-N_{pred})}{N_{pred}},
+\frac{(N_{\text{obs}}-N_{\text{pred}})}{N_{\text{pred}}},
 \end{equation}
 
-while considering only the statistical uncertainties on $N_{pred}$, the prediction, and $N_{obs}$, the observation. No systematic uncertainty is assigned to the prediction, and resultantly the level of closure is defined by the statistical significance of a deviation from the ratio from zero.
+while considering only the statistical uncertainties on $N_{\text{pred}}$, the prediction, and $N_{\text{obs}}$, the observation. No systematic uncertainty is assigned to the prediction, and resultantly the level of closure is defined by the statistical significance of a deviation from the ratio from zero.
 
 This ratio is measured for each \theht bin in the analysis, allowing these closure tests to be sensitive to both the presence of any significant biases or any possible \theht dependence on the level of closure.
 
-Eight sets of closure tests are defined between the three data control samples, conducted independently between the two jet multiplicity (2 $\leq n_{jets} \leq 3$, $n_{jet} \geq 4$ ) bins. Each of these tests are specifically chosen to probe each of the different key ingredients of the simulation modelling that can affect the background prediction.
+Eight sets of closure tests are defined between the three data control samples, conducted independently between the two jet multiplicity (2 $\leq n_{\text{jet}} \leq 3$, $n_{\text{jet}} \geq 4$ ) bins. Each of these tests are specifically chosen to probe each of the different key ingredients of the simulation modelling that can affect the background prediction.
 
 Each of the different modelling components and the relevant closure tests are described below :
 
@@ -868,20 +867,20 @@ The sensitivity of the translation factors to the relative admixture of events f
 
 Within the \mupjets sample, a W boson enriched sub-sample ($n_{b} =$ 0) is used to predict yields in a \ttbar enriched sub-sample ($n_{b} =$ 1). Similarly the \ttbar enriched sub-sample ($n_{b} =$1) is also used to predict yields for a further enriched \ttbar sub-sample ($n_{b} =$ 2), further probing the modelling of the \nbreco distribution. 
 
-Similarly a further closure test probes the relative contribution of $Z +$ jets to $W +$jets and \ttbar events, through the use of the \mupjets sample to predict yields for the \dimupjets control sample. This closure test, also at some level probes the muon trigger and reconstruction efficiencies, given that exactly one and two muons are required by the different selections.
+Similarly a further closure test probes the relative contribution of $Z +$ jets to $W +$jets and \ttbar events, through the use of the \mupjets sample to predict yields for the \dimupjets control sample. This closure test, also at some level probes the muon trigger and reconstruction efficiencies, given that exactly one or two muons are required by the different selections.
  
 \item[] \textbf{Consistency check between \zinv predictions}
 
-An important consistency check between the \dimupjets jets and \gpjets, which are both used in the prediction of the \zinv in the signal region, is measured by using the \gpjets sample to predict yields for the \dimupjets control sample. This test also serves to validate the \gpjets control sample when used to predict Z + jet processes, which itself is subject to large theory uncertainties [cite].
+An important consistency check between the \dimupjets jets and \gpjets, which are both used in the prediction of the \zinv in the signal region. This is conducted by using the \gpjets sample to predict yields for the \dimupjets control sample. Using \gpjets processes as a method to predict Z + jet processes is subject to theory uncertainties \cite{CMS-PAS-SUS-08-002}, which can be probed by this data driven closure test within a $Z \rightarrow \mu\mu$ control sample. 
 
 \item[]\textbf{Modelling of jet multiplicity}
 
-The simulation modelling of the jet multiplicity within each control sample is important due to the exclusive jet multiplicity binning within the analysis. This is probed via the use of each of the three control samples to independently predict from the lower jet multiplicity category $2 \leq n_{jet} \leq 3$, to the high jet category $\geq 4$. 
+The simulation modelling of the jet multiplicity within each control sample is important due to the exclusive jet multiplicity binning within the analysis. This is probed via the use of each of the three control samples to independently predict from the lower jet multiplicity category $2 \leq n_{\text{jet}} \leq 3$, to the high jet category $n_{\text{jet}} \geq 4$. 
 
 For the case of the \mupjets and \dimupjets control samples this test this is also a further probe of the admixture between $W +$ jets/$Z +$ jets and \ttbar. 
 \end{itemize}
 
-To test for the assumption that no \theht dependences exist within the background predictions of the analysis, the first five closure tests defined above are taken, with zeroeth and first order polynomial fits are applied to each. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
+To test for the assumption that no \theht dependences exist within the background predictions of the analysis, the first five closure tests defined above are used, with zeroeth and first order polynomial fits are applied to each test individually. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
 
  \begin{table}[h!]
  \footnotesize
@@ -898,7 +897,7 @@ To test for the assumption that no \theht dependences exist within the backgroun
 \footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.06 \pm 0.04$ & 0.31 & $\footnotesize{\quad}4.2 \pm 4.3$ & 0.29 \\ 
 \end{tabular*}
 \end{center}
-\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq n_{jet} \leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitslow}
+\caption[A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed in the $ 2 \geq n_{\text{jet}} \geq$ 3 category.]{A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed in the $ 2 \geq n_{\text{jet}} \geq$ 3 category.  The two columns show the best fit value for the slope obtained when performing a constant (left) and linear (right) fit and the p-value for that fit.}\label{tab:closuretestfitslow}
 \end{table}
 
  \begin{table}[h!]
@@ -916,10 +915,10 @@ To test for the assumption that no \theht dependences exist within the backgroun
 \footnotesize{\dimupjets $\rightarrow$ \gpjets} & \footnotesize{Star} & $ -0.03 \pm 0.10$ & 0.72 & $-4.0 \pm 7.0$ & 0.64 \\ 
 \end{tabular*}
 \end{center}
-\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $n_{jet} \geq$ 4 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the $ n_{jet} \geq$ q bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitshigh}
+\caption[A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed in the $n_{\text{jet}} \geq$ 4 category.]{A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed in the $n_{\text{jet}} \geq$ 4 category. The two columns show the best fit value for the slope obtained when performing a constant (left) and linear (right) fit and the p-value for that fit.}\label{tab:closuretestfitshigh}
 \end{table}
 
-Table \ref{tab:closuretestfitsall} shows the same fits applied to the three closure tests that probe the modelling between the different $n_{jet}$ bins. The best fit value and its uncertainty is listed for each set of closure tests in all three tables, along with the p-value of the constant and linear fits applied. 
+Table \ref{tab:closuretestfitsall} shows the same fits applied to the three closure tests that probe the modelling between the different $n_{\text{jet}}$ bins. The best fit value and its uncertainty is listed for each set of closure tests in all three tables, along with the p-value of the constant and linear fits applied. 
 
  \begin{table}[h!]
  \footnotesize
@@ -935,7 +934,7 @@ Table \ref{tab:closuretestfitsall} shows the same fits applied to the three clos
 \footnotesize{\dimupjets} & \footnotesize{Asterisk} & $ -0.04 \pm 0.07$ & 0.20 &  $\footnotesize{\quad}4.9 \pm 4.4$ & 0.20 \\ 
 \end{tabular*}
 \end{center}
-\caption[A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ $n_{jet}$ $\leq$ 3 bin]{A summary of the results obtained from fits of zeroeth order polynomials (i.e. a constant) to five sets of closure tests performed in the 2 $\leq$ $n_{jet}$ $\leq$ 3 bin. The final two columns show the best fit value for the slope obtained when performing a linear fit and the p-value for the linear fit.}\label{tab:closuretestfitsall}
+\caption[A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.]{A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.  The two columns show the best fit value for the slope obtained when performing a constant (left) and linear (right) fit and the p-value for that fit.}\label{tab:closuretestfitsall}
 \end{table}
 
 The best fit value for the constant parameter is indicative of the level of closure, averaged across the full range of \theht bins in the analysis, and the p-value an indicator of any significant dependence on \theht within the closure tests. The best fit values of all the tests are either statistically compatible with zero bias (i.e, less than $2\sigma$ from zero) or at the level of 10\% or less, with the exception of one closure test discussed below. 
@@ -951,7 +950,7 @@ Once it has been established that no significant bias or trend has been exist wi
 
 The systematic uncertainty band is split into five separate regions of \theht. Within each region the square root of the sample variance, $\sigma^{2}$, is taken over the eight closure tests to determine the systematic uncertainties to be applied within that region.
 
-Using this procedure the systematic uncertainties for each region are calculated and are shown in Table \ref{tab:sysuncert}, with the systematic uncertainty to be used in the likelihood model conservatively rounded up to the nearest decile, shown in brackets.
+Using this procedure the systematic uncertainties for each region are calculated and are shown in Table \ref{tab:sysuncert}, with the systematic uncertainty to be used in the likelihood model conservatively rounded up to the nearest decile and applied across all \nbreco categories.
 
  \begin{table}[h!]
  \footnotesize
@@ -960,11 +959,11 @@ Using this procedure the systematic uncertainties for each region are calculated
 \cline{1-3}
 \theht band (\GeV)& $2 \leq n_{jet} \leq 3$ & $n_{jet} \geq 4$ \\
 \hline\hline
-275 $<$ \theht $<$ 325 & 6 (10)\%  & 3 (10)\% \\
-325 $<$ \theht $<$ 375& 6 (10)\%  & 6 (10)\% \\
-375 $<$ \theht $<$ 575& 7 (10)\%  & 9 (10)\% \\
-575 $<$ \theht $<$ 775& 13 (20)\%  & 15 (20)\% \\
-\theht $>$ 775& 19 (20)\%  & 21 (30)\% \\
+275 $<$ \theht $<$ 325 & 10\% & 10\% \\
+325 $<$ \theht $<$ 375& 10\%  & 10\% \\
+375 $<$ \theht $<$ 575& 10\%  & 10\% \\
+575 $<$ \theht $<$ 775& 20\%  & 20\% \\
+\theht $>$ 775& 20\%  & 30\% \\
 \end{tabular*}
 \end{center}
 \caption[Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. ]{Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. Uncertainties shown for both jet multiplicity categories. Values used within the likelihood model are conservatively rounded up to the nearest decile and shown in brackets.}\label{tab:sysuncert}
@@ -984,11 +983,11 @@ Figure \ref{fig:uncertaintyplots} shows the sets of closure tests overlaid on to
 \includegraphics[width = 1.0\linewidth]{plots/syst-ge4j.pdf}
 \centering(b) 
 \end{minipage}
-\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{jet} \leq 3$ and (b) $n_{jet} \geq 4$.}
+\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{\text{jet}} \leq 3$ and (b) $n_{\text{jet}} \geq 4$.}
 \label{fig:uncertaintyplots}
 \end{figure}
 
-As already referenced. These closure tests represent a conservative estimate of the systematic uncertainty in making a background perdition for the signal region. This is due to significant differences in the background composition and event kinematics between the two sub-samples used in the closure tests. This is contrary to the signal region prediction where the two sub-samples are both have a comparable background admixture and similar kinematics owing to the fact that the predictions are always made using the same ($n_{jet}$,$n_{b}$,\theht) bin.
+These closure tests represent a conservative estimate of the systematic uncertainty in making a background prediction for the signal region, which is due to significant differences in the background composition and event kinematics between the two sub-samples used in the closure tests. This is contrary to the signal region prediction where the two sub-samples are both have a comparable background admixture and similar kinematics owing to the fact that the predictions are always made using the same ($n_{\text{jet}}$, \nbreco, \theht) bin.
 
 This point is emphasised when we examine the sensitivity of the \ac{TF}'s to a change in the admixture of W + jets and \ttbar with the control and signal samples. This is accomplished by varying the cross sections of the W +jets and \ttbar by +20\% and -20\%, respectively. Figures \ref{fig:xsecvariedle3j} and \ref{fig:xsecvariedge4j} within Appendix \ref{app:backgroundestimation}, show the effect upon the closure tests for both jet multiplicity categories. Given these variations in cross sections, the level of closure is found to be significantly worse, with biases as large as $\sim$ 30\%, most apparent in the lowest \theht bins. However the \ac{TF}'s used to extrapolate from control to signal are seen to change only at the percent level by this large change in cross section, shown in Table \ref{tab:xsecvaried}.
 
@@ -997,13 +996,15 @@ Given the robust behaviour of the translation factors with respect to large (and
 \section{Simplified Models, Efficiencies and Systematic Uncertainties}
 \label{sec:smsmodels}
 
-The results of the analysis are interpreted using various \ac{SMS} signal models as already introduced in Section (\ref{subsec:sms}). Each model is parameterised in a two dimensional parameter space, ($m_{\widetilde{q}/\widetilde{g}}$, $m_{LSP}$), from which upper limits on the production cross sections of the various \ac{SMS} models can be set.
+The results of the analysis are interpreted using various \ac{SMS} signal models, which as already introduced in Section (\ref{subsec:sms}) offer a natural starting point for quantifying and characterising \ac{SUSY} signals, and a means to identify the boundaries of search sensitivity for different mass splittings, kinematic ranges, and final states. 
 
-Each signal sample is generated at \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch} using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for the effects on the b-tagging rate between \texttt{Fastsim} \cite{1742-6596-331-3-032049} and \texttt{Fullsim} \cite{1742-6596-331-3-032015} and are detailed in Section (\ref{subsec:smsbtagreweighting}). 
+Each model is parameterised in a two dimensional parameter space, ($m_{\widetilde{q}/\widetilde{g}}$, $m_{\text{LSP}}$), from which upper limits on the production cross sections of the various \ac{SMS} models can be set.
+
+Each signal sample is generated at \acf{LO} with Pythia \cite{Sjostrand:2006za}, and cross sections calculated for \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch}, with events simulated using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for differences between \texttt{Fastsim} \cite{1742-6596-331-3-032049} and \texttt{Fullsim} \cite{1742-6596-331-3-032015} simulation, which can affect the resultant \nbreco distribution and which are detailed in Section (\ref{subsec:smsbtagreweighting}). 
 
 \subsection{Signal efficiency}
 
-The analysis selection efficiency, \epsilon, is measured for each mass point of the interpreted model, this serves as a measure of the sensitivity of the signal selection for that particular sparticle and \ac{LSP} mass . The signal yield is then given by
+The analysis selection efficiency, \epsilon, is measured for each mass point of the interpreted model, this serves as a measure of the sensitivity of the signal selection for that particular sparticle and \ac{LSP} mass. The signal yield is then given by
 
 \begin{equation}
 Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \mathcal{L},
@@ -1011,7 +1012,7 @@ Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \math
 
 where $\sigma$ represents the model's cross section and $\mathcal{L}$ the luminosity. An upper limit on \sigma taken from theory can then allow for the setting of limits in terms of the particle mass. 
 
-Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the signal selection for the \texttt{T1} and \texttt{T2} \ac{SMS} models interpreted in this analysis. The efficiency maps are produced with the requirement $\theht >$ 275 \GeV (i.e., no binning in \theht) and requirements on $n_{jet}$ and $n_{b}^{reco}$ that are appropriate for the model in question.
+Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the signal selection for the \texttt{T1} and \texttt{T2} \ac{SMS} models interpreted in this analysis. The efficiency maps are produced with the requirement $\theht >$ 275 \GeV (i.e., no binning in \theht) and requirements on $n_{\text{jet}}$ and $n_{b}^{reco}$ that are appropriate for the model in question.
 
 
 \begin{figure}[ht]
@@ -1030,7 +1031,7 @@ Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the 
 \end{figure}
 
 
-The same procedure is conducted in the analysis control samples. It is found in the \mupjets control samples, that the S/B ratios for the expected signal yields in each of the \ac{SMS} models are many times ($\sim$40-100) smaller than in the hadronic signal region. The relative contamination for the \dimupjets sample is smaller still due to the requirement of a second muon. The relative contamination for the \gpjets sample is expected to be zero for the models under consideration. These small, relative levels of contamination are accounted for in the fitting procedure, as described in Section (\ref{subsec:signalcontribution}).
+The same procedure is conducted in the analysis control samples. It is found in the \mupjets control samples, that the S/B ratios for the expected signal yields in each of the \ac{SMS} models are many time smaller than in the hadronic signal region. The relative contamination for the \dimupjets sample is smaller still due to the requirement of a second muon. The relative contamination for the \gpjets sample is expected to be zero for the models under consideration. These small, relative levels of contamination are accounted for in the fitting procedure, as described in Section (\ref{subsec:signalcontribution}).
 
 
 \subsection{Applying b-tag scale factor corrections in signal samples}
@@ -1050,7 +1051,7 @@ The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{Fa
 \epsilon_{\texttt{FastSim}}(\pt,\eta,f) =  \frac{\epsilon_{MC}(\pt,\eta,f)}{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)} ,
 \end{equation}
 
-where $SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections determined from the ratio between the efficiency and mis-tagging rates of a \ttbar \texttt{FullSim} and \ttbar \texttt{FastSim} sample. The central value for these corrections is the same for all signal samples. Similarly the tagging efficiencies measured in data \cite{btag8tev}, $\epsilon_{Data}(\pt,\eta,f)$, are further related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
+where $SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections determined from the ratio between the efficiency and mis-tagging rates of a \ttbar \texttt{FullSim} and \ttbar \texttt{FastSim} sample. Similarly the tagging efficiencies measured in data \cite{btag8tev}, $\epsilon_{Data}(\pt,\eta,f)$, are further related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
 
 \begin{align}
 \epsilon_{Data}(\pt,\eta,f) &=  \epsilon_{MC}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f) \nonumber \\
@@ -1068,13 +1069,15 @@ and in the case that the jet is \emph{not} tagged,
 \text{weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
 \end{equation}
 
- Once all events have been reweighted this way, the yields in each $n_{b}^{reco}$ bin represent the corrected MC yields. 
+ Once all events have been reweighted this way, the yields in each $n_{b}^{reco}$ bin represent the corrected simulation yields. 
 
 \subsection{Experimental uncertainties}
 
 The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem stem from uncertainties on the parton distribution functions, the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
 
-Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and constant systematics are estimated in two regions of the \ac{SMS} models parameter space. These two regions are defined as near to (small mass splittings) and far (large mass splittings) from the diagonal, where far is realised by the condition
+Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and constant systematics are estimated in two regions of the \ac{SMS} models parameter space. 
+
+Within these two regions, the systematic uncertainties are found to be relatively flat across the plane, and are defined as, near (small mass splittings) and far (large mass splittings) from the diagonal, where far is realised by the condition
 
 \begin{equation}
 m_{\widetilde{q}/\widetilde{g}} - m_{LSP} > 350 \GeV \quad && m_{\widetilde{q}/\widetilde{g}} > 475 \GeV. \nonumber
@@ -1090,16 +1093,18 @@ The measurement of luminosity taken propagates through to an uncertainty on the 
 \item[]\textbf{Parton density function} :
 The effects of varying the set of parton distribution functions used and changing the renormalization/factorisation scale used to compute the cross sections by a factor of two up or down have been found to affect the efficiency by up to 10\%.
 \item[]\textbf{\mht/\met cleaning cut} :
-The ratio of the efficiencies of the cleaning cut are compared in simulation and data after application of the \mupjets control sample selection. No \alphat cut or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity bins, $2 \leq n_{jet} \leq 3$ and $n_{jet} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
+The ratio of the efficiencies of the cleaning cut are compared in simulation and data after application of the \mupjets control sample selection. No \alphat cut or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity bins, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
 \item[]\textbf{Deal ECAL cleaning filter} :
-The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity bins, $2 \leq n_{jet} \leq 3$ and $n_{jet} \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
+The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity bins, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
 \item[]\textbf{Lepton and photon vetoes} :
-The uncertainty on the efficiency of the lepton and photon vetoes is established by considering the efficiency of the vetoes after applying filters with identical logic but based on truth information. If the efficiency is not 100\%, then this represents the fraction of signal events that should not be vetoed. This deviation is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state.
+The uncertainty on the efficiency of the lepton and photon vetoes is determined by considering truth information. The efficiency of the vetoes is measured after applying relevant object filters with identical logic, but based on truth instead of reconstructed objects. Where the efficiency is found to not be 100\%, it is taken to represent the fraction of signal events that are incorrectly vetoed. This deviation is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state, where the uncertainties are at the order of 1\% level.
 \item[]\textbf{B-tag scale factor uncertainties} :
 The relative change in the signal efficiency is observed when relevant flavour, \pt and \eta dependant b-tag correction factors, are varied up or down by their uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency, over all mass points.
 \end{itemize}
 
-Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all included in the limit calculation.
+Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. In the case of the \texttt{T1tttt} model, in which pair produced gluinos decay to \ttbar pairs and the \ac{LSP}, the near region of \ac{SMS} space is not considered, and so no systematic uncertainties are included.
+
+The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all included in the limit calculation.
 
  \begin{table}[h!]
  \footnotesize
@@ -1139,10 +1144,10 @@ Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-ta
 \end{table}
 
 
-\section{Statistical Framework}
+\section{Statistical Interpretation}
 \label{sec:statframework}
 
-For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking wether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models.
+For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking wether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models. The statistical framework outlined within this section is presented in greater detail within \cite{Laird:2012mla}.
 
 \subsection{Hadronic sample}
 
@@ -1223,7 +1228,7 @@ L_{\mu\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu\mu} | \rho^{j}_{\mu\mu Z} . r^{i
 L_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{i}_{\mu} . Y^{i} + s^{i}_{\mu}), \\
 \end{align}
 
-which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the systematic uncertainties associated with the control sample based background constraints. 
+which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the data driven systematic uncertainties derived from the controls in Section (\ref{eq:closuretests}). 
 
 Each of these equations are used to estimate the maximum likelihood value for relevant background in the signal region given the observations $n^{i}_{p}$ in each of the control samples (see Section (\ref{subsec:controlsampledefinition})).
 
@@ -1299,7 +1304,7 @@ s^{i}_{\mu} \equiv f\rho_{sig}xl\epsilon^{i}_{\mu}
 The systematic uncertainty on the signal is additionally included by the term
 
 \begin{equation}
-L_{sig} = \text{Logn}(1.0|\rho_{sig},\delta).
+L_{\text{sig}} = \text{Logn}(1.0|\rho_{sig},\delta).
 \end{equation}
 
 A discussion of the \ac{SMS} signal models through which the analysis is interpreted can be found in the following Chapter. 
@@ -1335,7 +1340,7 @@ $f^{0}_{Zinv}$ $^{*}$ & 1 \\
 \caption[Nuisance parameters used within the different hadronic signal bins of the analysis]{Nuisance parameters used within the different hadronic signal bins of the analysis. Parameters denoted by a $^{*}$ are not considered in the case of a single control sample being used to predict the \ac{EWK} background. Numbers within brackets highlight the number of nuisance parameters in the case of three \theht bins being used.}\label{tab:nuisanceparameters}
 \end{table}
 
-When considering \ac{SUSY} signal models within the likelihood, an additional parameter is introduced, $\rho_{sig}$. When multiple categories are fit simultaneously the total likelihood is then represented by 
+When considering \ac{SUSY} signal models within the likelihood, the additional $L_{\text{sig}}$ term is included and therefore when multiple categories are fit simultaneously the total likelihood is then represented by 
 
 \begin{equation}
 L =  L_{sig} \times \prod_{k} L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
