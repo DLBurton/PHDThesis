@@ -1,3 +1,5 @@
-Add in Btag SF Citations in detector section...
-Sort references
+Sort out PDFs section in signal samples
+Proof read interpretations
+proof read Template
+redo conclusions
 In Appendix B - Produce PF jet resolution plots, remake energy resolution plots (do this stuff last)

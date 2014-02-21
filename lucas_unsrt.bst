@@ -704,7 +704,7 @@ FUNCTION {empty.misc.check}
 
 FUNCTION {format.tr.number}
 { type empty$
-    { "Technical Report" } %---------------- Modified (GA) was: Tech. Rep.
+    { "" } %---------------- Modified (GA) was: Tech. Rep.
     'type
   if$
   number empty$

@@ -7,7 +7,7 @@ The kinematic variable $\alphat$ is motivated as a variable to provide strong re
 
 The method in which the \ac{SM} background is estimated using an analytical technique to improve statistical precision at higher b-tag multiplicities is detailed within Section (\ref{subsec:backgroundestimation}). Included in this section is a discussion on the impact of b-tagging and mis-tagging scale factors between data and simulation on any background predictions. Improved precision in estimating background yields at large number of b-tagged jets, is important in the context of interpreting natural \ac{SUSY} models, first outlined in Section (\ref{subsec:sms}).
 
-A description of the formulation of appropriate systematic uncertainties applied to the background predictions to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects is covered in Section (\ref{subsec:sysuncertainties}).
+A description of the formulation of appropriate systematic uncertainties applied to the background predictions to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects is covered in Section (\ref{subsec:sysuncertainties}). Similarly the systematic determination for the \ac{SMS} signal samples used to interpret the physics reach of the analysis are examined in Section (\ref{sec:smsmodels}).
 
 Finally the statistical likelihood model to interpret the observations in the signal and control samples is described in Section (\ref{sec:statframework}). The experimental reach of the analysis discussed within this thesis is interpreted in two classes of \ac{SMS} models, both first introduced in Section (\ref{subsec:sms}). The \ac{SMS} models considered in this analysis are summarised in Table \ref{tab:sms_model_table}. For each model, the \ac{LSP} is assumed to be the lightest neutralino. 
 
@@ -198,7 +198,7 @@ To ensure the jet object falls within the calorimeter systems a pseudo-rapidity 
 
 \item \textbf{Muons}
 
-Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in the signal region. The same cut based identification criteria is applied to muons in both search regions and is summarised in Table \ref{tab:muonidtable} \cite{1748-0221-7-10-P10002}.
+Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in the signal region. The same cut based identification criteria is applied to muons in both search regions and is summarised in Table \ref{tab:muonidtable} \cite{2012JInst...7P0002T}.
 
 \begin{table}[h!]
 \footnotesize
@@ -207,7 +207,7 @@ Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in
 \cline{1-2}
 Variable & Definition \\ 
 \hline\hline
-Is Global Muon \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad& Muon contains both a hit in the muon chamber and a matched track in the inner tracking system \cite{2012JInst...7P0002T}.\\
+Is Global Muon \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad& Muon contains both a hit in the muon chamber and a matched track in the inner tracking system .\\
 $\chi^{2}$$<$ 10 & $\chi^{2}$ of global muon track fit. Used to suppress hadronic punch-through and muons from decays in flight.  \\
 Muon chamber hits $>$ 0 &  At least one muon chamber hit included in global muon track fit.\\
 Muon station hits $>$ 1 & Muon segment hits in at least two muon stations, which  suppresses hadronic punch-through and accidental track-to-segment matches. \\
@@ -543,9 +543,7 @@ $\text{(c}$) \alphat
 \captionof{figure}[Data/MC comparisons of key variables for the \gpjets selection.]{Data/MC comparisons of key variables for the \gpjets selection,following the application of selection criteria and the requirements that \theht $>$ 375 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:photonmcplots}
 \end{minipage}
 
-
 \end{itemize}
-
 
 The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on MC simulation to model correctly the backgrounds and event kinematics in the control and signal samples. 
 
@@ -698,21 +696,25 @@ The assigning of jet flavours to reconstruction level jets in simulation is achi
 \item Otherwise: assign flavour of the hardest parton.
 \end{itemize}
 
-This process is employed within each individual MC process and independently for each \theht - $n_{jet}$ bin in the analysis, the \nbreco distribution is then constructed in the following way:
+This process is employed within each individual MC process and independently for each \theht - \njet bin in the analysis. The \nbreco distribution is then constructed in the following way:
 
- Let \nbcq represent the yield in simulation of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  Similarly \eff, \ceff and \textit{m} represent the measured b-tagging, c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
+ Let \nbcq represent the yield in simulation, of events with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  Similarly \eff, \ceff and \textit{m} represent the measured b-tagging, c-tagging and mis-tagging efficiency averaged over all the jets within that particular analysis bin. 
  
  Using this information the expected $n_{b}^{reco}$ distribution can be analytically calculated using the formula :
 
 \begin{align}
 \label{eq:btagformula}
-N(n_{b}) =& \sum_{n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{jet}} \quad \sum_{n_{b}^{tag}+n_{c}^{tag}+n_{q}^{tag} = n_{b}} \nbcq \times \probb \times \nonumber \\
+N(n) =& \sum_{n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{\text{jet}}^{cat}} \quad \sum_{n_{b}^{tag}+n_{c}^{tag}+n_{q}^{tag} = n} \nbcq \times \probb \times \nonumber \\
 & \probc \times \probl,
 \end{align}
 
-with N(n$_{b}$) representing the yield where $n_{b}$ jets have been b-tagged.  The variables $n_{b}^{tag}$, $n_{c}^{tag}$ and $n_{q}^{tag}$ represent the number of times that a particular jet flavour results in a b-tagged jet, and finally \probb, \probc and \probl represent the binomial probabilities for that to happen. 
+with N(n) representing the number of $n$ b-tagged jets in a particular analysis bin as determined by the formula method. 
 
-This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of the entire MC sample in extracting the estimated underlying $n_{b}^{reco}$ distribution.
+The variables $n_{b/c/q}^{tag}$ signify the number of times that a particular jet flavour results in a b-tagged jet, of which the sum of the three terms must equal the number of $n$ b-tagged jets being estimated. Similarly $n_{b/c/q}^{gen}$ represent the flavour admixture of the jets, which having been identified using the above technique as b, c or light flavoured jets, are required by definition that the sum of the three to fall within the \njet category being analysed. 
+
+Finally \probb, \probc and \probl correspond to the binomial probabilities for that particular jet flavour and tagging configuration to occur based on the measured tagging efficiencies (\eff, \ceff and \textit{m}) for each jet flavour. This formula is enacted over all five of the analysis b-tag categories to build up the resultant \nbreco distribution for each process in turn.
+
+This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of the entire MC sample in extracting the estimated underlying $n_{b}^{reco}$ distribution, particularly at higher \nbreco multiplicities where a lack of statistics can lead to relatively large uncertainties.
 
 \subsection{Establishing proof of principle}
 \label{subsec:formulamethodsanity}
@@ -934,7 +936,7 @@ Table \ref{tab:closuretestfitsall} shows the same fits applied to the three clos
 \footnotesize{\dimupjets} & \footnotesize{Asterisk} & $ -0.04 \pm 0.07$ & 0.20 &  $\footnotesize{\quad}4.9 \pm 4.4$ & 0.20 \\ 
 \end{tabular*}
 \end{center}
-\caption[A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.]{A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to five sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.  The two columns show the best fit value for the slope obtained when performing a constant (left) and linear (right) fit and the p-value for that fit.}\label{tab:closuretestfitsall}
+\caption[A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to three sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.]{A summary of the results obtained from zeroeth order polynomial (i.e. a constant) and linear fits to three sets of closure tests performed between the 2 $\leq$ $n_{\text{jet}}$ $\leq$ 3 and $n_{\text{jet}} \geq$ 4 categories.  The two columns show the best fit value for the slope obtained when performing a constant (left) and linear (right) fit and the p-value for that fit.}\label{tab:closuretestfitsall}
 \end{table}
 
 The best fit value for the constant parameter is indicative of the level of closure, averaged across the full range of \theht bins in the analysis, and the p-value an indicator of any significant dependence on \theht within the closure tests. The best fit values of all the tests are either statistically compatible with zero bias (i.e, less than $2\sigma$ from zero) or at the level of 10\% or less, with the exception of one closure test discussed below. 
@@ -1043,7 +1045,7 @@ For these signal models, an event-by-event re-weighting procedure is applied. Th
 
 The re-weighting procedure can be described by first considering a single jet in an signal sample event. The flavour of the jet is determined using the method described in Section (\ref{subsec:formulamethod}). 
 
-Taking the flavour, \pt and \eta values of the jet, the expected tagging efficiency, $\epsilon_{MC}(\pt,\eta,f)$, in simulation is retrieved from a map of tagging efficiencies determined from the \texttt{FullSim} \ac{SM} simulation samples, and binned as a function of jet \pt, \eta and flavour after the application of the hadronic signal selection. The binning is chosen to reflect the set of \pt and \eta dependant corrections of simulation to data defined by \cite{btagscalefactor}.
+Maps of tagging efficiencies determined from \texttt{FullSim} simulation samples for each of the b, c and light jet flavours are produced, binned as a function of jet \pt and \eta after the application of the hadronic signal selection. The binning of the maps are chosen to reflect the set of \pt and \eta dependant corrections of simulation to data defined by \cite{btagscalefactor}. Taking the flavour, \pt and \eta values of each jet in the event, the expected tagging efficiency, $\epsilon_{MC}(\pt,\eta,f)$ is extracted from these maps.
 
 The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$, differs from that measured in \texttt{FullSim},  $\epsilon_{MC}(\pt,\eta,f)$ and is related via an additional correction factor,
 
@@ -1051,33 +1053,35 @@ The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{Fa
 \epsilon_{\texttt{FastSim}}(\pt,\eta,f) =  \frac{\epsilon_{MC}(\pt,\eta,f)}{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)} ,
 \end{equation}
 
-where $SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections determined from the ratio between the efficiency and mis-tagging rates of a \ttbar \texttt{FullSim} and \ttbar \texttt{FastSim} sample. Similarly the tagging efficiencies measured in data \cite{btag8tev}, $\epsilon_{Data}(\pt,\eta,f)$, are further related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
+where $SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections, that are specific for each \ac{SMS} model. These are calculated from the ratio of b-tagging rates between a \texttt{FullSim} \ttbar sample, and a selection of mass points for that particular \texttt{FastSim} \ac{SMS} model, again measured individually for b, c and light-flavoured jets. 
+
+Similarly the tagging efficiencies measured in data \cite{btag8tev}, $\epsilon_{Data}(\pt,\eta,f)$, are further related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
 
 \begin{align}
 \epsilon_{Data}(\pt,\eta,f) &=  \epsilon_{MC}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f) \nonumber \\
 &=  \epsilon_{\texttt{FastSim}}(\pt,\eta,f) \times \underbrace{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f)}_\text{SF$_{\texttt{Fast}} \rightarrow Data$}.
 \end{align}
 
-For each jet, the weight of the event is re-weighted according to wether the jet fires the b-tagger. In the instance that the jet \emph{is} b-tagged the event weight is modified by,
+For each jet, the weight of the event is re-weighted according to wether the jet fires the b-tagger. In the instance that the jet \emph{is} b-tagged, the event weight will be modified by,
 
 \begin{equation}
 \text{weight} = SF_{\texttt{Fast} \rightarrow Data} \times \text{weight},
 \end{equation} 
-and in the case that the jet is \emph{not} tagged,
+and in the case that the jet does \emph{not} fire the b-tagger,
 
 \begin{equation}
 \text{weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
 \end{equation}
 
- Once all events have been reweighted this way, the yields in each $n_{b}^{reco}$ bin represent the corrected simulation yields. 
+ All events that pass the selection criteria are reweighted in this way, and represent the yields in each $n_{b}^{reco}$ bin corrected from \texttt{Fastsim} to data. 
 
 \subsection{Experimental uncertainties}
 
 The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem stem from uncertainties on the parton distribution functions, the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
 
-Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and constant systematics are estimated in two regions of the \ac{SMS} models parameter space. 
+Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered and instead constant systematics are estimated in two regions of the \ac{SMS} models parameter space. 
 
-Within these two regions, the systematic uncertainties are found to be relatively flat across the plane, and are defined as, near (small mass splittings) and far (large mass splittings) from the diagonal, where far is realised by the condition
+These two regions are defined as, near (small mass splittings) and far (large mass splittings) from the mass degenerate diagonal, where the far region is bounded by the condition
 
 \begin{equation}
 m_{\widetilde{q}/\widetilde{g}} - m_{LSP} > 350 \GeV \quad && m_{\widetilde{q}/\widetilde{g}} > 475 \GeV. \nonumber
@@ -1095,7 +1099,7 @@ The effects of varying the set of parton distribution functions used and changin
 \item[]\textbf{\mht/\met cleaning cut} :
 The ratio of the efficiencies of the cleaning cut are compared in simulation and data after application of the \mupjets control sample selection. No \alphat cut or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity bins, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
 \item[]\textbf{Deal ECAL cleaning filter} :
-The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity bins, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
+The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity bins, $2 \leq \njet \leq 3$ and $\njet \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
 \item[]\textbf{Lepton and photon vetoes} :
 The uncertainty on the efficiency of the lepton and photon vetoes is determined by considering truth information. The efficiency of the vetoes is measured after applying relevant object filters with identical logic, but based on truth instead of reconstructed objects. Where the efficiency is found to not be 100\%, it is taken to represent the fraction of signal events that are incorrectly vetoed. This deviation is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state, where the uncertainties are at the order of 1\% level.
 \item[]\textbf{B-tag scale factor uncertainties} :
@@ -1104,7 +1108,7 @@ The relative change in the signal efficiency is observed when relevant flavour, 
 
 Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. In the case of the \texttt{T1tttt} model, in which pair produced gluinos decay to \ttbar pairs and the \ac{LSP}, the near region of \ac{SMS} space is not considered, and so no systematic uncertainties are included.
 
-The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all included in the limit calculation.
+In both of the defined regions it is found that the systematic uncertainties are relatively flat justifying the approach taken. The systematic uncertainties used for the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal, the uncertainties used fall in the range 12-23\%. These uncertainties are all propagated through to the limit calculation.
 
  \begin{table}[h!]
  \footnotesize
@@ -1173,7 +1177,7 @@ and $s^{i}$ the expected number of signal events from the different \ac{SMS} mod
 \subsection{\theht evolution model}
 \label{subsec:htevolution}
 
-The hypothesis, that for a process the \alphat ratio falls exponentially see Section (\ref{subsec:qcdbackground} ) in \theht is defined by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
+The hypothesis, that for a process the \alphat ratio falls exponentially (see Section (\ref{subsec:qcdbackground} )) in \theht is defined by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
 
 The expected QCD background, $QCD^{i}$, within a bin $i$ is then modelled as,
 
@@ -1228,7 +1232,7 @@ L_{\mu\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu\mu} | \rho^{j}_{\mu\mu Z} . r^{i
 L_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{i}_{\mu} . Y^{i} + s^{i}_{\mu}), \\
 \end{align}
 
-which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the data driven systematic uncertainties derived from the controls in Section (\ref{eq:closuretests}). 
+which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the data driven systematic uncertainties derived from the control samples in Section (\ref{eq:closuretests}). 
 
 Each of these equations are used to estimate the maximum likelihood value for relevant background in the signal region given the observations $n^{i}_{p}$ in each of the control samples (see Section (\ref{subsec:controlsampledefinition})).
 
@@ -1318,7 +1322,7 @@ The total likelihood function for a given signal bin k($n_{b}^{reco}$, $n_{jet}$
 L^{k} = L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
 \end{equation}
 
-In categories containing eight \theht bins and utilising the three control samples (\mupjets,\dimupjets,\gpjets), there are 25 nuisance parameters, whilst when just one control sample is used to estimate the \ac{EWK} background, there are 15 nuisance parameters. Where three \theht bins are used (the highest $n_{b}^{reco}$ category), there are 6 nuisance parameters. This information is summarised within Table \ref{tab:nuisanceparameters}.
+In categories containing eight \theht bins and utilising the three control samples (\mupjets, \dimupjets, \gpjets), there are 25 nuisance parameters, whilst when just one control sample is used to estimate the \ac{EWK} background, there are 15 nuisance parameters. Where three \theht bins are used (the highest $n_{b}^{reco}$ category), there are 6 nuisance parameters. This information is summarised within Table \ref{tab:nuisanceparameters}.
 
  \begin{table}[h!]
  \footnotesize

@@ -3,52 +3,58 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mythesis.aux
 The style file: lucas_unsrt.bst
 Database file #1: mythesis.bib
+Warning--I didn't find a database entry for "btag8tev"
+Warning--empty publisher in quarksandleptons
 Warning--empty author and editor in introtoparticles
 Warning--empty note in Jean-Luc:841573
+Warning--empty institution in LHClumo
 Warning--empty author and editor in CMS_ECAL_TDR
 Warning--empty author and editor in CMS_MUON_TDR
 Warning--empty author in CMS-PAS-JME-10-003
-Warning--empty author in btag8tev
+Warning--empty institution in CMS:2008vya
+Warning--empty institution in btagscalefactor
+Warning--empty publisher in logndistribution
 Warning--empty booktitle in 2010acat.confE..57M
-You've used 97 entries,
+Warning--empty institution in Read:451614
+You've used 96 entries,
             2529 wiz_defined-function locations,
-            1310 strings with 22157 characters,
-and the built_in function-call counts, 27418 in all, are:
-= -- 3016
-> -- 537
-< -- 9
-+ -- 201
-- -- 104
-* -- 2323
-:= -- 3388
+            1262 strings with 21088 characters,
+and the built_in function-call counts, 21881 in all, are:
+= -- 2280
+> -- 496
+< -- 13
++ -- 190
+- -- 94
+* -- 2124
+:= -- 2856
 add.period$ -- 153
-call.type$ -- 97
-change.case$ -- 1
+call.type$ -- 96
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1756
-empty$ -- 2876
-format.name$ -- 112
-if$ -- 7210
+cite$ -- 108
+duplicate$ -- 1432
+empty$ -- 2469
+format.name$ -- 102
+if$ -- 5614
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 234
+int.to.str$ -- 96
+missing$ -- 223
 newline$ -- 387
-num.names$ -- 68
-pop$ -- 562
+num.names$ -- 61
+pop$ -- 579
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 945
+skip$ -- 457
 stack$ -- 0
-substring$ -- 1142
-swap$ -- 687
-text.length$ -- 9
+substring$ -- 359
+swap$ -- 377
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 163
-width$ -- 99
-write$ -- 1130
-(There were 7 warnings)
+warning$ -- 12
+while$ -- 95
+width$ -- 98
+write$ -- 1093
+(There were 13 warnings)
