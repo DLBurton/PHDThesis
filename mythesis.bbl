@@ -506,6 +506,12 @@ S.~Abdullin\hrefCMSnoop {} { {et~al.}, ``The Fast Simulation of the CMS
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Luminosity Based on Pixel Cluster
   Counting - Summer 2012 Update}'',}  CMS-PAS-LUM-12-001, CERN, Geneva, (2012).
 
+\bibitem{Botje:2011sn}
+M.~Botje\hrefCMSnoop {} { {et~al.}, ``{The PDF4LHC Working Group Interim
+  Recommendations}'',}
+\href{http://www.arXiv.org/abs/1101.0538}{\texttt{ arXiv:1101.0538}}.
+%%CITATION = ARXIV:1101.0538;%%.
+
 \bibitem{Laird:2012mla}
 \hrefCMSnoop {} {E.~M. Laird,
 ``{A Search for Squarks and Gluinos with the CMS Detector}'',}.

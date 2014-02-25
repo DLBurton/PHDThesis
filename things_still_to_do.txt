@@ -1,4 +1,2 @@
-Sort out PDFs section in signal samples
 Check data errors in template
-Ask Jad about paper for template fit
-In Appendix B - Produce PF jet resolution plots, remake energy resolution plots (do this stuff last)
+In Appendix B - Remake energy resolution plots (do this stuff last)

@@ -59,7 +59,7 @@ A search within this channel is greatly complicated in a hadron collider environ
 
 \centering
 \includegraphics[width=0.65\textwidth]{plots/ra1_htdistribution.pdf}
-\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as a reference signal models (labelled G1 and D1 from Table.\ref{tab:sms_model_table}).}  
+\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as two reference signal models (labelled G1 and D1 from Table \ref{tab:sms_model_table}).}  
 \label{fig:htqcdbackground}
 \end{figure}
 
@@ -714,7 +714,7 @@ The variables $n_{b/c/q}^{tag}$ signify the number of times that a particular je
 
 Finally \probb, \probc and \probl correspond to the binomial probabilities for that particular jet flavour and tagging configuration to occur based on the measured tagging efficiencies (\eff, \ceff and \textit{m}) for each jet flavour. This formula is enacted over all five of the analysis b-tag categories to build up the resultant \nbreco distribution for each process in turn.
 
-This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of the entire MC sample in extracting the estimated underlying $n_{b}^{reco}$ distribution, particularly at higher \nbreco multiplicities where a lack of statistics can lead to relatively large uncertainties.
+This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of the entire MC sample in extracting the estimated underlying $n_{b}^{reco}$ distribution, particularly at higher \nbreco multiplicities where a lack of events in simulation can lead to relatively large statistical uncertainties.
 
 \subsection{Establishing proof of principle}
 \label{subsec:formulamethodsanity}
@@ -968,7 +968,7 @@ Using this procedure the systematic uncertainties for each region are calculated
 \theht $>$ 775& 20\%  & 30\% \\
 \end{tabular*}
 \end{center}
-\caption[Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. ]{Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. Uncertainties shown for both jet multiplicity categories. Values used within the likelihood model are conservatively rounded up to the nearest decile and shown in brackets.}\label{tab:sysuncert}
+\caption[Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. ]{Calculated systematic uncertainties for the five \theht regions, determined from the closure tests. Uncertainties shown for both jet multiplicity categories. Values used within the likelihood model are conservatively rounded up to the nearest decile.}\label{tab:sysuncert}
 \end{table}
 
 Figure \ref{fig:uncertaintyplots} shows the sets of closure tests overlaid on top of grey bands that represent the \theht dependent systematic uncertainties. These systematic uncertainties are assumed to fully uncorrelated between the different $n_{b}$ multiplicity categories and across the five \theht regions. This can be considered a more conservative approach given that some correlations between adjacent \theht bins could be expected due to comparable kinematics.
@@ -985,7 +985,7 @@ Figure \ref{fig:uncertaintyplots} shows the sets of closure tests overlaid on to
 \includegraphics[width = 1.0\linewidth]{plots/syst-ge4j.pdf}
 \centering(b) 
 \end{minipage}
-\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity bins:(a) $2 \leq n_{\text{jet}} \leq 3$ and (b) $n_{\text{jet}} \geq 4$.}
+\caption[Sets of closure tests overlaid on top of the systematic uncertainty used for each of the five \theht regions.]{Sets of closure tests (open symbols) overlaid on top of the systematic uncertainty used for each of the five \theht regions (shaded bands) and for the two different jet multiplicity categories: (a) $2 \leq n_{\text{jet}} \leq 3$ and (b) $n_{\text{jet}} \geq 4$.}
 \label{fig:uncertaintyplots}
 \end{figure}
 
@@ -1095,7 +1095,7 @@ The relative change in the signal efficiency is gauged by varying the energy of 
 \item[]\textbf{Luminosity measurement} :
 The measurement of luminosity taken propagates through to an uncertainty on the signal event yield when considering any new physics model, which is currently 4.4\% \cite{CMS-PAS-LUM-12-001}.
 \item[]\textbf{Parton density function} :
-The effects of varying the set of parton distribution functions used and changing the renormalization/factorisation scale used to compute the cross sections by a factor of two up or down have been found to affect the efficiency by up to 10\%.
+Each signal sample is produced using the CTEQ6L1 parton density function. The effect on the signal acceptance when re-weighting to the central value of three different parton distribution functions, CT10, MSTW08 and NNPDF2.1 are examined \cite{Botje:2011sn}. It is found that the change of the signal efficiency in different \ac{SMS} models, due to the alternate PDF sets are typically a few percent, and approaches 10\% at higher squark/gluon and \ac{LSP} masses.
 \item[]\textbf{\mht/\met cleaning cut} :
 The ratio of the efficiencies of the cleaning cut are compared in simulation and data after application of the \mupjets control sample selection. No \alphat cut or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity bins, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
 \item[]\textbf{Deal ECAL cleaning filter} :

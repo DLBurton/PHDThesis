@@ -16,45 +16,45 @@ Warning--empty institution in btagscalefactor
 Warning--empty publisher in logndistribution
 Warning--empty booktitle in 2010acat.confE..57M
 Warning--empty institution in Read:451614
-You've used 98 entries,
+You've used 99 entries,
             2529 wiz_defined-function locations,
-            1273 strings with 21257 characters,
-and the built_in function-call counts, 22477 in all, are:
-= -- 2348
-> -- 502
+            1279 strings with 21484 characters,
+and the built_in function-call counts, 22637 in all, are:
+= -- 2365
+> -- 506
 < -- 13
-+ -- 193
++ -- 194
 - -- 95
-* -- 2185
-:= -- 2928
-add.period$ -- 157
-call.type$ -- 98
+* -- 2200
+:= -- 2949
+add.period$ -- 159
+call.type$ -- 99
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1473
-empty$ -- 2533
-format.name$ -- 103
-if$ -- 5774
+cite$ -- 111
+duplicate$ -- 1483
+empty$ -- 2551
+format.name$ -- 104
+if$ -- 5814
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 229
-newline$ -- 397
-num.names$ -- 62
-pop$ -- 590
+int.to.str$ -- 99
+missing$ -- 232
+newline$ -- 402
+num.names$ -- 63
+pop$ -- 596
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 477
+skip$ -- 478
 stack$ -- 0
 substring$ -- 371
-swap$ -- 393
+swap$ -- 394
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 12
-while$ -- 98
-width$ -- 100
-write$ -- 1121
+while$ -- 99
+width$ -- 101
+write$ -- 1130
 (There were 13 warnings)
