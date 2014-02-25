@@ -1,5 +1,4 @@
 Sort out PDFs section in signal samples
-Proof read interpretations
-proof read Template
-redo conclusions
+Check data errors in template
+Ask Jad about paper for template fit
 In Appendix B - Produce PF jet resolution plots, remake energy resolution plots (do this stuff last)

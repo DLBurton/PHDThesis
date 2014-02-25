@@ -1276,7 +1276,7 @@ syst. parameter (j) & 0 & 0 & 0 \\
 \caption[The systematic parameters used in \theht bins.]{The systematic parameters used in \theht bins. Left: categories with eight bins; right: category with three bins.}\label{tab:systtable}
 \end{table}
 
-Alternatively, in the higher $n_{b}^{reco}$ categories ($n_{b}^{reco} = 3$, $n_{b}^{reco} \geq 4$), the single muon sample is used to constrain the total \ac{EWK} background. Therefore the likelihood function is greatly simplified and is represented by
+Alternatively, in the higher $n_{b}^{reco}$ categories ($n_{b}^{reco} \geq 2$), only the single muon sample is used to constrain the total \ac{EWK} background. Therefore the likelihood function is greatly simplified and is represented by
 
 \begin{equation}
 L^{'}_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{'i}_{\mu} . EWK^{i} + s^{i}_{\mu}), 
@@ -1316,28 +1316,29 @@ A discussion of the \ac{SMS} signal models through which the analysis is interpr
 \subsection{Total likelihood}
 \label{subsec:totallikelihood}
 
-The total likelihood function for a given signal bin k($n_{b}^{reco}$, $n_{jet}$) is given by the product of the likelihood functions introduced within the previous sections:
+The total likelihood function for a given signal bin k($n_{b}^{reco}$, $n_{jet}$) is then given by the product of the likelihood functions introduced within the previous sections:
 
-\begin{equation}
-L^{k} = L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
-\end{equation}
+\begin{align}
+L^{k}_{\text{Tot}} &= L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD};  \qquad\qquad (0 \leq \nbreco \leq 1) \nonumber \\
+L^{k}_{\text{Tot}} &= L^{k}_{had} \times  L^{'\xspace k }_{\mu} \times  L^{k}_{\mu\text{ }syst} \times  L^{k}_{QCD} \quad\qquad\qquad\qquad\qquad\qquad(\nbreco \geq 2).
+\end{align}
 
 In categories containing eight \theht bins and utilising the three control samples (\mupjets, \dimupjets, \gpjets), there are 25 nuisance parameters, whilst when just one control sample is used to estimate the \ac{EWK} background, there are 15 nuisance parameters. Where three \theht bins are used (the highest $n_{b}^{reco}$ category), there are 6 nuisance parameters. This information is summarised within Table \ref{tab:nuisanceparameters}.
 
  \begin{table}[h!]
  \footnotesize
 \begin{center}
-\begin{tabular*}{0.45\textwidth}{@{\extracolsep{\fill}}lc}
+\begin{tabular*}{0.45\textwidth}{@{\extracolsep{\fill}}ll}
 \hline
 Nuisance parameter & Total \\
 \hline\hline
 $(EWK^{i})_{\ i\ : 0-7(2)}$ & 8 (3) \\
-$f^{0}_{Zinv}$ $^{*}$ & 1 \\
- $f^{7}_{Zinv}$ $^{*}$ & 1 \\
+$f^{0}_{Zinv}$  & 1$^{*}$ \\
+ $f^{7}_{Zinv}$  &1$^{*}$ \\
  $QCD^{0}$ & 1 \\
  $k_{QCD}$ & 1 \\
- $(\rho^{j}_{\gamma Z})_{\ j \ : 2-4}$ $^{*}$ & 3 \\
- $(\rho^{j}_{\mu\mu Z})_{\ j \ : 0-4}$  $^{*}$ & 5 \\
+ $(\rho^{j}_{\gamma Z})_{\ j \ : 2-4}$  & 3 $^{*}$\\
+ $(\rho^{j}_{\mu\mu Z})_{\ j \ : 0-4}$   & 5 $^{*}$ \\
  $(\rho^{j}_{\mu W})_{\ j \ : 0-4(0)}$ & 5 (1) \\
 \end{tabular*}
 \end{center}
@@ -1347,5 +1348,5 @@ $f^{0}_{Zinv}$ $^{*}$ & 1 \\
 When considering \ac{SUSY} signal models within the likelihood, the additional $L_{\text{sig}}$ term is included and therefore when multiple categories are fit simultaneously the total likelihood is then represented by 
 
 \begin{equation}
-L =  L_{sig} \times \prod_{k} L^{k}_{had} \times  L^{k}_{\mu} \times  L^{k}_{\gamma} \times  L^{k}_{\mu\mu} \times  L^{k}_{EWK syst} \times  L^{k}_{QCD}.
+L^{\text{signal}}_{\text{Tot}} =  L_{sig} \times \prod_{k} L^{k}_{\text{Tot}}.
 \end{equation}
