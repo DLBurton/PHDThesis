@@ -1,2 +1,1 @@
-Check data errors in template
 In Appendix B - Remake energy resolution plots (do this stuff last)
