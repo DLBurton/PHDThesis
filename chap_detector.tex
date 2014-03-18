@@ -237,7 +237,7 @@ In the \L1 \ac{GCT}, coarse measurements of the energy deposited in the electrom
 
 \begin{itemize}
 	\item isolated and non-isolated electromagnetic objects are sorted (e and $\gamma$), with the four highest ranked (equivalent to highest transverse energy $E_{T}$) objects of each type passed onto the \ac{GT},
-	\item energy sums from the calorimeters supplied by the \ac{RCT} are used in performing jet clustering (described in the following section). The clustered jets are then sub-divided into categories depending on their pseudo-rapidity and the result of $\tau$ identiÞcation, being classified as either centre, forward, or tau ($\tau$). After being sorted by rank, the four highest of each category are passed to the \ac{GT} for use in trigger decisions,
+	\item energy sums from the calorimeters supplied by the \ac{RCT} are used in performing jet clustering (described in the following section). The clustered jets are then sub-divided into categories depending on their pseudo-rapidity and the result of $\tau$ identiÞcation, being classified as either central, forward, or tau ($\tau$). After being sorted by rank, the four highest of each category are passed to the \ac{GT} for use in trigger decisions,
 	\item total transverse energy ($\et$), the scalar sum of the energy deposits measured by L1,  and missing transverse energy ($\met$), defined as the negative vector sum of the transverse energy deposits measured at \L1 are calculated,
 	\item total transverse jet energy ($\theht$), the scalar sum of the energy of all L1 clustered jet objects, and missing transverse jet energy ($\mht$), defined as the negative vector sum of the energy from L1 clustered jet objects are calculated and passed to the \ac{GT}. 
 \end{itemize}
@@ -255,7 +255,7 @@ The \L1 jet algorithm clusters jets using the transverse energy sums computed by
 
 To increase the speed at which jets are clustered, 18 jet finders operate simultaneously over the whole detector. In order to reduce the total data duplicated and shared between these jet finders, the \ac{GCT} employs a pre-clustering algorithm which then only share information with neighbouring regions when clustered jets are found.
 
-A jet candidate is created when the sum of the \ac{HCAL} and \ac{ECAL} energies of the central calorimeter region has an energy deposit larger than all of its neighbouring regions $E_{\text{T central}} > E_{\text{T surround}}$.  During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw, uncorrected energy of the trigger regions and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
+A jet candidate is created when the sum of the \ac{HCAL} and \ac{ECAL} energies of the central calorimeter region has an energy deposit larger than all of its neighbouring regions $E_{\text{T central}} > E_{\text{T surround}}$.  During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw, uncorrected energy of the calorimeter regions and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
 
 The \L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap, or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by the $(\eta, \phi)$ indices of the central calorimeter region.                                                                                                                                                  
 
@@ -277,7 +277,7 @@ The performance of the \L1 jets is evaluated with respect to offline jets, which
 \subsection{Measuring \L1 Jet Trigger Efficiencies}
 \label{subsec:l1jettrigeff}
 
-The \L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 $\tau$- or central jet above a certain trigger threshold, divided by all events in the sample with a single offline jet above threshold. 
+The \L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 $\tau$- or central jet above a certain trigger threshold, divided by all events in the sample with at least a single offline jet above threshold. 
 
 The efficiency is determined by matching the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  This is done by calculating the minimum separation in $\Delta R$ between the highest offline reconstructed jet with $\et > 10$ \GeV and $\lvert\eta\rvert<3$ and any \L1 jet. A match is found when $\Delta R < 0.5$. Should more than one jet satisfy this condition, the jet closest in $\Delta R$ is taken as the matched jet. The matching efficiency for this procedure is found to be close to 100$\%$ above an offline jet threshold of 30(45) GeV for the run 2012B(C) data taking period (see Appendix \ref{app:jetmatching}).
 
@@ -297,11 +297,11 @@ The efficiency is calculated with respect to offline \Calo and \PF Jets in Figur
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_PF.pdf}
 \end{minipage}
 \quad
@@ -334,21 +334,23 @@ The results from the \L1 single jet triggers shows good performance for both \Ca
 
 Between run period B and C of the 2012 data taking period, a jet seed threshold was introduced into the \L1 jet clustering algorithm. There was previously no direct requirement made on the energy deposited in the central region. 
 
-The introduction of a jet seed threshold required that the central region have an uncorrected energy deposit of $\et \geq 5$ \GeV. This value was motivated by studies of the effect that different jet seed thresholds had upon the trigger cross-sections and efficiencies of various \theht, single jet and multi-jet triggers. It was found that the 5 \GeV threshold gave large reductions in trigger cross-sections (particularly in the case of multi-jet and \theht triggers), whilst having a small impact on the measured efficiencies of these triggers \cite{Shorney-Mathias:1641954}.
+The introduction of a jet seed threshold required that the central region have an uncorrected energy deposit of $\et \geq 5$ \GeV. This value was motivated by studies of the effect that different jet seed thresholds had upon the trigger cross-sections and efficiencies of various \theht, single jet and multi-jet triggers. It was found that the 5 \GeV threshold gave large reductions in trigger cross-sections particularly in the case of multi-jet and \theht triggers, whilst having a small impact on the measured efficiencies of these triggers \cite{Shorney-Mathias:1641954}.
 
 Its main purpose was to counteract the effects of high pile up running conditions which create a large number of soft non-collimated jets, that are then added to the jets from the primary interaction or other soft jets from other secondary interactions \cite{L1bryn}. This in turn causes a large increase in trigger rate, due to the increase in the likelihood that the event causes the \L1 trigger to fire. 
 
-The effect of the introduction of this jet seed threshold between these two run periods is benchmarked through a comparison of the efficiency of the \L1 jet triggers with respect to offline Calo jets and is shown in Figure \ref{fig:l1jetseeds}. The \L1 $H_{T}$ trigger efficiency is also measured and is shown in Figure \ref{fig:l1jetseedht}. The \L1 \theht sum is compared against the offline $\theht$ constructed from Calo jets with $\et \geq$ 40 \GeV. This requirement is imposed to account for the relative difference between uncorrected jet energy deposits within the \ac{GCT} used to calculate the \L1 \theht sum, and those same deposits after full object reconstruction has occurred.
+The effect of the introduction of this jet seed threshold between these two run periods is benchmarked through a comparison of the efficiency of the \L1 jet triggers with respect to offline Calo jets and is shown in Figure \ref{fig:l1jetseeds}. 
+
+The \L1 $H_{T}$ trigger efficiency is also benchmarked at two values, which is shown in Figure \ref{fig:l1jetseedht}. The \L1 \theht sum is compared against the offline $\theht$ constructed from Calo jets with $\et \geq$ 40 \GeV. This requirement is imposed to account for the relative difference between uncorrected jet energy deposits within the \ac{GCT} used to calculate the \L1 \theht sum, and those same deposits after full object reconstruction has occurred.
 
 To negate any effects from different pile-up conditions in the run periods, the efficiencies are measured in events which contain between 15 and 20 primary vertices, as defined in Appendix (\ref{app:primaryvertices}). 
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_36.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_92.pdf}
 \end{minipage}
 \quad
@@ -358,11 +360,11 @@ To negate any effects from different pile-up conditions in the run periods, the 
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_ht100.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_ht150.pdf}
 \end{minipage}
 \quad
@@ -388,9 +390,9 @@ L1\_SingleJet92 & 94.99 $\pm$ 0.09 & 5.93 $\pm$ 0.06 & 94.82 $\pm$ 0.29 & 5.74 $
 
 \end{table}
 
+In the case of the $\theht$ triggers, without the jet seed threshold a large increase in the trigger cross-section during high luminosity collisions will occur. The low energy threshold requirement for a jet to be clustered and added to the \L1 $\theht$ sum, will allow many soft jets from other secondary interactions to enter the calculation. The introduction of the jet seed threshold prevents the clustering of many of these diffuse low $\et$ pile-up jets, thus lowering the \L1 \ac{GCT} $\theht$ calculation. Resultantly, different behaviours for the trigger turn-ons after the introduction of the jet seed threshold are expected for these triggers. 
 
-For the $\theht$ triggers, a large increase in trigger cross-section during high luminosity running without the jet seed threshold will occur. This is due to the low energy threshold required for a jet to be added to the \L1 $\theht$ sum, which is compiled from all clustered \L1 jets formed in the \ac{GCT}. The introduction of the jet seed threshold prevents the clustering of many of these soft low $\et$ jets, thus lowering the $\theht$ calculation at \L1. Different behaviours for the trigger turn-ons after the introduction of the jet seed threshold is therefore expected. The $\mu$ value is observed to shift towards higher $\theht$, whilst having a better resolution as a result of less pile-up jets being included in the \L1 $\theht$ sum. These measured values can be found within Table \ref{tab:l1jetseedtableHT}.
-
+The mean, $\mu$, values are measured to sit at higher \theht for both benchmarked \theht triggers, whilst a better resolution is also observed after the introduction of the jet seed threshold. These values can be found within Table \ref{tab:l1jetseedtableHT}.
 
 \begin{table}[h!]
 \begin{center}
@@ -407,11 +409,11 @@ L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0
 \label{tab:l1jetseedtableHT}
 \end{table}
 
-Despite the slight increase in the $\mu$ value of the \theht triggers, the large benefit of this change upon the expected trigger cross section for the \L1 $\theht$ 150 trigger as a function of instantaneous luminosities can be clearly seen in Figure \ref{fig:l1rateplot}.
+Despite this slight increase in the turn-on point of the \theht triggers, a large reduction in the trigger cross-section is achieved for all \theht triggers. As an example, the expected trigger cross-section for the \texttt{L1HTT150} trigger as a function of instantaneous luminosity can be seen in Figure \ref{fig:l1rateplot}.
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.73]{plots/l1rateplot.pdf}
+\includegraphics[scale=0.70]{plots/l1rateplot.pdf}
 \caption[Trigger cross section for the \texttt{L1HTT150} trigger path. ]{Trigger cross section for the \texttt{L1HTT150} trigger path. Showing that a 5 \GeV jet seed threshold dramatically reduces the dependance of cross section on the instantaneous luminosity for \L1 $\theht$ triggers \cite{l1ratebrooke}.}  
 \label{fig:l1rateplot}
 \end{figure}  
@@ -420,16 +422,16 @@ Despite the slight increase in the $\mu$ value of the \theht triggers, the large
 \subsection{Robustness of \L1 Jet Performance against Pile-up}
 \label{subsec:l1jetpu}
 
-The performance of the L1 single jet triggers is evaluated in different pile-up conditions to benchmark any dependence on pile-up. Three different pile-up bins of 0-10, 10-20 and $>$20 vertices are
-defined, reflecting the low, medium and high pile-up running conditions at \ac{CMS} in 2012. This is benchmarked relative to \Calo and \PF jets for the run 2012 C period where the jet seed threshold is applied, with \L1 single jet thresholds of 16, 36 and 92 \GeV, shown in Figure \ref{fig:l1jet-calopf-pu}. The results of fitting an \ac{EMG} function to these efficiency turn-on curves are given in Table \ref{tab:l1jcaloputable} and Table \ref{tab:l1pfputable} for \Calo and \PF jets respectively.
+The performance of the L1 single jet triggers is evaluated in different pile-up conditions to determine any dependence on pile-up. Three different pile-up categories of 0-10, 10-20 and $>$20 vertices are
+defined, reflecting the low, medium and high pile-up running conditions at \ac{CMS} in 2012. This is benchmarked relative to \Calo and \PF jets for the 2012 run C period where the jet seed threshold is applied, with \L1 single jet thresholds of 16, 36 and 92 \GeV, shown in Figure \ref{fig:l1jet-calopf-pu}. The results of fitting an \ac{EMG} function to these efficiency turn-on curves are given in Table \ref{tab:l1jcaloputable} and Table \ref{tab:l1pfputable} for \Calo and \PF jets respectively.
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_calopu.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.48 \linewidth}
+\begin{minipage}[b]{0.47 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_pfpu.pdf}
 \end{minipage}
 \quad
@@ -482,10 +484,10 @@ These features are further emphasised when shown as a function of
 
 in bins of matched leading offline jet $\et$. The results of these individual fits categorised as a function of matched leading offline jet $\et$ can be found in Appendix (\ref{app:jetpuresolution}), where each of the distributions are fitted with an \ac{EMG} function as defined in Equation (\ref{eq:emg}).
 
-The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed for all pile-up categories to increase as a function of jet $\et$, whilst the resolution is also observed to improve as a function of increasing offline jet $\et$. 
+The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed, as expected, to increase as a function of jet $\et$, whilst the resolution also improves as a function of increasing offline jet $\et$ for all pile-up categories. 
 
-When comparisons are made between the individual pile-up scenarios, it can be seen that in the presence of higher pile-up , $\mu$ is seen to shift to larger values and a worsening resolution, $\sigma$, is observed. Both of these differences between the pile-up scenarios can once again be attributed to the increase in the number of soft pile-up jets in each category, combined with the absence of pile-up subtraction at \L1.
-
+When comparisons are made between the individual pile-up scenarios, it can be seen that in the presence of higher pile-up , $\mu$ is seen to shift to larger values and a poorer resolution, $\sigma$, observed. These differences between the different pile-up scenarios, can once again be attributed to an increasing number of soft pile-up jets that add to the transverse energy of the lead jet from the primary interaction within each successive category. 
+ 
 \begin{figure}[h!]
   \vspace{20pt}
 	\centering
