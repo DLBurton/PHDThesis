@@ -1,4 +1,4 @@
-\chapter{The LHC And The CMS Detector}
+\chapter{The LHC and the CMS Detector}
 \label{chap:cmsoverview}
 
 Probing the \ac{SM} for signs of new physics would not be possible without the immensely complex electronics and machinery that has made the TeV energy scale accessible to physicists for the first time. This chapter will introduce both the \ac{lhc} based at \acf{CERN}  and the \acf{CMS} detector (of which the author is a member). Section (\ref{sec:cmsdetector}) serves to present an overview of the different components of  the \ac{CMS} detector, with specific components relevant to the search for supersymmetric particles described in greater detail. Section (\ref{sec:cmsobjects}) will focus on event and object reconstruction, again, with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally, Section (\ref{sec:triggersystem}) will describe and detail the service work for the \ac{CMS} Collaboration performed by the author, in measuring the performance of L1 single jet triggers in the \acf{GCT} during the 2012-2013 run period.  
@@ -48,7 +48,7 @@ The \acf{CMS} detector is one of two general purpose detectors at the \ac{lhc} d
 
 The variable $\Delta R = \sqrt{\Delta\phi^{2} + \Delta\eta^{2} } $ is commonly used to define angular distance between objects within the detector. Additionally, energy and momentum is typically measured in the transverse plane perpendicular to the beam line. These values are calculated from the x and y components of the object and are denoted as $\et = E\sin\theta$ and $\pt = \sqrt{p^{2}_{x}+p^{2}_{y}}$. 
 
-\subsection{Detector subsystems}
+\subsection{Detector Subsystems}
 \label{subsec:detectorsubsystems}
 
 As the range of particles produced from \pp collisions interact in different ways with matter, \ac{CMS} is divided into sub-detector systems, which perform complementary roles to identify the identity, mass, and momentum of the different physics objects present in each event. These detector sub-systems contained within \ac{CMS} are wrapped in layers around a central 13m long 4 \T super conducting solenoid, as shown in Figure \ref{fig:cms-detector}. With the endcaps closed, \ac{CMS} is a cylinder of length 22m, diameter 15m, and mass 12.5 kilotons. A more detailed complete description of the detector can be found elsewhere \cite{cmstdr}. \\
@@ -68,7 +68,7 @@ As the range of particles produced from \pp collisions interact in different way
  
  The tracking system also plays a crucial part in the identification of jets that originate from b-quarks through the measurement of displaced secondary vertices. The methods in which these b-flavoured jets are identified are discussed within Section (\ref{subsec:cmsobjects-btagging}). The identification of b-jets is important in many searches for natural \ac{SUSY} models and forms an important part of the inclusive search strategy described within Section (\ref{subsec:searchstrategy}).
  
-\subsection{Electromagnetic calorimeter}
+\subsection{Electromagnetic Calorimeter}
 \label{subsec:ecal}
 
  Immediately outside of the tracker, but still within the magnet core, sits the \acf{ECAL}. Covering a pseudorapidity up to $\lvert\eta\rvert < 3$ and comprising of over 75 $\times 10^{3}$ PbWO$_{4}$ (lead tungstate) crystals that scintillate as particles deposit energy, the \ac{ECAL} provides high resolution measurements of the electromagnetic showers from photons and electrons in the detector. \\ 
@@ -91,7 +91,7 @@ on either side of the \ac{EB}.  A lead-silicon sampling `pre-shower' detector \a
 Scintillation photons from the lead tungstate crystals are instrumented with \acf{APD} and \acf{VPT}, located in the \ac{EB} and \ac{EE} respectively. They convert the scintillating light into an electric signal which is consequently used to determine the amount of energy deposited within the crystal. These instruments are chosen for their resistance under operation to the strong magnetic field of \ac{CMS}. The scintillation of the \ac{ECAL} crystals, as well as the response of the \ac{APD}s, varies as a function of temperature; and so cooling systems continually maintain an overall constant \ac{ECAL} temperature $\pm 0.05 ^{\circ}C$.
  
 
-\subsection{Hadronic calorimeter}
+\subsection{Hadronic Calorimeter}
 \label{subsec:hcal} 
 
 Beyond the \ac{ECAL} lies the \acf{HCAL} which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \ac{HCAL} is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator. The exception being in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region in where steel absorbers and quartz fibre scintillators are used because of their increased radiation tolerance. Hadron showers are initiated in the absorber layers inducing scintillation in the plastic scintillator tiles.  These scintillation photons are converted by wavelength shifting fibres for read-out by hybrid photodiodes. \\
@@ -110,7 +110,7 @@ The \ac{HCAL} covers the range $\lvert\eta\rvert < 5$ and consists of four sub-d
 
 The relatively short number of interaction lengths ($\lambda_{l}$, the distance a hadron will travel through the absorber material before it has lost $\frac{1}{e}$ of its energy) within the \ac{HB}, the lowest being $\lambda_{l}$ = 5.82 at $\lvert\eta\rvert = 0$, facilitates the need for the `tail catching' \ac{HO} to increase the sampling depth in the central barrel rapidity region $\lvert\eta\rvert < 1.3$ to 11 interaction lengths. Significant fractions of the hadrons energy will be deposited in the \ac{ECAL} as it passes through the detector. Therefore, measurements of hadron energies in the central regions $\lvert\eta\rvert < 3.0$ use both the \ac{ECAL} and \ac{HCAL} to reconstruct the true energy from showering hadrons. 
 
-\subsection{Muon systems}
+\subsection{Muon Systems}
 \label{subsec:muonsystems} 
  
 Muons being too massive to radiate away energy via Bremsstrahlung, interact little in the calorimeters and mostly pass through the detector until they reach the system of muon detectors which forms the outer most part of the \ac{CMS} detector.  
@@ -206,7 +206,7 @@ The measurement of the misidentiÞcation probability for light-parton jets relies
 
 \label{sec:triggersystem}
 
-With bunch crossings separated by just 25 ns, the rate at which data from all collisions would have to be written out and processed would be unfeasible. A two-tiered triggering system is applied at \ac{CMS} in order to cope with the high collision rate of protons. The \ac{CMS} trigger is designed to use limited information from each event to determine whether to record the event, reducing the rate of data taking to manageable levels whilst ensuring a high efficiency of interesting physics object events are selected.
+With bunch crossings separated by just 50 ns, the rate at which data from all collisions would have to be written out and processed would be unfeasible. A two-tiered triggering system is applied at \ac{CMS} in order to cope with the high collision rate of protons. The \ac{CMS} trigger is designed to use limited information from each event to determine whether to record the event, reducing the rate of data taking to manageable levels whilst ensuring a high efficiency of interesting physics object events are selected.
 
 The \ac{L1} is a pipelined, dead-timeless system based on custom-built electronics \cite{Dasu:2000ge}, and is a combination of several sub systems which is shown pictorially in Figure \ref{fig:l1triggersystem}. The \L1 system is covered in more detail within the following section, along with a description of the service work undertaken by the author to benchmark the performance of the \L1 calorimeter trigger during the 2012 8 \TeV run period.
 
@@ -222,7 +222,7 @@ The \ac{L1} is a pipelined, dead-timeless system based on custom-built electroni
 
 The \acf{HLT} is a large farm of commercial computers \cite{Sphicas:2002gg}. The \ac{HLT} processes events with software reconstruction algorithms that are more detailed, giving performance more similar to the reconstruction used offline. The \ac{HLT} reduces the event rate written to disk by a factor of $\sim$ 500 ($\sim$200Hz). The recorded events are transferred from \ac{CMS} to the \ac{CERN} computing centre, where event reconstruction is performed, and then distributed to \ac{CMS} computing sites around the globe for storage and analysis.
 
-\subsection{The Level-1 trigger}
+\subsection{The Level-1 Trigger}
 \label{subsec:l1trigger}
 
 The \L1 trigger reduces the rate of events collected from 40 MHz to $\sim$100 kHz using information from the calorimeters and muon chambers, but not the tracker. A tree system of triggers is used to decide wether to pass on an event to the \ac{HLT} for further reconstruction. Firstly the calorimeter and muon event information is kept separate, with local reconstruction of objects ($\mu$, e, $\gamma$, and jets) performed by the \acf{RCT} and \acf{RMT} respectively. The \ac{RCT} generates up to 72 isolated and non-isolated electromagnetic objects. These are sorted by rank according to transverse energy $\et$, with the four highest ranked electromagnetic objects being passed via the  \acf{GCT} and \acf{GMT} to the \acf{GT}. 
@@ -237,18 +237,18 @@ In the \L1 \ac{GCT}, coarse measurements of the energy deposited in the electrom
 	\item total transverse jet energy ($\theht$), the scalar sum of the energy of all L1 jet objects, and missing transverse jet energy ($\mht$), defined as  the vector sum of the energy of L1 jets, are calculated from uncorrected \L1 jets. 
 \end{itemize}
 
-In addition quantities suitable for triggering minimum bias events, forward physics and beam background events are calculated. Relevant muon isolation information is also passed on to the \ac{GMT} to be used in decisions involving the muon triggers, where it is combined with information from across the three muon sub-systems. The resultant final accept/reject decision at \ac{L1} is then performed by the \ac{GT}, based on the objects received from the \ac{GCT} and \ac{GMT} ($e/\gamma$, $\mu$, jets, $\et$, $\met$, $\theht$).
+In addition quantities suitable for triggering minimum bias events, forward physics and beam background events are calculated. Relevant muon isolation information is also passed on to the \ac{GMT} to be used in decisions involving the muon triggers, where it is combined with information from across the three muon sub-systems. The resultant final accept/reject decision at \ac{L1} is then performed by the \ac{GT}, based on the objects received from the \ac{GCT} and \ac{GMT} ($e/\gamma$, $\mu$, jets, $\et$, $\met$, $\theht$, $\mht$).
 
 The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing trigger and a good understanding of its performance, there would be no data to analyse. Observations of how the \L1 trigger performance is affected by changing \ac{lhc} running conditions over the 2012 run period, and also the introduction of a jet seed threshold to the \L1 jet trigger algorithm, is presented in the following Sections (\ref{subsec:l1jettrigger} - \ref{subsec:l1summary}).
 
-\subsection{The \L1 trigger jet algorithm}
+\subsection{The \L1 Trigger Jet Algorithm}
 \label{subsec:l1jettrigger}
 
-The \L1 jet trigger uses the transverse energy sums computed in the calorimeter (both hadronic and electromagnetic) trigger regions. Each region consists of $4 \times 4 $  trigger tower windows, spanning a region of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ in pseudorapidity-azimuth. The jet trigger uses a $3 \times 3$ calorimeter region (112 trigger towers) sliding window technique, which spans the full $(\eta, \phi)$ coverage of the \ac{CMS} calorimeter as shown in Figure \ref{fig:l1jetalgo}. 
+The \L1 jet trigger uses the transverse energy sums computed in the calorimeter (both hadronic and electromagnetic) trigger regions. Each region consists of $4 \times 4 $  trigger tower windows, spanning a region of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ in pseudorapidity-azimuth. The jet trigger uses a $3 \times 3$ calorimeter region (144 trigger towers) sliding window technique within the barrel of the \ac{CMS} calorimeter, as shown in Figure \ref{fig:l1jetalgo}. 
 
-In forming a \L1 jet is it required that the central region to be higher than the eight neighbouring regions $ E_{\text{T central}} > E_{\text{T surround}}$. Additionally, a minimum threshold of 5 \GeV on $E_{\text{T central}}$ was introduced during the 2012 run period to suppress noise from pile-up. A comparison between these two configurations is shown in Section (\ref{subsec:l1jetseedpu}).
+In forming a \L1 jet is it required that the central region to be higher than the eight neighbouring regions $ E_{\text{T central}} \geq E_{\text{T surround}}$. Additionally, a minimum threshold of 5 \GeV on $E_{\text{T central}}$ was introduced during the 2012 run period to suppress noise from pile-up. A comparison between these two configurations is shown in Section (\ref{subsec:l1jetseedpu}).
 
-The \L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap, or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by the $(\eta, \phi)$ indicies of the central calorimeter region.                                                                                                                                                  
+The \L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap, or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by the $(\eta, \phi)$ indices of the central calorimeter region.                                                                                                                                                  
 
 Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as central. The four highest energy central, forward and $\tau$ jets in the calorimeter are passed through \acf{LUT}s, which apply a programmable $\eta-$dependent jet energy scale correction. These are then used to make \L1 trigger decisions.
 
@@ -262,7 +262,7 @@ Jets with $|\eta|>3.0$ are classified as forward jets, whereas those with $|\eta
 The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. Jets are corrected for pile-up and detector effects as described in \ref{subsec:cmsobjects-jets}. A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose'' identification criteria for both \Calo and \PF. These jet criteria are listed in Appendix (\ref{app:jetcriteria}). 
 
 
-\subsection{Measuring \L1 jet trigger efficiencies}
+\subsection{Measuring \L1 Jet Trigger Efficiencies}
 \label{subsec:l1jettrigeff}
 
 The \L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 tau or central jet above a certain trigger threshold, divided by all the leading offline jets in the event. This quantity is then plotted as a function of the offline jet $\et$, $\eta$ and $\phi$. 
@@ -315,7 +315,7 @@ L1\_SingleJet92 & 95.36 $\pm$ 0.13 & 5.62 $\pm$ 0.03 & 90.85 $\pm$ 0.19 & 11.30 
 
 The results from the \L1 single jet triggers shows good performance for both \Calo and \PF jets. A better resolution is observed for \Calo jets with respect to \L1 jet quantities. This effect is due to \Calo jet reconstruction using the same detector subsystems as for \L1 jets. In contrast the \PF jet reconstruction algorithm additionally utilises tracker and muon information, resulting in a poorer resolution when directly compared to \L1 jet objects. 
 
-\subsection{Effects of the \L1 jet seed}
+\subsection{Effects of the \L1 Jet Seed}
 \label{subsec:l1jetseedpu}
 
 Between run period B and C of the 2012 data taking period, a jet seed threshold was introduced into the \L1 trigger jet algorithm. There was previously no direct requirement made on the energy deposited in the central region. The introduction of a jet seed threshold required that the central region have $\et \geq 5$\GeV, and was introduced to counteract the effects of high pile up running conditions which create a large number of soft non-collimated jets, that are then added to the jets from the primary interaction or other soft jets from other secondary interactions \cite{L1bryn}. This in turn causes a large increase in trigger rate, due to the increase in the likelihood that the event causes the \L1 trigger to fire. This was implemented to maintain trigger thresholds by cutting the rate of events recorded without significant reduction in the efficiency of physics events of interest.
@@ -397,7 +397,7 @@ L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0
 \label{tab:l1jetseedtableHT}
 \end{table}
 
-\subsection{Robustness of \L1 jet performance against pile-up}
+\subsection{Robustness of \L1 Jet Performance against Pile-up}
 \label{subsec:l1jetpu}
 
 The performance of the L1 single jet triggers is evaluated in different pile-up conditions to benchmark any dependence on pile-up. Three different pile-up bins of 0-10, 10-20 and $>$20 vertices are

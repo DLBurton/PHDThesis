@@ -1,4 +1,4 @@
-\chapter{SUSY Searches In Hadronic Final States}
+\chapter{SUSY Searches in Hadronic Final States}
 \label{chap:SUSYsearches}
 
 In this chapter a model independent search for \ac{SUSY}, in hadronic final states with $\met$ using the $\alphat$ variable at different b-quark and jet multiplicities is introduced and described in detail. The results presented are based on a data sample of pp collisions collected in 2012 at $\com =$8 \TeV, corresponding to an integrated luminosity of 11.7$\pm$0.5 fb$^{-1}$ \cite{ra1_epjc}.
@@ -74,7 +74,7 @@ Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from e
 
 The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{alphat7tev}\cite{CMS:2008vya}.
 
-\subsection{The $\alphat$ variable}
+\subsection{The $\alphat$ Variable}
 \label{subsec:alphatvariable}
 
 For a perfectly measured di-jet QCD event, conservation laws dictate that both jets must be of equal magnitude and produced in opposite directions. However, in the case of di-jet events with genuine $\met$ (as detailed above), no such requirement is made of the two jets, as depicted in Figure \ref{fig:susytopology}.
@@ -183,7 +183,7 @@ This characterisation is identically mirrored in all control samples, with the i
 \label{fig:analysisbinning}
 \end{figure}
 \FloatBarrier
-\subsection{Physics objects}
+\subsection{Physics Objects}
 \label{subsec:physicsobjects}
 
 The physics objects used in the analysis defined below, follow the recommendation of the various \ac{CMS} \acf{POGs}. 
@@ -309,7 +309,7 @@ Variable & Definition \\
 
 \FloatBarrier
 
-\subsection{Event selection}
+\subsection{Event Selection}
 \label{subsec:eventselection}
 
 The selection criteria for events within the analysis are detailed below. A set of common cuts are applied to both signal  (maximise acceptance to a range of \ac{SUSY} signatures),  and control samples (retain similar jet kinematics for background predictions), with additional selection cuts applied to each control sample to enrich the sample in a particular \ac{EWK} processes, see Section (\ref{subsec:controlsampledefinition}).
@@ -388,7 +388,7 @@ $\text{(c}$) Btag Multiplicity
 \captionof{figure}[Data/MC comparisons of key variables for the hadronic signal region.]{Data/MC comparisons of key variables for the hadronic signal region, following the application of the hadronic selection criteria and the requirements of \theht $>$ 275 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:hadmcplots}
 \end{minipage}
 
-\subsection{Control sample definition and background estimation}
+\subsection{Control Sample Definition and Background Estimation}
 \label{subsec:controlsampledefinition}
 
 The method used to estimate the background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from MC simulation in both the control, $\text{N}_{\text{MC}}^{\text{control}}$, and signal, $\text{N}_{\text{MC}}^{\text{signal}}$, region to transform the observed yield measured in data for a control sample,  $\text{N}_{\text{obs}}^{\text{control}}$, into a background prediction, $\text{N}_{\text{pred}}^{\text{signal}}$, via Equation (\ref{eq:transfactor}),
@@ -560,7 +560,7 @@ However in the case of the \mupjets and \dimupjets samples, the \alphat requirem
 The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the prediction.
 
 
-\subsection{Estimating the QCD multi-jet background}
+\subsection{Estimating the QCD Multi-jet Background}
 \label{subsec:qcdbackground}
 
 A negligible background from QCD multi-jet events within the hadronic signal region is expected due to the selection requirement, and additional cleaning filters applied. However a conservative approach is still adopted and the likelihood model, see Section (\ref{subsec:htevolution}), is given the freedom to accommodate any potential QCD multi-jet contamination. 
@@ -649,7 +649,7 @@ Data for the control samples of the analysis, detailed in Section (\ref{subsec:c
 The photon trigger is measured to be fully efficient for the threshold $\pt^{\text{photon}} > 150$ \GeV, whilst the single muon efficiency satisfying $\pt^{\text{muon}} > 30$ \GeV is measured to have an efficiency of (88$\pm$2)\% that is independent of \theht. In the case of the \dimupjets control sample, the efficiency is measured to be (95$\pm$2)\% for the lowest \theht bin, rising (due to the average \pt of the second muon in the event increasing at larger \theht)
 to (98$\pm$2)\% for the highest \theht bin. 
 
-\section{Measuring MC Normalisation Factors via \theht Sidebands}
+\section{Measuring Standard Model Process Normalisation Factors via \theht Sidebands}
 \label{subsec:mckfactors}
 
 The theoretical cross sections of different \ac{SM} processes at \acf{NNLO} and the number of MC simulated events generated for that particular process, is typically used to determine the appropriate normalisation for a MC sample. However within the particular high-\theht and high-\met corners of kinematic phase space probed within this search, the theoretical cross sections for various processes are far less well understood. 
@@ -692,7 +692,7 @@ When the expectation for the number of \nbreco is taken directly from simulation
 
  that determine the \nbreco distribution of the process being measured. This method allows the determination of higher b-tag multiplicities to a higher degree of accuracy, reducing the statistical uncertainties of the simulation yields which enter into the \ac{TF}'s. For the discussion that follows, these predictions are determined on average (i.e not on an event-by-event basis), and will be known as the formula method.
 
-\subsection{The formula method}
+\subsection{The Formula Method}
 \label{subsec:formulamethod}
 
 The assigning of jet flavours to reconstruction level jets in simulation is achieved via an algorithmic method defined as:
@@ -724,7 +724,7 @@ Finally \probb, \probc and \probl correspond to the binomial probabilities for t
 
 This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of the entire MC sample in extracting the estimated underlying $n_{b}^{reco}$ distribution, particularly at higher \nbreco multiplicities where a lack of events in simulation can lead to relatively large statistical uncertainties.
 
-\subsection{Establishing proof of principle}
+\subsection{Establishing Proof of Principle}
 \label{subsec:formulamethodsanity}
 
 In order to validate the procedure, the predictions determined from the formula method summarised in Equation (\ref{eq:btagformula}), are compared directly with those obtained directly from simulation. Resultantly no simulation to data correction factors are applied when making this comparison
@@ -778,7 +778,7 @@ Vanilla $n_{b}$ = 3                  & 29.18  $\pm$  2.06        & 11.77  $\pm$ 
 
 It can be seen as expected, that there is good consistency between the results determined via the formula method and `raw' simulation yields. Similarly the power of this approach can be seen in the reduction of this statistical error in the prediction across all \theht and $n_{b}^{reco}$ bins. In particular the statistical uncertainty is reduced by several factors in the highest $n_{b}^{reco} \geq 4$ category.
 
-\subsection{Correcting measured efficiencies in simulation to data}
+\subsection{Correcting Measured Efficiencies in Simulation to Data}
 \label{subsec:formulamethodsf}
 
 As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for certain \pt and $\eta$ dependant corrections, to be applied to both the b-tagging efficiency and mis-tagging rates in order to correct the efficiencies from simulation to the distributions seen in data. These correction factors are considered when determining the simulation yields for each selection, which are used to construct the \ac{TF}s of the analysis. 
@@ -953,7 +953,7 @@ Within Table \ref{tab:closuretestfitsall}, there exists one test that does not s
 
 In addition, the best fit values for the slope terms of the linear fits in all three tables are of the order $10^{-4}$, which corresponds to a percent level change per 100 \GeV. However in all cases, the best fit values are fully compatible with zero (within 1$\sigma$) once again with the exception detailed above, indicating that the level of closure is \theht independent.
 
-\subsection{Determining systematic uncertainties from closure tests}
+\subsection{Determining Systematic Uncertainties from Closure Tests}
 \label{subsec:determinesystematics}
 
 Once it has been established that no significant bias or trend exists within the closure tests, systematic uncertainties are determined. The statistical precision of the closure tests is considered a suitable benchmark for determining the systematic uncertainties that are assigned to the \ac{TF}s, which are propagated through to the likelihood fit.
@@ -1011,7 +1011,7 @@ Each model is parameterised in a two dimensional parameter space, ($m_{\widetild
 
 Each signal sample is generated at \acf{LO} with Pythia \cite{Sjostrand:2006za}, and cross sections calculated for \acf{NLO} and \acf{NLL} \cite{Beenakker:1996ch}, with events simulated using the \texttt{Fastsim} framework. This framework represents a simplified simulation of the \ac{CMS} detector, but allows for faster production of various signal topologies with different mass parameters. A series of correction factors are applied to account for differences between \texttt{Fastsim} \cite{1742-6596-331-3-032049} and \texttt{Fullsim} \cite{1742-6596-331-3-032015} simulation, which can affect the resultant \nbreco distribution and which are detailed in Section (\ref{subsec:smsbtagreweighting}). 
 
-\subsection{Signal efficiency}
+\subsection{Signal Efficiency}
 
 The analysis selection efficiency, \epsilon, is measured for each mass point of the interpreted model. This serves as a measure of the sensitivity of the signal selection for that particular sparticle and \ac{LSP} mass. The signal yield is then given by
 
@@ -1043,7 +1043,7 @@ Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the 
 The same procedure is conducted in the analysis control samples. It is found in the \mupjets control samples, that the S/B ratios for the expected signal yields in each of the \ac{SMS} models are many time smaller than in the hadronic signal region. The relative contamination for the \dimupjets sample is smaller still due to the requirement of a second muon. The relative contamination for the \gpjets sample is expected to be zero for the models under consideration. These small, relative levels of contamination are accounted for in the fitting procedure, as described in Section (\ref{subsec:signalcontribution}).
 
 
-\subsection{Applying b-tag scale factor corrections in signal samples}
+\subsection{Applying B-tagging Scale Factor Corrections in Signal Samples}
 \label{subsec:smsbtagreweighting}
 
 High-statistic \texttt{FastSim} signal simulation samples are unavailable for each signal point, which means that a different procedure to the formula method described in Section (\ref{subsec:backgroundestimation}) is employed. Furthermore, the use of the \texttt{FastSim} framework in the reconstruction introduces an extra set of scale-factor corrections, to be applied simultaneously with those correcting the full-simulation to the data. 
@@ -1082,7 +1082,7 @@ and in the case that the jet does \emph{not} fire the b-tagger,
 
  All events that pass the selection criteria are reweighted in this way, and represent the yields in each $n_{b}^{reco}$ bin corrected from \texttt{Fastsim} to data. 
 
-\subsection{Experimental uncertainties}
+\subsection{Experimental Uncertainties}
 
 The systematic uncertainty on the expected signal acceptance times analysis efficiency is determined independently for the each \ac{SMS} model considered. These systematics stem from uncertainties on the parton distribution functions, the luminosity measurement, jet energy scale, b-tag scale factor measurements and the efficiencies of various cuts used in the signal selection, including the \mht / \met, dead \ac{ECAL} cleaning filter and lepton / photon event vetoes. 
 
@@ -1160,7 +1160,7 @@ Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-ta
 
 For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking whether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models. The statistical framework outlined within this section is presented in greater detail within \cite{Laird:2012mla}.
 
-\subsection{Hadronic sample}
+\subsection{Hadronic Sample}
 
 Let $N$ be the number of bins on \theht, with $n^{i}$ the number of events observed satisfying all selection requirements in each \theht bin i. The likelihood of the observations can then be written:
 
@@ -1181,7 +1181,7 @@ and $s^{i}$ the expected number of signal events from the different \ac{SMS} mod
 \text{Pois}(\chi\rvert\lambda) = \frac{\lambda^{\chi}\exp^{-\lambda}}{k!}.
 \end{equation}
  
-\subsection{\theht evolution model}
+\subsection{\theht Evolution Model}
 \label{subsec:htevolution}
 
 The hypothesis, that for a process the \alphat ratio falls exponentially (see Section (\ref{subsec:qcdbackground})) in \theht is defined by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
@@ -1198,7 +1198,7 @@ where $m_{i}$ represent the number of events observed with \alphat $\leq$ 0.55 i
 QCD^{i} = QCD^{0}(\frac{m^{i}}{m^{0}})e^{-k_{QCD}(\meanht^{i}-\meanht^{0}}.
 \end{equation} 
 
-\subsection{\ac{EWK} control samples}
+\subsection{\ac{EWK} Control Samples}
 \label{subsec:ewkmodel}
 
 The \ac{EWK} background estimation within each bin, $i$, is broken into two components, the expected yield from \zinv and \ttbar-W (plus other residual backgrounds) events. This is written as, $Z^{i}_{inv}$ and $\ttbar W^{i}$, and it follows that 
@@ -1295,7 +1295,7 @@ where,
 r^{'i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{tot}}.
 \end{equation}
 
-\subsection{Contributions from signal}
+\subsection{Contributions from Signal}
 \label{subsec:signalcontribution}
 
 The cross section for each model is represented by $x$, while $l$ represents the total recorded luminosity considered by the analysis in the signal region. Let $\epsilon^{i}_{had}$ and $\epsilon^{i}_{\mu}$ represent the analysis selection efficiency for that particular signal model in \theht bin $i$ of the hadronic and \mupjets control sample respectively. Letting $\delta$ represent the relative uncertainty on the signal yield, assumed to be fully correlated across all bins, and $\rho_{sig}$ the ``correction factor'' to the signal yield which accommodates this uncertainty. $f$ represents an unknown multiplicative factor on the signal cross section, for which an allowed interval is computed.
@@ -1320,7 +1320,7 @@ L_{\text{sig}} = \text{Logn}(1.0|\rho_{sig},\delta).
 
 A discussion of the \ac{SMS} signal models through which the analysis is interpreted can be found in the following chapter. 
 
-\subsection{Total likelihood}
+\subsection{Total Likelihood}
 \label{subsec:totallikelihood}
 
 The total likelihood function for a given signal bin k($n_{b}^{reco}$, $n_{jet}$) is then given by the product of the likelihood functions introduced within the previous sections:
