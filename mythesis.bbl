@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}%
 \makeatletter
 \providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
 \makeatother
@@ -399,6 +399,13 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
   Jets and Energy Sums in the Level-1 Trigger}'',}  CMS IN 2013/006 (2013),
   CERN, Geneva, (2013).
 
+\bibitem{Shorney-Mathias:1641954}
+\hrefCMSnoop {} {B.~L. Shorney-Mathias, , and A.~Tapper, ``{Search for
+  supersymmetry in pp collisions with all-hadronic final states using the
+  $\alpha_T$ variable with the CMS detector at the LHC}''}.
+\newblock PhD thesis, Imperial Coll., London, 2014.
+\newblock Presented 2013.
+
 \bibitem{L1bryn}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{ Study of Level-1 Trigger Jet
   Performance in High Pile-up Running Conditions}'',}.
@@ -430,6 +437,11 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search strategy for exclusive
   multi-jet events from supersymmetry at CMS}'',}  CMS-PAS-SUS-09-001, CERN,
   2009. Geneva, (Jul, 2009).
+
+\bibitem{btagscalefactor}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Btag POG : CMS b-tagging
+  performance database'',} , (2013).
+\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
 
 \bibitem{CMS-PAS-JME-09-008}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Calorimeter Jet Quality Criteria for
@@ -496,11 +508,6 @@ S.~Abdullin\hrefCMSnoop {} { {et~al.}, ``The Fast Simulation of the CMS
 \hrefCMSnoop {} {S.~Banerjee, M.~D. Hildreth, and the CMS~Collaboration,
   ``Validation and Tuning of the CMS Full Simulation'',} \textit{ Journal of
   Physics: Conference Series} \textbf{ 331} (2011).
-
-\bibitem{btagscalefactor}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Btag POG : CMS b-tagging
-  performance database'',} , (2013).
-\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
 
 \bibitem{CMS-PAS-LUM-12-001}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{CMS Luminosity Based on Pixel Cluster

@@ -1,7 +1,7 @@
 \chapter{The LHC and the CMS Detector}
 \label{chap:cmsoverview}
 
-Probing the \ac{SM} for signs of new physics would not be possible without the immensely complex electronics and machinery that has made the TeV energy scale accessible to physicists for the first time. This chapter will introduce both the \ac{lhc} based at \acf{CERN}  and the \acf{CMS} detector (of which the author is a member). Section (\ref{sec:cmsdetector}) serves to present an overview of the different components of  the \ac{CMS} detector, with specific components relevant to the search for supersymmetric particles described in greater detail. Section (\ref{sec:cmsobjects}) will focus on event and object reconstruction, again, with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally, Section (\ref{sec:triggersystem}) will describe and detail the service work for the \ac{CMS} Collaboration performed by the author, in measuring the performance of L1 single jet triggers in the \acf{GCT} during the 2012-2013 run period.  
+Probing the \ac{SM} for signs of new physics would not be possible without the immensely complex electronics and machinery that has made the TeV energy scale accessible to physicists for the first time. This chapter will introduce both the \ac{lhc} based at \acf{CERN}  and the \acf{CMS} detector (of which the author is a member). Section (\ref{sec:cmsdetector}) serves to present an overview of the different components of  the \ac{CMS} detector, with specific components relevant to the search for supersymmetric particles described in greater detail. Section (\ref{sec:cmsobjects}) will focus on event and object reconstruction, again, with more emphasis on jet level quantities which are most relevant to the author's analysis research. Finally, Section (\ref{sec:triggersystem}) will describe and detail the service work for the \ac{CMS} Collaboration performed by the author, in measuring the performance of L1 single jet and energy sum triggers in the \acf{GCT} during the 2012-2013 run period.  
 
 \section{The LHC}
 \label{sec:thelhc} 
@@ -23,7 +23,7 @@ These counter-circulating beams of protons or Pb ions are merged in four section
 
 Proton beams are formed inside the \acf{PS} from bunches of protons 50 \ns apart with an energy of 26 \GeV. The protons are then accelerated in the \acf{SPS} to 450 \GeV  before being injected into the \ac{lhc}. These \ac{lhc} proton beams consists of many ``bunches" (i.e. approximately $1.1 \times 10^{11}$  protons localised into less than 1 \ns in the direction of motion).  Before collision, the beams are ramped to 4 \TeV (2012) per beam, in a process involving increasing the current passing through the dipole magnets. Once the desired \com energy is reached then the beams are allowed to collide at the interaction points. The luminosity falls regularly as the run progresses; protons are lost in collisions, and eventually the beam is dumped before repeating the process again. 
 
-Colliding the beams produced an instantaneous luminosity of approximately 5 $\times$ 10$^{33}$ cm$^{-2}$s$^{-1}$ during the 2012 run. The high number of protons in each bunch increases the likelihood of multiple interactions with each crossing of the counter-circulating beams. This leads to isotropic energy depositions within the detectors positioned at these interaction points, increasing the energy scale of the underlying event. This is known as pile-up and the counteracting of its effects are important to the many measurements performed at the \ac{lhc}.
+Colliding the beams produced an instantaneous luminosity of approximately 5 $\times$ 10$^{33}$ cm$^{-2}$s$^{-1}$ during the 2012 run. The high number of protons in each bunch increases the likelihood of multiple interactions with each crossing of the counter-circulating beams. This leads to isotropic energy depositions within the detectors positioned at these interaction points, increasing the energy scale of the underlying event. This is known as \emph{pile-up} and the counteracting of its effects are important to the many measurements performed at the \ac{lhc}.
 
 In the early phase of prolonged operation, after the initial shutdown, the machine operated in 2010-2011 at 3.5 \TeV per beam, \com $=$ 7 \TeV, delivering 6.13 \fb of data \cite{LHClumo}. During the 2012-2013 run period, data was collected at an increased \com $=$ 8 \TeV improving the sensitivity of searches for new physics. Over the whole run period 23.3 \fb of data was delivered, of which 21.8 \fb was recorded by the \ac{CMS} detector as shown in Figure \ref{fig:lhc-lumo} \cite{LHClumo}. A total of 12 \fb of 8 \TeV certified data was collected by October 2012, and it is this data which forms the basis of the results presented within this thesis.
 
@@ -51,20 +51,20 @@ The variable $\Delta R = \sqrt{\Delta\phi^{2} + \Delta\eta^{2} } $ is commonly u
 \subsection{Detector Subsystems}
 \label{subsec:detectorsubsystems}
 
-As the range of particles produced from \pp collisions interact in different ways with matter, \ac{CMS} is divided into sub-detector systems, which perform complementary roles to identify the identity, mass, and momentum of the different physics objects present in each event. These detector sub-systems contained within \ac{CMS} are wrapped in layers around a central 13m long 4 \T super conducting solenoid, as shown in Figure \ref{fig:cms-detector}. With the endcaps closed, \ac{CMS} is a cylinder of length 22m, diameter 15m, and mass 12.5 kilotons. A more detailed complete description of the detector can be found elsewhere \cite{cmstdr}. \\
+As the range of particles produced from \pp collisions interact in different ways with matter, \ac{CMS} is divided into sub-detector systems, which perform complementary roles to identify the identity, the mass, and the momentum of different physics objects present in each event. These detector sub-systems contained within \ac{CMS} are wrapped in layers around a central 13m long 4 \T super conducting solenoid, as shown in Figure \ref{fig:cms-detector}. With the endcaps closed, \ac{CMS} is a cylinder of length 22m, diameter 15m, and mass 12.5 kilotons. A more detailed complete description of the detector can be found elsewhere \cite{cmstdr}. \\
 
 \begin{figure}[!h]
 
 \centering
 \includegraphics[width=0.65\textwidth]{plots/cms-detector.pdf}
-\caption[A pictorial depiction of the \ac{CMS} detector.]{A pictorial depiction of the \ac{CMS} detector with the main detector subsystems labelled.   \cite{cms-public-detector}}  
+\caption[A pictorial depiction of the \ac{CMS} detector.]{A pictorial depiction of the \ac{CMS} detector with the main detector subsystems labelled \cite{cms-public-detector}.}  
 \label{fig:cms-detector}
 \end{figure}
 
 \subsection{Tracker}
 \label{subsec:tracker}
 
- The inner-most sub-detector of the barrel is the multi-layer silicon tracker, formed of a pixel detector component encased by layers of silicon strip detectors. The pixel detector consists of three layers of silicon pixel sensors providing measurements of the momentum, position coordinates of the charged particles as they pass, and the location of primary and secondary vertices between 4 cm and 10 cm transverse to the beam. Outside the pixel detector, ten cylindrical layers of silicon strip detectors extend the tracking system out to a radius of 1.20 m from the beam line. The tracking system provides efficient and precise determination of the charges, momenta, and impact parameters of charged particles, with the geometry of the tracker extending to cover a rapidity range up to $\lvert\eta\rvert \textless$ 2.5.  \\
+ The inner-most sub-detector of the barrel is the multi-layer silicon tracker, formed of a pixel detector component encased by layers of silicon strip detectors. The pixel detector consists of three layers of silicon pixel sensors providing measurements of the momentum, position coordinates of the charged particles as they pass, and the location of primary and secondary vertices between 4 cm and 10 cm transverse to the beam. Outside the pixel detector, ten cylindrical layers of silicon strip detectors extend the tracking system out to a radius of 1.20m from the beam line. The tracking system provides efficient and precise determination of the charges, momenta, and impact parameters of charged particles, with the geometry of the tracker extending to cover a rapidity range up to $\lvert\eta\rvert \textless$ 2.5.  \\
  
  The tracking system also plays a crucial part in the identification of jets that originate from b-quarks through the measurement of displaced secondary vertices. The methods in which these b-flavoured jets are identified are discussed within Section (\ref{subsec:cmsobjects-btagging}). The identification of b-jets is important in many searches for natural \ac{SUSY} models and forms an important part of the inclusive search strategy described within Section (\ref{subsec:searchstrategy}).
  
@@ -88,13 +88,13 @@ on either side of the \ac{EB}.  A lead-silicon sampling `pre-shower' detector \a
 \end{figure}
 
 
-Scintillation photons from the lead tungstate crystals are instrumented with \acf{APD} and \acf{VPT}, located in the \ac{EB} and \ac{EE} respectively. They convert the scintillating light into an electric signal which is consequently used to determine the amount of energy deposited within the crystal. These instruments are chosen for their resistance under operation to the strong magnetic field of \ac{CMS}. The scintillation of the \ac{ECAL} crystals, as well as the response of the \ac{APD}s, varies as a function of temperature; and so cooling systems continually maintain an overall constant \ac{ECAL} temperature $\pm 0.05 ^{\circ}C$.
+Scintillation photons from the lead tungstate crystals are instrumented with \acf{APD} and \acf{VPT}, located in the \ac{EB} and \ac{EE} respectively. They convert the scintillating light into an electric signal which is consequently used to determine the amount of energy deposited within the crystal. These instruments are chosen for their resistance under operation to the strong magnetic field of \ac{CMS}. The scintillation of the \ac{ECAL} crystals, as well as the response of the \ac{APD}s, vary as a function of temperature; and so cooling systems continually maintain an overall constant \ac{ECAL} temperature $\pm 0.05 ^{\circ}C$.
  
 
 \subsection{Hadronic Calorimeter}
 \label{subsec:hcal} 
 
-Beyond the \ac{ECAL} lies the \acf{HCAL} which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \ac{HCAL} is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator. The exception being in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region in where steel absorbers and quartz fibre scintillators are used because of their increased radiation tolerance. Hadron showers are initiated in the absorber layers inducing scintillation in the plastic scintillator tiles.  These scintillation photons are converted by wavelength shifting fibres for read-out by hybrid photodiodes. \\
+Beyond the \ac{ECAL} lies the \acf{HCAL} which is responsible for the accurate measurement of hadronic showers, crucial for analyses involving jets or missing energy signatures. The \ac{HCAL} is a sampling calorimeter which consists of alternating layers of brass absorber and plastic scintillator. The exception being in the hadron forward ($3.0 < \lvert\eta\rvert < 5.0 $) region where steel absorbers and quartz fibre scintillators are used because of their increased radiation tolerance. Hadron showers are initiated in the absorber layers inducing scintillation in the plastic scintillator tiles.  These scintillation photons are converted by wavelength shifting fibres for read-out by hybrid photodiodes. \\
 
 The \ac{HCAL}'s size is constrained to a compact size by the presence of the solenoid, requiring the placement of an additional outer calorimeter on the outside of the solenoid to increase the sampling depth of the \ac{HCAL}. A schematic of the \ac{HCAL} can be seen in Figure \ref{fig:cms-hcal}.\\
  
@@ -108,7 +108,7 @@ The \ac{HCAL}'s size is constrained to a compact size by the presence of the sol
  
 The \ac{HCAL} covers the range $\lvert\eta\rvert < 5$ and consists of four sub-detectors: the \ac{HB}  $\lvert\eta\rvert < 1.3$, the \acf{HO}, the \acf{HE} $1.3 < \lvert\eta\rvert < 3.0 $ and the \acf{HF}.  The \ac{HB}, contained between the outer edge of the \ac{ECAL} and the inner edge of the solenoid is formed of 36 azimuthal wedges which are split between two half-barrel segments. Each wedge is segmented into four azimuthal angle ($\phi$) sectors, and each half-barrel is further segmented into 16 $\eta$ towers. The electronic readout chain, channels the light from the active scintillator layers from one $\phi$-segment and all $\eta$-towers of a half-barrel to a \acf{HPD}.
 
-The relatively short number of interaction lengths ($\lambda_{l}$, the distance a hadron will travel through the absorber material before it has lost $\frac{1}{e}$ of its energy) within the \ac{HB}, the lowest being $\lambda_{l}$ = 5.82 at $\lvert\eta\rvert = 0$, facilitates the need for the `tail catching' \ac{HO} to increase the sampling depth in the central barrel rapidity region $\lvert\eta\rvert < 1.3$ to 11 interaction lengths. Significant fractions of the hadrons energy will be deposited in the \ac{ECAL} as it passes through the detector. Therefore, measurements of hadron energies in the central regions $\lvert\eta\rvert < 3.0$ use both the \ac{ECAL} and \ac{HCAL} to reconstruct the true energy from showering hadrons. 
+The relatively short number of interaction lengths ($\lambda_{l}$, the distance a hadron will travel through the absorber material before it has lost $\frac{1}{e}$ of its energy) within the \ac{HB}, the lowest being $\lambda_{l}$ = 5.82 at $\lvert\eta\rvert = 0$, facilitates the need for the `tail catching' \ac{HO} to increase the sampling depth in the central barrel rapidity region $\lvert\eta\rvert < 1.3$ to 11 interaction lengths. Significant fractions of the hadrons energy will also be deposited in the \ac{ECAL} as it passes through the detector. Therefore, measurements of hadron energies in the central regions $\lvert\eta\rvert < 3.0$ use both the \ac{ECAL} and \ac{HCAL} to reconstruct the true energy from showering hadrons. 
 
 \subsection{Muon Systems}
 \label{subsec:muonsystems} 
@@ -120,7 +120,7 @@ Outside of the superconducting solenoid are four muon detection layers interleav
 \section{Event Reconstruction and Object Definition}
 \label{sec:cmsobjects}
 
-The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, or groups of particles which shower in a narrow cone, the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, while covered below are brief descriptions of those which are most relevant to the analysis detailed in Chapter \ref{chap:SUSYsearches}.
+The goal of event reconstruction is to take the raw information recorded by the detector and to compute from it higher-level quantities which can be used at an analysis level. These typically correspond to an individual particle's energy and momenta, groups of particles which shower in a narrow cone, and the overall global energy and momentum balance of the event. The reconstruction of these objects are described in great detail in \cite{CMS_TDR_PHYS_vol1}, while covered below are brief descriptions of those which are most relevant to the analysis detailed in Chapter \ref{chap:SUSYsearches}.
 
 \subsection{Jets}
 \label{subsec:cmsobjects-jets}
@@ -147,9 +147,11 @@ The jets reconstructed by the clustering algorithm in \ac{CMS} typically have an
 
 The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\mathcal{O}$ 1ps. The identification of jets originating from b quarks is very important for searches for new physics and for measurements of \ac{SM} processes.  \\
 
-Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as; the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. One of the most efficient of which is the \acf{CSV} algorithm \cite{CMS-PAS-BTV-09-001}. This operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, of which the medium point is the tagger used within the \alphat search presented in Section (\ref{sec:alphatintroduction}).  All figures within this sub-section, demonstrating the performance of this b-tagging algorithm are taken from \cite{CMS-PAS-BTV-13-001}.
+Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as; the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. 
 
-Using the \ac{CSV} tagger, a likelihood-based discriminator distinguishes between jets from b-quarks, and those from charm or light quarks and gluons, which is shown in Figure \ref{fig:btagdescrims}. The minimum thresholds on the discriminator for each working point correspond to the mis-identiÞcation probability for light-parton jets of 10$\%$, 1$\%$, and 0.1$\%$, respectively, in jets with an average $\pt$ of about 80 \GeV.
+One of the most efficient of which is the \acf{CSV} algorithm \cite{CMS-PAS-BTV-09-001}. This operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, of which the medium point is the tagger used within the \alphat search presented in Section (\ref{sec:alphatintroduction}).  All figures within this sub-section, demonstrating the performance of this b-tagging algorithm are taken from \cite{CMS-PAS-BTV-13-001}.
+
+Within the \ac{CSV} tagger, a likelihood-based discriminator distinguishes between jets from b-quarks, and those from charm or light quarks and gluons, shown in Figure \ref{fig:btagdescrims}. The minimum thresholds on the discriminator for each working point correspond to the mis-identiÞcation probability for light-parton jets of 10$\%$, 1$\%$, and 0.1$\%$, respectively, in jets with an average $\pt$ of about 80 \GeV.
 
 \begin{figure}[ht]
 \centering
@@ -164,7 +166,7 @@ Using the \ac{CSV} tagger, a likelihood-based discriminator distinguishes betwee
 \label{fig:btagdescrims}
 \end{figure}
 
-The b-tagging performance is evaluated to measure the b-jet tagging efficiency \effb, and the misidentification probability of charm \effc and light-parton jets \effs . The tagging efficiencies for each of these three jet flavours are compared between data and MC simulation, from which a series of $\pt$ and $\lvert\eta\rvert$ binned jet corrections are determined,
+The b-tagging performance is evaluated to measure the b-jet tagging efficiency \effb, and the misidentification probability of charm \effc and light-parton jets \effs . The tagging efficiencies for each of these three jet flavours are compared between data and MC simulation, from which a series of $\pt$ and $\lvert\eta\rvert$ dependant jet corrections are determined,
 
 \begin{equation}
 SF_{b,c,s} = \frac{\epsilon^{data}_{b,c,s}}{\epsilon^{MC}_{b,c,s}} .
@@ -172,7 +174,9 @@ SF_{b,c,s} = \frac{\epsilon^{data}_{b,c,s}}{\epsilon^{MC}_{b,c,s}} .
 
 These are collectively named `Btag Scale Factors' and allow MC simulation to accurately reflect the running conditions and performance of the tagging algorithm in data. Understanding of the b-tagging efficiency is essential in order to minimise systematic uncertainties in physics analyses that employ b-tagging. \\
  
-The b-tagging efficiency is measured in data using several methods applied to multi-jet events, primarily based on a sample of jets enriched in heavy flavour content. One method requires the collection of events with a poorly isolated muon within a cone $\Delta R < 0.4$ around the jet axis. Due to the semi-leptonic branching fraction of b hadrons is significantly larger than that for other hadrons, these jets are more likely to arise from b quarks than from another flavour. The resultant momentum component of the muon, transverse to the jet axis, is larger in b-hadron decays than from light or charm flavoured jets.  Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b quark content of these events. The methods to identify b-jets in data are discussed in great detail at \cite{btag7tev}. The jet flavours are determined in simulation using truth level information and are compared to data to determine the correction scale factors ($SF_{b}$). These are displayed for the \ac{CSVM} tagger in Figure \ref{fig:btagscalefactors}. 
+The b-tagging efficiency is measured in data using several methods applied to multi-jet events, primarily based on a sample of jets enriched in heavy flavour content. One method requires the collection of events with a poorly isolated muon within a cone $\Delta R < 0.4$ around the jet axis. Due to the semi-leptonic branching fraction of b hadrons being significantly larger than that for other hadrons, these jets are more likely to arise from b quarks than from another flavour. The resultant momentum component of the muon, transverse to the jet axis, is larger in b-hadron decays than from light or charm flavoured jets.  
+
+Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b quark content of these events. The methods to identify b-jets in data are discussed in great detail at \cite{btag7tev}. The jet flavours within simulation are determined using truth level information and are compared to data to determine the appropriate correction scale factors ($SF_{b}$). These are displayed for the \ac{CSVM} tagger in Figure \ref{fig:btagscalefactors}. 
 
 \begin{figure}[ht]
 \centering
@@ -191,7 +195,7 @@ The b-tagging efficiency is measured in data using several methods applied to mu
 \label{fig:btagscalefactors}
 \end{figure}
 
-The measurement of the misidentiÞcation probability for light-parton jets relies on the inversion of tagging algorithms, selecting non-b jets using the same variables and techniques used in benchmarking the b-tagging efficiency. The scale factors ($SF_{s}$) to be applied to MC are shown in Figure \ref{fig:mistagscalefactors} for the \ac{CSVM} tagger.
+The measurement of the misidentiÞcation probability for light-parton jets relies on the inversion of tagging algorithms, selecting non-b jets using the same variables and techniques used for benchmarking the b-tagging efficiency. The scale factors ($SF_{s}$) to be applied to correct simulation to data are shown in Figure \ref{fig:mistagscalefactors} for the \ac{CSVM} tagger.
 
 \begin{figure}[ht]
 \centering
@@ -213,7 +217,7 @@ The \ac{L1} is a pipelined, dead-timeless system based on custom-built electroni
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.80\textwidth]{plots/l1triggersystem.pdf}
+\includegraphics[width=0.75\textwidth]{plots/l1triggersystem.pdf}
 \caption[The \ac{CMS} \ac{L1} Trigger system.]{The \ac{CMS} \ac{L1} Trigger system.}  
 \label{fig:l1triggersystem}
 \end{figure}
@@ -244,7 +248,7 @@ In the \L1 \ac{GCT}, coarse measurements of the energy deposited in the electrom
 
 In addition, quantities suitable for triggering minimum bias events, forward physics and beam background events are determined. Relevant muon isolation information is also passed on to the \ac{GMT} to be used in decisions involving the muon triggers, where it is combined with information from across the three muon sub-systems. The resultant final accept/reject decision at \ac{L1} is then performed by the \ac{GT}, based on the objects received from the \ac{GCT} and \ac{GMT} ($e/\gamma$, $\mu$, jets, $\et$, $\met$, $\theht$, $\mht$).
 
-The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing trigger and a good understanding of its performance, there would be no data to analyse. Whilst it would be possible to maintain trigger efficiency by increasing the triggering thresholds for different jet or energy sum quantities, this is far from ideal. This could result in the failure to be sensitive to a wide range of new physics signatures, including many types of compressed spectra \ac{SUSY} models where the mass splitting between squarks/gluinos and the \ac{LSP} is small. 
+The \L1 trigger is therefore of upmost importance to the functioning of the detector. Without a high-performing, efficient trigger and a good understanding of its performance at ever increasing instantaneous luminosities, the data collected would be useless. Whilst it would be possible to maintain trigger efficiency by increasing the triggering thresholds for different jet or energy sum quantities, this is far from ideal. This could result in the failure to be sensitive to a wide range of new physics signatures, including many types of compressed spectra \ac{SUSY} models where the mass splitting between squarks/gluinos and the \ac{LSP} is small. 
 
 One such method introduced to help maintain low triggering thresholds, was via the introduction of a jet seed threshold into the \L1 jet clustering algorithm. Observations of how the \L1 trigger performance is affected by both the jet seed threshold, and changing \ac{lhc} running conditions over the 2012 run period is presented in the following Sections (\ref{subsec:l1jettrigger} - \ref{subsec:l1summary}).
 
@@ -279,7 +283,9 @@ The performance of the \L1 jets is evaluated with respect to offline jets, which
 
 The \L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 $\tau$- or central jet above a certain trigger threshold, divided by all events in the sample with at least a single offline jet above threshold. 
 
-The efficiency is determined by matching the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  This is done by calculating the minimum separation in $\Delta R$ between the highest offline reconstructed jet with $\et > 10$ \GeV and $\lvert\eta\rvert<3$ and any \L1 jet. A match is found when $\Delta R < 0.5$. Should more than one jet satisfy this condition, the jet closest in $\Delta R$ is taken as the matched jet. The matching efficiency for this procedure is found to be close to 100$\%$ above an offline jet threshold of 30(45) GeV for the run 2012B(C) data taking period (see Appendix \ref{app:jetmatching}).
+The efficiency is determined by matching the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  The $\Delta R$ separation between the highest offline reconstructed jet  ($\et > 10$ \GeV and $\lvert\eta\rvert<3$) and each \L1 jet in the event is calculated. A match is made to the \L1 jet with the minimum $\Delta R$ to the reconstructed jet on the condition that it also satisfies $\Delta R < 0.5$. 
+
+The matching efficiency for this procedure is found to be close to 100$\%$ above an offline jet threshold of 30(45) GeV for the run 2012B(C) data taking period (see Appendix \ref{app:jetmatching}).
 
 Each efficiency curve is fitted with a function which is the cumulative distribution function of an \acf{EMG} distribution:
 \begin{eqnarray}
@@ -297,11 +303,11 @@ The efficiency is calculated with respect to offline \Calo and \PF Jets in Figur
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_PF.pdf}
 \end{minipage}
 \quad
@@ -346,11 +352,11 @@ To negate any effects from different pile-up conditions in the run periods, the 
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_36.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_92.pdf}
 \end{minipage}
 \quad
@@ -360,11 +366,11 @@ To negate any effects from different pile-up conditions in the run periods, the 
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_ht100.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetseed_ht150.pdf}
 \end{minipage}
 \quad
@@ -413,7 +419,7 @@ Despite this slight increase in the turn-on point of the \theht triggers, a larg
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.70]{plots/l1rateplot.pdf}
+\includegraphics[scale=0.71]{plots/l1rateplot.pdf}
 \caption[Trigger cross section for the \texttt{L1HTT150} trigger path. ]{Trigger cross section for the \texttt{L1HTT150} trigger path. Showing that a 5 \GeV jet seed threshold dramatically reduces the dependance of cross section on the instantaneous luminosity for \L1 $\theht$ triggers \cite{l1ratebrooke}.}  
 \label{fig:l1rateplot}
 \end{figure}  
@@ -423,15 +429,17 @@ Despite this slight increase in the turn-on point of the \theht triggers, a larg
 \label{subsec:l1jetpu}
 
 The performance of the L1 single jet triggers is evaluated in different pile-up conditions to determine any dependence on pile-up. Three different pile-up categories of 0-10, 10-20 and $>$20 vertices are
-defined, reflecting the low, medium and high pile-up running conditions at \ac{CMS} in 2012. This is benchmarked relative to \Calo and \PF jets for the 2012 run C period where the jet seed threshold is applied, with \L1 single jet thresholds of 16, 36 and 92 \GeV, shown in Figure \ref{fig:l1jet-calopf-pu}. The results of fitting an \ac{EMG} function to these efficiency turn-on curves are given in Table \ref{tab:l1jcaloputable} and Table \ref{tab:l1pfputable} for \Calo and \PF jets respectively.
+defined, reflecting the low, medium and high pile-up running conditions at \ac{CMS} in 2012. 
+
+The L1 triggers are benchmarked relative to \Calo and \PF jets in the run period where the jet seed threshold \emph{is} applied, for the \L1 single jet thresholds of 16, 36 and 92 \GeV, shown in Figure \ref{fig:l1jet-calopf-pu}. The results of fitting an \ac{EMG} function to these efficiency turn-on curves are given in Table \ref{tab:l1jcaloputable} and Table \ref{tab:l1pfputable} for \Calo and \PF jets respectively.
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_calopu.pdf}
 \end{minipage}
 \quad
-\begin{minipage}[b]{0.47 \linewidth}
+\begin{minipage}[b]{0.46 \linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/jetpt_RunC_pfpu.pdf}
 \end{minipage}
 \quad

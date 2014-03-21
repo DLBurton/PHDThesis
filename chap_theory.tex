@@ -57,11 +57,11 @@ The unification of the electromagnetic and weak-nuclear forces into the current 
 
 Symmetries are of fundamental importance in the description of physical phenomena. Noether's theorem states that for a dynamical system, the consequence of any symmetry is an associated conserved quantity \cite{Noether1918}. Invariance under translations, rotations, and Lorentz transformations in physical systems lead to the conservation of momentum, energy and angular momentum. 
 
-In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak, strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons, and interactions between fermions and the bosons themselves. Given the nature of the topics covered by this thesis, the formulation of \ac{EWK}  within the \ac{SM} Lagrangian is reviewed within this section.
+In the \ac{SM}, a quantum theory described by Lagrangian formalism, the weak, strong and electromagnetic interactions are described in terms of ``gauge theories''.  A gauge theory possesses invariance under a set of ``local transformations", which are transformations whose parameters are space-time dependent. The requirement of gauge invariance within the \ac{SM} necessitates the introduction of force-mediating gauge bosons, and interactions between fermions and the bosons themselves. Given the nature of the topics covered by this thesis, the formulation of \acf{EWK} within the \ac{SM} Lagrangian is reviewed within this section.
 
 The simplest example of the application of the principle of local gauge invariance within the \ac{SM} is in \acf{QED}, the consequences of which require a massless photon field \cite{quarksandleptons}\cite{introtoparticles}. 
 
-Starting from the free Dirac Lagrangian written as 
+The free Dirac Lagrangian can be first written as 
 
 \begin{equation}
 \label{eq:diracequation}
@@ -101,11 +101,11 @@ Invariance of the Lagrangian is then achieved by replacing $\partial_{\mu}$ by $
 
 An additional interaction term is now present in the Lagrangian, coupling the Dirac particle to this vector field, which is interpreted as the photon in \ac{QED}. To regard this new field as the physical photon field, a term corresponding to its kinetic energy must be added to the Lagrangian from Equation (\ref{eq:covlag}). Since this term must also be invariant under the conditions of Equation (\ref{eq:afieldtrans}), it is defined in the form $F_{\mu\nu} = \partial^{\mu}A^{\nu} - \partial_{\nu}A_{\mu}$. 
 
-This then leads to the Lagrangian of \ac{QED}: 
+This then leads to the Lagrangian of \ac{QED},
 
 \begin{equation}
 \label{qedlagrangian}
-\mathcal{L}_{QED} =.\overbrace{i\bar{\fermfield}\gamma^{\mu}\partial_{\mu}\fermfield - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} }^\text{kinetic term} + \overbrace{m\bar{\fermfield}\fermfield}^\text{mass term} + \overbrace{e\bar{\fermfield}\gamma^{\mu}\fermfield A_{\mu} }^\text{interaction term}
+\mathcal{L}_{QED} =\overbrace{i\bar{\fermfield}\gamma^{\mu}\partial_{\mu}\fermfield - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} }^\text{kinetic term} + \overbrace{m\bar{\fermfield}\fermfield}^\text{mass term} + \overbrace{e\bar{\fermfield}\gamma^{\mu}\fermfield A_{\mu} }^\text{interaction term}.
 \end{equation}
 
 Within the Lagrangian there remains no mass term of the form $m^{2}A_{\mu}A^{\mu}$, which is prohibited by gauge invariance. This implies that the gauge particle, the photon, must be massless.
@@ -118,7 +118,7 @@ The same application of gauge symmetry and the requirement of local gauge invari
 
 The weak interactions from experimental observation \cite{wu-parity} are known to violate parity and are therefore not symmetric under interchange of left and right helicity fermions. Thus, within the \ac{SM} the left- and right-handed parts of these fermion fields are treated separately. A fermion field is then split into two left and right handed chiral components, $\fermfield = \fermfield_{L} + \fermfield_{R}$, where $\fermfield_{L\slash R} = (1 \pm \gamma^{5})\fermfield$. 
 
-The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices, $U$, satisfying $UU^{\dagger} = I$ and det(U) = 1. It may be written in the form $U = e^{-i\omega_{i}T_{i}}$, with the generators of the group $T_{i} = \frac{1}{2}\tau_{i}$ where $\tau_{i}$, $i \in$ 1,2,3 being the $2 \times 2$ Pauli matrices
+The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices, $U$, satisfying $UU^{\dagger} = I$ and det(U) = 1. It may be written in the form $U = e^{-i\omega_{i}T_{i}}$, with the generators of the group written as $T_{i} = \frac{1}{2}\tau_{i}$ where $\tau_{i}$, $i \in$ 1,2,3 are the $2 \times 2$ Pauli matrices
 
 \begin{equation}
 \tau_{1}= \left( \begin{array}{ccc}
@@ -129,11 +129,11 @@ The $SU(2)_{L}$ group is the special unitary group of $2 \times 2$ matrices, $U$
 i & 0\end{array} \right)\qquad
 \tau_{3}= \left( \begin{array}{ccc}
 1 & 0\\
-0 & -1\end{array} \right),
+0 & -1\end{array} \right).
 \end{equation}
 
 
-which form a non Abelian group obeying the commutation relation $[T^{a},T^{b}] \equiv  if^{abc}T^{c} \neq 0$. The gauge fields that accompany this group are represented by $\hat{W}_{\mu}  = (\hat{W}^{1}_{\mu},\hat{W}^{2}_{\mu},\hat{W}^{3}_{\mu}$  ) and act only on the left handed component of the fermion field $\fermfield_{L}$.
+The generators of the group form a non Abelian group obeying the commutation relation $[T^{a},T^{b}] \equiv  if^{abc}T^{c} \neq 0$. The gauge fields that accompany this group are represented by $\hat{W}_{\mu}  = (\hat{W}^{1}_{\mu},\hat{W}^{2}_{\mu},\hat{W}^{3}_{\mu}$  ) and act only on the left handed component of the fermion field $\fermfield_{L}$.
 
 One additional generator, $Y$, which represents the hypercharge of the particle under consideration is introduced through the $U(1)_{Y}$ group acting on both components of the fermion field, with an associated vector boson field $\hat{B}_{\mu}$.  
 
@@ -158,7 +158,7 @@ d \end{array} \right)_{L}, \nonumber \\
  \fermfield_{R} &= e_{R}, \qquad \qquad \qquad u_{R}, d_{R}.
 \end{align}
 
-Imposing local gauge invariance within $\mathcal{L}_{EWK}$ is once again achieved by modifying the covariant derivative
+Local gauge invariance within $\mathcal{L}_{EWK}$ is once again imposed by modifying the covariant derivative
 
 \begin{equation}
 \label{covderivative}
@@ -223,7 +223,7 @@ The Lagrangian defined in Equation (\ref{ewklagrangian}) attains an additional t
 
 where the covariant derivative $D_{\mu}$ is that defined in Equation (\ref{covderivative}). The last two terms of $\mathcal{L}_{Higgs}$ correspond to the Higgs potential, in which real positive values of $\mu^{2}$ and $\lambda$ are required to ensure the generation of masses for the bosons and leptons. The minimum of this potential is found at $\phi^{\dagger}\phi = \frac{1}{2}(\phi^{2}_{1}+\phi^{2}_{2}+\phi^{2}_{3} + \phi^{2}_{4}) =\mu^{2} / \lambda = v^{2}$, where $v$ represents the \ac{VEV}.
 
-The ground state of the \phi field is defined to be consistent with the $V(\phi)$ minimum. By then expanding around a ground state chosen to maintain an unbroken electromagnetic symmetry, thus preserving a zero photon mass \cite{weinberghiggs} leads to
+The ground state of the \phi field is defined to be consistent with the $V(\phi)$ minimum. By then expanding around a ground state chosen to maintain an unbroken electromagnetic symmetry. This preserves a zero photon mass \cite{weinberghiggs} and leads to
 
 \begin{equation}
 \phi_{0} =  \sqrt{\frac{1}{2}}\left( \begin{array}{c} 
@@ -308,7 +308,7 @@ There exists many techniques which can induce supersymmetric breaking \cite{Intr
 
 \label{subsec:rparity}
 
-Supersymmetric theories can also present a solution to the dark matter problem. These theories contain a stable \acf{LSP}, which matches the criteria of a \acf{WIMP} required by cosmological observation when R-parity is conserved.  
+Supersymmetric theories can also present a solution to the dark matter problem. These theories contain a stable \acf{LSP}, which match the criteria of a \acf{WIMP} required by cosmological observation when R-parity is conserved.  
 
 Baryon (B) and Lepton (L) number conservation is forbidden in the \ac{SM} by renormalisability requirements. The violation of Baryon or Lepton number results in a proton lifetime much shorter than those set by experimental limits \cite{Martin:hep-ph9602349}. Another symmetry called R-parity is then often introduced to \ac{SUSY} theories to maintain baryon and lepton conservation. 
 
@@ -322,7 +322,7 @@ where s represents the spin of the particles. $B =  \pm\frac{1}{3}$ for quarks/a
 
 R-parity ensures the stability of the proton in \ac{SUSY} models, and also has other consequences for the production and decay of supersymmetric particles. In particle colliders supersymmetric particles can then only be pair produced. Similarly the decay of any produced supersymmetric particle is restricted to a \ac{SM} particle and a lighter supersymmetric particle, as allowed by conservation laws. A further implication of R-parity is that once a supersymmetric particle has decayed to the \ac{LSP} it remains stable, unable to decay into a \ac{SM} particle.  
 
-A \ac{LSP} will not interact in a detector at a particle collider, leaving behind a missing energy $\met$ signature. The assumption of R-parity and its consequences are used to determine the physical motivation and search strategies for \ac{SUSY} models at the \ac{lhc}. 
+A \ac{LSP} will not interact in a detector at a particle collider, leaving behind a missing energy $\met$ signature. The assumption of R-parity and its consequences are used to determine the physical motivation and search strategies for \ac{SUSY} at the \ac{lhc}. 
 
 \section{Experimental Signatures of SUSY at the LHC}
 \label{sec:susysearches}
@@ -343,7 +343,7 @@ However, recent results from the \ac{lhc} now strongly disfavour large swathes o
 
 As previously stated, a stable \ac{LSP} that exhibits the properties of a dark matter candidate would be weakly interacting and therefore will not be directly detected in a detector environment. Additionally, the cascade decays of supersymmetric particles to this \ac{LSP} state would also result in significant hadronic activity. These signatures will then be characterised through large amounts of hadronic jets (see Section (\ref{subsec:cmsobjects-jets})), leptons and a significant amount of missing energy dependent upon the size of the mass splitting between the \ac{LSP} and the supersymmetric particle it has decayed from.
 
-The \ac{SM} contains processes which can exhibit a similar event topology to that described above, with the largest contribution coming from the general QCD environment of a hadron collider. A multitude of different analytical techniques are used by experimental physicists to reduce or estimate any reducible or irreducible backgrounds, allowing a possible \ac{SUSY} signature to be extracted. The techniques employed within this thesis are described in great detail within Section (\ref{sec:alphatintroduction}).
+The \ac{SM} contains processes which can exhibit a similar event topology to that described above, with the largest contribution coming from the general QCD multi-jet environment of a hadron collider. A multitude of different analytical techniques are used by experimental physicists to reduce or estimate any reducible or irreducible backgrounds, allowing a possible \ac{SUSY} signature to be extracted. The techniques employed within this thesis are described in great detail within Section (\ref{sec:alphatintroduction}).
 
 \subsection{Simplified Models}
 
@@ -363,7 +363,7 @@ Different \ac{SMS} models are denoted with a T-prefix, with a summary of the typ
 
 Models rich in b and t quarks are interpreted within this thesis as they remain of particular interest within ``Natural \ac{SUSY}'' scenarios \cite{Hisano:2000wy}\cite{Papucci:2011wy}. The largest contribution to the quadratic divergence in the Higgs mass parameter comes from a loop of top quarks via the Yukawa coupling. Cancellation of these divergences can be achieved in supersymmetric theories by requiring a light right-handed top squark, $\widetilde{t}_{R}$, and left-handed double $SU(2)_{L}$ doublet containing top and bottom squarks, $(\frac{\widetilde{t}}{\widetilde{b}})_{L}$ \cite{Allanach:2012vj}. 
 
-These theories therefore solve the hierarchy problem by predicting light $\sim$ \ac{EWK} scale third generation sleptons, to be accessible at the \ac{lhc}. Search strategies involving the requirement of b-tagging (see Section (\ref{subsec:cmsobjects-btagging})) are used to give sensitivity to these type of \ac{SUSY} scenarios and are discussed in greater detail within Chapter \ref{chap:SUSYsearches}.
+These theories therefore solve the hierarchy problem by predicting light $\sim$\ac{EWK} scale third generation sleptons, accessible at the \ac{lhc}. Search strategies involving the requirement of b-tagging (see Section (\ref{subsec:cmsobjects-btagging})) are used to give sensitivity to these type of \ac{SUSY} scenarios and are discussed in greater detail within Chapter \ref{chap:SUSYsearches}.
  
 Two example decay chains are shown in Figure \ref{fig:susydecayexamples}; the pair production of gluinos (\texttt{T1}) and the pair production of squarks (\texttt{T2}) decaying into \ac{SM} particles and \ac{LSP}s.
 

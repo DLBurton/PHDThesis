@@ -1,1 +1,2 @@
-In Appendix B - Remake energy resolution plots (do this stuff last)
+Add in template plot to demonstrate procedure
+Sort of color of plots in had and muon templates
