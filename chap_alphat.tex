@@ -57,14 +57,14 @@ A search within this channel is greatly complicated in a hadron collider environ
 
 \centering
 \includegraphics[width=0.65\textwidth]{plots/ra1_htdistribution.pdf}
-\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made. Sample is collected from prescaled \theht triggers. Overlaid are expectations from MC simulation of \ac{EWK} processes as well as two reference signal models (labelled G1 and D1 from Table \ref{tab:sms_model_table}).}  
+\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection, from 11.7fb$^{-1}$ of data, in which no \alphat requirement is made. Sample is collected from prescaled \theht triggers. Overlaid are expectations from simulation of \ac{EWK} processes as well as two reference signal models (labelled G1 and D1 from Table \ref{tab:sms_model_table}).}  
 \label{fig:htqcdbackground}
 \end{figure}
 
 Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from escaping neutrinos comprise the irreducible background within this search and come mainly from:
 
 \begin{itemize}
-\item $Z \rightarrow \nu\bar{\nu} +$ jets,
+\item $Z \rightarrow \nu\bar{\nu}$ +  jets,
 \item $W \rightarrow l\nu$ + jets in which a lepton falls outside of detector acceptance, is not reconstructed, is mis-identified, or the lepton decays hadronically $\tau \rightarrow$ had,
 \item $t\bar{t}$ with at least one leptonically decaying W, which is missed in the detector as detailed above,
 \item small background contributions from DY, single top and Diboson (WW,ZZ,WZ) processes.
@@ -96,16 +96,16 @@ where $E^{j_{2}}_{T}$ is the transverse energy of the least energetic of the two
 M_{T} = \sqrt{\left(\sum^{2}_{i=1}E^{j_{i}}_{T}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{x}\right)^{2}-\left(\sum^{2}_{i=1}p^{j_{i}}_{y}\right)^{2}} \equiv \sqrt{H_{T}^{2} - \mht^{2}} .
 \end{equation}
 
-A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would yield an \alphat value of 0.5. In events with jets that are not `back-to-back', for example when a W or Z recoils off a system of jets, $\alphat$ can achieve values in excess of 0.5. Most importantly, balanced multi-jet events in which jets \emph{are} mis-measured, will generally result in an \alphat of less than 0.5, thus giving the \alphat variable discriminating power between these processes.
+A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would yield an \alphat value of 0.5. In processes where a W or Z recoils off a system of jets, these jets will not necessarily be perfectly balanced and $\alphat$ can then achieve values in excess of 0.5. Most importantly, balanced multi-jet events in which jets \emph{are} mis-measured, will generally result in an \alphat value of less than 0.5, thus giving the \alphat variable discriminating power between these processes.
 
-$\alphat$ can be extended to apply to any arbitrary number of jets. This is undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present, and are chosen to be as balanced as possible, i.e the $\Delta$\theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
+$\alphat$ can be further extended to apply to any arbitrary number of jets. This is undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present, and are chosen to be as balanced as possible, i.e the $\Delta$\theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
 
 \begin{equation}
 \label{eq:alphatmht}
 \alphat = \frac{1}{2} \frac {\theht - \Delta\theht}{\sqrt{\theht^{2}-\mht^{2}}}= \frac{1}{2}\frac{1-\Delta\theht/\theht}{\sqrt{1-(\mht/\theht)^{2}}}.
 \end{equation}
 
-The distribution of $\alphat$ for the two jet categories used within this analysis, 2$\leq n_{jet} \leq$3 and $ n_{jet} \geq 4$ jets, is shown in the Figure \ref{fig:fullalphatdistribution}. It can be seen that the distributions peak at an \alphat value of 0.5, before falling away sharply and being free of a simulated multi-jet background at larger \alphat values. These distributions serve to demonstrate the ability of the $\alphat$ variable to discriminate between multi-jet events and \ac{EWK} processes with genuine $\met$ in the final state. 
+The distribution of $\alphat$ for the two jet multiplicity categories used within this analysis, 2$\leq n_{jet} \leq$3 and $ n_{jet} \geq 4$ jets, is shown in the Figure \ref{fig:fullalphatdistribution}. It can be seen that the distributions peak at an \alphat value of 0.5, before falling away sharply and being free of a simulated multi-jet background at larger \alphat values. These distributions serve to demonstrate the ability of the $\alphat$ variable to discriminate between multi-jet events and \ac{EWK} processes with genuine $\met$ in the final state. 
 
 \begin{figure}[ht]
 \centering
@@ -120,7 +120,7 @@ The distribution of $\alphat$ for the two jet categories used within this analys
 \label{fig:fullalphatdistribution}
 \end{figure}
 
-The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multi-jet background is negligible even in the presence of moderate jet mis-measurement. There still remains other effects which can cause multi-jet events to artificially have a large $\alphat$ value, which are discussed in detail in Section (\ref{subsec:eventselection}).  
+The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multi-jet background is negligible even in the presence of moderate jet mis-measurement. There still remain other effects which can cause multi-jet events to artificially have a large $\alphat$ value, methods to combat them are discussed in detail in Section (\ref{subsec:eventselection}).  
 
 
 \section{Search Strategy}

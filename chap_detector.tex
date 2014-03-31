@@ -229,7 +229,7 @@ The \acf{HLT} is a large farm of commercial computers \cite{Sphicas:2002gg}. The
 \subsection{The Level-1 Trigger}
 \label{subsec:l1trigger}
 
-The \L1 trigger reduces the rate of events collected from 40 MHz to $\sim$100 kHz using information from just the calorimeters and muon chambers, but not the tracker. This is due to requirement that data from each and every bunch crossing be analysed with no dead time, drastically reducing time available to process and reconstruct objects in making a trigger decision. This facilitates the need for a pipelined processing architecture, and so a tree system of triggers is used to decide whether to pass on an event to the \ac{HLT} for further reconstruction.
+The \L1 trigger reduces the rate of events collected from 20 MHz to $\sim$100 kHz using information from just the calorimeters and muon chambers, but not the tracker. This is due to requirement that data from each and every bunch crossing be analysed with no dead time, drastically reducing time available to process and reconstruct objects in making a trigger decision. This facilitates the need for a pipelined processing architecture, and so a tree system of triggers is used to decide whether to pass on an event to the \ac{HLT} for further reconstruction.
  
 Calorimeter and muon event information is processed separately by the \acf{RCT} and \acf{RMT} systems respectively. 
 
@@ -398,7 +398,7 @@ L1\_SingleJet92 & 94.99 $\pm$ 0.09 & 5.93 $\pm$ 0.06 & 94.82 $\pm$ 0.29 & 5.74 $
 
 In the case of the $\theht$ triggers, without the jet seed threshold a large increase in the trigger cross-section during high luminosity collisions will occur. The low energy threshold requirement for a jet to be clustered and added to the \L1 $\theht$ sum, will allow many soft jets from other secondary interactions to enter the calculation. The introduction of the jet seed threshold prevents the clustering of many of these diffuse low $\et$ pile-up jets, thus lowering the \L1 \ac{GCT} $\theht$ calculation. Resultantly, different behaviours for the trigger turn-ons after the introduction of the jet seed threshold are expected for these triggers. 
 
-The mean, $\mu$, values are measured to sit at higher \theht for both benchmarked \theht triggers, whilst a better resolution is also observed after the introduction of the jet seed threshold. These values can be found within Table \ref{tab:l1jetseedtableHT}.
+The mean, $\mu$, values are measured to reside at higher \theht for both benchmarked \theht triggers, whilst a better resolution is observed after the introduction of the jet seed threshold. These values can be found within Table \ref{tab:l1jetseedtableHT}.
 
 \begin{table}[h!]
 \begin{center}
@@ -415,7 +415,7 @@ L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0
 \label{tab:l1jetseedtableHT}
 \end{table}
 
-Despite this slight increase in the turn-on point of the \theht triggers, a large reduction in the trigger cross-section is achieved for all \theht triggers. As an example, the expected trigger cross-section for the \texttt{L1HTT150} trigger as a function of instantaneous luminosity can be seen in Figure \ref{fig:l1rateplot}.
+Despite this slight increase in the turn-on point of the \theht triggers, a large reduction in the trigger cross-section is achieved for all \theht triggers. As an example, the expected trigger cross-section for the \texttt{L1HTT150} trigger as a function of instantaneous luminosity can be seen in Figure \ref{fig:l1rateplot}. 
 
 \begin{figure}[ht!]
 \centering
@@ -424,6 +424,8 @@ Despite this slight increase in the turn-on point of the \theht triggers, a larg
 \label{fig:l1rateplot}
 \end{figure}  
 \FloatBarrier
+
+It can be seen that this slight degradation in the offline value at which these \theht triggers are full efficient due to the jet seed threshold, can be justified from the large reduction in the trigger cross-section rate. Any inefficiencies can then if necessary be compensated through a reduction in the trigger threshold of the \L1 seed.
 
 \subsection{Robustness of \L1 Jet Performance against Pile-up}
 \label{subsec:l1jetpu}
@@ -494,8 +496,9 @@ in bins of matched leading offline jet $\et$. The results of these individual fi
 
 The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed, as expected, to increase as a function of jet $\et$, whilst the resolution also improves as a function of increasing offline jet $\et$ for all pile-up categories. 
 
-When comparisons are made between the individual pile-up scenarios, it can be seen that in the presence of higher pile-up , $\mu$ is seen to shift to larger values and a poorer resolution, $\sigma$, observed. These differences between the different pile-up scenarios, can once again be attributed to an increasing number of soft pile-up jets that add to the transverse energy of the lead jet from the primary interaction within each successive category. 
- 
+When comparisons are made between the individual pile-up scenarios, it can be seen that in the presence of higher pile-up , $\mu$ is seen to shift to larger values and a poorer resolution, $\sigma$, observed. This is particularly evident at low lead jet transverse energy values. These differences between the different pile-up scenarios, can once again be attributed to an increasing number of soft pile-up jets that add to the transverse energy of the lead jet from the primary interaction within each successive pile-up category. However, when comparisons of the trigger performance at larger lead jet transverse energy values ($>100$ \GeV) are made, similar performance is observed between the separate pile-up categories.
+
+
 \begin{figure}[h!]
   \vspace{20pt}
 	\centering
@@ -517,4 +520,4 @@ The resolution of other \L1 jet based energy sum quantities, $\mht$ and $\theht$
 \subsection{Summary}
 \label{subsec:l1summary}
 
-The performance of the \CMS Level-1 Trigger has been studied and evaluated for jets and energy sum quantities using data collected during the 2012 \ac{lhc} 8 TeV run. These studies include the effect of the introduction of a 5 \GeV jet seed threshold into the jet clustering algorithm, the purpose of which is to mitigate the effects of pile-up on the rate of \L1 triggers, whilst not adversely affecting the efficiency of these triggers. No significant change in performance is observed with this change and good performance is observed for a range of \L1 quantities.
+The performance of the \CMS Level-1 Trigger has been studied and evaluated for jets and energy sum quantities using data collected during the 2012 \ac{lhc} 8 TeV run. These studies include the effect of the introduction of a 5 \GeV jet seed threshold into the jet clustering algorithm. The purpose of this change was to mitigate the increase in \L1 trigger cross-sections, due to larger isotropic energy deposits from an increased number of secondary interactions, whilst not adversely affecting the efficiency of these triggers. Measurements are made for a range of \L1 jet quantities and thresholds, where no significant change in the measured efficiencies that would indicate a noticeable effect on the overall triggering performance of the detector is observed. 

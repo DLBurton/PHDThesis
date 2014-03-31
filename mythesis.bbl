@@ -10,15 +10,16 @@
 \href{http://dx.doi.org/10.1103/PhysRevD.86.010001}{\doi{10.1103/PhysRevD.86.010001}}.
 %%CITATION = PHRVA,D86,010001;%%.
 
-\bibitem{0067-0049-208-2-19}
-\hrefCMSnoop {} {G.~H. et~al., ``Nine-year Wilkinson Microwave Anisotropy Probe
-  (WMAP) Observations: Cosmological Parameter Results'',} \textit{ The
-  Astrophysical Journal Supplement Series} \textbf{ 208} (2013), no.~2,.
+\bibitem{Ade:2013zuv}
+\hrefCMSnoop {} {{ Planck} Collaboration, ``{Planck 2013 results. XVI.
+  Cosmological parameters}'',}
+\href{http://www.arXiv.org/abs/1303.5076}{\texttt{ arXiv:1303.5076}}.
+%%CITATION = ARXIV:1303.5076;%%.
 
 \bibitem{Aad:2012tfa}
-\hrefCMSnoop {} {{ ATLAS Collaboration} Collaboration, ``{Observation of a new
-  particle in the search for the Standard Model Higgs boson with the ATLAS
-  detector at the LHC}'',} \textit{ Phys.Lett.} \textbf{ B716} (2012) 1--29,
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}'',} \textit{ Phys.Lett.} \textbf{ B716} (2012) 1--29,
   \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
 \href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
 %%CITATION = ARXIV:1207.7214;%%.
@@ -33,8 +34,8 @@
 
 \bibitem{ra1_epjc}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in hadronic
-  final states with missing transverse energy using the variables AlphaT and
-  b-quark multiplicity in pp collisions at 8 TeV}'',} \textit{ Eur.Phys.J.}
+  final states with missing transverse energy using the variables $\alpha_T$
+  and b-quark multiplicity in pp collisions at 8 TeV}'',} \textit{ Eur.Phys.J.}
   \textbf{ C73} (2013) 2568,
   \href{http://dx.doi.org/10.1140/epjc/s10052-013-2568-6}{\doi{10.1140/epjc/s10052-013-2568-6}},
 \href{http://www.arXiv.org/abs/1303.2985}{\texttt{ arXiv:1303.2985}}.
@@ -63,25 +64,24 @@
   \href{http://dx.doi.org/http://dx.doi.org/10.1016/0550-3213(71)90139-8}{\doi{http://dx.doi.org/10.1016/0550-3213(71)90139-8}}.
 
 \bibitem{Hasert:1973ff}
-\hrefCMSnoop {} {{ Gargamelle Neutrino Collaboration} Collaboration,
-  ``{Observation of Neutrino Like Interactions Without Muon Or Electron in the
-  Gargamelle Neutrino Experiment}'',} \textit{ Phys.Lett.} \textbf{ B46} (1973)
-  138--140,
+\hrefCMSnoop {} {{ Gargamelle Neutrino} Collaboration, ``{Observation of
+  Neutrino Like Interactions Without Muon Or Electron in the Gargamelle
+  Neutrino Experiment}'',} \textit{ Phys.Lett.} \textbf{ B46} (1973) 138--140,
 \href{http://dx.doi.org/10.1016/0370-2693(73)90499-1}{\doi{10.1016/0370-2693(73)90499-1}}.
 %%CITATION = PHLTA,B46,138;%%.
 
 \bibitem{Arnison:1983mk}
-\hrefCMSnoop {} {{ UA1 Collaboration} Collaboration, ``{Experimental
-  Observation of Lepton Pairs of Invariant Mass Around 95-GeV at the CERN SPS
-  Collider}'',} \textit{ Phys.Lett.} \textbf{ B126} (1983) 398--410,
+\hrefCMSnoop {} {{ UA1} Collaboration, ``{Experimental Observation of Lepton
+  Pairs of Invariant Mass Around 95-GeV at the CERN SPS Collider}'',} \textit{
+  Phys.Lett.} \textbf{ B126} (1983) 398--410,
 \href{http://dx.doi.org/10.1016/0370-2693(83)90188-0}{\doi{10.1016/0370-2693(83)90188-0}}.
 %%CITATION = PHLTA,B126,398;%%.
 
 \bibitem{Banner:1983jy}
-\hrefCMSnoop {} {{ UA2 Collaboration} Collaboration, ``{Observation of Single
-  Isolated Electrons of High Transverse Momentum in Events with Missing
-  Transverse Energy at the CERN {$\bar{\text{p}}$}p Collider}'',} \textit{
-  Phys.Lett.} \textbf{ B122} (1983)
+\hrefCMSnoop {} {{ UA2} Collaboration, ``{Observation of Single Isolated
+  Electrons of High Transverse Momentum in Events with Missing Transverse
+  Energy at the CERN {$\bar{\text{p}}$}p Collider}'',} \textit{ Phys.Lett.}
+  \textbf{ B122} (1983)
 \href{http://dx.doi.org/10.1016/0370-2693(83)91605-2}{\doi{10.1016/0370-2693(83)91605-2}}.
 %%CITATION = PHLTA,B122,476;%%.
 
@@ -136,9 +136,9 @@ C.~S. {Wu}\hrefCMSnoop {} { {et~al.}, ``{Experimental Test of Parity
   \href{http://dx.doi.org/10.1143/PTPS.1.1}{\doi{10.1143/PTPS.1.1}}.
 
 \bibitem{PhysRevLett.81.1562}
-\hrefCMSnoop {} {{ (Super-Kamiokande Collaboration)} Collaboration, ``Evidence
-  for Oscillation of Atmospheric Neutrinos'',} \textit{ Phys. Rev. Lett.}
-  \textbf{ 81} (Aug, 1998)
+\hrefCMSnoop {} {{ Super-Kamiokande} Collaboration, ``Evidence for Oscillation
+  of Atmospheric Neutrinos'',} \textit{ Phys. Rev. Lett.} \textbf{ 81} (Aug,
+  1998)
   \href{http://dx.doi.org/10.1103/PhysRevLett.81.1562}{\doi{10.1103/PhysRevLett.81.1562}}.
 
 \bibitem{BeckerSzendy:1992ym}
@@ -221,9 +221,8 @@ H.~Baer and X.~Tata, ``Weak Scale Supersymmetry: From Superfields to Scattering
   arXiv:hep-ph/9602349}}.
 
 \bibitem{Kane:1993td}
-\hrefCMSnoop {} {G.~L. Kane, C.~F. Kolda, L.~Roszkowski, and J.~D. Wells,
-  ``{Study of constrained minimal supersymmetry}'',} \textit{ Phys.Rev.}
-  \textbf{ D49} (1994)
+G.~L. Kane\hrefCMSnoop {} { {et~al.}, ``{Study of constrained minimal
+  supersymmetry}'',} \textit{ Phys.Rev.} \textbf{ D49} (1994)
   \href{http://dx.doi.org/10.1103/PhysRevD.49.6173}{\doi{10.1103/PhysRevD.49.6173}},
 \href{http://www.arXiv.org/abs/hep-ph/9312272}{\texttt{ arXiv:hep-ph/9312272}}.
 %%CITATION = HEP-PH/9312272;%%.
@@ -244,8 +243,8 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 %%CITATION = ARXIV:1212.2886;%%.
 
 \bibitem{Ghosh:2012dh}
-\hrefCMSnoop {} {D.~Ghosh, M.~Guchait, S.~Raychaudhuri, and D.~Sengupta, ``{How
-  Constrained is the cMSSM?}'',} \textit{ Phys.Rev.} \textbf{ D86} (2012)
+\hrefCMSnoop {} {D.~Ghosh {et~al.}, ``{How Constrained is the cMSSM?}'',}
+  \textit{ Phys.Rev.} \textbf{ D86} (2012)
   \href{http://dx.doi.org/10.1103/PhysRevD.86.055007}{\doi{10.1103/PhysRevD.86.055007}},
 \href{http://www.arXiv.org/abs/1205.2283}{\texttt{ arXiv:1205.2283}}.
 %%CITATION = ARXIV:1205.2283;%%.
@@ -259,9 +258,9 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 %%CITATION = ARXIV:1105.2838;%%.
 
 \bibitem{Alwall:2008ag}
-\hrefCMSnoop {} {J.~Alwall, P.~Schuster, and N.~Toro, ``{Simplified Models for
-  a First Characterization of New Physics at the LHC}'',} \textit{ Phys.Rev.}
-  \textbf{ D79} (2009) 075020,
+\hrefCMSnoop {} {J.~Alwall {et~al.}, ``{Simplified Models for a First
+  Characterization of New Physics at the LHC}'',} \textit{ Phys.Rev.} \textbf{
+  D79} (2009) 075020,
   \href{http://dx.doi.org/10.1103/PhysRevD.79.075020}{\doi{10.1103/PhysRevD.79.075020}},
 \href{http://www.arXiv.org/abs/0810.3921}{\texttt{ arXiv:0810.3921}}.
 %%CITATION = ARXIV:0810.3921;%%.
@@ -275,15 +274,15 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 %%CITATION = ARXIV:1301.2175;%%.
 
 \bibitem{Hisano:2000wy}
-\hrefCMSnoop {} {J.~Hisano, K.~Kurosawa, and Y.~Nomura, ``{Natural effective
-  supersymmetry}'',} \textit{ Nucl.Phys.} \textbf{ B584} (2000) 3--45,
+J.~Hisano\hrefCMSnoop {} { {et~al.}, ``{Natural effective supersymmetry}'',}
+  \textit{ Nucl.Phys.} \textbf{ B584} (2000) 3--45,
   \href{http://dx.doi.org/10.1016/S0550-3213(00)00343-6}{\doi{10.1016/S0550-3213(00)00343-6}},
 \href{http://www.arXiv.org/abs/hep-ph/0002286}{\texttt{ arXiv:hep-ph/0002286}}.
 %%CITATION = HEP-PH/0002286;%%.
 
 \bibitem{Papucci:2011wy}
-\hrefCMSnoop {} {M.~Papucci, J.~T. Ruderman, and A.~Weiler, ``{Natural SUSY
-  Endures}'',} \textit{ JHEP} \textbf{ 1209} (2012) 035,
+M.~Papucci\hrefCMSnoop {} { {et~al.}, ``{Natural SUSY Endures}'',} \textit{
+  JHEP} \textbf{ 1209} (2012) 035,
   \href{http://dx.doi.org/10.1007/JHEP09(2012)035}{\doi{10.1007/JHEP09(2012)035}},
 \href{http://www.arXiv.org/abs/1110.6926}{\texttt{ arXiv:1110.6926}}.
 %%CITATION = ARXIV:1110.6926;%%.
@@ -310,9 +309,7 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 \bibitem{cmstdr}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``The CMS experiment at the CERN LHC'',}
   \textit{ JINST} \textbf{ 0803} (2008) S08004,
-  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004,
-  10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004,
-  10.1088/1748-0221/3/08/S08004}}.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
 
 \bibitem{lhcbtdr}
 \hrefCMSnoop {} {{ LHCb} Collaboration, ``{The LHCb Detector at the LHC}'',}
@@ -346,9 +343,9 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
   Report, Volume 1'',} \textit{ CERN/LHCC} \textbf{ 2006-001} (2006).
 
 \bibitem{antiktalgo}
-\hrefCMSnoop {} {M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The anti-k{$_{t}$}
-  jet clustering algorithm'',} \textit{ Journal of High Energy Physics}
-  \textbf{ 2008} (2008), no.~04, 063.
+M.~Cacciari\hrefCMSnoop {} { {et~al.}, ``The anti-k{$_{t}$} jet clustering
+  algorithm'',} \textit{ Journal of High Energy Physics} \textbf{ 2008} (2008),
+  no.~04, 063.
 
 \bibitem{CMS-PAS-JME-10-003}
 \hrefCMSnoop {} {``Jet Performance in pp Collisions at 7 TeV'',}
@@ -400,15 +397,15 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
   CERN, Geneva, (2013).
 
 \bibitem{Shorney-Mathias:1641954}
-\hrefCMSnoop {} {B.~L. Shorney-Mathias, , and A.~Tapper, ``{Search for
-  supersymmetry in pp collisions with all-hadronic final states using the
-  $\alpha_T$ variable with the CMS detector at the LHC}''}.
-\newblock PhD thesis, Imperial Coll., London, 2014.
-\newblock Presented 2013.
+\hrefCMSnoop {} {B.~Shorney-Mathias, ``{Search for supersymmetry in pp
+  collisions with all-hadronic final states using the $\alpha_T$ variable with
+  the CMS detector at the LHC}''}.
+\newblock PhD thesis, 2014.
 
 \bibitem{L1bryn}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{ Study of Level-1 Trigger Jet
-  Performance in High Pile-up Running Conditions}'',}.
+B.~Mathias\hrefCMSnoop {} { {et~al.}, ``Study of Level-1 Trigger Jet
+  Performance in High Pile-up Running Conditions'',}  CMS-IN-2013-007, CERN,
+  Geneva, (2013).
 
 \bibitem{l1ratebrooke}
 \hrefCMSnoop {} {J.~J. Brooke, ``Performance of the CMS Level-1 Trigger'',}
@@ -417,8 +414,8 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
 \bibitem{alphat7tev}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in final
   states with missing transverse energy and 0, 1, 2, or at least 3 b-quark jets
-  in 7 TeV pp collisions using the variable alphaT}'',} \textit{ JHEP} \textbf{
-  1301} (2013) 077,
+  in 7 TeV pp collisions using the variable $\alpha_T$}'',} \textit{ JHEP}
+  \textbf{ 1301} (2013) 077,
   \href{http://dx.doi.org/10.1007/JHEP01(2013)077}{\doi{10.1007/JHEP01(2013)077}},
 \href{http://www.arXiv.org/abs/1210.8115}{\texttt{ arXiv:1210.8115}}.
 %%CITATION = ARXIV:1210.8115;%%.
@@ -449,9 +446,9 @@ M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
   (Apr, 2010).
 
 \bibitem{2012JInst...7P0002T}
-\hrefCMSnoop {} {{The CMS Collaboration}, ``{Performance of CMS muon
-  reconstruction in pp collision events at 7 TeV}'',} \textit{ Journal of
-  Instrumentation} \textbf{ 7} (October, 2012) 2P,
+\hrefCMSnoop {} {{CMS Collaboration}, ``{Performance of CMS muon reconstruction
+  in pp collision events at 7 TeV}'',} \textit{ Journal of Instrumentation}
+  \textbf{ 7} (October, 2012) 2P,
   \href{http://dx.doi.org/10.1088/1748-0221/7/10/P10002}{\doi{10.1088/1748-0221/7/10/P10002}},
   \href{http://www.arXiv.org/abs/1206.4071}{\texttt{ arXiv:1206.4071}}.
 
@@ -480,21 +477,20 @@ Z.~Bern\hrefCMSnoop {} { {et~al.}, ``{Driving Missing Data at Next-to-Leading
 %%CITATION = ARXIV:1106.1423;%%.
 
 \bibitem{CMS-PAS-SUS-08-002}
-\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Data-Driven Estimation
-  of the Invisible Z Background to the SUSY MET Plus Jets Search}'',}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Data-Driven Estimation of the
+  Invisible Z Background to the SUSY MET Plus Jets Search}'',}
   CMS-PAS-SUS-08-002, CERN, 2009. Geneva, (Jan, 2009).
 
 \bibitem{Sjostrand:2006za}
-\hrefCMSnoop {} {T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4
-  Physics and Manual}'',} \textit{ JHEP} \textbf{ 0605} (2006) 026,
+T.~Sjostrand\hrefCMSnoop {} { {et~al.}, ``{PYTHIA 6.4 Physics and Manual}'',}
+  \textit{ JHEP} \textbf{ 0605} (2006) 026,
   \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{\doi{10.1088/1126-6708/2006/05/026}},
 \href{http://www.arXiv.org/abs/hep-ph/0603175}{\texttt{ arXiv:hep-ph/0603175}}.
 %%CITATION = HEP-PH/0603175;%%.
 
 \bibitem{Beenakker:1996ch}
-\hrefCMSnoop {} {W.~Beenakker, R.~Hopker, M.~Spira, and P.~Zerwas, ``{Squark
-  and gluino production at hadron colliders}'',} \textit{ Nucl.Phys.} \textbf{
-  B492} (1997) 51--103,
+W.~Beenakker\hrefCMSnoop {} { {et~al.}, ``{Squark and gluino production at
+  hadron colliders}'',} \textit{ Nucl.Phys.} \textbf{ B492} (1997) 51--103,
   \href{http://dx.doi.org/10.1016/S0550-3213(97)80027-2}{\doi{10.1016/S0550-3213(97)80027-2}},
 \href{http://www.arXiv.org/abs/hep-ph/9610490}{\texttt{ arXiv:hep-ph/9610490}}.
 %%CITATION = HEP-PH/9610490;%%.
@@ -520,8 +516,11 @@ M.~Botje\hrefCMSnoop {} { {et~al.}, ``{The PDF4LHC Working Group Interim
 %%CITATION = ARXIV:1101.0538;%%.
 
 \bibitem{Laird:2012mla}
-\hrefCMSnoop {} {E.~M. Laird,
-``{A Search for Squarks and Gluinos with the CMS Detector}'',}.
+\hrefCMSnoop {} {E.~M. Laird, ``{A Search for Squarks and Gluinos with the CMS
+  Detector}''}.
+\newblock PhD thesis,
+2012.
+\newblock
 %%CITATION = ISBN-9781267251121 ETC.;%%.
 
 \bibitem{logndistribution}
@@ -531,8 +530,7 @@ R.~Cousings, ``Probability Density Functions for Positive Nuisance
 \newblock http://www.physics.ucla.edu/cousins/stats/cousinslognormalprior.pdf.
 
 \bibitem{2010acat.confE..57M}
-\hrefCMSnoop {} {L.~{Moneta}, K.~{Cranmer}, G.~{Schott}, and W.~{Verkerke},
-  ``{The RooStats project}'',}
+L.~{Moneta}\hrefCMSnoop {} { {et~al.}, ``{The RooStats project}'',}
 \newblock 2010.
 \newblock \href{http://www.arXiv.org/abs/1009.1003}{\texttt{ arXiv:1009.1003}}.
 
@@ -559,32 +557,47 @@ R.~Cousings, ``Probability Density Functions for Positive Nuisance
   (the $CL_{s}$ method)}'',}  CERN-OPEN-2000-205, (2000).
 
 \bibitem{asymptotictest}
-\hrefCMSnoop {} {G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic
-  formulae for likelihood-based tests of new physics'',} \textit{ The European
-  Physical Journal C} \textbf{ 71} (2011)
+G.~Cowan\hrefCMSnoop {} { {et~al.}, ``Asymptotic formulae for likelihood-based
+  tests of new physics'',} \textit{ The European Physical Journal C} \textbf{
+  71} (2011)
   \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}}.
 
 \bibitem{2011EPJClimits}
-\hrefCMSnoop {} {G.~{Cowan}, K.~{Cranmer}, E.~{Gross}, and O.~{Vitells},
-  ``{Asymptotic formulae for likelihood-based tests of new physics}'',}
-  \textit{ European Physical Journal C} \textbf{ 71} (February, 2011)
+G.~{Cowan}\hrefCMSnoop {} { {et~al.}, ``{Asymptotic formulae for
+  likelihood-based tests of new physics}'',} \textit{ European Physical Journal
+  C} \textbf{ 71} (February, 2011)
   \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}},
   \href{http://www.arXiv.org/abs/1007.1727}{\texttt{ arXiv:1007.1727}}.
 
 \bibitem{Chatrchyan:2012wa}
-\hrefCMSnoop {} {{ CMS Collaboration} Collaboration, ``{Search for
-  supersymmetry in final states with missing transverse energy and 0, 1, 2, or
-  at least 3 b-quark jets in 7 TeV pp collisions using the variable alphaT}'',}
-  \textit{ JHEP} \textbf{ 1301} (2013) 077,
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in final
+  states with missing transverse energy and 0, 1, 2, or at least 3 b-quark jets
+  in 7 TeV pp collisions using the variable $\alpha_T$}'',} \textit{ JHEP}
+  \textbf{ 1301} (2013) 077,
   \href{http://dx.doi.org/10.1007/JHEP01(2013)077}{\doi{10.1007/JHEP01(2013)077}},
 \href{http://www.arXiv.org/abs/1210.8115}{\texttt{ arXiv:1210.8115}}.
 %%CITATION = ARXIV:1210.8115;%%.
 
-\bibitem{Hardy:2013ywa}
-\hrefCMSnoop {} {E.~Hardy, ``{Is Natural SUSY Natural?}'',} \textit{ JHEP}
-  \textbf{ 1310} (2013) 133,
-  \href{http://dx.doi.org/10.1007/JHEP10(2013)133}{\doi{10.1007/JHEP10(2013)133}},
-\href{http://www.arXiv.org/abs/1306.1534}{\texttt{ arXiv:1306.1534}}.
-%%CITATION = ARXIV:1306.1534;%%.
+\bibitem{Chatrchyan:2014lfa}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for new physics in the
+  multijet and missing transverse momentum final state in proton-proton
+  collisions at $\sqrt{s}$ = 8 TeV}'',}
+\href{http://www.arXiv.org/abs/1402.4770}{\texttt{ arXiv:1402.4770}}.
+%%CITATION = ARXIV:1402.4770;%%.
+
+\bibitem{Chatrchyan:2013fea}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for new physics in events with
+  same-sign dileptons and jets in pp collisions at $\sqrt{s}$ = 8 TeV}'',}
+  \textit{ JHEP} \textbf{ 1401} (2014) 163,
+  \href{http://dx.doi.org/10.1007/JHEP01(2014)163}{\doi{10.1007/JHEP01(2014)163}},
+\href{http://www.arXiv.org/abs/1311.6736}{\texttt{ arXiv:1311.6736}}.
+%%CITATION = ARXIV:1311.6736;%%.
+
+\bibitem{Chatrchyan:2013iqa}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in pp
+  collisions at $\sqrt{s}$ = 8 TeV in events with a single lepton, large jet
+  multiplicity, and multiple b jets}'',}
+\href{http://www.arXiv.org/abs/1311.4937}{\texttt{ arXiv:1311.4937}}.
+%%CITATION = ARXIV:1311.4937;%%.
 
 \end{thebibliography}\endgroup

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  20 MAR 2014 18:51
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  31 MAR 2014 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1903,23 +1903,16 @@ File: plots/jetpt_RunC_pfpu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_pfpu.pdf> [43 <./plots/jetpt_RunC_calopu.pdf, page is rot
 ated 90 degrees> <./plots/jetpt_RunC_pfpu.pdf, page is rotated 90 degrees>]
-<plots/res_CaloJet_summary.pdf, id=2552, 569.12625pt x 200.75pt>
+[44] <plots/res_CaloJet_summary.pdf, id=2557, 569.12625pt x 200.75pt>
 File: plots/res_CaloJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloJet_summary.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots/res_PFJet_summary.pdf, id=2555, 569.12625pt x 203.76125pt>
+<plots/res_PFJet_summary.pdf, id=2560, 569.12625pt x 203.76125pt>
 File: plots/res_PFJet_summary.pdf Graphic file (type pdf)
 
-<use plots/res_PFJet_summary.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[44]) (./chap_alphat.tex [45 <./plots/res_CaloJet_summary.pdf, page is rotated 
-90 degrees> <./plots/res_PFJet_summary.pdf, page is rotated 90 degrees>]
-[46]
+<use plots/res_PFJet_summary.pdf> [45 <./plots/res_CaloJet_summary.pdf, page is
+ rotated 90 degrees> <./plots/res_PFJet_summary.pdf, page is rotated 90 degrees
+>]) (./chap_alphat.tex [46]
 Chapter 4.
 [47
 
@@ -2872,7 +2865,7 @@ Appendix A.
 
 ] [128]
 Appendix B.
-<plots/leadjet_matchingeff.pdf, id=5848, 569.12625pt x 474.77374pt>
+<plots/leadjet_matchingeff.pdf, id=5856, 569.12625pt x 474.77374pt>
 File: plots/leadjet_matchingeff.pdf Graphic file (type pdf)
 
 <use plots/leadjet_matchingeff.pdf> [129
@@ -2882,27 +2875,27 @@ Overfull \hbox (2.79747pt too wide) in alignment at lines 101--106
 [][][] 
  []
 
-<plots/calo_ptresolution_low.pdf, id=5899, 569.12625pt x 265.99374pt>
+<plots/calo_ptresolution_low.pdf, id=5907, 569.12625pt x 265.99374pt>
 File: plots/calo_ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_low.pdf>
-<plots/calo_ptresolution_medium.pdf, id=5900, 569.12625pt x 265.99374pt>
+<plots/calo_ptresolution_medium.pdf, id=5908, 569.12625pt x 265.99374pt>
 File: plots/calo_ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_medium.pdf>
-<plots/calo_ptresolution_high.pdf, id=5901, 569.12625pt x 266.9975pt>
+<plots/calo_ptresolution_high.pdf, id=5909, 569.12625pt x 266.9975pt>
 File: plots/calo_ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_high.pdf>
-<plots/pf_ptresolution_low.pdf, id=5904, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_low.pdf, id=5912, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_low.pdf>
-<plots/pf_ptresolution_medium.pdf, id=5905, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_medium.pdf, id=5913, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_medium.pdf>
-<plots/pf_ptresolution_high.pdf, id=5906, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_high.pdf, id=5914, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_high.pdf> [130 <./plots/calo_ptresolution_low.pdf, p
@@ -2910,25 +2903,25 @@ age is rotated 90 degrees>] [131 <./plots/calo_ptresolution_medium.pdf, page is
  rotated 90 degrees> <./plots/calo_ptresolution_high.pdf, page is rotated 90 de
 grees>] [132 <./plots/pf_ptresolution_low.pdf, page is rotated 90 degrees> <./p
 lots/pf_ptresolution_medium.pdf, page is rotated 90 degrees>]
-<plots/res_CaloHT_summary_v2.pdf, id=6141, 569.12625pt x 158.5925pt>
+<plots/res_CaloHT_summary_v2.pdf, id=6149, 569.12625pt x 158.5925pt>
 File: plots/res_CaloHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_CaloHT_summary_v2.pdf>
-<plots/res_pfHT_summary_v2.pdf, id=6144, 569.12625pt x 157.58875pt>
+<plots/res_pfHT_summary_v2.pdf, id=6152, 569.12625pt x 157.58875pt>
 File: plots/res_pfHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_pfHT_summary_v2.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_CaloMHT_summary_v2.pdf, id=6147, 569.12625pt x 151.56625pt>
+<plots/res_CaloMHT_summary_v2.pdf, id=6155, 569.12625pt x 151.56625pt>
 File: plots/res_CaloMHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMHT_summary_v2.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMHT_summary_v2.pdf, id=6150, 569.12625pt x 149.55875pt>
+<plots/res_pfMHT_summary_v2.pdf, id=6158, 569.12625pt x 149.55875pt>
 File: plots/res_pfMHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_pfMHT_summary_v2.pdf>
@@ -2956,7 +2949,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
 
-<plots/qcd_sideband_fits.pdf, id=6377, 373.43344pt x 310.87201pt>
+<plots/qcd_sideband_fits.pdf, id=6385, 373.43344pt x 310.87201pt>
 File: plots/qcd_sideband_fits.pdf Graphic file (type pdf)
 
 <use plots/qcd_sideband_fits.pdf>
@@ -2968,19 +2961,19 @@ See the caption package documentation for explanation.
 [135
 
  <./plots/qcd_sideband_fits.pdf>]
-<plots/syst-le3j_nominal.pdf, id=6454, 217.45613pt x 137.52158pt>
+<plots/syst-le3j_nominal.pdf, id=6462, 217.45613pt x 137.52158pt>
 File: plots/syst-le3j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_nominal.pdf>
-<plots/syst-le3j_varied.pdf, id=6455, 217.45612pt x 137.52168pt>
+<plots/syst-le3j_varied.pdf, id=6463, 217.45612pt x 137.52168pt>
 File: plots/syst-le3j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_varied.pdf>
-<plots/syst-ge4j_nominal.pdf, id=6456, 217.45612pt x 137.52158pt>
+<plots/syst-ge4j_nominal.pdf, id=6464, 217.45612pt x 137.52158pt>
 File: plots/syst-ge4j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_nominal.pdf>
-<plots/syst-ge4j_varied.pdf, id=6457, 217.45612pt x 137.52168pt>
+<plots/syst-ge4j_varied.pdf, id=6465, 217.45612pt x 137.52168pt>
 File: plots/syst-ge4j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_varied.pdf>
@@ -3011,21 +3004,21 @@ Package Fancyhdr Warning: \headheight is too small (20.625pt):
 Appendix D.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_
-mult_3.pdf, id=7009, 569.12625pt x 363.3575pt>
+mult_3.pdf, id=7017, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_
 jet_mult_3.pdf>
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet
-_mult_3.pdf, id=7010, 569.12625pt x 363.3575pt>
+_mult_3.pdf, id=7018, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_37
 5_jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf>
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_
-mult_3.pdf, id=7011, 569.12625pt x 363.3575pt>
+mult_3.pdf, id=7019, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf Graphic file (type pdf)
 
@@ -3045,21 +3038,21 @@ Package Fancyhdr Warning: \headheight is too small (20.625pt):
 To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_mult_3.pdf, page is rotated 9
 0 degrees>]
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_
-mult_4.pdf, id=7152, 569.12625pt x 363.3575pt>
+mult_4.pdf, id=7160, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_
 jet_mult_4.pdf>
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet
-_mult_4.pdf, id=7153, 569.12625pt x 363.3575pt>
+_mult_4.pdf, id=7161, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_37
 5_jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf>
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_
-mult_4.pdf, id=7154, 569.12625pt x 363.3575pt>
+mult_4.pdf, id=7162, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf Graphic file (type pdf)
 
@@ -3077,42 +3070,42 @@ o_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_4.pdf, page is rotated 9
 0 degrees> <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Temp
 late_375_jet_mult_4.pdf, page is rotated 90 degrees>]
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.pdf, 
-id=7288, 569.12625pt x 363.3575pt>
+id=7296, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.p
 df>
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.pdf, 
-id=7289, 569.12625pt x 363.3575pt>
+id=7297, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.p
 df>
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.pdf, 
-id=7290, 569.12625pt x 363.3575pt>
+id=7298, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.p
 df>
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.pdf, 
-id=7291, 569.12625pt x 363.3575pt>
+id=7299, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.p
 df>
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.pdf, 
-id=7292, 569.12625pt x 363.3575pt>
+id=7300, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.p
 df>
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.pdf, 
-id=7293, 569.12625pt x 363.3575pt>
+id=7301, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.
 pdf Graphic file (type pdf)
 
@@ -3134,21 +3127,21 @@ _HTbin_Template_375_jet_mult_5_num_param_3.pdf, page is rotated 90 degrees> <./
 plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.pdf, p
 age is rotated 90 degrees>]
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mu
-lt_3.pdf, id=7562, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7570, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_je
 t_mult_3.pdf>
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mu
-lt_3.pdf, id=7563, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7571, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_je
 t_mult_3.pdf>
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_j
-et_mult_3.pdf, id=7564, 569.12625pt x 363.3575pt>
+et_mult_3.pdf, id=7572, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 375_jet_mult_3.pdf Graphic file (type pdf)
 
@@ -3166,21 +3159,21 @@ Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_3.pdf, page is rotated 90 deg
 rees> <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Templa
 te_375_jet_mult_3.pdf, page is rotated 90 degrees>]
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mu
-lt_4.pdf, id=7701, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7709, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_je
 t_mult_4.pdf>
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mu
-lt_4.pdf, id=7702, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7710, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_je
 t_mult_4.pdf>
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_j
-et_mult_4.pdf, id=7703, 569.12625pt x 363.3575pt>
+et_mult_4.pdf, id=7711, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 375_jet_mult_4.pdf Graphic file (type pdf)
 
@@ -3198,42 +3191,42 @@ Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_4.pdf, page is rotated 90 deg
 rees> <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Templa
 te_375_jet_mult_4.pdf, page is rotated 90 degrees>]
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mu
-lt_3.pdf, id=7841, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7849, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_je
 t_mult_3.pdf>
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_m
-ult_3.pdf, id=7842, 569.12625pt x 363.3575pt>
+ult_3.pdf, id=7850, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_
 jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_j
 et_mult_3.pdf>
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mu
-lt_3.pdf, id=7843, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7851, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_je
 t_mult_3.pdf>
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mu
-lt_4.pdf, id=7847, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7855, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_je
 t_mult_4.pdf>
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_m
-ult_4.pdf, id=7848, 569.12625pt x 363.3575pt>
+ult_4.pdf, id=7856, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_
 jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_j
 et_mult_4.pdf>
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mu
-lt_4.pdf, id=7849, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7857, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
@@ -3295,13 +3288,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28967 strings out of 493747
- 477100 string characters out of 3143546
- 662254 words of memory out of 3000000
- 30568 multiletter control sequences out of 15000+200000
- 42632 words of font info for 251 fonts, out of 3000000 for 9000
+ 28975 strings out of 493747
+ 477236 string characters out of 3143546
+ 662333 words of memory out of 3000000
+ 30572 multiletter control sequences out of 15000+200000
+ 42741 words of font info for 252 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 57i,26n,59p,1194b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,26n,59p,1148b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{table.C.1} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -3450,10 +3443,10 @@ st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts
 urw/helvetic/uhvr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on mythesis.pdf (173 pages, 8169761 bytes).
+Output written on mythesis.pdf (173 pages, 8172412 bytes).
 PDF statistics:
- 8507 PDF objects out of 8907 (max. 8388607)
- 5752 compressed objects within 58 object streams
- 648 named destinations out of 1000 (max. 500000)
+ 8523 PDF objects out of 8907 (max. 8388607)
+ 5768 compressed objects within 58 object streams
+ 650 named destinations out of 1000 (max. 500000)
  31606 words of extra memory for PDF output out of 35830 (max. 10000000)
 

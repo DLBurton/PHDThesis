@@ -10,50 +10,52 @@ Warning--empty institution in LHClumo
 Warning--empty author and editor in CMS_ECAL_TDR
 Warning--empty author and editor in CMS_MUON_TDR
 Warning--empty author in CMS-PAS-JME-10-003
+Warning--empty school in Shorney-Mathias:1641954
 Warning--empty institution in CMS:2008vya
 Warning--empty institution in btagscalefactor
+Warning--empty school in Laird:2012mla
 Warning--empty publisher in logndistribution
 Warning--empty booktitle in 2010acat.confE..57M
 Warning--empty institution in Read:451614
-You've used 100 entries,
+You've used 102 entries,
             2529 wiz_defined-function locations,
-            1285 strings with 21751 characters,
-and the built_in function-call counts, 22855 in all, are:
-= -- 2392
-> -- 519
-< -- 13
-+ -- 198
-- -- 98
-* -- 2213
-:= -- 2985
-add.period$ -- 162
-call.type$ -- 100
+            1291 strings with 22575 characters,
+and the built_in function-call counts, 22570 in all, are:
+= -- 2389
+> -- 395
+< -- 14
++ -- 161
+- -- 59
+* -- 2210
+:= -- 2909
+add.period$ -- 167
+call.type$ -- 102
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 112
-duplicate$ -- 1494
-empty$ -- 2569
-format.name$ -- 107
-if$ -- 5868
+cite$ -- 116
+duplicate$ -- 1508
+empty$ -- 2590
+format.name$ -- 78
+if$ -- 5793
 int.to.chr$ -- 0
-int.to.str$ -- 100
+int.to.str$ -- 102
 missing$ -- 232
-newline$ -- 407
-num.names$ -- 64
-pop$ -- 602
+newline$ -- 420
+num.names$ -- 63
+pop$ -- 608
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 479
+skip$ -- 486
 stack$ -- 0
 substring$ -- 371
-swap$ -- 395
-text.length$ -- 13
+swap$ -- 397
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 100
-width$ -- 103
-write$ -- 1143
-(There were 12 warnings)
+warning$ -- 14
+while$ -- 99
+width$ -- 105
+write$ -- 1164
+(There were 14 warnings)
