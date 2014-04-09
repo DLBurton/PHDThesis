@@ -391,6 +391,10 @@ M.~Cacciari\hrefCMSnoop {} { {et~al.}, ``The anti-k{$_{t}$} jet clustering
   and high-level trigger}'',}.
 %%CITATION = CERN-LHCC-2002-026 ETC.;%%.
 
+\bibitem{Iles:1028171}
+\hrefCMSnoop {} {G.~Iles, Brooke {et~al.}, ``Revised CMS Global Calorimeter
+  Trigger Functionality \& Algorithms'',}.
+
 \bibitem{L1JEC}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{ Calibration and Performance of the
   Jets and Energy Sums in the Level-1 Trigger}'',}  CMS IN 2013/006 (2013),
@@ -433,7 +437,7 @@ B.~Mathias\hrefCMSnoop {} { {et~al.}, ``Study of Level-1 Trigger Jet
 \bibitem{CMS-PAS-SUS-09-001}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search strategy for exclusive
   multi-jet events from supersymmetry at CMS}'',}  CMS-PAS-SUS-09-001, CERN,
-  2009. Geneva, (Jul, 2009).
+  (Jul, 2009).
 
 \bibitem{btagscalefactor}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Btag POG : CMS b-tagging
@@ -442,8 +446,7 @@ B.~Mathias\hrefCMSnoop {} { {et~al.}, ``Study of Level-1 Trigger Jet
 
 \bibitem{CMS-PAS-JME-09-008}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Calorimeter Jet Quality Criteria for
-  the First CMS Collision Data}'',}  CMS-PAS-JME-09-008, CERN, 2010. Geneva,
-  (Apr, 2010).
+  the First CMS Collision Data}'',}  CMS-PAS-JME-09-008, CERN, (Apr, 2010).
 
 \bibitem{2012JInst...7P0002T}
 \hrefCMSnoop {} {{CMS Collaboration}, ``{Performance of CMS muon reconstruction
@@ -479,7 +482,7 @@ Z.~Bern\hrefCMSnoop {} { {et~al.}, ``{Driving Missing Data at Next-to-Leading
 \bibitem{CMS-PAS-SUS-08-002}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Data-Driven Estimation of the
   Invisible Z Background to the SUSY MET Plus Jets Search}'',}
-  CMS-PAS-SUS-08-002, CERN, 2009. Geneva, (Jan, 2009).
+  CMS-PAS-SUS-08-002, CERN, (Jan, 2009).
 
 \bibitem{Sjostrand:2006za}
 T.~Sjostrand\hrefCMSnoop {} { {et~al.}, ``{PYTHIA 6.4 Physics and Manual}'',}

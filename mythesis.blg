@@ -17,45 +17,45 @@ Warning--empty school in Laird:2012mla
 Warning--empty publisher in logndistribution
 Warning--empty booktitle in 2010acat.confE..57M
 Warning--empty institution in Read:451614
-You've used 102 entries,
+You've used 103 entries,
             2529 wiz_defined-function locations,
-            1291 strings with 22575 characters,
-and the built_in function-call counts, 22570 in all, are:
-= -- 2389
-> -- 395
+            1295 strings with 22685 characters,
+and the built_in function-call counts, 22721 in all, are:
+= -- 2398
+> -- 408
 < -- 14
-+ -- 161
-- -- 59
-* -- 2210
-:= -- 2909
-add.period$ -- 167
-call.type$ -- 102
++ -- 165
+- -- 62
+* -- 2217
+:= -- 2930
+add.period$ -- 168
+call.type$ -- 103
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 1508
-empty$ -- 2590
-format.name$ -- 78
-if$ -- 5793
+cite$ -- 117
+duplicate$ -- 1517
+empty$ -- 2606
+format.name$ -- 81
+if$ -- 5830
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 232
-newline$ -- 420
-num.names$ -- 63
-pop$ -- 608
+int.to.str$ -- 103
+missing$ -- 235
+newline$ -- 423
+num.names$ -- 64
+pop$ -- 618
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 486
+skip$ -- 487
 stack$ -- 0
 substring$ -- 371
-swap$ -- 397
+swap$ -- 398
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 14
-while$ -- 99
-width$ -- 105
-write$ -- 1164
+while$ -- 100
+width$ -- 106
+write$ -- 1168
 (There were 14 warnings)

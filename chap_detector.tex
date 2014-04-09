@@ -145,7 +145,7 @@ The jets reconstructed by the clustering algorithm in \ac{CMS} typically have an
 \subsection{B-tagging}
 \label{subsec:cmsobjects-btagging}
 
-The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\mathcal{O}$ 1ps. The identification of jets originating from b quarks is very important for searches for new physics and for measurements of \ac{SM} processes.  \\
+The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\sim$ 1ps. The identification of jets originating from b quarks is very important for searches for new physics and for measurements of \ac{SM} processes.  \\
 
 Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as; the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. 
 
@@ -218,7 +218,7 @@ The \ac{L1} is a pipelined, dead-timeless system based on custom-built electroni
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.75\textwidth]{plots/l1triggersystem.pdf}
-\caption[The \ac{CMS} \ac{L1} Trigger system.]{The \ac{CMS} \ac{L1} Trigger system.}  
+\caption[An overview of the different components of the \ac{CMS} \L1 trigger system]{An overview of the different components of the \ac{CMS} \L1 trigger system, showing the global calorimeter, muon triggers, and the global trigger.}  
 \label{fig:l1triggersystem}
 \end{figure}
 
@@ -255,35 +255,37 @@ One such method introduced to help maintain low triggering thresholds, was via t
 \subsection{The \L1 Trigger Jet Algorithm}
 \label{subsec:l1jettrigger}
 
-The \L1 jet algorithm clusters jets using the transverse energy sums computed by the calorimeter trigger regions. Each region consists of $4 \times 4 $ trigger tower windows which within the \ac{CMS} barrel spans a region of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ in pseudorapidity-azimuth. The jet trigger uses a $3 \times 3$ calorimeter region (144 trigger towers) sliding window technique, as shown on the left of Figure \ref{fig:l1jetalgo}. 
+The \L1 jet algorithm clusters jets using the transverse energy sums computed by the calorimeter trigger regions. Each region consists of  a $4 \times 4 $ trigger tower window which within the \ac{CMS} barrel spans a region of $\Delta \eta \times \Delta \phi = 0.087 \times 0.087$ in pseudorapidity-azimuth. 
 
-To increase the speed at which jets are clustered, 18 jet finders operate simultaneously over the whole detector. In order to reduce the total data duplicated and shared between these jet finders, the \ac{GCT} employs a pre-clustering algorithm which then only share information with neighbouring regions when clustered jets are found.
-
-A jet candidate is created when the sum of the \ac{HCAL} and \ac{ECAL} energies of the central calorimeter region has an energy deposit larger than all of its neighbouring regions $E_{\text{T central}} > E_{\text{T surround}}$.  During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw, uncorrected energy of the calorimeter regions and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
-
-The \L1 jets are characterised by the $\et$, summed over the $3 \times 3$ calorimeter regions, which corresponds to $12 \times 12$ trigger towers in barrel and endcap, or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by the $(\eta, \phi)$ indices of the central calorimeter region.                                                                                                                                                  
-
-The \ac{GCT} also determines whether or not a $\tau$-veto bit has been set for each calorimeter region. This depends on whether the energy depositions in up to 4 contiguous trigger towers are below a programmable fraction of the regional $E_{T}$, see Figure \ref{fig:l1jetalgo} (right). These topologies are due to the hadronic decay modes of the $\tau$ containing one or three isolated pions. Any jet candidate that has energy deposits spread throughout the trigger towers in a calorimeter region is likely not from one or three isolated pions and the $\tau$-veto bit is set.
-
-Jets with $3.0<|\eta|<5.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as either a central or $\tau$-jet depending on the outcome of the setting of the $\tau$-veto bits. The four highest energy central, forward and $\tau$-jets in the calorimeter are further passed through \acf{LUT}s, which apply a programmable $\eta-$dependent jet energy scale correction. Finally these jet objects are passed to the \ac{GT} to make \L1 trigger decisions.
+A \L1 jet is defined by a $3 \times 3$ window of calorimeter regions, as shown in Figure \ref{fig:l1jetalgo}. This corresponds to $12 \times 12$ trigger towers in barrel and endcap, or $3 \times 3$ larger \ac{HF} towers in the \ac{HF}. The $\phi$ size of the jet window is the same everywhere, whilst the $\eta$ binning gets somewhat larger at high $\eta$ due to calorimeter and trigger tower segmentation. The jets are labelled by the $(\eta, \phi)$ indices of the central calorimeter region.   
 
 \begin{figure}[ht!]
 \centering
-\includegraphics{plots/L1JetAlgorithm.pdf}
-\caption[Illustration of the Level-1 jet finding algorithm.]{Illustration of the Level-1 jet finding algorithm. Each cell represents a trigger tower, which is the sum of the transverse energy contributions from both calorimeter systems. The $\tau$-jet veto patterns for the central calorimeter region are displayed on the right.
-}  
+\includegraphics[width=0.55\textwidth]{plots/L1JetAlgorithm_v2.pdf}
+\caption[Illustration of the dimensions of the Level-1 jet finder window.]{Illustration of the dimensions of the Level-1 jet finder window. Each cell represents a trigger tower, which is the sum of the transverse energy contributions from both calorimeter systems.}  
 \label{fig:l1jetalgo}
 \end{figure}  
+
+
+A jet candidate is identified if the sum of the transverse \ac{ECAL} and \ac{HCAL} energies of a calorimeter region is larger than all of its 8 neighbouring regions $E_{\text{T central}} > E_{\text{T surround}}$. The jet is then centred at this central calorimeter region. 
+
+During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw, uncorrected energy of the calorimeter regions and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
+
+To decrease the amount of data shared the \ac{GCT} utilises a pre-clustering algorithm, which employs 18 jet-finders that operate simultaneously over the whole detector. Each jet-finder spans an area of 11 calorimeter regions in $\eta$ (half the detector) and two in $\phi$ (40$\degree$).  In order to reduce the total data duplicated and shared between these jet-finders, jets are initially created in $2\times 3$ mini-clusters. Information is only shared with the two $\phi$ strips of the neighbouring jet-finders when these mini-clusters jets are found, and is used to form a clustered $3 \times 3$ \L1 jet object. Additional information on this clustering algorithm can be found at \cite{Iles:1028171}.  
+
+Within the $|\eta| <$ 3 region, the \ac{GCT} also determines whether is jet is to be classified as a $\tau$ or central jet. The hadronic decay modes of the $\tau$ typically contain one or three isolated pions, thus leading to more collimated energy deposits with fewer constituents than non-\tau jets. Therefore, for a jet candidate to be classed as a $\tau$ jet, up to a maximum of one of the eight calorimeter regions neighbouring the central jet seed is permitted to have a transverse energy, $\et$, above some programmable isolation threshold. 
+
+Jets found between $3.0<|\eta|<5.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as either a central or $\tau$-jet. The four highest energy central, forward and $\tau$-jets in the calorimeter are further passed through \acf{LUT}s, which apply a programmable $\eta-$dependent jet energy scale correction. Finally these jet objects are passed to the \ac{GT} to make \L1 trigger decisions.
 
 The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. Jets are corrected for pile-up and detector effects as described in Section (\ref{subsec:cmsobjects-jets}). A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose'' identification criteria for both \Calo and \PF. These jet criteria are listed in Appendix (\ref{app:jetcriteria}). 
 
 
-\subsection{Measuring \L1 Jet Trigger Efficiencies}
+\subsection{Measuring \L1 Single-Jet Trigger Efficiencies}
 \label{subsec:l1jettrigeff}
 
-The \L1 jet efficiency is defined as the fraction of leading offline jets which were matched with a L1 $\tau$- or central jet above a certain trigger threshold, divided by all events in the sample with at least a single offline jet above threshold. 
+The efficiency of a \L1 single-jet trigger at an offline reconstructed jet \et is defined as; the fraction of events in a sample containing at least a single reconstructed offline jet, where the leading offline jet is matched with a L1 central or $\tau$ jet that also has a measured \L1 energy above the trigger threshold being benchmarked.
 
-The efficiency is determined by matching the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  The $\Delta R$ separation between the highest offline reconstructed jet  ($\et > 10$ \GeV and $\lvert\eta\rvert<3$) and each \L1 jet in the event is calculated. A match is made to the \L1 jet with the minimum $\Delta R$ to the reconstructed jet on the condition that it also satisfies $\Delta R < 0.5$. 
+A match is determined by comparing the \L1 and reconstructed offline jets spatially in $\eta - \phi$ space.  The $\Delta R$ separation between the highest offline reconstructed jet  ($\et > 10$ \GeV and $\lvert\eta\rvert<3$) and each \L1 jet in the event is calculated. A match is made to the \L1 jet with the minimum $\Delta R$ to the reconstructed jet on the condition that it also satisfies $\Delta R < 0.5$. 
 
 The matching efficiency for this procedure is found to be close to 100$\%$ above an offline jet threshold of 30(45) GeV for the run 2012B(C) data taking period (see Appendix \ref{app:jetmatching}).
 
