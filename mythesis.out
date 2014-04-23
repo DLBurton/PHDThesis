@@ -61,25 +61,26 @@
 \BOOKMARK [2][-]{subsection.5.2.2}{Interpretation in Simplified Signal Models}{section.5.2}% 61
 \BOOKMARK [0][-]{chapter.6}{SUSY Searches with B-tag Templates}{}% 62
 \BOOKMARK [1][-]{section.6.1}{Concept}{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.2}{ Application to the T Search}{chapter.6}% 64
-\BOOKMARK [2][-]{subsection.6.2.1}{Proof of Principle in Simulation}{section.6.2}% 65
-\BOOKMARK [2][-]{subsection.6.2.2}{Results in a Data Control Sample}{section.6.2}% 66
-\BOOKMARK [2][-]{subsection.6.2.3}{Application to the T Hadronic Search Region}{section.6.2}% 67
-\BOOKMARK [1][-]{section.6.3}{Summary}{chapter.6}% 68
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 69
-\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 70
-\BOOKMARK [1][-]{section.A.1}{Jet Identification Criteria}{appendix.A}% 71
-\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 72
-\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 73
-\BOOKMARK [1][-]{section.B.1}{Jet Matching Efficiencies}{appendix.B}% 74
-\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 75
-\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 76
-\BOOKMARK [0][-]{appendix.C}{Additional Material on Background Estimation Methods}{}% 77
-\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 78
-\BOOKMARK [1][-]{section.C.2}{Effect of Varying Background Cross-sections on Closure Tests }{appendix.C}% 79
-\BOOKMARK [0][-]{appendix.D}{Additional Material For B-tag Template Method}{}% 80
-\BOOKMARK [1][-]{section.D.1}{Templates Fits in Simulation}{appendix.D}% 81
-\BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 82
-\BOOKMARK [1][-]{section.D.3}{Templates Fits in Data Control Sample}{appendix.D}% 83
-\BOOKMARK [1][-]{section.D.4}{Templates Fits in Data Signal Region}{appendix.D}% 84
-\BOOKMARK [0][-]{appendix*.121}{Bibliography}{}% 85
+\BOOKMARK [2][-]{subsection.6.1.1}{Fitting Procedure}{section.6.1}% 64
+\BOOKMARK [1][-]{section.6.2}{ Application to the T Search}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.2.1}{Proof of Principle in Simulation}{section.6.2}% 66
+\BOOKMARK [2][-]{subsection.6.2.2}{Results in a Data Control Sample}{section.6.2}% 67
+\BOOKMARK [2][-]{subsection.6.2.3}{Application to the T Hadronic Search Region}{section.6.2}% 68
+\BOOKMARK [1][-]{section.6.3}{Summary}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 70
+\BOOKMARK [0][-]{appendix.A}{Miscellaneous}{}% 71
+\BOOKMARK [1][-]{section.A.1}{Jet Identification Criteria}{appendix.A}% 72
+\BOOKMARK [1][-]{section.A.2}{Primary Vertices}{appendix.A}% 73
+\BOOKMARK [0][-]{appendix.B}{L1 Jets}{}% 74
+\BOOKMARK [1][-]{section.B.1}{Jet Matching Efficiencies}{appendix.B}% 75
+\BOOKMARK [1][-]{section.B.2}{Leading Jet Energy Resolution}{appendix.B}% 76
+\BOOKMARK [1][-]{section.B.3}{Resolution for Energy Sum Quantities}{appendix.B}% 77
+\BOOKMARK [0][-]{appendix.C}{Additional Material on Background Estimation Methods}{}% 78
+\BOOKMARK [1][-]{section.C.1}{Determination of kQCD}{appendix.C}% 79
+\BOOKMARK [1][-]{section.C.2}{Effect of Varying Background Cross-sections on Closure Tests }{appendix.C}% 80
+\BOOKMARK [0][-]{appendix.D}{Additional Material For B-tag Template Method}{}% 81
+\BOOKMARK [1][-]{section.D.1}{Templates Fits in Simulation}{appendix.D}% 82
+\BOOKMARK [1][-]{section.D.2}{Pull Distributions for Template Fits}{appendix.D}% 83
+\BOOKMARK [1][-]{section.D.3}{Templates Fits in Data Control Sample}{appendix.D}% 84
+\BOOKMARK [1][-]{section.D.4}{Templates Fits in Data Signal Region}{appendix.D}% 85
+\BOOKMARK [0][-]{appendix*.121}{Bibliography}{}% 86

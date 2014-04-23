@@ -6,7 +6,7 @@ Probing the \ac{SM} for signs of new physics would not be possible without the i
 \section{The LHC}
 \label{sec:thelhc} 
 
-The \ac{lhc} is a storage ring, accelerator, and collider of circulating beams of protons or ions. Housed in the tunnel dug for \acf{LEP}, it is approximately 27km in circumference, 100m underground, and straddles the border between France and Switzerland, outside of Geneva. It is currently the only collider in operation that is able to study physics at the TeV scale.  A double-ring circular synchrotron, it was
+The \ac{lhc} is a storage ring, accelerator, and collider of circulating beams of protons or ions. Housed in the tunnel dug for the \acf{LEP}, it is approximately 27km in circumference, 100m underground, and straddles the border between France and Switzerland, outside of Geneva. It is currently the only collider in operation that is able to study physics at the TeV scale.  A double-ring circular synchrotron, it was
 designed to collide both proton-proton (pp) and heavy ion (PbPb) with a centre of mass energy $\sqrt{s} = $ 14 \TeV at a final design luminosity of $10^{34}$cm$^{-2}$s$^{-1}$. \\
 
 These counter-circulating beams of protons or Pb ions are merged in four sections around the ring to enable collisions of the beams, with each interaction point being home to one of the four major experiments; \acf{ALICE} \cite{alicetdr}, \acf{ATLAS} \cite{atlastdr}, \acf{CMS} \cite{cmstdr} and \acf{LHCb} \cite{lhcbtdr} which record the resultant collisions. The layout of the \ac{lhc} ring is shown in Figure \ref{fig:lhc-ring}. The remaining four sections contain acceleration, collimation and beam dump systems. In the eight arc sections, the beams are steered by magnetic fields of up to 8 \T provided by super conduction dipole magnets, which are maintained at temperatures of 2 \K using superfluid helium. Additional magnets for focusing and corrections are also present in straight sections within the arcs and near the interaction regions where the detectors are situated. \\
@@ -40,7 +40,7 @@ In the early phase of prolonged operation, after the initial shutdown, the machi
 
 The \acf{CMS} detector is one of two general purpose detectors at the \ac{lhc} designed to search for new physics. The detector is designed to provide efficient identification and measurement of many physics objects including photons, electrons, muons, taus, and hadronic showers over wide ranges of transverse momentum and direction. Its nearly 4$\pi$ coverage in solid angle allows for accurate measurement of global transverse momentum imbalance. These design factors give \ac{CMS} the ability to search for direct production of \ac{SUSY} particles at the \TeV scale, making the search for Supersymmetric particles one of the highest priorities among the wide range of physics programmes at \ac{CMS}. 
 
-\ac{CMS} uses a right-handed Cartesian coordinate system with the origin at the interaction point and the z-axis pointing along the beam axis. The x-axis points radially inwards to the centre of the collider ring, with the y-axis points vertically upward. The azimuthal angle $\phi$, ranging between [$-\pi$,$\pi$], is defined in the x-y plane starting from the x-axis. The polar angle $\theta$ is measured from the z axis. The common convention in particle physics is to express an out-going particle in terms of $\phi$ and its pseudorapidity defined as
+\ac{CMS} uses a right-handed Cartesian coordinate system with the origin at the interaction point and the z-axis pointing along the beam axis. The x-axis points radially inwards to the centre of the collider ring, with the y-axis pointing vertically upward. The azimuthal angle $\phi$, ranging between [$-\pi$,$\pi$], is defined in the x-y plane starting from the x-axis. The polar angle $\theta$ is measured from the z axis. The common convention in particle physics is to express an out-going particle in terms of $\phi$ and its pseudorapidity defined as
 
 \begin{equation}
 \eta = -\log\tan\left(\frac{\theta}{2}\right).
@@ -145,7 +145,7 @@ The jets reconstructed by the clustering algorithm in \ac{CMS} typically have an
 \subsection{B-tagging}
 \label{subsec:cmsobjects-btagging}
 
-The decays of b quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b quarks, are relatively long; $\sim$ 1ps. The identification of jets originating from b quarks is very important for searches for new physics and for measurements of \ac{SM} processes.  \\
+The decays of b-quarks are suppressed by small \CKM matrix elements. As a result, the lifetimes of b-flavoured hadrons, produced in the fragmentation of b-quarks, are relatively long; $\sim$ 1ps. The identification of jets originating from b-quarks is very important for searches for new physics and for measurements of \ac{SM} processes.  \\
 
 Many different algorithms developed by \ac{CMS} select b-quark jets based on variables such as; the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. 
 
@@ -172,11 +172,11 @@ The b-tagging performance is evaluated to measure the b-jet tagging efficiency \
 SF_{b,c,s} = \frac{\epsilon^{data}_{b,c,s}}{\epsilon^{MC}_{b,c,s}} .
 \end{equation}
 
-These are collectively named `Btag Scale Factors' and allow MC simulation to accurately reflect the running conditions and performance of the tagging algorithm in data. Understanding of the b-tagging efficiency is essential in order to minimise systematic uncertainties in physics analyses that employ b-tagging. \\
+These are collectively named `Btag Scale Factors' and allow MC simulation to accurately reflect the running conditions and performance of the tagging algorithm in data. A good understanding of the tagging efficiency for each of the jet flavours is essential in order to minimise systematic uncertainties in physics analyses that employ b-tagging. \\
  
 The b-tagging efficiency is measured in data using several methods applied to multi-jet events, primarily based on a sample of jets enriched in heavy flavour content. One method requires the collection of events with a poorly isolated muon within a cone $\Delta R < 0.4$ around the jet axis. Due to the semi-leptonic branching fraction of b hadrons being significantly larger than that for other hadrons, these jets are more likely to arise from b quarks than from another flavour. The resultant momentum component of the muon, transverse to the jet axis, is larger in b-hadron decays than from light or charm flavoured jets.  
 
-Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b quark content of these events. The methods to identify b-jets in data are discussed in great detail at \cite{btag7tev}. The jet flavours within simulation are determined using truth level information and are compared to data to determine the appropriate correction scale factors ($SF_{b}$). These are displayed for the \ac{CSVM} tagger in Figure \ref{fig:btagscalefactors}. 
+Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b quark content of these events. The methods to identify b-jets in data are discussed in great detail at \cite{btag7tev}. The jet flavours within simulation are determined using truth level information and are compared to data to determine the appropriate correction scale factors ($SF_{b,c,s}$). The scale factor corrections from simulation to data for b-quark jets with the \ac{CSVM} tagger are displayed in Figure \ref{fig:btagscalefactors}. 
 
 \begin{figure}[ht]
 \centering
@@ -271,13 +271,13 @@ A jet candidate is identified if the sum of the transverse \ac{ECAL} and \ac{HCA
 
 During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw, uncorrected energy of the calorimeter regions and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
 
-To decrease the amount of data shared the \ac{GCT} utilises a pre-clustering algorithm, which employs 18 jet-finders that operate simultaneously over the whole detector. Each jet-finder spans an area of 11 calorimeter regions in $\eta$ (half the detector) and two in $\phi$ (40$\degree$).  In order to reduce the total data duplicated and shared between these jet-finders, jets are initially created in $2\times 3$ mini-clusters. Information is only shared with the two $\phi$ strips of the neighbouring jet-finders when these mini-clusters jets are found, and is used to form a clustered $3 \times 3$ \L1 jet object. Additional information on this clustering algorithm can be found at \cite{Iles:1028171}.  
+To form the jet candidates the \ac{GCT} utilises a pre-clustering algorithm, which employs 18 jet-finders that operate simultaneously over the whole detector. Each jet-finder spans an area of 11 calorimeter regions in $\eta$ (half the detector) and two in $\phi$ (40$\degree$).  Jets are initially created in $2\times 3$ mini-clusters in order to reduce the total amount of data duplicated and shared between the jet-finders. Information is only shared with the two $\phi$ strips of the neighbouring jet-finders when these mini-clusters jets are found, and is used to form a clustered $3 \times 3$ \L1 jet object. Additional information on this clustering algorithm can be found at \cite{Iles:1028171}.  
 
-Within the $|\eta| <$ 3 region, the \ac{GCT} also determines whether is jet is to be classified as a $\tau$ or central jet. The hadronic decay modes of the $\tau$ typically contain one or three isolated pions, thus leading to more collimated energy deposits with fewer constituents than non-\tau jets. Therefore, for a jet candidate to be classed as a $\tau$ jet, up to a maximum of one of the eight calorimeter regions neighbouring the central jet seed is permitted to have a transverse energy, $\et$, above some programmable isolation threshold. 
+Within the $|\eta| <$ 3 region, the \ac{GCT} also determines whether a jet is to be classified as a $\tau$ or central jet. The hadronic decay modes of the $\tau$ typically contain one or three isolated pions, thus leading to more collimated energy deposits with fewer constituents than non-\tau jets. Therefore, for a jet candidate to be classed as a $\tau$ jet, up to a maximum of one of the eight calorimeter regions neighbouring the central jet seed is permitted to have a transverse energy, $\et$, above some programmable isolation threshold. 
 
-Jets found between $3.0<|\eta|<5.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as either a central or $\tau$-jet. The four highest energy central, forward and $\tau$-jets in the calorimeter are further passed through \acf{LUT}s, which apply a programmable $\eta-$dependent jet energy scale correction. Finally these jet objects are passed to the \ac{GT} to make \L1 trigger decisions.
+Jets found between $3.0<|\eta|<5.0$ are classified as forward jets, whereas those with $|\eta|<3.0$ are classified as either a central or $\tau$-jet. The four clustered jets with the highest transverse energy in each category (central, forward and $\tau$-jet) are further passed through \acf{LUT}s, which apply a programmable $\eta-$dependent jet energy scale correction. Finally these jet objects are passed to the \ac{GT} to make \L1 trigger decisions.
 
-The performance of the \L1 jets is evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. Jets are corrected for pile-up and detector effects as described in Section (\ref{subsec:cmsobjects-jets}). A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose'' identification criteria for both \Calo and \PF. These jet criteria are listed in Appendix (\ref{app:jetcriteria}). 
+The performance of \L1 jets within the following sections are evaluated with respect to offline jets, which are taken from the standard \Calo jet and the \PF jet reconstruction algorithms of \ac{CMS}. These reconstructed offline jets are corrected for pile-up and detector effects as described in Section (\ref{subsec:cmsobjects-jets}). A moderate level of noise rejection is applied to the offline jets by selecting jets passing the ``loose'' identification criteria for both \Calo and \PF. These jet criteria are listed in Appendix (\ref{app:jetcriteria}). 
 
 
 \subsection{Measuring \L1 Single-Jet Trigger Efficiencies}
@@ -335,7 +335,7 @@ L1\_SingleJet92 & 95.36 $\pm$ 0.13 & 5.62 $\pm$ 0.03 & 90.85 $\pm$ 0.19 & 11.30 
 \label{tab:l1jettable}
 \end{table}
 
-The results from the \L1 single jet triggers shows good performance for both \Calo and \PF jets. A better resolution is observed for \Calo jets with respect to \L1 jet quantities. This effect is due to \Calo jet reconstruction using the same detector subsystems as for \L1 jets. In contrast the \PF jet reconstruction algorithm additionally utilises tracker and muon information, resulting in a poorer resolution when directly compared to \L1 jet objects. 
+The results from the \L1 single jet triggers shows good performance for both \Calo and \PF jets. A better resolution is observed for \Calo jets with respect to \L1 single-jet quantities. This effect is due to \Calo jet reconstruction using the same detector subsystems as the \L1 jets. In contrast the \PF jet reconstruction algorithm additionally utilises tracker and muon information, resulting in a poorer resolution when directly compared to \L1 jet objects. 
 
 \subsection{Effects of the \L1 Jet Seed}
 \label{subsec:l1jetseedpu}
@@ -417,7 +417,7 @@ L1 H1-150 & 230.9 $\pm$ 0.02 & 37.3 $\pm$ 0.01 & 246.4 $\pm$ 0.16 & 31.8 $\pm$ 0
 \label{tab:l1jetseedtableHT}
 \end{table}
 
-Despite this slight increase in the turn-on point of the \theht triggers, a large reduction in the trigger cross-section is achieved for all \theht triggers. As an example, the expected trigger cross-section for the \texttt{L1HTT150} trigger as a function of instantaneous luminosity can be seen in Figure \ref{fig:l1rateplot}. 
+Despite this slight increase in the turn-on point of the \theht triggers, a large reduction in the trigger cross-section is achieved for all \theht triggers. As an example, the expected trigger cross-section for the \texttt{L1HTT150} trigger as a function of instantaneous luminosity is shown in Figure \ref{fig:l1rateplot}. 
 
 \begin{figure}[ht!]
 \centering
@@ -427,7 +427,7 @@ Despite this slight increase in the turn-on point of the \theht triggers, a larg
 \end{figure}  
 \FloatBarrier
 
-It can be seen that this slight degradation in the offline value at which these \theht triggers are full efficient due to the jet seed threshold, can be justified from the large reduction in the trigger cross-section rate. Any inefficiencies can then if necessary be compensated through a reduction in the trigger threshold of the \L1 seed.
+It can be seen that this slight degradation in the offline value at which these \theht triggers become fully efficient due to the jet seed threshold, can be justified from the large reduction in the trigger cross-section rate. Any inefficiencies can then if necessary be compensated through a reduction in the \theht trigger threshold of the \L1 seed.
 
 \subsection{Robustness of \L1 Jet Performance against Pile-up}
 \label{subsec:l1jetpu}
@@ -485,7 +485,7 @@ L1\_SingleJet92 & 91.6 $\pm$ 0.3 & 11.3 $\pm$ 0.2 & 91.4 $\pm$ 0.3 & 11.2 $\pm$ 
 \label{tab:l1pfputable}
 \end{table}
 
-No significant drop in efficiency is observed in the presence of a high number of primary vertices. The increase in hadronic activity in higher pile-up conditions, combined with the absence of pile-up subtraction for L1 jets, results in the expected observation of a decrease in the $\mu$ value of the efficiency turn-ons as a function of pile-up. Similarly, the resolution, $\sigma$, of the turn-ons are found to gradually grow due to the larger pile-up corrections being applied to the offline reconstructed jets.
+No significant drop in efficiency is observed in the presence of a high number of primary vertices. The increase in hadronic activity in higher pile-up conditions, combined with the absence of pile-up subtraction for L1 jets, results in the expected observation of a decrease in the $\mu$ value of the efficiency turn-ons as a function of pile-up. Similarly, the resolution, $\sigma$, of the turn-ons are found to worsen at a higher number of primary vertices due to the increasing size of the pile-up corrections being applied to the offline reconstructed jets. 
 
 These features are further emphasised when shown as a function of
 
@@ -496,7 +496,7 @@ These features are further emphasised when shown as a function of
 
 in bins of matched leading offline jet $\et$. The results of these individual fits categorised as a function of matched leading offline jet $\et$ can be found in Appendix (\ref{app:jetpuresolution}), where each of the distributions are fitted with an \ac{EMG} function as defined in Equation (\ref{eq:emg}).
 
-The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed, as expected, to increase as a function of jet $\et$, whilst the resolution also improves as a function of increasing offline jet $\et$ for all pile-up categories. 
+The $\mu$, $\sigma$ and $\lambda$ values extracted for the low, medium and high pile-up conditions are shown for Calo and PF jets in Figure \ref{fig:jetptresultspu} and Figure \ref{fig:pfjetptresultspu} respectively. The central value of $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ is observed as expected, to increase as a function of jet $\et$, whilst the resolution also improves as a function of increasing offline jet $\et$ for all pile-up categories. 
 
 When comparisons are made between the individual pile-up scenarios, it can be seen that in the presence of higher pile-up , $\mu$ is seen to shift to larger values and a poorer resolution, $\sigma$, observed. This is particularly evident at low lead jet transverse energy values. These differences between the different pile-up scenarios, can once again be attributed to an increasing number of soft pile-up jets that add to the transverse energy of the lead jet from the primary interaction within each successive pile-up category. However, when comparisons of the trigger performance at larger lead jet transverse energy values ($>100$ \GeV) are made, similar performance is observed between the separate pile-up categories.
 
@@ -517,9 +517,9 @@ When comparisons are made between the individual pile-up scenarios, it can be se
         \label{fig:pfjetptresultspu}
 \end{figure}
 
-The resolution of other \L1 jet based energy sum quantities, $\mht$ and $\theht$ parameterised as in Equation (\ref{eq:jetresolution}), can be found in Appendix (\ref{app:jetenergysums}).
+The resolution of the \L1 jet based energy sum quantities, $\mht$ and $\theht$ parameterised as in Equation (\ref{eq:jetresolution}), can be found in Appendix (\ref{app:jetenergysums}).
 
 \subsection{Summary}
 \label{subsec:l1summary}
 
-The performance of the \CMS Level-1 Trigger has been studied and evaluated for jets and energy sum quantities using data collected during the 2012 \ac{lhc} 8 TeV run. These studies include the effect of the introduction of a 5 \GeV jet seed threshold into the jet clustering algorithm. The purpose of this change was to mitigate the increase in \L1 trigger cross-sections, due to larger isotropic energy deposits from an increased number of secondary interactions, whilst not adversely affecting the efficiency of these triggers. Measurements are made for a range of \L1 jet quantities and thresholds, where no significant change in the measured efficiencies that would indicate a noticeable effect on the overall triggering performance of the detector is observed. 
+The performance of the \CMS Level-1 Trigger has been studied and evaluated for jets and jet energy sum quantities using data collected during the 2012 \ac{lhc} 8 TeV run. These studies include the effect of the introduction of a 5 \GeV jet seed threshold into the jet clustering algorithm. The purpose of this change was to mitigate the increase in \L1 trigger cross-sections, due to larger isotropic energy deposits from an increased number of secondary interactions, whilst not adversely affecting the efficiency of these triggers. Measurements are made for a range of \L1 jet quantities and thresholds, where no significant change is observed in the measured efficiencies that would indicate a noticeable effect on the overall triggering performance of the detector. 
