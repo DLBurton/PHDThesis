@@ -1,100 +1,25 @@
 %% The "\appendix" call has already been made in the declaration
 %% of the "appendices" environment (see thesis.tex).
 
-
-\chapter{Miscellaneous}
-\label{app:noise}
-\section{Jet Identification Criteria}
-\label{app:jetcriteria}
-
-
-For Calo jets the following identification criteria were applied:
-
-\begin{table}[H]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.80\textwidth}{LL}
-\cline{1-2}
-\multicolumn{2}{l}{Loose CaloJet Id} \\
-Variable & Definition \\ 
-\hline\hline
-f$_{HPD} < 0.98$ \qquad\qquad\qquad\qquad\qquad\qquad & Fraction of jet energy contributed from ``hottest'' \ac{HPD}, which rejects \ac{HCAL} noise.  \\
-f$_{EM} > 0.01$ & Noise from the \ac{HCAL} is further suppressed by requiring a minimal electromagnetic component to the jet f$_{EM}$. \\
-N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single channel are rejected, to serve as a safety net that catches jets arising from undiagnosed noisy channels.\\
-\hline
-\end{tabulary}
-\end{center}
-\caption[Criteria for a reconstructed jet to pass the loose calorimeter jet id.]{Criteria for a reconstructed jet to pass the loose calorimeter jet id.}
-\label{tabapp:calojetid}
-\end{table}
-
-
-For PF jets the following identification criteria were applied:
-  
-\begin{table}[H]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.80\textwidth}{p{3.5cm}L}
-\cline{1-2}
-\multicolumn{2}{l}{Loose PF jet Id} \\
-Variable & Definition \\ 
-\hline\hline
-nfhJet $<$ 0.99 & Fraction of jet composed of neutral hadrons. \ac{HCAL} noise tends to populate high values of neutral 
-hadron fraction.\\
-nemfJet $<$ 0.99 & Fraction of jet composed of neutral electromagnetic energy. \ac{ECAL} noise tends to populate high values of 
-neutral EM fraction. \\
-nmultiJet $>$ 1 & Number of constituents that jet is composed from. \\
-chfJet $>$ 0 & Fraction of jet composed of charged hadrons. \\
-cmultiJet $>$ 0 & Number of charged particles that compose jet. \\
-cemfJet $<$ 0.99 & Fraction of jet composed of charged electromagnetic energy. \\
-\hline
-\end{tabulary}
-\end{center}
-\caption[Criteria for a reconstructed jet to pass the loose PF jet id.]{Criteria for a reconstructed jet to pass the loose PF jet id.}
-\label{apptab:pfjetid}
-\end{table}  
-  
-\section{Primary Vertices}
-
-\label{app:primaryvertices}
-
-The pile-up per event is defined by the number of 'good' reconstructed primary vertices in the event, with each vertex satisfying the following requirements:
-
-\begin{table}[H]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.80\textwidth}{p{3cm}L}
-\cline{1-2}
-\multicolumn{2}{l}{Good primary vertex requirement} \\
-Variable & Definition \\ 
-\hline\hline
-$N_{dof} > 4$ \qquad\qquad\qquad & The number of degree of freedom, from the vertex fit to compute the best estimate of the vertex parameters. \\
-$\vert \Delta z_{vtx} \vert < 24$cm &  The distance, $\vert\Delta z_{vex}\vert$, to the position of the closest \ac{HLT} primary vertex. \\ 
- $\rho < 2$cm & The perpendicular distance of track position to the beam spot. \\
-\cline{1-2}
-\end{tabulary}
-\end{center}
-\caption[Criteria for a vertex in an event to be classified as a 'good' reconstructed primary vertex.]{Criteria for a vertex in an event to be classified as a 'good' reconstructed primary vertex.}
-\label{tabapp:primaryvertices}
-\end{table}
-
-\chapter{L1 Jets}
+\chapter{Additional Material  for L1 Jet Performance Studies}
 
 \section{Jet Matching Efficiencies}
 \label{app:jetmatching}
 
-The single jet turn-on curves are derived from events independent of whether the leading jet in an event is matched to a Level 1 jet using $\Delta R$ matching detailed in Section  (\ref{subsec:l1jettrigeff}).  These turn-ons are produced from events which are not triggered on jet quantities and therefore it is not guaranteed that the lead jet of an event will be seeded by a Level 1 jet. Figure \ref{fig:leadjetmatcheff} shows the particular matching efficiency of a lead jet to a L1 jet.
+The single jet turn-on curves are derived from events independent of whether the leading jet in an event is matched to a Level 1 jet using $\Delta R$ matching detailed in Section  (\ref{subsec:l1jettrigeff}).  These turn-ons are produced from events which are not triggered on jet quantities and therefore it is not guaranteed that the lead jet of an event will be seeded by a Level 1 jet. Figure \ref{fig:leadjetmatcheff} shows the particular matching efficiency of a lead jet to a L1 jet before (2012B) and after (2012C) the introduction of the \L1 jet seed requirement of 5 \GeV. 
 
 \begin{figure}[htp]
 \centering
-\resizebox{.7\linewidth}{0.5\height}{\includegraphics{plots/leadjet_matchingeff.pdf}}
+\resizebox{.63\linewidth}{0.45\height}{\includegraphics{plots/leadjet_matchingeff.pdf}}
 \caption[Leading jet matching efficiency as a function of the offline CaloJet $\et$.]{Leading jet matching efficiency as a function of the offline CaloJet $\et$, measured in an isolated muon triggered dataset in the 2012B and 2012C run periods.}
   \label{fig:leadjetmatcheff}
 \end{figure}
 
-It can be seen that the turn-on occurs at a lower $E_{T}$ during the 2012B run period. The seed threshold requirement of a 5 \GeV jet seed in run 2012C result in more events in which the lead offline jet does not have an associated L1 jet. This can be attributed to events with soft non-collimated jets in which the energy deposits are not centralised in a calorimeter region.  However, for larger jet $\et$ thresholds typical of those used by physics analyses, 100$\%$ efficiency is observed, and therefore this effect has no impact to overall physics performance.
+It can be seen that the turn-on occurs at a lower $E_{T}$ during the 2012B run period before the jet seed requirement was introduced. The seed threshold requirement of a 5 \GeV jet seed introduced for run 2012C result in more events in which the lead offline jet does not have an associated L1 jet. This behaviour is expected and can be attributed to events with soft non-collimated jets in which the energy deposits are not centralised in a calorimeter region. This in turn leads to events in which the lead jets energy is spread across the 3$\times$3 calorimeter region and thus below the threshold required by the central seed region.
 
-A fit of an \ac{EMG} function to the matching efficiencies find mean, $\mu$, values of 6.62 GeV and 19.51 GeV for Run 2012B and 2012C respectively and is shown in Table~\ref{tab:matcheff}. 
+However, for larger jet $\et$ thresholds typical of those used by physics analyses (e.g. 100 \GeV lead jet threshold in the \alphat search), 100$\%$ efficiency is observed, and therefore this effect has no impact to overall physics performance.
+
+A fit of an \ac{EMG} function to the matching efficiencies find mean, $\mu$, values of 6.62 GeV and 19.51 GeV for Run 2012B and 2012C respectively. This result highlights the difference at low jet \pt between the jet matching efficiencies due to the change in the jet clustering algorithm, and is shown in Table~\ref{tab:matcheff}. 
 
 \begin{table}
 \begin{center}
@@ -106,33 +31,31 @@ A fit of an \ac{EMG} function to the matching efficiencies find mean, $\mu$, val
 \end{tabular*}
 \caption[Results of a cumulative EMG function fit to the turn-on
 curves for the matching efficiency of the leading jet in an event to
-a Level-1 jet in run 2012C and 2012B data.]{Results of a cumulative EMG function fit to the turn-on
-curves for the matching efficiency of the leading jet in an event to
-a Level-1 jet in run 2012C and 2012B data, measured in an isolated
-muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are measured with respect to offline Calo Jet $\et$.} \label{tab:matcheff}
+a Level-1 jet in run 2012C and 2012B data.]{Results of a cumulative EMG function (defined in Section \ref{subsec:l1jettrigeff}) fit to the turn-on
+curves for the matching efficiency of the leading jet in an event to a Level-1 jet in run 2012C and 2012B data, measured in an isolated
+muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are measured with respect to offline CaloJet $\et$. Only statistical errors are quoted for each measured value.} \label{tab:matcheff}
 \end{center}
 \end{table}
 
 \section{Leading Jet Energy Resolution}
 \label{app:jetpuresolution}
 
+Description here.
+
 \begin{figure}[ht]
     \centering
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.80\linewidth}
     \centering
    \includegraphics[width = 1.0\linewidth]{plots/calo_ptresolution_low.pdf}
    \centering (a)
      \end{minipage}
-\end{figure}
-
-\begin{figure}
     \centering
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.80\linewidth}
     \includegraphics[width=1.0\textwidth]{plots/calo_ptresolution_medium.pdf}
     \centering (b)
     \end{minipage}
     \quad
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.80\linewidth}
     \includegraphics[width=1.0\textwidth]{plots/calo_ptresolution_high.pdf}
     \centering (c$)$ 
     \end{minipage}
@@ -142,19 +65,16 @@ muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are m
 \begin{figure}[htpb]
 
     \centering
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.8\linewidth}
     \includegraphics[width=1.0\textwidth]{plots/pf_ptresolution_low.pdf}
     \centering (a)
     \end{minipage}
     \quad
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.8\linewidth}
     \includegraphics[width=1.0\textwidth]{plots/pf_ptresolution_medium.pdf}
     \centering (b) 
     \end{minipage}
-\end{figure}
-
-\begin{figure}
-    \begin{minipage}[b]{0.98\linewidth}
+    \begin{minipage}[b]{0.8\linewidth}
     \includegraphics[width=1.0\textwidth]{plots/pf_ptresolution_high.pdf}
     \centering (c$)$ 
     \end{minipage}
@@ -172,31 +92,35 @@ The following plots show the resolution parameters for energy sum quantities as 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloHT_summary_v2.pdf}
-        \caption[$\theht$~resolution parameters in bins of Calo $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left), resolution $\sigma$ (middle) and $\lambda$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
+        \includegraphics[width=0.72\textwidth]{plots/res_CaloHT_summary_v2.pdf}
+        \caption[$\theht$~resolution parameters in bins of Calo $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
         \label{fig:calohtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfHT_summary_v2.pdf}
-        \caption[$\theht$~resolution parameters in bins of PF $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left), resolution $\sigma$ (middle) and $\lambda$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
+        \includegraphics[width=0.72\textwidth]{plots/res_pfHT_summary_v2.pdf}
+        \caption[$\theht$~resolution parameters in bins of PF $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
         \label{fig:pfhtresultspu}
 \end{figure}
 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_CaloMHT_summary_v2.pdf}
-        \caption[$\mht$~resolution parameters in bins of Calo $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of Calo $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left), resolution $\sigma$ (middle) and $\lambda$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.}
+        \includegraphics[width=0.72\textwidth]{plots/res_CaloMHT_summary_v2.pdf}
+        \caption[$\mht$~resolution parameters in bins of Calo $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of Calo $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.}
         \label{fig:calomhtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=1.0\textwidth]{plots/res_pfMHT_summary_v2.pdf}
-        \caption[$\mht$~resolution parameters in bins of PF $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left), resolution $\sigma$ (middle) and $\lambda$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.} \label{fig:pfmhtresultspu}
+        \includegraphics[width=0.72\textwidth]{plots/res_pfMHT_summary_v2.pdf}
+        \caption[$\mht$~resolution parameters in bins of PF $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.} \label{fig:pfmhtresultspu}
 \end{figure}
+
+\chapter{Monte Carlo Generators and CMSSW Software Packages}
+
+Put in MC stuff here
 
 \chapter{Additional Material on Background Estimation Methods}
 \label{app:backgroundestimation}
@@ -288,7 +212,7 @@ $n_{b}^{reco}$ & Cross Section   & 575--675                  & 675--775         
 \def\arraystretch{1.0}
 
 
-\chapter{Additional Material  For B-tag Template Method}
+\chapter{Additional Material  for B-tag Template Method}
 \label{app:templatematerial}
 \section{Templates Fits in Simulation}
 \label{app:templatemc}
@@ -302,8 +226,6 @@ The result of template fits for the three \ac{CSV} working points in the $n_{jet
 \includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
 \centering (a) Loose working point $n_{jet}$ = 3 
 \end{minipage}
-\end{figure}
-\begin{figure}
 \begin{minipage}[b]{0.51\linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_3.pdf}
 \centering (b) Medium working point $n_{jet}$ = 3 

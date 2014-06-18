@@ -8,7 +8,7 @@ Using the statistical framework outlined in the previous chapter, results are sh
 
 The \ac{SM} background only hypothesis is tested by removing any signal contributions within the signal and control samples, and the likelihood function defined in Equation (\ref{eq:totallikelihoodfunc}) maximised over all parameters using Rootfit \cite{2010acat.confE..57M} and MINUIT \cite{James:1975dr}. The results of the search consist of the observed yields in the hadronic signal sample, and the \mupjets, \dimupjets and \gpjets control samples. 
 
-These observed yields along with the expectations and uncertainties given by the simultaneous fit for the hadronic signal region are displayed in Table \ref{tab:fitsdata}. The results obtained from the simultaneous fits, including that of the three control samples, are shown in Figure \ref{fig:result0blow}-\ref{fig:result4bhigh}, and which is summarised in Table \ref{tab:fitresults}. 
+These observed yields along with the expectations and combined statistical and systematic uncertainties given by the simultaneous fit for the hadronic signal region are displayed in Table \ref{tab:fitsdata}. The results obtained from the simultaneous fits, including that of the three control samples, are shown in Figure \ref{fig:result0blow}-\ref{fig:result4bhigh}, with the analysis category to which each figure corresponds to summarised in Table \ref{tab:fitresults}. 
 
  \begin{table}[h!]
  \footnotesize
@@ -73,7 +73,7 @@ Data &  &  & 1 & 0 & \multicolumn{6}{c}{2} \\
 
 The figures show a comparison between the observed yields and the \ac{SM} expectations as given by the fit across all \theht bins, and in all $n_{jet}$ and $n_{b}^{reco}$ multiplicity categories. In all categories the samples are well described by the \ac{SM} only hypothesis. In particular no significant excess is observed above \ac{SM} expectation within the hadronic signal region. 
 
-Given the lack of an excess in data hinting at a possible supersymmetric signature within the data, interpretations are made on the production masses and cross-section of a range of \ac{SUSY} decay topologies within the following section.
+Given the lack of a significant excess in data hinting at a possible supersymmetric signature within the data, interpretations are made on the production masses and cross-section of a range of \ac{SUSY} decay topologies within the following section.
 
 \begin{figure}[ht]
 \footnotesize
@@ -245,14 +245,14 @@ Given the lack of an excess in data hinting at a possible supersymmetric signatu
 \end{figure}
 
 
-\section{SUSY}
+\section{Interpretation in Supersymmetric Physics Models}
 \label{sec:resultsms}
 
 Limits are set on sparticle and \ac{LSP} masses in the parameter space of a set of \ac{SMS} models that characterise supersymmetric final states resulting from; direct third generation or light squark production, and gluino induced production of supersymmetric particles. However as detailed in Section (\ref{subsec:sms}), the individual models are not representative of a real physical \ac{SUSY} model as only one decay process is considered. Instead these models represent a way to test for signs of specific signatures indicating new physics. 
 
 \subsection{The CL$_{\text{s}}$ Method}
 
-The CLs method \cite{0954-3899-28-10-313}\cite{Junk1999435}\cite{Read:451614} is used to compute the limits for signal models, with the one-sided profile likelihood ratio as the test statistic \cite{asymptotictest}.
+The CLs method \cite{0954-3899-28-10-313}\cite{Junk1999435}\cite{Read:451614} is used to compute the limits on the range of excluded parameter space for signal models, with the one-sided profile likelihood ratio as the test statistic \cite{asymptotictest}.
 
 The test statistic is defined as
 \begin{equation}
@@ -268,7 +268,7 @@ where
 \lambda(\mu) = \frac{L(\mu,\theta_{\mu})}{L(\hat{\mu},\hat{\theta})}
 \end{equation}
 
-represents the profile likelihood ratio, in which $\mu \equiv f$ from Section (\ref{subsec:signalcontribution}), is the parameter characterising the signal strength.  $\hat{\mu}$ is defined as the maximum likelihood value, $\hat{\theta}$ the set of maximum likelihood values of the nuisance parameters and $\theta_{\mu}$ the set of maximum values of the nuisance parameters for a given value of $\mu$.
+represents the profile likelihood ratio, in which $\mu$ is equivalent to the signal strength $f$ defined in Section (\ref{subsec:signalcontribution}), $\hat{\mu}$ is defined as the best fit signal strength from the maximum likelihood fit, $\hat{\theta}$ is the set of maximum likelihood values of the nuisance parameters and $\theta_{\mu}$ the set of maximum values of the nuisance parameters for a fixed value of $\mu$.
 
 When $\mu \equiv f = 1$, the signal model is considered at its nominal production cross section. The distribution of $q_{\mu}$ is built up via the generation of pseudo experiments in order to obtain two distributions for the background (B) and signal plus background (S+B) cases.
 
@@ -278,11 +278,11 @@ The compatibility of a signal model with observations in data is determined by t
 \text{CL$_{S}$} = \frac{\text{CL$_{S+B}$}}{\text{CL$_{B}$}},
 \end{equation}
 
-with CL$_{B}$ and CL$_{S+B}$ defined as one minus the quantiles of the observed value in the data of the two distributions. A model is considered to be excluded at 95\% confidence level when CL$_{s} \leq 0.05$ \cite{2011EPJClimits}.
+with CL$_{B}$ and CL$_{S+B}$ defined as one minus the quantile of the observed value in the data of the two distributions. A model is considered to be excluded at 95\% confidence level when CL$_{s} \leq 0.05$ \cite{2011EPJClimits}.
 
-\subsection{Interpretation in Simplified Signal Models}
+\subsection{Excluding Parameter Space in Simplified Signal Models}
 
-Different \njet and \nbreco bins are used in the interpretation of different \ac{SMS} models. The choice of categories used, are made such that the signal to background ratio will be maximised for the model in question, increasing sensitivity to that particular type of final state signature. The production and decay modes of the \ac{SMS} models under consideration are summarised in Table \ref{tab:susyresults}, with limit plots of the experimental reach in these models shown in Figure \ref{fig:smslimitplots}.
+Different \njet and \nbreco bins are used in the interpretation of different \ac{SMS} models. The choice of categories used are made such that the signal to background ratio will be maximised for the model in question, increasing sensitivity to that particular type of final state signature. The production and decay modes of the \ac{SMS} models under consideration are summarised in Table \ref{tab:susyresults}, with reference to the Feynman diagrams of the interpreted \ac{SMS} models first introduced in Section {subsec:sms}, and plots of the experimental reach for each of these models shown in Figure \ref{fig:smslimitplots}.
 
 The models \texttt{T1} and \texttt{T2} are used to characterise the pair production of gluinos and first or second generation squarks respectively. The low number of third generation quarks produced from this decay topology makes choosing to interpret within the \nbreco = 0 category beneficial to improving sensitivity to these models. In the case of the \texttt{T2} model, two sets of exclusion contours are shown. These correspond to the production of eight first- and second-generation (left-/right-handed) squarks with degenerate masses and the case of just a single light squark with all other squarks decoupled at much higher masses.
 
@@ -311,47 +311,13 @@ Model & Production/decay & $n_{jet}$ & $n_{b}^{reco}$ & Process & Limit & m$_{\t
 
 Experimental uncertainties on the \ac{SM} background predictions (10 $-$ 30\%, described in Section (\ref{subsec:determinesystematics})), the luminosity measurement (4.4\%), and the total acceptance times efficiency of the selection for the considered signal model (12 $-$18\%, from Section (\ref{sec:smsmodels})) are included in the calculation of the limit. 
 
-Signal efficiency in the kinematic region defined by 0 $< m_{\widetilde{g}(\widetilde{q})} - m_{\ac{LSP}} <$ 175 \GeV or $m_{\widetilde{g}(\widetilde{q})} <$ 300 \GeV is strongly affected by the presence of \acf{ISR}. This is a region in which direct (i.e. non-\ac{ISR} induced) production is kinematically forbidden due to the \theht $>$ 275 \GeV requirement, therefore a large percentage of signal acceptance is due to the effect of \ac{ISR} jets. Given the large associated uncertainties, no interpretation is provided for this kinematic region.
+Signal efficiency in the kinematic region defined by 0 $< (m_{\widetilde{g}(\widetilde{q})} - m_{\ac{LSP}})<$ 175 \GeV or $m_{\widetilde{g}(\widetilde{q})} <$ 300 \GeV is strongly affected by the presence of \acf{ISR}. This is a region in which direct (i.e. non-\ac{ISR} induced) production is kinematically forbidden due to the \theht $>$ 275 \GeV requirement, therefore a large percentage of signal acceptance is due to the effect of \ac{ISR} jets. Given the large associated uncertainties with the modelling in simulation of \ac{ISR}, no interpretation is provided for this kinematic region.
 
-The estimates on mass limits shown in Table  \ref{tab:susyresults}, are determined conservatively from the observed exclusion based on the theoretical production cross section, minus 1$\sigma$ uncertainty. The most stringent mass limits on pair-produced sparticles are obtained at low \ac{LSP} masses and larger squark and gluino masses due to the high \pt jets and consequently high \theht of such signal topologies. The limits are seen to weaken for compressed spectra points closer to the diagonal, where the signal populates the lower \theht bins in which more background resides. For all of the considered models, there is an \ac{LSP} mass beyond which no limit can be set, which can be observed from the figures referenced in the table. 
+The best mass limits shown in Table  \ref{tab:susyresults}, are determined conservatively from the observed exclusion based on the theoretical production cross section, minus 1$\sigma$ uncertainty, shown by the thin black line in Figure \ref{fig:smslimitplots}. The most stringent mass limits on pair-produced sparticles are obtained at low \ac{LSP} masses and larger squark and gluino masses due to the high \pt jets and consequently high \theht of such signal topologies. The limits are seen to weaken for compressed spectra points closer to the diagonal, where the signal populates the lower \theht bins in which more background resides. For all of the considered models, there is an \ac{LSP} mass beyond which no limit can be set due to a falling production cross section at higher parent squark/gluino masses resulting in a lack of experimental sensitivity to these signatures. 
 
-Two small upwards fluctuations are observed within the data, and are seen at high \theht within the \nbreco = 0 category and at mid-\theht in the \nbreco = 1, 2 categories (see Table \ref{tab:fitsdata}). As each of these fluctuations occur within at least one of the analysis categories that each \ac{SMS} model interpretation is made, the observed exclusions within all \ac{SMS} models are generally found to be weaker than the expected limits in the region of 1-2 standard deviations. In isolation these fluctuations are not significant and additional data would be necessary to make any further conclusions.
+Two small upwards fluctuations are observed within the data, and are seen in the \theht > 875 \GeV bin within the \nbreco = 0 category and at mid- $475 \leq \theht \leq 675$ in the \nbreco = 1, 2 categories (see Table \ref{tab:fitsdata}). As each of these fluctuations occur within at least one of the analysis categories that each \ac{SMS} model interpretation is made, the observed exclusions within all \ac{SMS} models are generally found to be weaker than the expected limits in the region of 1-2 standard deviations. In isolation these fluctuations are not significant and additional data would be necessary to make any further conclusions.
 
-Despite these fluctuations, the range of parameter space that can be excluded has been extended with respect to analysis based upon the $\sqrt{s} = 7$ \TeV dataset \cite{Chatrchyan:2012wa}, by up to 225 and 150 \GeV for m$_{\tilde{q}(\tilde{g})}^{\text{best}}$ and m$_{LSP}^{\text{best}}$ respectively. The parameter space for third generation signatures is increasingly squeezed for larger mass splitting, with exclusions in the region of 1 \TeV in these topologies. 
-
-
-
-\begin{figure}[ht]
-\footnotesize
-\centering
-\begin{minipage}[b]{0.48 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t1susydecay.pdf}
-\centering \caption*{(a) $\widetilde{g}\widetilde{g}^{*} \rightarrow q\bar{q}\widetilde{\chi}^{0}_{1}q\bar{q}\widetilde{\chi}^{0}_{1}$ (\texttt{T1})}\label{f`ig:t1}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.48\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t2susydecay.pdf}
-\centering \caption*{(b) $\widetilde{q}\widetilde{q}^{*} \rightarrow q\widetilde{\chi}^{0}_{1}\bar{q}\widetilde{\chi}^{0}_{1}$ (\texttt{T2})} \label{fig:t2}
-\end{minipage} \\
-\vspace{0.4cm}
-\begin{minipage}[b]{0.48 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t2bbsusydecay.pdf}
-\centering \caption*{(c$)$ $\widetilde{b}\widetilde{b}^{*} \rightarrow b\widetilde{\chi}^{0}_{1}\bar{b}\widetilde{\chi}^{0}_{1}$ (\texttt{T2bb})} \label{fig:t2bb}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.48\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t1ttttsusydecay.pdf}
-\centering \caption*{(d) $\widetilde{g}\widetilde{g}^{*} \rightarrow t\bar{t}\widetilde{\chi}^{0}_{1}t\bar{t}\widetilde{\chi}^{0}_{1}$ (\texttt{T1tttt})} \label{fig:t2tttt}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.48\linewidth}
-\centering
-\includegraphics[width = 1.0\linewidth]{plots/t1bbbbsusydecay.pdf}
-\centering \caption*{(e) $\widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ (\texttt{T1bbbb})} \label{fig:t1bbbb}
-\end{minipage}
-\caption[Production and decay modes for the various \ac{SMS} models interpreted within the analysis.]{Production and decay modes for the various \ac{SMS} models interpreted within the analysis.}
-\label{fig:smsprocesses}
-\end{figure}
+Despite these fluctuations, the range of parameter space that can be excluded has been extended with respect to analysis based upon the $\sqrt{s} = 7$ \TeV 5\fb dataset \cite{Chatrchyan:2012wa}, by up to 225 and 150 \GeV for m$_{\tilde{q}(\tilde{g})}^{\text{best}}$ and m$_{LSP}^{\text{best}}$ respectively. The parameter space for third generation signatures is under increasing pressure for larger mass splitting, with exclusions in the region of 1 \TeV in these topologies. 
 
 \begin{figure}[ht]
 \footnotesize
@@ -381,7 +347,7 @@ Despite these fluctuations, the range of parameter space that can be excluded ha
 \includegraphics[width = 1.0\linewidth]{plots/t1bbbb.pdf}
 \centering \caption*{(e) $\widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ (\texttt{T1bbbb})} \label{fig:t1bbbb}
 \end{minipage}
-\caption[Upper limit of cross section at 95\% CL as a function of $m_{\widetilde{q}/\widetilde{g}}$ and $m_{LSP}$ for various \ac{SMS} models.]{Upper limit of cross section at 95\% CL as a function of $m_{\widetilde{q}/\widetilde{g}}$ and $m_{LSP}$ for various \ac{SMS} models. The solid thick black line indicates the observed exclusion region assuming \ac{NLO} and \ac{NLL}  SUSY production cross section. The analysis selection efficiency is measured for each interpreted model, with the signal yield per point given by $\epsilon \times \sigma$. The thin black lines represent the observed excluded region when varying the cross section by its theoretical uncertainty. The dashed purple lines indicate the median (thick line) ±1$\sigma$ (thin lines) expected exclusion regions.}
+\caption[Upper limit of cross section at 95\% CL as a function of $m_{\widetilde{q}/\widetilde{g}}$ and $m_{LSP}$ for various \ac{SMS} models.]{Upper limit of cross section at 95\% CL as a function of $m_{\widetilde{q}/\widetilde{g}}$ and $m_{LSP}$ for various \ac{SMS} models. The solid thick black line indicates the observed exclusion region assuming \ac{NLO} and \ac{NLL}  SUSY production cross section as determined from \cite{Beenakker:1996ch}. The analysis selection efficiency is measured for each interpreted model, with the signal yield per point given by $\epsilon \times \sigma$. The thin black lines represent the observed excluded region when varying the cross section by its theoretical uncertainty. The dashed purple lines represent the expected exclusion (thick line) for each model and its theoretical uncertainty (thin line) \cite{ra1_epjc}.}
 \label{fig:smslimitplots}
 \end{figure}
 

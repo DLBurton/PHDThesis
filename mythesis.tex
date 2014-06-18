@@ -24,13 +24,29 @@ urlcolor=black
 }{}
 \makeatother
 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\leftmark}
+\rhead{\thepage}
+
+\fancypagestyle{plain}{%
+\fancyhf{}
+\rhead{\thepage}
+\lhead{\leftmark}
+}
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\small{\MakeUppercase{#1}}}{}}
+
 %% Define the thesis title and author
 \title{\LARGE{Searches for Supersymmetric Signatures in all Hadronic Final States with the \alphat Variable.}}
-\author{Darren Burton \vspace*{0.5cm}}
+\author{Darren Lee Burton \vspace*{0.5cm}}
 
 %% Start the document
 \begin{document}
-\runninglinenumbers
+%\runninglinenumbers
+
+
 
 %% Define the un-numbered front matter (cover pages, rubrik and table of contents)
 \begin{frontmatter}
@@ -39,10 +55,12 @@ urlcolor=black
 
 %% Start the content body of the thesis
 \begin{mainmatter}
+  \setcounter{page}{16}
   %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
   \input{chap_introduction}
   \input{chap_theory}
   \input{chap_detector}
+  \input{chap_level1}
   \input{chap_alphat}
   \input{chap_results}
   \input{chap_templates}

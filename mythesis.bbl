@@ -32,6 +32,17 @@
 \href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
 %%CITATION = ARXIV:1207.7235;%%.
 
+\bibitem{cmstdr}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``The CMS experiment at the CERN LHC'',}
+  \textit{ JINST} \textbf{ 0803} (2008) S08004,
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{atlastdr}
+\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{The ATLAS Experiment at the CERN
+  Large Hadron Collider}'',} \textit{ JINST} \textbf{ 3} (2008)
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{\doi{10.1088/1748-0221/3/08/S08003}}.
+%%CITATION = JINST,3,S08003;%%.
+
 \bibitem{ra1_epjc}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in hadronic
   final states with missing transverse energy using the variables $\alpha_T$
@@ -40,11 +51,6 @@
   \href{http://dx.doi.org/10.1140/epjc/s10052-013-2568-6}{\doi{10.1140/epjc/s10052-013-2568-6}},
 \href{http://www.arXiv.org/abs/1303.2985}{\texttt{ arXiv:1303.2985}}.
 %%CITATION = ARXIV:1303.2985;%%.
-
-\bibitem{PhysRevLett.19.1264}
-\hrefCMSnoop {} {S.~Weinberg, ``A Model of Leptons'',} \textit{ Phys. Rev.
-  Lett.} \textbf{ 19} (Nov, 1967)
-  \href{http://dx.doi.org/10.1103/PhysRevLett.19.1264}{\doi{10.1103/PhysRevLett.19.1264}}.
 
 \bibitem{Glashow:1961tr}
 \hrefCMSnoop {} {S.~Glashow, ``{Partial Symmetries of Weak Interactions}'',}
@@ -236,7 +242,7 @@ C.~Strege\hrefCMSnoop {} { {et~al.}, ``{Updated global fits of the cMSSM
 %%CITATION = ARXIV:1112.4192;%%.
 
 \bibitem{Citron:2012fg}
-M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the CMSSM Coannihilation
+M.~Citron\hrefCMSnoop {} { {et~al.}, ``{The End of the cMSSM Coannihilation
   Strip is Nigh}'',} \textit{ Phys.Rev.} \textbf{ D87} (2013)
   \href{http://dx.doi.org/10.1103/PhysRevD.87.036012}{\doi{10.1103/PhysRevD.87.036012}},
 \href{http://www.arXiv.org/abs/1212.2886}{\texttt{ arXiv:1212.2886}}.
@@ -300,17 +306,6 @@ M.~Papucci\hrefCMSnoop {} { {et~al.}, ``{Natural SUSY Endures}'',} \textit{
 \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{\doi{10.1088/1748-0221/3/08/S08002}}.
 %%CITATION = JINST,3,S08002;%%.
 
-\bibitem{atlastdr}
-\hrefCMSnoop {} {{ ATLAS} Collaboration, ``{The ATLAS Experiment at the CERN
-  Large Hadron Collider}'',} \textit{ JINST} \textbf{ 3} (2008)
-\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{\doi{10.1088/1748-0221/3/08/S08003}}.
-%%CITATION = JINST,3,S08003;%%.
-
-\bibitem{cmstdr}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``The CMS experiment at the CERN LHC'',}
-  \textit{ JINST} \textbf{ 0803} (2008) S08004,
-  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
-
 \bibitem{lhcbtdr}
 \hrefCMSnoop {} {{ LHCb} Collaboration, ``{The LHCb Detector at the LHC}'',}
   \textit{ JINST} \textbf{ 3} (2008) S08005,
@@ -319,7 +314,7 @@ M.~Papucci\hrefCMSnoop {} { {et~al.}, ``{Natural SUSY Endures}'',} \textit{
 
 \bibitem{Jean-Luc:841573}
 \hrefCMSnoop {} {J.-L. Caron, ``LHC Layout. Schema general du LHC.'',} (Sep,
-  1997).
+  1997). http://cds.cern.ch/record/841573/files/lhc-pho-1997-060.jpg.
 
 \bibitem{LHClumo}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Luminosity - Public Results'',} ,
@@ -337,6 +332,12 @@ M.~Papucci\hrefCMSnoop {} { {et~al.}, ``{Natural SUSY Endures}'',} \textit{
 \bibitem{CMS_MUON_TDR}
 ``The CMS Muon Project: Technical Design Report''.
 \newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{Sphicas:2002gg}
+\hrefCMSnoop {} {{ CMS} Collaboration,
+``{CMS: The TriDAS Project. Technical design report, Vol. 2: Data acquisition
+  and high-level trigger}'',}.
+%%CITATION = CERN-LHCC-2002-026 ETC.;%%.
 
 \bibitem{CMS_TDR_PHYS_vol1}
 \hrefCMSnoop {} {{CMS Collaboration}, ``The CMS Physics Technical Design
@@ -379,17 +380,28 @@ M.~Cacciari\hrefCMSnoop {} { {et~al.}, ``The anti-k{$_{t}$} jet clustering
   the CMS experiment'',} \textit{ Journal of Instrumentation} \textbf{ 8}
   (2013), no.~04,.
 
-\bibitem{Dasu:2000ge}
-\hrefCMSnoop {} {{ CMS} Collaboration,
-``{CMS. The TriDAS Project. Technical design report, Vol. 1: The trigger
-  systems}'',}.
-%%CITATION = CERN-LHCC-2000-038 ETC.;%%.
+\bibitem{CMS-PAS-JME-09-008}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Calorimeter Jet Quality Criteria for
+  the First CMS Collision Data}'',}  CMS-PAS-JME-09-008, CERN, (Apr, 2010).
 
-\bibitem{Sphicas:2002gg}
-\hrefCMSnoop {} {{ CMS} Collaboration,
-``{CMS: The TriDAS Project. Technical design report, Vol. 2: Data acquisition
-  and high-level trigger}'',}.
-%%CITATION = CERN-LHCC-2002-026 ETC.;%%.
+\bibitem{2012JInst...7P0002T}
+\hrefCMSnoop {} {{CMS Collaboration}, ``{Performance of CMS muon reconstruction
+  in pp collision events at 7 TeV}'',} \textit{ Journal of Instrumentation}
+  \textbf{ 7} (October, 2012) 2P,
+  \href{http://dx.doi.org/10.1088/1748-0221/7/10/P10002}{\doi{10.1088/1748-0221/7/10/P10002}},
+  \href{http://www.arXiv.org/abs/1206.4071}{\texttt{ arXiv:1206.4071}}.
+
+\bibitem{CMS-PAS-SUS-12-018}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in events
+  with photons and missing energy}'',}  CMS-PAS-SUS-12-018, CERN, Geneva,
+  (2012).
+
+\bibitem{Cacciari:2007fd}
+\hrefCMSnoop {} {M.~Cacciari and G.~P. Salam, ``{Pileup subtraction using jet
+  areas}'',} \textit{ Phys.Lett.} \textbf{ B659} (2008)
+  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{\doi{10.1016/j.physletb.2007.09.077}},
+\href{http://www.arXiv.org/abs/0707.1378}{\texttt{ arXiv:0707.1378}}.
+%%CITATION = ARXIV:0707.1378;%%.
 
 \bibitem{Iles:1028171}
 \hrefCMSnoop {} {G.~Iles, Brooke {et~al.}, ``Revised CMS Global Calorimeter
@@ -444,40 +456,10 @@ B.~Mathias\hrefCMSnoop {} { {et~al.}, ``Study of Level-1 Trigger Jet
   performance database'',} , (2013).
 \newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
 
-\bibitem{CMS-PAS-JME-09-008}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{Calorimeter Jet Quality Criteria for
-  the First CMS Collision Data}'',}  CMS-PAS-JME-09-008, CERN, (Apr, 2010).
-
-\bibitem{2012JInst...7P0002T}
-\hrefCMSnoop {} {{CMS Collaboration}, ``{Performance of CMS muon reconstruction
-  in pp collision events at 7 TeV}'',} \textit{ Journal of Instrumentation}
-  \textbf{ 7} (October, 2012) 2P,
-  \href{http://dx.doi.org/10.1088/1748-0221/7/10/P10002}{\doi{10.1088/1748-0221/7/10/P10002}},
-  \href{http://www.arXiv.org/abs/1206.4071}{\texttt{ arXiv:1206.4071}}.
-
-\bibitem{CMS-PAS-SUS-12-018}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``{Search for supersymmetry in events
-  with photons and missing energy}'',}  CMS-PAS-SUS-12-018, CERN, Geneva,
-  (2012).
-
-\bibitem{Cacciari:2007fd}
-\hrefCMSnoop {} {M.~Cacciari and G.~P. Salam, ``{Pileup subtraction using jet
-  areas}'',} \textit{ Phys.Lett.} \textbf{ B659} (2008)
-  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{\doi{10.1016/j.physletb.2007.09.077}},
-\href{http://www.arXiv.org/abs/0707.1378}{\texttt{ arXiv:0707.1378}}.
-%%CITATION = ARXIV:0707.1378;%%.
-
 \bibitem{PhysRevD.84.114002}
 Z.~Bern\hrefCMSnoop {} { {et~al.}, ``Driving missing data at next-to-leading
   order'',} \textit{ Phys. Rev. D} \textbf{ 84} (Dec, 2011) 114002,
   \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}}.
-
-\bibitem{Bern:2011pa}
-Z.~Bern\hrefCMSnoop {} { {et~al.}, ``{Driving Missing Data at Next-to-Leading
-  Order}'',} \textit{ Phys.Rev.} \textbf{ D84} (2011) 114002,
-  \href{http://dx.doi.org/10.1103/PhysRevD.84.114002}{\doi{10.1103/PhysRevD.84.114002}},
-\href{http://www.arXiv.org/abs/1106.1423}{\texttt{ arXiv:1106.1423}}.
-%%CITATION = ARXIV:1106.1423;%%.
 
 \bibitem{CMS-PAS-SUS-08-002}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Data-Driven Estimation of the
@@ -521,14 +503,13 @@ M.~Botje\hrefCMSnoop {} { {et~al.}, ``{The PDF4LHC Working Group Interim
 \bibitem{Laird:2012mla}
 \hrefCMSnoop {} {E.~M. Laird, ``{A Search for Squarks and Gluinos with the CMS
   Detector}''}.
-\newblock PhD thesis,
-2012.
+\newblock PhD thesis, Princeton University, 2012.
 \newblock
+http://inspirehep.net/record/1235350.
 %%CITATION = ISBN-9781267251121 ETC.;%%.
 
 \bibitem{logndistribution}
-R.~Cousings, ``Probability Density Functions for Positive Nuisance
-  Parameters''.
+R.~Cousins, ``Probability Density Functions for Positive Nuisance Parameters''.
 \newblock 2012.
 \newblock http://www.physics.ucla.edu/cousins/stats/cousinslognormalprior.pdf.
 
@@ -545,7 +526,7 @@ L.~{Moneta}\hrefCMSnoop {} { {et~al.}, ``{The RooStats project}'',}
 %%CITATION = CPHCB,10,343;%%.
 
 \bibitem{0954-3899-28-10-313}
-\hrefCMSnoop {} {A.~L. Read, ``Presentation of search results: the CL s
+\hrefCMSnoop {} {A.~L. Read, ``Presentation of search results: the CLs
   technique'',} \textit{ Journal of Physics G: Nuclear and Particle Physics}
   \textbf{ 28} (2002).
 

@@ -180,138 +180,6 @@ This characterisation is identically mirrored in all control samples, with the i
 \label{fig:analysisbinning}
 \end{figure}
 \FloatBarrier
-\subsection{Physics Objects}
-\label{subsec:physicsobjects}
-
-The physics objects used in the analysis are defined below, and follow the recommendation of the various \ac{CMS} \acf{POGs}. 
-
-\begin{itemize}
-
-\item \textbf{Jets}
-
-The jets used in this analysis are CaloJets, reconstructed as described in Section (\ref{subsec:cmsobjects-jets}) using the anti-k$_{T}$ jet clustering algorithm. 
-
-To ensure the jet object falls within the calorimeter systems a pseudo-rapidity requirement of \abeta $<$ 3 is applied. Each jet must pass a ``loose'' identification criteria to reject jets resulting from unphysical energy, the criteria of which are detailed in Table \ref{tabapp:calojetid} \cite{CMS-PAS-JME-09-008}.
-
-\item \textbf{Muons}
-
-Muons are selected in the \mupjets and \dimupjets control samples, and vetoed in the signal region. The same cut based identification criteria is applied to muons in both search regions and is summarised in Table \ref{tab:muonidtable} \cite{2012JInst...7P0002T}.
-
-\begin{table}[h!]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.98\textwidth}{LL}
-\cline{1-2}
-Variable & Definition \\ 
-\hline\hline
-Is Global Muon \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad& Muon contains both a hit in the muon chamber and a matched track in the inner tracking system.\\
-$\chi^{2}$$<$ 10 & $\chi^{2}$ of global muon track fit. Used to suppress hadronic punch-through and muons from decays in flight.  \\
-Muon chamber hits $>$ 0 &  At least one muon chamber hit included in global muon track fit.\\
-Muon station hits $>$ 1 & Muon segment hits in at least two muon stations, which  suppresses hadronic punch-through and accidental track-to-segment matches. \\
-d$_{xy} <$ 0.2mm & The tracker track transverse impact parameter w.r.t the primary vertex. Suppresses cosmic muons and muons from decays in flight. \\
-d$_{z} <$ 0.5mm & The longitudinal distance of the tracker track w.r.t the primary vertex. Loose selection requirement to further suppress cosmic muons, muons from decays in flight and tracks from pileup.\\
-Pixel hits $>$ 0 & Suppresses muons from decays in flight by requiring at least one pixel hit in the tracker. \\
-Track layer hits $>$ 5 & Number of tracker layers with hits, to guarantee a good \pt measurement. Also suppresses muons from decays in flight.\\
-PF Iso  $<$0.12 & Isolation based upon the sum of the charged and neutral hadrons and photon objects within a $\Delta$R 0.4 cone of the muon object, corrected for pile up effects on the isolation sum.   \\
-\cline{1-2}
-\end{tabulary}
-\end{center}
-\caption[Muon identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.]{Muon identification criteria used within the analysis for selection/veto purposes in the muon control/signal selections.}
-\label{tab:muonidtable}
-\end{table}
-\FloatBarrier
-Additionally muons are required to be within the acceptance of the muon tracking systems. For the muon control samples, trigger requirements necessitate a \abeta $<$ 2.1 for the selection of muons. In the signal region where muons are vetoed, these conditions are relaxed to  \abeta $<$ 2.5 and a minimum threshold of \pt $> 10 $ \GeV is required of muon objects. 
-
-\item \textbf{Photons} 
-
-Photons are selected within the \gpjets control sample and vetoed in all other selections. Photons are identified in both cases according to the cut based criteria listed in Table \ref{tab:photonidtable} \cite{CMS-PAS-SUS-12-018}.
-
-\setlength\LTleft{1.5cm}
-\setlength\LTright{\LTleft}
-\begin{footnotesize}
-\begin{center}
-\begin{longtable}{@{\extracolsep{\fill}}p{2.0cm}p{10cm}}
-
-\hline \multicolumn{2}{r}{\textit{Continued on next page}} \\ 
-\endfoot
-
-\endlastfoot
-\hline
-Variable & Definition \\ 
-\hline\hline \\
-H/E $< $ 0.05  \qquad\qquad\qquad\qquad\qquad\qquad & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself. \\
-$\sigma_{i\eta i\eta}< 0.011$ \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad  & The log energy weighted width ($\sigma$), of the extent of the shower in the $\eta$ dimension.\\
-R9 $<$ 1.0 & The ratio of the energy of the 3$\times$3 crystal core of the super-cluster compared to the total energy stored in the 5$\times$5 super-cluster. \\
-Combined Isolation $<$ 6 \GeV &  The photons are required to be isolated with no electromagnetic or hadronic activity within a radius $\Delta$R = 0.3 of the photon object. A combination of the pileup subtracted \cite{Cacciari:2007fd}, \ac{ECAL}, \ac{HCAL} and tracking isolation sums are used to determine the combined total isolation value.  \\
-\hline
-\caption[Photon identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections. ]{Photon identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections.}
-\label{tab:photonidtable}
-\end{longtable}
-\end{center}
-\end{footnotesize}
-
-\FloatBarrier
-Photon objects are also required to have a minimum momentum of \pt $>$ 25 \GeV.
-
-\item \textbf{Electrons}
-
-Electron identification is defined for veto purposes. They are selected according to the following cut-based criteria listed in Table \ref{tab:electronidtable}, utilising PF-based isolation.
-
-\begin{table}[h!]
-\footnotesize
-\begin{center}
-\begin{tabulary}{1.0\textwidth}{LCCL}
-\cline{1-4}
-Variable & Barrel &  EndCap & Definition\\ 
-\hline\hline
-$\Delta \eta_{In}$ \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad & $<$0.007 \qquad\qquad\qquad\qquad\qquad & $<$0.009 \qquad\qquad\qquad\qquad\qquad\qquad& $\Delta\eta$ between SuperCluster position and the coordinate of the associated track at the interaction vertex, assuming no radiation. \\
-$\Delta \phi_{In}$ & $<$0.15 & $<$0.10 & $\Delta\phi$ between SuperCluster position and track direction at interaction vertex extrapolated to ECAL assuming no radiation. \\
-$\sigma_{i\eta i\eta}$ & $<$0.01 & $<$0.03 & Cluster shape covariance, measure the $\eta$ dispersion of the electrons electromagnetic shower over the  \ac{ECAL} supercluster. \\
-H/E & $<$0.12 & $<$0.10 & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself.\\
-d0 (vtx) & $<$0.02 & $<$0.02 & The tracker track transverse impact parameter w.r.t the primary vertex.  \\
-dZ (vtx) & $<$0.20 & $<$0.20 & The longitudinal distance of the tracker track w.r.t the primary vertex.\\
-$\lvert(\frac{1}{E_{ECAL}} - \frac{1}{p_{track}})\rvert$ & $<$0.05 & $<$0.05 & Comparison of energy at supercluster 1/E$_{ECAL}$ and that of the track momentum at the vertex 1/p$_{track}$. Causes suppression of fake electrons at low \pt. \\
-PF Iso & $<$0.15 & $<$0.15 & Combined PF isolation of charged hadrons, photons, neutral hadrons within a $\Delta$R $<$ 0.3 cone size. Isolation sum is corrected for pileup using effective area corrections for neutral particles. \\
-\cline{1-4}
-\end{tabulary}
-\end{center}
-\caption[Electron identification criteria used within the analysis for veto purposes.]{Electron identification criteria used within the analysis for veto purposes.}
-\label{tab:electronidtable}
-\end{table}
-
-Electrons are required to be identified at \abeta $<$ 2.5, with a minimum \pt $>$ 10 \GeV threshold to ensure that the electrons fall within the tracking system of the detector.
-
-\FloatBarrier
-
-\item \textbf{Noise and \met Filters}
-
-A series of noise filters are applied to veto events which contain spurious non-physical jets that are not picked up by the jet id, and events which give large unphysical \met values. These filters are listed within Table \ref{tab:noiseid}.
-
-\begin{table}[h!]
-\footnotesize
-\begin{center}
-\begin{tabulary}{0.80\textwidth}{p{4cm}L}
-\cline{1-2}
-\multicolumn{2}{l}{Noise Filters} \\
-Variable & Definition \\ 
-\hline\hline
- CSC tight beam halo filter \qquad\qquad\qquad\qquad\qquad & As proton beams circle the \ac{lhc}, proton interactions with the residual gas particles or the beam collimators can occur, producing showers of secondary particles which can interact with the \ac{CMS} detector. \\
- HBHE noise filter with isolated noise rejection & Anomalous noise in the \ac{HCAL} not due to electronics noise, but rather due to instrumentation issues associated with the \ac{HPD}'s and \acf{RBXs}. \\
- HCAL laser filter & The \ac{HCAL} uses laser pulses for monitoring the detector response. Some laser pulses have accidentally been fired in the physics orbit, and ended up polluting events recorded for physics analysis. \\
- ECAL dead cell trigger primitive (TP) filter & \ac{EB} and \ac{EE} have single noisy crystals which are masked in reconstruction. Use the \acf{TP} information to assess how much energy was lost in masked cells. \\
- Bad EE Supercrystal filter & Two supercrystals in \ac{EE} are found to occasionally produce high amplitude anomalous pulses in several channels at once, causing a large \met spike. \\
- ECAL Laser correction filter & A laser calibration multiplicative factor is applied to correct for transparency loss in each crystal during irradiation. A small number of crystals receive unphysically large values of this correction and become very energetic, resulting in \met. \\
-\cline{1-2}
-\end{tabulary}
-\end{center}
-\caption[Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.]{Noise filters that are applied to remove spurious and non-physical \met signatures within the \ac{CMS} detector.}
-\label{tab:noiseid}
-\end{table}  
-
-
-\end{itemize}
-
-\FloatBarrier
 
 \subsection{Event Selection}
 \label{subsec:eventselection}
@@ -856,7 +724,7 @@ Any overall systematic effect on the overall background prediction of the analys
 \section{Systematic Uncertainties on Transfer Factors}
 \label{subsec:sysuncertainties}
 
-Since the \ac{TF}s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to account for theoretical uncertainties \cite{Bern:2011pa} and limitations in the simulation modelling of event kinematics and instrumental effects. 
+Since the \ac{TF}s used to establish the background prediction are obtained from simulation, an appropriate systematic uncertainty is assigned to account for theoretical uncertainties and limitations in the simulation modelling of event kinematics and instrumental effects. 
 
 The magnitudes of these systematic uncertainties are established through a data driven method, in which the three independent control samples of the analysis (\mupjets, \dimupjets, \gpjets) are used to in a series of closure tests. The yields from one of these control samples, along with the corresponding \ac{TF} obtained from simulation, are used to predict the expected yields in another control sample. This procedure therefore utilises the same method used in determining a background prediction for the signal region as already established in Section (\ref{subsec:controlsampledefinition}).
 

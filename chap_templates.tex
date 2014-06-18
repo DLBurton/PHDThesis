@@ -4,16 +4,16 @@
 
 Within this chapter a complementary technique is discussed as a means to predict the distribution of three and four reconstructed b-tagged (\nbreco = 3, 4), jets in an event sample. The recent discovery of the Higgs boson has made ``Natural \ac{SUSY}'' models attractive, given that light top and bottom squarks are a candidate to stabilise divergent loop corrections to the Higgs boson mass. A light gluino which subsequently decays to third generation sparticle pairs, will give rise to many events with a large number of final state b-tagged jets.
 
-The method described within this chapter is used to estimate the \ac{SM} background at high b-tagged jet multiplicities (3-4), from a templated fit conducted in a low b-tagged jet (0-2) control region of an event sample. This approach can hypothetically be applied to generic supersymmetric searches, to gain sensitivity to signals which contain a higher number of b-tagged jets than the search's dominant \ac{SM} backgrounds. 
+The method described within this chapter is used to estimate the \ac{SM} background at high b-tagged jet multiplicities (3-4), from a template fit conducted in a low b-tagged jet (0-2) control region of an event sample. This approach can in principle be applied to generic supersymmetric searches, to gain sensitivity to signals which contain a higher number of b-tagged jets than the search's dominant \ac{SM} backgrounds. 
 
 As a proof-of-concept, the procedure is applied to the \ac{SM} enriched \mupjets control sample of the \alphat search detailed in Chapter \ref{chap:SUSYsearches}, and validated in both data and simulation. This method is then further utilised to provide an independent crosscheck of the \ac{SM} background estimations determined by the \alphat search within its hadronic signal region at high b-tagged jet multiplicities.
 
 To highlight the relative insensitivity of this method to the choice of b-tagging algorithm working point, results are presented using the \ac{CSV} tagger (introduced in Section (\ref{subsec:cmsobjects-btagging})) for the ``Loose'', ``Medium'' and ``Tight'' working points.
 
-\section{Concept}
+\section{Defining the Templates}
 \label{sec:templateconcept}
 
-The dominant \ac{SM} backgrounds of most \ac{SUSY} searches are typically \ttbar + jets, W + jets, \zinv + jets or other rare processes (e.g. Diboson, $\ttbar W +$ jets production in the case of hadronic searches) with neutrinos in the final state. These processes are characterised by typically having zero or two underlying b-quarks per event as shown in Table \ref{tab:bquarkcontent}. This ultimately means that the resultant shape of the \nbreco distribution for these two types of event topologies will differ significantly due to the varying tagging probabilities of the different jet flavours present in the final state of these processes.  
+The dominant \ac{SM} backgrounds of all-hadronic \ac{SUSY} searches are typically \ttbar + jets, W + jets, \zinv + jets or other rare processes (e.g. Diboson, $\ttbar W +$ jets production in the case of hadronic searches) with neutrinos in the final state. These processes are characterised by typically having zero or two underlying b-quarks per event as shown in Table \ref{tab:bquarkcontent} (The main exception to this generalisation are in single top processes which typically contain a single b-quark). This ultimately means that the resultant shape of the \nbreco distribution for these two types of event topologies will differ significantly due to the varying tagging probabilities of the different jet flavours present in the final state of these processes.  
 
 Similarly, \ac{SMS} models comprising the gluino-mediated production of third generation squarks, such at the \texttt{T1tttt} and \texttt{T1bbbb} models described in the previous chapter, will contain four underlying b-quarks in its decay. Therefore the resultant shape of the \nbreco distribution from such a signal will be further skewed towards a higher number of b-tagged jets. As \ac{SM} processes with a similarly large number of underlying b-quarks are rare, a signal indicative of natural \ac{SUSY} can potentially be easily identified, via an observed excess of \nbreco = 3, $\geq$ 4 events with respect to the expected yields from \ac{SM} processes.
  
@@ -37,7 +37,7 @@ Typical underlying b-quark content & Process \\
 \label{tab:bquarkcontent}
 \end{table}
 
-Within a supersymmetric or indeed any search for new physics, the compatibility of the \nbreco distribution in data with \ac{SM} expectations can be tested, via the shape parameterisation of the \ac{SM} background \nbreco distribution, grouped in terms of these two most common underlying b-quark topologies. 
+Within a supersymmetric or indeed any search for new physics, the compatibility of the \nbreco distribution in data with \ac{SM} expectations can be tested, via the shape parameterisation of the \ac{SM} background \nbreco distribution, with processes grouped in terms of these zero or two underlying b-quark categories. 
 
 \subsection{Fitting Procedure}
 \label{subsec:templatefitprocedure}
@@ -46,9 +46,11 @@ Two templates, representing processes which have an underlying b-quark content o
 
 The simplest way to determine the shapes of the \nbreco distributions for both templates would be, after the application of the relevant event selection, to take the \nbreco distribution as given directly from simulation. However as discussed within Section (\ref{subsec:backgroundestimation}), there are large statistical uncertainties in simulation at high $n_{b}^{reco}$ multiplicities (which is the region in which we wish to use the templates to estimate the \ac{SM} backgrounds). This statistical uncertainty is particularly pronounced for processes incorporated within the Z0 templates, where events with a large number reconstructed b-tagged jets stem largely from the mis-tagging of all the light-flavoured jets in the final state. Therefore to improve the statistical precision of the final background prediction at high b-tagged jet multiplicities, the formula method first introduced in Section (\ref{subsec:formulamethod}) is utilised to generate the template shapes. 
 
-The template shapes of each analysis category (\theht and \njet in the case of the \alphat analysis) are dependant upon the jet-flavour content and their tagging efficiencies within the phase space of interest, with the tagging efficiency of a jet being a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and jet-flavour. This can be seen in Figure \ref{fig:templatetaggingefficiencies}, where the tagging efficiency of jets identified as stemming from the hadronisation of a b, c or light quark from truth information in simulation, is shown for the three working points of the \ac{CSV} tagger as a function of jet \pt. 
+The template shapes of each analysis category (\theht and \njet in the case of the \alphat analysis) are dependant upon the jet-flavour content and their tagging efficiencies defined as the number of jets of a particular jet flavour within an event sample which fire the b-tagger divided by the total number of flavoured jets identified. Within the phase space of interest, the tagging efficiency of a jet is a function of the jet \pt, the pseudo-rapidity $\rvert\eta\lvert$, and jet-flavour. Additionally the tagging efficiency of each jet is independent of other jets in the same event.
 
-\begin{minipage}{\textwidth}
+This $\pt$ dependance is shown in Figure \ref{fig:templatetaggingefficiencies}, where the tagging efficiency of jets identified as stemming from the hadronisation of a b-, c- or light-quark from truth information in simulation, is shown for the three working points of the \ac{CSV} tagger as a function of jet \pt after the application of the \alphat \mupjets selection. 
+
+\begin{figure}[ht]
 \centering
 \begin{minipage}[b]{0.48\linewidth}
 \includegraphics[width = 1.0\linewidth]{plots/bjet_PtDistribution_Htbin_Template_375.pdf}
@@ -59,9 +61,7 @@ The template shapes of each analysis category (\theht and \njet in the case of t
 \includegraphics[width = 1.0\linewidth]{plots/cjet_PtDistribution_Htbin_Template_375.pdf}
 \centering (b) c-jets
 \end{minipage}
-\end{minipage}
 \quad
-\begin{figure}[ht]
 \begin{minipage}[b]{0.48\linewidth}
 \centering
 \includegraphics[width = 1.0\linewidth]{plots/lighjet_PtDistribution_Htbin_Template_375.pdf}
@@ -72,7 +72,7 @@ The template shapes of each analysis category (\theht and \njet in the case of t
 \end{figure}
 \FloatBarrier
 
-Therefore, before the template shapes are generated via the formula method, the jet \pt and \eta averaged tagging efficiencies of each jet flavour are determined within each individual analysis category. Additionally, the relevant jet \pt and \eta corrections are applied to correct the measured b-tagging rate in simulation to that of data, as specified in Section (\ref{subsec:formulamethodsf}). These corrections propagate through to the average determined tagging efficiency for each jet flavour, consequently affecting the final Z0 and Z2 template shape of the \nbreco distribution, determined within each analysis category. 
+Therefore, before the template shapes are generated via the formula method, the jet \pt and \eta averaged tagging efficiencies of each jet flavour are determined within each individual analysis category. Additionally as already specified in Section (\ref{subsec:formulamethodsf}), the relevant jet \pt and \eta $SF_{b,c,s}$ corrections are then applied to correct the measured b-tagging rate in simulation to that of data. These corrections propagate through to the average determined tagging efficiency for each jet flavour, consequently affecting the final Z0 and Z2 template shape of the \nbreco distribution, determined within each analysis category. 
 
 Using the truth-level flavour information of each of the defined Z0 and Z2 templates and the measured tagging efficiencies of each jet flavour, the template shapes are constructed from simulation via the formula method. These two shapes are then fitted to data in a low $n_{b}^{reco}$ control region (0-2), by allowing the normalisation constants $\theta_{Z0}$ and $\theta_{Z2}$ of the two templates to float. The fits are performed independently within each of the defined analysis category to remove any dependence on the modelling of jet multiplicity between simulation and data. Best fit values of $\theta_{Z0}$ and $\theta_{Z2}$ are used, along with the fixed shape of each template, to extrapolate a \ac{SM} background estimation within the high $n_{b}^{reco}$ signal region (3,4) as shown in Figure \ref{fig:templateexample}. 
 
@@ -83,7 +83,7 @@ Using the truth-level flavour information of each of the defined Z0 and Z2 templ
 \label{fig:templateexample}
 \end{figure}
 
-In deriving the uncertainty on the background prediction the following statistical uncertainties are considered; 
+In deriving the uncertainty on the background prediction the following statistical uncertainties are considered:
 
 \begin{itemize}
 \item[]\textbf{Fit uncertainty:} 
@@ -100,7 +100,7 @@ All statistical and systematic errors are added in quadrature to determine an ov
 
 Any large excess in data is an indication that the \nbreco distribution is not adequately described by the \ac{SM} backgrounds encapsulated by the templates. This could mean there are additional \ac{SM} backgrounds that fall within the selection of the analysis that need to be considered, or that there is signal present within the data. This method relies solely on fitting to the shape of the $n_{b}^{reco}$ distribution, and can in principle, be applied to any analysis where the signal hypothesis has a larger underlying b-quark spectra than the \ac{SM} backgrounds. 
 
-However, in the scenario where a \ac{SUSY} signal sits at a low number of underlying b-quarks, the template would be unable to discriminate between this signal and background during the fit in the control region. This will be the case unless the jet \pt distribution of the signal and background were drastically different, in which case there would anyway be many more sensitive and practical ways to establish the presence of a signal in the data than this method. Indeed the template method is only really applicable to the hypothesis that any signal resides at high \nbreco and that the control region 0 $\leq \nbreco \leq 2$ has negligible signal contamination.  
+However, in the scenario where a \ac{SUSY} signal is present in the search region and contains a low number of underlying b-quarks, the template would be unable to discriminate between this signal and background during the fit in the control region. This will be the case unless the jet \pt distribution of the signal and background were drastically different, in which case there would anyway be many more sensitive and practical ways to establish the presence of a signal in the data than this method. Indeed the template method is only really applicable to the hypothesis that any signal resides at high \nbreco and that the control region 0 $\leq \nbreco \leq 2$ has negligible signal contamination. 
 
 \FloatBarrier
 \section{ Application to the \alphat Search}
@@ -108,7 +108,7 @@ However, in the scenario where a \ac{SUSY} signal sits at a low number of underl
 
 As detailed in the previous chapter, the \alphat analysis is a search for supersymmetric particles in all hadronic final states, utilising the kinematic variable \alphat to suppress QCD to a negligible level. \ac{SM} enriched control samples are used to estimate the background within a hadronic signal region. 
 
-The selection for the \mupjets control samples defined in Section (\ref{subsec:controlsampledefinition}) is used to demonstrate the template fitting procedure both conceptually in simulation, and also when applied in data. This is chosen, as such a selection is dominated by events stemming from the \ac{SM} processes with little or no signal contamination from potential new physics. Contributions from rare \ac{SM} processes with a higher underlying b-quark content (e.g. $t\bar{t}b\bar{b}$) are also found to be negligible from studies in simulation. For these reasons, there is a degree of confidence that the procedure should adequately describe the observations in data when extrapolated to the signal region.
+The selection for the \mupjets control samples defined in Section (\ref{subsec:controlsampledefinition}) is used to demonstrate the template fitting procedure both conceptually in simulation, and also when applied in data. This is chosen, as such a selection is dominated by events stemming from the \ac{SM} processes with little or no signal contamination from potential new physics due to the selection criteria employed. Contributions from rare \ac{SM} processes with a higher underlying b-quark content (e.g. $t\bar{t}b\bar{b}$) are also found to be negligible from studies in simulation. For these reasons, there is a degree of confidence that the procedure should adequately describe the observations in data when extrapolated to the signal region.
 
 As a departure from the \alphat search strategy described in the previous section, events are categorised according to jet multiplicity categories of 3, 4 and $\geq$ 5 reconstructed jets per event (di-jet events are not included as there is no contribution to the high $n_{b}^{reco}$ region (3,4)), in order to reduce the kinematic range of the jet \pt's within each category. Furthermore the analysis is split into just three \theht regions, for the purpose of increasing statistics within the control region, 
 
@@ -131,7 +131,7 @@ The aim of this procedure is to ensure that the template fit can accurately extr
 
 Results are presented in Figure \ref{fig:template_closure_njet5} for each \ac{CSV} working point in the $\njet \geq 5$ category, using the \mupjets control sample selection and the inclusive \theht$>$ 375 \GeV analysis bin. Additional fit results for other \njet categories which show a similar level of closure can be found within Appendix \ref{app:templatemc}.  The grey bands represent the statistical uncertainty of the template prediction at each \nbreco multiplicity derived from adding in quadrature the statistical uncertainties introduced in the previous section.
 
-\begin{minipage}{1.0\textwidth}
+\begin{figure}[ht]
 \footnotesize
 \vspace{5mm}
 \centering
@@ -145,9 +145,6 @@ Results are presented in Figure \ref{fig:template_closure_njet5} for each \ac{CS
 \includegraphics[width = 1.0\linewidth]{plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_5.pdf}
 \centering (b) Medium working point : $n_{jet} \geq$ = 5 
 \end{minipage}
-\end{minipage}
-
-\begin{figure}[ht]
 \footnotesize
 \centering
 \begin{minipage}[b]{0.51\linewidth}
@@ -228,7 +225,7 @@ Figure \ref{fig:template_data_med_njet5} shows the results of the templates deri
 \caption[Results of fitting the Z = 0 and Z = 2 templates in the $n_{b}^{reco}$ = 0-2 control region to data from the \mupjets control sample, for the \ac{CSV} medium working point, with $n_{jet} \geq 5$ in each \theht category.]{Results of fitting the Z = 0 and Z = 2 templates in the $n_{b}^{reco}$ = 0-2 control region to data from the \mupjets control sample, for the \ac{CSV} medium working point, with $n_{jet} \geq 5$ in each \theht category. Data is represented by the black circles with the blue, red and black lines representing the Z=0, Z=2 and combination of both templates respectively. Grey bands represent the uncertainty of the fit. The $\chi^{2}$ parameters represent the goodness of fit to the control and signal region.}
 \label{fig:template_data_med_njet5}
 \end{figure}
-\FloatBarrier
+
 The numerical results and extrapolation to the $n_{b}^{reco} =$3, 4 bins for all \theht and working points, is shown in Table \ref{tab:template_datatable}.
 
 \begin{table}[h!]
@@ -262,7 +259,7 @@ Template & & $0.1 \pm 0.1$ & $0.1 \pm 0.1$ & $0.2 \pm 0.1$ \\
 \caption[Summary of the fit predictions in the $n_{b}^{reco}$ signal region of the \mupjets control sample, after combination of the $n_{jet} = 3, = 4, \geq 5$ categories.. The predictions are extrapolated from a $n_{b}^{reco}$ = 0, 1, 2 control region using 11.4 fb$^{-1}$ of $\sqrt{s} = 8$\TeV data.]{Summary of the fit predictions in the $n_{b}^{reco}$ signal region of the \mupjets control sample, after combination of the $n_{jet} = 3, = 4, \geq 5$ categories. The predictions are extrapolated from a $n_{b}^{reco}$ = 0, 1, 2 control region using 11.4 fb$^{-1}$ of $\sqrt{s} = 8$\TeV data. The uncertainties quoted on the template yields are a combination of statistical and systematic uncertainties.}\label{tab:template_datatable}
 \end{table}
 
-When this method is applied to the \mupjets control sample, it is expected that good agreement would be observed between the template predictions and observation in the absence of signal contamination. The good compatibility for all working points as shown in the table, demonstrate that this is the case and that the method is able to accurately predict the background yields. However the assumption of negligible signal contamination can no longer made when applied to the hadronic signal region of the \alphat search, where agreement between estimated backgrounds and observations in data is now not necessarily expected.
+When this method is applied to the \mupjets control sample, it is expected that good agreement would be observed between the template predictions and observation in the absence of signal contamination. The good compatibility for all working points as shown in the table, demonstrate that this is the case and that the method is able to accurately predict the background yields. However the assumption of negligible signal contamination can no longer made when applied to the hadronic signal region of the \alphat search, where agreement between estimated backgrounds and observations in data is now not necessarily expected. Therefore a departure between the extrapolated background estimation and observation in data could point to a potential supersymmetric signature containing a larger number of b-quarks in its final state.
  
 \subsection{Application to the \alphat Hadronic Search Region}
 \label{subsec:templatedataresults}
@@ -273,7 +270,7 @@ Figure \ref{fig:template_data_signal_njet5} shows the  the results of the templa
 
 \vspace*{100px}
 
-\begin{minipage}{\textwidth}
+\begin{figure}[ht]
 \footnotesize
 \centering
 \begin{minipage}[b]{0.51\linewidth}
@@ -285,8 +282,6 @@ Figure \ref{fig:template_data_signal_njet5} shows the  the results of the templa
 \includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_mult_5.pdf}
 \centering (b) Medium working point : $n_{jet} \geq$ 5 , \theht $>$ 375 
 \end{minipage}
-\end{minipage}
-\begin{figure}[ht]
 \begin{minipage}[b]{0.51\linewidth}
 \centering
 \includegraphics[width = 1.0\linewidth]{plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mult_5.pdf}
@@ -295,6 +290,7 @@ Figure \ref{fig:template_data_signal_njet5} shows the  the results of the templa
 \caption[Results of fitting the Z = 0 and Z = 2 templates in the $n_{b}^{reco}$ = 0-2 control region to data from the hadronic signal selection, in the $n_{jet} \geq 5$ and \theht $>$ 375 category for all \ac{CSV} working points.]{Results of fitting the Z = 0 and Z = 2 templates in the $n_{b}^{reco}$ = 0-2 control region to data from the hadronic signal selection, in the $n_{jet} \geq 5$ and \theht $>$ 375 category for all \ac{CSV} working points. Data is represented by the black circles with the blue, red and black lines representing the Z=0, Z=2 and combination of both templates respectively. Grey bands represent the uncertainty of the fit. The $\chi^{2}$ parameters represent the goodness of fit to the control and signal region.}
 \label{fig:template_data_signal_njet5}
 \end{figure}
+\FloatBarrier
 
 \begin{table}[h!]
 \begin{center}
@@ -328,9 +324,8 @@ Template & & $0.1 \pm 0.1$ & $0.1 \pm 0.1$ & $0.0 \pm 0.1$ \\
 \end{center}
 \caption[Summary of the fit predictions in the $n_{b}^{reco}$ signal region of the \alphat hadronic signal selection, after combination of the $n_{jet} = 3, = 4, \geq 5$ categories. The predictions are extrapolated from a $n_{b}^{reco}$ = 0, 1, 2 control region using 11.7 fb$^{-1}$ of $\sqrt{s} = 8$\TeV data.]{Summary of the fit predictions in the $n_{b}^{reco}$ signal region of the \alphat hadronic signal selection, after combination of the $n_{jet} = 3, = 4, \geq 5$ categories. The predictions are extrapolated from a $n_{b}^{reco}$ = 0, 1, 2 control region using 11.7 fb$^{-1}$ of $\sqrt{s} = 8$\TeV data. The uncertainties quoted on the template yields are a combination of statistical and systematic uncertainties.}\label{tab:template_signal_table}
 \end{table}
-\FloatBarrier
 
-The numerical results and extrapolation to the $n_{b}^{reco} =$3, 4 bins for all \theht and working points are shown in Table \ref{tab:template_signal_table}. Also included within the table are total \ac{SM} background predictions determined by the maximum likelihood fit in both jet multiplicity categories of the \alphat analysis for the \ac{CSVM} tagger, as introduced in Section (\ref{sec:statframework}). No excess of data is found for any of the three \ac{CSV} working points. Predictions within the signal region from this method are also found to be statistically compatible with the background predictions determined by the \alphat simultaneous fit (introduced in Table \ref{tab:fitsdata}).
+The numerical results and extrapolation to the $n_{b}^{reco} =$3, 4 bins for all \theht and working points are shown in Table \ref{tab:template_signal_table}. Included within the table are the combined \ac{SM} background predictions as determined by the maximum likelihood fit for both jet multiplicity categories of the \alphat analysis using the \ac{CSVM} tagger. No notable discrepancy is found in any of the three \ac{CSV} working points between the data and the background expectations as determined by this method. The template predictions within the hadronic signal region are additionally found to be statistically compatible with the background predictions determined by the \alphat maximum likelihood fit (introduced in Table \ref{tab:fitsdata}).
 
 \section{Summary}
 \label{subsec:templateconclusions}
