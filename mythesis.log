@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.9)  18 JUN 2014 16:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.9)  25 JUN 2014 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1524,8 +1524,11 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 49
 
 ]
 Package acronym Info: Label `acro:EWK' newly defined as it shall be overridden
-although it is yet undefined on input line 58.
- [6])
+although it is yet undefined on input line 61.
+ [6]
+Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
+although it is yet undefined on input line 83.
+)
 \tf@toc=\write7
 \openout7 = `mythesis.toc'.
 
@@ -1553,14 +1556,11 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:EMG' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
+although it is yet undefined on input line 26.
 Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 
-although it is yet undefined on input line 29.
- [9]
-Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
- [10] [11])
+although it is yet undefined on input line 30.
+ [9] [10] [11])
 \tf@lof=\write8
 \openout8 = `mythesis.lof'.
 
@@ -1569,7 +1569,7 @@ although it is yet undefined on input line 41.
 
 ]
 Package acronym Info: Label `acro:TF' newly defined as it shall be overridden
-although it is yet undefined on input line 27.
+although it is yet undefined on input line 34.
  [14] [15])
 \tf@lot=\write9
 \openout9 = `mythesis.lot'.
@@ -1624,7 +1624,7 @@ although it is yet undefined on input line 205.
 Package acronym Info: Label `acro:BSM' newly defined as it shall be overridden
 although it is yet undefined on input line 270.
  [28]
-<plots/higgs_correction.pdf, id=1172, 261.93872pt x 153.02742pt>
+<plots/higgs_correction.pdf, id=1214, 261.93872pt x 153.02742pt>
 File: plots/higgs_correction.pdf Graphic file (type pdf)
 
 <use plots/higgs_correction.pdf>
@@ -1641,50 +1641,50 @@ although it is yet undefined on input line 318.
 Package acronym Info: Label `acro:CMSSM' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 347.
- [32] <plots/t1susydecay.pdf, id=1312, 218.8175pt x 125.46875pt>
+ [32] <plots/t1susydecay.pdf, id=1354, 218.8175pt x 125.46875pt>
 File: plots/t1susydecay.pdf Graphic file (type pdf)
 
 <use plots/t1susydecay.pdf>
-Package pdftex.def Info: plots/t1susydecay.pdf used on input line 370.
+Package pdftex.def Info: plots/t1susydecay.pdf used on input line 372.
 (pdftex.def)             Requested size: 215.07349pt x 123.32419pt.
 
-<plots/t2susydecay.pdf, id=1313, 217.81375pt x 124.465pt>
+<plots/t2susydecay.pdf, id=1355, 217.81375pt x 124.465pt>
 File: plots/t2susydecay.pdf Graphic file (type pdf)
 
 <use plots/t2susydecay.pdf>
-Package pdftex.def Info: plots/t2susydecay.pdf used on input line 375.
+Package pdftex.def Info: plots/t2susydecay.pdf used on input line 377.
 (pdftex.def)             Requested size: 215.07349pt x 122.89786pt.
 
-<plots/t2bbsusydecay.pdf, id=1314, 217.81375pt x 125.46875pt>
+<plots/t2bbsusydecay.pdf, id=1356, 217.81375pt x 125.46875pt>
 File: plots/t2bbsusydecay.pdf Graphic file (type pdf)
 
 <use plots/t2bbsusydecay.pdf>
-Package pdftex.def Info: plots/t2bbsusydecay.pdf used on input line 380.
+Package pdftex.def Info: plots/t2bbsusydecay.pdf used on input line 382.
 (pdftex.def)             Requested size: 215.07349pt x 123.88896pt.
 
-<plots/t1ttttsusydecay.pdf, id=1315, 218.8175pt x 123.46124pt>
+<plots/t1ttttsusydecay.pdf, id=1357, 218.8175pt x 123.46124pt>
 File: plots/t1ttttsusydecay.pdf Graphic file (type pdf)
 
 <use plots/t1ttttsusydecay.pdf>
-Package pdftex.def Info: plots/t1ttttsusydecay.pdf used on input line 385.
+Package pdftex.def Info: plots/t1ttttsusydecay.pdf used on input line 387.
 (pdftex.def)             Requested size: 215.07349pt x 121.35098pt.
 
-<plots/t1bbbbsusydecay.pdf, id=1316, 218.8175pt x 125.46875pt>
+<plots/t1bbbbsusydecay.pdf, id=1358, 218.8175pt x 125.46875pt>
 File: plots/t1bbbbsusydecay.pdf Graphic file (type pdf)
 
 <use plots/t1bbbbsusydecay.pdf>
-Package pdftex.def Info: plots/t1bbbbsusydecay.pdf used on input line 391.
+Package pdftex.def Info: plots/t1bbbbsusydecay.pdf used on input line 393.
 (pdftex.def)             Requested size: 215.07349pt x 123.32419pt.
  [33] [34 <./plots/t1susydecay.pdf> <./plots/t2susydecay.pdf> <./plots/t2bbsusy
 decay.pdf> <./plots/t1ttttsusydecay.pdf> <./plots/t1bbbbsusydecay.pdf>]
 File: plots/t1susydecay.pdf Graphic file (type pdf)
  <use plots/t1susydecay.pdf>
-Package pdftex.def Info: plots/t1susydecay.pdf used on input line 420.
+Package pdftex.def Info: plots/t1susydecay.pdf used on input line 422.
 (pdftex.def)             Requested size: 201.63182pt x 115.61642pt.
 File: plots/t2susydecay.pdf Graphic file (type pdf)
 
 <use plots/t2susydecay.pdf>
-Package pdftex.def Info: plots/t2susydecay.pdf used on input line 424.
+Package pdftex.def Info: plots/t2susydecay.pdf used on input line 426.
 (pdftex.def)             Requested size: 201.63182pt x 115.21758pt.
 ) (./chap_detector.tex [35]
 Chapter 3.
@@ -1708,7 +1708,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 [36
 
-] <plots/lhc-ring-photo.pdf, id=1443, 1035.7395pt x 1114.02196pt>
+] <plots/lhc-ring-photo.pdf, id=1485, 1035.7395pt x 1114.02196pt>
 File: plots/lhc-ring-photo.pdf Graphic file (type pdf)
 
 <use plots/lhc-ring-photo.pdf>
@@ -1717,7 +1717,7 @@ Package pdftex.def Info: plots/lhc-ring-photo.pdf used on input line 17.
 Package acronym Info: Label `acro:PS' newly defined as it shall be overridden
 although it is yet undefined on input line 23.
  [37 <./plots/lhc-ring-photo.pdf>]
-<plots/lhc-lumo-8tev.pdf, id=1476, 578.16098pt x 433.62102pt>
+<plots/lhc-lumo-8tev.pdf, id=1517, 578.16098pt x 433.62102pt>
 File: plots/lhc-lumo-8tev.pdf Graphic file (type pdf)
 
 <use plots/lhc-lumo-8tev.pdf>
@@ -1728,7 +1728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[39] <plots/cms-detector.pdf, id=1506, 346.86691pt x 230.28134pt>
+[39] <plots/cms-detector.pdf, id=1547, 346.86691pt x 230.28134pt>
 File: plots/cms-detector.pdf Graphic file (type pdf)
 
 <use plots/cms-detector.pdf>
@@ -1774,7 +1774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
-<plots/cms-ecal.pdf, id=1533, 449.00748pt x 244.25653pt>
+<plots/cms-ecal.pdf, id=1574, 449.00748pt x 244.25653pt>
 File: plots/cms-ecal.pdf Graphic file (type pdf)
 
 <use plots/cms-ecal.pdf>
@@ -1799,7 +1799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
  []
 
 [42 <./plots/cms-ecal.pdf>]
-<plots/cms-hcal.pdf, id=1591, 429.73047pt x 259.18732pt>
+<plots/cms-hcal.pdf, id=1632, 429.73047pt x 259.18732pt>
 File: plots/cms-hcal.pdf Graphic file (type pdf)
 
 <use plots/cms-hcal.pdf>
@@ -1833,7 +1833,7 @@ Package acronym Info: Label `acro:GCT' newly defined as it shall be overridden
 although it is yet undefined on input line 129.
 Package acronym Info: Label `acro:GMT' newly defined as it shall be overridden
 although it is yet undefined on input line 129.
-<plots/l1triggersystem.pdf, id=1646, 330.9695pt x 254.36932pt>
+<plots/l1triggersystem.pdf, id=1687, 330.9695pt x 254.36932pt>
 File: plots/l1triggersystem.pdf Graphic file (type pdf)
 
 <use plots/l1triggersystem.pdf>
@@ -1849,46 +1849,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--175
  []
 
 Missing character: There is no Þ in font cmr12!
-[47] <plots/btag-ttbardiscrim.pdf, id=1728, 537.04056pt x 378.42438pt>
+[47] <plots/btag-ttbardiscrim.pdf, id=1770, 537.04056pt x 378.42438pt>
 File: plots/btag-ttbardiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-ttbardiscrim.pdf>
-Package pdftex.def Info: plots/btag-ttbardiscrim.pdf used on input line 185.
+Package pdftex.def Info: plots/btag-ttbardiscrim.pdf used on input line 186.
 (pdftex.def)             Requested size: 313.65027pt x 221.0107pt.
 
-<plots/btag-multijetdiscrim.pdf, id=1729, 521.16147pt x 373.71811pt>
+<plots/btag-multijetdiscrim.pdf, id=1771, 521.16147pt x 373.71811pt>
 File: plots/btag-multijetdiscrim.pdf Graphic file (type pdf)
 
 <use plots/btag-multijetdiscrim.pdf>
-Package pdftex.def Info: plots/btag-multijetdiscrim.pdf used on input line 189.
+Package pdftex.def Info: plots/btag-multijetdiscrim.pdf used on input line 190.
 
 (pdftex.def)             Requested size: 313.65027pt x 224.91118pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 [48] [49 <./plots/btag-ttbardiscrim.pdf> <./plots/btag-multijetdiscrim.pdf>]
-<plots/btag-csvm_pt_sf.pdf, id=1774, 594.59972pt x 556.80391pt>
+<plots/btag-csvm_pt_sf.pdf, id=1817, 594.59972pt x 556.80391pt>
 File: plots/btag-csvm_pt_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_pt_sf.pdf>
-Package pdftex.def Info: plots/btag-csvm_pt_sf.pdf used on input line 212.
+Package pdftex.def Info: plots/btag-csvm_pt_sf.pdf used on input line 213.
 (pdftex.def)             Requested size: 197.15355pt x 184.62096pt.
 
-<plots/btag-csvm_eta_sf.pdf, id=1775, 594.1077pt x 549.1173pt>
+<plots/btag-csvm_eta_sf.pdf, id=1818, 594.1077pt x 549.1173pt>
 File: plots/btag-csvm_eta_sf.pdf Graphic file (type pdf)
 
 <use plots/btag-csvm_eta_sf.pdf>
-Package pdftex.def Info: plots/btag-csvm_eta_sf.pdf used on input line 216.
+Package pdftex.def Info: plots/btag-csvm_eta_sf.pdf used on input line 217.
 (pdftex.def)             Requested size: 197.15355pt x 182.2231pt.
 Missing character: There is no Þ in font cmr12!
 
-<plots/mistag_csvm.pdf, id=1782, 560.46884pt x 407.71732pt>
+<plots/mistag_csvm.pdf, id=1825, 560.46884pt x 407.71732pt>
 File: plots/mistag_csvm.pdf Graphic file (type pdf)
 
 <use plots/mistag_csvm.pdf>
-Package pdftex.def Info: plots/mistag_csvm.pdf used on input line 226.
+Package pdftex.def Info: plots/mistag_csvm.pdf used on input line 227.
 (pdftex.def)             Requested size: 313.65027pt x 228.17705pt.
 Missing character: There is no Þ in font cmr10!
 Missing character: There is no Þ in font cmr10!
@@ -1897,224 +1897,258 @@ Missing character: There is no Þ in font cmr10!
  [50 <./plots/btag-csvm_pt_sf.pdf> <./plots/btag-csvm_eta_sf.pdf>]
 Package acronym Info: Label `acro:POGs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 237.
+although it is yet undefined on input line 238.
  [51 <./plots/mistag_csvm.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\OT1/cmr/m/n/10 (+20) Combined
  []
 
 
-Overfull \hbox (336.86584pt too wide) detected at line 343
+Overfull \hbox (336.86584pt too wide) detected at line 344
  [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 345
+Underfull \vbox (badness 10000) detected at line 346
  []
 
 [53]
-Overfull \hbox (34.94345pt too wide) in alignment at lines 361--364
+Overfull \hbox (34.94345pt too wide) in alignment at lines 362--365
  [] [] [] [] 
  []
 
 
-Overfull \hbox (34.94345pt too wide) in alignment at lines 364--365
+Overfull \hbox (34.94345pt too wide) in alignment at lines 365--366
  [] [] [] [] 
  []
 
 
-Overfull \hbox (0.98886pt too wide) in paragraph at lines 367--367
+Overfull \hbox (0.98886pt too wide) in paragraph at lines 368--368
 []|\OT1/cmr/m/n/10 (-20) Barrel| 
  []
 
 
-Overfull \hbox (9.37334pt too wide) in paragraph at lines 367--367
+Overfull \hbox (9.37334pt too wide) in paragraph at lines 368--368
 []|\OT1/cmr/m/n/10 (-20) EndCap| 
  []
 
 
-Overfull \hbox (3.99277pt too wide) in paragraph at lines 369--369
+Overfull \hbox (3.99277pt too wide) in paragraph at lines 370--370
 []|$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 (-20) 0.007
  []
 
 
-Overfull \hbox (4.24277pt too wide) in paragraph at lines 369--369
+Overfull \hbox (4.24277pt too wide) in paragraph at lines 370--370
 []|$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 (-20) 0.009
  []
 
 
-Overfull \hbox (336.86584pt too wide) detected at line 378
+Overfull \hbox (336.86584pt too wide) detected at line 379
  [] 
  []
 
 
-Overfull \hbox (34.94345pt too wide) in alignment at lines 365--380
+Overfull \hbox (34.94345pt too wide) in alignment at lines 366--381
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 380
+Underfull \vbox (badness 10000) detected at line 381
  []
 
 [54]
-Overfull \hbox (39.39667pt too wide) in alignment at lines 396--399
+Overfull \hbox (39.39667pt too wide) in alignment at lines 397--400
  [] [] 
  []
 
 
-Overfull \hbox (39.39667pt too wide) in alignment at lines 399--401
+Overfull \hbox (39.39667pt too wide) in alignment at lines 400--402
  [] [] 
  []
 
 Package acronym Info: Label `acro:TP' newly defined as it shall be overridden
-although it is yet undefined on input line 408.
+although it is yet undefined on input line 409.
 
-Overfull \hbox (336.86584pt too wide) detected at line 412
+Overfull \hbox (336.86584pt too wide) detected at line 413
  [] 
  []
 
 
-Overfull \hbox (39.39667pt too wide) in alignment at lines 401--414
+Overfull \hbox (39.39667pt too wide) in alignment at lines 402--415
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 414
+Underfull \vbox (badness 10000) detected at line 415
  []
 
 [55]) (./chap_level1.tex [56]
 Chapter 4.
-Package acronym Info: Label `acro:RCT' newly defined as it shall be overridden
-although it is yet undefined on input line 10.
-Package acronym Info: Label `acro:RMT' newly defined as it shall be overridden
-although it is yet undefined on input line 10.
 [57
 
 ]
+Package acronym Info: Label `acro:RCT' newly defined as it shall be overridden
+although it is yet undefined on input line 23.
+Package acronym Info: Label `acro:RMT' newly defined as it shall be overridden
+although it is yet undefined on input line 23.
 Package acronym Info: Label `acro:GT' newly defined as it shall be overridden
-although it is yet undefined on input line 19.
+although it is yet undefined on input line 30.
+ [58]
 Missing character: There is no Þ in font cmr12!
- [58] <plots/L1JetAlgorithm_v2.pdf, id=1953, 340.85852pt x 302.67679pt>
+ [59]
+<plots/L1JetAlgorithm_v2.pdf, id=2006, 340.85852pt x 302.67679pt>
 File: plots/L1JetAlgorithm_v2.pdf Graphic file (type pdf)
 
 <use plots/L1JetAlgorithm_v2.pdf>
-Package pdftex.def Info: plots/L1JetAlgorithm_v2.pdf used on input line 40.
+Package pdftex.def Info: plots/L1JetAlgorithm_v2.pdf used on input line 49.
 (pdftex.def)             Requested size: 246.44194pt x 218.84157pt.
- [59]
+ [60 <./plots/L1JetAlgorithm_v2.pdf>]
+<plots/l1trigger_stage1.pdf, id=2076, 160.85927pt x 111.03482pt>
+File: plots/l1trigger_stage1.pdf Graphic file (type pdf)
+
+<use plots/l1trigger_stage1.pdf>
+Package pdftex.def Info: plots/l1trigger_stage1.pdf used on input line 66.
+(pdftex.def)             Requested size: 206.11694pt x 142.2867pt.
+
+<plots/l1_stage2.pdf, id=2077, 159.14555pt x 121.48267pt>
+File: plots/l1_stage2.pdf Graphic file (type pdf)
+
+<use plots/l1_stage2.pdf>
+Package pdftex.def Info: plots/l1_stage2.pdf used on input line 70.
+(pdftex.def)             Requested size: 206.11694pt x 157.34164pt.
+
+<plots/l1_stage3.pdf, id=2078, 160.85916pt x 128.69872pt>
+File: plots/l1_stage3.pdf Graphic file (type pdf)
+
+<use plots/l1_stage3.pdf>
+Package pdftex.def Info: plots/l1_stage3.pdf used on input line 74.
+(pdftex.def)             Requested size: 206.11694pt x 164.92229pt.
+
+<plots/l1_stage4.pdf, id=2079, 160.85916pt x 71.14569pt>
+File: plots/l1_stage4.pdf Graphic file (type pdf)
+
+<use plots/l1_stage4.pdf>
+Package pdftex.def Info: plots/l1_stage4.pdf used on input line 78.
+(pdftex.def)             Requested size: 206.11694pt x 91.17038pt.
+ [61 <./plots/l1trigger_stage1.pdf> <./plots/l1_stage2.pdf> <./plots/l1_stage3.
+pdf> <./plots/l1_stage4.pdf>]
 Package acronym Info: Label `acro:LUT' newly defined as it shall be overridden
-although it is yet undefined on input line 54.
-
-
-LaTeX Warning: Reference `app:jetcriteria' on page 60 undefined on input line 5
-6.
-
-[60 <./plots/L1JetAlgorithm_v2.pdf>] [61]
-<plots/jetpt_RunC.pdf, id=2048, 569.12625pt x 474.77374pt>
+although it is yet undefined on input line 88.
+ [62]
+<plots/jetpt_RunC.pdf, id=2349, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC.pdf>
-Package pdftex.def Info: plots/jetpt_RunC.pdf used on input line 85.
+Package pdftex.def Info: plots/jetpt_RunC.pdf used on input line 120.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-<plots/jetpt_RunC_PF.pdf, id=2049, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_PF.pdf, id=2350, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_PF.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_PF.pdf>
-Package pdftex.def Info: plots/jetpt_RunC_PF.pdf used on input line 89.
+Package pdftex.def Info: plots/jetpt_RunC_PF.pdf used on input line 124.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-Overfull \hbox (11.51169pt too wide) in alignment at lines 100--107
+Overfull \hbox (19.10756pt too wide) in alignment at lines 135--142
 [] [] [] [] [] 
  []
 
-[62 <./plots/jetpt_RunC.pdf, page is rotated 90 degrees> <./plots/jetpt_RunC_PF
-.pdf, page is rotated 90 degrees>] [63]
-<plots/jetseed_36.pdf, id=2157, 569.12625pt x 474.77374pt>
+[63] [64 <./plots/jetpt_RunC.pdf, page is rotated 90 degrees> <./plots/jetpt_Ru
+nC_PF.pdf, page is rotated 90 degrees>]
+<plots/jetseed_36.pdf, id=2459, 569.12625pt x 474.77374pt>
 File: plots/jetseed_36.pdf Graphic file (type pdf)
 
 <use plots/jetseed_36.pdf>
-Package pdftex.def Info: plots/jetseed_36.pdf used on input line 153.
+Package pdftex.def Info: plots/jetseed_36.pdf used on input line 190.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-<plots/jetseed_92.pdf, id=2158, 569.12625pt x 474.77374pt>
+<plots/jetseed_92.pdf, id=2460, 569.12625pt x 474.77374pt>
 File: plots/jetseed_92.pdf Graphic file (type pdf)
 
 <use plots/jetseed_92.pdf>
-Package pdftex.def Info: plots/jetseed_92.pdf used on input line 157.
+Package pdftex.def Info: plots/jetseed_92.pdf used on input line 194.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-<plots/jetseed_ht100.pdf, id=2159, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht100.pdf, id=2461, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht100.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht100.pdf>
-Package pdftex.def Info: plots/jetseed_ht100.pdf used on input line 167.
+Package pdftex.def Info: plots/jetseed_ht100.pdf used on input line 204.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-<plots/jetseed_ht150.pdf, id=2160, 569.12625pt x 474.77374pt>
+<plots/jetseed_ht150.pdf, id=2462, 569.12625pt x 474.77374pt>
 File: plots/jetseed_ht150.pdf Graphic file (type pdf)
 
 <use plots/jetseed_ht150.pdf>
-Package pdftex.def Info: plots/jetseed_ht150.pdf used on input line 171.
+Package pdftex.def Info: plots/jetseed_ht150.pdf used on input line 208.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-Overfull \hbox (6.51167pt too wide) in alignment at lines 183--189
+Overfull \hbox (14.10754pt too wide) in alignment at lines 220--226
 [] [] [] [] [] 
  []
 
-[64 <./plots/jetseed_36.pdf, page is rotated 90 degrees> <./plots/jetseed_92.pd
-f, page is rotated 90 degrees>]
-<plots/l1rateplot.pdf, id=2259, 339.6409pt x 250.99673pt>
+[65]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[66 <./plots/jetseed_36.pdf, page is rotated 90 degrees> <./plots/jetseed_92.pd
+f, page is rotated 90 degrees> <./plots/jetseed_ht100.pdf, page is rotated 90 d
+egrees> <./plots/jetseed_ht150.pdf, page is rotated 90 degrees>]
+<plots/l1rateplot.pdf, id=2654, 339.6409pt x 250.99673pt>
 File: plots/l1rateplot.pdf Graphic file (type pdf)
 
 <use plots/l1rateplot.pdf>
-Package pdftex.def Info: plots/l1rateplot.pdf used on input line 219.
+Package pdftex.def Info: plots/l1rateplot.pdf used on input line 256.
 (pdftex.def)             Requested size: 241.14671pt x 178.20891pt.
- [65 <./plots/jetseed_ht100.pdf, page is rotated 90 degrees> <./plots/jetseed_h
-t150.pdf, page is rotated 90 degrees>]
-<plots/jetpt_RunC_calopu.pdf, id=2358, 569.12625pt x 474.77374pt>
+ [67]
+<plots/jetpt_RunC_calopu.pdf, id=2667, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_calopu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_calopu.pdf>
-Package pdftex.def Info: plots/jetpt_RunC_calopu.pdf used on input line 237.
+Package pdftex.def Info: plots/jetpt_RunC_calopu.pdf used on input line 276.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
 
-<plots/jetpt_RunC_pfpu.pdf, id=2359, 569.12625pt x 474.77374pt>
+<plots/jetpt_RunC_pfpu.pdf, id=2668, 569.12625pt x 474.77374pt>
 File: plots/jetpt_RunC_pfpu.pdf Graphic file (type pdf)
 
 <use plots/jetpt_RunC_pfpu.pdf>
-Package pdftex.def Info: plots/jetpt_RunC_pfpu.pdf used on input line 241.
+Package pdftex.def Info: plots/jetpt_RunC_pfpu.pdf used on input line 280.
 (pdftex.def)             Requested size: 206.11694pt x 171.94713pt.
- [66 <./plots/l1rateplot.pdf>] [67 <./plots/jetpt_RunC_calopu.pdf, page is rota
-ted 90 degrees> <./plots/jetpt_RunC_pfpu.pdf, page is rotated 90 degrees>]
-<plots/res_CaloJet_summary.pdf, id=2472, 569.12625pt x 200.75pt>
+
+Overfull \hbox (3.15575pt too wide) in alignment at lines 308--315
+[] [] [] [] [] [] [] 
+ []
+
+[68 <./plots/l1rateplot.pdf>] [69 <./plots/jetpt_RunC_calopu.pdf, page is rotat
+ed 90 degrees> <./plots/jetpt_RunC_pfpu.pdf, page is rotated 90 degrees>]
+<plots/res_CaloJet_summary.pdf, id=2780, 377.14774pt x 201.28549pt>
 File: plots/res_CaloJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_CaloJet_summary.pdf>
-Package pdftex.def Info: plots/res_CaloJet_summary.pdf used on input line 301.
-(pdftex.def)             Requested size: 448.07378pt x 158.05775pt.
+Package pdftex.def Info: plots/res_CaloJet_summary.pdf used on input line 342.
+(pdftex.def)             Requested size: 313.65027pt x 167.40475pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_PFJet_summary.pdf, id=2475, 569.12625pt x 203.76125pt>
+<plots/res_PFJet_summary.pdf, id=2783, 376.62808pt x 231.32181pt>
 File: plots/res_PFJet_summary.pdf Graphic file (type pdf)
 
 <use plots/res_PFJet_summary.pdf>
-Package pdftex.def Info: plots/res_PFJet_summary.pdf used on input line 309.
-(pdftex.def)             Requested size: 448.07378pt x 160.42862pt.
+Package pdftex.def Info: plots/res_PFJet_summary.pdf used on input line 350.
+(pdftex.def)             Requested size: 313.65027pt x 192.63945pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68]) (./chap_alphat.tex [69 <./plots/res_CaloJet_summary.pdf, page is rotated 
-90 degrees> <./plots/res_PFJet_summary.pdf, page is rotated 90 degrees>]
-[70]
+[70] [71 <./plots/res_CaloJet_summary.pdf> <./plots/res_PFJet_summary.pdf>])
+(./chap_alphat.tex [72]
 Chapter 5.
-[71
+[73
 
 ]
 
@@ -2125,453 +2159,464 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 35.
 
-[72] <plots/ra1_htdistribution.pdf, id=2618, 569.12625pt x 462.72874pt>
+[74] <plots/ra1_htdistribution.pdf, id=2895, 569.12625pt x 462.72874pt>
 File: plots/ra1_htdistribution.pdf Graphic file (type pdf)
 
 <use plots/ra1_htdistribution.pdf>
-Package pdftex.def Info: plots/ra1_htdistribution.pdf used on input line 58.
+Package pdftex.def Info: plots/ra1_htdistribution.pdf used on input line 66.
 (pdftex.def)             Requested size: 313.65027pt x 255.02408pt.
- [73 <./plots/ra1_htdistribution.pdf, page is rotated 90 degrees>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@Oldalpha' on input line 74.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 74.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
-
-<plots/susy_topology.pdf, id=2677, 559.94063pt x 185.68471pt>
-File: plots/susy_topology.pdf Graphic file (type pdf)
-
-<use plots/susy_topology.pdf>
-Package pdftex.def Info: plots/susy_topology.pdf used on input line 80.
-(pdftex.def)             Requested size: 403.26366pt x 133.72688pt.
- [74 <./plots/susy_topology.pdf>]
-<plots/alphat_low.pdf, id=3156, 569.12625pt x 363.3575pt>
-File: plots/alphat_low.pdf Graphic file (type pdf)
-
-<use plots/alphat_low.pdf>
-Package pdftex.def Info: plots/alphat_low.pdf used on input line 112.
-(pdftex.def)             Requested size: 215.07181pt x 199.17082pt.
-
-<plots/alphat_high.pdf, id=3157, 569.12625pt x 363.3575pt>
-File: plots/alphat_high.pdf Graphic file (type pdf)
-
-<use plots/alphat_high.pdf>
-Package pdftex.def Info: plots/alphat_high.pdf used on input line 116.
-(pdftex.def)             Requested size: 215.07181pt x 199.17082pt.
- [75] [76 <./plots/alphat_low.pdf, page is rotated 90 degrees> <./plots/alphat_
-high.pdf, page is rotated 90 degrees>] [77]
-<plots/analysis_binning.pdf, id=3288, 585.648pt x 493.45567pt>
+[75] [76 <./plots/ra1_htdistribution.pdf, page is rotated 90 degrees>] [77]
+<plots/analysis_binning.pdf, id=2983, 585.648pt x 493.45567pt>
 File: plots/analysis_binning.pdf Graphic file (type pdf)
 
 <use plots/analysis_binning.pdf>
-Package pdftex.def Info: plots/analysis_binning.pdf used on input line 178.
+Package pdftex.def Info: plots/analysis_binning.pdf used on input line 138.
 (pdftex.def)             Requested size: 313.65027pt x 264.27853pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78] [79 <./plots/analysis_binning.pdf>] [80]
-<plots/had_njet_datamc.pdf, id=3473, 1200.485pt x 975.645pt>
+[78] [79 <./plots/analysis_binning.pdf>]
+Overfull \hbox (16.66515pt too wide) in alignment at lines 170--178
+[] [] [] [] 
+ []
+
+[80] [81]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@Oldalpha' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 222.
+
+<plots/susy_topology_v3.pdf, id=3176, 575.34026pt x 217.7741pt>
+File: plots/susy_topology_v3.pdf Graphic file (type pdf)
+
+<use plots/susy_topology_v3.pdf>
+Package pdftex.def Info: plots/susy_topology_v3.pdf used on input line 228.
+(pdftex.def)             Requested size: 403.26366pt x 152.64685pt.
+ [82 <./plots/susy_topology_v3.pdf>]
+<plots/alphat_low.pdf, id=3658, 569.12625pt x 363.3575pt>
+File: plots/alphat_low.pdf Graphic file (type pdf)
+
+<use plots/alphat_low.pdf>
+Package pdftex.def Info: plots/alphat_low.pdf used on input line 262.
+(pdftex.def)             Requested size: 215.07181pt x 199.17082pt.
+
+<plots/alphat_high.pdf, id=3659, 569.12625pt x 363.3575pt>
+File: plots/alphat_high.pdf Graphic file (type pdf)
+
+<use plots/alphat_high.pdf>
+Package pdftex.def Info: plots/alphat_high.pdf used on input line 266.
+(pdftex.def)             Requested size: 215.07181pt x 199.17082pt.
+ [83] [84 <./plots/alphat_low.pdf, page is rotated 90 degrees> <./plots/alphat_
+high.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots/had_njet_datamc.pdf, id=3773, 1200.485pt x 975.645pt>
 File: plots/had_njet_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_njet_datamc.pdf>
-Package pdftex.def Info: plots/had_njet_datamc.pdf used on input line 237.
+Package pdftex.def Info: plots/had_njet_datamc.pdf used on input line 355.
 (pdftex.def)             Requested size: 238.49121pt x 193.81548pt.
 
-Overfull \hbox (23.41772pt too wide) in paragraph at lines 237--239
+Overfull \hbox (23.41772pt too wide) in paragraph at lines 355--357
  [][] 
  []
 
-<plots/had_ht_datamc.pdf, id=3474, 1200.485pt x 975.645pt>
+<plots/had_ht_datamc.pdf, id=3774, 1200.485pt x 975.645pt>
 File: plots/had_ht_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_ht_datamc.pdf>
-Package pdftex.def Info: plots/had_ht_datamc.pdf used on input line 242.
+Package pdftex.def Info: plots/had_ht_datamc.pdf used on input line 360.
 (pdftex.def)             Requested size: 238.49121pt x 193.81548pt.
 
-Overfull \hbox (23.41772pt too wide) in paragraph at lines 242--244
+Overfull \hbox (23.41772pt too wide) in paragraph at lines 360--362
  [][] 
  []
 
-<plots/had_nbtag_datamc.pdf, id=3475, 1200.485pt x 975.645pt>
+<plots/had_nbtag_datamc.pdf, id=3775, 1200.485pt x 975.645pt>
 File: plots/had_nbtag_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_nbtag_datamc.pdf>
-Package pdftex.def Info: plots/had_nbtag_datamc.pdf used on input line 252.
+Package pdftex.def Info: plots/had_nbtag_datamc.pdf used on input line 365.
 (pdftex.def)             Requested size: 238.49121pt x 193.81548pt.
 
-Overfull \hbox (23.41772pt too wide) in paragraph at lines 252--254
+Overfull \hbox (23.41772pt too wide) in paragraph at lines 365--367
  [][] 
  []
 
-<plots/had_mht_datamc.pdf, id=3476, 1200.485pt x 975.645pt>
+<plots/had_mht_datamc.pdf, id=3776, 1200.485pt x 975.645pt>
 File: plots/had_mht_datamc.pdf Graphic file (type pdf)
 
 <use plots/had_mht_datamc.pdf>
-Package pdftex.def Info: plots/had_mht_datamc.pdf used on input line 257.
+Package pdftex.def Info: plots/had_mht_datamc.pdf used on input line 370.
 (pdftex.def)             Requested size: 238.49121pt x 193.81548pt.
 
-Overfull \hbox (23.41772pt too wide) in paragraph at lines 257--259
+Overfull \hbox (23.41772pt too wide) in paragraph at lines 370--372
  [][] 
  []
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 260.
-See the caption package documentation for explanation.
-
-[81 <./plots/had_njet_datamc.pdf> <./plots/had_ht_datamc.pdf>] [82 <./plots/had
-_nbtag_datamc.pdf> <./plots/had_mht_datamc.pdf>] [83]
-<plots/muon_leadmu_datamc.pdf, id=3522, 1200.485pt x 975.645pt>
-File: plots/muon_leadmu_datamc.pdf Graphic file (type pdf)
-
-<use plots/muon_leadmu_datamc.pdf>
-Package pdftex.def Info: plots/muon_leadmu_datamc.pdf used on input line 315.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 315--317
- [][] 
- []
-
-<plots/muon_ht_datamc.pdf, id=3523, 1200.485pt x 975.645pt>
-File: plots/muon_ht_datamc.pdf Graphic file (type pdf)
-
-<use plots/muon_ht_datamc.pdf>
-Package pdftex.def Info: plots/muon_ht_datamc.pdf used on input line 320.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 320--322
- [][] 
- []
-
-<plots/muon_alphat_datamc.pdf, id=3524, 1200.485pt x 975.645pt>
-File: plots/muon_alphat_datamc.pdf Graphic file (type pdf)
-
-<use plots/muon_alphat_datamc.pdf>
-Package pdftex.def Info: plots/muon_alphat_datamc.pdf used on input line 331.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 331--333
- [][] 
- []
-
-<plots/muon_mt_datamc.pdf, id=3525, 1200.485pt x 975.645pt>
-File: plots/muon_mt_datamc.pdf Graphic file (type pdf)
-
-<use plots/muon_mt_datamc.pdf>
-Package pdftex.def Info: plots/muon_mt_datamc.pdf used on input line 336.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 336--338
- [][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 339.
-See the caption package documentation for explanation.
-
-[84 <./plots/muon_leadmu_datamc.pdf> <./plots/muon_ht_datamc.pdf>] [85 <./plots
-/muon_alphat_datamc.pdf> <./plots/muon_mt_datamc.pdf>]
-<plots/dimuon_leadmu_datamc.pdf, id=3553, 1200.485pt x 975.645pt>
-File: plots/dimuon_leadmu_datamc.pdf Graphic file (type pdf)
-
-<use plots/dimuon_leadmu_datamc.pdf>
-Package pdftex.def Info: plots/dimuon_leadmu_datamc.pdf used on input line 360.
-
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 360--362
- [][] 
- []
-
-<plots/dimuon_ht_datamc.pdf, id=3554, 1200.485pt x 975.645pt>
-File: plots/dimuon_ht_datamc.pdf Graphic file (type pdf)
-
-<use plots/dimuon_ht_datamc.pdf>
-Package pdftex.def Info: plots/dimuon_ht_datamc.pdf used on input line 365.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 365--367
- [][] 
- []
-
-<plots/dimuon_alphat_datamc.pdf, id=3555, 1200.485pt x 975.645pt>
-File: plots/dimuon_alphat_datamc.pdf Graphic file (type pdf)
-
-<use plots/dimuon_alphat_datamc.pdf>
-Package pdftex.def Info: plots/dimuon_alphat_datamc.pdf used on input line 376.
-
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 376--378
- [][] 
- []
-
-<plots/dimuon_zmass_datamc.pdf, id=3556, 1200.485pt x 975.645pt>
-File: plots/dimuon_zmass_datamc.pdf Graphic file (type pdf)
-
-<use plots/dimuon_zmass_datamc.pdf>
-Package pdftex.def Info: plots/dimuon_zmass_datamc.pdf used on input line 381.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 381--383
- [][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 384.
-See the caption package documentation for explanation.
-
-[86 <./plots/dimuon_leadmu_datamc.pdf> <./plots/dimuon_ht_datamc.pdf> <./plots/
-dimuon_alphat_datamc.pdf> <./plots/dimuon_zmass_datamc.pdf>]
-<plots/photon_leadphoton_datamc.pdf, id=3580, 1200.485pt x 975.645pt>
-File: plots/photon_leadphoton_datamc.pdf Graphic file (type pdf)
-
-<use plots/photon_leadphoton_datamc.pdf>
-Package pdftex.def Info: plots/photon_leadphoton_datamc.pdf used on input line 
-405.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 405--407
- [][] 
- []
-
-<plots/photon_ht_datamc.pdf, id=3581, 1200.485pt x 975.645pt>
-File: plots/photon_ht_datamc.pdf Graphic file (type pdf)
-
-<use plots/photon_ht_datamc.pdf>
-Package pdftex.def Info: plots/photon_ht_datamc.pdf used on input line 410.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 410--412
- [][] 
- []
-
-<plots/photon_alphat_datamc.pdf, id=3582, 1200.485pt x 975.645pt>
-File: plots/photon_alphat_datamc.pdf Graphic file (type pdf)
-
-<use plots/photon_alphat_datamc.pdf>
-Package pdftex.def Info: plots/photon_alphat_datamc.pdf used on input line 421.
-
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 421--423
- [][] 
- []
-
-<plots/photon_njet_datamc.pdf, id=3583, 1200.485pt x 975.645pt>
-File: plots/photon_njet_datamc.pdf Graphic file (type pdf)
-
-<use plots/photon_njet_datamc.pdf>
-Package pdftex.def Info: plots/photon_njet_datamc.pdf used on input line 426.
-(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
-
-Overfull \hbox (28.59802pt too wide) in paragraph at lines 426--428
- [][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 429.
-See the caption package documentation for explanation.
-
-[87 <./plots/photon_leadphoton_datamc.pdf> <./plots/photon_ht_datamc.pdf>]
-[88 <./plots/photon_alphat_datamc.pdf> <./plots/photon_njet_datamc.pdf>]
-<plots/qcd_cartoon.pdf, id=3614, 229.05956pt x 215.73709pt>
+[85] [86] [87 <./plots/had_njet_datamc.pdf> <./plots/had_ht_datamc.pdf> <./plot
+s/had_nbtag_datamc.pdf> <./plots/had_mht_datamc.pdf>]
+<plots/qcd_cartoon.pdf, id=3812, 229.05956pt x 215.73709pt>
 File: plots/qcd_cartoon.pdf Graphic file (type pdf)
 
 <use plots/qcd_cartoon.pdf>
-Package pdftex.def Info: plots/qcd_cartoon.pdf used on input line 461.
+Package pdftex.def Info: plots/qcd_cartoon.pdf used on input line 397.
 (pdftex.def)             Requested size: 252.94499pt x 238.24312pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 462.
+(caption)                particular \caption on input line 398.
 See the caption package documentation for explanation.
 
-[89]
+[88 <./plots/qcd_cartoon.pdf>] [89] [90] [91]
+Overfull \hbox (1.89835pt too wide) in alignment at lines 519--527
+[] [] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[90 <./plots/qcd_cartoon.pdf>]
+<plots/muon_leadmu_datamc.pdf, id=3933, 1200.485pt x 975.645pt>
+File: plots/muon_leadmu_datamc.pdf Graphic file (type pdf)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use plots/muon_leadmu_datamc.pdf>
+Package pdftex.def Info: plots/muon_leadmu_datamc.pdf used on input line 537.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
 
-[91]
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 537--539
+ [][] 
+ []
+
+<plots/muon_ht_datamc.pdf, id=3934, 1200.485pt x 975.645pt>
+File: plots/muon_ht_datamc.pdf Graphic file (type pdf)
+
+<use plots/muon_ht_datamc.pdf>
+Package pdftex.def Info: plots/muon_ht_datamc.pdf used on input line 542.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 542--544
+ [][] 
+ []
+
+<plots/muon_alphat_datamc.pdf, id=3935, 1200.485pt x 975.645pt>
+File: plots/muon_alphat_datamc.pdf Graphic file (type pdf)
+
+<use plots/muon_alphat_datamc.pdf>
+Package pdftex.def Info: plots/muon_alphat_datamc.pdf used on input line 547.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 547--549
+ [][] 
+ []
+
+<plots/muon_mt_datamc.pdf, id=3936, 1200.485pt x 975.645pt>
+File: plots/muon_mt_datamc.pdf Graphic file (type pdf)
+
+<use plots/muon_mt_datamc.pdf>
+Package pdftex.def Info: plots/muon_mt_datamc.pdf used on input line 552.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 552--554
+ [][] 
+ []
+
+[92] <plots/dimuon_leadmu_datamc.pdf, id=3944, 1200.485pt x 975.645pt>
+File: plots/dimuon_leadmu_datamc.pdf Graphic file (type pdf)
+
+<use plots/dimuon_leadmu_datamc.pdf>
+Package pdftex.def Info: plots/dimuon_leadmu_datamc.pdf used on input line 574.
+
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 574--576
+ [][] 
+ []
+
+<plots/dimuon_ht_datamc.pdf, id=3945, 1200.485pt x 975.645pt>
+File: plots/dimuon_ht_datamc.pdf Graphic file (type pdf)
+
+<use plots/dimuon_ht_datamc.pdf>
+Package pdftex.def Info: plots/dimuon_ht_datamc.pdf used on input line 579.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 579--581
+ [][] 
+ []
+
+<plots/dimuon_alphat_datamc.pdf, id=3946, 1200.485pt x 975.645pt>
+File: plots/dimuon_alphat_datamc.pdf Graphic file (type pdf)
+
+<use plots/dimuon_alphat_datamc.pdf>
+Package pdftex.def Info: plots/dimuon_alphat_datamc.pdf used on input line 584.
+
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 584--586
+ [][] 
+ []
+
+<plots/dimuon_zmass_datamc.pdf, id=3947, 1200.485pt x 975.645pt>
+File: plots/dimuon_zmass_datamc.pdf Graphic file (type pdf)
+
+<use plots/dimuon_zmass_datamc.pdf>
+Package pdftex.def Info: plots/dimuon_zmass_datamc.pdf used on input line 589.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 589--591
+ [][] 
+ []
+
+
+Overfull \hbox (14.80249pt too wide) in alignment at lines 600--607
+[] [] 
+ []
+
+[93] [94 <./plots/muon_leadmu_datamc.pdf> <./plots/muon_ht_datamc.pdf> <./plots
+/muon_alphat_datamc.pdf> <./plots/muon_mt_datamc.pdf>] [95 <./plots/dimuon_lead
+mu_datamc.pdf> <./plots/dimuon_ht_datamc.pdf> <./plots/dimuon_alphat_datamc.pdf
+> <./plots/dimuon_zmass_datamc.pdf>]
+<plots/photon_leadphoton_datamc.pdf, id=4003, 1200.485pt x 975.645pt>
+File: plots/photon_leadphoton_datamc.pdf Graphic file (type pdf)
+
+<use plots/photon_leadphoton_datamc.pdf>
+Package pdftex.def Info: plots/photon_leadphoton_datamc.pdf used on input line 
+648.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 648--650
+ [][] 
+ []
+
+<plots/photon_ht_datamc.pdf, id=4004, 1200.485pt x 975.645pt>
+File: plots/photon_ht_datamc.pdf Graphic file (type pdf)
+
+<use plots/photon_ht_datamc.pdf>
+Package pdftex.def Info: plots/photon_ht_datamc.pdf used on input line 653.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 653--655
+ [][] 
+ []
+
+<plots/photon_alphat_datamc.pdf, id=4005, 1200.485pt x 975.645pt>
+File: plots/photon_alphat_datamc.pdf Graphic file (type pdf)
+
+<use plots/photon_alphat_datamc.pdf>
+Package pdftex.def Info: plots/photon_alphat_datamc.pdf used on input line 658.
+
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 658--660
+ [][] 
+ []
+
+<plots/photon_njet_datamc.pdf, id=4006, 1200.485pt x 975.645pt>
+File: plots/photon_njet_datamc.pdf Graphic file (type pdf)
+
+<use plots/photon_njet_datamc.pdf>
+Package pdftex.def Info: plots/photon_njet_datamc.pdf used on input line 663.
+(pdftex.def)             Requested size: 231.26378pt x 187.94995pt.
+
+Overfull \hbox (16.19029pt too wide) in paragraph at lines 663--665
+ [][] 
+ []
+
+[96]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 530.
+(hyperref)                removing `subscript' on input line 672.
 
 Package acronym Info: Label `acro:NNLO' newly defined as it shall be overridden
 
-although it is yet undefined on input line 533.
-[92] [93] [94] [95]
-<plots/b_jet_HTDistribution.pdf, id=3752, 569.12625pt x 469.755pt>
+although it is yet undefined on input line 675.
+
+LaTeX Warning: Reference `Sjostrand:2006za' on page 97 undefined on input line 
+675.
+
+[97 <./plots/photon_leadphoton_datamc.pdf> <./plots/photon_ht_datamc.pdf> <./pl
+ots/photon_alphat_datamc.pdf> <./plots/photon_njet_datamc.pdf>]
+Overfull \hbox (10.25436pt too wide) in alignment at lines 686--693
+[] [] [] [] [] [] 
+ []
+
+[98] [99] [100]
+Overfull \hbox (11.40646pt too wide) in alignment at lines 756--792
+[] [] [] [] [] 
+ []
+
+[101] <plots/b_jet_HTDistribution.pdf, id=4076, 569.12625pt x 469.755pt>
 File: plots/b_jet_HTDistribution.pdf Graphic file (type pdf)
 
 <use plots/b_jet_HTDistribution.pdf>
-Package pdftex.def Info: plots/b_jet_HTDistribution.pdf used on input line 667.
+Package pdftex.def Info: plots/b_jet_HTDistribution.pdf used on input line 807.
 
 (pdftex.def)             Requested size: 170.27022pt x 140.54051pt.
 
-<plots/c_jet_HTDistribution.pdf, id=3753, 569.12625pt x 469.755pt>
+<plots/c_jet_HTDistribution.pdf, id=4077, 569.12625pt x 469.755pt>
 File: plots/c_jet_HTDistribution.pdf Graphic file (type pdf)
 
 <use plots/c_jet_HTDistribution.pdf>
-Package pdftex.def Info: plots/c_jet_HTDistribution.pdf used on input line 672.
+Package pdftex.def Info: plots/c_jet_HTDistribution.pdf used on input line 812.
 
 (pdftex.def)             Requested size: 170.27022pt x 140.54051pt.
 
-<plots/light_jet_HTDistribution.pdf, id=3754, 569.12625pt x 469.755pt>
+<plots/light_jet_HTDistribution.pdf, id=4078, 569.12625pt x 469.755pt>
 File: plots/light_jet_HTDistribution.pdf Graphic file (type pdf)
 
 <use plots/light_jet_HTDistribution.pdf>
 Package pdftex.def Info: plots/light_jet_HTDistribution.pdf used on input line 
-678.
+818.
 (pdftex.def)             Requested size: 170.27022pt x 140.54051pt.
- [96]
-Overfull \hbox (17.02203pt too wide) in alignment at lines 694--714
+ [102 <./plots/b_jet_HTDistribution.pdf, page is rotated 90 degrees> <./plots/c
+_jet_HTDistribution.pdf, page is rotated 90 degrees> <./plots/light_jet_HTDistr
+ibution.pdf, page is rotated 90 degrees>]
+Overfull \hbox (17.02203pt too wide) in alignment at lines 834--854
 [] [] [] [] [] 
  []
 
-[97 <./plots/b_jet_HTDistribution.pdf, page is rotated 90 degrees> <./plots/c_j
-et_HTDistribution.pdf, page is rotated 90 degrees> <./plots/light_jet_HTDistrib
-ution.pdf, page is rotated 90 degrees>] [98] [99] [100]
+[103] [104] [105]
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 78
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 92
 4.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 78
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 92
 6.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 78
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 92
 7.
 
 
-Overfull \hbox (3.44215pt too wide) in alignment at lines 778--788
+Overfull \hbox (3.44215pt too wide) in alignment at lines 918--928
 [] [] [] [] [] [] 
  []
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 80
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 94
 1.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 80
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 94
 3.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 80
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 94
 4.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 80
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 94
 4.
 
 
-Overfull \hbox (3.44215pt too wide) in alignment at lines 796--806
+Overfull \hbox (3.44215pt too wide) in alignment at lines 936--946
 [] [] [] [] [] [] 
  []
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 82
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 96
 1.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 82
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 96
 3.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 82
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 96
 3.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 82
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 96
 4.
 
 
-Overfull \hbox (4.79918pt too wide) in alignment at lines 816--825
+Overfull \hbox (4.79918pt too wide) in alignment at lines 956--965
 [] [] [] [] [] [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[101]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[102] <plots/syst-le3j.pdf, id=3939, 569.12625pt x 363.3575pt>
+[106] [107] <plots/syst-le3j.pdf, id=4260, 569.12625pt x 363.3575pt>
 File: plots/syst-le3j.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j.pdf>
-Package pdftex.def Info: plots/syst-le3j.pdf used on input line 867.
+Package pdftex.def Info: plots/syst-le3j.pdf used on input line 1007.
 (pdftex.def)             Requested size: 380.86543pt x 243.17104pt.
 
-<plots/syst-ge4j.pdf, id=3940, 569.12625pt x 363.3575pt>
+<plots/syst-ge4j.pdf, id=4261, 569.12625pt x 363.3575pt>
 File: plots/syst-ge4j.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j.pdf>
-Package pdftex.def Info: plots/syst-ge4j.pdf used on input line 872.
+Package pdftex.def Info: plots/syst-ge4j.pdf used on input line 1012.
 (pdftex.def)             Requested size: 380.86543pt x 243.17104pt.
- [103] [104 <./plots/syst-le3j.pdf, page is rotated 90 degrees> <./plots/syst-g
+ [108] [109 <./plots/syst-le3j.pdf, page is rotated 90 degrees> <./plots/syst-g
 e4j.pdf, page is rotated 90 degrees>]
 Package acronym Info: Label `acro:LO' newly defined as it shall be overridden
-although it is yet undefined on input line 892.
+although it is yet undefined on input line 1032.
 Package acronym Info: Label `acro:NLO' newly defined as it shall be overridden
-although it is yet undefined on input line 892.
+although it is yet undefined on input line 1032.
 Package acronym Info: Label `acro:NLL' newly defined as it shall be overridden
-although it is yet undefined on input line 892.
-
-<plots/t1_signal_eff.pdf, id=4060, 205.74315pt x 149.63132pt>
+although it is yet undefined on input line 1032.
+ [110]
+<plots/t1_signal_eff.pdf, id=4396, 205.74315pt x 149.63132pt>
 File: plots/t1_signal_eff.pdf Graphic file (type pdf)
 
 <use plots/t1_signal_eff.pdf>
-Package pdftex.def Info: plots/t1_signal_eff.pdf used on input line 912.
+Package pdftex.def Info: plots/t1_signal_eff.pdf used on input line 1051.
 (pdftex.def)             Requested size: 201.63182pt x 146.6468pt.
 
-<plots/t2_signal_eff.pdf, id=4061, 205.74316pt x 149.63142pt>
+<plots/t2_signal_eff.pdf, id=4397, 205.74316pt x 149.63142pt>
 File: plots/t2_signal_eff.pdf Graphic file (type pdf)
 
 <use plots/t2_signal_eff.pdf>
-Package pdftex.def Info: plots/t2_signal_eff.pdf used on input line 917.
+Package pdftex.def Info: plots/t2_signal_eff.pdf used on input line 1056.
 (pdftex.def)             Requested size: 201.63182pt x 146.64691pt.
- [105] [106 <./plots/t1_signal_eff.pdf> <./plots/t2_signal_eff.pdf>] [107] [108
-] [109]
-Overfull \hbox (9.4309pt too wide) in alignment at lines 1005--1014
+ [111 <./plots/t1_signal_eff.pdf> <./plots/t2_signal_eff.pdf>] [112] [113] [114
+]
+Overfull \hbox (9.4309pt too wide) in alignment at lines 1145--1154
 [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (9.4309pt too wide) in alignment at lines 1023--1032
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (9.4309pt too wide) in alignment at lines 1163--1172
 [] [] [] [] [] [] [] [] [] 
  []
 
-[110]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[115] [116]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1064.
+(hyperref)                removing `subscript' on input line 1206.
 
-[111] [112] [113]
-Overfull \hbox (12.72116pt too wide) in paragraph at lines 1162--1162
+[117] [118] [119]
+Overfull \hbox (12.72116pt too wide) in paragraph at lines 1308--1308
 [][] 
  []
 
-[114] [115] [116]) (./chap_results.tex [117]
+[120] [121] [122]) (./chap_results.tex [123]
 Chapter 6.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2584,7 +2629,7 @@ Overfull \hbox (20.95372pt too wide) in alignment at lines 37--69
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/hadronic_0b_le3j_logy.pdf, id=4523, 502.87875pt x 341.275pt>
+<plots/hadronic_0b_le3j_logy.pdf, id=4852, 502.87875pt x 341.275pt>
 File: plots/hadronic_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_0b_le3j_logy.pdf>
@@ -2592,30 +2637,30 @@ Package pdftex.def Info: plots/hadronic_0b_le3j_logy.pdf used on input line 82.
 
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_0b_le3j_logy.pdf, id=4524, 502.87875pt x 341.275pt>
+<plots/muon_0b_le3j_logy.pdf, id=4853, 502.87875pt x 341.275pt>
 File: plots/muon_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_0b_le3j_logy.pdf>
 Package pdftex.def Info: plots/muon_0b_le3j_logy.pdf used on input line 87.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/mumu_0b_le3j_logy.pdf, id=4525, 502.87875pt x 341.275pt>
+<plots/mumu_0b_le3j_logy.pdf, id=4854, 502.87875pt x 341.275pt>
 File: plots/mumu_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_0b_le3j_logy.pdf>
 Package pdftex.def Info: plots/mumu_0b_le3j_logy.pdf used on input line 92.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/photon_0b_le3j_logy.pdf, id=4526, 502.87875pt x 341.275pt>
+<plots/photon_0b_le3j_logy.pdf, id=4855, 502.87875pt x 341.275pt>
 File: plots/photon_0b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_0b_le3j_logy.pdf>
 Package pdftex.def Info: plots/photon_0b_le3j_logy.pdf used on input line 97.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
- [118
+ [124
 
 ]
-<plots/hadronic_1b_le3j_logy.pdf, id=4541, 502.87875pt x 341.275pt>
+<plots/hadronic_1b_le3j_logy.pdf, id=4871, 502.87875pt x 341.275pt>
 File: plots/hadronic_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_1b_le3j_logy.pdf>
@@ -2623,28 +2668,28 @@ Package pdftex.def Info: plots/hadronic_1b_le3j_logy.pdf used on input line 108
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_1b_le3j_logy.pdf, id=4542, 502.87875pt x 341.275pt>
+<plots/muon_1b_le3j_logy.pdf, id=4872, 502.87875pt x 341.275pt>
 File: plots/muon_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_1b_le3j_logy.pdf>
 Package pdftex.def Info: plots/muon_1b_le3j_logy.pdf used on input line 113.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/mumu_1b_le3j_logy.pdf, id=4543, 502.87875pt x 341.275pt>
+<plots/mumu_1b_le3j_logy.pdf, id=4873, 502.87875pt x 341.275pt>
 File: plots/mumu_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_1b_le3j_logy.pdf>
 Package pdftex.def Info: plots/mumu_1b_le3j_logy.pdf used on input line 118.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/photon_1b_le3j_logy.pdf, id=4544, 502.87875pt x 341.275pt>
+<plots/photon_1b_le3j_logy.pdf, id=4874, 502.87875pt x 341.275pt>
 File: plots/photon_1b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_1b_le3j_logy.pdf>
 Package pdftex.def Info: plots/photon_1b_le3j_logy.pdf used on input line 123.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_2b_le3j_logy.pdf, id=4553, 502.87875pt x 341.275pt>
+<plots/hadronic_2b_le3j_logy.pdf, id=4883, 502.87875pt x 341.275pt>
 File: plots/hadronic_2b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_2b_le3j_logy.pdf>
@@ -2652,14 +2697,14 @@ Package pdftex.def Info: plots/hadronic_2b_le3j_logy.pdf used on input line 134
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_2b_le3j_logy.pdf, id=4554, 502.87875pt x 341.275pt>
+<plots/muon_2b_le3j_logy.pdf, id=4884, 502.87875pt x 341.275pt>
 File: plots/muon_2b_le3j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_2b_le3j_logy.pdf>
 Package pdftex.def Info: plots/muon_2b_le3j_logy.pdf used on input line 139.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_0b_ge4j_logy.pdf, id=4563, 502.87875pt x 341.275pt>
+<plots/hadronic_0b_ge4j_logy.pdf, id=4893, 502.87875pt x 341.275pt>
 File: plots/hadronic_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_0b_ge4j_logy.pdf>
@@ -2667,28 +2712,28 @@ Package pdftex.def Info: plots/hadronic_0b_ge4j_logy.pdf used on input line 150
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_0b_ge4j_logy.pdf, id=4564, 502.87875pt x 341.275pt>
+<plots/muon_0b_ge4j_logy.pdf, id=4894, 502.87875pt x 341.275pt>
 File: plots/muon_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_0b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/muon_0b_ge4j_logy.pdf used on input line 155.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/mumu_0b_ge4j_logy.pdf, id=4565, 502.87875pt x 341.275pt>
+<plots/mumu_0b_ge4j_logy.pdf, id=4895, 502.87875pt x 341.275pt>
 File: plots/mumu_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_0b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/mumu_0b_ge4j_logy.pdf used on input line 160.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/photon_0b_ge4j_logy.pdf, id=4566, 502.87875pt x 341.275pt>
+<plots/photon_0b_ge4j_logy.pdf, id=4896, 502.87875pt x 341.275pt>
 File: plots/photon_0b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_0b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/photon_0b_ge4j_logy.pdf used on input line 165.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_1b_ge4j_logy.pdf, id=4575, 502.87875pt x 341.275pt>
+<plots/hadronic_1b_ge4j_logy.pdf, id=4905, 502.87875pt x 341.275pt>
 File: plots/hadronic_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_1b_ge4j_logy.pdf>
@@ -2696,28 +2741,28 @@ Package pdftex.def Info: plots/hadronic_1b_ge4j_logy.pdf used on input line 177
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_1b_ge4j_logy.pdf, id=4576, 502.87875pt x 341.275pt>
+<plots/muon_1b_ge4j_logy.pdf, id=4906, 502.87875pt x 341.275pt>
 File: plots/muon_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_1b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/muon_1b_ge4j_logy.pdf used on input line 182.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/mumu_1b_ge4j_logy.pdf, id=4577, 502.87875pt x 341.275pt>
+<plots/mumu_1b_ge4j_logy.pdf, id=4907, 502.87875pt x 341.275pt>
 File: plots/mumu_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/mumu_1b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/mumu_1b_ge4j_logy.pdf used on input line 187.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/photon_1b_ge4j_logy.pdf, id=4578, 502.87875pt x 341.275pt>
+<plots/photon_1b_ge4j_logy.pdf, id=4908, 502.87875pt x 341.275pt>
 File: plots/photon_1b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/photon_1b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/photon_1b_ge4j_logy.pdf used on input line 192.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_2b_ge4j_logy.pdf, id=4581, 502.87875pt x 341.275pt>
+<plots/hadronic_2b_ge4j_logy.pdf, id=4911, 502.87875pt x 341.275pt>
 File: plots/hadronic_2b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_2b_ge4j_logy.pdf>
@@ -2725,14 +2770,14 @@ Package pdftex.def Info: plots/hadronic_2b_ge4j_logy.pdf used on input line 203
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_2b_ge4j_logy.pdf, id=4582, 502.87875pt x 341.275pt>
+<plots/muon_2b_ge4j_logy.pdf, id=4912, 502.87875pt x 341.275pt>
 File: plots/muon_2b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_2b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/muon_2b_ge4j_logy.pdf used on input line 208.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_3b_ge4j_logy.pdf, id=4591, 502.87875pt x 341.275pt>
+<plots/hadronic_3b_ge4j_logy.pdf, id=4921, 502.87875pt x 341.275pt>
 File: plots/hadronic_3b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_3b_ge4j_logy.pdf>
@@ -2740,14 +2785,14 @@ Package pdftex.def Info: plots/hadronic_3b_ge4j_logy.pdf used on input line 219
 .
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/muon_3b_ge4j_logy.pdf, id=4592, 502.87875pt x 341.275pt>
+<plots/muon_3b_ge4j_logy.pdf, id=4922, 502.87875pt x 341.275pt>
 File: plots/muon_3b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_3b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/muon_3b_ge4j_logy.pdf used on input line 224.
 (pdftex.def)             Requested size: 215.07349pt x 145.95386pt.
 
-<plots/hadronic_ge4b_ge4j_logy.pdf, id=4601, 502.87875pt x 350.30875pt>
+<plots/hadronic_ge4b_ge4j_logy.pdf, id=4931, 502.87875pt x 350.30875pt>
 File: plots/hadronic_ge4b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/hadronic_ge4b_ge4j_logy.pdf>
@@ -2755,22 +2800,22 @@ Package pdftex.def Info: plots/hadronic_ge4b_ge4j_logy.pdf used on input line 2
 35.
 (pdftex.def)             Requested size: 215.07349pt x 149.81734pt.
 
-<plots/muon_ge4b_ge4j_logy.pdf, id=4602, 502.87875pt x 350.30875pt>
+<plots/muon_ge4b_ge4j_logy.pdf, id=4932, 502.87875pt x 350.30875pt>
 File: plots/muon_ge4b_ge4j_logy.pdf Graphic file (type pdf)
 
 <use plots/muon_ge4b_ge4j_logy.pdf>
 Package pdftex.def Info: plots/muon_ge4b_ge4j_logy.pdf used on input line 240.
 (pdftex.def)             Requested size: 215.07349pt x 149.81734pt.
- [119] [120 <./plots/hadronic_0b_le3j_logy.pdf> <./plots/muon_0b_le3j_logy.pdf>
- <./plots/mumu_0b_le3j_logy.pdf> <./plots/photon_0b_le3j_logy.pdf>] [121 <./plo
+ [125] [126 <./plots/hadronic_0b_le3j_logy.pdf> <./plots/muon_0b_le3j_logy.pdf>
+ <./plots/mumu_0b_le3j_logy.pdf> <./plots/photon_0b_le3j_logy.pdf>] [127 <./plo
 ts/hadronic_1b_le3j_logy.pdf> <./plots/muon_1b_le3j_logy.pdf> <./plots/mumu_1b_
-le3j_logy.pdf> <./plots/photon_1b_le3j_logy.pdf>] [122 <./plots/hadronic_2b_le3
-j_logy.pdf> <./plots/muon_2b_le3j_logy.pdf>] [123 <./plots/hadronic_0b_ge4j_log
+le3j_logy.pdf> <./plots/photon_1b_le3j_logy.pdf>] [128 <./plots/hadronic_2b_le3
+j_logy.pdf> <./plots/muon_2b_le3j_logy.pdf>] [129 <./plots/hadronic_0b_ge4j_log
 y.pdf> <./plots/muon_0b_ge4j_logy.pdf> <./plots/mumu_0b_ge4j_logy.pdf> <./plots
-/photon_0b_ge4j_logy.pdf>] [124 <./plots/hadronic_1b_ge4j_logy.pdf> <./plots/mu
+/photon_0b_ge4j_logy.pdf>] [130 <./plots/hadronic_1b_ge4j_logy.pdf> <./plots/mu
 on_1b_ge4j_logy.pdf> <./plots/mumu_1b_ge4j_logy.pdf> <./plots/photon_1b_ge4j_lo
-gy.pdf>] [125 <./plots/hadronic_2b_ge4j_logy.pdf> <./plots/muon_2b_ge4j_logy.pd
-f> <./plots/hadronic_3b_ge4j_logy.pdf> <./plots/muon_3b_ge4j_logy.pdf>] [126 <.
+gy.pdf>] [131 <./plots/hadronic_2b_ge4j_logy.pdf> <./plots/muon_2b_ge4j_logy.pd
+f> <./plots/hadronic_3b_ge4j_logy.pdf> <./plots/muon_3b_ge4j_logy.pdf>] [132 <.
 /plots/hadronic_ge4b_ge4j_logy.pdf> <./plots/muon_ge4b_ge4j_logy.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2784,55 +2829,52 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 253.
 
-[127
+[133
 
-]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[128]
+] [134]
 Package acronym Info: Label `acro:ISR' newly defined as it shall be overridden
 although it is yet undefined on input line 314.
- [129] <plots/t1.pdf, id=4890, 509.905pt x 393.47pt>
+ [135] <plots/t1.pdf, id=5218, 509.905pt x 393.47pt>
 File: plots/t1.pdf Graphic file (type pdf)
- <use plots/t1.pdf>
+
+<use plots/t1.pdf>
 Package pdftex.def Info: plots/t1.pdf used on input line 326.
 (pdftex.def)             Requested size: 215.07349pt x 165.96472pt.
-
-<plots/t2.pdf, id=4891, 509.905pt x 393.47pt>
+ <plots/t2.pdf, id=5219, 509.905pt x 393.47pt>
 File: plots/t2.pdf Graphic file (type pdf)
- <use plots/t2.pdf>
+
+<use plots/t2.pdf>
 Package pdftex.def Info: plots/t2.pdf used on input line 331.
 (pdftex.def)             Requested size: 215.07349pt x 165.96472pt.
-
-<plots/t2bb.pdf, id=4892, 509.905pt x 391.4625pt>
+ <plots/t2bb.pdf, id=5220, 509.905pt x 391.4625pt>
 File: plots/t2bb.pdf Graphic file (type pdf)
- <use plots/t2bb.pdf>
+
+<use plots/t2bb.pdf>
 Package pdftex.def Info: plots/t2bb.pdf used on input line 336.
 (pdftex.def)             Requested size: 215.07349pt x 165.11797pt.
-
-<plots/t1tttt.pdf, id=4893, 509.905pt x 393.47pt>
+ <plots/t1tttt.pdf, id=5221, 509.905pt x 393.47pt>
 File: plots/t1tttt.pdf Graphic file (type pdf)
- <use plots/t1tttt.pdf>
+
+<use plots/t1tttt.pdf>
 Package pdftex.def Info: plots/t1tttt.pdf used on input line 341.
 (pdftex.def)             Requested size: 215.07349pt x 165.96472pt.
-
-<plots/t1bbbb.pdf, id=4894, 509.905pt x 393.47pt>
+ <plots/t1bbbb.pdf, id=5222, 509.905pt x 393.47pt>
 File: plots/t1bbbb.pdf Graphic file (type pdf)
- <use plots/t1bbbb.pdf>
+
+<use plots/t1bbbb.pdf>
 Package pdftex.def Info: plots/t1bbbb.pdf used on input line 347.
 (pdftex.def)             Requested size: 215.07349pt x 165.96472pt.
 
 
 LaTeX Warning: Float too large for page by 53.87631pt on input line 352.
 
-) (./chap_templates.tex [130] [131 <./plots/t1.pdf> <./plots/t2.pdf> <./plots/t
+) (./chap_templates.tex [136] [137 <./plots/t1.pdf> <./plots/t2.pdf> <./plots/t
 2bb.pdf> <./plots/t1tttt.pdf> <./plots/t1bbbb.pdf>]
 Chapter 7.
-[132
+[138
 
-] [133]
-<plots/bjet_PtDistribution_Htbin_Template_375.pdf, id=4991, 569.12625pt x 469.7
+] [139]
+<plots/bjet_PtDistribution_Htbin_Template_375.pdf, id=5318, 569.12625pt x 469.7
 55pt>
 File: plots/bjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pdf)
  <use plots/bjet_PtDistribution_Htbin_Template_375.pdf>
@@ -2840,7 +2882,7 @@ Package pdftex.def Info: plots/bjet_PtDistribution_Htbin_Template_375.pdf used
 on input line 56.
 (pdftex.def)             Requested size: 215.07349pt x 177.51959pt.
 
-<plots/cjet_PtDistribution_Htbin_Template_375.pdf, id=4992, 569.12625pt x 469.7
+<plots/cjet_PtDistribution_Htbin_Template_375.pdf, id=5319, 569.12625pt x 469.7
 55pt>
 File: plots/cjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pdf)
  <use plots/cjet_PtDistribution_Htbin_Template_375.pdf>
@@ -2848,7 +2890,7 @@ Package pdftex.def Info: plots/cjet_PtDistribution_Htbin_Template_375.pdf used
 on input line 61.
 (pdftex.def)             Requested size: 215.07349pt x 177.51959pt.
 
-<plots/lighjet_PtDistribution_Htbin_Template_375.pdf, id=4993, 569.12625pt x 46
+<plots/lighjet_PtDistribution_Htbin_Template_375.pdf, id=5320, 569.12625pt x 46
 9.755pt>
 File: plots/lighjet_PtDistribution_Htbin_Template_375.pdf Graphic file (type pd
 f)
@@ -2856,17 +2898,17 @@ f)
 Package pdftex.def Info: plots/lighjet_PtDistribution_Htbin_Template_375.pdf us
 ed on input line 67.
 (pdftex.def)             Requested size: 215.07349pt x 177.51959pt.
- [134]
-[135 <./plots/bjet_PtDistribution_Htbin_Template_375.pdf, page is rotated 90 de
+ [140]
+[141 <./plots/bjet_PtDistribution_Htbin_Template_375.pdf, page is rotated 90 de
 grees> <./plots/cjet_PtDistribution_Htbin_Template_375.pdf, page is rotated 90 
 degrees> <./plots/lighjet_PtDistribution_Htbin_Template_375.pdf, page is rotate
-d 90 degrees>] <plots/Template_Example.pdf, id=5136, 569.12625pt x 363.3575pt>
+d 90 degrees>] <plots/Template_Example.pdf, id=5464, 569.12625pt x 363.3575pt>
 File: plots/Template_Example.pdf Graphic file (type pdf)
 
 <use plots/Template_Example.pdf>
 Package pdftex.def Info: plots/Template_Example.pdf used on input line 81.
 (pdftex.def)             Requested size: 268.847pt x 171.65405pt.
- [136 <./plots/Template_Example.pdf, page is rotated 90 degrees>] [137]
+ [142 <./plots/Template_Example.pdf, page is rotated 90 degrees>] [143]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@Oldalpha' on input line 106.
@@ -2875,9 +2917,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 106.
 
-[138]
+[144]
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_
-mult_5.pdf, id=5208, 569.12625pt x 363.3575pt>
+mult_5.pdf, id=5536, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375
 _jet_mult_5.pdf Graphic file (type pdf)
 
@@ -2888,7 +2930,7 @@ neMuon_Template_375_jet_mult_5.pdf used on input line 140.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet
-_mult_5.pdf, id=5209, 569.12625pt x 363.3575pt>
+_mult_5.pdf, id=5537, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_37
 5_jet_mult_5.pdf Graphic file (type pdf)
 
@@ -2899,7 +2941,7 @@ OneMuon_Template_375_jet_mult_5.pdf used on input line 145.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_
-mult_5.pdf, id=5210, 569.12625pt x 363.3575pt>
+mult_5.pdf, id=5538, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375
 _jet_mult_5.pdf Graphic file (type pdf)
 
@@ -2908,16 +2950,16 @@ jet_mult_5.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_O
 neMuon_Template_375_jet_mult_5.pdf used on input line 152.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
- [139] [140 <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Tem
+ [145] [146 <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Tem
 plate_375_jet_mult_5.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Fina
 l_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_5.pdf, page is ro
 tated 90 degrees> <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMu
 on_Template_375_jet_mult_5.pdf, page is rotated 90 degrees>]
-[141
+[147
 
 ]
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mu
-lt_5.pdf, id=5364, 569.12625pt x 363.3575pt>
+lt_5.pdf, id=5691, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_j
 et_mult_5.pdf Graphic file (type pdf)
 
@@ -2928,7 +2970,7 @@ n_OneMuon_275_325_jet_mult_5.pdf used on input line 209.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mu
-lt_5.pdf, id=5365, 569.12625pt x 363.3575pt>
+lt_5.pdf, id=5692, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_j
 et_mult_5.pdf Graphic file (type pdf)
 
@@ -2939,7 +2981,7 @@ n_OneMuon_325_375_jet_mult_5.pdf used on input line 215.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_j
-et_mult_5.pdf, id=5366, 569.12625pt x 363.3575pt>
+et_mult_5.pdf, id=5693, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 375_jet_mult_5.pdf Graphic file (type pdf)
 
@@ -2948,7 +2990,7 @@ File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
 n_OneMuon_Template_375_jet_mult_5.pdf used on input line 222.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
- [142] [143 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_
+ [148] [149 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_
 275_325_jet_mult_5.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Final_
 Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_5.pdf, page is rotated
  90 degrees> <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon
@@ -2963,7 +3005,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mu
-lt_5.pdf, id=5512, 569.12625pt x 363.3575pt>
+lt_5.pdf, id=5840, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_j
 et_mult_5.pdf Graphic file (type pdf)
 
@@ -2974,7 +3016,7 @@ TBin_Template_375_jet_mult_5.pdf used on input line 277.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_m
-ult_5.pdf, id=5513, 569.12625pt x 363.3575pt>
+ult_5.pdf, id=5841, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_
 jet_mult_5.pdf Graphic file (type pdf)
 
@@ -2985,7 +3027,7 @@ HTBin_Template_375_jet_mult_5.pdf used on input line 282.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mu
-lt_5.pdf, id=5514, 569.12625pt x 363.3575pt>
+lt_5.pdf, id=5842, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_j
 et_mult_5.pdf Graphic file (type pdf)
 
@@ -2994,38 +3036,38 @@ t_mult_5.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_H
 TBin_Template_375_jet_mult_5.pdf used on input line 287.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
- [144]
+ [150]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[145 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375
+[151 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375
 _jet_mult_5.pdf, page is rotated 90 degrees> <./plots/TemplatesSignal/Final_Fit
 _To_Data_Normal_Medium_HTBin_Template_375_jet_mult_5.pdf, page is rotated 90 de
 grees> <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_3
-75_jet_mult_5.pdf, page is rotated 90 degrees>] [146]) (./chap_conclusions.tex
-[147]
+75_jet_mult_5.pdf, page is rotated 90 degrees>] [152]) (./chap_conclusions.tex
+[153]
 Chapter 8.
-[148
+[154
 
 ]))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./appendices.tex [149]
+ (./comment.cut (./appendices.tex [155]
 Appendix A.
-<plots/leadjet_matchingeff.pdf, id=5709, 569.12625pt x 474.77374pt>
+<plots/leadjet_matchingeff.pdf, id=6037, 569.12625pt x 474.77374pt>
 File: plots/leadjet_matchingeff.pdf Graphic file (type pdf)
 
 <use plots/leadjet_matchingeff.pdf>
 Package pdftex.def Info: plots/leadjet_matchingeff.pdf used on input line 13.
 (pdftex.def)             Requested size: 569.12486pt x 474.77258pt.
- [150
+ [156
 
 ]
 Overfull \hbox (2.79747pt too wide) in alignment at lines 26--31
 [][][] 
  []
 
-<plots/calo_ptresolution_low.pdf, id=5718, 569.12625pt x 265.99374pt>
+<plots/calo_ptresolution_low.pdf, id=6051, 569.12625pt x 265.99374pt>
 File: plots/calo_ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_low.pdf>
@@ -3033,7 +3075,7 @@ Package pdftex.def Info: plots/calo_ptresolution_low.pdf used on input line 49.
 
 (pdftex.def)             Requested size: 358.46039pt x 167.5404pt.
 
-<plots/calo_ptresolution_medium.pdf, id=5719, 569.12625pt x 265.99374pt>
+<plots/calo_ptresolution_medium.pdf, id=6052, 569.12625pt x 265.99374pt>
 File: plots/calo_ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_medium.pdf>
@@ -3041,7 +3083,7 @@ Package pdftex.def Info: plots/calo_ptresolution_medium.pdf used on input line
 54.
 (pdftex.def)             Requested size: 358.46039pt x 167.5404pt.
 
-<plots/calo_ptresolution_high.pdf, id=5720, 569.12625pt x 266.9975pt>
+<plots/calo_ptresolution_high.pdf, id=6053, 569.12625pt x 266.9975pt>
 File: plots/calo_ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/calo_ptresolution_high.pdf>
@@ -3049,14 +3091,14 @@ Package pdftex.def Info: plots/calo_ptresolution_high.pdf used on input line 59
 .
 (pdftex.def)             Requested size: 358.46039pt x 168.17262pt.
 
-<plots/pf_ptresolution_low.pdf, id=5723, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_low.pdf, id=6056, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_low.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_low.pdf>
 Package pdftex.def Info: plots/pf_ptresolution_low.pdf used on input line 69.
 (pdftex.def)             Requested size: 358.46039pt x 167.5404pt.
 
-<plots/pf_ptresolution_medium.pdf, id=5724, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_medium.pdf, id=6057, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_medium.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_medium.pdf>
@@ -3064,116 +3106,247 @@ Package pdftex.def Info: plots/pf_ptresolution_medium.pdf used on input line 74
 .
 (pdftex.def)             Requested size: 358.46039pt x 167.5404pt.
 
-<plots/pf_ptresolution_high.pdf, id=5725, 569.12625pt x 265.99374pt>
+<plots/pf_ptresolution_high.pdf, id=6058, 569.12625pt x 265.99374pt>
 File: plots/pf_ptresolution_high.pdf Graphic file (type pdf)
 
 <use plots/pf_ptresolution_high.pdf>
 Package pdftex.def Info: plots/pf_ptresolution_high.pdf used on input line 78.
 (pdftex.def)             Requested size: 358.46039pt x 167.5404pt.
- [151 <./plots/leadjet_matchingeff.pdf, page is rotated 90 degrees>] [152 <./pl
+ [157 <./plots/leadjet_matchingeff.pdf, page is rotated 90 degrees>] [158 <./pl
 ots/calo_ptresolution_low.pdf, page is rotated 90 degrees> <./plots/calo_ptreso
 lution_medium.pdf, page is rotated 90 degrees> <./plots/calo_ptresolution_high.
-pdf, page is rotated 90 degrees>] [153 <./plots/pf_ptresolution_low.pdf, page i
+pdf, page is rotated 90 degrees>] [159 <./plots/pf_ptresolution_low.pdf, page i
 s rotated 90 degrees> <./plots/pf_ptresolution_medium.pdf, page is rotated 90 d
 egrees> <./plots/pf_ptresolution_high.pdf, page is rotated 90 degrees>]
-<plots/res_CaloHT_summary_v2.pdf, id=6046, 376.37302pt x 190.59457pt>
+<plots/res_CaloHT_summary_v2.pdf, id=6379, 376.37302pt x 190.59457pt>
 File: plots/res_CaloHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_CaloHT_summary_v2.pdf>
 Package pdftex.def Info: plots/res_CaloHT_summary_v2.pdf used on input line 95.
 
-(pdftex.def)             Requested size: 322.61366pt x 163.38173pt.
+(pdftex.def)             Requested size: 331.57704pt x 167.9215pt.
 
-<plots/res_pfHT_summary_v2.pdf, id=6049, 376.29141pt x 209.41508pt>
+<plots/res_pfHT_summary_v2.pdf, id=6382, 376.29141pt x 209.41508pt>
 File: plots/res_pfHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_pfHT_summary_v2.pdf>
 Package pdftex.def Info: plots/res_pfHT_summary_v2.pdf used on input line 102.
-(pdftex.def)             Requested size: 322.61366pt x 179.54384pt.
+(pdftex.def)             Requested size: 331.57704pt x 184.53188pt.
 
-<plots/res_CaloMHT_summary_v2.pdf, id=6052, 377.44963pt x 156.3684pt>
+<plots/res_CaloMHT_summary_v2.pdf, id=6385, 377.44963pt x 156.3684pt>
 File: plots/res_CaloMHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_CaloMHT_summary_v2.pdf>
 Package pdftex.def Info: plots/res_CaloMHT_summary_v2.pdf used on input line 11
 0.
-(pdftex.def)             Requested size: 322.61366pt x 133.6534pt.
+(pdftex.def)             Requested size: 331.57704pt x 137.36838pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<plots/res_pfMHT_summary_v2.pdf, id=6055, 377.75409pt x 205.9182pt>
+<plots/res_pfMHT_summary_v2.pdf, id=6388, 377.75409pt x 205.9182pt>
 File: plots/res_pfMHT_summary_v2.pdf Graphic file (type pdf)
 
 <use plots/res_pfMHT_summary_v2.pdf>
 Package pdftex.def Info: plots/res_pfMHT_summary_v2.pdf used on input line 117.
 
-(pdftex.def)             Requested size: 322.61366pt x 175.8608pt.
+(pdftex.def)             Requested size: 331.57704pt x 180.74669pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[154
+[160
 
  <./plots/res_CaloHT_summary_v2.pdf> <./plots/res_pfHT_summary_v2.pdf>]
-[155 <./plots/res_CaloMHT_summary_v2.pdf> <./plots/res_pfMHT_summary_v2.pdf>]
+[161 <./plots/res_CaloMHT_summary_v2.pdf> <./plots/res_pfMHT_summary_v2.pdf>]
 Appendix B.
-[156
+Missing character: There is no Þ in font cmr12!
+Missing character: There is no Þ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--145
+
+ []
+
+[162
 
 ]
+Overfull \hbox (4.5772pt too wide) in paragraph at lines 150--177
+[]\OT1/cmtt/m/n/10 /WJetsToLNu[]TuneZ2Star[]8TeV-madgraph-tarball/Summer12[]DR5
+3X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (14.44705pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /ZJetsToNuNu[]50[]HT[]100[]TuneZ2Star[]8TeV[]madgraph/Summer12
+[]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (19.697pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /ZJetsToNuNu[]100[]HT[]200[]TuneZ2Star[]8TeV[]madgraph/Summer1
+2[]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (19.697pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /ZJetsToNuNu[]200[]HT[]400[]TuneZ2Star[]8TeV[]madgraph/Summer1
+2[]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (19.697pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /ZJetsToNuNu[]400[]HT[]inf[]TuneZ2Star[]8TeV[]madgraph/Summer1
+2[]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (13.6071pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /T[]tW-channel-DR[]TuneZ2star[]8TeV-powheg-tauola/Summer12[]DR
+53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (8.35715pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /Tbar[]t-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[]DR5
+3X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (8.35715pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /Tbar[]s-channel[]TuneZ2star[]8TeV-powheg-tauola/Summer12[]DR5
+3X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (29.35696pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /Tbar[]tW-channel-DR[]TuneZ2star[]8TeV-powheg-tauola/Summer12[
+]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (29.35696pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /DYJetsToLL[]M-50[]TuneZ2Star[]8TeV-madgraph-tarball/Summer12[
+]DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (24.10701pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /DYJetsToLL[]HT-200To400[]TuneZ2Star[]8TeV-madgraph/Summer12[]
+DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Overfull \hbox (24.10701pt too wide) in paragraph at lines 150--177
+\OT1/cmtt/m/n/10 /DYJetsToLL[]HT-400ToInf[]TuneZ2Star[]8TeV-madgraph/Summer12[]
+DR53X-PU[]S10[]START53[]V7A-v1/AODSIM 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--177
+
+ []
+
+
+Overfull \hbox (0.79724pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T1[]Mgluino-100to2000[]mLSP-0to2000[]8TeV-Pythia6Z/Summer
+12-START52[]V9[]FSIM-v1/AODSIM 
+ []
+
+
+Overfull \hbox (21.79706pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T1tttt[]Mgluino-350to2000[]mLSP-0to1650[]8TeV-Pythia6Z/Su
+mmer12-START52[]V9[]FSIM-v3/AODSIM 
+ []
+
+
+Overfull \hbox (21.79706pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T1bbbb[]Mgluino-100to2000[]mLSP-0to2000[]8TeV-Pythia6Z/Su
+mmer12-START52[]V9[]FSIM-v1/AODSIM 
+ []
+
+
+Overfull \hbox (0.79724pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T2[]Msquark-225to1200[]mLSP-0to1200[]8TeV-Pythia6Z/Summer
+12-START52[]V9[]FSIM-v1/AODSIM 
+ []
+
+
+Overfull \hbox (16.5471pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T2bb[]Msbottom-225to1200[]mLSP-0to1175[]8TeV-Pythia6Z/Sum
+mer12-START52[]V9[]FSIM-v2/AODSIM 
+ []
+
+
+Overfull \hbox (30.82697pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T2bw[]FineBin[]Mstop-100to600[]mLSP-0to500[]8TeV-Pythia6Z
+/Summer12-START52[]V9[]FSIM-v2/AODSIM 
+ []
+
+
+Overfull \hbox (41.32687pt too wide) in paragraph at lines 179--189
+\OT1/cmtt/m/n/10 /SMS-T2tt[]FineBin[]Mstop-225to1200[]mLSP-0to1000[]8TeV-Pythia
+6Z/Summer12-START52[]V9[]FSIM-v1/AODSIM 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--189
+
+ []
+
+[163] [164]
 Appendix C.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 192.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 127.
+(hyperref)                removing `subscript' on input line 192.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 192.
 
-<plots/qcd_sideband_fits.pdf, id=6164, 373.43344pt x 310.87201pt>
+<plots/qcd_sideband_fits.pdf, id=6507, 373.43344pt x 310.87201pt>
 File: plots/qcd_sideband_fits.pdf Graphic file (type pdf)
 
 <use plots/qcd_sideband_fits.pdf>
-Package pdftex.def Info: plots/qcd_sideband_fits.pdf used on input line 133.
+Package pdftex.def Info: plots/qcd_sideband_fits.pdf used on input line 198.
 (pdftex.def)             Requested size: 354.12256pt x 294.81442pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 134.
+(caption)                particular \caption on input line 199.
 See the caption package documentation for explanation.
 
-<plots/syst-le3j_nominal.pdf, id=6165, 217.45613pt x 137.52158pt>
+<plots/syst-le3j_nominal.pdf, id=6508, 217.45613pt x 137.52158pt>
 File: plots/syst-le3j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_nominal.pdf>
-Package pdftex.def Info: plots/syst-le3j_nominal.pdf used on input line 146.
+Package pdftex.def Info: plots/syst-le3j_nominal.pdf used on input line 211.
 (pdftex.def)             Requested size: 215.07349pt x 136.01456pt.
 
-<plots/syst-le3j_varied.pdf, id=6166, 217.45612pt x 137.52168pt>
+<plots/syst-le3j_varied.pdf, id=6509, 217.45612pt x 137.52168pt>
 File: plots/syst-le3j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-le3j_varied.pdf>
-Package pdftex.def Info: plots/syst-le3j_varied.pdf used on input line 152.
+Package pdftex.def Info: plots/syst-le3j_varied.pdf used on input line 217.
 (pdftex.def)             Requested size: 215.07349pt x 136.01466pt.
- [157
+ [165
 
  <./plots/qcd_sideband_fits.pdf>]
-<plots/syst-ge4j_nominal.pdf, id=6242, 217.45612pt x 137.52158pt>
+<plots/syst-ge4j_nominal.pdf, id=6584, 217.45612pt x 137.52158pt>
 File: plots/syst-ge4j_nominal.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_nominal.pdf>
-Package pdftex.def Info: plots/syst-ge4j_nominal.pdf used on input line 164.
+Package pdftex.def Info: plots/syst-ge4j_nominal.pdf used on input line 229.
 (pdftex.def)             Requested size: 215.07349pt x 136.01456pt.
 
-<plots/syst-ge4j_varied.pdf, id=6243, 217.45612pt x 137.52168pt>
+<plots/syst-ge4j_varied.pdf, id=6585, 217.45612pt x 137.52168pt>
 File: plots/syst-ge4j_varied.pdf Graphic file (type pdf)
 
 <use plots/syst-ge4j_varied.pdf>
-Package pdftex.def Info: plots/syst-ge4j_varied.pdf used on input line 170.
+Package pdftex.def Info: plots/syst-ge4j_varied.pdf used on input line 235.
 (pdftex.def)             Requested size: 215.07349pt x 136.01466pt.
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
@@ -3183,152 +3356,152 @@ Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
- [158 <./plots/syst-le3j_nominal.pdf> <./plots/syst-le3j_varied.pdf> <./plots/s
-yst-ge4j_nominal.pdf> <./plots/syst-ge4j_varied.pdf>] [159]
+ [166 <./plots/syst-le3j_nominal.pdf> <./plots/syst-le3j_varied.pdf> <./plots/s
+yst-ge4j_nominal.pdf> <./plots/syst-ge4j_varied.pdf>] [167]
 Appendix D.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_
-mult_3.pdf, id=6796, 569.12625pt x 363.3575pt>
+mult_3.pdf, id=7138, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_
 jet_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_O
-neMuon_Template_375_jet_mult_3.pdf used on input line 226.
+neMuon_Template_375_jet_mult_3.pdf used on input line 291.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet
-_mult_3.pdf, id=6797, 569.12625pt x 363.3575pt>
+_mult_3.pdf, id=7139, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_37
 5_jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_
-OneMuon_Template_375_jet_mult_3.pdf used on input line 230.
+OneMuon_Template_375_jet_mult_3.pdf used on input line 295.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_
-mult_3.pdf, id=6798, 569.12625pt x 363.3575pt>
+mult_3.pdf, id=7140, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375
 _jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_
 jet_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_O
-neMuon_Template_375_jet_mult_3.pdf used on input line 236.
+neMuon_Template_375_jet_mult_3.pdf used on input line 301.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 
-LaTeX Warning: Float too large for page by 22.77948pt on input line 241.
+LaTeX Warning: Float too large for page by 22.77948pt on input line 306.
 
-[160
+[168
 
-] [161 <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template
+] [169 <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template
 _375_jet_mult_3.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Final_Fit
 _To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_3.pdf, page is rotated
  90 degrees> <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Te
 mplate_375_jet_mult_3.pdf, page is rotated 90 degrees>]
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_jet_
-mult_4.pdf, id=6937, 569.12625pt x 363.3575pt>
+mult_4.pdf, id=7280, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_
 jet_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_O
-neMuon_Template_375_jet_mult_4.pdf used on input line 250.
+neMuon_Template_375_jet_mult_4.pdf used on input line 315.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375_jet
-_mult_4.pdf, id=6938, 569.12625pt x 363.3575pt>
+_mult_4.pdf, id=7281, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_37
 5_jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Medium_HTBin_
-OneMuon_Template_375_jet_mult_4.pdf used on input line 255.
+OneMuon_Template_375_jet_mult_4.pdf used on input line 320.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_jet_
-mult_4.pdf, id=6939, 569.12625pt x 363.3575pt>
+mult_4.pdf, id=7282, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375
 _jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template_375_
 jet_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_O
-neMuon_Template_375_jet_mult_4.pdf used on input line 261.
+neMuon_Template_375_jet_mult_4.pdf used on input line 326.
 (pdftex.def)             Requested size: 228.51515pt x 145.89485pt.
 
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.pdf, 
-id=6940, 569.12625pt x 363.3575pt>
+id=7283, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_
-mult_3_num_param_3.pdf used on input line 276.
+mult_3_num_param_3.pdf used on input line 341.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
 
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.pdf, 
-id=6941, 569.12625pt x 363.3575pt>
+id=7284, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_3_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_
-mult_3_num_param_3.pdf used on input line 281.
+mult_3_num_param_3.pdf used on input line 346.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
 
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.pdf, 
-id=6942, 569.12625pt x 363.3575pt>
+id=7285, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_
-mult_4_num_param_3.pdf used on input line 286.
+mult_4_num_param_3.pdf used on input line 351.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
 
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.pdf, 
-id=6943, 569.12625pt x 363.3575pt>
+id=7286, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_4_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_
-mult_4_num_param_3.pdf used on input line 291.
+mult_4_num_param_3.pdf used on input line 356.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
 
 <plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.pdf, 
-id=6944, 569.12625pt x 363.3575pt>
+id=7287, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_5_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_
-mult_5_num_param_3.pdf used on input line 296.
+mult_5_num_param_3.pdf used on input line 361.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
 
 <plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.pdf, 
-id=6945, 569.12625pt x 363.3575pt>
+id=7288, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.
 pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.p
 df>
 Package pdftex.def Info: plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_
-mult_5_num_param_3.pdf used on input line 301.
+mult_5_num_param_3.pdf used on input line 366.
 (pdftex.def)             Requested size: 215.07349pt x 137.31215pt.
- [162
+ [170
 
  <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Loose_HTBin_OneMuon_Template_375_j
 et_mult_4.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Final_Fit_To_MC
@@ -3336,38 +3509,38 @@ _Normal_Medium_HTBin_OneMuon_Template_375_jet_mult_4.pdf, page is rotated 90 de
 grees> <./plots/ThesisPlots/Final_Fit_To_MC_Normal_Tight_HTBin_OneMuon_Template
 _375_jet_mult_4.pdf, page is rotated 90 degrees>]
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mu
-lt_3.pdf, id=7083, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7426, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_je
 t_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_275_325_jet_mult_3.pdf used on input line 318.
+n_OneMuon_275_325_jet_mult_3.pdf used on input line 383.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mu
-lt_3.pdf, id=7084, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7427, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_je
 t_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_325_375_jet_mult_3.pdf used on input line 323.
+n_OneMuon_325_375_jet_mult_3.pdf used on input line 388.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_j
-et_mult_3.pdf, id=7085, 569.12625pt x 363.3575pt>
+et_mult_3.pdf, id=7428, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 375_jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_3
 75_jet_mult_3.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_Template_375_jet_mult_3.pdf used on input line 329.
+n_OneMuon_Template_375_jet_mult_3.pdf used on input line 394.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
- [163 <./plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param
+ [171 <./plots/ThesisPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_3_num_param
 _3.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Pull_Plot_Z2_HTbin_Tem
 plate_375_jet_mult_3_num_param_3.pdf, page is rotated 90 degrees> <./plots/Thes
 isPlots/Pull_Plot_Z0_HTbin_Template_375_jet_mult_4_num_param_3.pdf, page is rot
@@ -3377,133 +3550,133 @@ ated 90 degrees> <./plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_
 /plots/ThesisPlots/Pull_Plot_Z2_HTbin_Template_375_jet_mult_5_num_param_3.pdf, 
 page is rotated 90 degrees>]
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_jet_mu
-lt_4.pdf, id=7353, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7695, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_325_je
 t_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_275_325_jet_mult_4.pdf used on input line 341.
+n_OneMuon_275_325_jet_mult_4.pdf used on input line 406.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mu
-lt_4.pdf, id=7354, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7696, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_325_375_je
 t_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_325_375_jet_mult_4.pdf used on input line 346.
+n_OneMuon_325_375_jet_mult_4.pdf used on input line 411.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_375_j
-et_mult_4.pdf, id=7355, 569.12625pt x 363.3575pt>
+et_mult_4.pdf, id=7697, 569.12625pt x 363.3575pt>
 File: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_
 375_jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Template_3
 75_jet_mult_4.pdf>
 Package pdftex.def Info: plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBi
-n_OneMuon_Template_375_jet_mult_4.pdf used on input line 352.
+n_OneMuon_Template_375_jet_mult_4.pdf used on input line 417.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
- [164 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_32
+ [172 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_32
 5_jet_mult_3.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Final_Fit_To
 _Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_3.pdf, page is rotated 90 de
 grees> <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Templ
 ate_375_jet_mult_3.pdf, page is rotated 90 degrees>]
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mu
-lt_3.pdf, id=7493, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7835, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_je
 t_mult_3.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_H
-TBin_Template_375_jet_mult_3.pdf used on input line 368.
+TBin_Template_375_jet_mult_3.pdf used on input line 433.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_m
-ult_3.pdf, id=7494, 569.12625pt x 363.3575pt>
+ult_3.pdf, id=7836, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_
 jet_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_j
 et_mult_3.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_
-HTBin_Template_375_jet_mult_3.pdf used on input line 373.
+HTBin_Template_375_jet_mult_3.pdf used on input line 438.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mu
-lt_3.pdf, id=7495, 569.12625pt x 363.3575pt>
+lt_3.pdf, id=7837, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_j
 et_mult_3.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_je
 t_mult_3.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_H
-TBin_Template_375_jet_mult_3.pdf used on input line 379.
+TBin_Template_375_jet_mult_3.pdf used on input line 444.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
- [165 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_32
+ [173 <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_275_32
 5_jet_mult_4.pdf, page is rotated 90 degrees> <./plots/ThesisPlots/Final_Fit_To
 _Data_Normal_Medium_HTBin_OneMuon_325_375_jet_mult_4.pdf, page is rotated 90 de
 grees> <./plots/ThesisPlots/Final_Fit_To_Data_Normal_Medium_HTBin_OneMuon_Templ
 ate_375_jet_mult_4.pdf, page is rotated 90 degrees>]
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_jet_mu
-lt_4.pdf, id=7632, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7974, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_375_je
 t_mult_4.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_H
-TBin_Template_375_jet_mult_4.pdf used on input line 392.
+TBin_Template_375_jet_mult_4.pdf used on input line 457.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_jet_m
-ult_4.pdf, id=7633, 569.12625pt x 363.3575pt>
+ult_4.pdf, id=7975, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_
 jet_mult_4.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_HTBin_Template_375_j
 et_mult_4.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Medium_
-HTBin_Template_375_jet_mult_4.pdf used on input line 397.
+HTBin_Template_375_jet_mult_4.pdf used on input line 462.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
 
 <plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_jet_mu
-lt_4.pdf, id=7634, 569.12625pt x 363.3575pt>
+lt_4.pdf, id=7976, 569.12625pt x 363.3575pt>
 File: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_j
 et_mult_4.pdf Graphic file (type pdf)
 
 <use plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_375_je
 t_mult_4.pdf>
 Package pdftex.def Info: plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_H
-TBin_Template_375_jet_mult_4.pdf used on input line 403.
+TBin_Template_375_jet_mult_4.pdf used on input line 468.
 (pdftex.def)             Requested size: 224.03688pt x 143.03949pt.
- [166 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_37
+ [174 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_37
 5_jet_mult_3.pdf, page is rotated 90 degrees> <./plots/TemplatesSignal/Final_Fi
 t_To_Data_Normal_Medium_HTBin_Template_375_jet_mult_3.pdf, page is rotated 90 d
 egrees> <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_
 375_jet_mult_3.pdf, page is rotated 90 degrees>]))
 \openout3 = `comment.cut'.
 
- [167 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_37
+ [175 <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Loose_HTBin_Template_37
 5_jet_mult_4.pdf, page is rotated 90 degrees> <./plots/TemplatesSignal/Final_Fi
 t_To_Data_Normal_Medium_HTBin_Template_375_jet_mult_4.pdf, page is rotated 90 d
 egrees> <./plots/TemplatesSignal/Final_Fit_To_Data_Normal_Tight_HTBin_Template_
 375_jet_mult_4.pdf, page is rotated 90 degrees>] (./comment.cut (./backmatter.t
 ex
-(./mythesis.bbl [168
+(./mythesis.bbl [176
 
 
-] [169
+] [177
 
 ]
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no ¶ in font cmti12!
- [170] [171] [172] [173] [174] [175]
+ [178] [179] [180] [181] [182]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
@@ -3511,16 +3684,16 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no „ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¬ in font cmr12!
-) [176] [177]
-[178]))
+ [183]) [184] [185]
+[186]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
- [179]
+ [187]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
  (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 103BBE5413CD94EFC8EDAAD883F6FEB1;6741.
+(rerunfilecheck)             Checksum: 725C37A3B4DB7C61E1026BD7DE50B63B;7103.
 
 
 LaTeX Warning: There were undefined references.
@@ -3531,11 +3704,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 33900 strings out of 493315
- 587591 string characters out of 6137905
- 751181 words of memory out of 5000000
- 35651 multiletter control sequences out of 15000+600000
- 42760 words of font info for 255 fonts, out of 8000000 for 9000
+ 33955 strings out of 493315
+ 588665 string characters out of 6137905
+ 752742 words of memory out of 5000000
+ 35693 multiletter control sequences out of 15000+600000
+ 42215 words of font info for 250 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,24n,73p,1216b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -3577,10 +3750,10 @@ onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on mythesis.pdf (179 pages, 8565293 bytes).
+Output written on mythesis.pdf (187 pages, 9469133 bytes).
 PDF statistics:
- 8286 PDF objects out of 8907 (max. 8388607)
- 5660 compressed objects within 57 object streams
- 650 named destinations out of 1000 (max. 500000)
- 31097 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 8635 PDF objects out of 8907 (max. 8388607)
+ 5963 compressed objects within 60 object streams
+ 669 named destinations out of 1000 (max. 500000)
+ 31149 words of extra memory for PDF output out of 35830 (max. 10000000)
 

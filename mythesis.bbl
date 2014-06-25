@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}%
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
 \makeatletter
 \providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
 \makeatother
@@ -370,6 +370,11 @@ M.~Cacciari\hrefCMSnoop {} { {et~al.}, ``The anti-k{$_{t}$} jet clustering
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Algorithms for b Jet identification
   in CMS}'',}  CMS-PAS-BTV-09-001, CERN, 2009. Geneva, (Jul, 2009).
 
+\bibitem{btagscalefactor}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Btag POG : CMS b-tagging
+  performance database'',} , (2013).
+\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
+
 \bibitem{CMS-PAS-BTV-13-001}
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Performance of b-tagging at
   {$\sqrt{s}=8$} TeV in multijet, {$t\bar{t}$} and boosted topology events}'',}
@@ -450,11 +455,6 @@ B.~Mathias\hrefCMSnoop {} { {et~al.}, ``Study of Level-1 Trigger Jet
 \hrefCMSnoop {} {{ CMS} Collaboration, ``{Search strategy for exclusive
   multi-jet events from supersymmetry at CMS}'',}  CMS-PAS-SUS-09-001, CERN,
   (Jul, 2009).
-
-\bibitem{btagscalefactor}
-\hrefCMSnoop {} {{ CMS} Collaboration, ``CMS Btag POG : CMS b-tagging
-  performance database'',} , (2013).
-\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagPOG.
 
 \bibitem{PhysRevD.84.114002}
 Z.~Bern\hrefCMSnoop {} { {et~al.}, ``Driving missing data at next-to-leading
@@ -539,12 +539,6 @@ L.~{Moneta}\hrefCMSnoop {} { {et~al.}, ``{The RooStats project}'',}
 \bibitem{Read:451614}
 \hrefCMSnoop {} {A.~L. Read, ``{Modified frequentist analysis of search results
   (the $CL_{s}$ method)}'',}  CERN-OPEN-2000-205, (2000).
-
-\bibitem{asymptotictest}
-G.~Cowan\hrefCMSnoop {} { {et~al.}, ``Asymptotic formulae for likelihood-based
-  tests of new physics'',} \textit{ The European Physical Journal C} \textbf{
-  71} (2011)
-  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}}.
 
 \bibitem{2011EPJClimits}
 G.~{Cowan}\hrefCMSnoop {} { {et~al.}, ``{Asymptotic formulae for

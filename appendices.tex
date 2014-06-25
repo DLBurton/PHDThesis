@@ -10,7 +10,7 @@ The single jet turn-on curves are derived from events independent of whether the
 
 \begin{figure}[htp]
 \centering
-\resizebox{.63\linewidth}{0.45\height}{\includegraphics{plots/leadjet_matchingeff.pdf}}
+\resizebox{.58\linewidth}{0.42\height}{\includegraphics{plots/leadjet_matchingeff.pdf}}
 \caption[Leading jet matching efficiency as a function of the offline CaloJet $\et$.]{Leading jet matching efficiency as a function of the offline CaloJet $\et$, measured in an isolated muon triggered dataset in the 2012B and 2012C run periods.}
   \label{fig:leadjetmatcheff}
 \end{figure}
@@ -40,7 +40,7 @@ muon triggered sample. The turn-on point, $\mu$, and resolution, $\sigma$, are m
 \section{Leading Jet Energy Resolution}
 \label{app:jetpuresolution}
 
-Description here.
+Fits to an \acf{EMG} function (Equation \ref{eq:emg}) applied to distributions of the variable $\Delta  E_{\text{L1-Offline}}$ (Equation \ref{eq:jetresolution}), for lead jets matched to \L1 jets measured in an isolated $\mu$ triggered event sample. Each of the six plots are binned according to increasing offline lead jet energy for both Calo and PF jets. The best fit values for $\mu$ and $\sigma$ and shown in Figures \ref{fig:jetptresultspu} and \ref{fig:pfjetptresultspu} for Calo and PF jets respectively.
 
 \begin{figure}[ht]
     \centering
@@ -59,7 +59,7 @@ Description here.
     \includegraphics[width=1.0\textwidth]{plots/calo_ptresolution_high.pdf}
     \centering (c$)$ 
     \end{minipage}
-     \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for (a) low, (b) medium, and (c) high pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for (a) low, (b) medium, and (c) high pile-up conditions as defined in Section (\ref{subsec:l1jetseedpu}). }
+     \caption[ Resolution plots of the leading offline \Calo $\et$ measured as a function of $\Delta E_{\text{L1-Offline}}  $ for (a) low, (b) medium, and (c) high pile-up conditions.] { Resolution plots of the leading offline jet \Calo $\et$ measured as a function of $\Delta  E_{\text{L1-Offline}}  $ for (a) low, (b) medium, and (c) high pile-up conditions as defined in Section (\ref{subsec:l1jetseedpu}). }
 \end{figure}
 
 \begin{figure}[htpb]
@@ -78,7 +78,7 @@ Description here.
     \includegraphics[width=1.0\textwidth]{plots/pf_ptresolution_high.pdf}
     \centering (c$)$ 
     \end{minipage}
-      \caption[ Resolution plots of the leading off-line PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for (a) low, (b) medium, and (c) high pile-up conditions.] { Resolution plots of the leading offline jet \PF $\et$ measured as a function of  $\frac{(\text{L1 E}_{T} -  \text{Offline E}_{T})}{\text{Offline E}_{T}}$ for (a) low, (b) medium, and (c) high pile-up conditions as defined in Section (\ref{subsec:l1jetseedpu}). }
+      \caption[ Resolution plots of the leading off-line PF $\et$ measured as a function of $\Delta E_{\text{L1-Offline}} $ for (a) low, (b) medium, and (c) high pile-up conditions.] { Resolution plots of the leading offline jet \PF $\et$ measured as a function of  $\Delta  E_{\text{L1-Offline}}  $ for (a) low, (b) medium, and (c) high pile-up conditions as defined in Section (\ref{subsec:l1jetseedpu}). }
 \end{figure}
 
 
@@ -86,41 +86,106 @@ Description here.
 \section{Resolution for Energy Sum Quantities}
 \label{app:jetenergysums}
 
-The following plots show the resolution parameters for energy sum quantities as a function of the quantity (q) itself. In this case, the $\mu$, $\sigma$ and $\lambda$ fit values to an \ac{EMG} function defined by Equation (\ref{eq:emg}) for each of the individual $\frac{(\text{L1 q } -  \text{Offline q})}{\text{Offline q}}$ distributions, in bins of the quantity (q) is displayed. 
+The following plots show the resolution parameters for energy sum quantities as a function of the quantity (q) itself. In this case, the $\mu$, $\sigma$ and $\lambda$ fit values to an \ac{EMG} function defined by Equation (\ref{eq:emg}) for each of the individual $\Delta Q_{\text{L1-Offline}} = \frac{(\text{L1 Q } -  \text{Offline Q})}{\text{Offline Q}}$ distributions, in bins of the quantity (q) is displayed. 
 
 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=0.72\textwidth]{plots/res_CaloHT_summary_v2.pdf}
-        \caption[$\theht$~resolution parameters in bins of Calo $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
+        \includegraphics[width=0.74\textwidth]{plots/res_CaloHT_summary_v2.pdf}
+        \caption[$\theht$~resolution parameters in bins of Calo $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of Calo $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\Delta \text{HT}_{\text{L1-Offline}}$ distributions.}
         \label{fig:calohtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=0.72\textwidth]{plots/res_pfHT_summary_v2.pdf}
-        \caption[$\theht$~resolution parameters in bins of PF $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \theht - \theht)}{\theht}$ distributions.}
+        \includegraphics[width=0.74\textwidth]{plots/res_pfHT_summary_v2.pdf}
+        \caption[$\theht$~resolution parameters in bins of PF $\theht$~measured in the defined low, medium and high pile up conditions.]{$\theht$~resolution parameters in bins of PF $\theht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\Delta \text{HT}_{\text{L1-Offline}}$ distributions.}
         \label{fig:pfhtresultspu}
 \end{figure}
 
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=0.72\textwidth]{plots/res_CaloMHT_summary_v2.pdf}
-        \caption[$\mht$~resolution parameters in bins of Calo $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of Calo $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.}
+        \includegraphics[width=0.74\textwidth]{plots/res_CaloMHT_summary_v2.pdf}
+        \caption[$\mht$~resolution parameters in bins of Calo $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of Calo $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\Delta \text{MHT}_{\text{L1-Offline}}$ distributions.}
         \label{fig:calomhtresultspu}
 \end{figure}
 \begin{figure}[h!]
   \vspace{20pt}
         \centering
-        \includegraphics[width=0.72\textwidth]{plots/res_pfMHT_summary_v2.pdf}
-        \caption[$\mht$~resolution parameters in bins of PF $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\frac{(L1 \mht - \mht)}{\mht}$ distributions.} \label{fig:pfmhtresultspu}
+        \includegraphics[width=0.74\textwidth]{plots/res_pfMHT_summary_v2.pdf}
+        \caption[$\mht$~resolution parameters in bins of PF $\mht$~measured in the defined low, medium and high pile up conditions.]{$\mht$~resolution parameters in bins of PF $\mht$~measured for the defined low, medium and high pile-up conditions. Shown are the mean $\mu$ (left) and resolution $\sigma$ (right) fit values to an \ac{EMG} function for the $\Delta \text{MHT}_{\text{L1-Offline}}$ distributions.} \label{fig:pfmhtresultspu}
 \end{figure}
 
-\chapter{Monte Carlo Generators and CMSSW Software Packages}
+\chapter{Datasets and Monte Carlo Samples}
+\label{app:datasets}
+The following datasets are used to populate the hadronic signal and control samples. They correspond to the full data run of 2012 and an integrated luminosity of 11.7$\pm$0.5 \fb. The official JSON from the 21st September 2012 is used to ﬁlter only certiﬁed runs and luminosity sections.
 
-Put in MC stuff here
+\footnotesize
+\texttt{/HT/Run2012A-13Jul2012-v1/AOD} \\
+\texttt{/HT/Run2012A-recover-06Aug2012-v1/AOD} \\
+\texttt{/HTMHT/Run2012B-13Jul2012-v1/AOD} \\
+\texttt{/HTMHT/Run2012C-24Aug2012\_v1/AOD} \\
+\texttt{/HTMHT/Run2012C-PromptReco-v2/AOD} \\
+\texttt{/JetHT/Run2012B-13Jul2012-v1/AOD} \\
+\texttt{/JetHT/Run2012C-24Aug2012-v1/AOD} \\
+\texttt{/JetHT/Run2012C-PromptReco-v2/AOD}  \\
+\texttt{/SingleMu/Run2012A-13Jul2012-v1/AOD} \\
+\texttt{/SingleMu/Run2012A-recover-06Aug2012-v1/AOD} \\
+\texttt{/SingleMu/Run2012B-13Jul2012-v1/AOD}\\ 
+\texttt{/SingleMu/Run2012C-24Aug2012\_v1/AOD}  \\
+\texttt{/SingleMu/Run2012C-PromptReco-v2/AOD} \\
+\texttt{/Photon/Run2012A-13Jul2012-v1/AOD} \\
+\texttt{/Photon/Run2012A-recover-06Aug2012-v1/AOD} \\
+\texttt{/SinglePhoton/Run2012B-13Jul2012-v1/AOD} \\
+\texttt{/SinglePhoton/Run2012C-24Aug2012\_v1/AOD} \\
+\texttt{/SinglePhoton/Run2012C-PromptReco-v2/AOD} \\
+\normalsize
+\section{Monte Carlo Samples for \ac{SM} Processes and Simplified Signal Modles}
+
+The SM background Monte Carlo samples for physics at \com = 8 \TeV are taken from the Summer12 simulation production run with \texttt{CMSSW\_5\_3\_X} with the \texttt{PU\_S10} scenario.
+
+\footnotesize
+\texttt{/WJetsToLNu\_TuneZ2Star\_8TeV-madgraph-tarball/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/WJetsToLNu\_HT-250To300\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/WJetsToLNu\_HT-300To400\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/WJetsToLNu\_HT-400ToInf\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/ZJetsToNuNu\_50\_HT\_100\_TuneZ2Star\_8TeV\_madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/ZJetsToNuNu\_100\_HT\_200\_TuneZ2Star\_8TeV\_madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/ZJetsToNuNu\_200\_HT\_400\_TuneZ2Star\_8TeV\_madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/ZJetsToNuNu\_400\_HT\_inf\_TuneZ2Star\_8TeV\_madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/TT\_CT10\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/TT\_CT10\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v2/AODSIM} \\
+\texttt{/TTZJets\_8TeV-madgraph\_v2/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/T\_s-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/T\_tW-channel-DR\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/T\_t-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/Tbar\_t-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/Tbar\_s-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/Tbar\_tW-channel-DR\_TuneZ2star\_8TeV-powheg-tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/DYJetsToLL\_M-50\_TuneZ2Star\_8TeV-madgraph-tarball/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/DYJetsToLL\_HT-200To400\_TuneZ2Star\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/DYJetsToLL\_HT-400ToInf\_TuneZ2Star\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/DYJetsToLL\_M-10To50filter\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/GJets\_HT-200To400\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/GJets\_HT-400ToInf\_8TeV-madgraph/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/WZ\_TuneZ2star\_8TeV\_pythia6\_tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/WW\_TuneZ2star\_8TeV\_pythia6\_tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\texttt{/ZZ\_TuneZ2star\_8TeV\_pythia6\_tauola/Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM} \\
+\normalsize
+
+
+The signal Monte Carlo samples for physics at \com = 8 \TeV are taken from a \texttt{FastSim} simulation production run with \texttt{CMSSW\_5\_2\_6}. \\
+\footnotesize
+\texttt{/SMS-T1\_Mgluino-100to2000\_mLSP-0to2000\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v1/AODSIM} \\
+\texttt{/SMS-T1tttt\_Mgluino-350to2000\_mLSP-0to1650\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v3/AODSIM} \\
+\texttt{/SMS-T1bbbb\_Mgluino-100to2000\_mLSP-0to2000\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v1/AODSIM} \\
+\texttt{/SMS-T2\_Msquark-225to1200\_mLSP-0to1200\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v1/AODSIM} \\
+\texttt{/SMS-T2bb\_Msbottom-225to1200\_mLSP-0to1175\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v2/AODSIM} \\
+\texttt{/SMS-T2bw\_FineBin\_Mstop-100to600\_mLSP-0to500\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v2/AODSIM} \\
+\texttt{/SMS-T2tt\_FineBin\_Mstop-225to1200\_mLSP-0to1000\_8TeV-Pythia6Z/Summer12-START52\_V9\_FSIM-v1/AODSIM} \\
+\normalsize
 
 \chapter{Additional Material on Background Estimation Methods}
 \label{app:backgroundestimation}

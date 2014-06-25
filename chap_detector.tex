@@ -175,7 +175,8 @@ The decays of b-quarks are suppressed by small \CKM matrix elements. As a result
 
 Several different algorithms developed by \ac{CMS} select b-quark jets based on variables such as; the impact parameters of the charged-particle tracks, the properties of reconstructed decay vertices, and the presence or absence of a lepton, or combinations thereof. 
 
-One of the most efficient algorithms is the \acf{CSV} algorithm \cite{CMS-PAS-BTV-09-001}. This operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, corresponding to the mis-identiﬁcation probability for light-parton jets of 10$\%$, 1$\%$, and 0.1$\%$, respectively, in jets with an average $\pt$ of about 80 \GeV. Light parton jets are defined as those which originate from a u, d, s quark or a gluon. The medium working point is used within the \alphat search presented in Section (\ref{sec:alphatintroduction}).  
+One of the most efficient algorithms is the \acf{CSV} algorithm \cite{CMS-PAS-BTV-09-001}. This operates based on secondary vertex and track-based lifetime information, benchmarked in `Loose', `Medium' and `Tight' working points, corresponding to the mis-identiﬁcation probability for light-parton jets of 10$\%$, 1$\%$, and 0.1$\%$, respectively, in jets with an average $\pt$ of about 80 \GeV. Light parton jets are defined as those which originate from a u, d, s quark or a gluon. The medium working point is used within the \alphat search presented in Section (\ref{sec:alphatintroduction}), which is measured to have a gluon/light-quark tagging efficiency of $\sim$ 1\%, a c-quark tagging efficiency of $\sim$ 20\% and a jet p$_{\text{T}}$ dependant b-tagging efficiency of 60-70\% \cite{btagscalefactor}.
+
 
 Within the \ac{CSV} tagger, a likelihood-based discriminator distinguishes between jets from b-quarks, and those from charm or light quarks and gluons, the distribution of which is shown in Figure \ref{fig:btagdescrims}. All figures within this sub-section, demonstrating the performance of this b-tagging algorithm are taken from \cite{CMS-PAS-BTV-13-001}.
 
@@ -304,7 +305,7 @@ $\chi^{2}$$<$ 10 & $\chi^{2}$ of global muon track fit. Used to suppress hadroni
 Muon chamber hits $>$ 0 &  At least one muon chamber hit included in global muon track fit.\\
 Muon station hits $>$ 1 & Muon segment hits in at least two muon stations, which  suppresses hadronic punch-through and accidental track-to-segment matches. \\
 d$_{xy} <$ 0.2mm & The tracker track transverse impact parameter w.r.t the primary vertex. Suppresses cosmic muons and muons from decays in flight. \\
-d$_{z} <$ 0.5mm & The longitudinal distance of the tracker track w.r.t the primary vertex. Loose selection requirement to further suppress cosmic muons, muons from decays in flight and tracks from pileup.\\
+d$_{z} <$ 0.5mm & The longitudinal distance of the tracker track w.r.t the primary vertex. Loose selection requirement to further suppress cosmic muons, muons from decays in flight and tracks from pile-up.\\
 Pixel hits $>$ 0 & Suppresses muons from decays in flight by requiring at least one pixel hit in the tracker. \\
 Track layer hits $>$ 5 & Number of tracker layers with hits, to guarantee a good \pt measurement. Also suppresses muons from decays in flight.\\
 PF Iso  $<$0.12 & Isolation based upon the sum of the charged and neutral hadrons and photon objects within a $\Delta$R 0.4 cone of the muon object, corrected for pile up effects on the isolation sum.   \\
@@ -338,7 +339,7 @@ Variable & Definition \\
 H/E $< $ 0.05  & The ratio of hadronic energy in the \ac{HCAL} tower directly behind the \ac{ECAL} super-cluster and the \ac{ECAL} super-cluster itself. \\
 $\sigma_{i\eta i\eta}< 0.011$ & The log energy weighted width ($\sigma$), of the extent of the shower in the $\eta$ dimension.\\
 R9 $<$ 1.0 & The ratio of the energy of the 3$\times$3 crystal core of the super-cluster compared to the total energy stored in the 5$\times$5 super-cluster. \\
-Combined Isolation $<$ 6 \GeV &  The photons are required to be isolated with no electromagnetic or hadronic activity within a radius $\Delta$R = 0.3 of the photon object. A combination of the pileup subtracted (due to isotropic energy deposits) \cite{Cacciari:2007fd}, \ac{ECAL}, \ac{HCAL} and tracking isolation sums are used to determine the combined total isolation value.  \\
+Combined Isolation $<$ 6 \GeV &  The photons are required to be isolated with no electromagnetic or hadronic activity within a radius $\Delta$R = 0.3 of the photon object. A combination of the pile-up subtracted (due to isotropic energy deposits) \cite{Cacciari:2007fd}, \ac{ECAL}, \ac{HCAL} and tracking isolation sums are used to determine the combined total isolation value.  \\
 \hline
 \caption[Photon identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections. ]{Photon identification criteria used within the analysis for selection/veto purposes in the \gpjets control/signal selections.}
 \label{tab:photonidtable}
@@ -373,7 +374,7 @@ H/E & $<$0.12 & $<$0.10 & The ratio of hadronic energy in the \ac{HCAL} tower di
 d0 (vtx) & $<$0.02 & $<$0.02 & The tracker track transverse impact parameter w.r.t the primary vertex.  \\
 dZ (vtx) & $<$0.20 & $<$0.20 & The longitudinal distance of the tracker track w.r.t the primary vertex.\\
 $\lvert(\frac{1}{E_{ECAL}} - \frac{1}{p_{track}})\rvert$ & $<$0.05 & $<$0.05 & Comparison of energy at supercluster 1/E$_{ECAL}$ and that of the track momentum at the vertex 1/p$_{track}$. Causes suppression of fake electrons at low \pt. \\
-PF Iso & $<$0.15 & $<$0.15 & Combined PF isolation of charged hadrons, photons, neutral hadrons within a $\Delta$R $<$ 0.3 cone size. Isolation sum is corrected for pileup using effective area corrections for neutral particles. \\
+PF Iso & $<$0.15 & $<$0.15 & Combined PF isolation of charged hadrons, photons, neutral hadrons within a $\Delta$R $<$ 0.3 cone size. Isolation sum is corrected for pile-up using effective area corrections for neutral particles. \\
 \cline{1-4}
 \caption[Electron identification criteria used within the analysis for veto purposes.]{Electron identification criteria used within the analysis for veto purposes.}
 \label{tab:electronidtable}

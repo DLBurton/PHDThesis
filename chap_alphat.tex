@@ -28,57 +28,205 @@ D2 (\texttt{T2bb}) & $ pp \rightarrow \widetilde{b}\widetilde{b}^{*} \rightarrow
 \cline{1-4}
 \end{tabular*}
 \end{center}
-\caption[A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays.]{A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays. Reference models are also defined in terms of parent and \ac{LSP} sparticle mass. }
+\caption[A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays.]{A summary of the \ac{SMS} models interpreted in this analysis, involving both direct (D) and glunio-induced (G) production of squarks and their decays. Reference models are also defined in terms of parent and \ac{LSP} sparticle mass with the parameter space represented in a grid that is detailed in Section (\ref{subsec:sms}). }
 \label{tab:sms_model_table}
 \end{table}
 
 \section{An Introduction to the \alphat Search}
 \label{sec:alphatintroduction}
 
-A proton-proton collision resulting in the production and decay of supersymmetric particles,  would manifest as a final state containing energetic jets and $\met$ in the hadronic channel. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These particles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
+A proton-proton collision resulting in the production and decay of supersymmetric particles,  can manifest as a final state containing energetic jets and $\met$ in the purely hadronic channel. The search focuses on topologies where new heavy supersymmetric, R-parity conserving particles are pair-produced in pp collisions. These sparticles decaying to a \ac{LSP} escape the detector undetected, leading to significant missing energy and missing hadronic transverse energy,
 
 \begin{equation}
 \mht =  \lvert \sum_{i=1}^{n} \vec{p_{T}}^{jet_{i}} \rvert.
 \end{equation}
 
-This is defined as the vector sum of the transverse energies of jets selected in an event. Energetic jets produced in the decay of these supersymmetric particles also 
-can produce significant visible transverse energy, 
+This is defined as the vector sum of the transverse energies of jets that pass a minimum \pt threshold in an event. Energetic jets produced in the decay of these supersymmetric particles also can produce significant visible transverse energy, 
 
 \begin{equation}
 \theht = \sum_{i=1}^{n} E_{T}^{jet_{i}},
 \end{equation}
 
-defined as the scalar sum of the transverse energies of jets selected in an event.
+defined as the scalar sum of the transverse energies of jets above a minimum \pt threshold in an event.
 
-A search within this channel is greatly complicated in a hadron collider environment; where the overwhelming background comes from inherently balanced multi-jet (``QCD'') events, which are produced with an extremely large cross-section as demonstrated within Figure \ref{fig:htqcdbackground}. $\met$ can appear in such events due to a substantial detector mis-measurement, stochastic fluctuations of jet energy, or missed objects due to detector mis-calibration or noise effects. 
+\ac{SM} backgrounds from \ac{EWK} processes in the purely hadronic channel come from those with genuine $\met$ due to escaping neutrinos or where a lepton falls outside of detector acceptance. The main \ac{EWK} processes which contribute to this channel are listed below in order of total background contribution:
+
+\begin{itemize}
+\item $Z\rightarrow\nu\bar{\nu}$ +  jets ($\sim$42\%),
+\item $W\rightarrow\text{l}\nu$ + jets in which a lepton falls outside of detector acceptance, is not reconstructed, is mis-identified, or the lepton decays hadronically $\tau \rightarrow$ had ($\sim$35\%),
+\item $t\bar{t}$ with at least one leptonically decaying W, in which the lepton(s) falls outside of detector acceptance, is not reconstructed, is mis-identified, or the lepton decays hadronically   ($\sim$18\%),
+\item small background contributions from DY, single top and Diboson (WW,ZZ,WZ) processes ($\sim$5\%).
+\end{itemize}
+
+Furthermore, a search within this channel is greatly complicated in a hadron collider environment where the overwhelming background comes from inherently balanced multi-jet (``QCD'') events with no true \met, which are produced with an extremely large cross-section as demonstrated within Figure \ref{fig:htqcdbackground}. Due to a substantial detector mis-measurement, stochastic fluctuations of jet energy, missed objects due to detector mis-calibration or noise effects, ``fake'' $\met$ can sometimes appear in QCD multi-jet events. 
 
 \begin{figure}[!h]
 
 \centering
 \includegraphics[width=0.70\textwidth]{plots/ra1_htdistribution.pdf}
-\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection (detailed in the following section), from 11.7fb$^{-1}$ of data, in which no \alphat requirement was made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection (detailed in the following section), from 11.7fb$^{-1}$ of data, in which no \alphat requirement was made. The sample is collected from prescaled \theht triggers. Overlaid are expectations from simulation of \ac{EWK} processes as well as two reference signal models (labelled G1 and D1 from Table \ref{tab:sms_model_table}).}  
+\caption[Reconstructed offline $\theht$ distribution in the hadronic signal selection (detailed in the following section), from 11.7 fb$^{-1}$ of data, in which no \alphat requirement was made.]{Reconstructed offline $\theht$ distribution in the hadronic signal selection (detailed in the following section), from 11.7 fb$^{-1}$ of data, in which no \alphat requirement was made. Overlaid are expectations from simulation of \ac{EWK} processes as well as two reference signal models (labelled G1 and D1 from Table \ref{tab:sms_model_table}).}  
 \label{fig:htqcdbackground}
 \end{figure}
 
-Additional \ac{SM} background from \ac{EWK} processes with genuine $\met$ from escaping neutrinos comprise the irreducible background within this search and come mainly from:
+The search therefore must be designed to have a strong separation between events with genuine and ``fake'' $\met$. This is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{alphat7tev}\cite{CMS:2008vya} introduced in Section (\ref{subsec:alphatvariable}).
+
+\section{Search Strategy}
+\label{subsec:searchstrategy}
+
+The aim of the analysis presented in this thesis is to identify an excess of events in data over the \ac{SM} background expectation in multi-jet final states and significant $\met$. The essential suppression of the dominant multi-jet background for such a search is addressed by the $\alphat$ variable, described in the Section (\ref{subsec:alphatvariable}). 
+
+To remain inclusive to a large range of \ac{SUSY} all hadronic final states, the signal region is split into the following categories to allow for increased sensitivity to different \ac{SUSY} topologies:
 
 \begin{itemize}
-\item $Z \rightarrow \nu\bar{\nu}$ +  jets,
-\item $W \rightarrow l\nu$ + jets in which a lepton falls outside of detector acceptance, is not reconstructed, is mis-identified, or the lepton decays hadronically $\tau \rightarrow$ had,
-\item $t\bar{t}$ with at least one leptonically decaying W, which is missed in the detector as detailed above,
-\item small background contributions from DY, single top and Diboson (WW,ZZ,WZ) processes.
+
+\item[] \textbf{Sensitivity to a range of \ac{SUSY} mass splittings}
+
+The hadronic signal region is defined by \theht $>$ 275, divided into eight bins in \theht. 
+
+\begin{itemize}
+\item Two bins of width 50 \GeV in the range 275 $<$ \theht $<$ 375 \GeV,
+\item five bins of width 100 \GeV in the range 375 $<$ \theht$<$ 875 \GeV,
+\item and a final open bin, \theht $>$ 875 \GeV.
 \end{itemize}
 
-The search is designed to have a strong separation between events with genuine and ``fake'' $\met$ which is achieved primarily though the dimensionless kinematic variable, $\alphat$ \cite{alphat7tev}\cite{CMS:2008vya}.
+The choice of the lowest \theht bin in the analysis is driven primarily by trigger constraints. The mass difference between the \ac{LSP} and the sparticle that it decays from is an important factor in the amount of hadronic activity in the event. 
+
+A large mass splitting between the sparticle and \ac{LSP} will lead to hard high \pt jets contributing to the \theht sum and the event will be found in the higher \theht bins. From Figure \ref{fig:htqcdbackground} it can be seen that the \ac{SM} background falls sharply at high \theht values, therefore many \theht categories will lead to easier identification of such signals. Conversely, smaller mass splittings lead to softer jet \pt's which will subsequently fall into the lower \theht range.
+
+\item[] \textbf{Sensitivity to production method of \ac{SUSY} particles}
+
+The production mechanism of any potential \ac{SUSY} signal can lead to different event topologies. One such way to discriminate between gluino ($g\widetilde{g}$ - ``high multiplicity''), and direct squark ($q\widetilde{q}$ - ``low multiplicity'') induced production of \ac{SUSY} particles is realised through the number of reconstructed jets in the final state. This is demonstrated in Figure \ref{fig:smsprocesses}, where it can be seen that gluino induced production in \ac{SMS} models give rise to typically four or more final state jets, and direct squark production giving rise to just two final state jets.
+
+The analysis is thus split into two jet categories: 2 $\leq \njet \leq$ 3 jets, $\njet \geq$ 4 jets to give sensitivity to both of these mechanisms. 
+
+\item[] \textbf{Sensitivity to  ``Natural \ac{SUSY}'' via tagging jets from b-quarks}
+
+Jets originating from the hadronisation of bottom quarks (b-jets) are identified through vertices that are displaced with respect to the primary interaction. The algorithm used in the analysis to identify b-jets is the \acf{CSVM} tagger, described within Section (\ref{subsec:cmsobjects-btagging}). 
+
+Natural \ac{SUSY} models would be characterised through final-state signatures rich in bottom quarks. A search relying on methods to identify jets originating from bottom quarks through b-tagging, will significantly improve the sensitivity to this class of signature. This gain in sensitivity stems from a vast reduction in the vector boson + jet backgrounds (W, Z) at higher b-tag jet multiplicities, which typically have no b-flavoured quarks in their decays.  
+
+Therefore, events are categorised according to the number of offline reconstructed b-tagged jets, \nbreco, identified within each event. The following five categories are used; \nbreco =0, =1, =2, =3 and $\geq$ 4. In the \nbreco $\geq$ 4 category, due to a limited number of expected signal and background events just three \theht bins are employed: 275-325 \GeV, 325-375 \GeV, $\geq$ 375 \GeV.
+
+This characterisation is identically mirrored in all control samples, with the information from all samples and b-tag categories used simultaneously in the likelihood model, see Section (\ref{sec:statframework}).
+
+\end{itemize}
+ 
+ The \theht, jet multiplicity and b-tag categorisation of the signal region are combined as described above. In the case of the \nbreco $\geq$ 4 category, only three \theht bins (275-325, 325-375, $>$375) are used due to limited expected background yields. This results in a total of 67 different bins in which the analysis is interpreted and which is shown in Table \ref{tab:analysistable}. A further visualisation of the analysis categorisation is also depicted in Figure \ref{fig:analysisbinning}. 
+ 
+ \begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ccc}
+\hline
+ & \multicolumn{2}{c}{\njet categories } \\
+\nbreco & 2 $\leq$ \njet $\leq$ &  \njet $\geq$ 4 \\
+\hline \hline
+ 0 & 8 & 8 \\
+1 & 8 & 8 \\
+2 & 8 & 8 \\
+3 & 8 & 8 \\
+$\geq$4 & - & 3 \\
+
+\end{tabular*}
+\end{center}
+\caption[Table to show the 67 analysis categories of the \alphat analysis.]{Table to show the 67 analysis categories of the \alphat analysis. The number within each \nbreco/\njet category represents the number of \theht bins present. Where there are eight \theht bins the range of \theht bins is between a lowest value 275 $\leq$ \theht $\leq$ 325 and a highest of $\theht > 875$. When there are just three \theht bins the \theht categorisation is given as 275 $\leq$ \theht $\leq$ 325, 325 $\leq$ \theht $\leq$ 375, $\theht >$375. }
+\label{tab:analysistable}
+\end{table}
+
+ \begin{figure}[!h]
+ \centering
+\includegraphics[width=0.70\textwidth]{plots/analysis_binning.pdf}
+\caption[Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.]{Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.}  
+\label{fig:analysisbinning}
+\end{figure}
+\FloatBarrier
+
+For estimation of the remaining \ac{EWK} processes within the signal region, three independent data control samples are used to predict the different processes that compose the background :
+
+\begin{itemize}
+\item \mupjets control sample to determine W + jets, \ttbar and single top backgrounds,
+\item \gpjets control sample to determine the irreducible \zinv + jets background,
+\item \dimupjets control sample to also determine the irreducible \zinv + jets background.
+\end{itemize}
+
+These control samples are chosen to be rich in specific \ac{EWK} processes, free of QCD multi-jet events and to also be kinematically similar to the hadronic signal region that they are estimating the backgrounds of, see Section (\ref{subsec:controlsampledefinition}). The redundancy of using the \gpjets and \dimupjets sample to predict the same background within the signal region, brings an opportunity to reliably crosscheck and validate the background estimation method, and is utilised in both the determination of background estimation systematics (Section(\ref{subsec:sysuncertainties})) and in the maximum likelihood fit (Section(\ref{sec:statframework})).
+
+\subsection{Trigger Strategy}
+\label{subsec:triggerstrategy}
+
+A trigger based on the \theht and \alphat values of an event, is used with varying thresholds across \theht bins to record the events used in the hadronic signal region and is known as a  \htalphat trigger. The \alphat values of the \htalphat triggers used in the analysis, are chosen to suppress QCD multi-jet events and control trigger rate, whilst maintaining signal acceptance. To maintain an acceptable rate for these analysis triggers, only calorimeter information is used in the reconstruction of the \theht sum, leading to the necessity for Calo jets to be used within the analysis. 
+
+A single object prescaled \texttt{HT} trigger is used to collect events for the hadronic control region, described above in Section (\ref{subsec:qcdbackground}).
+
+The performance of the \alphat and \theht triggers used to collect data for the signal and hadronic control region is measured with respect to a reference sample collected using the muon system. This allows measurement of both the Level 1 seed and higher level triggers simultaneously, as the reference sample is collected independently of any jet requirements. 
+
+The selection for the trigger efficiency measurement is identical to that described in Section (\ref{subsec:eventselection}), with the requirement of exactly one well identified muon with \pt $>$ 30 \GeV. This muon is then subsequently ignored.  
+
+The efficiencies measured for the \htalphat triggers in each of the two components of the trigger, is summarised in Table \ref{tab:trigeffs} for each \theht category of the analysis, along with the trigger threshold values used.
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}cccc}
+\hline
+\theht range (\GeV) & Trigger Name & $\epsilon$ on \theht (\%) & $\epsilon$ on \alpha (\%) \\ 
+\hline\hline
+275-325 & \texttt{HT250AlphaT55} & $87.7^{+1.9}_{-1.9}$ & $82.8^{+1.0}_{-1.1}$ \\
+325-375 & \texttt{HT300AlphaT53} &90.6$^{+2.9}_{-2.9}$ & 95.9$^{+0.7}_{-0.9}$ \\
+375-475 & \texttt{HT350AlphaT52} &95.7$^{+0.1}_{-0.1}$ & 98.5$^{+0.5}_{-0.9}$ \\
+475-$\infty$ & \texttt{HT400AlphaT51} &100.0$^{+0.0}_{-0.0}$ & 100.0$^{+0.0}_{-4.8}$ \\
+\end{tabular*}
+\end{center}
+\caption[Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins.]{Measured efficiencies of the \theht and \alphat legs of the \texttt{HT} and \htalphat triggers in independent analysis bins. The product of the two efficiencies gives the total efficiency of the trigger in a given offline \theht bin. The threshold values from which each efficiency was determined is given in the second column.}
+\label{tab:trigeffs}
+\end{table}
+
+Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using a single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. 
+
+The photon trigger is measured to be fully efficient for the threshold $\pt^{\text{photon}} > 150$ \GeV, whilst the single muon efficiency satisfying $\pt^{\text{muon}} > 30$ \GeV is measured to have an efficiency of (88$\pm$2)\% that is independent of \theht. In the case of the \dimupjets control sample, the efficiency is measured to be (95$\pm$2)\% for the lowest \theht bin, rising (due to the average \pt of the second muon in the event increasing at larger \theht)
+to (98$\pm$2)\% in the highest \theht category. 
+
+
+\subsection{Hadronic Signal Region Event Selection}
+\label{subsec:eventselection}
+
+The selection criteria for events within the analysis are detailed below. A set of common cuts are applied to both signal  (maximise acceptance to a range of \ac{SUSY} signatures),  and control samples (retain similar jet kinematics for background predictions), with additional selection cuts applied to each control sample to enrich the sample in a particular \ac{EWK} processes, see Section (\ref{subsec:controlsampledefinition}).
+
+
+Within the signal region, to suppress \ac{SM} processes with genuine \met from neutrinos, events containing isolated electrons or muons are vetoed. Furthermore to ensure a pure multi-jet topology, events are vetoed if an isolated photon is found with \pt $>$ 25 \GeV. 
+
+The jets considered in the analysis are required to have a transverse momentum \pt $>$ 50 \GeV, with a minimum of two jets required in the event. The highest \et jet is required to lie within the central tracker acceptance \abeta $<$ 2.5, and the two leading \pt jets must each have \pt $>$ 100 \GeV.  
+
+Any event which has a jet with \pt $>$ 50 \GeV that either fails the ``loose'' identification criteria described in Section(\ref{subsec:physicsobjects}) or has \abeta $>$ 3.0, is rejected. Similarly events in which an electron, muon or photon fails object identification defined in Section (\ref{subsec:physicsobjects}) but passes \eta and \pt restrictions, are identified as an ``odd'' lepton/photon and the event is vetoed.
+
+Noise filters first described in Table \ref{tab:noiseid} are also employed to remove events stemming from spurious non-physical jets from electrical noise or external sources.
+
+Within the two lowest \theht categories, the jet \pt threshold requirements required to be considered as part of the analysis and enter the \theht sum are scaled downwards. These are scaled down in order to extend phase space at low \theht, preserving similar jet multiplicities and background admixture seen at higher \theht. These thresholds for the two leading and common jet are scaled down by the ratio 275/375 and 325/375 in the lowest two \theht categories respectively. This represents the ratio between the boundary of the lower \theht value in each bin and is listed in Table \ref{tab:jetthresholdtable}.
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}lcc}
+\hline
+\multicolumn{1}{c}{\theht bin} & minimum jet \pt &  second leading jet \pt \\
+\hline \hline
+275 $<$ \theht$<$ 325 & 36.7 & 73.3 \\
+325 $<$ \theht$<$ 375 & 43.3 & 86.6 \\
+375 $<$ \theht & 50.0 & 100.0 \\
+\end{tabular*}
+\end{center}
+\caption[Jet thresholds used in the three \theht regions of the analysis.]{Jet thresholds used in the three \theht regions of the analysis.}
+\label{tab:jetthresholdtable}
+\end{table}
 
 \subsection{The $\alphat$ Variable}
 \label{subsec:alphatvariable}
 
-For a perfectly measured di-jet QCD event, conservation laws dictate that both jets must be of equal magnitude and produced in opposite directions. However, in the case of di-jet events with genuine $\met$ (as detailed above), no such requirement is made of the two jets, as depicted in Figure \ref{fig:susytopology}.
+In a di-jet QCD event, conservation laws dictate that the \pt of both jets must be of equal magnitude and the jets produced in opposite directions, Figure \ref{fig:susytopology} (b). However, in the case of di-jet events with genuine $\met$, Figure \ref{fig:susytopology} (a), no such requirement is made of the two jets. 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.90\textwidth]{plots/susy_topology.pdf}
-\caption[The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).]{The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).}  
+\includegraphics[width=0.90\textwidth]{plots/susy_topology_v3.pdf}
+\caption[The event topologies of background QCD diet events (a) and a generic \ac{SUSY} signature with genuine $\met$ (b).]{The event topologies of background QCD diet events (right) and a generic \ac{SUSY} signature with genuine $\met$ (left).}  
 \label{fig:susytopology}
 \end{figure}
 
@@ -97,14 +245,16 @@ M_{T} = \sqrt{\left(\sum^{2}_{i=1}E^{j_{i}}_{T}\right)^{2}-\left(\sum^{2}_{i=1}p
 
 A perfectly balanced di-jet event i.e. $E_{T}^{j_{1}} = E_{T}^{j_{2}}$ would yield an \alphat value of 0.5. In processes where a W or Z recoils off a system of jets, these jets will not necessarily be perfectly balanced and $\alphat$ can then achieve values in excess of 0.5. Most importantly, balanced multi-jet events in which jets \emph{are} mis-measured, will generally result in an \alphat value of less than 0.5, thus giving the \alphat variable discriminating power between these processes.
 
-$\alphat$ can be further extended to apply to any arbitrary number of jets. This is undertaken by modelling a system of $n$ jets as a di-jet system, through the formation of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. The two pseudo-jets are built by merging the jets present, and are chosen to be as balanced as possible, i.e the $\Delta$\theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
+$\alphat$ can be further extended to apply to any arbitrary number of jets. This is undertaken by modelling a system of $n$ jets as a di-jet system, through the reduction of the multi-jet system to that of two pseudo-jets \cite{CMS-PAS-SUS-09-001}. 
+
+The two pseudo-jets are built by merging the jets present, summing together the four-vectors of all the jets present within a pseudo-jet. The two pseudo-jet system is chosen to be as balanced as possible, i.e the $\Delta$\theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ is minimised between the two pseudo jets. Using Equation (\ref{eq:transmass}), $\alphat$ can be rewritten as,
 
 \begin{equation}
 \label{eq:alphatmht}
 \alphat = \frac{1}{2} \frac {\theht - \Delta\theht}{\sqrt{\theht^{2}-\mht^{2}}}= \frac{1}{2}\frac{1-\Delta\theht/\theht}{\sqrt{1-(\mht/\theht)^{2}}}.
 \end{equation}
 
-The distribution of $\alphat$ for the two jet multiplicity categories used within this analysis, 2$\leq n_{jet} \leq$3 and $ n_{jet} \geq 4$ jets, is shown in the Figure \ref{fig:fullalphatdistribution}. It can be seen that the distributions peak at an \alphat value of 0.5, before falling away sharply and being free of a simulated multi-jet background at larger \alphat values. These distributions serve to demonstrate the ability of the $\alphat$ variable to discriminate between multi-jet events and \ac{EWK} processes with genuine $\met$ in the final state. 
+The distribution of $\alphat$ for the two jet multiplicity categories used within this analysis, 2$\leq n_{jet} \leq$3 and $ n_{jet} \geq 4$ jets, is shown in Figure \ref{fig:fullalphatdistribution}. It can be seen that the distributions peak at an \alphat value of 0.5, before falling away sharply and being free of a simulated multi-jet background at larger \alphat values. These distributions serve to demonstrate the ability of the $\alphat$ variable to discriminate between multi-jet events and \ac{EWK} processes with genuine $\met$ in the final state. 
 
 \begin{figure}[ht]
 \centering
@@ -115,100 +265,16 @@ The distribution of $\alphat$ for the two jet multiplicity categories used withi
 \begin{minipage}[b]{0.48\linewidth}
 \includegraphics[width = 1.0\linewidth, height = 7.0cm]{plots/alphat_high.pdf}
 \end{minipage}
-\caption[ The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection and $\theht > 375$ requirement.]{The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection and $\theht > 375$ requirement. Data is collected using both prescaled $\theht$ triggers and dedicated $\alphat$ triggers for below and above $\alphat = 0.55$ respectively. Expected yields as given by simulation are also shown for multi-jet events (green dash-dotted line), \ac{EWK} backgrounds with genuine $\met$ (blue long-dashed line), the sum of all \ac{SM} processes (cyan solid line) and the reference signal model D2 (left, red dotted line) or G2 (right, red dotted line). }
+\caption[ The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection and $\theht > 375$ requirement.]{The $\alphat$ distributions for the low 2-3 (left) and high $\geq 4$ (right) jet multiplicities after a full analysis selection (listed in Table \ref{tab:cutflow}) and $\theht > 375$ requirement. Data is collected using both prescaled $\theht$ triggers and dedicated $\alphat$ triggers for below and above $\alphat = 0.55$ respectively. Expected yields as given by simulation are also shown for multi-jet events (green dash-dotted line), \ac{EWK} backgrounds with genuine $\met$ (blue long-dashed line), the sum of all \ac{SM} processes (cyan solid line) and the reference signal model D2 (left, red dotted line) or G2 (right, red dotted line). }
 \label{fig:fullalphatdistribution}
 \end{figure}
 
-The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multi-jet background is negligible even in the presence of moderate jet mis-measurement. There still remain other effects which can cause multi-jet events to artificially have a large $\alphat$ value, methods to combat them are discussed in detail in Section (\ref{subsec:eventselection}).  
+The $\alphat$ requirement used within the search is chosen to be $\alphat >$ 0.55 to ensure that the QCD multi-jet background is negligible even in the presence of moderate jet mis-measurement. There still remain other effects which can cause multi-jet events to artificially have a large $\alphat$ value, methods to combat them are discussed in detail below.
 
+\subsection{Cleaning Cuts}
+\label{subsec:cleaningcuts}
 
-\section{Search Strategy}
-\label{subsec:searchstrategy}
-
-The aim of the analysis presented in this thesis is to identify an excess of events in data over the \ac{SM} background expectation in multi-jet final states and significant $\met$. The essential suppression of the dominant multi-jet background for such a search is addressed by the $\alphat$ variable, described in the previous section. For estimation of the remaining \ac{EWK} backgrounds, three independent data control samples are used to predict the different processes that compose the background :
-
-\begin{itemize}
-\item \mupjets control sample to determine W + jets, \ttbar and single top backgrounds,
-\item \gpjets control sample to determine the irreducible \zinv + jets background,
-\item \dimupjets control sample to also determine the irreducible \zinv + jets background.
-\end{itemize}
-
-These control samples are chosen to be rich in specific \ac{EWK} processes, free of QCD multi-jet events and to also be kinematically similar to the hadronic signal region that they are estimating the backgrounds of, see Section (\ref{subsec:controlsampledefinition}). The redundancy of using the \gpjets and \dimupjets sample to predict the same background within the signal region, brings an opportunity to reliably crosscheck and validate the background estimation method, and is utilised in both the determination of background estimation systematics (Section(\ref{subsec:sysuncertainties})) and in the maximum likelihood fit (Section(\ref{sec:statframework})).
-
-To remain inclusive to a large range of possible \ac{SUSY} models, the signal region is split into the following categories to allow for increased sensitivity to different \ac{SUSY} topologies:
-
-\begin{itemize}
-
-\item[] \textbf{Sensitivity to a range of \ac{SUSY} mass splittings}
-
-The hadronic signal region is defined by \theht $>$ 275, divided into eight bins in \theht. 
-
-\begin{itemize}
-\item Two bins of width 50 \GeV in the range 275 $<$ \theht $<$ 375 \GeV,
-\item five bins of width 100 \GeV in the range 375 $<$ \theht$<$ 875 \GeV,
-\item and a final open bin, \theht $>$ 875 \GeV.
-\end{itemize}
-
-The choice of the lowest \theht bin in the analysis is driven primarily by trigger constraints. The mass difference between the \ac{LSP} and the particle that it decays from is an important factor in the amount of hadronic activity in the event. 
-
-A large mass splitting will lead to hard high \pt jets which contribute to the \theht sum. From Figure \ref{fig:htqcdbackground} it can be seen that the \ac{SM} background falls sharply at high \theht values, therefore many \theht categories will lead to easier identification of such signals. Conversely, smaller mass splittings lead to softer jet \pt's which will subsequently fall into the lower \theht range.
-
-\item[] \textbf{Sensitivity to production method of \ac{SUSY} particles}
-
-The production mechanism of any potential \ac{SUSY} signal can lead to different event topologies. One such way to discriminate between gluino ($g\widetilde{g}$ - ``high multiplicity''), and direct squark ($q\widetilde{q}$ - ``low multiplicity'') induced production of \ac{SUSY} particles is realised through the number of reconstructed jets in the final state.  
-
-The analysis is thus split into two jet categories: 2 $\leq \njet \leq$ 3 jets, $\njet \geq$ 4 jets to give sensitivity to both of these mechanisms. 
-
-\item[] \textbf{Sensitivity to  ``Natural \ac{SUSY}'' via tagging jets from b-quarks}
-
-Jets originating from the hadronisation of bottom quarks (b-jets) are identified through vertices that are displaced with respect to the primary interaction. The algorithm used in the analysis to identify b-jets is the \acf{CSVM} tagger, described within Section (\ref{subsec:cmsobjects-btagging}). A cut is placed on the discriminator variable of $> 0.679$, leading to a gluon/light-quark tagging efficiency of $\sim$ 1\%, a c-quark tagging efficiency of $\sim$ 20\% and a jet p$_{\text{T}}$ dependant b-tagging efficiency of 60-70\% \cite{btagscalefactor}.
-
-Natural \ac{SUSY} models would be characterised through final-state signatures rich in bottom quarks. A search relying on methods to identify jets originating from bottom quarks through b-tagging, will significantly improve the sensitivity to this class of signature. This gain in sensitivity stems from a vast reduction in the vector boson + jet backgrounds (W, Z) at higher b-tag jet multiplicities, which typically have no b-flavoured quarks in their decays.  
-
-Therefore, events are categorised according to the number of offline reconstructed b-tagged jets, \nbreco, identified within each event. The following five categories are used; \nbreco =0, =1, =2, =3 and $\geq$ 4. In the \nbreco $\geq$ 4 category, due to a limited number of expected signal and background events just three \theht bins are employed: 275-325 \GeV, 325-375 \GeV, $\geq$ 375 \GeV.
-
-This characterisation is identically mirrored in all control samples, with the information from all samples and b-tag categories used simultaneously in the likelihood model, see Section (\ref{sec:statframework}).
-
-\end{itemize}
- 
- The combination of the \theht, jet multiplicity and b-tag categorisation of the signal region as described above, results in 67 different bins in which the analysis is interpreted in. A visualisation of the analysis categorisation is depicted in Figure \ref{fig:analysisbinning}. 
- 
- \begin{figure}[!h]
- \centering
-\includegraphics[width=0.70\textwidth]{plots/analysis_binning.pdf}
-\caption[Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.]{Pictorial depiction of the analysis strategy employed by the $\alphat$ search to increase sensitivity to a wide spectra of \ac{SUSY} models.}  
-\label{fig:analysisbinning}
-\end{figure}
-\FloatBarrier
-
-\subsection{Event Selection}
-\label{subsec:eventselection}
-
-The selection criteria for events within the analysis are detailed below. A set of common cuts are applied to both signal  (maximise acceptance to a range of \ac{SUSY} signatures),  and control samples (retain similar jet kinematics for background predictions), with additional selection cuts applied to each control sample to enrich the sample in a particular \ac{EWK} processes, see Section (\ref{subsec:controlsampledefinition}).
-
-The jets considered in the analysis are required to have a transverse momentum \pt $>$ 50 \GeV, with a minimum of two jets required in the event. The highest \et jet is required to lie within the central tracker acceptance \abeta $<$ 2.5, and the two leading \pt jets must each have \pt $>$ 100 \GeV.  Any event which has a jet with \pt $>$ 50 \GeV that either fails the ``loose'' identification criteria described in Section(\ref{subsec:physicsobjects}) or has \abeta $>$ 3.0, is rejected. Similarly events in which an electron, muon or photon fails object identification but passes \eta and \pt restrictions, are identified as an ``odd'' lepton/photon and the event is vetoed.
-
-At low \theht, the jet \pt threshold requirements required to be considered as part of the analysis and enter the \theht sum are scaled downwards. These are scaled down in order to extend phase space at low \theht, preserving similar jet multiplicities and background admixture seen at higher \theht, as listed in Table \ref{tab:jetthresholdtable}.
-
-\begin{table}[h!]
-\footnotesize
-\begin{center}
-\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}lcc}
-\hline
-\multicolumn{1}{c}{\theht bin} & minimum jet \pt &  second leading jet \pt \\
-\hline \hline
-275 $<$ \theht$<$ 325 & 36.7 & 73.3 \\
-325 $<$ \theht$<$ 375 & 43.3 & 86.6 \\
-375 $<$ \theht & 50.0 & 100.0 \\
-\end{tabular*}
-\end{center}
-\caption[Jet thresholds used in the three \theht regions of the analysis.]{Jet thresholds used in the three \theht regions of the analysis.}
-\label{tab:jetthresholdtable}
-\end{table}
-
-Within the signal region, to suppress \ac{SM} processes with genuine \met from neutrinos, events containing isolated electrons or muons are vetoed. Furthermore to ensure a pure multi-jet topology, events are vetoed if an isolated photon is found with \pt $>$ 25 \GeV. 
-
-An \alphat requirement of $>$ 0.55 is required to reduce the QCD multi-jet background to a negligible amount. Finally, additional cleaning cuts are applied to protect against pathological deficiencies such as reconstruction failures or severe energy mis-measurements due to detector inefficiencies:
+An \alphat requirement of $>$ 0.55 is required to reduce the QCD multi-jet background to a negligible amount. However, additional cleaning cuts are necessary to protect against pathological deficiencies such as reconstruction failures or severe energy mis-measurements due to detector inefficiencies:
 
 \begin{itemize}
 \item Significant \mht can arise in events with no real \met due to multiple jets falling below the \pt threshold for selecting jets. This in turn leads to events which can then incorrectly pass the \alphat requirements of the analysis. This effect can be negated by requiring that the missing transverse momentum reconstructed from jets alone does not greatly exceed the missing transverse momentum reconstructed from all of the detector's calorimeter towers,
@@ -219,18 +285,70 @@ R_{miss} = \mht / \met < 1.25. \nonumber
 \item Fake \met and \mht can arise due to significant jet mis-measurements caused by a small number of non-functioning \ac{ECAL} regions. These regions absorb electromagnetic showers which are subsequently not added to the jet energy sum. To circumvent this problem the following procedure is employed: For each jet in the event, the angular separation
 
 \begin{equation}
-\Delta\phi_{j}^{*}\equiv \Delta\phi(p_{j}^{\rightarrow}-\sum_{i\neq j}p_{i}^{\rightarrow}),
+\Delta\phi_{j}^{*}\equiv \Delta\phi(p^{\rightarrow}_{j}-\sum_{i\neq j}p^{\rightarrow}_{i}),
 \end{equation}
 
-is calculated where that jet is itself removed from the event. Here $\Delta\phi^{*}$ is a measure of how aligned the \mht of an event is with a jet. A small value (i.e. the \mht vector lies along the jet axis) is indicative of an inherently balanced event in which a jet has been mis-measured. For every jet in an event with $\Delta\phi^{*} <$ 0.5, if the $\Delta R$ distance between the selected jet and the closest dead \ac{ECAL} region is also $<$ 0.3, then the event is rejected. Similarly events are rejected if the jet points within $\Delta R <$ 0.3 of the \ac{ECAL} barrel-endcap gap at \abeta $=$ 1.5.
+is calculated where that jet is itself removed from the event. Here $\Delta\phi^{*}$ is a measure of how aligned the \mht of an event is with a jet, with $p^{\rightarrow}_{j}$ the jet in question and $\sum_{i\neq j}p^{\rightarrow}_{i}$ the vector sum of the remaining jets in the event. A small value (i.e. the \mht vector lies along the jet axis) is indicative of an inherently balanced event in which a jet has been mis-measured. For every jet in an event with $\Delta\phi^{*} <$ 0.5, if the $\Delta R$ distance between the selected jet and the closest dead \ac{ECAL} region is also $<$ 0.3, then the event is rejected. Similarly events are rejected if the jet points within $\Delta R <$ 0.3 of the \ac{ECAL} barrel-endcap gap at \abeta $=$ 1.5.
 
 \end{itemize}
 
-Some of the key distributions of the analysis are compared to simulated \ac{SM} processes, shown in Figure \ref{fig:hadmcplots}. The simulated samples are normalised to a luminosity of 11.7 \fb,  with no requirement placed upon the number of b-tagged jets or number of jets in the distributions shown. In the case of this inclusive selection, the dominant backgrounds in the signal regions are, \zinv and W + jet processes, with a smaller \ttbar background accompanied by other residual backgrounds. 
 
-The distributions shown are presented for purely illustrative purposes, with the simulation not used in absolute terms for the estimation of background processes within the signal region, see Sections (\ref{subsec:controlsampledefinition}, \ref{subsec:backgroundestimation}). However it is nevertheless important to demonstrate that good agreement exists between the modelling of key variables in simulation and data.
+\subsection{Hadronic Signal Region Distributions}
+\label{subsec:sigdist}
 
-\begin{minipage}{\linewidth}
+A complete list of the selection criteria within the signal region is given in Table \ref{tab:cutflow}. 
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
+\hline
+Selection Criteria & \\
+\hline \hline
+Event Noise Filters &  \\
+$\geq$ 2 jets  & 50 \GeV , $\lvert\eta\rvert < 3.0$   \\
+Lead jet $\lvert\eta\rvert$ & $\leq 2.5$ \\
+Lead/Second jet \pt & $\geq$ 100 \GeV  \\
+Number of leptons &= 0  \\
+``odd'' lepton/photon/jet veto &  \\
+\alphat & $>$ 0.55  \\
+\multicolumn{2}{c}{\it{Cleaning cuts}} \\
+R$_{\text{miss}}$ & $<$ 1.25 \\
+Dead \ac{ECAL} & $\Delta\phi_{j}^{*} < 0.5$  \\
+\multicolumn{2}{c}{\it{Analysis categorisation}} \\
+\theht binning &  \\
+\njet binning &  \\
+\nbreco binning &  \\
+\end{tabular*}
+\end{center}
+\caption[Analysis selection criteria for the hadronic signal region of the \alphat analysis.]{Analysis cutflow for the hadronic signal region of the \alphat analysis.}
+\label{tab:cutflow}
+\end{table}
+
+The breakdown of yields..... is shown in Table \ref{tab:smyields}
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
+\hline
+Selection Criteria & \\
+\hline \hline
+Event Noise Filters &  \\
+\nbreco binning &  \\
+\end{tabular*}
+\end{center}
+\caption[Analysis selection criteria for the hadronic signal region of the \alphat analysis.]{Analysis cutflow for the hadronic signal region of the \alphat analysis.}
+\label{tab:smyields}
+\end{table}
+
+
+
+Some of the key distributions of the analysis are compared to simulated \ac{SM} processes, shown in Figure \ref{fig:hadmcplots}. The simulated samples are normalised to a luminosity of 11.7 \fb,  with no requirement placed upon the number of b-tagged jets or number of jets in the distributions shown. In the case of this inclusive \nbreco and \njet selection, the dominant backgrounds in the signal regions are, \zinv and W + jet processes, with a smaller \ttbar background accompanied by other residual backgrounds. 
+
+The distributions shown are presented for purely illustrative purposes, with the simulation not used in absolute terms for the estimation of background processes within the signal region, see Section (\ref{subsec:controlsampledefinition}). However it is nevertheless important to demonstrate that good agreement exists between the modelling of key variables in simulation and data.
+
+\begin{figure}[ht]
 \centering
 \begin{minipage}{.48\textwidth}
 \centering
@@ -242,11 +360,6 @@ The distributions shown are presented for purely illustrative purposes, with the
 \includegraphics[width = 3.3in]{plots/had_ht_datamc.pdf}
 (b) \theht
 \end{minipage}
-\end{minipage}
-
-\xspace
-
-\begin{minipage}{\linewidth}
 \begin{minipage}{.48\textwidth}
 \centering
 \includegraphics[width = 3.3in]{plots/had_nbtag_datamc.pdf}
@@ -258,184 +371,7 @@ $\text{(c}$) Btag Multiplicity
 (d) \mht
 \end{minipage}
 \captionof{figure}[Data/MC comparisons of key variables for the hadronic signal region.]{Data/MC comparisons of key variables for the hadronic signal region, following the application of the hadronic selection criteria and the requirements of \theht $>$ 275 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:hadmcplots}
-\end{minipage}
-
-\subsection{Control Sample Definition and Background Estimation}
-\label{subsec:controlsampledefinition}
-
-The method used to estimate the background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from simulation in both the control, $\text{N}_{\text{MC}}^{\text{control}}$, and signal, $\text{N}_{\text{MC}}^{\text{signal}}$, region to transform the observed yield measured in data for a control sample,  $\text{N}_{\text{obs}}^{\text{control}}$, into a background prediction, $\text{N}_{\text{pred}}^{\text{signal}}$, via Equation (\ref{eq:transfactor}),
-
-\begin{equation}
-\label{eq:transfactor}
-\text{N}_{\text{pred}}^{\text{signal}} = \frac{\text{N}_{\text{MC}}^{\text{signal}}}{ \text{N}_{\text{MC}}^{\text{control}}} \times  \text{N}_{\text{obs}}^{\text{control}}.
-\end{equation}
-
-All simulation samples are normalised to the luminosity of the data samples of the relevant selection they are being applied to. Through this method, ``vanilla'' predictions for the \ac{SM} background in the signal region can be made by considering separately the sum of the prediction from the combination of either the \mupjets and \gpjets, or \mupjets and \dimupjets samples. 
-
-It must be noted that the final background estimation from which results are interpreted, is calculated via a fitting procedure defined formally by the likelihood model described in Section (\ref{sec:statframework}). 
-
-The sum of the expected yields from all simulated processes listed in Section (\ref{sec:alphatintroduction}), enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$, of the \ac{TF} defined in Equation (\ref{eq:transfactor}) for each control sample. However, only the specific processes being estimated by the control sample enter the numerator, $\text{N}_{\text{MC}}^{\text{signal}}$.
-
-For the \mupjets sample the processes entering the numerator are,
-
-\begin{equation} 
-\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{W} + N_{\ttbar} + N_{DY} + N_{t} + N_{di-boson},
-\end{equation}
-
-whilst for both the \dimupjets and \gpjets samples the only simulated processes used in the numerator is,
-
-\begin{equation} 
-\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{\zinv}.
-\end{equation}
-
-The control samples and the \ac{EWK} processes they are specifically tuned to select are defined below, with distributions of key variables for each of the control samples shown for illustrative purposes in Figures \ref{fig:muonmcplots}, \ref{fig:dimuonmcplots} and \ref{fig:photonmcplots}. No requirement is placed upon the number of b-tagged jets or jet multiplicity in the distributions shown. The distributions highlight the background compositions of each control sample, where in general, good agreement is observed between data and simulation, giving confidence that the samples are well understood. The contribution from QCD multi-jet events is expected to be negligible: 
-
-\begin{itemize} 
-
-\item[] \textbf{The \mupjets control sample}
-
-Events from W + jets and \ttbar processes enter into the hadronic signal sample due to unidentified leptons from acceptance effects or reconstruction inefficiencies and hadronic tau decays. These leptons originate from the decay of high \pt W bosons. 
-
-The control sample specifically identify $W \rightarrow \mu\bar{\nu}$ decays within a similar phase-space of the signal region, where the muon is subsequently ignored in the calculation of event level variables, i.e. \theht, \mht, \alphat. 
-
-All kinematic jet-based selection criteria are identical to those applied in the hadronic search region (with the exception of an \alphat, requirement discussed below) detailed in Section (\ref{subsec:eventselection}), with the same \theht, jet multiplicity and b-jet multiplicity categorisation described previously. Furthermore, the following selection criteria are also required:
-
-\begin{itemize}
-\item Muons originating from W boson decays are selected by requiring one tightly isolated muon defined in Table \ref{tab:muonidtable}, with a \pt $>$ 30 \GeV and \abeta $<$ 2.1. Both of these thresholds arise from trigger restrictions.  
-\item The transverse mass of the W candidate must satisfy \mt$(\mu,\met) >$ 30 \GeV ( to suppress QCD multi-jet events). 
-\item Events which contain a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5 are vetoed to remove events from muons produced as part of a jet's hadronisation process. 
-\item Events containing a second muon candidate which has failed id, but passing \pt and \abeta requirements, are checked to have an invariant mass that satisfies $ \lvert M_{\mu\mu} - m_{Z}\rvert >$ 25, thus removing $Z \rightarrow \mu\mu$ contamination.
-\end{itemize}
-
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/muon_leadmu_datamc.pdf}
-(a) Lead Muon \pt
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/muon_ht_datamc.pdf}
-(b) \theht
-\end{minipage}
-\end{minipage}
-
-\xspace
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/muon_alphat_datamc.pdf}
-$\text{(c}$) \alphat
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/muon_mt_datamc.pdf}
-(d) Transverse mass $M_{T}$
-\end{minipage}
-\captionof{figure}[Data/MC comparisons of key variables for the \mupjets selection.]{Data/MC comparisons of key variables for the \mupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:muonmcplots}
-\end{minipage}
-
-\item[] \textbf{The \dimupjets control sample}
-
-An irreducible \zinv + jets background enters into the signal region from genuine \met from the escaping neutrinos. This background is estimated using two control samples, the first of which is the \zmumu + jets process, which posses identical kinematic properties, but with a different acceptance and branching ratio \cite{pdg2012}.
-
-The same acceptance requirements as the \mupjets selection for muons is applied, as defined in Table  \ref{tab:muonidtable}. Muons in the event are ignored for the purpose of the calculation of event level variables. In addition to kinematic jet-based selection criteria (with the exception of an \alphat requirement, discussed below) and event categorisation, which are identical to the hadronic search region, the following selection criteria are also specified:
-
-\begin{itemize}
-\item Muons originating from a Z boson decay are selected, requiring exactly two tightly isolated muons. Due to trigger requirements the leading muon is required to have  \pt $>$ 30 \GeV and \abeta $<$ 2.1. The requirement of the \pt on the second muon is relaxed to 10 \GeV.
-\item Events are vetoed if containing a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5. 
-\item In order to specifically select two muons both originating from a single Z boson decay, the invariant mass of the two muons must satisfy $ \lvert M_{\mu\mu} - m_{Z}\rvert <$ 25. 
-\end{itemize}
-
-The \dimupjets sample is able to make predictions in the signal region of the two lowest \theht bins, providing coverage where the \gpjets sample is unable to, due to trigger requirements. In higher \theht bins, the higher event statistics of the \gpjets sample is also used in determining the \zinv estimation.
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/dimuon_leadmu_datamc.pdf}
-(a) Lead Muon \pt
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/dimuon_ht_datamc.pdf}
-(b) \theht
-\end{minipage}
-\end{minipage}
-
-\xspace
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/dimuon_alphat_datamc.pdf}
-$\text{(c}$) \alphat
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/dimuon_zmass_datamc.pdf}
-(d) $\mu\mu$ invariant mass
-\end{minipage}
-\captionof{figure}[Data/MC comparisons of key variables for the \dimupjets selection.]{Data/MC comparisons of key variables for the \dimupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:dimuonmcplots}
-\end{minipage}
-
-
-\item[] \textbf{The \gpjets control sample}
-
-The \zinv + jets background is also estimated from a \gpjets control sample. When the $E_{T}$ of the photon is greater than the mass of the Z, it possesses a larger cross-section and has kinematic properties similar to those of \zinv events if the photon is ignored \cite{PhysRevD.84.114002}. 
-
-Within the control channel, the photon is ignored for the purpose of the calculation of event level variables, and identical selection criteria to the hadronic signal region are applied. In addition the follow requirements are also made:
-
-\begin{itemize}
-\item Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel of the detector.
-\item A selection criteria of $\Delta R(\gamma,jet) <$ 1.0, between the photon and all jets is applied to ensure the acceptance of only well isolated \gpjets events. 
-\item Given that the photon is ignored, this control sample can only be applied in the \theht region $>$ 375 \GeV, due to the trigger thresholds on the minimum \pt of the photon, and the \mht requirement of an \alphat $>$ 0.55 cut from Equation (\ref{eq:alphatmht}). This is maintained in this control sample due to contamination from QCD processes in the absence of an \alphat cut.
-\end{itemize}
-
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/photon_leadphoton_datamc.pdf}
-(a) Lead Photon \pt
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/photon_ht_datamc.pdf}
-(b) \theht
-\end{minipage}
-\end{minipage}
-
-\xspace
-
-\begin{minipage}{\linewidth}
-\centering
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/photon_alphat_datamc.pdf}
-$\text{(c}$) \alphat
-\end{minipage}
-\begin{minipage}{.48\textwidth}
-\centering
-\includegraphics[width = 3.2in]{plots/photon_njet_datamc.pdf}
-(d) Jet multiplicity
-\end{minipage}
-\captionof{figure}[Data/MC comparisons of key variables for the \gpjets selection.]{Data/MC comparisons of key variables for the \gpjets selection, following the application of selection criteria and the requirements that \theht $>$ 375 \GeV and \alphat $>$ 0.55. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:photonmcplots}
-\end{minipage}
-
-\end{itemize}
-
-The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on simulation to model correctly the backgrounds and event kinematics in the control and signal samples. 
-
-However in the case of the \mupjets and \dimupjets samples, the \alphat requirement is relaxed in the selection criteria of these samples. This is made possible as contamination from QCD multi-jet events is suppressed to a negligible level by the other kinematic selection criteria within the two control samples, selecting pure \ac{EWK} processes. Thus in this way, the acceptance of the two muon control samples can be significantly increased, which simultaneously improves their statistical and predictive power and also dilutes the effect of any potential signal contamination. 
-
-The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the background predictions.
+\end{figure}
 
 
 \subsection{Estimating the QCD Multi-jet Background}
@@ -443,7 +379,7 @@ The modelling of the \alphat variable is probed through a dedicated set of closu
 
 A negligible background from QCD multi-jet events within the hadronic signal region is expected due to a combination of selection requirements, and additional applied cleaning filters. However a conservative approach is still adopted and the likelihood model, see Section (\ref{subsec:htevolution}), is given the freedom to accommodate any potential QCD multi-jet contamination. 
 
-Any potential contamination can be identified through the variable $R_{\alphat}$, defined as the ratio of events above and below the \alphat threshold value used in the analysis. This is modelled by a \theht dependant falling exponential function which takes the form,
+Any potential contamination from can be identified through the variable $R_{\alphat}$, defined as the ratio of events above and below the \alphat threshold value used in the analysis. This is modelled by a \theht dependant falling exponential function which takes the form,
 
 \begin{equation}
 \label{eq:qcdmodel}
@@ -452,9 +388,9 @@ R_{\alphat}(\theht) =  A_{\text{QCD}} \exp^{-k_{QCD}\theht},
 
 where the parameters A$_{\text{QCD}}$ and $k_{\text{QCD}}$ are the normalisation and exponential decay constants, respectively. 
 
-For QCD multi-jet event topologies, this exponential behaviour as a function of \theht is expected for several reasons. The improvement of jet energy resolution at higher \theht due to higher \pt jets leads to a narrower peaked \alphat distribution, causing $R_{\alphat}$ to fall. Similarly at higher \theht values $>$ 375 \GeV, the jet multiplicity rises slowly with \theht. As shown in Figure \ref{fig:fullalphatdistribution}, at higher jet multiplicities the result of the combinatorics used in the determination of \alphat lead to more conservative \alphat values, also resulting in a narrower distribution. 
+For QCD multi-jet event topologies, this exponential behaviour as a function of \theht is expected for several reasons. The improvement of jet energy resolution at higher \theht due to higher \pt jets leads to a narrower peaked \alphat distribution, causing $R_{\alphat}$ to decrease. Similarly at higher \theht values $>$ 375 \GeV, the jet multiplicity rises slowly with \theht due to fixed jet \pt acceptance values. As shown in Figure \ref{fig:fullalphatdistribution}, at higher jet multiplicities the result of the combinatorics used in the determination of \alphat lead to more conservative \alphat values from the minimisation of $\Delta$\theht $\equiv \lvert E_{T}^{pj_{1}} - E_{T}^{pj_{2}}\rvert$ , also resulting in a narrower distribution. 
 
-The value of the decay constant $k_{\text{QCD}}$ is constrained via measurements within data sidebands to the signal region. This is also done to validate the falling exponential assumption for QCD multi-jet topologies. The sidebands are enriched in QCD multi-jet background and defined as regions where either \alphat is relaxed or that the $R_{\text{miss}}$ cut is inverted. Figure \ref{fig:qcdcartoon} depicts the definition of these data sidebands used to constrain the value of $k_{\text{QCD}}$.
+The value of the decay constant $k_{\text{QCD}}$ is constrained via measurements within two dimensional data sidebands in \alphat and $R_{\text{miss}}$ to the signal region. This is also done to validate the falling exponential assumption for QCD multi-jet topologies. The sidebands are enriched in QCD multi-jet background and defined as regions where either \alphat is relaxed or that the $R_{\text{miss}}$ cut is inverted. Figure \ref{fig:qcdcartoon} depicts the definition of these data sidebands used to constrain the value of $k_{\text{QCD}}$ and which is also defined explicitly in Table \ref{tab:kqcdsidebands}.
 
 \begin{minipage}{\linewidth}
 \centering
@@ -463,13 +399,30 @@ The value of the decay constant $k_{\text{QCD}}$ is constrained via measurements
 \label{fig:qcdcartoon}
 \end{minipage}
 
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}ccc}
+\hline
+Sideband region & \alphat slice & $R_{\text{miss}}$\\ 
+\hline\hline
+B & 0.52-0.55  & $<$ 1.25 \\
+C$_{1}$ & 0.54-0.55  & $\geq$ 1.25 \\
+C$_{2}$ & 0.53-0.54  & $\geq$ 1.25 \\
+C$_{3}$ & 0.52-0.53  & $\geq$ 1.25 \\
+\end{tabular*}
+\end{center}
+\caption[Table defining the sidebands used in the parameterisation of the QCD background model.]{Table defining the sidebands used in the parameterisation of the QCD background model.}
+\label{tab:kqcdsidebands}
+\end{table}
+
 The fit results used to determine the value of $k_{\text{QCD}}$ are shown in Appendix (\ref{app:kqcd}), for which the best fit parameter value obtained from sideband region B is determined to be $k_{\text{QCD}} = 2.96 \pm 0.64 \times 10^{-2}$ \GeV$^{-1}$. 
 
 The best fit values of the remaining three C sideband regions are used to estimate the systematic uncertainty on the central value obtained from sideband region B. The variation of these measured values is used to determine the error on the determined central value, and is calculated to be $1.31 \pm 0.26 \times 10^{-2} \text{ \GeV}^{-1}$. This relative error of $\sim$ 20\% gives an estimate of the systematic uncertainty of the measurement to be applied to $k_{\text{QCD}}$.
 
-Finally the same procedure is performed for sideband region D as an independent crosscheck, to establish that the value of $k_{\text{QCD}}$ extracted from a lower \alphat slice, can be applied to the signal region \alphat $>$ 0.55. The likelihood fit is performed across all \theht bins within the QCD enriched region with no constraint applied to $k_{QCD}$. The resulting best fit value for $k_{\text{QCD}}$ shows good agreement between that and the weighted mean, determined from the three C sideband regions. This demonstrates that the assumption of using the central value determined from sideband region B, to provide an unbiased estimator for $k_{\text{QCD}}$ in the signal region (\alphat $>$ 0.55) is valid.
+Finally the same procedure is performed for sideband region D as an independent crosscheck, to establish that the value of $k_{\text{QCD}}$ extracted from a lower \alphat slice can be applied to the signal region \alphat $>$ 0.55. The likelihood fit is performed across all \theht bins within the QCD enriched region with no constraint applied to $k_{QCD}$. The resulting best fit value for $k_{\text{QCD}}$ shows good agreement between that and the weighted mean, determined from the three C sideband regions. This demonstrates that the assumption of using the central value determined from sideband region B, to provide an unbiased estimator for $k_{\text{QCD}}$ in the signal region (\alphat $>$ 0.55) is valid.
 
-Table \ref{tab:kqcdresults} summarises the best fit $k_{\text{QCD}}$ values determined for each of the sideband regions to the signal region.
+Table \ref{tab:kqcdresults} summarises the best fit $k_{\text{QCD}}$ values determined for each of the sideband regions to the signal region. It is found that the exponential model gives a good $\chi^{2}$ p-value for each of the defined sideband regions.
 
 \begin{table}[h!]
 \footnotesize
@@ -492,67 +445,255 @@ D(likelihood fit) & 1.31 $\pm$ 0.09 & 0.57 \\
 \end{table}
 
 
-\section{Trigger Strategy}
-\label{subsec:triggerstrategy}
+\subsection{Control Sample Definition and Background Estimation}
+\label{subsec:controlsampledefinition}
 
-A cross trigger based on the \theht and \alphat values of an event, is used with varying thresholds across \theht bins to record the events used in the hadronic signal region. The \alphat legs of the \htalphat triggers used in the analysis, are chosen to suppress QCD multi-jet events and control trigger rate, whilst maintaining signal acceptance. To maintain an acceptable rate for these analysis triggers, only calorimeter information is used in the reconstruction of the \theht sum, leading to the necessity for Calo jets to be used within the analysis. 
+The \ac{SM} background estimation within the hadronic signal region is made from the use of a single or a combination of three control samples within the Likelihood model described in Section (\ref{sec:statframework}). Each control sample is used to provide an estimation of the background yield of different \ac{EWK} processes. These are first stated in Section (\ref{subsec:searchstrategy}) but are stated again for reference.
 
-A single object prescaled \texttt{HT} trigger is used to collect events for the hadronic control region, described above in Section (\ref{subsec:qcdbackground}).
+\begin{itemize}
+\item \mupjets control sample to determine W + jets, \ttbar and single top backgrounds,
+\item \gpjets control sample to determine the irreducible \zinv + jets background,
+\item \dimupjets control sample to also determine the irreducible \zinv + jets background.
+\end{itemize}
 
-The performance of the \alphat and \theht triggers used to collect data for the signal and hadronic control region is measured with respect to a reference sample collected using the muon system. This allows measurement of both the Level 1 seed and higher level triggers simultaneously, as the reference sample is collected independently of any jet requirements. 
+The method used to estimate the background contributions in the hadronic signal region relies on the use of a \acf{TF}. This is determined from simulation in both the control, $\text{N}_{\text{MC}}^{\text{control}}$, and signal, $\text{N}_{\text{MC}}^{\text{signal}}$, region to transform the observed yield measured in data for a control sample,  $\text{N}_{\text{obs}}^{\text{control}}$, into a background prediction, $\text{N}_{\text{pred}}^{\text{signal}}$, via Equation (\ref{eq:transfactor}),
 
-The selection for the trigger efficiency measurement is identical to that described in Section (\ref{subsec:eventselection}), with the requirement of exactly one well identified muon with \pt $>$ 30 \GeV. This muon is then subsequently ignored.  
+\begin{equation}
+\label{eq:transfactor}
+\text{N}_{\text{pred}}^{\text{signal}} = \frac{\text{N}_{\text{MC}}^{\text{signal}}}{ \text{N}_{\text{MC}}^{\text{control}}} \times  \text{N}_{\text{obs}}^{\text{control}}.
+\end{equation}
 
-The efficiencies measured for the \htalphat triggers in each individual \theht and \alphat leg, is summarised in Table \ref{tab:trigeffs} for each \theht category of the analysis.
+All simulation samples are normalised to the luminosity of the data samples of the relevant selection they are being applied to. 
+
+Whilst the final background estimation from which results are interpreted are determined via a simultaneous fit defined formally by the likelihood model, a naive prediction of the \ac{SM} background in the signal region can be made in each analysis category by considering separately the sum of the background prediction from the combination of either the \mupjets and \gpjets, or \mupjets and \dimupjets samples and Equation (\ref{eq:transfactor}). 
+
+The sum of the expected yields from all simulated processes listed in Section (\ref{sec:alphatintroduction}), enter the denominator, $\text{N}_{\text{MC}}^{\text{control}}$, of the \ac{TF} defined in Equation (\ref{eq:transfactor}) for each control sample. However, only the specific processes being estimated by the control sample enter the numerator, $\text{N}_{\text{MC}}^{\text{signal}}$.
+
+For the \mupjets sample the processes entering the numerator are,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{W} + N_{\ttbar} + N_{\textrm{DY}} + N_{\textrm{t}} + N_{\textrm{di-boson}},
+\end{equation}
+
+where $\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}})$ represents the simulation yield in each \njet/\theht category defined in Section (\ref{subsec:searchstrategy}) and $N_{XX}$ represents the simulation yield in that category from each \ac{EWK} process. 
+
+For both the \dimupjets and \gpjets samples the only simulated processes used in the numerator is the \zinv + jets process and is therefore represented by,
+
+\begin{equation} 
+\text{N}_{\text{MC}}^{\text{signal}}(\theht,n_{\text{jet}}) = N_{\zinv}.
+\end{equation}
+
+
+The selection criteria of the three control samples are defined to ensure background composition and event kinematics mirror closely the signal region. This is done in order to minimise the reliance on simulation to model correctly the backgrounds and event kinematics in the control and signal samples. 
+
+The selection of each control sample is detailed below with the distributions of key variables for each of the control samples shown for illustrative purposes in Figures \ref{fig:muonmcplots}, \ref{fig:dimuonmcplots} and \ref{fig:photonmcplots}. No requirement is placed upon the number of b-tagged jets or jet multiplicity in the distributions shown. 
+
+The distributions highlight the background compositions of each control sample, where in general, good agreement is observed between data and simulation, giving confidence that the samples are well understood. The contribution from QCD multi-jet events is expected to be negligible: 
+
+In the case of the \mupjets and \dimupjets samples, the \alphat requirement is removed in the selection criteria of these samples. This is made possible as contamination from QCD multi-jet events is suppressed to a negligible level by the other kinematic selection criteria within the two control samples, selecting pure \ac{EWK} processes. Thus in this way, the acceptance of the two muon control samples can be significantly increased, which simultaneously improves their statistical and predictive power and also diluting the effect of any potential signal contamination. 
+
+The modelling of the \alphat variable is probed through a dedicated set of closure tests, described in Section (\ref{subsec:sysuncertainties}), which demonstrate that the different \alphat acceptances for the control and signal samples have no significant systematic bias on the background predictions.
+
+\begin{itemize} 
+
+\item[] \textbf{The \mupjets control sample}
+
+Events from W + jets and \ttbar processes enter into the hadronic signal sample due to unidentified leptons from acceptance effects or reconstruction inefficiencies and hadronic tau decays. These leptons originate from the decay of high \pt W bosons. 
+
+The control sample specifically identifes $W \rightarrow \mu\bar{\nu}$ decays within a similar phase-space of the signal region, where the muon is subsequently ignored in the calculation of event level variables, i.e. \theht, \mht, \alphat. 
+
+All kinematic jet-based selection criteria are identical to those applied in the hadronic search region detailed in Table \ref{tab:cutflow} with the exception of the number of identified muons veto and the \alphat requirement (as already discussed), with the same \theht, jet multiplicity and b-jet multiplicity categorisation described previously. Furthermore, the following selection criteria are also required:
+
+\begin{itemize}
+\item Muons originating from W boson decays are selected by requiring one tightly isolated muon defined in Table \ref{tab:muonidtable}, with a \pt $>$ 30 \GeV and \abeta $<$ 2.1. Both of these thresholds arise from trigger restrictions.  
+\item The transverse mass of the W candidate must satisfy \mt$(\mu,\met) >$ 30 \GeV (to suppress QCD multi-jet events). 
+\item Events which contain a jet overlapping with a muon $\Delta \text{R}(\mu,\text{jet}) <$ 0.5 are vetoed to remove events consisting of muons that stem from the decay product of particles that form part of a reconstructed jet. 
+\item Events containing a second muon candidate which has failed id, but passing \pt and \abeta requirements, are checked to have an invariant mass that satisfies $ \lvert \textrm{M}_{\mu\mu} -\textrm{m}_{\textrm{Z}}\rvert >$ 25, thus removing $Z \rightarrow \mu\mu$ contamination.
+\end{itemize}
+
+These additional selection criteria are summed up within Table \ref{tab:muonselection}.
 
 \begin{table}[h!]
 \footnotesize
 \begin{center}
-\begin{tabular*}{0.6\textwidth}{@{\extracolsep{\fill}}ccc}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
 \hline
-\theht range (\GeV) & $\epsilon$ on \theht leg (\%) & $\epsilon$ on \alphat leg (\%) \\ 
-\hline\hline
-275-325 & $87.7^{+1.9}_{-1.9}$ & $82.8^{+1.0}_{-1.1}$ \\
-325-375 & 90.6$^{+2.9}_{-2.9}$ & 95.9$^{+0.7}_{-0.9}$ \\
-375-475 & 95.7$^{+0.1}_{-0.1}$ & 98.5$^{+0.5}_{-0.9}$ \\
-475-$\infty$ & 100.0$^{+0.0}_{-0.0}$ & 100.0$^{+0.0}_{-4.8}$ \\
+Selection Criteria & \\
+\hline \hline
+Number of muons & = 1 (\pt $> 30$ \GeV , $\lvert\eta\rvert <$ 2.1) \\
+Transverse mass of $\mu$, \met system &  \mt$(\mu,\met) >$ 30 \GeV \\
+Muon not in jet &  $\Delta \text{R}(\mu,\text{jet}) >$ 0.5 \\
+Muon not from \zmumu decay & $ \lvert \textrm{M}_{\mu\mu} -\textrm{m}_{\textrm{Z}}\rvert >$ 25 \GeV  \\
 \end{tabular*}
 \end{center}
-\caption[Measured efficiencies of the \theht and \alphat legs of the HT and \htalphat triggers in independent analysis bins.]{Measured efficiencies of the \theht and \alphat legs of the \texttt{HT} and \htalphat triggers in independent analysis bins. The product of the two legs gives the total efficiency of the trigger in a given offline \theht bin.}
-\label{tab:trigeffs}
+\caption[Additional analysis selection criteria for the \mupjets control sample of the \alphat analysis.]{Additional analysis selection criteria for the \mupjets control sample of the \alphat analysis. These are included in addition to the selection applied from Table \ref{tab:cutflow} with the exceptions already mentioned in the text.}
+\label{tab:muonselection}
 \end{table}
 
-Data for the control samples of the analysis, detailed in Section (\ref{subsec:controlsampledefinition}), are collected using a single object photon trigger for the \gpjets sample, and a single object muon trigger for both the \mupjets and \dimupjets control samples. 
+\begin{figure}[ht]
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_leadmu_datamc.pdf}
+(a) Lead Muon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/muon_mt_datamc.pdf}
+(d) Transverse mass $M_{T}$
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \mupjets selection.]{Data/MC comparisons of key variables for the \mupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV (i.e. no \theht categorisation). Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:muonmcplots}
+\end{figure}
 
-The photon trigger is measured to be fully efficient for the threshold $\pt^{\text{photon}} > 150$ \GeV, whilst the single muon efficiency satisfying $\pt^{\text{muon}} > 30$ \GeV is measured to have an efficiency of (88$\pm$2)\% that is independent of \theht. In the case of the \dimupjets control sample, the efficiency is measured to be (95$\pm$2)\% for the lowest \theht bin, rising (due to the average \pt of the second muon in the event increasing at larger \theht)
-to (98$\pm$2)\% in the highest \theht category. 
+\item[] \textbf{The \dimupjets control sample}
+
+An irreducible \zinv + jets background enters into the signal region from genuine \met from the escaping neutrinos. This background is estimated using two control samples, the first of which is the \zmumu + jets process, which posses identical kinematic properties, but with a different acceptance and branching ratio \cite{pdg2012}.
+
+The same acceptance requirements as the \mupjets selection for muons is applied, as defined in Table \ref{tab:muonidtable}. Muons in the event are ignored for the purpose of the calculation of event level variables. An identical analysis categorisation to that of the hadronic search region is again used. In addition to the kinematic jet-based selection criteria from Table \ref{tab:cutflow} (again with the exception of the number of identified muons veto and the removal of  \alphat $>$ 0.55), the following selection criteria are also specified:
+
+\begin{itemize}
+\item Exactly two tightly isolated muons are selected. Due to trigger requirements the leading muon is required to have  \pt $>$ 30 \GeV and \abeta $<$ 2.1. The requirement of the \pt on the second muon is relaxed to 10 \GeV.
+\item Events are vetoed if containing a jet overlapping with either muon, $\Delta \text{R}(\mu,\text{jet}) <$ 0.5. 
+\item In order to specifically select two muons both originating from a single Z boson decay, the invariant mass of the two muons must satisfy $ \lvert M_{\mu\mu} - m_{Z}\rvert <$ 25 \GeV. 
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_leadmu_datamc.pdf}
+(a) Lead Muon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/dimuon_zmass_datamc.pdf}
+(d) $\mu\mu$ invariant mass
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \dimupjets selection.]{Data/MC comparisons of key variables for the \dimupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV (i.e. no \theht categorisation). Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:dimuonmcplots}
+\end{figure}
+
+These additional selection criteria are summed up within Table \ref{tab:dimuonselection}.
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
+\hline
+Selection Criteria & \\
+\hline \hline
+Number of muons & = 2 (Lead \mu \pt $> 30$ \GeV , $\lvert\eta\rvert <$ 2.1) \\
+Muon not in jet &  $\Delta \text{R}(\mu,\text{jet}) >$ 0.5 \\
+Muon from \zmumu decay & $ \lvert \textrm{M}_{\mu\mu} -\textrm{m}_{\textrm{Z}}\rvert <$ 25 \GeV \\
+\end{tabular*}
+\end{center}
+\caption[Additional analysis selection criteria for the \dimupjets control sample of the \alphat analysis.]{Additional analysis selection criteria for the \dimupjets control sample of the \alphat analysis. These are included in addition to the selection applied from Table \ref{tab:cutflow} with the exceptions already mentioned in the text.}
+\label{tab:dimuonselection}
+\end{table}
+
+\item[] \textbf{The \gpjets control sample}
+
+The \zinv + jets background is also estimated from a \gpjets control sample. When the $E_{T}$ of the photon is greater than the mass of the Z, it possesses a larger cross-section and has kinematic properties similar to those of \zinv events if the photon is ignored \cite{PhysRevD.84.114002}. 
+
+Within the control channel, the photon is ignored for the purpose of the calculation of event level variables, and identical selection criteria to the hadronic signal region defined in Table \ref{tab:muonidtable} are applied. In addition the follow requirements are also made:
+
+\begin{itemize}
+\item Exactly one photon is selected, satisfying identification criteria as detailed in Table \ref{tab:photonidtable}, with a minimum \pt $> $165 \GeV to satisfy trigger thresholds and \abeta $<$ 1.45 to ensure the photon remains in the barrel region of the detector.
+\item A selection criteria of $\Delta R(\gamma,jet) <$ 1.0, between the photon and all jets is applied to ensure the acceptance of only well isolated \gpjets events. 
+\item The \alphat $>$ 0.55 is maintained due to contamination from QCD processes within this control sample. Due to the trigger thresholds on the minimum \pt of the photon and the \mht requirement from the definition of \alphat, shown in Equation (\ref{eq:alphatmht}), which implies $\mht/\theht$ $> 0.43$ to pass \alphat $>$ 0.55 (165/0.43 $\simeq$ 375 \GeV), this control sample is only employed in the \theht $>$ 375 \GeV region.
+
+These additional selection criteria are summed up within Table \ref{tab:photonselection}.
+
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
+\hline
+Selection Criteria & \\
+\hline \hline
+Number of photons & = 1 ( \pt $> 165$ \GeV , $\lvert\eta\rvert <$ 2.1) \\
+Photon not in jet &  $\Delta \text{R}(\gamma,\text{jet}) >$ 1.0 \\
+\end{tabular*}
+\end{center}
+\caption[Additional analysis selection criteria for the \gpjets control sample of the \alphat analysis.]{Additional analysis selection criteria for the \gpjets control sample of the \alphat analysis. These are included in addition to the selection applied from Table \ref{tab:cutflow} with the exceptions already mentioned in the text.}
+\label{tab:photonselection}
+\end{table}
+
+
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_leadphoton_datamc.pdf}
+(a) Lead Photon \pt
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_ht_datamc.pdf}
+(b) \theht
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_alphat_datamc.pdf}
+$\text{(c}$) \alphat
+\end{minipage}
+\begin{minipage}{.48\textwidth}
+\centering
+\includegraphics[width = 3.2in]{plots/photon_njet_datamc.pdf}
+(d) Jet multiplicity
+\end{minipage}
+\captionof{figure}[Data/MC comparisons of key variables for the \gpjets selection.]{Data/MC comparisons of key variables for the \gpjets selection, following the application of selection criteria and the requirement that \theht $>$ 375 \GeV due to trigger thresholds. Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:photonmcplots}
+\end{figure}
+
+\end{itemize}
+
 
 \section{Measuring Standard Model Process Normalisation Factors via \theht Sidebands}
 \label{subsec:mckfactors}
 
+The simulation samples in this thesis are generated at \acf{NNLO} using Pythia and Madgraph \ref{Sjostrand:2006za}. A list of processes generated can be found in Appendix \ref{app:datasets}. 
+
 The theoretical cross-sections of different \ac{SM} processes at \acf{NNLO} and the number of available simulated events generated for a particular process, is typically used to determine the appropriate normalisation for a simulation sample. However within the particular high-\theht and high-\met corners of kinematic phase space probed within this search, the theoretical cross sections for various processes are far less well understood. 
 
-To mitigate the problem of theoretical uncertainties and arbitrary choices of cross sections, the normalisation of the simulation samples are determined through the use of data sidebands. The sidebands are used to calculate sample specific correction factors (k-factors), that are appropriate for the \theht-\met phase space covered by this analysis. 
+To mitigate the problem of theoretical uncertainties in the choices of cross sections, the normalisation of the simulation samples are determined through the use of data sidebands. The sidebands are used to calculate sample specific global correction factors (k-factors) to apply to each individual process, that are appropriate for the \theht-\met phase space covered by this analysis. 
 
-They are defined within the \mupjets and \dimupjets control sample, by the region 200$<$ \theht$<$275, using the same jet \pt thresholds as the adjacent first analysis bin. Individual \ac{EWK} processes are isolated within each of these control samples via requirements on jet multiplicity and the requirement on b-tag multiplicity, summarised in Table \ref{tab:mckfactors}. The purity of the samples are typically $>$ 90\% with any residual contamination subtracted prior to determination of the correction factors. The resultant k-factor for each process is determined by then taking ratio of the data yield over the expectation from simulation in the sideband. Subsequently these k-factors are then applied to the processes within the phase space of the analysis.
+They are defined within the \mupjets and \dimupjets control sample, by the region $200<$\theht<$275$, using the same jet \pt thresholds as the adjacent lowest \theht analysis bin. Individual \ac{EWK} processes are isolated within each of these control samples via requirements on jet multiplicity and the requirement on b-tag multiplicity, summarised in Table \ref{tab:mckfactors}. The purity of the samples are typically $\sim$ 90\%, see Table \ref{tab:mckfactors}, with any residual contamination subtracted prior to determination of the correction factors. The resultant k-factor for each process is determined by then taking ratio of the data yield over the expectation from simulation in the sideband. Subsequently these k-factors are then applied to the processes within the phase space of the analysis.
 
  \begin{table}[h!]
 \begin{center}
 \footnotesize
-\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}llccc}
+\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}}llcccc}
 \hline
-Process & Selection & Observation & MC expectation & k-factor \\
+Process & Selection & Purity & Observation & Simulation & k-factor \\
 \hline\hline
-W + jets & \mupjets, n$_{b}$=0, n$_{jet}$ = 2,3 &26950 & 29993.2 $\pm$ 650.1 & 0.90 $\pm$ 0.02 \\
-$Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 3141 & 3402.0 $\pm$ 43.9 & 0.92 $\pm$ 0.02 \\
-\ttbar & \mupjets, n$_{b}$=2, n$_{jet}$ = $\geq$4 & 2190 & 1967.8 $\pm$ 25.1 & 1.11 $\pm$ 0.02 \\
+W + jets & \mupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 0.89 & 26950 & 29993.2 $\pm$ 650.1 & 0.90 $\pm$ 0.02 \\
+$Z \rightarrow \mu\mu$ + jets & \dimupjets, n$_{b}$=0, n$_{jet}$ = 2,3 & 0.97 & 3141 & 3402.0 $\pm$ 43.9 & 0.92 $\pm$ 0.02 \\
+\ttbar & \mupjets, n$_{b}$=2, n$_{jet}$ = $\geq$4 & 0.87 & 2190 & 1967.8 $\pm$ 25.1 & 1.11 $\pm$ 0.02 \\
 \end{tabular*}
 \end{center}
 \caption[k-factors calculated for different \ac{EWK} processes.]{k-factors calculated for different \ac{EWK} processes. All k-factors are derived relative to theoretical cross-sections calculated in \ac{NNLO}. The k-factors measured for the Z$\rightarrow \mu\mu$ + jets processes, are also applied to the \zinv + jets and \gpjets simulation samples.}\label{tab:mckfactors}
 \end{table}
-
-It is worth pointing out that these correction factors have a negligible effect when providing a background estimation for the signal region. The \ac{TF}s used in the analysis are found to be unaffected by application of these k-factors due to the similarity in the background composition of the control and signal regions. However when systematic uncertainties are determined in Section (\ref{subsec:sysuncertainties}), the closure tests performed are sensitive to these corrections when extrapolations between different $n_{b}^{reco}$ and $n_{\text{jet}}$ categories are performed.
-
 
 \section{Determining Monte Carlo Simulation Yields with Higher Statistical Precision}
 \label{subsec:backgroundestimation}
@@ -573,20 +714,19 @@ Together they can be used to determine the \nbreco distribution of the process b
 \subsection{The Formula Method}
 \label{subsec:formulamethod}
 
-The assigning of jet flavours to reconstruction level jets in simulation is achieved via an algorithmic method defined as:
+The assigning of jet flavours to reconstruction level jets in simulation is achieved via an algorithmic method to determine the truth level parton that most likely determines the properties of the jet. This is defined for each reconstructed jet as
 
 \begin{itemize}
-\item attempt to find the parton that most likely determines the properties of the jet and assign that flavour as the true flavour,
-\item ``final state'' partons (after showering, radiation) are analysed (also within $\Delta R <$ 0.3 of reconstructed jet cone),
-\item if there is a b/c flavoured parton within jet cone: label jet as a b/c flavoured jet,
-\item otherwise: assign flavour of the hardest (highest \pt) parton within the jet cone.
+\item Find all ``final state'' partons (after showering, radiation) that lie within $\Delta R <$ 0.3 of a reconstructed jet cone.
+\item If there is a b/c flavoured parton within jet cone: label jet as a b/c flavoured jet. If both are found assign jet flavour as b.
+\item Otherwise assign flavour of the hardest (highest \pt) parton within the jet cone.
 \end{itemize}
 
-This process is employed within each individual simulation sample and independently for each \theht - \njet category in the analysis. 
+This process is employed within each individual simulation sample and independently for each $\theht-\njet$ category in the analysis. 
 
-Let \nbcq represent the 3-dimensional underlying jet flavour distribution in simulation, with \textit{b} underlying b-quarks, \textit{c} underlying c-quarks and \textit{q} underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks defined as those which originate from a \textit{u}, \textit{d}, \textit{s}, \textit{g} and $\tau$ jets, which having similar mis-tagging rates are grouped together.  
+Let \nbcq represent the 3-dimensional underlying jet flavour distribution in simulation, with \textit{b}$^{\text{gen}}$ underlying b-quarks, \textit{c}$^{\text{gen}}$ underlying c-quarks and \textit{q}$^{\text{gen}}$ underlying light quarks which are matched to reconstructed jets as detailed above. Light quarks defined as those which originate from a \textit{u}, \textit{d}, \textit{s}. Additionally, light quarks are grouped together with identified \textit{g} or $\tau$ jets, which all having very similar mis-tagging rates.  
 
-The \nbreco distribution within each \theht - \njet category of the analysis can be constructed for each process in turn in an analytical way using the formula:
+The \nbreco distribution within each $\theht-\njet$ category of the analysis can be constructed for each process in turn in an analytical way using the formula:
 
 \begin{align}
 \label{eq:btagformula}
@@ -594,13 +734,13 @@ N(n) =& \sum_{n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{\text{jet}}^{cat}} \quad 
 & \probc \times \probl,
 \end{align}
 
-with N(n) representing the yield of $n$ b-tagged jet events of a simulated process as calculated by the formula method. 
+with N(n) representing the total number of events in which the b-tagger was fired $n$ times. 
 
-The variables \probb, \probc and \probl correspond to the binomial probabilities for the tagging of a jet flavour to occur, based on its measured tagging efficiency (\eff, \ceff, \textit{m}). These efficiencies are measured individually for each analysis category from simulation, using all simulated process events passing selection criteria. Thus the tagging efficiencies used within the above formula, represent the averaged tagging efficiency of each jet flavour within the phase space of the analysis category.
+The constraint $n_{b}^{tag}+n_{c}^{tag}+n_{q}^{tag} = n$ signifies the number of tagged jets of a particular jet flavour, of which the sum of the three terms must equal the number of $n$ tagged jets being calculated. Similarly $n_{b}^{gen}+n_{c}^{gen}+n_{q}^{gen} = n_{\text{jet}}^{cat}$ represents the requirement for the sum of the jet flavours in each event to fall within the \njet category being analysed, $n_{\text{jet}}^{cat}$.
 
-Finally, the constraints $n_{b/c/q}^{tag}$ signify the number of tagged jets of a particular jet flavour, of which the sum of the three terms must equal the number of $n$ tagged jets being calculated. Similarly each $n_{b/c/q}^{gen}$ term represents the identified jet flavour of each jet in the event, and is required by definition for the sum of the three terms to fall within the \njet category being analysed. 
+The variables \probb, \probc and \probl correspond to the binomial probabilities for the tagging of a jet flavour to occur, based on its measured tagging efficiency (\eff, \ceff, \textit{m}). These efficiencies are measured individually for each $\theht-\njet$ category from simulation, using all simulated process events passing selection criteria. Thus the tagging efficiencies used within the above formula, represent the averaged tagging efficiency of each jet flavour within the phase space of the analysis category.
 
-This approach ultimately results in a more precise \nbreco distribution prediction, due to the utilisation of all events in the simulation sample which pass selection in extracting the overall \nbreco distribution. 
+This approach ultimately results in a more precise \nbreco distribution prediction when compared to those determined directly from simulation. This is due to the complete utilisation of all the events in the simulation sample which pass selection to extract the overall \nbreco distribution. 
 
 \subsection{Establishing Proof of Principle}
 \label{subsec:formulamethodsanity}
@@ -613,25 +753,25 @@ This sanity check for the \mupjets control sample is presented in Table \ref{tab
 \begin{table}[ht!]
 \begin{center}
 \footnotesize
-\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ccccc}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lcccc}
 \hline
 $H_{\textrm{T}}$ Bin (GeV)         & 275--325                  & 325--375                  & 375--475                  & 475--575                 \\ 
 \hline\hline
 \\
 Formula $n_{b}$ = 0                 & 12632.66  $\pm$  195.48   & 6696.08  $\pm$  82.59     & 6368.96  $\pm$  75.34     & 2906.27  $\pm$  39.65    \\
-Vanilla $n_{b}$ = 0                 & 12612.95  $\pm$  198.68   & 6687.97  $\pm$  83.78     & 6359.27  $\pm$  76.50     & 2898.27  $\pm$  36.89    \\
+Simulation $n_{b}$ = 0                 & 12612.95  $\pm$  198.68   & 6687.97  $\pm$  83.78     & 6359.27  $\pm$  76.50     & 2898.27  $\pm$  36.89    \\
 \hline
 Formula $n_{b}$ = 1                 & 4068.09  $\pm$  45.71     & 2272.76  $\pm$  26.14     & 2181.32  $\pm$  25.07     & 1089.14  $\pm$  13.82    \\
-Vanilla $n_{b}$ = 1                 & 4067.73  $\pm$  60.30     & 2268.02  $\pm$  30.20     & 2180.69  $\pm$  28.73     & 1094.37  $\pm$  24.14    \\
+Simulation $n_{b}$ = 1                 & 4067.73  $\pm$  60.30     & 2268.02  $\pm$  30.20     & 2180.69  $\pm$  28.73     & 1094.37  $\pm$  24.14    \\
 \hline
 Formula $n_{b}$ = 2                  & 1963.71  $\pm$  22.44     & 1087.55  $\pm$  13.57     & 1055.57  $\pm$  13.25     & 554.96  $\pm$  7.95      \\
-Vanilla $n_{b}$ = 2                  & 1984.53  $\pm$  26.19     & 1094.43  $\pm$  16.67     & 1068.96  $\pm$  16.36     & 558.14  $\pm$  10.51     \\
+Simulation $n_{b}$ = 2                  & 1984.53  $\pm$  26.19     & 1094.43  $\pm$  16.67     & 1068.96  $\pm$  16.36     & 558.14  $\pm$  10.51     \\
 \hline
 Formula $n_{b}$ = 3                  & 146.94  $\pm$  2.07       & 79.97  $\pm$  1.37        & 78.05  $\pm$  1.35        & 49.84  $\pm$  1.03       \\
-Vanilla $n_{b}$ = 3                  & 149.52  $\pm$  4.84       & 85.98  $\pm$  3.64        & 74.45  $\pm$  3.29        & 49.54  $\pm$  2.68       \\
+Simulation $n_{b}$ = 3                  & 149.52  $\pm$  4.84       & 85.98  $\pm$  3.64        & 74.45  $\pm$  3.29        & 49.54  $\pm$  2.68       \\
 \hline
 Formula $n_{b}$ $\geq$ 4             & 2.26  $\pm$  0.12         & 1.29  $\pm$  0.10         & 5.32  $\pm$  0.20         & -     \\ 
-Vanilla $n_{b}$ $\geq$ 4             & 1.84  $\pm$  0.50         & 1.02  $\pm$  0.39         & 4.86  $\pm$  0.83       & -        \\ 
+Simulation $n_{b}$ $\geq$ 4             & 1.84  $\pm$  0.50         & 1.02  $\pm$  0.39         & 4.86  $\pm$  0.83       & -        \\ 
 
 \\
 \hline
@@ -639,22 +779,22 @@ $H_{\textrm{T}}$ Bin (GeV)         & 575--675                  & 675--775       
 \hline\hline
 \\
 Formula $n_{b}$ = 0                & 1315.68  $\pm$  19.49     & 640.49  $\pm$  11.90      & 327.81  $\pm$  7.91       & 424.27  $\pm$  9.27      \\
-Vanilla $n_{b}$ = 0                & 1315.23  $\pm$  20.20     & 641.96  $\pm$  12.48      & 329.09  $\pm$  8.36       & 424.02  $\pm$  9.73      \\
+Simulation $n_{b}$ = 0                & 1315.23  $\pm$  20.20     & 641.96  $\pm$  12.48      & 329.09  $\pm$  8.36       & 424.02  $\pm$  9.73      \\
 \hline
 Formula $n_{b}$ = 1                & 490.41  $\pm$  7.45       & 226.95  $\pm$  4.42       & 109.91  $\pm$  2.84       & 129.97  $\pm$  3.07      \\
-Vanilla $n_{b}$ = 1                & 490.52  $\pm$  9.92       & 222.22  $\pm$  6.21       & 107.46  $\pm$  4.15       & 129.64  $\pm$  4.64      \\
+Simulation $n_{b}$ = 1                & 490.52  $\pm$  9.92       & 222.22  $\pm$  6.21       & 107.46  $\pm$  4.15       & 129.64  $\pm$  4.64      \\
 \hline
 Formula $n_{b}$ = 2                & 256.75  $\pm$  4.58       & 113.45  $\pm$  2.70       & 52.10  $\pm$  1.69        & 59.29  $\pm$  1.78       \\
-Vanilla $n_{b}$ = 2                  & 253.43  $\pm$  6.52       & 117.17  $\pm$  4.27       & 52.70  $\pm$  2.80        & 59.45  $\pm$  3.00       \\
+Simulation $n_{b}$ = 2                  & 253.43  $\pm$  6.52       & 117.17  $\pm$  4.27       & 52.70  $\pm$  2.80        & 59.45  $\pm$  3.00       \\
 \hline
 Formula $n_{b}$ = 3                  & 25.66  $\pm$  0.69        & 12.48  $\pm$  0.46        & 5.52  $\pm$  0.31         & 6.83  $\pm$  0.33        \\
-Vanilla $n_{b}$ = 3                  & 29.18  $\pm$  2.06        & 11.77  $\pm$  1.26        & 6.18  $\pm$  0.95         & 7.53  $\pm$  1.05        \\ 
+Simulation $n_{b}$ = 3                  & 29.18  $\pm$  2.06        & 11.77  $\pm$  1.26        & 6.18  $\pm$  0.95         & 7.53  $\pm$  1.05        \\ 
 \end{tabular*}
 \end{center}
-\caption[Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation. ]{Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}), and that taken directly from simulation. The numbers are normalised to 11.4fb$^{-1}$. No simulation to data corrections are applied.}\label{tab:sanitycheck}
+\caption[Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}) ``Formula'', and that taken directly from simulation ``Simulation''.]{Comparing yields in simulation within the \mupjets selection determined from the formula method described in Equation (\ref{eq:btagformula}) ``Formula'', and that taken directly from simulation ``Simulation''. The numbers are normalised to 11.4fb$^{-1}$. No simulation to data corrections are applied.}\label{tab:sanitycheck}
 \end{table}
 
-It can be seen as expected, that there is good consistency between the results determined via the formula method and `raw' simulation yields. Similarly the power of this approach can be seen in the reduction of this statistical error in the prediction across all \theht and $n_{b}^{reco}$ categories. In particular the statistical uncertainty is reduced by several factors in the highest $n_{b}^{reco} \geq 4$ category.
+It can be seen as expected, that there is good consistency between the results determined via the formula method and direct simulation yields. Similarly the power of this approach can be seen in the reduction of this statistical error in the prediction across all \theht and $n_{b}^{reco}$ categories. In particular the statistical uncertainty is reduced by several factors in the highest $n_{b}^{reco} \geq 4$ category.
 
 \subsection{Correcting Measured Efficiencies in Simulation to Data}
 \label{subsec:formulamethodsf}
@@ -685,7 +825,7 @@ As detailed in Section (\ref{subsec:cmsobjects-btagging}), it is necessary for c
 
 Each of the correction factors for the b, c and light flavoured jets come with an associated systematic uncertainty. The uncertainties across different jet \pt and $\eta$ categories, are considered as fully correlated. When computing the magnitude of the effect of this systematic uncertainty on the \ac{TF}s of the analysis, the measured tagging efficiencies for each jet flavour are scaled up/down simultaneously within each \theht and \njet category by the systematic uncertainty of the $SF_{\text{b, c, light}}$ scale factors. 
 
-Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}s which influences the final background prediction from each of the control samples. The magnitude of the absolute change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background, is shown in Table \ref{tab:btagsfuncertainties}. 
+Varying the scale factor corrections by their systematic uncertainty will change the absolute yields within  each $n_{b}^{reco}$ bin of all selections. However, ultimately it is the change in the \ac{TF}s which influences the final background prediction from each of the control samples. The magnitude of the change in each \ac{TF}, constructed from when the \mupjets control sample is used to predict the entire hadronic signal region background, is shown in Table \ref{tab:btagsfuncertainties}. 
 
 \def\arraystretch{1.3}
 \begin{table}[ht!]
@@ -747,13 +887,13 @@ Each of the different modelling components and the relevant closure tests are de
 
 \item[] \textbf{\alphat modelling}
 
-The modelling of the \alphat distribution in genuine \met events is probed with the \mupjets control sample. This test is important to verify the approach of removing the \alphat $>$ 0.55 requirement from the \mupjets and \dimupjets samples to increase the precision of the background prediction. The test uses the \mupjets sample without an \alphat cut to make a prediction into the \mupjets sample defined with the requirement  \alphat $>$ 0.55.
+The modelling of the \alphat distribution in genuine \met events is probed with the \mupjets control sample. This test is important to verify the approach of removing the \alphat $>$ 0.55 requirement from the \mupjets and \dimupjets samples to increase the statistical precision of the background prediction. The test uses the \mupjets sample with an \alphat $<$ 0.55 cut to make a prediction into the \mupjets sample defined with the requirement  \alphat $>$ 0.55.
 
 \item[] \textbf{Background admixture}
 
 The sensitivity of the translation factors to the relative admixture of events from $W +$ jets and \ttbar processes is probed by two closure tests. 
 
-Within the \mupjets sample, a W boson enriched sub-sample ($n_{b} =$ 0) is used to predict yields in a \ttbar enriched sub-sample ($n_{b} =$ 1). Similarly, the \ttbar enriched sub-sample ($n_{b} =$1) is also used to predict yields for a further enriched \ttbar sub-sample ($n_{b} =$ 2), further probing the modelling of the \nbreco distribution. 
+Within the \mupjets sample, a W boson enriched sub-sample ($n_{b} =$ 0) is used to predict yields in a \ttbar enriched sub-sample ($n_{b} =$ 1), see Table \ref{tab:smyields}. Similarly, the \ttbar enriched sub-sample ($n_{b} =$1) is also used to predict yields for a further enriched \ttbar sub-sample ($n_{b} =$ 2), further probing the modelling of the \nbreco distribution. 
 
 Similarly a further closure test probes the relative contribution of $Z +$ jets to $W +$jets and \ttbar events, through the use of the \mupjets sample to predict yields for the \dimupjets control sample. This closure test, also at some level probes the muon trigger and reconstruction efficiencies, given that exactly one or two muons are required by the different selections.
  
@@ -770,7 +910,7 @@ The simulation modelling of the jet multiplicity within each control sample is i
 For the case of the \mupjets and \dimupjets control samples, this test also serves as a further probe of the admixture between $W +$ jets/$Z +$ jets and \ttbar. 
 \end{itemize}
 
-To test for the assumption that no \theht dependencies exist within the background predictions of the analysis, the first five closure tests defined above are used, with zeroeth and first order polynomial fits applied to each test individually. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
+To test for the assumption that no \theht dependencies exist within the background predictions of the analysis, the first five closure tests defined above are used, with zeroeth and first order polynomial fits applied to each test individually. These two tests represent a flat shape and a linear shape hypothesis respectively. This is summarised in Table \ref{tab:closuretestfitslow} and Table \ref{tab:closuretestfitshigh} which show the results for both the 2 $\leq n_{jet} \leq 3$ and $\geq 4$ jet multiplicity bins respectively.
 
  \begin{table}[h!]
  \footnotesize
@@ -895,7 +1035,7 @@ A series of correction factors are applied to account for differences between \t
 
 \subsection{Signal Efficiency}
 
-The analysis selection efficiency, \epsilon, is measured for each mass point of the interpreted model. This serves as a measure of the sensitivity of the signal selection for that particular sparticle, \ac{LSP} mass and final state topology. The signal yield is then given by
+The analysis selection efficiency, \epsilon, is measured for each point in the grid (defined in Section (\ref{subsec:sms}) of the interpreted model. This serves as a measure of the sensitivity of the signal selection for that particular parent sparticle, \ac{LSP} mass and final state topology. The signal yield at each point in the grid is given by 
 
 \begin{equation}
 Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \mathcal{L},
@@ -904,7 +1044,6 @@ Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \math
 where $\sigma$ represents the model's cross-section and $\mathcal{L}$ the luminosity. An upper limit on \sigma taken from theory can then allow for the setting of limits in terms of the particle mass. 
 
 Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the signal selection for the \texttt{T1} and \texttt{T2} \ac{SMS} models interpreted in this analysis. The efficiency maps are produced with the requirement $\theht >$ 275 \GeV (i.e. no \theht categorisation) and requirements on $n_{\text{jet}}$ and $n_{b}^{reco}$ are the most sensitive to the model in question.
-
 
 \begin{figure}[ht]
 \centering
@@ -921,6 +1060,7 @@ Figure \ref{fig:smsefficiencyplots} shows the expected signal efficiency of the 
 \label{fig:smsefficiencyplots}
 \end{figure}
 
+It can be seen that signal efficiency for both models increase when the mass difference between the gluino/squark parent and the \ac{LSP} is large. As the diagonal is approached, the signal efficiency drops due to a fall in the number of high \pt jets that result from the decay of a sparticle to an \ac{LSP}, leading to more low \theht, $\leq 1$ jet events.
 
 The same procedure is conducted in the analysis control samples. It is found in the \mupjets control samples, that the signal-to-background ratios for the expected signal yields in each of the \ac{SMS} models are many times smaller than in the hadronic signal region. The relative contamination for the \dimupjets sample is smaller still due to the requirement of a second muon. The relative contamination for the \gpjets sample is expected to be zero for the models under consideration. These small, relative levels of contamination are accounted for in the fitting procedure, as described in Section (\ref{subsec:signalcontribution}).
 
@@ -936,19 +1076,19 @@ The re-weighting procedure can be described by first considering a single jet wi
 
 Maps of the tagging efficiencies, parameterised as a function of jet \pt and \eta are produced from \texttt{FullSim} simulation samples for each of the b, c and light jet flavours. These efficiencies are calculated from simulation events which pass the hadronic signal selection. The \pt and \eta binning of each map is chosen to match the correction maps of \texttt{FullSim} to data defined in \cite{btagscalefactor}. 
 
-The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$, differs from that measured in \texttt{FullSim},  $\epsilon_{MC}(\pt,\eta,f)$, as detailed above and is related via an additional correction factor,
+The actual tagging efficiency of the \texttt{FastSim} jet, $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$, differs from that measured in \texttt{FullSim},  $\epsilon_{\texttt{Full}}(\pt,\eta,f)$, as detailed above and is related via an additional correction factor,
 
 \begin{equation}
-\epsilon_{\texttt{FastSim}}(\pt,\eta,f) =  \frac{\epsilon_{MC}(\pt,\eta,f)}{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)}.
+\epsilon_{\texttt{FastSim}}(\pt,\eta,f) =  \frac{\epsilon_{\texttt{Full}}(\pt,\eta,f)}{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)}.
 \end{equation}
 
-$SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections, that are specific for each \ac{SMS} model. These corrections are calculated from the ratio of tagging rates between a \texttt{FullSim} \ttbar sample, and a selection of mass points from each \texttt{FastSim} \ac{SMS} model, again measured individually for b, c and light-flavoured jets. 
+$SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f)$ represents a set of \pt and \eta dependant corrections, that are specific for each \ac{SMS} model and jet flavour $f$. These corrections are calculated from the ratio of tagging rates between a \texttt{FullSim} \ttbar sample, and a selection of mass points from each \texttt{FastSim} \ac{SMS} model, again measured individually for b, c and light-flavoured jets. 
 
 The tagging efficiencies measured in data \cite{btagscalefactor}, $\epsilon_{Data}(\pt,\eta,f)$,  can then be related to $\epsilon_{\texttt{FastSim}}(\pt,\eta,f)$ by the equation,
 
 \begin{align}
-\epsilon_{Data}(\pt,\eta,f) &=  \epsilon_{MC}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f) \nonumber \\
-&=  \epsilon_{\texttt{FastSim}}(\pt,\eta,f) \times \underbrace{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f) \times SF_{MC\rightarrow Data}(\pt,\eta,f)}_\text{SF$_{\texttt{Fast}} \rightarrow Data$}.
+\epsilon_{Data}(\pt,\eta,f) &=  \epsilon_{\texttt{Full}}(\pt,\eta,f) \times SF_{\texttt{Full}\rightarrow Data}(\pt,\eta,f) \nonumber \\
+&=  \epsilon_{\texttt{FastSim}}(\pt,\eta,f) \times \underbrace{SF_{\texttt{Fast}\rightarrow\texttt{Full}}(\pt,\eta,f) \times SF_{\texttt{Full}\rightarrow Data}(\pt,\eta,f)}_\text{SF$_{\texttt{Fast}} \rightarrow Data$}.
 \end{align}
 
 For each jet, the weight of the event is re-weighted according to whether the jet fires the tagger. In the instance that the jet \emph{is} tagged, the event weight will be modified by,
@@ -956,7 +1096,7 @@ For each jet, the weight of the event is re-weighted according to whether the je
 \begin{equation}
 \text{weight} = SF_{\texttt{Fast} \rightarrow Data} \times \text{weight},
 \end{equation} 
-and in the case that the jet does \emph{not} fire the tagger,
+and in the case that the jet does \emph{not} fire the tagger the event weight is modified by,
 
 \begin{equation}
 \text{weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
@@ -1038,11 +1178,11 @@ Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-ta
 \section{Statistical Interpretation}
 \label{sec:statframework}
 
-For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking whether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models. The statistical framework outlined within this section is presented in greater detail within \cite{Laird:2012mla}.
+For a given category of events satisfying requirements on both $n_{jet}$ and $n_{b}^{reco}$, a likelihood model of the observations in multiple data samples is used to gauge agreement between the observed yields in the hadronic signal region, and the predicted yields obtained from the control samples. In addition to checking whether the predictions are compatible with a \ac{SM} only hypothesis, the likelihood model is also used to test for the presence of a variety of signal models. The statistical framework outlined within this section is described in greater detail within \cite{Laird:2012mla}.
 
 \subsection{Hadronic Sample}
 
-Let $N$ be the number of bins in \theht, with $n^{i}$ the number of events observed satisfying all selection requirements in each \theht bin i. The likelihood of the observations can then be written:
+Let $N$ be the number of bins in \theht, with $n^{i}$ the number of events observed satisfying all selection requirements in each \theht bin $i$. The likelihood of the observations can then be written as
 
 \begin{equation}
 L_{had} =   \prod_{i}\text{Pois}(n^{i}\rvert b^{i} + s^{i}),
@@ -1058,13 +1198,15 @@ b^{i} = EWK_{i} + QCD_{i},
 and $s^{i}$ the expected number of signal events (see Section(\ref{subsec:signalcontribution})) from the different \ac{SMS} models interpreted. Pois refers to the Poisson distribution of these values and is defined as:
 
 \begin{equation}
-\text{Pois}(\chi\rvert\lambda) = \frac{\lambda^{\chi}\exp^{-\lambda}}{k!}.
+\text{Pois}(\chi\rvert\lambda) = \frac{\lambda^{\chi}\exp^{-\lambda}}{\chi!},
 \end{equation}
+ 
+where $\lambda$ represents the mean expectation of observed events and $\chi$ the actual observed value.
  
 \subsection{\theht Evolution Model}
 \label{subsec:htevolution}
 
-The hypothesis, that for a process the \alphat ratio falls exponentially (see Section (\ref{subsec:qcdbackground})) in \theht is defined by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
+The hypothesis, that for a process the \alphat ratio falls exponentially (see Section (\ref{subsec:qcdbackground})) in \theht is stated by Equation (\ref{eq:qcdmodel}), where $k_{QCD}$ is constrained by measurements in a signal sideband region. 
 
 The expected QCD background, $QCD^{i}$, within a bin $i$ is then modelled as,
 
@@ -1072,7 +1214,7 @@ The expected QCD background, $QCD^{i}$, within a bin $i$ is then modelled as,
 QCD^{i} = m^{i}A_{QCD}e^{-k_{QCD}\meanht},
 \end{equation}
 
-where $m_{i}$ represent the number of events observed with \alphat $\leq$ 0.55 in each \theht bin $i$, and \meanht represent the mean \theht of each bin. Expressed as functions of just the zeroth bin, $QCD^{0}$, and $k_{QCD}$, the QCD expectation is given by
+where $m_{i}$ represent the number of events observed with \alphat $\leq$ 0.55 in each \theht bin $i$, and \meanht represent the mean \theht of each bin. Expressed as functions of just the lowest \theht bin 275$\leq$\theht$\leq$325, $QCD^{0}$, and $k_{QCD}$, the QCD expectation is given by
 
 \begin{equation}
 QCD^{i} = QCD^{0}(\frac{m^{i}}{m^{0}})e^{-k_{QCD}(\meanht^{i}-\meanht^{0}}.
@@ -1081,7 +1223,7 @@ QCD^{i} = QCD^{0}(\frac{m^{i}}{m^{0}})e^{-k_{QCD}(\meanht^{i}-\meanht^{0}}.
 \subsection{\ac{EWK} Control Samples}
 \label{subsec:ewkmodel}
 
-The \ac{EWK} background estimation within each bin, $i$, is broken into two components, the expected yield from \zinv and \ttbar-W (plus other residual backgrounds) events. This is written as, $Z^{i}_{inv}$ and $\ttbar W^{i}$, and it follows that 
+The \ac{EWK} background estimation in the signal region within each bin, $i$, is broken into two components, the expected yield from \zinv and \ttbar-W (plus other residual backgrounds, DY, DiBoson at the $\sim$\% level) events. This is written as, $Z^{i}_{inv}$ and $\ttbar W^{i}$, and it follows that 
 
 \begin{equation}
 EWK^{i} = Z^{i}_{inv} + \ttbar W^{i}.
@@ -1104,7 +1246,7 @@ f^{i}_{Zinv} = f^{0}_{Zinv} + \frac{\meanht^{i}-\meanht^{0}}{\meanht^{N-1}-\mean
 
 where N again represents the number of \theht bins, and $f^{0}_{Zinv}$ and $f^{N-1}_{Zinv}$ are float parameters whose final values are limited between zero and one. 
 
-Within each \theht bin there are three background measurements for the different control samples, $n^{i}_{\gamma}$, $n^{i}_{\mu}$ and $n^{i}_{\mu\mu}$, representing the event yields from the \gpjets, \mupjets and \dimupjets control samples respectively. Each of these have a corresponding yield in simulation, $MC^{i}_{\gamma}$, $MC^{i}_{\mu}$ and $MC^{i}_{\mu\mu}$.  Within the hadronic signal region there are also corresponding simulated yields for \zinv ($MC^{i}_{Zinv}$) and \ttbar + W ($MC^{i}_{\ttbar+W}$), which are used to define
+Within each \theht bin there are three background measurements for the different control samples, $n^{i}_{\gamma}$, $n^{i}_{\mu}$ and $n^{i}_{\mu\mu}$, representing the event yields from the \gpjets, \mupjets and \dimupjets control samples respectively. Each of these have a corresponding total yield in simulation from all \ac{SM} processes given as, $MC^{i}_{\gamma}$, $MC^{i}_{\mu}$ and $MC^{i}_{\mu\mu}$.  Within the hadronic signal region there are also corresponding simulated yields for \zinv ($MC^{i}_{Zinv}$) and \ttbar + W ($MC^{i}_{\ttbar+W}$), which are used to define
 
 \begin{equation}
 r^{i}_{\gamma} = \frac{MC^{i}_{\gamma}}{MC^{i}_{Zinv}}; \qquad r^{i}_{\mu\mu} = \frac{MC^{i}_{\mu\mu}}{MC^{i}_{Zinv}}; \qquad r^{i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{\ttbar + W}} 
@@ -1119,23 +1261,27 @@ L_{\mu\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu\mu} | \rho^{j}_{\mu\mu Z} . r^{i
 L_{\mu} &= \prod_{i} \text{Pois} (n^{i}_{\mu} | \rho^{j}_{\mu Y} . r^{i}_{\mu} . Y^{i} + s^{i}_{\mu}), \\
 \end{align}
 
-which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the data driven systematic uncertainties derived from the control samples in Section (\ref{eq:closuretests}). 
+which contain an additional term $s^{i}_{\mu}$, which represents the signal contamination in the \mupjets sample. The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent ``correction factors'' that accommodate the data driven systematic uncertainties derived from the control samples in Section (\ref{eq:closuretests}). These correction factors account for the systematic uncertainty on the determination of the \ac{TF}'s which are used to extrapolate a background estimation.
 
-Each of these equations are used to estimate the maximum likelihood value for relevant background in the signal region given the observations $n^{i}_{p}$ in each of the control samples (see Section (\ref{subsec:controlsampledefinition})).
+Each of these equations are used to estimate the maximum likelihood value for relevant background in the signal region given the observations $n^{i}$ in each of the control samples (see Section (\ref{subsec:controlsampledefinition})).
 
 The measurements in each of the control samples and the hadronic signal region, along with the ratios $r^{i}_{\gamma}$, $r^{i}_{\mu\mu}$, and $r^{i}_{\mu}$, are all considered simultaneously through the relationships defined by Equations (\ref{eq:totbacksum}),(\ref{eq:zinvcontribution}) and (\ref{eq:ttwcontribution}).
 
-In addition to the Poisson product, an additional log-normal term is introduced to accommodate the systematic uncertainties given by,
+In addition to the Poisson product, an additional log-normal term \cite{logndistribution} defined as
+
+\begin{equation}
+\text{Logn}(x\ |\ \xspace \mu, \sigma_{rel}) = \frac{1}{x\sqrt{2\pi}\text{ln k}}\exp\left(\frac{\text{ln}^{2}(\frac{x}{\mu})}{2\text{ln}^{2}\text{k}}\right); \quad k = 1 + \sigma_{rel},
+\end{equation}
+
+is introduced to accommodate the systematic uncertainties given in the likelihood by,
 
 \begin{equation}
 L_{EWK\ syst} = \prod_{j} \text{Logn}(1.0|\rho^{j}_{\mu W},\sigma^{j}_{\mu W} ) \times \text{Logn}(1.0|\rho^{j}_{\mu\mu Z},\sigma^{j}_{\mu\mu Z} ) \times \text{Logn}(1.0|\rho^{j}_{\gamma Z},\sigma^{j}_{\gamma Z} ).
 \end{equation}
 
-The parameters $\rho^{j}$, $\rho^{j}$ and $\rho^{j}$ represent the already introduced ``correction factors'' that accommodate the systematic uncertainties, while the quantities $\sigma^{j}_{\gamma Z}$, $\sigma^{j}_{\mu\mu Z}$ and $\sigma^{j}_{\mu W}$ represent the relative systematic uncertainties for the respective control sample constraints. Logn represents the log-normal distribution \cite{logndistribution},
+A log-normal term is used as the values of $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ determined from the distribution can never be negative, which itself would be an unphysical correction value to apply to the $r^{i}$ terms of the three control channels. 
 
-\begin{equation}
-\text{Logn}(x\ |\ \xspace \mu, \sigma_{rel}) = \frac{1}{x\sqrt{2\pi}\text{ln k}}\exp\left(\frac{\text{ln}^{2}(\frac{x}{\mu})}{2\text{ln}^{2}\text{k}}\right); \quad k = 1 + \sigma_{rel}.
-\end{equation}
+The parameters $\rho^{j}_{\gamma Z}$, $\rho^{j}_{\mu\mu}$ and $\rho^{j}_{\mu}$ represent the already introduced ``correction factors'' that accommodate the systematic uncertainties, while the quantities $\sigma^{j}_{\gamma Z}$, $\sigma^{j}_{\mu\mu Z}$ and $\sigma^{j}_{\mu W}$ represent the relative systematic uncertainties for the respective control sample, which is determined to reside between 10\% and 40\% from Section (\ref{subsec:determinesystematics}). To further clarify these statements, for given systematic uncertainty of 10\%, the $\rho$ correction factor will be determined from a central value of 1.0 with a 1$\sigma$ variance between 0.9-1.1. 
 
 Five parameters per control sample are used to span the eight \theht categories, with just one used for the three \theht in the $n_{b}^{reco} \geq 4$ category. These parameters span the same \theht ranges described in Section (\ref{subsec:sysuncertainties}) and is shown in Table \ref{tab:systtable}.
 
@@ -1178,7 +1324,11 @@ r^{'i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{\ttbar + W}+MC^{i}_{Zinv}}.
 \subsection{Contributions from Signal}
 \label{subsec:signalcontribution}
 
-The cross-section for each model is represented by $x$, while $l$ represents the total recorded luminosity considered by the analysis in the signal region. Let $\epsilon^{i}_{had}$ and $\epsilon^{i}_{\mu}$ represent the analysis selection efficiency for that particular signal model in \theht bin $i$ of the hadronic and \mupjets control sample respectively. Letting $\delta$ represent the relative uncertainty on the signal yield, assumed to be fully correlated across all bins, and $\rho_{sig}$ the ``correction factor'' to the signal yield which accommodates this uncertainty. $f$ represents an unknown multiplicative factor on the signal cross section, for which an allowed interval is computed.
+The cross-section for each model is represented by $x$, while $l$ represents the total recorded luminosity considered by the analysis in the signal region. Let $\epsilon^{i}_{had}$ and $\epsilon^{i}_{\mu}$ represent the analysis selection efficiency for that particular signal model in \theht bin $i$ of the hadronic and \mupjets control sample respectively. 
+
+Letting $\delta$ represent the relative uncertainty on the signal yield, assumed to be fully correlated across all bins, and $\rho_{sig}$ the ``correction factor'' to the signal yield which accommodates this uncertainty. This approach ensures that the shape of the signal distribution is fixed across the whole \theht range, with only the relative normalisation of the signal yield allowed to float via $\rho_{sig}$. 
+
+A multiplicative factor, $f$, represents the fraction of theoretical signal cross section that the expected signal yield is being calculated (i.e. a $f$ value of 1 would indicate the signal yield at a nominal theoretical cross section).
 
 The expected signal yield $s^{i}$ is thus given by
 
@@ -1197,8 +1347,6 @@ The systematic uncertainty on the signal is additionally incorporated by the ter
 \begin{equation}
 L_{\text{sig}} = \text{Logn}(1.0|\rho_{sig},\delta).
 \end{equation}
-
-A discussion of the \ac{SMS} signal models through which the analysis is interpreted can be found in the following chapter. 
 
 \subsection{Total Likelihood}
 \label{subsec:totallikelihood}
