@@ -250,12 +250,63 @@ M_{W} = \frac{1}{2}gv \qquad M_{Z} = \frac{1}{2}\frac{gv}{\cos\theta_{w}}.
 
 This mechanism is also used to generate fermion masses by introducing a Yukawa coupling between the fermions and the $\phi$ field \cite{Yukawa01011955}, with the coupling strength of a particle to the $\phi$ field governing its mass. Additionally, a scalar boson h with mass $m_{h}=v\sqrt{\frac{\lambda}{2}}$, is also predicted as a result of this spontaneous symmetry breaking. This became known as the Higgs boson. Its discovery by the \ac{CMS} and \ac{ATLAS} experiments in 2012 is the first direct evidence to support this method of mass generation within the \ac{SM}.
 
+\subsection{The CKM Matrix}
+
+\label{subsec:ckmmatrix}
+
+Yukawa couplings between the Higgs field and fermions introduce mass terms for the fermions. With three generations of quarks within the \ac{SM}, the Yukawa couplings induce 3$\times$3 mass matrices with off-diagonal matrix elements to the quark mass terms. The consequence is a mixing of quark generations or ``flavour mixing''. This mixing matrix in known as the CKM matrix \cite{PhysRevLett.10.531}\cite{Kobayashi:1973fv}, which is named after after Nicola Cabibbo, Makoto Kobayashi and Toshihide Maskawa.
+
+The CKM matrix is a 3$\times$3 unitary matrix and is completely specified by three mixing angles and a complex phase. Its connects the weak eigenstates of down-type quarks (d$^{'}$, s$^{'}$, b$^{'}$) and their corresponding mass eigenstates (d, s, b) through,
+
+ \begin{equation}
+ \begin{pmatrix}
+ b^{'} \\
+ s^{'} \\
+ d^{'} 
+ \end{pmatrix}
+ =
+\begin{pmatrix}
+ V_{\text{ud}} & V_{\text{us}}   & V_{\text{ub}} \\
+ V_{\text{cd}}  & V_{\text{cs}}  & V_{\text{cb}}  \\
+ V_{\text{td}}  & V_{\text{ts}}  &  V_{\text{tb}} 
+ \end{pmatrix}
+ \begin{pmatrix}
+ b \\
+ s \\
+ d 
+ \end{pmatrix}
+ =
+ V_{\text{CKM}}
+  \begin{pmatrix}
+ b \\
+ s \\
+ d 
+ \end{pmatrix}
+\end{equation}
+
+where the various $\lvert V_{\text{ij}}\rvert^{2}$ represent the probability that the quark of $j$ flavour decays into a quark of $i$ flavour via the weak interaction. 
+
+The CKM matrix thus allows for transition between mass eigenstates for up and down type quarks in electroweak couplings between quarks and the W$^{\pm}$ bosons. Conversely, due to the unitary property of the matrix, it does not affect the coupling between quarks and the \Zboson boson thus accounting for the suppression of such decays in the SM at tree-level.
+
 \subsection{The Top Quark}
 
 \label{subsec:topquark}
 
-blah blah
+The existence of the top quark was first predicted by the discovery of the bottom quark in 1977 \cite{Harari1975265}. However due to the large mass of the top quark, it was not experimentally confirmed until 1995 by the D$0$ \cite{D0exp} and the \ac{CDF} \cite{cdfexp} experiments at the Tevatron collider \cite{tevatron}, making it the most recently discovered quark.
 
+The production of top quarks at particle colliders is mainly dominated by the pair production of top quarks (\ttbar). Due to its very large mass of 173.5 \GeV \cite{pdg2012}, it has a very short lifetime of the order of $5\times10^{-25}$s \cite{tquark_lifetime}. This lifetime is about 20 times smaller than the typical time scale for strong interactions. Therefore the top quark decays weakly before it is able to form hadrons. 
+
+The main decay mechanism of top quarks is via the process
+
+\begin{equation}
+t \rightarrow W^{+}b \qquad \text{and} \qquad \bar{t}\rightarrow W^{-}\bar{b},
+\end{equation}
+
+for which the branching ratio is close to 1. Therefore the decay to $t \rightarrow W^{}s$ and $t \rightarrow W^{}d$ is heavily suppressed. The CKM matrix element $\lvert V_{\text{tb}}\rvert$, quantifying the probability of a top quark to decay to a W boson and a b quark was measured to be 0.91$\pm$0.13 and 1.07$\pm$0.12  by the \ac{CDF} and the D$0$ experiments respectively \cite{Group:2009qk}. 
+
+A \ttbar event would thus mainly decay into two W bosons and two b quarks. The W bosons in turn can decay hadronically into a quark anti-quark pair, $W \rightarrow q\bar{q}$, with a branching ratio of $\sim \frac{2}{3}$ or leptonically into a lepton and a neutrino, $W \rightarrow l\nu$, with a branching ratio of $\sim\frac{1}{3}$.
+
+Due to its very high mass and well defined properties, the top quark plays an important role in the consistency tests of the \ac{SM} and as a calibration tool within particle detectors. Within the context of this thesis the top quark, via the technique of b-tagging (see Section (\ref{subsec:cmsobjects-btagging})) is used to aid in the identification of possible signatures of Natural \ac{SUSY} models, which is introduced in the following sections. Such a signature can be identified through an excess of events containing many top quarks in it's final state. 
 
 \section{Motivation for Physics beyond the Standard Model}
 
@@ -309,7 +360,6 @@ Each particle in a supersymmetric theory is paired together with their superpart
 One of the simplest forms of \ac{SUSY}, is to simply have a set of \ac{SM} supersymmetric partners with the same mass and interactions as their counterparts. However, the current lack of any experimental evidence for that predicted sparticle spectrum implies \ac{SUSY} must be a broken symmetry in which any sparticle masses must be greater than their \ac{SM} counterparts.
 
 There exists many techniques which can induce supersymmetric breaking \cite{Intriligator:2007zz}\cite{Shadmi:2006jv}\cite{Burgess:2006mn}. Of particular interest to experimental physicists are those at which the breaking scale is of an order that is experimentally accessible to the \ac{lhc} i.e. $\sim$ \TeV scale. Whilst there is no requirement for supersymmetric breaking to occur at this energy scale, for supersymmetry to provide a solution to the hierarchy problem, it is necessary for this scale to not differ too drastically from the \ac{EWK} scale \cite{Murayama:2007sy}\cite{baer2006weak}.
-
  
 \subsection{R-Parity}
 
@@ -331,6 +381,27 @@ R-parity ensures the stability of the proton in \ac{SUSY} models, and also has o
 
 A \ac{LSP} will not interact in a detector at a particle collider, leaving behind a missing energy, $\met$, signature. The assumption of R-parity and its consequences are used to determine the physical motivation and search strategies for \ac{SUSY} at the \ac{lhc}. 
 
+
+ \subsection{Natural SUSY}
+
+\label{subsec:natsusy}
+
+One of the main arguments for Supersymmetry at the \ac{EWK} scale is motivated by solving the hierarchy problem and natural electroweak symmetry breaking is one of the leading explanations for why we might expect to discover superpartners at the \ac{lhc}  \cite{Hisano:2000wy}\cite{Papucci:2011wy}. As introduced in the previous section, the introduction of superpartners can lead to the cancellation of divergent terms to the Higgs mass negating the need for the fine-tuning of parameters. 
+
+The largest contribution to the quadratic divergence in the Higgs mass parameter comes from a loop of top quarks via the Yukawa coupling. Cancellation of these divergences can be achieved in supersymmetric theories by requiring a light right-handed top squark (stop), $\widetilde{t}_{R}$, and left-handed double $SU(2)_{L}$ doublet containing top and bottom squarks, $(\frac{\widetilde{t}}{\widetilde{b}})_{L}$ \cite{Allanach:2012vj}. 
+
+This bottom-up approach allows for very heavy first and second generation squarks beyond the reach of the \ac{lhc}, whilst still providing a solution to the hierarchy problem where these quadratic corrections are cancelled out by the light stops as shown in Figure \ref{fig:stopcancellation}.
+
+\begin{figure}[ht]
+\footnotesize
+\centering
+\includegraphics[width = 0.65\linewidth]{plots/stopcancellation}
+\caption[Higgs mass corrections due to the \ac{SM} top quark (left) are cancelled out by a light supersymmetric stop particle (right).]{Higgs mass corrections due to the \ac{SM} top quark (left) are cancelled out by a light supersymmetric stop particle (right).}
+\label{fig:stopcancellation}
+\end{figure}
+
+This presents an attractive option .... as still not experimentally detected, easy to detect... change the higgs in the figure to a $\phi$
+
 \section{Experimental Signatures of SUSY at the LHC}
 \label{sec:susysearches}
 
@@ -344,7 +415,7 @@ Should strongly interacting sparticles be within the experimental reach of the \
 
 Whilst most \ac{SUSY} searches invoke the requirement of R-parity to explore parameter phase space, there still exist a whole plethora of possible \ac{SUSY} model topologies, which could yet be discovered at the \ac{lhc}. 
 
-During the 2011 run period at $\com = 7$ \TeV, particular models were used to benchmark performance and experimental reach of both \ac{CMS} searches and previous experiments. The \acf{CMSSM} was initially chosen for a number of reasons \cite{Kane:1993td}. One of the most compelling being the reduction of the up to 105 new parameters that can be introduced by \ac{SUSY} (in addition to the existing 19 of the \ac{SM}), to just 5 extra free parameters. It was this simplicity, combined with the theory not requiring any fine tuning of particle masses to produce experimentally verified \ac{SM} observables, that made it an attractive model to interpret physics results. 
+During the 2011 run period at $\com = 7$ \TeV, particular models were used to benchmark performance and experimental reach of both \ac{CMS} searches and previous experiments. The \acf{CMSSM} was initially chosen for a number of reasons \cite{Kane:1993td}. One of the most compelling being the reduction of the up to 105 new parameters that can be introduced by \ac{SUSY} (in addition to the existing 19 of the \ac{SM}), to just 5 extra free parameters. It was this simplicity, combined with the theory not requiring any fine-tuning of particle masses to produce experimentally verified \ac{SM} observables, that made it an attractive model to interpret physics results. 
 
 However, recent results from the \ac{lhc} now strongly disfavour large swathes of \ac{CMSSM} parameter space \cite{Strege:2011pk}\cite{Citron:2012fg}\cite{Ghosh:2012dh}. In the face of such results a more pragmatic model independent search strategy is now applied across most \ac{SUSY} searches at the \ac{lhc}, see Section (\ref{subsec:sms}). 
 
@@ -352,18 +423,39 @@ As previously stated, a stable \ac{LSP} that exhibits the properties of a dark m
 
 The \ac{SM} contains processes which can exhibit a similar event topology to that described above, with the largest contribution coming from the general QCD multi-jet environment of a hadron collider. A multitude of different analytical techniques are used by experimental physicists to reduce or estimate any reducible or irreducible backgrounds, allowing a possible \ac{SUSY} signature to be extracted. The techniques employed within this thesis are described in great detail within Section (\ref{sec:alphatintroduction}).
 
-\subsection{Natural SUSY}
-
-\label{subsec:natsusy}
-
-Discuss natural susy here....
 
 \subsection{Simplified Models}
 
 \label{subsec:sms}
 
 
-Define grid...
+With such a variety of different ways for a \ac{SUSY} signal to manifest itself, it is necessary to be able to interpret experimental reach through the masses of gluinos and squarks which can be excluded by experimental searches, rather than on a model specific basis. 
+
+This is accomplished through \ac{SMS} models, which are defined by a set of hypothetical particles and a sequence of their production and decay modes \cite{Alves:2011wf}\cite{Alwall:2008ag}. In the \ac{SMS} models considered within this thesis, only the production process for the two primary particles are considered. Each primary particle can undergo a direct or a cascade decay through an intermediate new particle. At the end of each decay chain there remains a neutral, undetected \ac{LSP} particle, denoted $\widetilde{\chi}_{LSP}$ which can represent a neutralino or gravitino. Essentially it is easier to consider each \ac{SMS} with branching ratios set to $100\%$. The masses of the primary particle and the \ac{LSP} remain as free parameters, in which the absolute value and relative difference between the primary and \ac{LSP} particle alter the kinematics of the event.
+
+Each \ac{SMS} model is defined in a two-dimensional plane of these two free parameters, the mass of the parent squark/gluino pair and the \ac{LSP}. It would be extremely computationally intensive to simulate the decays of every single parent-\ac{LSP} mass point for use in the interpretation of the physics reach of an analysis. Therefore, mass points within this two-dimensional plane are generated in simulation with a granularity of 25 \GeV. This value is chosen as trade off between allowing for limited computing resources to generate sufficient coverage of the \ac{SMS} parameter space whilst maintaing sufficient sensitivity to any changes in the final state kinematics across the \ac{SMS} plane.
+
+A example of such a plane in which the results of this thesis are interpreted is shown in Figure \ref{fig:smsexampleplane}. The results for each \ac{SMS} model are then presented on these planes as upper limits on production cross sections, as a function of model mass parameters.
+
+\begin{figure}[ht]
+\footnotesize
+\centering
+\includegraphics[width = 0.65\linewidth]{plots/sms_exmple}
+\caption[An example of the two-dimensional plane through which \ac{SMS} results are interpreted within this thesis. ]{An example of the two-dimensional plane through which \ac{SMS} results are interpreted within this thesis. Each pixel represents a parent gluino/squark and \ac{LSP} mass point which are separated in 25 \GeV steps. The colour within this plot represents the observed acceptance of these simulated signal events to pass the event selection of a given analysis. A higher acceptance indicates a higher sensitivity to the final state signature of that \ac{SMS} mass point.}
+\label{fig:smsexampleplane}
+\end{figure}
+
+Different \ac{SMS} models are denoted with a T-prefix, with a summary of the types interpreted within this thesis listed below \cite{Chatrchyan:2013sza}.
+
+\begin{itemize}
+\item \textbf{T1,T1xxxx}, models represent a simplified version of gluino pair production, with each gluino (superpartner to the gluon) undergoing a three-body decay to a quark-antiquark pair and the \ac{LSP} (i.e. $\widetilde{g} \rightarrow q\bar{q}\widetilde{\chi}_{LSP}$). The resultant final state from this decay is typically 4 jets + $\met$ in the absence of initial/final state radiation and detector effects. xxxx denotes models in which the final state quarks are of a specific flavour, typically t or b quark-antiquarks. 
+\item \textbf{T2,T2xx}, models represent a simplified version of squark anti-squark production with each squark undergoing a two-body decay into a light-flavour quark and \ac{LSP} (i.e. $\widetilde{q} \rightarrow q\widetilde{\chi}_{LSP}$). This results in final states with less jets than gluino mediated production, typically 2 jets + $\met$ when again ignoring the effect of initial/final state radiation and detector effects. xx models represent decays in which both the quark and the squark within the final state is of a specific flavour, which in this thesis are again $\widetilde{t}$/t or $\widetilde{b}$/b.  
+
+\end{itemize}
+
+Models rich in b and t quarks are interpreted within this thesis as they remain of particular interest within ``Natural \ac{SUSY}'' scenarios. These theories therefore solve the hierarchy problem by predicting light $\sim$\ac{EWK} scale third generation sleptons, accessible at the \ac{lhc}. Search strategies involving the requirement of b-tagging (see Section (\ref{subsec:cmsobjects-btagging})) are used to give sensitivity to these type of \ac{SUSY} scenarios and are discussed in greater detail within Chapter \ref{chap:SUSYsearches}.
+ 
+The \ac{SMS} model decay chains interpreted within this thesis are shown in Figure \ref{fig:susydecayexamples}. These five simplified models represent either the pair production of gluinos (prefixed by \texttt{T1}) and the pair production of squarks (prefixed by \texttt{T2}) which subsequently decay into \ac{SM} particles and \ac{LSP}s.
 
 \begin{figure}[ht]
 \footnotesize
@@ -393,40 +485,9 @@ Define grid...
 \includegraphics[width = 1.0\linewidth]{plots/t1bbbbsusydecay.pdf}
 \centering \caption*{(e) $\widetilde{g}\widetilde{g}^{*} \rightarrow b\bar{b}\widetilde{\chi}^{0}_{1}b\bar{b}\widetilde{\chi}^{0}_{1}$ (\texttt{T1bbbb})} \label{fig:t1bbbb}
 \end{minipage}
-\caption[Production and decay modes for the various \ac{SMS} models interpreted within the analysis.]{Production and decay modes for the various \ac{SMS} models interpreted within the analysis.}
-\label{fig:smsprocesses}
-\end{figure}
-
-
-With such a variety of different ways for a \ac{SUSY} signal to manifest itself, it is necessary to be able to interpret experimental reach through the masses of gluinos and squarks which can be excluded by experimental searches, rather than on a model specific basis. 
-
-This is accomplished through \ac{SMS} models, which are defined by a set of hypothetical particles and a sequence of their production and decay modes \cite{Alves:2011wf}\cite{Alwall:2008ag}. In the \ac{SMS} models considered within this thesis, only the production process for the two primary particles are considered. Each primary particle can undergo a direct or a cascade decay through an intermediate new particle. At the end of each decay chain there remains a neutral, undetected \ac{LSP} particle, denoted $\widetilde{\chi}_{LSP}$ which can represent a neutralino or gravitino. Essentially it is easier to consider each \ac{SMS} with branching ratios set to $100\%$. The masses of the primary particle and the \ac{LSP} remain as free parameters, in which the absolute value and relative difference between the primary and \ac{LSP} particle alter the kinematics of the event.
-
-Different \ac{SMS} models are denoted with a T-prefix, with a summary of the types interpreted within this thesis listed below \cite{Chatrchyan:2013sza}.
-
-\begin{itemize}
-\item \textbf{T1,T1xxxx}, models represent a simplified version of gluino pair production, with each gluino (superpartner to the gluon) undergoing a three-body decay to a quark-antiquark pair and the \ac{LSP} (i.e. $\widetilde{g} \rightarrow q\bar{q}\widetilde{\chi}_{LSP}$). The resultant final state from this decay is typically 4 jets + $\met$ in the absence of initial/final state radiation and detector effects. xxxx denotes models in which the final state quarks are of a specific flavour, typically t or b quark-antiquarks. 
-\item \textbf{T2,T2xx}, models represent a simplified version of squark anti-squark production with each squark undergoing a two-body decay into a light-flavour quark and \ac{LSP} (i.e. $\widetilde{q} \rightarrow q\widetilde{\chi}_{LSP}$). This results in final states with less jets than gluino mediated production, typically 2 jets + $\met$ when again ignoring the effect of initial/final state radiation and detector effects. xx models represent decays in which both the quark and the squark within the final state is of a specific flavour, which in this thesis are again $\widetilde{t}$/t or $\widetilde{b}$/b.  
-
-\end{itemize}
-
-Models rich in b and t quarks are interpreted within this thesis as they remain of particular interest within ``Natural \ac{SUSY}'' scenarios \cite{Hisano:2000wy}\cite{Papucci:2011wy}. The largest contribution to the quadratic divergence in the Higgs mass parameter comes from a loop of top quarks via the Yukawa coupling. Cancellation of these divergences can be achieved in supersymmetric theories by requiring a light right-handed top squark, $\widetilde{t}_{R}$, and left-handed double $SU(2)_{L}$ doublet containing top and bottom squarks, $(\frac{\widetilde{t}}{\widetilde{b}})_{L}$ \cite{Allanach:2012vj}. 
-
-These theories therefore solve the hierarchy problem by predicting light $\sim$\ac{EWK} scale third generation sleptons, accessible at the \ac{lhc}. Search strategies involving the requirement of b-tagging (see Section (\ref{subsec:cmsobjects-btagging})) are used to give sensitivity to these type of \ac{SUSY} scenarios and are discussed in greater detail within Chapter \ref{chap:SUSYsearches}.
- 
-Two example decay chains are shown in Figure \ref{fig:susydecayexamples}; the pair production of gluinos (\texttt{T1}) and the pair production of squarks (\texttt{T2}) decaying into \ac{SM} particles and \ac{LSP}s.
-
-\begin{figure}[ht]
-\centering
-\begin{minipage}[b]{0.45 \linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t1susydecay.pdf}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width = 1.0\linewidth]{plots/t2susydecay.pdf}
-\end{minipage}
-\caption[Two example simplified model decay chains.]{Two example \ac{SMS} model decays (\texttt{T1} (left),\texttt{T2} (right)), which are used in interpretations of physics reach by \ac{CMS}. }
+\caption[Production and decay modes for the various \ac{SMS} models interpreted within this thesis.]{Production and decay modes for the various \ac{SMS} models interpreted within this thesis.}
 \label{fig:susydecayexamples}
 \end{figure}
+
 
 

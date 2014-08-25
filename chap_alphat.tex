@@ -296,7 +296,7 @@ is calculated where that jet is itself removed from the event. Here $\Delta\phi^
 \subsection{Hadronic Signal Region Distributions}
 \label{subsec:sigdist}
 
-A complete list of the selection criteria within the signal region is given in Table \ref{tab:cutflow}. 
+A complete summary of the selection criteria within the signal region described int he previous pages is given in Table \ref{tab:cutflow}. 
 
 \begin{table}[h!]
 \footnotesize
@@ -325,24 +325,55 @@ Dead \ac{ECAL} & $\Delta\phi_{j}^{*} < 0.5$  \\
 \label{tab:cutflow}
 \end{table}
 
-The breakdown of yields..... is shown in Table \ref{tab:smyields}
+The breakdown of the relative contribution from \ac{EWK} processes which comprise the total \ac{SM} background within the hadronic signal region vary as a function of \theht, \nbreco and \njet category. Vector boson $+$ jet backgrounds dominate at low \njet and \nbreco categories whilst \ttbar $+$ jet is the dominant background in the high \njet and \nbreco categories. The relative contribution from \zinv $+$ jet processes increase steadily as a function of \theht. 
+
+The relative \ac{SM} background determined from simulation in the hadronic signal region is shown for two extremes of background composition(\njet = , \nbreco = 0)  and (\njet = \nbreco = 2) in Table \ref{tab:smyieldslow} and Table \ref{tab:smsyieldshigh} to help give the reader a picture of the background contribution in different analysis categories. 
 
 \begin{table}[h!]
 \footnotesize
 \begin{center}
-\begin{tabular*}{0.65\textwidth}{@{\extracolsep{\fill}}ll}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ccccccc}
 \hline
-Selection Criteria & \\
+ & \multicolumn{6}{c}{\ac{EWK} process} \\
+ \theht (\GeV) & \zinv & W $+$ jets &\ttbar &DY &Single $t$ & WW,ZZ,WZ \\
 \hline \hline
-Event Noise Filters &  \\
-\nbreco binning &  \\
+275 -- 325 &0.48  &0.44 & 0.04& 0.01& 0.01 & 0.02\\
+325 -- 375 & 0.51 &0.42 & 0.04& 0.00 & 0.01& 0.02\\
+375 -- 475 & 0.53 &0.41 & 0.04& 0.00 & 0.00 & 0.02\\
+475 -- 575 & 0.54 &0.41 & 0.03& 0.00 & 0.00 & 0.02\\
+575 -- 675 & 0.57 & 0.40& 0.02& 0.00& 0.00& 0.01\\
+675 -- 775 &  0.61& 0.35 &0.02 & 0.00& 0.00& 0.02\\
+775 -- 875 & 0.58 &0.39 & 0.00& 0.00 & 0.00 & 0.03\\
+$\geq$ 875  & 0.66 & 0.31& 0.01 & 0.00 & 0.00 & 0.02\\
+
 \end{tabular*}
 \end{center}
-\caption[Analysis selection criteria for the hadronic signal region of the \alphat analysis.]{Analysis cutflow for the hadronic signal region of the \alphat analysis.}
-\label{tab:smyields}
+\caption[Relative \ac{SM} background composition measured in simulation within the eight \theht categories of the Hadronic signal selection, requiring \nbreco = 0 and 2 $\leq$ \njet $\leq$ 3.]{Relative \ac{SM} background composition measured in simulation within the eight \theht categories of the Hadronic signal selection, requiring \nbreco = 0 and 2 $\leq$ \njet $\leq$ 3. The dominate processes within this \theht and \njet category are \zinv and W $+$ jets.}
+\label{tab:smyieldslow}
 \end{table}
 
+\begin{table}[h!]
+\footnotesize
+\begin{center}
+\begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}ccccccc}
+\hline
+ & \multicolumn{6}{c}{\ac{EWK} process} \\
+ \theht (\GeV) & \zinv & W $+$ jets &\ttbar &DY &Single $t$ & WW,ZZ,WZ \\
+\hline \hline
+275 -- 325 & 0.04  & 0.05 & 0.86& 0.00& 0.05& 0.00\\
+325 -- 375 & 0.04 &0.02 & 0.86& 0.00 & 0.07 & 0.01 \\
+375 -- 475 & 0.04 &0.04 & 0.83& 0.00&0.08& 0.01\\
+475 -- 575 & 0.05 & 0.04 & 0.87&0.00&0.03& 0.01\\
+575 -- 675 & 0.05 &0.04 & 0.83 &0.00&0.07& 0.00\\
+675 -- 775 & 0.09 &0.05 & 0.77 & 0.00&0.09& 0.00\\
+775 -- 875 & 0.14 & 0.17 & 0.63& 0.00& 0.06& 0.02\\
+$\geq$ 875  &  0.08 & 0.09 & 0.63& 0.00& 0.16& 0.01\\
 
+\end{tabular*}
+\end{center}
+\caption[Relative \ac{SM} background composition measured in simulation within the eight \theht categories of the Hadronic signal selection, requiring \nbreco = 2 and \njet $\geq$ 4.]{Relative \ac{SM} background composition measured in simulation within the eight \theht categories of the Hadronic signal selection, requiring \nbreco = 2 and \njet $\geq$ 4. The dominate processes within this \theht and \njet category is from \ttbar.}
+\label{tab:smyieldshigh}
+\end{table}
 
 Some of the key distributions of the analysis are compared to simulated \ac{SM} processes, shown in Figure \ref{fig:hadmcplots}. The simulated samples are normalised to a luminosity of 11.7 \fb,  with no requirement placed upon the number of b-tagged jets or number of jets in the distributions shown. In the case of this inclusive \nbreco and \njet selection, the dominant backgrounds in the signal regions are, \zinv and W + jet processes, with a smaller \ttbar background accompanied by other residual backgrounds. 
 
@@ -554,7 +585,7 @@ $\text{(c}$) \alphat
 \end{minipage}
 \captionof{figure}[Data/MC comparisons of key variables for the \mupjets selection.]{Data/MC comparisons of key variables for the \mupjets selection,following the application of selection criteria and the requirements that \theht $>$ 275 \GeV (i.e. no \theht categorisation). Bands represent the uncertainties due to the statistical size of the MC samples. No requirement is made upon the number of b-tagged jets or jet multiplicity in these distributions.}\label{fig:muonmcplots}
 \end{figure}
-
+\FloatBarrier
 \item[] \textbf{The \dimupjets control sample}
 
 An irreducible \zinv + jets background enters into the signal region from genuine \met from the escaping neutrinos. This background is estimated using two control samples, the first of which is the \zmumu + jets process, which posses identical kinematic properties, but with a different acceptance and branching ratio \cite{pdg2012}.
@@ -609,7 +640,7 @@ Muon from \zmumu decay & $ \lvert \textrm{M}_{\mu\mu} -\textrm{m}_{\textrm{Z}}\r
 \caption[Additional analysis selection criteria for the \dimupjets control sample of the \alphat analysis.]{Additional analysis selection criteria for the \dimupjets control sample of the \alphat analysis. These are included in addition to the selection applied from Table \ref{tab:cutflow} with the exceptions already mentioned in the text.}
 \label{tab:dimuonselection}
 \end{table}
-
+\FloatBarrier
 \item[] \textbf{The \gpjets control sample}
 
 The \zinv + jets background is also estimated from a \gpjets control sample. When the $E_{T}$ of the photon is greater than the mass of the Z, it possesses a larger cross-section and has kinematic properties similar to those of \zinv events if the photon is ignored \cite{PhysRevD.84.114002}. 
@@ -1035,7 +1066,7 @@ A series of correction factors are applied to account for differences between \t
 
 \subsection{Signal Efficiency}
 
-The analysis selection efficiency, \epsilon, is measured for each point in the grid (defined in Section (\ref{subsec:sms}) of the interpreted model. This serves as a measure of the sensitivity of the signal selection for that particular parent sparticle, \ac{LSP} mass and final state topology. The signal yield at each point in the grid is given by 
+The analysis selection efficiency, \epsilon, is measured for each point in the grid (defined in Section (\ref{subsec:sms})) of each interpreted model. This serves as a measure of the sensitivity of the signal selection for that particular parent sparticle, \ac{LSP} mass and final state topology. The signal yield at each point in the grid is given by 
 
 \begin{equation}
 Y(m_{\widetilde{q}/\widetilde{g}},m_{LSP}) = \epsilon \times \sigma \times \mathcal{L},
@@ -1094,12 +1125,12 @@ The tagging efficiencies measured in data \cite{btagscalefactor}, $\epsilon_{Dat
 For each jet, the weight of the event is re-weighted according to whether the jet fires the tagger. In the instance that the jet \emph{is} tagged, the event weight will be modified by,
 
 \begin{equation}
-\text{weight} = SF_{\texttt{Fast} \rightarrow Data} \times \text{weight},
+\text{new weight} = SF_{\texttt{Fast} \rightarrow Data} \times \text{weight},
 \end{equation} 
 and in the case that the jet does \emph{not} fire the tagger the event weight is modified by,
 
 \begin{equation}
-\text{weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
+\text{new weight} = \frac{1-\epsilon_{Data}(\pt,\eta,f)}{1- \epsilon_{\texttt{FastSim}}(\pt,\eta,f)}\times \text{weight}.
 \end{equation}
 
 This procedure is applied to all events that pass the selection criteria, thus correcting the \texttt{FastSim} \nbreco distribution to data. 
@@ -1110,7 +1141,7 @@ The systematic uncertainty on the expected signal acceptance $\times$ analysis e
 
 Rather than trying to estimate the level of systematic that is applicable point-by-point in a model space, general behaviours are considered; and instead constant systematics are estimated in two regions of the \ac{SMS} models parameter space. 
 
-These two regions are defined as, near (small mass splittings) and far (large mass splittings) from the mass degenerate diagonal, where the far region is bounded by the condition
+These two regions are defined to separate final states which contain large \met and high \pt jets from those with smaller \met, jet \pt and \njet topologies where systematic effects between the two are likely to differ in magnitude. They are known as the near (small mass splittings) and far (large mass splittings) regions, where the far region is bounded by the condition
 
 \begin{equation}
 m_{\widetilde{q}/\widetilde{g}} - m_{LSP} > 350 \GeV \quad && m_{\widetilde{q}/\widetilde{g}} > 475 \GeV. \nonumber
@@ -1120,24 +1151,24 @@ The total systematics in each region are evaluated in the following ways:
 
 \begin{itemize}
 \item[]\textbf{Jet energy scale:} 
-The relative change in the signal efficiency is gauged by varying the energy of all jets in an event up or down according to a \pt and \eta dependent jet energy scale uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency.
+The relative change in the signal efficiency is gauged by varying the energy of all jets in an event up or down according to the \pt and \eta dependent jet energy scale uncertainty which is calculated centrally by \ac{CMS}. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency.
 \item[]\textbf{Luminosity measurement:} 
-The uncertainty on the measurement of the luminosity collected propagates through to an uncertainty on the signal event yield when considering any new physics model, which is currently 4.4\% \cite{CMS-PAS-LUM-12-001}.
+The uncertainty on the measurement of the luminosity collected propagates through to an uncertainty on the signal event yield when considering any new physics model. The value used is currently 4.4\% \cite{CMS-PAS-LUM-12-001}.
 \item[]\textbf{Parton density function} :
-Each signal sample is produced using the CTEQ6L1 parton density function. The effect on the signal acceptance when re-weighting to the central value of three different parton distribution functions, CT10, MSTW08 and NNPDF2.1 are examined \cite{Botje:2011sn}. It is found that the change of the signal efficiency in different \ac{SMS} models, due to the alternate PDF sets are typically a few percent, and approaches 10\% at higher squark/gluon and \ac{LSP} masses.
+Each signal sample is produced using the CTEQ6L1 parton density function \ac{Pumplin:2002vw}. The effect on the signal acceptance when re-weighting to the central value of three different parton distribution functions, CT10 \cite{Guzzi:2011sv}, MSTW08 \cite{Martin:2009iq} and NNPDF2.1 \cite{Cerutti:2011au} are examined \cite{Botje:2011sn}. It is found that the change of the signal efficiency in different \ac{SMS} models, due to the alternate \acf{PDF} sets are typically a few percent, and approaches 10\% at higher squark/gluon and \ac{LSP} masses.
 \item[]\textbf{\mht/\met cleaning filter:} 
-The ratio of the efficiencies of the cleaning filter are compared in simulation and data after application of the \mupjets control sample selection. No \alphat requirement or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity categories, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
+The ratio of the selection efficiency in simulation and data of the \mupjets control sample selection is used to determine the systematic uncertainty of \mht/\met filter. This systematic accommodates any potential mis-modelling in simulation of this filter. No \alphat requirement or further event cleaning filters are applied. The ratio of the efficiencies observed in data and simulation for a cut value of \mht/\met $<$ 1.25 and the two jet multiplicity categories, $2 \leq n_{\text{jet}} \leq 3$ and $n_{\text{jet}} \geq 4$ are 1.028 $\pm$ 0.007 and 1.038 $\pm$ 0.015 respectively. These deviations are taken to represent the systematic uncertainty on the simulation modelling of this variable.
 \item[]\textbf{Dead ECAL cleaning filter:} 
-The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity categories, $2 \leq \njet \leq 3$ and $\njet \geq 4$, are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
+The ratio of the efficiencies observed in data and simulation for this filter in the two jet multiplicity categories, $2 \leq \njet \leq 3$ and $\njet \geq 4$ of the  \mupjets control sample are 0.961 $\pm$ 0.008 and 0.961 $\pm$ 0.009, respectively. These deviations from unity are taken to represent the systematic uncertainties in the modelling in simulation of this filter.
 \item[]\textbf{Lepton and photon vetoes:} 
-The uncertainty on the efficiency of the lepton and photon vetoes is determined by considering truth information. The efficiency of the vetoes is measured after applying relevant object filters with identical logic, but based on truth instead of reconstructed objects. Where the efficiency is found to not be 100\%, it is taken to represent the fraction of signal events that are incorrectly vetoed. This deviation is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state, where the uncertainties are at the order of 1\% level.
+The uncertainty on the efficiency of the lepton and photon vetoes is determined by considering truth information from each \ac{SMS} model. The efficiency of the vetoes is measured after applying relevant object filters with identical logic, but based on truth instead of reconstructed objects. Where the efficiency is found to not be 100\%, it is taken to represent the fraction of signal events that are incorrectly vetoed. This deviation from 100\% is taken directly as the systematic uncertainty on the efficiency. The systematic uncertainty is only non-zero for models which contain third-generation quarks in the final state, where the uncertainties are at the order of 1\% level.
 \item[]\textbf{B-tag scale factor uncertainties:} 
-The relative change in the signal efficiency is observed when relevant flavour, \pt and \eta dependant b-tag correction factors, are varied up or down by their systematic uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency, over all mass points.
+The relative change in the signal efficiency of each \ac{SMS} model is observed when relevant flavour, \pt and \eta dependant b-tag correction factors, are varied up or down by their systematic uncertainty. Within the two systematic regions, the resulting systematic uncertainties for each \ac{SMS} model are determined by taking the value of the 68$^{\text{th}}$ percentile for the distributions of the relative change in the signal efficiency, over all mass points.
 \end{itemize}
 
 Tables \ref{tab:signalsystnear} and \ref{tab:signalsystfar} summarise all the aforementioned systematic uncertainties on the signal efficiencies for each individual \ac{SMS} model interpreted in the analysis. In the case of the \texttt{T1tttt} model, in which pair produced gluinos decay to \ttbar pairs and the \ac{LSP}, the near region of \ac{SMS} space is not considered, and so no systematic uncertainties are included.
 
-In both of the defined regions it is found that the systematic uncertainties are relatively flat justifying the approach taken. The systematic uncertainties applied to the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal the determined uncertainties are in the range of 12-23\%. These uncertainties are all propagated through to the limit calculation.
+In both of the defined regions it is found that the systematic uncertainties are relatively similar justifying the approach taken. The systematic uncertainties applied to the region near to the diagonal fall in the range 13-15\%; similarly, for the region far from the diagonal the determined uncertainties are in the range of 12-23\%. These uncertainties are all propagated through to the limit calculation.
 
  \begin{table}[h!]
  \footnotesize
@@ -1153,9 +1184,8 @@ Model &  Luminosity & p.d.f & JES & \mht/\met & Dead ECAL & Lepton Vetoes & b-ta
 \texttt{T1bbbb} & 4.4 & 10.0 & 7.3 & 3.8 & 4.1 & 0.5 & 2.7 & 14.5 \\
 \end{tabular*}
 \end{center}
-\caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal (i.e. small mass splitting and compressed spectra). The uncertainties are added in quadrature to obtain the total.}\label{tab:signalsystnear}
+\caption[Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal]{Estimates of systematic uncertainties on the signal efficiency (\%) for various \ac{SMS} models when considering points in the region near to the diagonal (i.e. small mass splitting and compressed spectra). The uncertainties are added in quadrature to obtain the total. The \texttt{T1tttt} model is not considered within the near region.}\label{tab:signalsystnear}
 \end{table}
-
 
 \begin{table}[h!]
  \footnotesize
@@ -1293,6 +1323,7 @@ Five parameters per control sample are used to span the eight \theht categories,
 \theht bin (i) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
 \cline{1-9}
 syst. parameter (j) & 0 & 1 & 2 & 2 & 3 & 3 & 4 & 4 \\
+syst. size (\%) & 10 & 10 & 10 & 20 & 20 & 20 & 20 & 20 \\
 \cline{1-9}
 \end{tabular}
 }
@@ -1303,10 +1334,11 @@ syst. parameter (j) & 0 & 1 & 2 & 2 & 3 & 3 & 4 & 4 \\
 \theht bin (i) & 0 & 1 & 2  \\
 \cline{1-4}
 syst. parameter (j) & 0 & 0 & 0 \\
+syst. size (\%) & 10 & 10 &10 \\
 \cline{1-4}
 \end{tabular}
 }
-\caption[The systematic parameters used in \theht bins.]{The systematic parameters used in \theht bins. Left: categories with eight bins; right: category with three bins.}\label{tab:systtable}
+\caption[The systematic parameters and their size used in each of the defined \theht bins.]{The systematic parameters and their size used in each of the defined \theht bins. Systematic parameters correspond to those determined from the data driven closure tests summarised in Table \ref{tab:sysuncert}. Left: categories with eight bins; right: category with three bins.}\label{tab:systtable}
 \end{table}
 
 Alternatively, in the higher $n_{b}^{reco}$ categories ($n_{b}^{reco} = 2$ and above), only the single muon sample is used to constrain the total \ac{EWK} background. This is due to a lack of statistics in the \dimupjets and \gpjets at these \nbreco multiplicities. Therefore the likelihood functions for the control samples are reduced and simply represented by
