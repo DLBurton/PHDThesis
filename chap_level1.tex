@@ -12,7 +12,7 @@ Jets that result from pile-up typically have a diffuse spread of energy across t
 
 The effect of this change on the performance of the \L1 trigger is benchmarked in Section (\ref{subsec:l1jetseedpu}). The two run periods that are used in this chapter to compare trigger performance before and after the introduction of a central jet seed threshold are known as Run 2012B and Run 2012C respectively. They reflect the period prior and after the extended shutdown period of the \ac{lhc} when this change was implemented. 
 
- Additionally the \L1 \ac{GCT} performance is also measured as a function of different pile-up conditions which occurred during the run period in Section (\ref{subsec:l1jetpu}).
+ Additionally the \L1 \ac{GCT} performance is also measured as a function of different pile-up (first introduced in Section (\ref{sec:thelhc})) conditions which occurred during the Run 2012C period in Section (\ref{subsec:l1jetpu}).
 
 \section{The Level-1 Trigger}
 
@@ -56,7 +56,7 @@ A jet candidate is identified if the sum of the transverse \ac{ECAL} and \ac{HCA
 
 During the 2012 run period, a minimum threshold of 5 \GeV was imposed on the central seeding region to suppress noise from non-collimated pile-up jets. This threshold is applied on the raw energy values deposited in the central calorimeter region and affects all clustered \L1 jets. The effect of such a change to the jet algorithm on the triggering performance of L1 quantities is shown in Section (\ref{subsec:l1jetseedpu}).
 
-To form the jet candidates the \ac{GCT} utilises a pre-clustering algorithm, which employs 18 jet-finders that operate in parallel over the whole detector. Each jet-finder spans an area of 11 calorimeter regions in $\eta$ (half the detector) and two in $\phi$ (40$\degree$).  
+To form the jet candidates, the \ac{GCT} utilises a pre-clustering algorithm which employs 18 jet-finders operating in parallel over the whole detector. Each jet-finder spans an area of 11 calorimeter regions in $\eta$ (half the detector) and two in $\phi$ (40$\degree$).  
 
 A depiction of how the clustering algorithm creates \L1 jets is shown in Figure \ref{fig:l1_stage}. Jets are initially created in $2\times 3$ mini-clusters within each jet finder in order to reduce the total amount of data duplicated and shared between the jet-finders (stage 1). Information is only shared with the two $\phi$ strips of the neighbouring jet-finders when these mini-clusters jets are found. If two mini-clusters in neighbouring strips are found adjacent to each other, the larger mini-cluster is kept (stage 2). A clustered $3 \times 3$ \L1 jet object is then formed from combining the $2\times 3$ mini-cluster with the $1\times 3$ window of trigger towers of the neighbouring strip (stage 3). \L1 jets are then sorted and passed onto the \ac{GT} for trigger decisions (stage 4).  
 
@@ -78,7 +78,7 @@ A depiction of how the clustering algorithm creates \L1 jets is shown in Figure 
 \includegraphics[width = 1.0\linewidth]{plots/l1_stage4.pdf}
 \end{minipage}
 \quad
-\caption[The four stages of the jet clustering method.]{The four stages of the jet clustering method. Each numerical value represents an energy sum deposited within the trigger tower. Only 6 cells in $\eta$ are shown, but there exist 11 cells per half detector. 18 $\phi$ strips operate in parallel across the detector top perform jet clustering \cite{Iles:1028171}.}
+\caption[The four stages of the jet clustering method.]{The four stages of the jet clustering method. Each numerical value represents an energy sum deposited within the trigger tower. Only 6 cells in $\eta$ are shown, but there exist 11 cells per half detector. 18 $\phi$ strips operate in parallel across the detector to perform jet clustering \cite{Iles:1028171}.}
 \label{fig:l1_stage} 
 \end{figure}
 
