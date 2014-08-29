@@ -203,9 +203,9 @@ The variables $\epsilon^{data}_{b,c,s}$ and $\epsilon^{MC}_{b,c,s}$ correspond t
 
 These are collectively named `B-tag Scale Factors' and allow MC simulation to accurately reflect the running conditions and performance of the tagging algorithm in data. A good understanding of the tagging efficiency for each of the jet flavours is essential in order to minimise systematic uncertainties in physics analyses that employ b-tagging. \\
  
-The b-tagging efficiency is measured in data using several methods applied to multi-jet events, primarily based on a sample of jets enriched in heavy flavour content. One method requires the collection of events with a poorly isolated muon within a cone $\Delta R < 0.4$ around the jet axis. Due to the semi-leptonic branching fraction of b hadrons being significantly larger than that for other hadrons, these jets are more likely to arise from b quarks than from another flavour. The resultant momentum component of the muon, transverse to the jet axis, is larger in b-hadron decays than from light or charm flavoured jets.  
+The b-tagging efficiency is measured in data using several methods applied to multi-jet events, primarily based on a sample of jets enriched in heavy flavour content. One method requires the collection of events with a poorly isolated muon within a cone $\Delta R < 0.4$ around the jet axis. Due to the semi-leptonic branching fraction of b hadrons being significantly larger than that for other hadrons, these jets are more likely to arise from b-quarks than from another flavour. The resultant momentum component of the muon, transverse to the jet axis, is larger in b-hadron decays than from light or charm flavoured jets.  
 
-Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b quark content of these events. The methods to identify b-jets in data are discussed in greater detail at \cite{btag7tev}. The jet flavours within simulation are determined using truth level information which is spatial matched to reconstructed jets, and is then compared to measurements in data to determine an appropriate set of $\pt$- and $\lvert\eta\rvert$- dependent scale factors ($SF_{b,c,s}$). The scale factor corrections from simulation to data for b-quark jets determined for the \ac{CSVM} tagger are displayed in Figure \ref{fig:btagscalefactors}. 
+Additionally, the performance of the tagger can also be benchmarked in \ttbar events, where the top quark is expected to decay to a W boson and a b-quark about 99.8$\%$ of the time \cite{pdg2012}. Further selection criteria is applied to these events to further enrich the b-quark content of these events. The methods to identify b-jets in data are discussed in greater detail at \cite{btag7tev}. The jet flavours within simulation are determined using truth level information which is spatial matched to reconstructed jets, and is then compared to measurements in data to determine an appropriate set of $\pt$- and $\lvert\eta\rvert$- dependent scale factors ($SF_{b,c,s}$). The scale factor corrections from simulation to data for b-quark jets determined for the \ac{CSVM} tagger are displayed in Figure \ref{fig:btagscalefactors}. 
 
 \begin{figure}[ht]
 \centering
@@ -263,7 +263,7 @@ N$^{90}_{hits} \geq$ 2 & Jets that have $>$ 90\% of its energy from a single cha
 \label{tab:calojetid}
 \end{table}
 
-\PF jets are used in the measuring the performance of the \L1 trigger, which is described in Chapter \ref{subsec:l1trigger}. These jets are identified wight he following criteria:
+\PF jets are used in the measuring the performance of the \L1 trigger, which is described in Chapter \ref{subsec:l1trigger}. These jets are identified with the following criteria:
   
 \begin{table}[H]
 \footnotesize
@@ -406,7 +406,7 @@ Variable & Definition \\
  CSC tight beam halo filter  & As proton beams circle the \ac{lhc}, proton interactions with the residual gas particles or the beam collimators can occur, producing showers of secondary particles which can interact with the \ac{CMS} detector. \\
  HBHE noise filter with isolated noise rejection & Anomalous noise in the \ac{HCAL} not due to electronics noise. The source of the anomalous noise in the \ac{HCAL} barrel (HB) and endcap (HE) subdetectors has two main sources, the hybrid photodiodes (HPDs) used to convert the scintillator light into an electrical output and the readout boxes (RBXs) which contain them. \\
  HCAL laser filter & The \ac{HCAL} uses laser pulses for monitoring the detector response. Some laser pulses have accidentally been fired in the physics orbit, and ended up polluting events recorded for physics analysis. \\
- ECAL dead cell trigger primitive (TP) filter & \ac{EB} and \ac{EE} have single noisy crystals which are masked in reconstruction. Use the \acf{TP} information to assess how much energy was lost in masked cells. \\
+ ECAL dead cell trigger primitive (TP) filter & \ac{EB} and \ac{EE} have single noisy crystals which are masked in reconstruction. The \acf{TP} information is used to assess how much energy was lost in masked cells. \\
  Bad EE Supercrystal filter & Two supercrystals in \ac{EE} are found to occasionally produce high amplitude anomalous pulses in several channels at once, causing a large \met spike. \\
  ECAL Laser correction filter & A laser calibration multiplicative factor is applied to correct for transparency loss in each crystal during irradiation. A small number of crystals receive unphysically large values of this correction and become very energetic, resulting in \met. \\
 \cline{1-2}
